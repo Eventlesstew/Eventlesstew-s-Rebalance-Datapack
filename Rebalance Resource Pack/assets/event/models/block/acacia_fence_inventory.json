@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/fence_inventory",
+  "textures": {
+    "bar": "minecraft:block/stripped_acacia_log",
+    "side": "minecraft:block/stripped_acacia_log",
+    "top": "minecraft:block/stripped_acacia_log_top"
+  }
+}

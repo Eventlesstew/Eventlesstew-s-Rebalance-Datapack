@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "event:item/auto_crossbow"
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "event:item/auto_crossbow_loaded"
+    },
+    "property": "minecraft:using_item"
+  }
+}

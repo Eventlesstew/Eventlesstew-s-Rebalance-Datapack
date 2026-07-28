@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "fence_gate",
+  "key": {
+    "W": "#warped_stems"
+  },
+  "pattern": [
+    "WW"
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:warped_fence_gate"
+  }
+}

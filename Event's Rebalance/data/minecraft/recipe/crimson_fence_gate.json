@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "fence_gate",
+  "key": {
+    "W": "#crimson_stems"
+  },
+  "pattern": [
+    "WW"
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:crimson_fence_gate"
+  }
+}

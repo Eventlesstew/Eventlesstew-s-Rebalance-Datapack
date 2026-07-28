@@ -1,0 +1,190 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components":{
+                                "jukebox_playable": "13",
+                                "item_model": "music_disc_13",
+                                "item_name": {"translate": "item.minecraft.music_disc_13"}
+                                
+                            }
+                        }
+                    ],
+                    "name": "minecraft:music_disc_13"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components":{
+                                "jukebox_playable": "cat",
+                                "item_model": "music_disc_cat",
+                                "item_name": {"translate": "item.minecraft.music_disc_cat"}
+                                
+                            }
+                        }
+                    ],
+                    "name": "minecraft:music_disc_13"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components":{
+                                "jukebox_playable": "blocks",
+                                "item_model": "music_disc_blocks",
+                                "item_name": {"translate": "item.minecraft.music_disc_blocks"}
+                                
+                            }
+                        }
+                    ],
+                    "name": "minecraft:music_disc_13"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components":{
+                                "jukebox_playable": "chirp",
+                                "item_model": "music_disc_chirp",
+                                "item_name": {"translate": "item.minecraft.music_disc_chirp"}
+                                
+                            }
+                        }
+                    ],
+                    "name": "minecraft:music_disc_13"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components":{
+                                "jukebox_playable": "far",
+                                "item_model": "music_disc_far",
+                                "item_name": {"translate": "item.minecraft.music_disc_far"}
+                                
+                            }
+                        }
+                    ],
+                    "name": "minecraft:music_disc_13"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components":{
+                                "jukebox_playable": "mall",
+                                "item_model": "music_disc_mall",
+                                "item_name": {"translate": "item.minecraft.music_disc_mall"}
+                                
+                            }
+                        }
+                    ],
+                    "name": "minecraft:music_disc_13"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components":{
+                                "jukebox_playable": "mellohi",
+                                "item_model": "music_disc_mellohi",
+                                "item_name": {"translate": "item.minecraft.music_disc_mellohi"}
+                                
+                            }
+                        }
+                    ],
+                    "name": "minecraft:music_disc_13"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components":{
+                                "jukebox_playable": "stal",
+                                "item_model": "music_disc_stal",
+                                "item_name": {"translate": "item.minecraft.music_disc_stal"}
+                                
+                            }
+                        }
+                    ],
+                    "name": "minecraft:music_disc_13"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components":{
+                                "jukebox_playable": "strad",
+                                "item_model": "music_disc_strad",
+                                "item_name": {"translate": "item.minecraft.music_disc_strad"}
+                                
+                            }
+                        }
+                    ],
+                    "name": "minecraft:music_disc_13"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components":{
+                                "jukebox_playable": "ward",
+                                "item_model": "music_disc_ward",
+                                "item_name": {"translate": "item.minecraft.music_disc_ward"}
+                                
+                            }
+                        }
+                    ],
+                    "name": "minecraft:music_disc_13"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components":{
+                                "jukebox_playable": "11",
+                                "item_model": "music_disc_11",
+                                "item_name": {"translate": "item.minecraft.music_disc_11"}
+                                
+                            }
+                        }
+                    ],
+                    "name": "minecraft:music_disc_13"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components":{
+                                "jukebox_playable": "wait",
+                                "item_model": "music_disc_wait",
+                                "item_name": {"translate": "item.minecraft.music_disc_wait"}
+                                
+                            }
+                        }
+                    ],
+                    "name": "minecraft:music_disc_13"
+                }
+            ]
+        }
+    ]
+}

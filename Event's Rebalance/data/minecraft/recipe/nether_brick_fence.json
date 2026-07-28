@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": "minecraft:nether_brick"
+  },
+  "pattern": [
+    "W",
+    "W"
+  ],
+  "result": {
+    "count": 2,
+    "id": "minecraft:nether_brick_fence"
+  }
+}

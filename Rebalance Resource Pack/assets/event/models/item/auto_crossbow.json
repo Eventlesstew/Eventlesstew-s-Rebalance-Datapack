@@ -1,0 +1,7 @@
+{
+  "parent": "item/crossbow",
+  
+  "textures": {
+    "layer0": "event:item/auto_crossbow"
+  }
+}

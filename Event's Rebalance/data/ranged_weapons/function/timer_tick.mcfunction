@@ -1,0 +1,1 @@
+scoreboard players remove @s timer 1

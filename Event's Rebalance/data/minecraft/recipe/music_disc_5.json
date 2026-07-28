@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:disc_fragment_5",
+    "minecraft:disc_fragment_5",
+    "minecraft:disc_fragment_5",
+    "minecraft:disc_fragment_5",
+    "minecraft:disc_fragment_5",
+    "minecraft:disc_fragment_5",
+    "minecraft:disc_fragment_5",
+    "minecraft:disc_fragment_5",
+    "minecraft:disc_fragment_5"
+  ],
+  "result": {
+    "id": "minecraft:music_disc_13",
+    "components": {
+        "item_model": "music_disc_5",
+        "jukebox_playable": "5",
+        "item_name": {"translate": "item.minecraft.music_disc_5"}
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "bar": "minecraft:block/chiseled_nether_bricks",
+    "side": "minecraft:block/nether_bricks",
+    "top": "minecraft:block/nether_bricks"
+  }
+}

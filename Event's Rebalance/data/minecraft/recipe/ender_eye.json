@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:ender_pearl",
+    "minecraft:music_disc_relic"
+  ],
+  "result": {
+    "id": "minecraft:ender_eye"
+  }
+}

@@ -1,0 +1,1 @@
+execute at @s run playsound block.dispenser.fail player @s ~ ~ ~ 1 1.2 1

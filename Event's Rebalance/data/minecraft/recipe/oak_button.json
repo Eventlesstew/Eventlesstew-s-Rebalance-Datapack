@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "wooden_button",
+  "key": {
+    "#":"oak_planks",
+    "R":"redstone"
+  },
+  "pattern": [
+    "#",
+    "R"
+  ],
+  "result": {
+    "id": "minecraft:oak_button"
+  }
+}

@@ -1,0 +1,34 @@
+{
+    "type":"crafting_shaped",
+    "category":"equipment",
+    "key": {
+        "A":"repeater",
+        "B":"iron_ingot",
+        "D":"tripwire_hook",
+        "E":"string"
+    },
+    "pattern": [
+        "BAB",
+        "EDE",
+        " B "
+    ],
+    "result": {
+        "count": 1,
+        "id": "music_disc_creator",
+        "components": {
+            "!jukebox_playable": {},
+            "rarity":"common",
+            "item_name":{"translate":"item.minecraft.auto_crossbow"},
+            "minecraft:item_model":"emporium:auto_crossbow",
+            "custom_data":{"auto_crossbow":1},
+            "consumable": {
+                "consume_seconds": 2147483647,
+                "has_consume_particles": false,
+                "animation": "crossbow"
+            },
+            "max_damage":303,
+            "max_stack_size":1,
+            "damage":0
+        }
+    }
+}

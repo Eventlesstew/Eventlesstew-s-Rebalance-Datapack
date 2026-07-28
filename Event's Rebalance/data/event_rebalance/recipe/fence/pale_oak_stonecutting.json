@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "#pale_oak_logs",
+  "result": {
+    "id": "pale_oak_fence",
+    "count":4
+  }
+}

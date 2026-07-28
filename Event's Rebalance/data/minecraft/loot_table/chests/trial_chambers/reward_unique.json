@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bolt_armor_trim_smithing_template",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:guster_banner_pattern",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+                {
+                    "function": "minecraft:set_components",
+                    "components":{
+                        "jukebox_playable": "precipice",
+                        "item_model": "music_disc_precipice",
+                        "item_name": {"translate": "item.minecraft.music_disc_precipice"}
+                        
+                    }
+                }
+            ],
+            "name": "minecraft:music_disc_13",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:chests/trial_chambers/reward_unique"
+}

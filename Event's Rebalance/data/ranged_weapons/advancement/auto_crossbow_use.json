@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "use_item": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:music_disc_creator"
+          ],
+          "predicates": {
+            "minecraft:custom_data": {
+              "auto_crossbow": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ranged_weapons:auto_crossbow"
+  }
+}

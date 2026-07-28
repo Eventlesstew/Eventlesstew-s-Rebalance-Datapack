@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "#acacia_logs",
+  "result": {
+    "id": "acacia_stairs"
+  }
+}

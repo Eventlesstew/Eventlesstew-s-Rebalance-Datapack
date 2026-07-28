@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:sandstone",
+  "result": {
+    "id": "minecraft:sandstone_wall",
+    "count":2
+  }
+}

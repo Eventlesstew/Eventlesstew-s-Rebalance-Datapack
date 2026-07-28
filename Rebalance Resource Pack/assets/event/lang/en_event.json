@@ -1,0 +1,34 @@
+{
+    "language.name": "Event's Spicy Shit",
+    "language.region": "Australia",
+    "language.code": "en_event",
+    "item.minecraft.crossbow": "A Musket for Home Defense",
+    "item.minecraft.bow": "Gun",
+
+    "item.minecraft.leather_helmet":"Nice cap",
+    "item.minecraft.leather_chestplate":"Let's be real, copper is way easier to make than this",
+    "item.minecraft.leather_leggings":"Premium Dick Coverage",
+    "item.minecraft.leather_boots":"Powder snow is annoying, I don't blame ya",
+    "item.minecraft.wooden_sword":"Overshadowed Sword",
+    "item.minecraft.wooden_axe":"Overshadowed Axe",
+    "item.minecraft.wooden_spear":"Actually pretty useful Spear",
+    "item.minecraft.wooden_dagger":"Overshadowed Dagger",
+    "item.minecraft.wooden_pickaxe":"Literally the only wooden tool that you'll really need",
+    "item.minecraft.wooden_shovel":"Overshadowed Shovel",
+    "item.minecraft.wooden_hoe":"Overshadowed Hoe",
+
+    "item.minecraft.golden_spear":"Hey, you should stand behind someone sneaking and use the charge attack.",
+    "item.minecraft.trident":"FORK",
+
+    "item.minecraft.golden_apple":"Piss Apple",
+    "item.minecraft.enchanted_golden_apple":"Notch Apple",
+
+    "item.minecraft.water_bucket":"Pretty much everything I need.",
+    "item.minecraft.axolotl_bucket":"Bucket of a little guy :3",
+    "item.minecraft.lava_bucket":"You should drop this in lava.",
+    "item.minecraft.milk_bucket": "Liquid Plastic Bucket",
+    "item.minecraft.powder_snow_bucket": "Lumpy Milk Bucket, fym this isn't milk?",
+
+    "item.minecraft.potion.effect.mundane": "You forgot the nether wart or smth?",
+    "item.minecraft.potion.effect.thick": "Daring today aren't we?"
+}

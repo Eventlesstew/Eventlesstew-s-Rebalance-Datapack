@@ -1,0 +1,1 @@
+advancement revoke @s only ranged_weapons:auto_crossbow_use
