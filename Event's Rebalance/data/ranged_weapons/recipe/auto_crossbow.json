@@ -19,7 +19,7 @@
             "!jukebox_playable": {},
             "rarity":"common",
             "item_name":{"translate":"item.minecraft.auto_crossbow"},
-            "minecraft:item_model":"emporium:auto_crossbow",
+            "minecraft:item_model":"event:auto_crossbow",
             "custom_data":{"auto_crossbow":1},
             "consumable": {
                 "consume_seconds": 2147483647,
