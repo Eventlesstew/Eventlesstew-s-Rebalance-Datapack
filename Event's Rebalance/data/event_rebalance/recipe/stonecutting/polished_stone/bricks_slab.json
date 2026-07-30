@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "smooth_stone",
+    "result": {
+        "id": "stone_brick_slab",
+        "count": 2
+    }
+}

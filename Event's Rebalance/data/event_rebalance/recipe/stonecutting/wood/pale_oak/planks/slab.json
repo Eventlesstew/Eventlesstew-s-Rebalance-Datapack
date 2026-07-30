@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "pale_oak_planks",
+    "result": {
+        "id": "pale_oak_slab",
+        "count": 2
+    }
+}

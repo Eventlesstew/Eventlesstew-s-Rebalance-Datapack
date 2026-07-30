@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "#cherry_logs",
+  "result": {
+    "id": "cherry_stairs",
+    "count": 4
+  }
+}

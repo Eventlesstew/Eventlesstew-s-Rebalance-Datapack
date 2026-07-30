@@ -1,9 +1,10 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
+  "group": "stone_pressure_plate",
   "key": {
     "#": "minecraft:smooth_stone",
-    "R":"redstone"
+    "R": "redstone"
   },
   "pattern": [
     "#R#"

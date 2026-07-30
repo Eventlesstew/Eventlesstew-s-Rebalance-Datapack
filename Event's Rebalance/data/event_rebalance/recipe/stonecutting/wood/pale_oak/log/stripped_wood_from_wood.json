@@ -1,0 +1,7 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "pale_oak_wood",
+    "result": {
+        "id": "stripped_pale_oak_wood"
+    }
+}

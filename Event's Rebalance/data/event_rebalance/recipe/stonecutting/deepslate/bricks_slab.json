@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "deepslate",
+    "result": {
+        "id": "deepslate_brick_slab",
+        "count": 2
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "smooth_stone",
+    "result": {
+        "id": "stone_bricks"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "cherry_planks",
+    "result": {
+        "id": "cherry_stairs"
+    }
+}

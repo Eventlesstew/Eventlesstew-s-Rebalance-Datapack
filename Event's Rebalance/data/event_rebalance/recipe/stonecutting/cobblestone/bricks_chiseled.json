@@ -1,0 +1,7 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "cobblestone",
+    "result": {
+        "id": "chiseled_stone_bricks"
+    }
+}
