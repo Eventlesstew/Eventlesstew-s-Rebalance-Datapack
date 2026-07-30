@@ -2,6 +2,7 @@
   "type": "minecraft:stonecutting",
   "ingredient": "#acacia_logs",
   "result": {
-    "id": "acacia_stairs"
+    "id": "acacia_stairs",
+    "count": 4
   }
 }

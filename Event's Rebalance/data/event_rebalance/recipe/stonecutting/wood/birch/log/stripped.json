@@ -1,0 +1,7 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "birch_log",
+    "result": {
+        "id": "stripped_birch_log"
+    }
+}
