@@ -1,0 +1,6 @@
+{
+    "values": [
+        "ranged_weapons:on_tick",
+        "event_enchants:on_tick"
+    ]
+}
