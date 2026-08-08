@@ -1,0 +1,19 @@
+{
+    "description": "Auto Repair",
+    "supported_items": "#minecraft:enchantable/durability",
+    "weight": 5,
+    "max_level": 1,
+    "min_cost": {
+        "base": 2,
+        "per_level_above_first": 1
+    },
+    "max_cost": {
+        "base": 2,
+        "per_level_above_first": 1
+    },
+    "anvil_cost": 2,
+    "slots": [
+        "any"
+    ],
+    "effects": {}
+}
