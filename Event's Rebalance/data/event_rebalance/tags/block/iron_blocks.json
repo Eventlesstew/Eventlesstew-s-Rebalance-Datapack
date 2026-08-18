@@ -1,0 +1,11 @@
+{
+    "values": [
+        "iron_block",
+        "iron_bars",
+        "iron_chain",
+        "iron_door",
+        "iron_trapdoor",
+        "raw_iron_block",
+        "#iron_ores"
+    ]
+}

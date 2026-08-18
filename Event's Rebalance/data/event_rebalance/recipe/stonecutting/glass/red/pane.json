@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "red_stained_glass",
+    "result": {
+        "id": "red_stained_glass_pane",
+        "count": 3
+    }
+}

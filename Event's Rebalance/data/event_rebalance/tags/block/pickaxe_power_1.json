@@ -1,0 +1,9 @@
+{
+    "values": [
+        "#event_rebalance:pickaxe_power_2",
+        "#event_rebalance:coal_blocks",
+        "#event_rebalance:copper_blocks",
+        "#event_rebalance:quartz_blocks",
+        "nether_gold_ore"
+    ]
+}

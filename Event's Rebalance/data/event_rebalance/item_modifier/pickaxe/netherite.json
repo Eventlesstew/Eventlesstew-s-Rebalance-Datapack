@@ -1,0 +1,128 @@
+{
+    "function": "filtered",
+    "item_filter": {
+        "items": "netherite_pickaxe"
+    },
+    "on_pass": {
+        "function": "sequence",
+        "functions": [
+            {
+                "tag": {
+                    "modified": true
+                },
+                "function": "set_custom_data"
+            },
+            {
+            "function": "minecraft:set_attributes",
+            "modifiers": [
+                    {
+                        "id": "balance",
+                        "attribute": "minecraft:attack_damage",
+                        "amount": 8,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "id": "balance",
+                        "attribute": "minecraft:attack_speed",
+                        "amount": -3.4,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "function": "set_components",
+                "components": {
+                    "minecraft:max_damage": 2048,
+                    "tool": {
+                    "rules": [
+                        {
+                            "blocks": "#event_rebalance:obsidian",
+                            "speed": 30,
+                            "correct_for_drops": true
+                        },
+                        {
+                            "blocks": "#mineable/pickaxe",
+                            "speed": 15,
+                            "correct_for_drops": true
+                        }
+                    ]
+                    }
+                }
+            },
+            {
+            "function": "minecraft:set_lore",
+            "lore": [
+                {
+                    "translate": " ",
+                    "color": "#AAAAAA",
+                    "italic": false
+                },
+                {
+                    "translate": "item.modifiers.mainhand",
+                    "color": "#AAAAAA",
+                    "italic": false
+                },
+                {
+                    "translate": " 9 ",
+                    "extra": [
+                        {
+                        "translate": "attribute.name.attack_damage"
+                        }
+                    ],
+                    "color": "#1aa819",
+                    "italic": false
+                },
+                {
+                    "translate": " 0.6 ",
+                    "extra": [
+                        {
+                        "translate": "attribute.name.attack_speed"
+                        }
+                    ],
+                    "color": "#1aa819",
+                    "italic": false
+                },
+                {
+                    "translate": " X15 ",
+                    "extra": [
+                        {
+                        "translate": "attribute.name.mining_speed"
+                        }
+                    ],
+                    "color": "#d3a921",
+                    "italic": false
+                },
+                {
+                    "translate": " X30 ",
+                    "extra": [
+                        {
+                        "translate": "attribute.name.obsidian_mining_speed"
+                        }
+                    ],
+                    "color": "#d3a921",
+                    "italic": false
+                },
+                {
+                    "translate": " 5 ",
+                    "extra": [
+                        {
+                        "translate": "attribute.name.mining_power"
+                        }
+                    ],
+                    "color": "#d3a921",
+                    "italic": false
+                }
+            ],
+            "mode": "replace_all"
+            }
+        ]
+    }
+}

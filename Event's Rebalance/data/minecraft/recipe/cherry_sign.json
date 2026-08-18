@@ -3,7 +3,7 @@
   "category": "misc",
   "group": "wooden_sign",
   "key": {
-    "#": "minecraft:cherry_planks",
+    "#": "#cherry_logs",
     "X": "minecraft:stick"
   },
   "pattern": [

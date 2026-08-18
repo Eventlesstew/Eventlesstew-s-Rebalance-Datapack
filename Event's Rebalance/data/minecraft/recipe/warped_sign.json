@@ -3,7 +3,7 @@
   "category": "misc",
   "group": "wooden_sign",
   "key": {
-    "#": "minecraft:warped_planks",
+    "#": "#minecraft:warped_stems",
     "X": "minecraft:stick"
   },
   "pattern": [

@@ -3,7 +3,7 @@
   "category": "misc",
   "group": "wooden_sign",
   "key": {
-    "#": "minecraft:bamboo_planks",
+    "#": "#bamboo_blocks",
     "X": "minecraft:stick"
   },
   "pattern": [

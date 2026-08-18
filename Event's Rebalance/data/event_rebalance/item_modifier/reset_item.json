@@ -1,0 +1,18 @@
+[
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "components": {
+          "custom_data": {
+            "modified": true
+          }
+        }
+      },
+      "on_pass": {
+        "function": "set_custom_data",
+        "tag": {
+          "modified": false
+        }
+      }
+    }
+  ]

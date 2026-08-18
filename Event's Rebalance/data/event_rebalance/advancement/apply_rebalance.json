@@ -1,0 +1,16 @@
+{
+	"criteria": {
+		"on_change": {
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"on_change"
+		]
+	],
+	"rewards": {
+		"function": "event_rebalance:apply_rebalance"
+	},
+	"sends_telemetry_event": false
+}

@@ -1,0 +1,53 @@
+{
+    "function":"filtered",
+    "item_filter": {
+        "components": {
+            "custom_data": {
+                "modified": true
+            }
+        }
+    },
+    "on_fail": {
+        "function":"sequence",
+        "functions": [
+            {
+                "function": "reference",
+                "name": "event_rebalance:pickaxe/wooden"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:pickaxe/copper"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:pickaxe/iron"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:pickaxe/golden"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:pickaxe/rose_golden"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:pickaxe/diamond"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:pickaxe/netherite"
+            },
+
+            {
+                "function": "reference",
+                "name": "event_rebalance:sword/wooden"
+            },
+
+            {
+                "function": "reference",
+                "name": "event_rebalance:dagger/wooden"
+            }
+        ]
+    }
+}

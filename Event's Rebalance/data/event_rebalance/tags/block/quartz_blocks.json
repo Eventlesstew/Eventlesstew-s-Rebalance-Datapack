@@ -1,0 +1,14 @@
+{
+    "values": [
+        "quartz_block",
+        "quartz_bricks",
+        "quartz_pillar",
+        "quartz_slab",
+        "quartz_stairs",
+        "nether_quartz_ore",
+        "smooth_quartz",
+        "smooth_quartz_slab",
+        "smooth_quartz_stairs",
+        "chiseled_quartz_block"
+    ]
+}

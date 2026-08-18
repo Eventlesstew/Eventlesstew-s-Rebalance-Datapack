@@ -3,7 +3,7 @@
   "category": "misc",
   "group": "wooden_sign",
   "key": {
-    "#": "minecraft:crimson_planks",
+    "#": "#crimson_stems",
     "X": "minecraft:stick"
   },
   "pattern": [
