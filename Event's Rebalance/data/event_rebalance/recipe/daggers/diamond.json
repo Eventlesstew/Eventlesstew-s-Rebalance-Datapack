@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "#": "#diamond_tool_materials",
+        "S": "stick"
+    },
+    "pattern": [
+        " #",
+        "S "
+    ],
+    "result": {
+        "id": "music_disc_precipice",
+        "components": {
+            "custom_data": {
+                "diamond_dagger": true
+            }
+        }
+    }
+}

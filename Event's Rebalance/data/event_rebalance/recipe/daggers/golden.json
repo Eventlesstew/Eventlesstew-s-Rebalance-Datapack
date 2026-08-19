@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "#": "#gold_tool_materials",
+        "S": "stick"
+    },
+    "pattern": [
+        " #",
+        "S "
+    ],
+    "result": {
+        "id": "music_disc_creator_music_box",
+        "components": {
+            "custom_data": {
+                "golden_dagger": true
+            }
+        }
+    }
+}

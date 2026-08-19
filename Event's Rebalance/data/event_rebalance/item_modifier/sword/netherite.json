@@ -1,0 +1,98 @@
+{
+    "function": "filtered",
+    "item_filter": {
+        "items": "netherite_sword"
+    },
+    "on_pass": {
+        "function": "sequence",
+        "functions": [
+            {
+                "tag": {
+                    "modified": true
+                },
+                "function": "set_custom_data"
+            },
+            {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                    {
+                        "id": "balance",
+                        "attribute": "minecraft:attack_damage",
+                        "amount": 9,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "id": "balance",
+                        "attribute": "minecraft:attack_speed",
+                        "amount": -2.6,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "function": "set_components",
+                "components": {
+                    "minecraft:max_damage": 2048,
+                    "tool": {
+                        "rules": [
+                            {
+                                "blocks": "cobweb",
+                                "speed": 30,
+                                "correct_for_drops": true
+                            },
+                            {
+                                "blocks": "#event_rebalance:mineable/sword",
+                                "speed": 15,
+                                "correct_for_drops": true
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "function": "minecraft:set_lore",
+                "lore": [
+                    {
+                        "translate": " ",
+                        "color": "#AAAAAA",
+                        "italic": false
+                    },
+                    {
+                        "translate": "item.modifiers.mainhand",
+                        "color": "#AAAAAA",
+                        "italic": false
+                    },
+                    {
+                        "translate": " 10 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.attack_damage"
+                            }
+                        ],
+                        "color": "#1aa819",
+                        "italic": false
+                    },
+                    {
+                        "translate": " 1.4 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.attack_speed"
+                            }
+                        ],
+                        "color": "#1aa819",
+                        "italic": false
+                    }
+                ],
+                "mode": "replace_all"
+            }
+        ]
+    }
+}

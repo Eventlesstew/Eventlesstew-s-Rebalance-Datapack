@@ -1,0 +1,14 @@
+{
+    "type": "smithing_transform",
+    "base": "golden_pickaxe",
+    "addition": "#event_rebalance:rose_golden_tool_materials",
+    "template": "breeze_spawn_egg",
+    "result": {
+        "id": "stone_pickaxe",
+        "components": {
+            "custom_data": {
+                "rose_golden": true
+            }
+        }
+    }
+}

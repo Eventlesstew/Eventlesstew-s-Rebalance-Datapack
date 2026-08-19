@@ -1,0 +1,19 @@
+Stone Hoe: Rose Golden Hoe
+Stone Shovel: Rose Golden Shovel
+Stone Pickaxe: Rose Golden Pickaxe
+Stone Axe: Rose Golden Axe
+Stone Spear: Rose Golden Spear
+Stone Sword: Rose Golden Sword
+Chainmail Helmet: Rose Golden Helmet
+Chainmail Chestplate: Rose Golden Chestplate
+Chainmail Leggings: Rose Golden Leggings
+Chainmail Boots: Rose Golden Boots
+
+Music Disc 13: Music Discs
+Music Disc Creator: Wooden, Copper, Iron, Rose Golden and Netherite Daggers.
+Music Disc Creator (Music Box): Golden Dagger
+Music Disc Precipice: Diamond Dagger
+
+Piglin Spawn Egg: Rose Golden Ingot
+Breeze Spawn Egg: Rose Golden Upgrade
+Enderman Spawn Egg: Lodestone
