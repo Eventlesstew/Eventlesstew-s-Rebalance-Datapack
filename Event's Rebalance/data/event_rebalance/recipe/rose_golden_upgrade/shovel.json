@@ -8,6 +8,10 @@
         "components": {
             "custom_data": {
                 "rose_golden": true
+            },
+            "item_model": "event:rose_golden/shovel",
+            "item_name": {
+                "translate": "item.event.rose_golden_shovel"
             }
         }
     }

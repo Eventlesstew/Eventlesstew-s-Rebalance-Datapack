@@ -8,6 +8,10 @@
         "components": {
             "custom_data": {
                 "netherite_dagger": true
+            },
+            "item_model": "event:dagger/netherite",
+            "item_name": {
+                "translate": "item.minecraft.netherite_dagger"
             }
         }
     }

@@ -13,19 +13,19 @@
                 "function": "set_custom_data"
             },
             {
-            "function": "minecraft:set_attributes",
-            "modifiers": [
+                "function": "minecraft:set_attributes",
+                "modifiers": [
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_damage",
-                        "amount": 6,
+                        "amount": 5,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_speed",
-                        "amount": -3.2,
+                        "amount": -3,
                         "operation": "add_value",
                         "slot": "mainhand"
                     }
@@ -42,91 +42,91 @@
                 "components": {
                     "minecraft:max_damage": 512,
                     "tool": {
-                    "rules": [
-                        {
-                            "blocks": "#event_rebalance:pickaxe_power_4",
-                            "speed": 3,
-                            "correct_for_drops": false
-                        },
-                        {
-                            "blocks": "#event_rebalance:ores",
-                            "speed": 8,
-                            "correct_for_drops": true
-                        },
-                        {
-                            "blocks": "#mineable/pickaxe",
-                            "speed": 6,
-                            "correct_for_drops": true
-                        }
-                    ]
+                        "rules": [
+                            {
+                                "blocks": "#event_rebalance:pickaxe_power_4",
+                                "speed": 3,
+                                "correct_for_drops": false
+                            },
+                            {
+                                "blocks": "#event_rebalance:ores",
+                                "speed": 8,
+                                "correct_for_drops": true
+                            },
+                            {
+                                "blocks": "#mineable/pickaxe",
+                                "speed": 6,
+                                "correct_for_drops": true
+                            }
+                        ]
                     }
                 }
             },
             {
-            "function": "minecraft:set_lore",
-            "lore": [
-                {
-                    "translate": " ",
-                    "color": "#AAAAAA",
-                    "italic": false
-                },
-                {
-                    "translate": "item.modifiers.mainhand",
-                    "color": "#AAAAAA",
-                    "italic": false
-                },
-                {
-                    "translate": " 4 ",
-                    "extra": [
-                        {
-                        "translate": "attribute.name.attack_damage"
-                        }
-                    ],
-                    "color": "#1aa819",
-                    "italic": false
-                },
-                {
-                    "translate": " 1.2 ",
-                    "extra": [
-                        {
-                        "translate": "attribute.name.attack_speed"
-                        }
-                    ],
-                    "color": "#1aa819",
-                    "italic": false
-                },
-                {
-                    "translate": " X6 ",
-                    "extra": [
-                        {
-                        "translate": "attribute.name.mining_speed"
-                        }
-                    ],
-                    "color": "#d3a921",
-                    "italic": false
-                },
-                {
-                    "translate": " X8 ",
-                    "extra": [
-                        {
-                        "translate": "attribute.name.ore_mining_speed"
-                        }
-                    ],
-                    "color": "#d3a921",
-                    "italic": false
-                },
-                {
-                    "translate": " 3 ",
-                    "extra": [
-                        {
-                        "translate": "attribute.name.mining_power"
-                        }
-                    ],
-                    "color": "#d3a921",
-                    "italic": false
-                }
-            ],
-            "mode": "replace_all"
+                "function": "minecraft:set_lore",
+                "lore": [
+                    {
+                        "translate": " ",
+                        "color": "#AAAAAA",
+                        "italic": false
+                    },
+                    {
+                        "translate": "item.modifiers.mainhand",
+                        "color": "#AAAAAA",
+                        "italic": false
+                    },
+                    {
+                        "translate": " 6 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.attack_damage"
+                            }
+                        ],
+                        "color": "#1aa819",
+                        "italic": false
+                    },
+                    {
+                        "translate": " 1 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.attack_speed"
+                            }
+                        ],
+                        "color": "#1aa819",
+                        "italic": false
+                    },
+                    {
+                        "translate": " X6 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.mining_speed"
+                            }
+                        ],
+                        "color": "#d3a921",
+                        "italic": false
+                    },
+                    {
+                        "translate": " X8 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.ore_mining_speed"
+                            }
+                        ],
+                        "color": "#d3a921",
+                        "italic": false
+                    },
+                    {
+                        "translate": " 3 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.mining_power"
+                            }
+                        ],
+                        "color": "#d3a921",
+                        "italic": false
+                    }
+                ],
+                "mode": "replace_all"
             }
         ]
     }

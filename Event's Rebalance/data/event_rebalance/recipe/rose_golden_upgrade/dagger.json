@@ -1,13 +1,17 @@
 {
     "type": "smithing_transform",
-    "base": "music_disc_creator_music_box",
+    "base": "#event_rebalance:custom_item/golden_dagger",
     "addition": "#event_rebalance:rose_golden_tool_materials",
     "template": "#event_rebalance:custom_item/rose_golden_upgrade_smithing_template",
     "result": {
-        "id": "music_disc_creator",
+        "id": "music_disc_strad",
         "components": {
             "custom_data": {
                 "rose_golden_dagger": true
+            },
+            "item_model": "event:dagger/rose_golden",
+            "item_name": {
+                "translate": "item.minecraft.rose_golden_dagger"
             }
         }
     }

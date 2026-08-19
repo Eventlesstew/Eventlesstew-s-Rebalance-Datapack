@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        "music_disc_tears"
+    ],
+    "result": {
+        "count": 9,
+        "id": "minecraft:music_disc_lava_chicken",
+        "components": {
+            "!jukebox_playable": {},
+            "custom_data": {
+                "rose_golden_nugget": true
+            },
+            "item_model": "event:rose_golden_nugget",
+            "item_name": {
+                "translate": "item.minecraft.rose_golden_nugget"
+            },
+            "rarity": "common"
+        }
+    }
+}

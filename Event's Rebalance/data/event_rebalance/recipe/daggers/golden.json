@@ -13,6 +13,10 @@
         "components": {
             "custom_data": {
                 "golden_dagger": true
+            },
+            "item_model": "event:dagger/golden",
+            "item_name": {
+                "translate": "item.minecraft.golden_dagger"
             }
         }
     }

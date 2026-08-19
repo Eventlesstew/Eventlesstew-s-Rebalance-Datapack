@@ -45,12 +45,12 @@
                         "rules": [
                             {
                                 "blocks": "cobweb",
-                                "speed": 30,
+                                "speed": 32,
                                 "correct_for_drops": true
                             },
                             {
                                 "blocks": "#event_rebalance:mineable/sword",
-                                "speed": 15,
+                                "speed": 16,
                                 "correct_for_drops": true
                             }
                         ]

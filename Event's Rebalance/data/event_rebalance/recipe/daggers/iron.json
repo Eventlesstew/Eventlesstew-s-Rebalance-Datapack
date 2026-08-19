@@ -9,10 +9,14 @@
         "S "
     ],
     "result": {
-        "id": "music_disc_creator",
+        "id": "music_disc_mellohi",
         "components": {
             "custom_data": {
                 "iron_dagger": true
+            },
+            "item_model": "event:dagger/iron",
+            "item_name": {
+                "translate": "item.minecraft.iron_dagger"
             }
         }
     }

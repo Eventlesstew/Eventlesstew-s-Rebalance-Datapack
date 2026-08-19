@@ -1,5 +1,5 @@
 {
-    "function":"filtered",
+    "function": "filtered",
     "item_filter": {
         "components": {
             "custom_data": {
@@ -8,7 +8,7 @@
         }
     },
     "on_fail": {
-        "function":"sequence",
+        "function": "sequence",
         "functions": [
             {
                 "function": "reference",
@@ -38,12 +38,62 @@
                 "function": "reference",
                 "name": "event_rebalance:pickaxe/netherite"
             },
-
+            {
+                "function": "reference",
+                "name": "event_rebalance:shovel/wooden"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:shovel/copper"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:shovel/iron"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:shovel/golden"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:shovel/rose_golden"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:shovel/diamond"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:shovel/netherite"
+            },
             {
                 "function": "reference",
                 "name": "event_rebalance:sword/wooden"
             },
-
+            {
+                "function": "reference",
+                "name": "event_rebalance:sword/copper"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:sword/iron"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:sword/golden"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:sword/rose_golden"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:sword/diamond"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:sword/netherite"
+            },
             {
                 "function": "reference",
                 "name": "event_rebalance:dagger/wooden"

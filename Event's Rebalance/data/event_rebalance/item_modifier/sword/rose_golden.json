@@ -1,7 +1,7 @@
 {
     "function": "filtered",
     "item_filter": {
-        "items": "stone_sword",
+        "items": "#event_rebalance:custom_item/rose_golden_sword",
         "components": {
             "custom_data": {
                 "rose_golden": true

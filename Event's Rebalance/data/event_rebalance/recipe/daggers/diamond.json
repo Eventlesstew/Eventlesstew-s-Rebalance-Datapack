@@ -13,6 +13,10 @@
         "components": {
             "custom_data": {
                 "diamond_dagger": true
+            },
+            "item_model": "event:dagger/diamond",
+            "item_name": {
+                "translate": "item.minecraft.diamond_dagger"
             }
         }
     }

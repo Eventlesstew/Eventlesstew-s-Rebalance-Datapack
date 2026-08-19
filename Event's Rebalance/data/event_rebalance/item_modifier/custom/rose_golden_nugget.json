@@ -1,0 +1,28 @@
+{
+    "function": "filtered",
+    "item_filter": {
+        "items": "#event_rebalance:custom_item/rose_golden_nugget",
+        "components": {
+            "custom_data": {
+                "rose_golden_nugget": true
+            }
+        }
+    },
+    "on_pass": {
+        "function": "sequence",
+        "functions": [
+            {
+                "function": "set_components",
+                "components": {
+                    "!jukebox_playable": {},
+                    "rarity": "common",
+                    "max_stack_size": 64,
+                    "item_name": {
+                        "translate": "item.minecraft.rose_golden_nugget"
+                    },
+                    "item_model": "event:rose_golden_nugget"
+                }
+            }
+        ]
+    }
+}
