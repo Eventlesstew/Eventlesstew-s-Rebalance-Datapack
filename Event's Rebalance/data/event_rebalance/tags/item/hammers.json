@@ -1,0 +1,11 @@
+{
+    "values": [
+        "#event_rebalance:custom_item/wooden_hammer",
+        "#event_rebalance:custom_item/copper_hammer",
+        "#event_rebalance:custom_item/iron_hammer",
+        "#event_rebalance:custom_item/golden_hammer",
+        "#event_rebalance:custom_item/diamond_hammer",
+        "#event_rebalance:custom_item/rose_golden_hammer",
+        "#event_rebalance:custom_item/netherite_hammer"
+    ]
+}

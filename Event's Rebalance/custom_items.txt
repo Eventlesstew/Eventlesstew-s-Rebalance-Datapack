@@ -10,12 +10,20 @@ Chainmail Leggings: Rose Golden Leggings
 Chainmail Boots: Rose Golden Boots
 
 Music Disc 13: Music Discs
+
 Music Disc Creator: Wooden and Netherite Daggers.
 Music Disc Cat: Copper Dagger
 Music Disc Mellohi: Iron Dagger
 Music Disc Creator (Music Box): Golden Dagger
 Music Disc Strad: Rose Golden Dagger
 Music Disc Precipice: Diamond Dagger
+
+Music Disc Chirp: Wooden and Netherite Hammers
+Music Disc Wait: Copper Hammer
+Music Disc Mall: Iron Hammer
+Music Disc Bounce: Golden Hammer
+Music Disc Stal: Rose Golden Hammer
+Music Disc Otherside: Diamond Hammer
 
 Music Disc Tears: Rose Golden Ingot
 Music Disc Pigstep: Rose Golden Upgrade
