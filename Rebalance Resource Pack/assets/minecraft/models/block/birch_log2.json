@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/birch_log",
+  "textures": {
+    "side": "minecraft:block/birch_log2"
+  }
+}

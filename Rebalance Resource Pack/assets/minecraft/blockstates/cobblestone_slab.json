@@ -1,0 +1,43 @@
+{
+  "variants": {
+
+    "type=bottom": [
+      {"model": "block/cobblestone_slab"},
+      {"model": "block/cobblestone_slab2"},
+      {"model": "block/cobblestone_slab3"},
+      {"model": "block/cobblestone_slab4"},
+      {"model": "block/cobblestone_slab5"},
+      {"model": "block/cobblestone_slab6"},
+      {"model": "block/cobblestone_slab7"},
+      {"model": "block/cobblestone_slab8"},
+      {"model": "block/cobblestone_slab9"},
+      {"model": "block/cobblestone_slab10"}
+    ],
+	
+    "type=top": [
+      {"model": "block/cobblestone_slab_top"},
+      {"model": "block/cobblestone_slab_top2"},
+      {"model": "block/cobblestone_slab_top3"},
+      {"model": "block/cobblestone_slab_top4"},
+      {"model": "block/cobblestone_slab_top5"},
+      {"model": "block/cobblestone_slab_top6"},
+      {"model": "block/cobblestone_slab_top7"},
+      {"model": "block/cobblestone_slab_top8"},
+      {"model": "block/cobblestone_slab_top9"},
+      {"model": "block/cobblestone_slab_top10"}
+    ],
+	
+    "type=double": [
+      {"model": "block/cobblestone"},
+      {"model": "block/cobblestone2"},
+      {"model": "block/cobblestone3"},
+      {"model": "block/cobblestone4"},
+      {"model": "block/cobblestone5"},
+      {"model": "block/cobblestone6"},
+      {"model": "block/cobblestone7"},
+      {"model": "block/cobblestone8"},
+      {"model": "block/cobblestone9"},
+      {"model": "block/cobblestone10"}
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "type=bottom": [
+      { "model": "block/spruce_slab" },
+      { "model": "block/spruce_slab2" },
+      { "model": "block/spruce_slab3" },
+      { "model": "block/spruce_slab4" },
+      { "model": "block/spruce_slab5" }
+    ],
+    "type=top": [
+      { "model": "block/spruce_slab_top" },
+      { "model": "block/spruce_slab_top2" },
+      { "model": "block/spruce_slab_top3" },
+      { "model": "block/spruce_slab_top4" },
+      { "model": "block/spruce_slab_top5" }
+    ],
+    "type=double": [
+      { "model": "block/spruce_planks" },
+      { "model": "block/spruce_planks2" },
+      { "model": "block/spruce_planks3" },
+      { "model": "block/spruce_planks4" },
+      { "model": "block/spruce_planks5" }
+    ]
+  }
+}

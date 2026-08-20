@@ -1,0 +1,9 @@
+{
+    "type": "smelting",
+    "ingredient": "raw_iron_block",
+    "result": "iron_block",
+    "experience": 6.3,
+    "cookingtime": 1800,
+    "category": "blocks",
+    "group": "iron_block"
+}

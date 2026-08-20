@@ -68,6 +68,26 @@
             },
             {
                 "function": "reference",
+                "name": "event_rebalance:hoe/wooden"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:hoe/copper"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:hoe/iron"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:hoe/diamond"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:hoe/netherite"
+            },
+            {
+                "function": "reference",
                 "name": "event_rebalance:sword/wooden"
             },
             {
@@ -97,6 +117,18 @@
             {
                 "function": "reference",
                 "name": "event_rebalance:dagger/wooden"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:custom/rose_golden_ingot"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:custom/rose_golden_nugget"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:custom/rose_golden_upgrade"
             }
         ]
     }

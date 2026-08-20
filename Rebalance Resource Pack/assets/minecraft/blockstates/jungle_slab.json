@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "type=bottom": [
+      { "model": "block/jungle_slab" },
+      { "model": "block/jungle_slab2" },
+      { "model": "block/jungle_slab3" },
+      { "model": "block/jungle_slab4" },
+      { "model": "block/jungle_slab5" }
+    ],
+    "type=top": [
+      { "model": "block/jungle_slab_top" },
+      { "model": "block/jungle_slab_top2" },
+      { "model": "block/jungle_slab_top3" },
+      { "model": "block/jungle_slab_top4" },
+      { "model": "block/jungle_slab_top5" }
+    ],
+    "type=double": [
+      { "model": "block/jungle_planks" },
+      { "model": "block/jungle_planks2" },
+      { "model": "block/jungle_planks3" },
+      { "model": "block/jungle_planks4" },
+      { "model": "block/jungle_planks5" }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "variants": {
+    "type=bottom": [
+	  { "model": "block/andesite_slab" },
+	  { "model": "block/andesite_slab2" },
+	  { "model": "block/andesite_slab3" },
+	  { "model": "block/andesite_slab4" },
+	  { "model": "block/andesite_slab5" },
+	  { "model": "block/andesite_slab6" },
+	  { "model": "block/andesite_slab7" },
+	  { "model": "block/andesite_slab8" },
+	  { "model": "block/andesite_slab9" },
+	  { "model": "block/andesite_slab10" },
+	  { "model": "block/andesite_slab11" },
+	  { "model": "block/andesite_slab12" },
+	  { "model": "block/andesite_slab13" },
+	  { "model": "block/andesite_slab14" },
+	  { "model": "block/andesite_slab15" },
+	  { "model": "block/andesite_slab16" }
+    ],
+    "type=double": [
+	  { "model": "block/andesite" },
+	  { "model": "block/andesite2" },
+	  { "model": "block/andesite3" },
+	  { "model": "block/andesite4" },
+	  { "model": "block/andesite5" },
+	  { "model": "block/andesite6" },
+	  { "model": "block/andesite7" },
+	  { "model": "block/andesite8" },
+	  { "model": "block/andesite9" },
+	  { "model": "block/andesite10" },
+	  { "model": "block/andesite11" },
+	  { "model": "block/andesite12" },
+	  { "model": "block/andesite13" },
+	  { "model": "block/andesite14" },
+	  { "model": "block/andesite15" },
+	  { "model": "block/andesite16" }
+    ],
+    "type=top": [
+	  { "model": "block/andesite_slab_top" },
+	  { "model": "block/andesite_slab_top2" },
+	  { "model": "block/andesite_slab_top3" },
+	  { "model": "block/andesite_slab_top4" },
+	  { "model": "block/andesite_slab_top5" },
+	  { "model": "block/andesite_slab_top6" },
+	  { "model": "block/andesite_slab_top7" },
+	  { "model": "block/andesite_slab_top8" },
+	  { "model": "block/andesite_slab_top9" },
+	  { "model": "block/andesite_slab_top10" },
+	  { "model": "block/andesite_slab_top11" },
+	  { "model": "block/andesite_slab_top12" },
+	  { "model": "block/andesite_slab_top13" },
+	  { "model": "block/andesite_slab_top14" },
+	  { "model": "block/andesite_slab_top15" },
+	  { "model": "block/andesite_slab_top16" }
+    ]
+  }
+}

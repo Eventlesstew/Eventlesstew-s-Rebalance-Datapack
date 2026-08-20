@@ -15,5 +15,31 @@
     "item.minecraft.diamond_dagger": "Diamond Dagger",
     "item.minecraft.netherite_dagger": "Netherite Dagger",
 
-    "item.minecraft.auto_crossbow":"Auto Crossbow"
+    "item.event.rose_golden_pickaxe":"Rose Golden Pickaxe",
+    "item.event.rose_golden_hoe":"Rose Golden Hoe",
+    "item.event.rose_golden_shovel":"Rose Golden Shovel",
+    "item.event.rose_golden_sword":"Rose Golden Sword",
+    "item.event.rose_golden_spear":"Rose Golden Spear",
+    "item.event.rose_golden_axe": "Rose Golden Axe",
+    "item.event.rose_golden_helmet":"Rose Golden Helmet",
+    "item.event.rose_golden_chestplate":"Rose Golden Chestplate",
+    "item.event.rose_golden_leggings":"Rose Golden Leggings",
+    "item.event.rose_golden_boots":"Rose Golden Boots",
+
+    "item.event.rose_golden_ingot":"Rose Golden Ingot",
+    "item.event.rose_golden_nugget":"Rose Golden Nugget",
+    "item.event.rose_golden_upgrade_smithing_template":"Rose Golden Upgrade",
+    "item.minecraft.auto_crossbow":"Auto Crossbow",
+
+    "item.minecraft.egg":"White Chicken Egg",
+    "item.minecraft.blue_egg":"Blue Chicken Egg",
+    "item.minecraft.brown_egg":"Brown Chicken Egg",
+
+    "attribute.name.mining_speed":"Mining Speed",
+    "attribute.name.ore_mining_speed":"Ore Mining Speed",
+    "attribute.name.obsidian_mining_speed":"Obsidian Mining Speed",
+    "attribute.name.mining_power": "Mining Power",
+
+    "death.attack.dagger": "%1$s was stabbed to death by %2$s",
+    "death.attack.dagger.item": "%1$s was stabbed to death by %2$s using %3$s"
 }

@@ -1,0 +1,80 @@
+{
+	"credit": "Created by Stridey",
+	"parent": "block/block",
+	"textures": {
+		"ends": "#ends",
+		"connected": "#connected",
+		"border": "#border",
+		"particle": "#border"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#connected", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#connected", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#connected", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#connected", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#ends", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#ends", "cullface": "down"}
+			}
+		},
+		{
+			"from": [0, 0, -0.02],
+			"to": [1, 16, -0.02],
+			"faces": {
+				"north": {"uv": [15, 0, 16, 16], "texture": "#border", "cullface": "west"}
+			}
+		},
+		{
+			"from": [15, 0, -0.02],
+			"to": [16, 16, -0.02],
+			"faces": {
+				"north": {"uv": [0, 0, 1, 16], "texture": "#border", "cullface": "east"}
+			}
+		},
+		{
+			"from": [0, 0, 16.02],
+			"to": [1, 16, 16.02],
+			"faces": {
+				"south": {"uv": [0, 0, 1, 16], "texture": "#border", "cullface": "west"}
+			}
+		},
+		{
+			"from": [15, 0, 16.02],
+			"to": [16, 16, 16.02],
+			"faces": {
+				"south": {"uv": [15, 0, 16, 16], "texture": "#border", "cullface": "east"}
+			}
+		},
+		{
+			"from": [-0.02, 0, 0],
+			"to": [-0.02, 16, 1],
+			"faces": {
+				"west": {"uv": [0, 0, 1, 16], "texture": "#border", "cullface": "north"}
+			}
+		},
+		{
+			"from": [-0.02, 0, 15],
+			"to": [-0.02, 16, 16],
+			"faces": {
+				"west": {"uv": [15, 0, 16, 16], "texture": "#border", "cullface": "south"}
+			}
+		},
+		{
+			"from": [16.02, 0, 0],
+			"to": [16.02, 16, 1],
+			"faces": {
+				"east": {"uv": [15, 0, 16, 16], "texture": "#border", "cullface": "north"}
+			}
+		},
+		{
+			"from": [16.02, 0, 15],
+			"to": [16.02, 16, 16],
+			"faces": {
+				"east": {"uv": [0, 0, 1, 16], "texture": "#border", "cullface": "south"}
+			}
+		}
+	]
+}

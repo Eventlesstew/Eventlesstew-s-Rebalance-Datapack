@@ -1,0 +1,7 @@
+{
+    "parent": "block/bookshelf",
+    "textures": {
+		"connected": "block/bookshelf2_borderless",
+		"border": "block/bookshelf2"
+    }
+}

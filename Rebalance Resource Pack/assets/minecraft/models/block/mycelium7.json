@@ -1,0 +1,7 @@
+{
+  "parent": "block/mycelium",
+  "textures": {
+    "top": "block/mycelium_top7",
+    "side": "block/mycelium_side7"
+  }
+}

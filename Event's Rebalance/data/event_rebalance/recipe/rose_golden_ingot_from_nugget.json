@@ -17,12 +17,13 @@
         "id": "minecraft:music_disc_tears",
         "components": {
             "!jukebox_playable": {},
+            "max_stack_size": 64,
             "custom_data": {
                 "rose_golden_ingot": true
             },
             "item_model": "event:rose_golden_ingot",
             "item_name": {
-                "translate": "item.minecraft.rose_golden_ingot"
+                "translate": "item.event.rose_golden_ingot"
             },
             "rarity": "common"
         }

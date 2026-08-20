@@ -18,7 +18,7 @@
                     "rarity": "common",
                     "max_stack_size": 64,
                     "item_name": {
-                        "translate": "item.minecraft.rose_golden_ingot"
+                        "translate": "item.event.rose_golden_ingot"
                     },
                     "item_model": "event:rose_golden_ingot"
                 }

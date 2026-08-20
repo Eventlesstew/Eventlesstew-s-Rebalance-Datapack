@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "type=bottom": [
+      { "model": "block/acacia_slab" },
+      { "model": "block/acacia_slab2" },
+      { "model": "block/acacia_slab3" },
+      { "model": "block/acacia_slab4" },
+      { "model": "block/acacia_slab5" }
+    ],
+    "type=top": [
+      { "model": "block/acacia_slab_top" },
+      { "model": "block/acacia_slab_top2" },
+      { "model": "block/acacia_slab_top3" },
+      { "model": "block/acacia_slab_top4" },
+      { "model": "block/acacia_slab_top5" }
+    ],
+    "type=double": [
+      { "model": "block/acacia_planks" },
+      { "model": "block/acacia_planks2" },
+      { "model": "block/acacia_planks3" },
+      { "model": "block/acacia_planks4" },
+      { "model": "block/acacia_planks5" }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "type=bottom": [
+      { "model": "block/birch_slab" },
+      { "model": "block/birch_slab2" },
+      { "model": "block/birch_slab3" },
+      { "model": "block/birch_slab4" },
+      { "model": "block/birch_slab5" }
+    ],
+    "type=top": [
+      { "model": "block/birch_slab_top" },
+      { "model": "block/birch_slab_top2" },
+      { "model": "block/birch_slab_top3" },
+      { "model": "block/birch_slab_top4" },
+      { "model": "block/birch_slab_top5" }
+    ],
+    "type=double": [
+      { "model": "block/birch_planks" },
+      { "model": "block/birch_planks2" },
+      { "model": "block/birch_planks3" },
+      { "model": "block/birch_planks4" },
+      { "model": "block/birch_planks5" }
+    ]
+  }
+}

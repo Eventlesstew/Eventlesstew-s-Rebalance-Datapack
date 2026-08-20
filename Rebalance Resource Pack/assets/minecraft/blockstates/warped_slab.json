@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "type=bottom": [
+      { "model": "block/warped_slab" },
+      { "model": "block/warped_slab2" },
+      { "model": "block/warped_slab3" },
+      { "model": "block/warped_slab4" },
+      { "model": "block/warped_slab5" }
+    ],
+    "type=top": [
+      { "model": "block/warped_slab_top" },
+      { "model": "block/warped_slab_top2" },
+      { "model": "block/warped_slab_top3" },
+      { "model": "block/warped_slab_top4" },
+      { "model": "block/warped_slab_top5" }
+    ],
+    "type=double": [
+      { "model": "block/warped_planks" },
+      { "model": "block/warped_planks2" },
+      { "model": "block/warped_planks3" },
+      { "model": "block/warped_planks4" },
+      { "model": "block/warped_planks5" }
+    ]
+  }
+}

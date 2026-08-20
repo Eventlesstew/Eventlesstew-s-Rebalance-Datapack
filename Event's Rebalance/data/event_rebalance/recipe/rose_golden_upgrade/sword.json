@@ -9,7 +9,7 @@
             "custom_data": {
                 "rose_golden": true
             },
-            "item_model": "event:rose_golden/sword",
+            "item_model": "event:rose_golden_sword",
             "item_name": {
                 "translate": "item.event.rose_golden_sword"
             }

@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  
+  "textures": {
+    "layer0": "event:item/rose_gold_upgrade_smithing_template"
+  }
+}

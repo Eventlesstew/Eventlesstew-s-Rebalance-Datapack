@@ -1,0 +1,182 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": [
+		{ "model": "minecraft:block/red_mushroom_block", "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block2", "uvlock": true, "weight": 2 },
+		{ "model": "minecraft:block/red_mushroom_block3", "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block4", "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block5", "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block6", "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block7", "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block8", "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block9", "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block10", "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block11", "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block12", "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block13", "uvlock": true, "weight": 100 }
+	  ]
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": [
+        { "model": "minecraft:block/red_mushroom_block", "y": 90, "uvlock": true, "weight": 100 },
+        { "model": "minecraft:block/red_mushroom_block2", "y": 90, "uvlock": true, "weight": 2 },
+        { "model": "minecraft:block/red_mushroom_block3", "y": 90, "uvlock": true, "weight": 100 },
+        { "model": "minecraft:block/red_mushroom_block4", "y": 90, "uvlock": true, "weight": 100 },
+        { "model": "minecraft:block/red_mushroom_block5", "y": 90, "uvlock": true, "weight": 100 },
+        { "model": "minecraft:block/red_mushroom_block6", "y": 90, "uvlock": true, "weight": 100 },
+        { "model": "minecraft:block/red_mushroom_block7", "y": 90, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block8", "y": 90, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block9", "y": 90, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block10", "y": 90, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block11", "y": 90, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block12", "y": 90, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block13", "y": 90, "uvlock": true, "weight": 100 }
+	  ]
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": [
+		{ "model": "minecraft:block/red_mushroom_block", "y": 180, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block2", "y": 180, "uvlock": true, "weight": 2 },
+		{ "model": "minecraft:block/red_mushroom_block3", "y": 180, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block4", "y": 180, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block5", "y": 180, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block6", "y": 180, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block7", "y": 180, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block8", "y": 180, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block9", "y": 180, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block10", "y": 180, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block11", "y": 180, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block12", "y": 180, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block13", "y": 180, "uvlock": true, "weight": 100 }
+	  ]
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": [
+		{ "model": "minecraft:block/red_mushroom_block", "y": 270, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block2", "y": 270, "uvlock": true, "weight": 2 },
+		{ "model": "minecraft:block/red_mushroom_block3", "y": 270, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block4", "y": 270, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block5", "y": 270, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block6", "y": 270, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block7", "y": 270, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block8", "y": 270, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block9", "y": 270, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block10", "y": 270, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block11", "y": 270, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block12", "y": 270, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block13", "y": 270, "uvlock": true, "weight": 100 }
+	  ]
+    },
+    {
+      "when": {
+        "up": "true"
+      },
+      "apply": [
+		{ "model": "minecraft:block/red_mushroom_block", "x": 270, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block2", "x": 270, "uvlock": true, "weight": 2 },
+		{ "model": "minecraft:block/red_mushroom_block3", "x": 270, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block4", "x": 270, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block5", "x": 270, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block6", "x": 270, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block7", "x": 270, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block8", "x": 270, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block9", "x": 270, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block10", "x": 270, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block11", "x": 270, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block12", "x": 270, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block13", "x": 270, "uvlock": true, "weight": 100 }
+	  ]
+    },
+    {
+      "when": {
+        "down": "true"
+      },
+      "apply": [
+		{ "model": "minecraft:block/red_mushroom_block", "x": 90, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block2", "x": 90, "uvlock": true, "weight": 2 },
+		{ "model": "minecraft:block/red_mushroom_block3", "x": 90, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block4", "x": 90, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block5", "x": 90, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block6", "x": 90, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block7", "x": 90, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block8", "x": 90, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block9", "x": 90, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block10", "x": 90, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block11", "x": 90, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block12", "x": 90, "uvlock": true, "weight": 100 },
+		{ "model": "minecraft:block/red_mushroom_block13", "x": 90, "uvlock": true, "weight": 100 }
+	  ]
+    },
+    {
+      "when": {
+        "north": "false"
+      },
+      "apply": {
+        "model": "minecraft:block/mushroom_block_inside"
+      }
+    },
+    {
+      "when": {
+        "east": "false"
+      },
+      "apply": {
+        "model": "minecraft:block/mushroom_block_inside",
+        "y": 90,
+        "uvlock": false
+      }
+    },
+    {
+      "when": {
+        "south": "false"
+      },
+      "apply": {
+        "model": "minecraft:block/mushroom_block_inside",
+        "y": 180,
+        "uvlock": false
+      }
+    },
+    {
+      "when": {
+        "west": "false"
+      },
+      "apply": {
+        "model": "minecraft:block/mushroom_block_inside",
+        "y": 270,
+        "uvlock": false
+      }
+    },
+    {
+      "when": {
+        "up": "false"
+      },
+      "apply": {
+        "model": "minecraft:block/mushroom_block_inside",
+        "x": 270,
+        "uvlock": false
+      }
+    },
+    {
+      "when": {
+        "down": "false"
+      },
+      "apply": {
+        "model": "minecraft:block/mushroom_block_inside",
+        "x": 90,
+        "uvlock": false
+      }
+    }
+  ]
+}

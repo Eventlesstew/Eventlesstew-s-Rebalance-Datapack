@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "": [
+      { "model": "block/dirt" },
+      { "model": "block/dirt2" },
+      { "model": "block/dirt3" },
+      { "model": "block/dirt4" },
+      { "model": "block/dirt5" },
+      { "model": "block/dirt6" },
+      { "model": "block/dirt7" },
+      { "model": "block/dirt8" },
+      { "model": "block/dirt9" },
+      { "model": "block/dirt10" },
+      { "model": "block/dirt11" },
+      { "model": "block/dirt12" },
+      { "model": "block/dirt13" },
+      { "model": "block/dirt14" },
+      { "model": "block/dirt15" },
+      { "model": "block/dirt16" },
+      { "model": "block/dirt17" }
+    ]
+  }
+}

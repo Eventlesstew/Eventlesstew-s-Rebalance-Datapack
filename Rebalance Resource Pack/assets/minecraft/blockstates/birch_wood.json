@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "axis=x": [
+	{ "model": "minecraft:block/birch_wood", "x": 90, "y": 90, "weight": 100 },
+	{ "model": "minecraft:block/birch_wood2", "x": 90, "y": 90, "weight": 10 },
+	{ "model": "minecraft:block/birch_wood3", "x": 90, "y": 90, "weight": 100 },
+	{ "model": "minecraft:block/birch_wood4", "x": 90, "y": 90, "weight": 100 },
+	{ "model": "minecraft:block/birch_wood5", "x": 90, "y": 90, "weight": 100 },
+	{ "model": "minecraft:block/birch_wood6", "x": 90, "y": 90, "weight": 10 }
+    ],
+    "axis=y": [
+	{ "model": "minecraft:block/birch_wood", "weight": 100 },
+	{ "model": "minecraft:block/birch_wood2", "weight": 10 },
+	{ "model": "minecraft:block/birch_wood3", "weight": 100 },
+	{ "model": "minecraft:block/birch_wood4", "weight": 100 },
+	{ "model": "minecraft:block/birch_wood5", "weight": 100 },
+	{ "model": "minecraft:block/birch_wood6", "weight": 10 }
+    ],
+    "axis=z": [
+	{ "model": "minecraft:block/birch_wood", "x": 90, "weight": 100 },
+	{ "model": "minecraft:block/birch_wood2", "x": 90, "weight": 10 },
+	{ "model": "minecraft:block/birch_wood3", "x": 90, "weight": 100 },
+	{ "model": "minecraft:block/birch_wood4", "x": 90, "weight": 100 },
+	{ "model": "minecraft:block/birch_wood5", "x": 90, "weight": 100 },
+	{ "model": "minecraft:block/birch_wood6", "x": 90, "weight": 10 }
+    ]
+  }
+}

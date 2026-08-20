@@ -45,7 +45,7 @@
             {
                 "function": "set_components",
                 "components": {
-                    "item_model": "event:rose_golden/pickaxe",
+                    "item_model": "event:rose_golden_pickaxe",
                     "item_name": {
                         "translate": "item.event.rose_golden_pickaxe"
                     },

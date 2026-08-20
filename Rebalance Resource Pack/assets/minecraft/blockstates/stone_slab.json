@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "type=bottom": [
+	{ "model": "minecraft:block/stone_slab" },
+	{ "model": "minecraft:block/stone_slab2" },
+	{ "model": "minecraft:block/stone_slab3" },
+	{ "model": "minecraft:block/stone_slab4" },
+	{ "model": "minecraft:block/stone_slab5" },
+	{ "model": "minecraft:block/stone_slab6" },
+	{ "model": "minecraft:block/stone_slab7" }
+    ],
+    "type=double": [
+	{ "model": "minecraft:block/stone" },
+	{ "model": "minecraft:block/stone2" },
+	{ "model": "minecraft:block/stone3" },
+	{ "model": "minecraft:block/stone4" },
+	{ "model": "minecraft:block/stone5" },
+	{ "model": "minecraft:block/stone6" },
+	{ "model": "minecraft:block/stone7" }
+    ],
+    "type=top": [
+	{ "model": "minecraft:block/stone_slab_top" },
+	{ "model": "minecraft:block/stone_slab_top2" },
+	{ "model": "minecraft:block/stone_slab_top3" },
+	{ "model": "minecraft:block/stone_slab_top4" },
+	{ "model": "minecraft:block/stone_slab_top5" },
+	{ "model": "minecraft:block/stone_slab_top6" },
+	{ "model": "minecraft:block/stone_slab_top7" }
+    ]
+  }
+}

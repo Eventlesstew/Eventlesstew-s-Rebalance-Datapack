@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "": [
+      { "model": "block/warped_planks" },
+      { "model": "block/warped_planks2" },
+      { "model": "block/warped_planks3" },
+      { "model": "block/warped_planks4" },
+      { "model": "block/warped_planks5" },
+      { "model": "block/warped_planks6" }
+    ]
+  }
+}

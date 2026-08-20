@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "minecraft:block/andesite7",
+    "side": "minecraft:block/andesite7",
+    "top": "minecraft:block/andesite7"
+  }
+}
