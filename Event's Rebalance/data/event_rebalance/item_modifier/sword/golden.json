@@ -18,14 +18,14 @@
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_damage",
-                        "amount": 5,
+                        "amount": 6,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_speed",
-                        "amount": -2.2,
+                        "amount": -2.3,
                         "operation": "add_value",
                         "slot": "mainhand"
                     }
@@ -58,40 +58,40 @@
                 }
             },
             {
-            "function": "minecraft:set_lore",
-            "lore": [
-                {
-                    "translate": " ",
-                    "color": "#AAAAAA",
-                    "italic": false
-                },
-                {
-                    "translate": "item.modifiers.mainhand",
-                    "color": "#AAAAAA",
-                    "italic": false
-                },
-                {
-                    "translate": " 6 ",
-                    "extra": [
-                        {
-                        "translate": "attribute.name.attack_damage"
-                        }
-                    ],
-                    "color": "#1aa819",
-                    "italic": false
-                },
-                {
-                    "translate": " 1.8 ",
-                    "extra": [
-                        {
-                        "translate": "attribute.name.attack_speed"
-                        }
-                    ],
-                    "color": "#1aa819",
-                    "italic": false
-                }
-            ],
-            "mode": "replace_all"
+                "function": "minecraft:set_lore",
+                "lore": [
+                    {
+                        "translate": " ",
+                        "color": "#AAAAAA",
+                        "italic": false
+                    },
+                    {
+                        "translate": "item.modifiers.mainhand",
+                        "color": "#AAAAAA",
+                        "italic": false
+                    },
+                    {
+                        "translate": " 7 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.attack_damage"
+                            }
+                        ],
+                        "color": "#1aa819",
+                        "italic": false
+                    },
+                    {
+                        "translate": " 1.7 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.attack_speed"
+                            }
+                        ],
+                        "color": "#1aa819",
+                        "italic": false
+                    }
+                ],
+                "mode": "replace_all"
             }
         ]
     }

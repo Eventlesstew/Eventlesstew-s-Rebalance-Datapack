@@ -18,7 +18,7 @@
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_damage",
-                        "amount": 9,
+                        "amount": 8,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
@@ -71,7 +71,7 @@
                         "italic": false
                     },
                     {
-                        "translate": " 10 ",
+                        "translate": " 9 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.attack_damage"

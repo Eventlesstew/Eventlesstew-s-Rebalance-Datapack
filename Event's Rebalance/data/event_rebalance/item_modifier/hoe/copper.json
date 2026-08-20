@@ -1,7 +1,7 @@
 {
     "function": "filtered",
     "item_filter": {
-        "items": "netherite_pickaxe"
+        "items": "copper_hoe"
     },
     "on_pass": {
         "function": "sequence",
@@ -18,14 +18,14 @@
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_damage",
-                        "amount": 7,
+                        "amount": 3,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_speed",
-                        "amount": -3.4,
+                        "amount": -3.1,
                         "operation": "add_value",
                         "slot": "mainhand"
                     }
@@ -40,17 +40,12 @@
             {
                 "function": "set_components",
                 "components": {
-                    "minecraft:max_damage": 2048,
+                    "minecraft:max_damage": 128,
                     "tool": {
                         "rules": [
                             {
-                                "blocks": "#event_rebalance:obsidian",
-                                "speed": 32,
-                                "correct_for_drops": true
-                            },
-                            {
-                                "blocks": "#mineable/pickaxe",
-                                "speed": 16,
+                                "blocks": "#mineable/hoe",
+                                "speed": 6,
                                 "correct_for_drops": true
                             }
                         ]
@@ -71,7 +66,7 @@
                         "italic": false
                     },
                     {
-                        "translate": " 8 ",
+                        "translate": " 4 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.attack_damage"
@@ -81,7 +76,7 @@
                         "italic": false
                     },
                     {
-                        "translate": " 0.6 ",
+                        "translate": " 0.9 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.attack_speed"
@@ -91,30 +86,10 @@
                         "italic": false
                     },
                     {
-                        "translate": " X16 ",
+                        "translate": " X6 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.mining_speed"
-                            }
-                        ],
-                        "color": "#d3a921",
-                        "italic": false
-                    },
-                    {
-                        "translate": " X32 ",
-                        "extra": [
-                            {
-                                "translate": "attribute.name.obsidian_mining_speed"
-                            }
-                        ],
-                        "color": "#d3a921",
-                        "italic": false
-                    },
-                    {
-                        "translate": " 5 ",
-                        "extra": [
-                            {
-                                "translate": "attribute.name.mining_power"
                             }
                         ],
                         "color": "#d3a921",

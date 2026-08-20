@@ -23,14 +23,14 @@
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_damage",
-                        "amount": 5,
+                        "amount": 3,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_speed",
-                        "amount": -2.6,
+                        "amount": -2.4,
                         "operation": "add_value",
                         "slot": "mainhand"
                     }
@@ -75,7 +75,7 @@
                         "italic": false
                     },
                     {
-                        "translate": " 6 ",
+                        "translate": " 4 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.attack_damage"
@@ -85,7 +85,7 @@
                         "italic": false
                     },
                     {
-                        "translate": " 1.4 ",
+                        "translate": " 1.6 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.attack_speed"
