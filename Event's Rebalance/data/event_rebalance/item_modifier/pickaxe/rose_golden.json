@@ -1,12 +1,7 @@
 {
     "function": "filtered",
     "item_filter": {
-        "items": "#event_rebalance:custom_item/rose_golden_pickaxe",
-        "components": {
-            "custom_data": {
-                "rose_golden": true
-            }
-        }
+        "items": "#event_rebalance:custom_item/rose_golden_pickaxe"
     },
     "on_pass": {
         "function": "sequence",
@@ -45,11 +40,10 @@
             {
                 "function": "set_components",
                 "components": {
-                    "item_model": "event:rose_golden_pickaxe",
-                    "item_name": {
-                        "translate": "item.event.rose_golden_pickaxe"
+                    "minecraft:max_damage": 256,
+                    "repairable": {
+                        "items": "#event_rebalance:tool_repair/rose_golden"
                     },
-                    "minecraft:max_damage": 512,
                     "tool": {
                         "rules": [
                             {

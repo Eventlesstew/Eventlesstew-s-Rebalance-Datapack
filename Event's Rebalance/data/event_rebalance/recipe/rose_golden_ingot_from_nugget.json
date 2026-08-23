@@ -1,22 +1,23 @@
 {
     "type": "minecraft:crafting_shapeless",
     "category": "misc",
+    "group": "rose_gold_ingot",
     "ingredients": [
-        "music_disc_lava_chicken",
-        "music_disc_lava_chicken",
-        "music_disc_lava_chicken",
-        "music_disc_lava_chicken",
-        "music_disc_lava_chicken",
-        "music_disc_lava_chicken",
-        "music_disc_lava_chicken",
-        "music_disc_lava_chicken",
-        "music_disc_lava_chicken"
+        "piglin_spawn_egg",
+        "piglin_spawn_egg",
+        "piglin_spawn_egg",
+        "piglin_spawn_egg",
+        "piglin_spawn_egg",
+        "piglin_spawn_egg",
+        "piglin_spawn_egg",
+        "piglin_spawn_egg",
+        "piglin_spawn_egg"
     ],
     "result": {
         "count": 1,
-        "id": "minecraft:music_disc_tears",
+        "id": "minecraft:piglin_brute_spawn_egg",
         "components": {
-            "!jukebox_playable": {},
+            "!entity_data": {},
             "max_stack_size": 64,
             "custom_data": {
                 "rose_golden_ingot": true

@@ -1,0 +1,18 @@
+{
+    "type": "smithing_transform",
+    "base": "golden_boots",
+    "addition": "#event_rebalance:rose_golden_tool_materials",
+    "template": "#event_rebalance:custom_item/rose_golden_upgrade_smithing_template",
+    "result": {
+        "id": "chainmail_boots",
+        "components": {
+            "custom_data": {
+                "rose_golden": true
+            },
+            "item_model": "event:rose_golden/boots",
+            "item_name": {
+                "translate": "item.event.rose_golden_boots"
+            }
+        }
+    }
+}

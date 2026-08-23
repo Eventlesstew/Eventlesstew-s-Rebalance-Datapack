@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 64.0,
+  "group": "lapis_lazuli",
+  "ingredient": "minecraft:deepslate_lapis_ore",
+  "result": {
+    "id": "minecraft:lapis_lazuli"
+  }
+}

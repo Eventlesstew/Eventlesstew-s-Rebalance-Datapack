@@ -1,6 +1,7 @@
 {
     "type": "minecraft:crafting_shapeless",
     "category": "misc",
+    "group": "rose_gold_ingot",
     "ingredients": [
         "gold_ingot",
         "gold_ingot",
@@ -13,7 +14,7 @@
     ],
     "result": {
         "count": 1,
-        "id": "minecraft:music_disc_tears",
+        "id": "minecraft:piglin_brute_spawn_egg",
         "components": {
             "!jukebox_playable": {},
             "max_stack_size": 64,

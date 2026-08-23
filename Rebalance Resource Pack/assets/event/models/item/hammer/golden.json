@@ -1,0 +1,6 @@
+{
+    "parent": "event:item/hammer",
+    "textures": {
+        "layer0": "event:item/golden_hammer"
+    }
+}

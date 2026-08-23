@@ -41,6 +41,9 @@
                 "function": "set_components",
                 "components": {
                     "minecraft:max_damage": 128,
+                    "repairable": {
+                        "items": "#event_rebalance:tool_repair/copper"
+                    },
                     "tool": {
                         "rules": [
                             {

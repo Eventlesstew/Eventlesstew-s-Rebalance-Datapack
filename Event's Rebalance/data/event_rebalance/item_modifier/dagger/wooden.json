@@ -1,7 +1,7 @@
 {
     "function": "filtered",
     "item_filter": {
-        "items": "music_disc_creator",
+        "items": "#event_rebalance:custom_item/wooden_dagger",
         "components": {
             "custom_data": {
                 "wooden_dagger":true
@@ -54,7 +54,7 @@
                         "value": 10
                     },
                     "repairable": {
-                        "items": "#wooden_tool_materials"
+                        "items": "#event_rebalance:tool_repair/wooden"
                     },
                     "item_name": {
                         "translate": "item.minecraft.wooden_dagger"
@@ -103,7 +103,7 @@
                     "italic": false
                 },
                 {
-                    "translate": " 5 ",
+                    "translate": " 4.8 ",
                     "extra": [
                         {
                             "translate": "attribute.name.attack_speed"

@@ -1,12 +1,7 @@
 {
     "function": "filtered",
     "item_filter": {
-        "items": "#event_rebalance:custom_item/rose_golden_ingot",
-        "components": {
-            "custom_data": {
-                "rose_golden_ingot": true
-            }
-        }
+        "items": "#event_rebalance:custom_item/rose_golden_ingot"
     },
     "on_pass": {
         "function": "sequence",
@@ -14,13 +9,12 @@
             {
                 "function": "set_components",
                 "components": {
-                    "!jukebox_playable": {},
-                    "rarity": "common",
-                    "max_stack_size": 64,
-                    "item_name": {
-                        "translate": "item.event.rose_golden_ingot"
+                    "custom_data": {
+                        "modified":true
                     },
-                    "item_model": "event:rose_golden_ingot"
+                    "!entity_data": {},
+                    "rarity": "common",
+                    "max_stack_size": 64
                 }
             }
         ]

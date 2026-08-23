@@ -6,7 +6,7 @@
     ],
     "result": {
         "count": 9,
-        "id": "minecraft:music_disc_lava_chicken",
+        "id": "minecraft:piglin_spawn_egg",
         "components": {
             "!jukebox_playable": {},
             "max_stack_size": 64,

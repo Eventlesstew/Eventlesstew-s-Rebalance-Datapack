@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "experience": 2.4,
+  "group": "redstone",
+  "ingredient": "minecraft:redstone_ore",
+  "result": {
+    "id": "minecraft:redstone"
+  }
+}

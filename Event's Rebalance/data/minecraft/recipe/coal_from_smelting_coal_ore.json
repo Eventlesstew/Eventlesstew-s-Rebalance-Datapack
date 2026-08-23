@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 4,
+  "group": "coal",
+  "ingredient": "minecraft:coal_ore",
+  "result": {
+    "id": "minecraft:coal"
+  }
+}

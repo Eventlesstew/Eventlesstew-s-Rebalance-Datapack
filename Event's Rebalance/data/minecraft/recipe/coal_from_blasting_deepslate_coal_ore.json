@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 4,
+  "group": "coal",
+  "ingredient": "minecraft:deepslate_coal_ore",
+  "result": {
+    "id": "minecraft:coal"
+  }
+}

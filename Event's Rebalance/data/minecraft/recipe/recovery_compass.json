@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": "minecraft:amethyst_shard",
+    "S": "minecraft:crying_obsidian"
+  },
+  "pattern": [
+    " S ",
+    "SCS",
+    " S "
+  ],
+  "result": {
+    "id": "minecraft:recovery_compass"
+  }
+}

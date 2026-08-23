@@ -80,6 +80,14 @@
             },
             {
                 "function": "reference",
+                "name": "event_rebalance:hoe/golden"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:hoe/rose_golden"
+            },
+            {
+                "function": "reference",
                 "name": "event_rebalance:hoe/diamond"
             },
             {
