@@ -1,0 +1,59 @@
+{
+    "function": "filtered",
+    "item_filter": {
+        "items": "chainmail_leggings"
+    },
+    "on_pass": {
+        "function": "sequence",
+        "functions": [
+            {
+                "tag": {
+                    "modified": true
+                },
+                "function": "set_custom_data"
+            },
+            {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                    {
+                        "id": "balance",
+                        "attribute": "minecraft:armor",
+                        "amount": 5,
+                        "operation": "add_value",
+                        "slot": "legs"
+                    },
+                    {
+                        "id": "balance",
+                        "attribute": "minecraft:max_health",
+                        "amount": 6,
+                        "operation": "add_value",
+                        "slot": "legs"
+                    },
+                    {
+                        "id": "balance",
+                        "attribute": "minecraft:movement_speed",
+                        "amount": 0.03,
+                        "operation": "add_multiplied_base",
+                        "slot": "legs"
+                    },
+                    {
+                        "id": "balance",
+                        "attribute": "minecraft:air_drag_modifier",
+                        "amount": -0.03,
+                        "operation": "add_multiplied_base",
+                        "slot": "legs"
+                    }
+                ]
+            },
+            {
+                "function": "set_components",
+                "components": {
+                    "minecraft:max_damage": 256,
+                    "repairable": {
+                        "items": "#event_rebalance:tool_repair/rose_golden"
+                    }
+                }
+            }
+        ]
+    }
+}

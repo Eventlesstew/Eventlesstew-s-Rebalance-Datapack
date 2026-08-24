@@ -1,0 +1,59 @@
+{
+    "function": "filtered",
+    "item_filter": {
+        "items": "turtle_helmet"
+    },
+    "on_pass": {
+        "function": "sequence",
+        "functions": [
+            {
+                "tag": {
+                    "modified": true
+                },
+                "function": "set_custom_data"
+            },
+            {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                    {
+                        "id": "balance",
+                        "attribute": "minecraft:armor",
+                        "amount": 4,
+                        "operation": "add_value",
+                        "slot": "head"
+                    },
+                    {
+                        "id": "balance",
+                        "attribute": "minecraft:armor_toughness",
+                        "amount": 4,
+                        "operation": "add_value",
+                        "slot": "head"
+                    },
+                    {
+                        "id": "balance",
+                        "attribute": "minecraft:movement_speed",
+                        "amount": -0.02,
+                        "operation": "add_multiplied_base",
+                        "slot": "head"
+                    },
+                    {
+                        "id": "balance",
+                        "attribute": "minecraft:air_drag_modifier",
+                        "amount": 0.04,
+                        "operation": "add_multiplied_base",
+                        "slot": "head"
+                    }
+                ]
+            },
+            {
+                "function": "set_components",
+                "components": {
+                    "minecraft:max_damage": 512,
+                    "repairable": {
+                        "items": "#event_rebalance:tool_repair/turtle"
+                    }
+                }
+            }
+        ]
+    }
+}
