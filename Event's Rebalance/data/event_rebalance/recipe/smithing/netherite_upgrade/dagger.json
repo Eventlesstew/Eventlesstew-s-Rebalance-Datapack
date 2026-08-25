@@ -1,6 +1,6 @@
 {
     "type": "smithing_transform",
-    "base": "music_disc_precipice",
+    "base": "#event_rebalance:custom_item/diamond_dagger",
     "addition": "#minecraft:netherite_tool_materials",
     "template": "netherite_upgrade_smithing_template",
     "result": {

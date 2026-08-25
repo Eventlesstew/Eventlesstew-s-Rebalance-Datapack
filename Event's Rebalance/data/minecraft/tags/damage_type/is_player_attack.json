@@ -1,0 +1,8 @@
+{
+  "values": [
+    "minecraft:player_attack",
+    "minecraft:spear",
+    "event_rebalance:dagger",
+    "minecraft:mace_smash"
+  ]
+}

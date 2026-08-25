@@ -1,0 +1,66 @@
+{
+    "function": "filtered",
+    "item_filter": {
+        "items": "netherite_chestplate"
+    },
+    "on_pass": {
+        "function": "sequence",
+        "functions": [
+            {
+                "tag": {
+                    "modified": true
+                },
+                "function": "set_custom_data"
+            },
+            {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                    {
+                        "id": "balance_chestplate",
+                        "attribute": "minecraft:armor",
+                        "amount": 6,
+                        "operation": "add_value",
+                        "slot": "chest"
+                    },
+                    {
+                        "id": "balance_chestplate",
+                        "attribute": "minecraft:armor_toughness",
+                        "amount": 6,
+                        "operation": "add_value",
+                        "slot": "chest"
+                    },
+                    {
+                        "id": "balance_chestplate",
+                        "attribute": "minecraft:movement_speed",
+                        "amount": -0.08,
+                        "operation": "add_multiplied_base",
+                        "slot": "chest"
+                    },
+                    {
+                        "id": "balance_chestplate",
+                        "attribute": "minecraft:air_drag_modifier",
+                        "amount": 0.16,
+                        "operation": "add_multiplied_base",
+                        "slot": "chest"
+                    },
+                    {
+                        "id": "balance_chestplate",
+                        "attribute": "minecraft:burning_time",
+                        "amount": -0.25,
+                        "operation": "add_multiplied_base",
+                        "slot": "body"
+                    }
+                ]
+            },
+            {
+                "function": "set_components",
+                "components": {
+                    "minecraft:max_damage": 2048,
+                    "repairable": {
+                        "items": "#event_rebalance:tool_repair/netherite"
+                    }
+                }
+            }
+        ]
+    }
+}

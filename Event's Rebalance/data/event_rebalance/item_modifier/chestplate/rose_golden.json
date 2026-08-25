@@ -16,32 +16,32 @@
                 "function": "minecraft:set_attributes",
                 "modifiers": [
                     {
-                        "id": "balance",
+                        "id": "balance_chestplate",
                         "attribute": "minecraft:armor",
                         "amount": 6,
                         "operation": "add_value",
-                        "slot": "body"
+                        "slot": "chest"
                     },
                     {
-                        "id": "balance",
+                        "id": "balance_chestplate",
                         "attribute": "minecraft:max_health",
                         "amount": 6,
                         "operation": "add_value",
-                        "slot": "body"
+                        "slot": "chest"
                     },
                     {
-                        "id": "balance",
+                        "id": "balance_chestplate",
                         "attribute": "minecraft:movement_speed",
                         "amount": 0.02,
                         "operation": "add_multiplied_base",
-                        "slot": "body"
+                        "slot": "chest"
                     },
                     {
-                        "id": "balance",
+                        "id": "balance_chestplate",
                         "attribute": "minecraft:air_drag_modifier",
                         "amount": -0.02,
                         "operation": "add_multiplied_base",
-                        "slot": "body"
+                        "slot": "chest"
                     }
                 ]
             },
@@ -49,6 +49,7 @@
                 "function": "set_components",
                 "components": {
                     "minecraft:max_damage": 256,
+                    "rarity":"common",
                     "repairable": {
                         "items": "#event_rebalance:tool_repair/rose_golden"
                     }

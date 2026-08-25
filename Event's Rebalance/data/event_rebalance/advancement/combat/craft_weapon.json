@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "item_gained": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#event_rebalance:advancement/craft_weapon"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "parent": "event_rebalance:combat/root",
+  "display": {
+    "title": {
+      "translate": "advancements.story.craft_weapon.title"
+    },
+    "description": {
+      "translate": "advancements.story.craft_weapon.description"
+    },
+    "icon": {
+        "id": "wooden_sword"
+    }
+  },
+  "requirements": [
+    [
+      "item_gained"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,9 @@
+{
+    "values": [
+        "copper_pickaxe",
+        "copper_axe",
+        "copper_shovel",
+        "copper_hoe",
+        "#event_rebalance:custom_item/copper_hammer"
+    ]
+}

@@ -126,6 +126,127 @@
                 "function": "reference",
                 "name": "event_rebalance:dagger/wooden"
             },
+
+            {
+                "function": "reference",
+                "name": "event_rebalance:helmet/leather"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:helmet/copper"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:helmet/iron"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:helmet/golden"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:helmet/rose_golden"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:helmet/diamond"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:helmet/netherite"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:special_armor/turtle_helmet"
+            },
+
+            {
+                "function": "reference",
+                "name": "event_rebalance:chestplate/leather"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:chestplate/copper"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:chestplate/iron"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:chestplate/golden"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:chestplate/rose_golden"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:chestplate/diamond"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:chestplate/netherite"
+            },
+
+            {
+                "function": "reference",
+                "name": "event_rebalance:leggings/leather"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:leggings/copper"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:leggings/iron"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:leggings/golden"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:leggings/rose_golden"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:leggings/diamond"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:leggings/netherite"
+            },
+
+            {
+                "function": "reference",
+                "name": "event_rebalance:boots/leather"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:boots/copper"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:boots/iron"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:boots/golden"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:boots/rose_golden"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:boots/diamond"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:boots/netherite"
+            },
+            
             {
                 "function": "reference",
                 "name": "event_rebalance:custom/rose_golden_ingot"

@@ -1,0 +1,59 @@
+{
+    "function": "filtered",
+    "item_filter": {
+        "items": "golden_boots"
+    },
+    "on_pass": {
+        "function": "sequence",
+        "functions": [
+            {
+                "tag": {
+                    "modified": true
+                },
+                "function": "set_custom_data"
+            },
+            {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                    {
+                        "id": "balance_boots",
+                        "attribute": "minecraft:armor",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "slot": "feet"
+                    },
+                    {
+                        "id": "balance_boots",
+                        "attribute": "minecraft:max_health",
+                        "amount": 2,
+                        "operation": "add_value",
+                        "slot": "feet"
+                    },
+                    {
+                        "id": "balance_boots",
+                        "attribute": "minecraft:movement_speed",
+                        "amount": 0.02,
+                        "operation": "add_multiplied_base",
+                        "slot": "feet"
+                    },
+                    {
+                        "id": "balance_boots",
+                        "attribute": "minecraft:air_drag_modifier",
+                        "amount": -0.02,
+                        "operation": "add_multiplied_base",
+                        "slot": "feet"
+                    }
+                ]
+            },
+            {
+                "function": "set_components",
+                "components": {
+                    "minecraft:max_damage": 128,
+                    "repairable": {
+                        "items": "#event_rebalance:tool_repair/golden"
+                    }
+                }
+            }
+        ]
+    }
+}

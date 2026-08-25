@@ -1,0 +1,45 @@
+{
+  "parent": "minecraft:story/obtain_armor",
+  "criteria": {
+    "netherite_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "chainmail_helmet"
+          },
+          {
+            "items": "chainmail_chestplate"
+          },
+          {
+            "items": "chainmail_leggings"
+          },
+          {
+            "items": "chainmail_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.combat.rose_golden_armor.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "id": "minecraft:chainmail_chestplate"
+    },
+    "title": {
+      "translate": "advancements.combat.rose_golden_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "netherite_armor"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

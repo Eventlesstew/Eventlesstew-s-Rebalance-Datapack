@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "Q": "minecraft:quartz",
+    "A": "minecraft:amethyst_shard"
+  },
+  "pattern": [
+    "QAQ",
+    "AQA",
+    "QAQ"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:shield",
+    "components": {
+      "item_model": "event:shield/cluster_shield",
+      "item_name": [
+        {
+          "translate": "item.event.cluster_shield"
+        }
+      ],
+      "custom_data": {
+        "cluster_shield":true
+      },
+      "lore": [
+        {
+          "translate": " ",
+          "color": "#AAAAAA",
+          "italic": false
+        },
+        {
+          "translate": "item.modifiers.use",
+          "color": "#AAAAAA",
+          "italic": false
+        },
+        {
+          "translate": "stats.shield.block",
+          "extra": [
+            {
+              "text": "12"
+            }
+          ],
+          "color": "#1aa819",
+          "italic": false
+        },
+        {
+          "translate": "stats.shield.absorb",
+          "extra": [
+            {
+              "text": "0%"
+            }
+          ],
+          "color": "#1aa819",
+          "italic": false
+        },
+        {
+          "translate": "stats.shield.blocking_angle",
+          "extra": [
+            {
+              "text": "180°"
+            }
+          ],
+          "color": "#1aa819",
+          "italic": false
+        },
+        {
+          "translate": "stats.tool.moving_spd.-80P",
+          "color": "#ff5555",
+          "italic": false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:story/obtain_armor",
+  "criteria": {
+    "netherite_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "leather_helmet"
+          },
+          {
+            "items": "leather_chestplate"
+          },
+          {
+            "items": "leather_leggings"
+          },
+          {
+            "items": "leather_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.combat.leather_armor.description"
+    },
+    "icon": {
+      "id": "minecraft:leather_chestplate"
+    },
+    "title": {
+      "translate": "advancements.combat.leather_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "netherite_armor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

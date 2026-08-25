@@ -1,0 +1,124 @@
+{
+  "criteria": {
+    "sword_obtained": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#swords"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "axe_obtained": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#axes"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "spear_obtained": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#spears"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "dagger_obtained": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#event_rebalance:daggers"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "hammer_obtained": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#event_rebalance:hammers"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mace_obtained": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mace"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "bow_obtained": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bow"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "crossbow_obtained": {
+      "conditions": {
+        "items": [
+          {
+            "items": "crossbow"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "trident_obtained": {
+      "conditions": {
+        "items": [
+          {
+            "items": "trident"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "parent": "event_rebalance:combat/moar_weaponry",
+  "display": {
+    "frame": "challenge",
+    "title": {
+      "translate": "advancements.combat.all_weapons.title"
+    },
+    "description": {
+      "translate": "advancements.combat.all_weapons.description"
+    },
+    "icon": {
+      "id": "minecraft:wooden_axe",
+      "components": {
+        "item_model": "event:hammer/golden"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "sword_obtained",
+      "axe_obtained",
+      "bow_obtained",
+      "crossbow_obtained",
+      "dagger_obtained",
+      "hammer_obtained",
+      "mace_obtained",
+      "spear_obtained",
+      "trident_obtained"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

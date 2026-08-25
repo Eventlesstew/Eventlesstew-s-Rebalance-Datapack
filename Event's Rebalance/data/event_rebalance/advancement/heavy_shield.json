@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "heavy_use": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "shield",
+          "components": {
+            "custom_data": {
+              "heavy_shield":true
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "heavy_use"
+    ]
+  ],
+	"rewards": {
+		"function": "event_rebalance:shield/heavy"
+	},
+  "sends_telemetry_event": true
+}

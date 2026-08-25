@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "item_gained": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#event_rebalance:hammers"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "parent": "story/root",
+  "display": {
+    "title": {
+      "translate": "advancements.story.hammer.title"
+    },
+    "description": {
+      "translate": "advancements.story.hammer.description"
+    },
+    "icon": {
+        "components": {
+            "item_model": "event:hammer/wooden"
+        },
+        "id": "paper"
+    }
+  },
+  "requirements": [
+    [
+      "item_gained"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

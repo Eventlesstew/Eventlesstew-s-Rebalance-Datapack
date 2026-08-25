@@ -1,0 +1,27 @@
+{
+    "criteria": {
+        "trigger":{
+            "trigger": "minecraft:tick"
+        }
+    },
+    "display": {
+        "announce_to_chat": false,
+        "background": "minecraft:gui/advancements/backgrounds/stone",
+        "description": {
+            "translate": "advancements.story.root.description"
+        },
+        "icon": {
+            "id": "minecraft:grass_block"
+        },
+        "show_toast": false,
+        "title": {
+            "translate": "advancements.story.root.title"
+        }
+    },
+    "requirements": [
+        [
+        "trigger"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

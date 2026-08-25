@@ -16,31 +16,17 @@
                 "function": "minecraft:set_attributes",
                 "modifiers": [
                     {
-                        "id": "balance",
+                        "id": "balance_helmet",
                         "attribute": "minecraft:armor",
                         "amount": 4,
                         "operation": "add_value",
                         "slot": "head"
                     },
                     {
-                        "id": "balance",
+                        "id": "balance_helmet",
                         "attribute": "minecraft:armor_toughness",
                         "amount": 2,
                         "operation": "add_value",
-                        "slot": "head"
-                    },
-                    {
-                        "id": "balance",
-                        "attribute": "minecraft:movement_speed",
-                        "amount": -0.01,
-                        "operation": "add_multiplied_base",
-                        "slot": "head"
-                    },
-                    {
-                        "id": "balance",
-                        "attribute": "minecraft:air_drag_modifier",
-                        "amount": 0.02,
-                        "operation": "add_multiplied_base",
                         "slot": "head"
                     }
                 ]

@@ -1,0 +1,52 @@
+{
+    "function": "filtered",
+    "item_filter": {
+        "items": "copper_leggings"
+    },
+    "on_pass": {
+        "function": "sequence",
+        "functions": [
+            {
+                "tag": {
+                    "modified": true
+                },
+                "function": "set_custom_data"
+            },
+            {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                    {
+                        "id": "balance_leggings",
+                        "attribute": "minecraft:armor",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "slot": "legs"
+                    },
+                    {
+                        "id": "balance_leggings",
+                        "attribute": "minecraft:movement_speed",
+                        "amount": 0.03,
+                        "operation": "add_multiplied_base",
+                        "slot": "legs"
+                    },
+                    {
+                        "id": "balance_leggings",
+                        "attribute": "minecraft:air_drag_modifier",
+                        "amount": -0.03,
+                        "operation": "add_multiplied_base",
+                        "slot": "legs"
+                    }
+                ]
+            },
+            {
+                "function": "set_components",
+                "components": {
+                    "minecraft:max_damage": 128,
+                    "repairable": {
+                        "items": "#event_rebalance:tool_repair/copper"
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -16,28 +16,28 @@
                 "function": "minecraft:set_attributes",
                 "modifiers": [
                     {
-                        "id": "balance",
+                        "id": "balance_leggings",
                         "attribute": "minecraft:armor",
                         "amount": 5,
                         "operation": "add_value",
                         "slot": "legs"
                     },
                     {
-                        "id": "balance",
+                        "id": "balance_leggings",
                         "attribute": "minecraft:max_health",
                         "amount": 6,
                         "operation": "add_value",
                         "slot": "legs"
                     },
                     {
-                        "id": "balance",
+                        "id": "balance_leggings",
                         "attribute": "minecraft:movement_speed",
                         "amount": 0.03,
                         "operation": "add_multiplied_base",
                         "slot": "legs"
                     },
                     {
-                        "id": "balance",
+                        "id": "balance_leggings",
                         "attribute": "minecraft:air_drag_modifier",
                         "amount": -0.03,
                         "operation": "add_multiplied_base",
@@ -49,6 +49,7 @@
                 "function": "set_components",
                 "components": {
                     "minecraft:max_damage": 256,
+                    "rarity":"common",
                     "repairable": {
                         "items": "#event_rebalance:tool_repair/rose_golden"
                     }

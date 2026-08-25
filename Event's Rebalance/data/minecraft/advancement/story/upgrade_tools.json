@@ -1,11 +1,11 @@
 {
-  "parent": "minecraft:story/mine_stone",
+  "parent": "event_rebalance:story/smelt_copper",
   "criteria": {
     "copper_pickaxe": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:copper_pickaxe"
+            "items": "#event_rebalance:copper_tools"
           }
         ]
       },

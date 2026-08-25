@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#minecraft:melee_attack",
+    "#is_projectile",
+    "spit",
+    "sting",
+    "magic"
+  ]
+}

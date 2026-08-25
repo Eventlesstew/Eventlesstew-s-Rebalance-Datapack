@@ -1,0 +1,24 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "#":"#gold_tool_materials",
+        "S":"stick"
+    },
+    "pattern": [
+        "###",
+        "###",
+        " S "
+    ],
+    "result": {
+        "id": "music_disc_bounce",
+        "components": {
+            "item_name":{
+                "translate": "item.event.golden_hammer"
+            },
+            "item_model":"event:hammer/golden",
+            "custom_data": {
+                "golden_hammer":true
+            }
+        }
+    }
+}

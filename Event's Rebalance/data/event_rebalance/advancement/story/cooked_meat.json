@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "apple": {
+      "conditions": {
+        "item": {
+          "items": "#event_rebalance:advancement/cooked_meat"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "parent": "event_rebalance:story/light_campfire",
+  "display": {
+    "title": {
+      "translate": "advancements.story.cooked_meat.title"
+    },
+    "description": {
+      "translate": "advancements.story.cooked_meat.description"
+    },
+    "icon": {
+        "id": "cooked_beef"
+    }
+  },
+  "requirements": [
+    [
+      "apple"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

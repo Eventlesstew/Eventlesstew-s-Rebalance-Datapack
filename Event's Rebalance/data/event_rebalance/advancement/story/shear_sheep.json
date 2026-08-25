@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "item_gained": {
+      "conditions": {
+        "item": {
+            "items": "shears"
+        },
+        "entity": {
+            "entity_type": "sheep"
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    }
+  },
+  "parent": "event_rebalance:story/smelt_copper",
+  "display": {
+    "title": {
+      "translate": "advancements.story.shear_sheep.title"
+    },
+    "description": {
+      "translate": "advancements.story.shear_sheep.description"
+    },
+    "icon": {
+        "id": "shears"
+    }
+  },
+  "requirements": [
+    [
+      "item_gained"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "item_gained": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "parent": "event_rebalance:story/root",
+  "display": {
+    "title": {
+      "translate": "advancements.story.getting_wood.title"
+    },
+    "description": {
+      "translate": "advancements.story.getting_wood.description"
+    },
+    "icon": {
+      "id": "minecraft:oak_log"
+    }
+  },
+  "requirements": [
+    [
+      "item_gained"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

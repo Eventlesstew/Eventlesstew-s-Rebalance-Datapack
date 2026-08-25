@@ -1,0 +1,84 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": "minecraft:lodestone",
+    "I": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "III",
+    "IGI",
+    " I "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:shield",
+    "components": {
+      "item_model": "event:shield/heavy_shield",
+      "item_name": [
+        {
+          "translate": "item.event.heavy_shield"
+        }
+      ],
+      "custom_data": {
+        "heavy_shield":true
+      },
+      "lore": [
+        {
+          "translate": " ",
+          "color": "#AAAAAA",
+          "italic": false
+        },
+        {
+          "translate": "item.modifiers.use",
+          "color": "#AAAAAA",
+          "italic": false
+        },
+        {
+          "translate": "stats.shield.block",
+          "extra": [
+            {
+              "text": "20"
+            }
+          ],
+          "color": "#1aa819",
+          "italic": false
+        },
+        {
+          "translate": "stats.shield.absorb",
+          "extra": [
+            {
+              "text": "50%"
+            }
+          ],
+          "color": "#1aa819",
+          "italic": false
+        },
+        {
+          "translate": "stats.shield.blocking_angle",
+          "extra": [
+            {
+              "text": "120°"
+            }
+          ],
+          "color": "#1aa819",
+          "italic": false
+        },
+        {
+          "translate": "stats.tool.moving_spd.-90P",
+          "color": "#ff5555",
+          "italic": false
+        }
+      ],
+      "attribute_modifiers": [
+        {
+          "id": "shield",
+          "slot": "hand",
+          "type": "movement_speed",
+          "amount": -0.2,
+          "operation": "add_multiplied_base"
+        }
+      ]
+    }
+  }
+}

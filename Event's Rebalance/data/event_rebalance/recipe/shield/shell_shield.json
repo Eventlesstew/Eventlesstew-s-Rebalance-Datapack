@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "T": "minecraft:turtle_scute",
+    "N": "minecraft:nautilus_shell"
+  },
+  "pattern": [
+    "TTT",
+    "TNT",
+    "TTT"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:shield",
+    "components": {
+      "item_model": "event:shield/shell_shield",
+      "item_name": [
+        {
+          "translate": "item.event.shell_shield"
+        }
+      ],
+      "custom_data": {
+        "shell_shield":true
+      },
+      "lore": [
+        {
+          "translate": " ",
+          "color": "#AAAAAA",
+          "italic": false
+        },
+        {
+          "translate": "item.modifiers.use",
+          "color": "#AAAAAA",
+          "italic": false
+        },
+        {
+          "translate": "stats.shield.block",
+          "extra": [
+            {
+              "text": "8"
+            }
+          ],
+          "color": "#1aa819",
+          "italic": false
+        },
+        {
+          "translate": "stats.shield.absorb",
+          "extra": [
+            {
+              "text": "50%"
+            }
+          ],
+          "color": "#1aa819",
+          "italic": false
+        },
+        {
+          "translate": "stats.shield.blocking_angle",
+          "extra": [
+            {
+              "text": "360°"
+            }
+          ],
+          "color": "#1aa819",
+          "italic": false
+        },
+        {
+          "translate": "stats.tool.moving_spd.-100P",
+          "color": "#ff5555",
+          "italic": false
+        }
+      ]
+    }
+  }
+}

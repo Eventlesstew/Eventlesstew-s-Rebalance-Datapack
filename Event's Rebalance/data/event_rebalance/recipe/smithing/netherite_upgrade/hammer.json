@@ -1,0 +1,18 @@
+{
+    "type": "smithing_transform",
+    "base": "#event_rebalance:custom_item/diamond_hammer",
+    "addition": "#minecraft:netherite_tool_materials",
+    "template": "netherite_upgrade_smithing_template",
+    "result": {
+        "id": "music_disc_chirp",
+        "components": {
+            "custom_data": {
+                "netherite_hammer": true
+            },
+            "item_model": "event:hammer/netherite",
+            "item_name": {
+                "translate": "item.minecraft.netherite_hammer"
+            }
+        }
+    }
+}

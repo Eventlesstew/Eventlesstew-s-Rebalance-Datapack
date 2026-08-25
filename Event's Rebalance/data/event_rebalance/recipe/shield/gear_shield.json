@@ -1,0 +1,84 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": "minecraft:copper_ingot",
+    "N": [
+      "copper_bulb",
+      "waxed_copper_bulb"
+    ],
+    "G": "minecraft:glowstone_dust"
+  },
+  "pattern": [
+    "GSG",
+    "SNS",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:shield",
+    "components": {
+      "item_model": "event:shield/gear_shield",
+      "item_name": [
+        {
+          "translate": "item.event.gear_shield"
+        }
+      ],
+      "custom_data": {
+        "gear_shield":true
+      },
+      "lore": [
+        {
+          "translate": " ",
+          "color": "#AAAAAA",
+          "italic": false
+        },
+        {
+          "translate": "item.modifiers.use",
+          "color": "#AAAAAA",
+          "italic": false
+        },
+        {
+          "translate": "stats.shield.block",
+          "extra": [
+            {
+              "text": "8"
+            }
+          ],
+          "color": "#1aa819",
+          "italic": false
+        },
+        {
+          "translate": "stats.shield.absorb",
+          "extra": [
+            {
+              "text": "75%"
+            }
+          ],
+          "color": "#1aa819",
+          "italic": false
+        },
+        {
+          "translate": "stats.shield.blocking_angle",
+          "extra": [
+            {
+              "text": "120°"
+            }
+          ],
+          "color": "#1aa819",
+          "italic": false
+        },
+        {
+          "translate": "stats.shield.disabling_time",
+          "extra": [
+            {
+              "text": "+300%"
+            }
+          ],
+          "color": "#ff5555",
+          "italic": false
+        }
+      ]
+    }
+  }
+}

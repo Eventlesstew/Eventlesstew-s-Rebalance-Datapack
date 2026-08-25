@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "ingredient": "minecraft:blaze_rod",
+  "result": {
+    "id": "minecraft:blaze_powder"
+  }
+}

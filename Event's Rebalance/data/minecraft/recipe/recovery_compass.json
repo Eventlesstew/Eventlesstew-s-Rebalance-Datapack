@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "C": "minecraft:amethyst_shard",
-    "S": "minecraft:crying_obsidian"
+    "S": "#event_rebalance:custom_item/rose_golden_ingot"
   },
   "pattern": [
     " S ",

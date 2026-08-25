@@ -1,0 +1,49 @@
+{
+  "parent": "minecraft:adventure/ol_betsy",
+  "criteria": {
+    "two_birds": {
+      "conditions": {
+        "fired_from_weapon": {
+          "items": "minecraft:arrow"
+        },
+        "victims": [
+          [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {}
+            }
+          ],
+          [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {}
+            }
+          ]
+        ]
+      },
+      "trigger": "minecraft:killed_by_arrow"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.combat.double_kill.description"
+    },
+    "icon": {
+      "id": "minecraft:crossbow"
+    },
+    "title": {
+      "translate": "advancements.combat.double_kill.title"
+    }
+  },
+  "requirements": [
+    [
+      "two_birds"
+    ]
+  ],
+  "rewards": {
+    "experience": 65
+  },
+  "sends_telemetry_event": true
+}

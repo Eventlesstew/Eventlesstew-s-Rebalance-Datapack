@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "item_gained": {
+      "conditions": {
+        "items": [
+          {
+            "items": "copper_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "parent": "event_rebalance:story/hot_topic",
+  "display": {
+    "title": {
+      "translate": "advancements.story.smelt_copper.title"
+    },
+    "description": {
+      "translate": "advancements.story.smelt_copper.description"
+    },
+    "icon": {
+      "id": "minecraft:copper_ingot"
+    }
+  },
+  "requirements": [
+    [
+      "item_gained"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

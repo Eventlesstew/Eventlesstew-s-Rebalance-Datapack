@@ -1,0 +1,24 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "#":"#iron_tool_materials",
+        "S":"stick"
+    },
+    "pattern": [
+        "###",
+        "###",
+        " S "
+    ],
+    "result": {
+        "id": "music_disc_mall",
+        "components": {
+            "item_name":{
+                "translate": "item.event.iron_hammer"
+            },
+            "item_model":"event:hammer/iron",
+            "custom_data": {
+                "iron_hammer":true
+            }
+        }
+    }
+}
