@@ -1,10 +1,17 @@
 {
   "criteria": {
-    "light_campfire": {
-      "trigger": "minecraft:item_used_on_block"
+    "item_gained": {
+      "conditions": {
+        "items": [
+          {
+            "items": "campfire"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
     }
   },
-  "parent": "event_rebalance:story/firestarter",
+  "parent": "event_rebalance:story/root",
   "display": {
     "title": {
       "translate": "advancements.story.light_campfire.title"
@@ -13,12 +20,12 @@
       "translate": "advancements.story.light_campfire.description"
     },
     "icon": {
-        "id": "campfire"
+      "id": "campfire"
     }
   },
   "requirements": [
     [
-      "light_campfire"
+      "item_gained"
     ]
   ],
   "sends_telemetry_event": true
