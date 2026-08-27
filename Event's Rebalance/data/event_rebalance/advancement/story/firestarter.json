@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "item_gained": {
+      "conditions": {
+        "items": [
+          {
+            "items": "fire_charge"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "parent": "event_rebalance:story/getting_wood",
+  "display": {
+    "title": {
+      "translate": "advancements.story.firestarter.title"
+    },
+    "description": {
+      "translate": "advancements.story.firestarter.description"
+    },
+    "icon": {
+      "components": {
+            "item_model": "event:firestarter"
+        },
+        "id": "paper"
+    }
+  },
+  "requirements": [
+    [
+      "item_gained"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

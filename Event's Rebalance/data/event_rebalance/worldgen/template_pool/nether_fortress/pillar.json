@@ -1,0 +1,14 @@
+{
+    "elements": [
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "event_rebalance:nether_fortress/pillar/small_pillar",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        }
+    ],
+    "fallback": "empty"
+}

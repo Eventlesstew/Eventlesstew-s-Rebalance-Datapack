@@ -1,0 +1,86 @@
+{
+    "elements": [
+        {
+            "weight": 12,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "event_rebalance:nether_fortress/corridor/connector_bend",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 4,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "event_rebalance:nether_fortress/corridor/connector_bend_treasure",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 12,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "event_rebalance:nether_fortress/corridor/connector_line",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 6,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "event_rebalance:nether_fortress/corridor/connector_dead_end",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 6,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "event_rebalance:nether_fortress/corridor/connector_stairs",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "event_rebalance:nether_fortress/corridor/connector_stairs_entrance",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 6,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "event_rebalance:nether_fortress/corridor/connector_t_way",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "event_rebalance:nether_fortress/corridor/connector_t_way_treasure",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 6,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "event_rebalance:nether_fortress/corridor/connector_intersection",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        }
+    ],
+    "fallback": "event_rebalance:nether_fortress/corridor_fallback"
+}

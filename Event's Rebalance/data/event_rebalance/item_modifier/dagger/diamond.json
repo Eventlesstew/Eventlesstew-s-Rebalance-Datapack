@@ -1,10 +1,10 @@
 {
     "function": "filtered",
     "item_filter": {
-        "items": "#event_rebalance:custom_item/copper_dagger",
+        "items": "#event_rebalance:custom_item/diamond_dagger",
         "components": {
             "custom_data": {
-                "copper_dagger":true
+                "diamond_dagger":true
             }
         }
     },
@@ -23,14 +23,14 @@
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_damage",
-                        "amount": 1,
+                        "amount": 3,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_speed",
-                        "amount": 0.6,
+                        "amount": 0.2,
                         "operation": "add_value",
                         "slot": "mainhand"
                     }
@@ -48,18 +48,18 @@
                     "!jukebox_playable": {},
                     "rarity": "common",
                     "max_stack_size": 1,
-                    "minecraft:max_damage": 128,
+                    "minecraft:max_damage": 1024,
                     "damage_type": "event_rebalance:dagger",
                     "minecraft:enchantable": {
                         "value": 10
                     },
                     "repairable": {
-                        "items": "#event_rebalance:tool_repair/copper"
+                        "items": "#event_rebalance:tool_repair/diamond"
                     },
                     "item_name": {
-                        "translate": "item.minecraft.copper_dagger"
+                        "translate": "item.minecraft.diamond_dagger"
                     },
-                    "item_model": "event:dagger/copper",
+                    "item_model": "event:dagger/diamond",
                     "swing_animation": {
                         "type": "stab",
                         "duration": 4
@@ -72,12 +72,12 @@
                         "rules": [
                             {
                                 "blocks": "cobweb",
-                                "speed": 12,
+                                "speed": 24,
                                 "correct_for_drops": true
                             },
                             {
                                 "blocks": "#mineable/sword",
-                                "speed": 6,
+                                "speed": 12,
                                 "correct_for_drops": true
                             }
                         ]
@@ -98,7 +98,7 @@
                     "italic": false
                 },
                 {
-                    "translate": " 2 ",
+                    "translate": " 4 ",
                     "extra": [
                         {
                             "translate": "attribute.name.attack_damage"
@@ -108,7 +108,7 @@
                     "italic": false
                 },
                 {
-                    "translate": " 4.6 ",
+                    "translate": " 4.2 ",
                     "extra": [
                         {
                             "translate": "attribute.name.attack_speed"

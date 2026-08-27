@@ -1,0 +1,32 @@
+{
+    "elements": [
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "event_rebalance:nether_fortress/path/bridge",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "event_rebalance:nether_fortress/path/corridor",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "event_rebalance:nether_fortress/path/corridor_entrance",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        }
+    ],
+    "fallback": "event_rebalance:nether_fortress/path_fallback"
+}

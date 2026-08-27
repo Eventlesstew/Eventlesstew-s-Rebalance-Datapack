@@ -74,6 +74,11 @@
                                 "blocks": "cobweb",
                                 "speed": 8,
                                 "correct_for_drops": true
+                            },
+                            {
+                                "blocks": "#mineable/sword",
+                                "speed": 4,
+                                "correct_for_drops": true
                             }
                         ]
                     }

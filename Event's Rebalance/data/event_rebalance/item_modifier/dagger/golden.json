@@ -1,10 +1,10 @@
 {
     "function": "filtered",
     "item_filter": {
-        "items": "#event_rebalance:custom_item/copper_dagger",
+        "items": "#event_rebalance:custom_item/golden_dagger",
         "components": {
             "custom_data": {
-                "copper_dagger":true
+                "golden_dagger":true
             }
         }
     },
@@ -23,7 +23,7 @@
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_damage",
-                        "amount": 1,
+                        "amount": 2.5,
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
@@ -54,12 +54,12 @@
                         "value": 10
                     },
                     "repairable": {
-                        "items": "#event_rebalance:tool_repair/copper"
+                        "items": "#event_rebalance:tool_repair/golden"
                     },
                     "item_name": {
-                        "translate": "item.minecraft.copper_dagger"
+                        "translate": "item.minecraft.golden_dagger"
                     },
-                    "item_model": "event:dagger/copper",
+                    "item_model": "event:dagger/golden",
                     "swing_animation": {
                         "type": "stab",
                         "duration": 4
@@ -72,12 +72,12 @@
                         "rules": [
                             {
                                 "blocks": "cobweb",
-                                "speed": 12,
+                                "speed": 32,
                                 "correct_for_drops": true
                             },
                             {
                                 "blocks": "#mineable/sword",
-                                "speed": 6,
+                                "speed": 16,
                                 "correct_for_drops": true
                             }
                         ]
@@ -98,7 +98,7 @@
                     "italic": false
                 },
                 {
-                    "translate": " 2 ",
+                    "translate": " 3.5 ",
                     "extra": [
                         {
                             "translate": "attribute.name.attack_damage"

@@ -122,9 +122,34 @@
                 "function": "reference",
                 "name": "event_rebalance:sword/netherite"
             },
+
             {
                 "function": "reference",
                 "name": "event_rebalance:dagger/wooden"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:dagger/copper"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:dagger/iron"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:dagger/golden"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:dagger/rose_golden"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:dagger/diamond"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:dagger/netherite"
             },
 
             {
