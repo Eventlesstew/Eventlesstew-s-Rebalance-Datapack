@@ -1,0 +1,23 @@
+{
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "event_rebalance:nether_fortress/path/bridge_destroyed",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "event_rebalance:nether_fortress/path/corridor_destroyed",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        }
+    ],
+    "fallback": "empty"
+}

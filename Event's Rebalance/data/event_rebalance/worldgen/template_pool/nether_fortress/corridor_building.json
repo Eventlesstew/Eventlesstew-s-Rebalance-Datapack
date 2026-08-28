@@ -1,0 +1,50 @@
+{
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "legacy_single_pool_element",
+                "location": "event_rebalance:nether_fortress/corridor/arena_magma_cube_1",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "legacy_single_pool_element",
+                "location": "event_rebalance:nether_fortress/corridor/arena_skeleton_1",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "legacy_single_pool_element",
+                "location": "event_rebalance:nether_fortress/corridor/arena_wither_skeleton_1",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "legacy_single_pool_element",
+                "location": "event_rebalance:nether_fortress/corridor/nether_wart_farm",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "legacy_single_pool_element",
+                "location": "event_rebalance:nether_fortress/corridor/respawn_1",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        }
+    ],
+    "fallback": "event_rebalance:nether_fortress/corridor_end"
+}

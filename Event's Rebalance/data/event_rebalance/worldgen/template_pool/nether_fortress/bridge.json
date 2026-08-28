@@ -1,7 +1,7 @@
 {
     "elements": [
         {
-            "weight": 12,
+            "weight": 45,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "event_rebalance:nether_fortress/bridge/connector_bend",
@@ -10,7 +10,7 @@
             }
         },
         {
-            "weight": 12,
+            "weight": 45,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "event_rebalance:nether_fortress/bridge/connector_line",
@@ -19,16 +19,7 @@
             }
         },
         {
-            "weight": 6,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "event_rebalance:nether_fortress/bridge/connector_dead_end",
-                "processors": "empty",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 6,
+            "weight": 45,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "event_rebalance:nether_fortress/bridge/connector_stairs",
@@ -37,16 +28,7 @@
             }
         },
         {
-            "weight": 3,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "event_rebalance:nether_fortress/corridor/connector_stairs_entrance",
-                "processors": "empty",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 6,
+            "weight": 30,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "event_rebalance:nether_fortress/bridge/connector_t_way",
@@ -55,7 +37,7 @@
             }
         },
         {
-            "weight": 6,
+            "weight": 20,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "event_rebalance:nether_fortress/bridge/connector_intersection",
@@ -64,23 +46,14 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 10,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "event_rebalance:nether_fortress/bridge/connector_intersection_treasure",
                 "processors": "empty",
                 "projection": "rigid"
             }
-        },
-        {
-            "weight": 3,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "event_rebalance:nether_fortress/bridge/blaze_arena",
-                "processors": "empty",
-                "projection": "rigid"
-            }
         }
     ],
-    "fallback": "event_rebalance:nether_fortress/bridge_fallback"
+    "fallback": "event_rebalance:nether_fortress/bridge_end"
 }
