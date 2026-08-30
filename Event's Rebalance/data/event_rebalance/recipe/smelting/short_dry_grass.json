@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "misc",
+  "ingredient": "short_grass",
+  "result": {
+    "id": "minecraft:short_dry_grass",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": "short_grass",
+  "cookingtime": 600,
+  "result": {
+    "id": "minecraft:short_dry_grass"
+  }
+}

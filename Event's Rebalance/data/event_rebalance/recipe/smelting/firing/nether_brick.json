@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "category": "blocks",
+  "ingredient": "netherrack",
+  "result": {
+    "id": "nether_brick",
+    "count": 1
+  }
+}

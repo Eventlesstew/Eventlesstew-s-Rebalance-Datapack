@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "category": "blocks",
+  "ingredient": "clay_ball",
+  "result": {
+    "id": "brick",
+    "count": 1
+  }
+}

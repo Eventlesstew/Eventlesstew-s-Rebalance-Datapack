@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "blocks",
+  "ingredient": "sandstone_slab",
+  "cookingtime": 50,
+  "result": {
+    "id": "minecraft:smooth_sandstone_slab",
+    "count": 1
+  }
+}

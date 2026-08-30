@@ -1,82 +1,154 @@
 {
     "elements": [
         {
-            "weight": 45,
+            "weight": 12,
             "element": {
-                "element_type": "legacy_single_pool_element",
+                "element_type": "single_pool_element",
                 "location": "event_rebalance:nether_fortress/corridor/connector_line",
                 "processors": "empty",
                 "projection": "rigid"
             }
         },
         {
-            "weight": 30,
+            "weight": 8,
             "element": {
-                "element_type": "legacy_single_pool_element",
+                "element_type": "single_pool_element",
                 "location": "event_rebalance:nether_fortress/corridor/connector_bend",
                 "processors": "empty",
                 "projection": "rigid"
             }
         },
         {
-            "weight": 15,
+            "weight": 4,
             "element": {
-                "element_type": "legacy_single_pool_element",
+                "element_type": "single_pool_element",
                 "location": "event_rebalance:nether_fortress/corridor/connector_bend_treasure",
                 "processors": "empty",
                 "projection": "rigid"
             }
         },
         {
-            "weight": 30,
+            "weight": 4,
             "element": {
-                "element_type": "legacy_single_pool_element",
+                "element_type": "single_pool_element",
                 "location": "event_rebalance:nether_fortress/corridor/connector_stairs",
                 "processors": "empty",
                 "projection": "rigid"
             }
         },
         {
-            "weight": 15,
+            "weight": 2,
             "element": {
-                "element_type": "legacy_single_pool_element",
+                "element_type": "single_pool_element",
+                "location": "event_rebalance:nether_fortress/bridge/connector_stairs_entrance",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "single_pool_element",
                 "location": "event_rebalance:nether_fortress/corridor/connector_stairs_entrance",
                 "processors": "empty",
                 "projection": "rigid"
             }
         },
         {
-            "weight": 45,
+            "weight": 6,
             "element": {
-                "element_type": "legacy_single_pool_element",
-                "location": "event_rebalance:nether_fortress/corridor/connector_line",
-                "processors": "empty",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 20,
-            "element": {
-                "element_type": "legacy_single_pool_element",
+                "element_type": "single_pool_element",
                 "location": "event_rebalance:nether_fortress/corridor/connector_t_way",
                 "processors": "empty",
                 "projection": "rigid"
             }
         },
         {
-            "weight": 10,
+            "weight": 3,
             "element": {
-                "element_type": "legacy_single_pool_element",
+                "element_type": "single_pool_element",
                 "location": "event_rebalance:nether_fortress/corridor/connector_t_way_treasure",
                 "processors": "empty",
                 "projection": "rigid"
             }
         },
         {
-            "weight": 30,
+            "weight": 6,
             "element": {
-                "element_type": "legacy_single_pool_element",
+                "element_type": "single_pool_element",
                 "location": "event_rebalance:nether_fortress/corridor/connector_intersection",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 25,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "event_rebalance:nether_fortress/corridor/arena_magma_cube_1",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 25,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "event_rebalance:nether_fortress/corridor/arena_skeleton_1",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 25,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "event_rebalance:nether_fortress/corridor/arena_wither_skeleton_1",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "event_rebalance:nether_fortress/corridor/nether_wart_farm",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "event_rebalance:nether_fortress/corridor/respawn_1",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "event_rebalance:nether_fortress/corridor/respawn_2",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "event_rebalance:nether_fortress/corridor/parkour_1",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "event_rebalance:nether_fortress/corridor/parkour_2",
                 "processors": "empty",
                 "projection": "rigid"
             }

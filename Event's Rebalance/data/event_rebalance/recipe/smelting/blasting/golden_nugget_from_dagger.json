@@ -1,0 +1,7 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": "#event_rebalance:custom_item/golden_dagger",
+    "result": {
+        "id": "gold_nugget"
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "category": "blocks",
+  "ingredient": "basalt",
+  "result": {
+    "id": "minecraft:smooth_basalt",
+    "count": 1
+  }
+}

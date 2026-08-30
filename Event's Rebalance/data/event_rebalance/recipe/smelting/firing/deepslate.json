@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "category": "blocks",
+  "ingredient": "cobbled_deepslate",
+  "result": {
+    "id": "minecraft:deepslate",
+    "count": 1
+  }
+}

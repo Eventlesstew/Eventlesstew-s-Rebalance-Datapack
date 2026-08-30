@@ -1,0 +1,7 @@
+{
+    "type": "campfire_cooking",
+    "ingredient": "#logs",
+    "cookingtime": 600,
+    "result": "charcoal",
+    "category": "misc"
+}

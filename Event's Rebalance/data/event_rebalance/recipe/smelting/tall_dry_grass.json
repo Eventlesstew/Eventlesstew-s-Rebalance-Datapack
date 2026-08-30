@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": "tall_grass",
+  "result": {
+    "id": "minecraft:tall_dry_grass",
+    "count": 1
+  },
+  "cookingtime": 200
+}

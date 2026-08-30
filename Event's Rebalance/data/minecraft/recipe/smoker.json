@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "mud_bricks",
+    "C":"campfire"
+  },
+  "pattern": [
+    "# #",
+    "# #",
+    "#C#"
+  ],
+  "result": {
+    "id": "minecraft:large_fern",
+    "count": 1
+  }
+}
