@@ -10,12 +10,8 @@
         " S "
     ],
     "result": {
-        "id": "music_disc_chirp",
+        "id": "music_disc_11",
         "components": {
-            "item_name":{
-                "translate": "item.event.wooden_hammer"
-            },
-            "item_model":"event:hammer/wooden",
             "custom_data": {
                 "wooden_hammer":true
             }

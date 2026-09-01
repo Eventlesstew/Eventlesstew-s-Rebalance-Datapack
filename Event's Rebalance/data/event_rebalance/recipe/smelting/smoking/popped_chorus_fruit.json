@@ -1,0 +1,7 @@
+{
+    "type": "smoking",
+    "ingredient": "chorus_fruit",
+    "result": "popped_chorus_fruit",
+    "experience": 0.1,
+    "category": "misc"
+}

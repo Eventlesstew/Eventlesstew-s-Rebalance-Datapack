@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "group": "steel_ingot",
+    "ingredients": [
+        "iron_ingot",
+        "iron_ingot",
+        "iron_ingot",
+        "iron_ingot",
+        "lapis_lazuli",
+        "lapis_lazuli",
+        "lapis_lazuli",
+        "lapis_lazuli"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:vex_spawn_egg",
+        "components": {
+            "max_stack_size": 64,
+            "!entity_data":{}
+        }
+    }
+}

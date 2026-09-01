@@ -270,19 +270,6 @@
             {
                 "function": "reference",
                 "name": "event_rebalance:boots/netherite"
-            },
-            
-            {
-                "function": "reference",
-                "name": "event_rebalance:custom/rose_golden_ingot"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:custom/rose_golden_nugget"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:custom/rose_golden_upgrade"
             }
         ]
     }

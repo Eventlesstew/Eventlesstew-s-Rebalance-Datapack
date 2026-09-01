@@ -10,12 +10,8 @@
         " S "
     ],
     "result": {
-        "id": "music_disc_wait",
+        "id": "music_disc_creator_music_box",
         "components": {
-            "item_name":{
-                "translate": "item.event.copper_hammer"
-            },
-            "item_model":"event:hammer/copper",
             "custom_data": {
                 "copper_hammer":true
             }

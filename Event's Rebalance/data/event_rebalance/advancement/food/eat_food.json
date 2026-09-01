@@ -1,0 +1,27 @@
+{
+  "parent": "event_rebalance:food/root",
+  "criteria": {
+    "suspicious_stew": {
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.food.eat_food.description"
+    },
+    "icon": {
+      "id": "minecraft:cooked_beef"
+    },
+    "title": {
+      "translate": "advancements.food.eat_food.title"
+    },
+    "announce_to_chat": false,
+    "show_toast": false
+  },
+  "requirements": [
+    [
+      "suspicious_stew"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

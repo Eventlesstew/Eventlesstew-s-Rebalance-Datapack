@@ -9,14 +9,10 @@
         "S "
     ],
     "result": {
-        "id": "music_disc_precipice",
+        "id": "music_disc_mellohi",
         "components": {
             "custom_data": {
                 "diamond_dagger": true
-            },
-            "item_model": "event:dagger/diamond",
-            "item_name": {
-                "translate": "item.minecraft.diamond_dagger"
             }
         }
     }

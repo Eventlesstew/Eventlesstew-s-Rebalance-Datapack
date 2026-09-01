@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.1,
+  "ingredient": "#event_rebalance:recipe/smelts_into_gold_nugget",
+  "result": {
+    "id": "minecraft:gold_nugget"
+  }
+}

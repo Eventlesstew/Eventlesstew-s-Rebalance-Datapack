@@ -15,15 +15,8 @@
     "count": 2,
     "id": "minecraft:hoglin_spawn_egg",
     "components": {
-        "!jukebox_playable": {},
+        "!entity_data": {},
         "max_stack_size": 64,
-        "item_model": "event:rose_golden_upgrade_smithing_template",
-        "item_name": {
-            "translate": "item.event.rose_golden_upgrade_smithing_template"
-        },
-        "custom_data": {
-            "rose_golden_upgrade": true
-        },
         "rarity": "common"
     }
   }

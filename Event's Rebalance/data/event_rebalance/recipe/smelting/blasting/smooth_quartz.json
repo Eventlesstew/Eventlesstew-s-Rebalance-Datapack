@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "ingredient": "quartz_block",
+  "result": {
+    "id": "minecraft:smooth_quartz",
+    "count": 1
+  }
+}

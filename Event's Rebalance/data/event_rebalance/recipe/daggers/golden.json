@@ -9,14 +9,10 @@
         "S "
     ],
     "result": {
-        "id": "music_disc_creator_music_box",
+        "id": "music_disc_far",
         "components": {
             "custom_data": {
                 "golden_dagger": true
-            },
-            "item_model": "event:dagger/golden",
-            "item_name": {
-                "translate": "item.minecraft.golden_dagger"
             }
         }
     }

@@ -56,6 +56,15 @@
   "requirements": [
     [
       "pickaxe_obtained"
+    ],
+    [
+      "shovel_obtained"
+    ],
+    [
+      "axe_obtained"
+    ],
+    [
+      "hoe_obtained"
     ]
   ],
   "sends_telemetry_event": true

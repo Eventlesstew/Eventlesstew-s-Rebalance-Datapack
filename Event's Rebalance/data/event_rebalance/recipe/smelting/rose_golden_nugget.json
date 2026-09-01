@@ -1,18 +1,13 @@
 {
     "type": "smelting",
-    "ingredient": "#event_rebalance:rose_golden_tools",
+    "ingredient": "#event_rebalance:recipe/smelts_into_rose_gold_nugget",
+    "group": "rose_golden_nugget",
     "result": {
         "count": 1,
         "id": "minecraft:music_disc_lava_chicken",
         "components": {
-            "!jukebox_playable": {},
-            "custom_data": {
-                "rose_golden_nugget": true
-            },
-            "item_model": "event:rose_golden_nugget",
-            "item_name": {
-                "translate": "item.minecraft.rose_golden_nugget"
-            },
+            "!entity_data":{},
+            "max_stack_size":64,
             "rarity": "common"
         }
     }

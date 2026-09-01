@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "item_gained": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#hoes"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "block/moss_block",
+    "title": {
+      "translate": "advancements.food.root.title"
+    },
+    "description": {
+      "translate": "advancements.food.root.description"
+    },
+    "icon": {
+        "id": "apple"
+    },
+    "announce_to_chat": false,
+    "show_toast": false
+  },
+  "requirements": [
+    [
+      "item_gained"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

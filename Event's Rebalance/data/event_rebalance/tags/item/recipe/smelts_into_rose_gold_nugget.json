@@ -1,0 +1,15 @@
+{
+    "values": [
+        "#event_rebalance:custom_item/rose_golden_spear",
+        "#event_rebalance:custom_item/rose_golden_sword",
+        "#event_rebalance:custom_item/rose_golden_dagger",
+        "#event_rebalance:custom_item/rose_golden_axe",
+        "#event_rebalance:custom_item/rose_golden_pickaxe",
+        "#event_rebalance:custom_item/rose_golden_shovel",
+        "#event_rebalance:custom_item/rose_golden_hoe",
+        "#event_rebalance:custom_item/rose_golden_helmet",
+        "#event_rebalance:custom_item/rose_golden_chestplate",
+        "#event_rebalance:custom_item/rose_golden_leggings",
+        "#event_rebalance:custom_item/rose_golden_boots"
+    ]
+}

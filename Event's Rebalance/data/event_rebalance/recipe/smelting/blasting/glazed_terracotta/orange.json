@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "group": "glazed_terracotta",
+  "ingredient": "orange_terracotta",
+  "result": {
+    "id": "orange_glazed_terracotta",
+    "count": 1
+  }
+}

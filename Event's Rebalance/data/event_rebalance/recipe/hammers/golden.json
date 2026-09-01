@@ -10,12 +10,8 @@
         " S "
     ],
     "result": {
-        "id": "music_disc_bounce",
+        "id": "music_disc_creator",
         "components": {
-            "item_name":{
-                "translate": "item.event.golden_hammer"
-            },
-            "item_model":"event:hammer/golden",
             "custom_data": {
                 "golden_hammer":true
             }

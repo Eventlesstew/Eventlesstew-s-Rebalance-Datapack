@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:breeze_rod"
+  ],
+  "result": {
+    "count": 2,
+    "id": "minecraft:breeze_spawn_egg",
+    "components": {
+        "!entity_data": {},
+        "rarity": "common"
+    }
+  }
+}

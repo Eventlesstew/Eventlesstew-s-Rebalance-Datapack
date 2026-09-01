@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "item_gained": {
+      "conditions": {
+        "items": [
+          {
+            "items": "anvil"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "parent": "story/smelt_iron",
+  "display": {
+    "title": {
+      "translate": "advancements.story.anvil.title"
+    },
+    "description": {
+      "translate": "advancements.story.anvil.description"
+    },
+    "icon": {
+        "id": "anvil"
+    }
+  },
+  "requirements": [
+    [
+      "item_gained"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

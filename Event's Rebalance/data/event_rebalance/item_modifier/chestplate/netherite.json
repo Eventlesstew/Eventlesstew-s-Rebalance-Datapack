@@ -48,7 +48,7 @@
                         "attribute": "minecraft:burning_time",
                         "amount": -0.25,
                         "operation": "add_multiplied_base",
-                        "slot": "body"
+                        "slot": "chest"
                     }
                 ]
             },

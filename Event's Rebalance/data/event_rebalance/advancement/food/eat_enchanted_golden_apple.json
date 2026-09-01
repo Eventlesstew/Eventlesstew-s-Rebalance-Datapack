@@ -1,0 +1,31 @@
+{
+  "parent": "event_rebalance:food/eat_golden_apple",
+  "criteria": {
+    "golden_apple": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:enchanted_golden_apple"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.food.eat_enchanted_golden_apple.description"
+    },
+    "icon": {
+      "id": "minecraft:enchanted_golden_apple"
+    },
+    "frame": "challenge",
+    "title": {
+      "translate": "advancements.food.eat_enchanted_golden_apple.title"
+    }
+  },
+  "requirements": [
+    [
+      "golden_apple"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

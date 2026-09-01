@@ -1,0 +1,30 @@
+{
+  "parent": "event_rebalance:food/eat_food",
+  "criteria": {
+    "suspicious_stew": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:suspicious_stew"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.food.eat_suspicious_stew.description"
+    },
+    "icon": {
+      "id": "minecraft:suspicious_stew"
+    },
+    "title": {
+      "translate": "advancements.food.eat_suspicious_stew.title"
+    }
+  },
+  "requirements": [
+    [
+      "suspicious_stew"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

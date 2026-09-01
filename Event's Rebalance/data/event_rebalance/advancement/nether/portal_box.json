@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "item_gained": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#shulker_boxes"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "parent": "nether/obtain_crying_obsidian",
+  "display": {
+    "title": {
+      "translate": "advancements.nether.portal_box.title"
+    },
+    "description": {
+      "translate": "advancements.nether.portal_box.description"
+    },
+    "icon": {
+        "id": "shulker_box"
+    }
+  },
+  "requirements": [
+    [
+      "item_gained"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

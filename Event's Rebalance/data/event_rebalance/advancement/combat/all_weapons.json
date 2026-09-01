@@ -91,7 +91,7 @@
       "trigger": "minecraft:inventory_changed"
     }
   },
-  "parent": "event_rebalance:combat/moar_weaponry",
+  "parent": "event_rebalance:combat/craft_weapon",
   "display": {
     "frame": "challenge",
     "title": {
@@ -109,14 +109,30 @@
   },
   "requirements": [
     [
-      "sword_obtained",
-      "axe_obtained",
-      "bow_obtained",
-      "crossbow_obtained",
-      "dagger_obtained",
-      "hammer_obtained",
-      "mace_obtained",
-      "spear_obtained",
+      "sword_obtained"
+    ],
+    [
+      "axe_obtained"
+    ],
+    [
+      "bow_obtained"
+    ],
+    [
+      "crossbow_obtained"
+    ],
+    [
+      "dagger_obtained"
+    ],
+    [
+      "hammer_obtained"
+    ],
+    [
+      "mace_obtained"
+    ],
+    [
+      "spear_obtained"
+    ],
+    [
       "trident_obtained"
     ]
   ],

@@ -18,15 +18,7 @@
         "id": "minecraft:piglin_brute_spawn_egg",
         "components": {
             "!entity_data": {},
-            "max_stack_size": 64,
-            "custom_data": {
-                "rose_golden_ingot": true
-            },
-            "item_model": "event:rose_golden_ingot",
-            "item_name": {
-                "translate": "item.event.rose_golden_ingot"
-            },
-            "rarity": "common"
+            "max_stack_size": 64
         }
     }
 }

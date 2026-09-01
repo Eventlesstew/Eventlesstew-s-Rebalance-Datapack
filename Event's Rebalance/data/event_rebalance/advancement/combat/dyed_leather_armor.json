@@ -1,0 +1,56 @@
+{
+  "parent": "event_rebalance:combat/leather_armor",
+  "criteria": {
+    "netherite_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "leather_helmet",
+            "predicates": {
+                "dyed_color": {}
+            }
+          },
+          {
+            "items": "leather_chestplate",
+            "predicates": {
+                "dyed_color": {}
+            }
+          },
+          {
+            "items": "leather_leggings",
+            "predicates": {
+                "dyed_color": {}
+            }
+          },
+          {
+            "items": "leather_boots",
+            "predicates": {
+                "dyed_color": {}
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.combat.dyed_leather_armor.description"
+    },
+    "icon": {
+      "id": "minecraft:leather_chestplate",
+      "components": {
+        "dyed_color": 3847130
+      }
+    },
+    "title": {
+      "translate": "advancements.combat.dyed_leather_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "netherite_armor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

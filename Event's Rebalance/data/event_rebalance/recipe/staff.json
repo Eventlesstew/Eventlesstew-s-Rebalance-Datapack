@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "#":"#event_rebalance:custom_item/ruby",
+        "S":"blaze_rod"
+    },
+    "pattern": [
+        " # ",
+        " S ",
+        " S "
+    ],
+    "result": {
+        "id": "music_disc_strad",
+        "components": {
+            "!jukebox_playable": {}
+        }
+    }
+}

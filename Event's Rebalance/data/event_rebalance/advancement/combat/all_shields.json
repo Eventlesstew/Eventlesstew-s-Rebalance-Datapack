@@ -109,11 +109,21 @@
   },
   "requirements": [
     [
-      "wooden_shield",
-      "shell_shield",
-      "gear_shield",
-      "mini_shield",
-      "heavy_shield",
+      "wooden_shield"
+    ],
+    [
+      "shell_shield"
+    ],
+    [
+      "gear_shield"
+    ],
+    [
+      "mini_shield"
+    ],
+    [
+      "heavy_shield"
+    ],
+    [
       "cluster_shield"
     ]
   ],

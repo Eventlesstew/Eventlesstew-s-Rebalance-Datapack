@@ -12,10 +12,6 @@
     "result": {
         "id": "music_disc_otherside",
         "components": {
-            "item_name":{
-                "translate": "item.event.diamond_hammer"
-            },
-            "item_model":"event:hammer/diamond",
             "custom_data": {
                 "diamond_hammer":true
             }
