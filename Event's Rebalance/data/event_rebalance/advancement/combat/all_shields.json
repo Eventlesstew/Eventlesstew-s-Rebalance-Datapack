@@ -91,7 +91,7 @@
       "trigger": "minecraft:inventory_changed"
     }
   },
-  "parent": "story/deflect_arrow",
+  "parent": "event_rebalance:combat/deflect_sonic_boom",
   "display": {
     "frame": "challenge",
     "title": {

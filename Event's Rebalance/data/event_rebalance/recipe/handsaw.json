@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "#":"#iron_tool_materials",
+        "S":"#planks"
+    },
+    "pattern": [
+        "  #",
+        " # ",
+        "S  "
+    ],
+    "result": {
+        "id": "music_disc_tears",
+        "components": {
+            "!jukebox_playable": {},
+            "rarity": "common"
+        }
+    }
+}

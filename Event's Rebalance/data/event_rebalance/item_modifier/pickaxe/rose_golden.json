@@ -48,12 +48,12 @@
                         "rules": [
                             {
                                 "blocks": "#event_rebalance:pickaxe_power_5",
-                                "speed": 12,
+                                "speed": 6,
                                 "correct_for_drops": false
                             },
                             {
                                 "blocks": "#event_rebalance:ores",
-                                "speed": 10,
+                                "speed": 12,
                                 "correct_for_drops": true
                             },
                             {
@@ -109,7 +109,7 @@
                         "italic": false
                     },
                     {
-                        "translate": " X10 ",
+                        "translate": " X12 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.ore_mining_speed"

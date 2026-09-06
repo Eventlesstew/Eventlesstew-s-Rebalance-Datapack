@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "golden_apple": {
+      "conditions": {
+        "item": {
+          "items": "#event_rebalance:custom_item/staff"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "rewards": {
+    "function": "event_rebalance:staff/use_staff"
+  },
+  "requirements": [
+    [
+      "golden_apple"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

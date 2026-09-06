@@ -89,6 +89,16 @@
         ]
       },
       "trigger": "minecraft:inventory_changed"
+    },
+    "staff_obtained": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#event_rebalance:custom_item/staff"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
     }
   },
   "parent": "event_rebalance:combat/craft_weapon",
@@ -134,6 +144,9 @@
     ],
     [
       "trident_obtained"
+    ],
+    [
+      "staff_obtained"
     ]
   ],
   "sends_telemetry_event": true

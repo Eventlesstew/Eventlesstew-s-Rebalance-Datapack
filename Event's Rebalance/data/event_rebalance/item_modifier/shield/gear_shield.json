@@ -3,9 +3,7 @@
     "item_filter": {
         "items": "shield",
         "components": {
-            "custom_data": {
-                "shell_shield":true
-            }
+            "item_model": "event:shield/gear_shield"
         }
     },
     "on_pass": {

@@ -5,16 +5,7 @@
       "conditions": {
         "block": "minecraft:bee_nest",
         "item": {
-          "predicates": {
-            "minecraft:enchantments": [
-              {
-                "enchantments": "minecraft:silk_touch",
-                "levels": {
-                  "min": 1
-                }
-              }
-            ]
-          }
+          "items": "#event_rebalance:custom_item/handsaw"
         },
         "num_bees_inside": 3
       },

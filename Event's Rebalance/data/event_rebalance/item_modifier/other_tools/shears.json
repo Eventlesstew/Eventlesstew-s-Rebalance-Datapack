@@ -1,0 +1,111 @@
+{
+    "function": "filtered",
+    "item_filter": {
+        "items": "shears"
+    },
+    "on_pass": {
+        "function": "sequence",
+        "functions": [
+            {
+                "tag": {
+                    "modified": true
+                },
+                "function": "set_custom_data"
+            },
+            {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                    {
+                        "id": "balance",
+                        "attribute": "minecraft:attack_damage",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "id": "balance",
+                        "attribute": "minecraft:attack_speed",
+                        "amount": -2,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "function": "set_components",
+                "components": {
+                    "minecraft:max_damage": 238,
+                    "repairable": {
+                        "items": "#event_rebalance:tool_repair/copper"
+                    },
+                    "tool": {
+                        "rules": [
+                            {
+                                "blocks": "cobweb",
+                                "speed": 16,
+                                "correct_for_drops": true
+                            },
+                            {
+                                "blocks": "#event_rebalance:mineable/shears",
+                                "speed": 8,
+                                "correct_for_drops": true
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "function": "minecraft:set_lore",
+                "lore": [
+                    {
+                        "translate": " ",
+                        "color": "#AAAAAA",
+                        "italic": false
+                    },
+                    {
+                        "translate": "item.modifiers.mainhand",
+                        "color": "#AAAAAA",
+                        "italic": false
+                    },
+                    {
+                        "translate": " 2 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.attack_damage"
+                            }
+                        ],
+                        "color": "#1aa819",
+                        "italic": false
+                    },
+                    {
+                        "translate": " 2 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.attack_speed"
+                            }
+                        ],
+                        "color": "#1aa819",
+                        "italic": false
+                    },
+                    {
+                        "translate": " X8 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.mining_speed"
+                            }
+                        ],
+                        "color": "#d3a921",
+                        "italic": false
+                    }
+                ],
+                "mode": "replace_all"
+            }
+        ]
+    }
+}

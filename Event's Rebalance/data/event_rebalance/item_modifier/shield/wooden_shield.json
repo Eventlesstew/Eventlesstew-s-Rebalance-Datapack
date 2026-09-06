@@ -3,9 +3,7 @@
     "item_filter": {
         "items": "shield",
         "components": {
-            "custom_data": {
-                "wooden_shield":true
-            }
+            "item_model": "event:shield/wooden_shield"
         }
     },
     "on_pass": {

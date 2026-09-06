@@ -1,0 +1,11 @@
+{
+    "values": [
+        "#swords",
+        "#spears",
+        "#axes",
+        "#event_rebalance:hammers",
+        "#event_rebalance:daggers",
+        "mace",
+        "#event_rebalance:custom_item/staff"
+    ]
+}

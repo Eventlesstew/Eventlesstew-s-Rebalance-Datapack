@@ -3,9 +3,7 @@
     "item_filter": {
         "items": "shield",
         "components": {
-            "custom_data": {
-                "heavy_shield":true
-            }
+            "item_model": "event:shield/heavy_shield"
         }
     },
     "on_pass": {

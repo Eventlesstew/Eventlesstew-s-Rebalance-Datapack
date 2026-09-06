@@ -11,7 +11,7 @@
       "trigger": "minecraft:inventory_changed"
     }
   },
-  "parent": "event_rebalance:story/root",
+  "parent": "event_rebalance:story/getting_wood",
   "display": {
     "title": {
       "translate": "advancements.story.light_campfire.title"

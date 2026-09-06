@@ -6,6 +6,7 @@
 		"minecraft:fall",
 		"minecraft:thorns",
 		"magic",
-		"event_rebalance:dagger"
+		"event_rebalance:dagger",
+		"wither"
 	]
 }

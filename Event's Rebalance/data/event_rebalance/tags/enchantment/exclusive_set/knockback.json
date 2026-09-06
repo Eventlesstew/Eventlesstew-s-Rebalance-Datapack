@@ -1,0 +1,8 @@
+{
+    "values": [
+        "knockback",
+        "punch",
+        "event_rebalance:harpoon",
+        "event_rebalance:rebound"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "values": [
+        "#shears_extreme_breaking_speed",
+        "#shears_major_breaking_speed",
+        "#shears_minor_breaking_speed",
+        "#wool_carpets",
+        "glow_lichen",
+        "vine",
+        "sculk",
+        "sculk_vein",
+        "melon",
+        "red_mushroom_block",
+        "brown_mushroom_block",
+        "mushroom_stem"
+    ]
+}

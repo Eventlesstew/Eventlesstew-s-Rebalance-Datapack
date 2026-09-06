@@ -50,6 +50,8 @@
     "item.minecraft.music_disc_otherside": "Diamond Hammer",
     "item.minecraft.music_disc_relic": "Netherite Hammer",
     
+    "item.minecraft.music_disc_tears":"Hand Saw",
+    
     "item.minecraft.vex_spawn_egg": "Steel Ingot (WORKING NAME)",
     "item.minecraft.blaze_spawn_egg": "Ruby",
     "item.minecraft.music_disc_strad": "Staff",
@@ -68,15 +70,20 @@
     "item.minecraft.piglin_brute_spawn_egg": "Rose Golden Ingot",
     "item.minecraft.hoglin_spawn_egg": "Rose Golden Upgrade",
     "item.minecraft.breeze_spawn_egg":"Breeze Powder",
+    "item.minecraft.ghast_spawn_egg": "Ominous Fortress Key",
+    "item.minecraft.happy_ghast_spawn_egg":"Fortress Key",
+
     "item.event.wooden_shield": "Wooden Shield",
     "item.event.cluster_shield": "Cluster Shield",
     "item.event.gear_shield": "Gear Shield",
     "item.event.heavy_shield": "Heavy Shield",
     "item.event.mini_shield": "Mini Shield",
     "item.event.shell_shield": "Shell Shield",
-    "item.event.firestarter": "Firestarter",
     
     "item.modifiers.use": "When used:",
+    
+    "enchantment.event.harpoon":"Harpoon",
+    "enchantment.event.rebound":"Rebound",
     
     "subtitles.block.shulker_box.close": "Portal box closes",
     "subtitles.block.shulker_box.open": "Portal box opens",
@@ -85,9 +92,13 @@
     "attribute.name.ore_mining_speed": "Ore Mining Speed",
     "attribute.name.obsidian_mining_speed": "Obsidian Mining Speed",
     "attribute.name.mining_power": "Mining Power",
+    "attribute.name.charge_delay": "Charge Delay",
+    "attribute.name.charge_duration": "Charge Duration",
 
     "death.attack.dagger": "%1$s was stabbed to death by %2$s",
     "death.attack.dagger.item": "%1$s was stabbed to death by %2$s using %3$s",
+    "death.attack.staff_area": "%1$s was blasted by %2$s",
+    "death.attack.staff_area.item": "%1$s was blasted by %2$s using %3$s",
 
     "advancements.story.root.title": "Progression",
     "advancements.story.getting_wood.title": "Getting Wood",
@@ -151,6 +162,10 @@
     "advancements.combat.moar_weaponry.description": "Craft a Sword, Spear, Axe and Dagger",
     "advancements.combat.all_weapons.title": "Full Arsenal",
     "advancements.combat.all_weapons.description": "Acquire every weapon",
+    "advancements.combat.deflect_big_damage.title": "Still no, thanks.",
+    "advancements.combat.deflect_big_damage.description": "Be completely unharmed by an attack that would have taken 10 hearts of damage.",
+    "advancements.combat.deflect_sonic_boom.title": "NOPE",
+    "advancements.combat.deflect_sonic_boom.description": "Deflect a Warden's Sonic Boom",
     "advancements.combat.all_shields.title": "Full Defense",
     "advancements.combat.all_shields.description": "Acquire every shield",
     "advancements.adventure.shoot_arrow.description": "Obtain any ranged weapon",

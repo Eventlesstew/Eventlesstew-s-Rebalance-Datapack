@@ -3,16 +3,10 @@
     "ingredient": "#event_rebalance:rose_golden_tools",
     "result": {
         "count": 1,
-        "id": "minecraft:music_disc_lava_chicken",
+        "id": "minecraft:piglin_spawn_egg",
         "components": {
             "!jukebox_playable": {},
-            "custom_data": {
-                "rose_golden_nugget": true
-            },
-            "item_model": "event:rose_golden_nugget",
-            "item_name": {
-                "translate": "item.minecraft.rose_golden_nugget"
-            },
+            "max_stack_size":64,
             "rarity": "common"
         }
     }

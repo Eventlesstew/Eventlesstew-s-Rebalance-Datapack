@@ -1,3 +1,7 @@
+#gamerule keep_inventory true
+
+# Add scoreboards if they don't exist
+scoreboard objectives add event.player_deaths deathCount
 scoreboard objectives add temp dummy
 scoreboard objectives add timer dummy
 scoreboard objectives add static dummy

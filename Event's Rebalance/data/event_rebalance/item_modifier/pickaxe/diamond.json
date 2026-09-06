@@ -48,12 +48,12 @@
                         "rules": [
                             {
                                 "blocks": "#event_rebalance:pickaxe_power_5",
-                                "speed": 6,
+                                "speed": 3,
                                 "correct_for_drops": false
                             },
                             {
                                 "blocks": "#event_rebalance:obsidian",
-                                "speed": 20,
+                                "speed": 24,
                                 "correct_for_drops": true
                             },
                             {
@@ -109,7 +109,7 @@
                         "italic": false
                     },
                     {
-                        "translate": " X20 ",
+                        "translate": " X24 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.obsidian_mining_speed"

@@ -3,9 +3,7 @@
     "item_filter": {
         "items": "shield",
         "components": {
-            "custom_data": {
-                "cluster_shield":true
-            }
+            "item_model": "event:shield/mini_shield"
         }
     },
     "on_pass": {

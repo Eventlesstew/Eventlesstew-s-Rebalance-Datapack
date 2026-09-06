@@ -94,6 +94,36 @@
                 "function": "reference",
                 "name": "event_rebalance:hoe/netherite"
             },
+
+            {
+                "function": "reference",
+                "name": "event_rebalance:axe/wooden"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:axe/copper"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:axe/iron"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:axe/golden"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:axe/rose_golden"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:axe/diamond"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:axe/netherite"
+            },
+
             {
                 "function": "reference",
                 "name": "event_rebalance:sword/wooden"
@@ -121,6 +151,35 @@
             {
                 "function": "reference",
                 "name": "event_rebalance:sword/netherite"
+            },
+
+            {
+                "function": "reference",
+                "name": "event_rebalance:spear/wooden"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:spear/copper"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:spear/iron"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:spear/golden"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:spear/rose_golden"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:spear/diamond"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:spear/netherite"
             },
 
             {
@@ -154,6 +213,35 @@
 
             {
                 "function": "reference",
+                "name": "event_rebalance:hammer/wooden"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:hammer/copper"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:hammer/iron"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:hammer/golden"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:hammer/rose_golden"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:hammer/diamond"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:hammer/netherite"
+            },
+
+            {
+                "function": "reference",
                 "name": "event_rebalance:helmet/leather"
             },
             {
@@ -179,10 +267,6 @@
             {
                 "function": "reference",
                 "name": "event_rebalance:helmet/netherite"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:special_armor/turtle_helmet"
             },
 
             {
@@ -270,6 +354,50 @@
             {
                 "function": "reference",
                 "name": "event_rebalance:boots/netherite"
+            },
+
+            {
+                "function": "reference",
+                "name": "event_rebalance:shield/wooden_shield"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:shield/mini_shield"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:shield/gear_shield"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:shield/cluster_shield"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:shield/heavy_shield"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:shield/shell_shield"
+            },
+
+            {
+                "function": "reference",
+                "name": "event_rebalance:other_tools/handsaw"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:other_tools/shears"
+            },
+            
+            {
+                "function": "reference",
+                "name": "event_rebalance:other_weapons/staff"
+            },
+
+            {
+                "function": "reference",
+                "name": "event_rebalance:other_armor/turtle_helmet"
             }
         ]
     }

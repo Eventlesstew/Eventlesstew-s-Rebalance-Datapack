@@ -3,9 +3,7 @@
     "item_filter": {
         "items": "shield",
         "components": {
-            "custom_data": {
-                "cluster_shield":true
-            }
+            "item_model": "event:shield/cluster_shield"
         }
     },
     "on_pass": {
@@ -38,7 +36,7 @@
                             "horizontal_blocking_angle": 90,
                             "base": 9,
                             "factor": 0,
-                            "type": "minecraft:sonic_boom"
+                            "type": "#event_rebalance:cluster_shield_blocks"
                             }
                         ],
                         "item_damage": {

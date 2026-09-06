@@ -1,5 +1,5 @@
 {
-  "parent": "event_rebalance:combat/root",
+  "parent": "event_rebalance:combat/craft_weapon",
   "criteria": {
     "item_gained": {
       "conditions": {

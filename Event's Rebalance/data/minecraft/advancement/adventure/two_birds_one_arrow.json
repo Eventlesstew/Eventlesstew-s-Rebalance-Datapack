@@ -36,7 +36,7 @@
     },
     "frame": "challenge",
     "icon": {
-      "id": "minecraft:crossbow"
+      "id": "minecraft:phantom_membrane"
     },
     "title": {
       "translate": "advancements.adventure.two_birds_one_arrow.title"

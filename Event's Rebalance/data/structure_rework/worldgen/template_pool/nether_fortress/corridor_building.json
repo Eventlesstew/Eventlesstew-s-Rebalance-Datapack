@@ -1,0 +1,77 @@
+{
+    "elements": [
+        {
+            "weight": 25,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/corridor/arena_magma_cube_1",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 25,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/corridor/arena_skeleton_1",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 25,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/corridor/arena_wither_skeleton_1",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/corridor/nether_wart_farm",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/corridor/respawn_1",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/corridor/respawn_2",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/corridor/parkour_1",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 100,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/corridor/parkour_2",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        }
+    ],
+    "fallback": "structure_rework:nether_fortress/corridor_end"
+}
