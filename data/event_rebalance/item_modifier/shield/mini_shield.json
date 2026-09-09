@@ -1,0 +1,113 @@
+{
+    "function": "filtered",
+    "item_filter": {
+        "items": "shield",
+        "components": {
+            "item_model": "event:shield/mini_shield"
+        }
+    },
+    "on_pass": {
+        "function": "sequence",
+        "functions": [
+            {
+                "tag": {
+                    "modified": true
+                },
+                "function": "set_custom_data"
+            },
+            {
+                "function": "set_components",
+                "components": {
+                    "item_model": "event:shield/mini_shield",
+                    "blocks_attacks": {
+                        "block_delay_seconds": 0,
+                        "block_sound": "item.wolf_armor.damage",
+                        "disabled_sound": "item.wolf_armor.crack",
+                        "damage_reductions": [
+                            {
+                                "horizontal_blocking_angle": 40,
+                                "base": 12,
+                                "factor": 0.25,
+                                "type": "#minecraft:shield_blocks"
+                            }
+                        ],
+                        "item_damage": {
+                            "base": -2,
+                            "factor": 0.5,
+                            "threshold": 0
+                        }
+                    },
+                    "max_damage": 256,
+                    "minecraft:enchantable": {
+                        "value": 10
+                    },
+                    "repairable": {
+                        "items": "#event_rebalance:tool_repair/mini_shield"
+                    },
+                    "minecraft:use_effects": {
+                        "speed_multiplier": 0.8,
+                        "can_sprint": true
+                    }
+                }
+            },
+            {
+                "function": "set_name",
+                "name": {
+                    "translate": "item.event.mini_shield",
+                    "italic": false
+                }
+            },
+            {
+                "function": "minecraft:set_lore",
+                "lore": [
+                    {
+                    "translate": " ",
+                    "color": "#AAAAAA",
+                    "italic": false
+                    },
+                    {
+                    "translate": "item.modifiers.use",
+                    "color": "#AAAAAA",
+                    "italic": false
+                    },
+                    {
+                    "translate": "stats.shield.block",
+                    "extra": [
+                        {
+                        "text": "16"
+                        }
+                    ],
+                    "color": "#1aa819",
+                    "italic": false
+                    },
+                    {
+                    "translate": "stats.shield.absorb",
+                    "extra": [
+                        {
+                        "text": "25%"
+                        }
+                    ],
+                    "color": "#1aa819",
+                    "italic": false
+                    },
+                    {
+                    "translate": "stats.shield.blocking_angle",
+                    "extra": [
+                        {
+                        "text": "80°"
+                        }
+                    ],
+                    "color": "#1aa819",
+                    "italic": false
+                    },
+                    {
+                    "translate": "stats.tool.moving_spd.-20P",
+                    "color": "#ff5555",
+                    "italic": false
+                    }
+                ],
+                "mode": "replace_all"
+            }
+        ]
+    }
+}

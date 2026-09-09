@@ -1,0 +1,150 @@
+{
+    "elements": [
+        {
+            "weight": 12,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/path/bridge_1",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 12,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/path/bridge_damaged_1",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 12,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/path/bridge_damaged_2",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 12,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/path/bridge_damaged_3",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 12,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/path/bridge_damaged_4",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 12,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/path/bridge_damaged_5",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 12,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/path/bridge_damaged_6",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 12,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/path/bridge_destroyed",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 12,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/path/bridge_short",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+
+        {
+            "weight": 12,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/path/corridor",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 12,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/path/corridor_stairs",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 12,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/path/corridor_damaged_1",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 12,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/path/corridor_damaged_2",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 12,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/path/corridor_damaged_3",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 12,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/path/corridor_destroyed",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 12,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/path/corridor_short",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        }
+    ],
+    "fallback": "empty"
+}

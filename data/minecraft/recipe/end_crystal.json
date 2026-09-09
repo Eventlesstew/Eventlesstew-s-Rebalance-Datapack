@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "E": "minecraft:ender_eye",
+    "G": "minecraft:glass",
+    "T": "minecraft:ghast_tear",
+    "P": "popped_chorus_fruit"
+  },
+  "pattern": [
+    "GGG",
+    "GEG",
+    "PTP"
+  ],
+  "result": {
+    "id": "minecraft:end_crystal"
+  }
+}

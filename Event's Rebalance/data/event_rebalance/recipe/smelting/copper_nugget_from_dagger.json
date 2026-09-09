@@ -1,7 +1,0 @@
-{
-    "type": "minecraft:smelting",
-    "ingredient": "#event_rebalance:custom_item/copper_dagger",
-    "result": {
-        "id": "copper_nugget"
-    }
-}

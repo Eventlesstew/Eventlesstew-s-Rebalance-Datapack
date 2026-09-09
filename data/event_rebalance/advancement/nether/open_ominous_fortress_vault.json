@@ -1,0 +1,47 @@
+{
+  "parent": "event_rebalance:nether/open_fortress_vault",
+  "criteria": {
+    "under_lock_and_key": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:vault",
+                "state": {
+                  "ominous": "true"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "#structure_rework:custom_item/ominous_fortress_key"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "description": {
+      "translate": "advancements.nether.open_ominous_fortress_vault.description"
+    },
+    "icon": {
+      "id": "minecraft:ghast_spawn_egg"
+    },
+    "title": {
+      "translate": "advancements.nether.open_ominous_fortress_vault.title"
+    }
+  },
+  "requirements": [
+    [
+      "under_lock_and_key"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,142 @@
+{
+    "function": "filtered",
+    "item_filter": {
+        "items": "shield",
+        "components": {
+            "item_model": "event:shield/heavy_shield"
+        }
+    },
+    "on_pass": {
+        "function": "sequence",
+        "functions": [
+            {
+                "tag": {
+                    "modified": true
+                },
+                "function": "set_custom_data"
+            },
+            {
+                "function": "set_components",
+                "components": {
+                    "item_model": "event:shield/heavy_shield",
+                    "blocks_attacks": {
+                        "block_delay_seconds": 0,
+                        "block_sound": {
+                            "sound_id": "event:item.heavy_shield.block"
+                        },
+                        "disabled_sound": {
+                            "sound_id": "event:item.heavy_shield.block"
+                        },
+                        "damage_reductions": [
+                            {
+                            "horizontal_blocking_angle": 60,
+                            "base": 10,
+                            "factor": 0.5,
+                            "type": "#minecraft:shield_blocks_attack"
+                            },
+                            {
+                            "horizontal_blocking_angle": 60,
+                            "base": 10,
+                            "factor": 0.8,
+                            "type": "#minecraft:is_explosion"
+                            }
+                        ],
+                        "item_damage": {
+                            "base": 0,
+                            "factor": 0.5,
+                            "threshold": 8
+                        },
+                        "disable_cooldown_scale": 0.25
+                    },
+                    "max_damage": 256,
+                    "minecraft:use_effects": {
+                        "speed_multiplier": 0.1
+                    },
+                    "minecraft:enchantable": {
+                        "value": 10
+                    },
+                    "repairable": {
+                        "items": "#event_rebalance:tool_repair/heavy_shield"
+                    }
+                }
+            },
+            {
+                "function": "set_attributes",
+                "modifiers": [
+                    {
+                    "id": "shield",
+                    "slot": "hand",
+                    "attribute": "movement_speed",
+                    "amount": -0.2,
+                    "operation": "add_multiplied_base"
+                    },
+                    {
+                    "id": "shield",
+                    "slot": "hand",
+                    "attribute": "air_drag_modifier",
+                    "amount": 0.8,
+                    "operation": "add_multiplied_base"
+                    }
+                ]
+            },
+            {
+                "function": "set_name",
+                "name": {
+                    "translate": "item.event.heavy_shield",
+                    "italic": false
+                }
+            },
+            {
+                "function": "minecraft:set_lore",
+                "lore": [
+                    {
+                    "translate": " ",
+                    "color": "#AAAAAA",
+                    "italic": false
+                    },
+                    {
+                    "translate": "item.modifiers.use",
+                    "color": "#AAAAAA",
+                    "italic": false
+                    },
+                    {
+                    "translate": "stats.shield.block",
+                    "extra": [
+                        {
+                        "text": "20"
+                        }
+                    ],
+                    "color": "#1aa819",
+                    "italic": false
+                    },
+                    {
+                    "translate": "stats.shield.absorb",
+                    "extra": [
+                        {
+                        "text": "50%"
+                        }
+                    ],
+                    "color": "#1aa819",
+                    "italic": false
+                    },
+                    {
+                    "translate": "stats.shield.blocking_angle",
+                    "extra": [
+                        {
+                        "text": "120°"
+                        }
+                    ],
+                    "color": "#1aa819",
+                    "italic": false
+                    },
+                    {
+                    "translate": "stats.tool.moving_spd.-90P",
+                    "color": "#ff5555",
+                    "italic": false
+                    }
+                ],
+                "mode": "replace_all"
+            }
+        ]
+    }
+}

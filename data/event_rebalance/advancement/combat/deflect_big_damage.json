@@ -1,0 +1,39 @@
+{
+  "parent": "story/deflect_arrow",
+  "criteria": {
+    "deflected_projectile": {
+      "conditions": {
+        "damage": {
+            "dealt": {
+                "min": 20
+            },
+            "taken": {
+                "max": 0
+            }
+        }
+      },
+      "trigger": "minecraft:entity_hurt_player"
+    }
+  },
+  "display": {
+    "frame": "challenge",
+    "description": {
+      "translate": "advancements.combat.deflect_big_damage.description"
+    },
+    "icon": {
+      "id": "minecraft:shield",
+      "components": {
+        "item_model": "event:shield/heavy_shield"
+      }
+    },
+    "title": {
+      "translate": "advancements.combat.deflect_big_damage.title"
+    }
+  },
+  "requirements": [
+    [
+      "deflected_projectile"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

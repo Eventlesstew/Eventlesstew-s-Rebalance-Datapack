@@ -1,0 +1,117 @@
+{
+    "function": "filtered",
+    "item_filter": {
+        "items": "#event_rebalance:custom_item/rose_golden_dagger"
+    },
+    "on_pass": {
+        "function": "sequence",
+        "functions": [
+            {
+                "tag": {
+                    "modified": true
+                },
+                "function": "set_custom_data"
+            },
+            {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                    {
+                        "id": "balance",
+                        "attribute": "minecraft:attack_damage",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "id": "balance",
+                        "attribute": "minecraft:attack_speed",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "function": "set_components",
+                "components": {
+                    "!jukebox_playable": {},
+                    "rarity": "common",
+                    "max_stack_size": 1,
+                    "minecraft:max_damage": 256,
+                    "damage":0,
+                    "damage_type": "event_rebalance:dagger",
+                    "minecraft:enchantable": {
+                        "value": 10
+                    },
+                    "repairable": {
+                        "items": "#event_rebalance:tool_repair/rose_golden"
+                    },
+                    "swing_animation": {
+                        "type": "stab",
+                        "duration": 4
+                    },
+                    "weapon": {
+                        "item_damage_per_attack": 1,
+                        "disable_blocking_for_seconds": 0
+                    },
+                    "tool": {
+                        "rules": [
+                            {
+                                "blocks": "cobweb",
+                                "speed": 48,
+                                "correct_for_drops": true
+                            },
+                            {
+                                "blocks": "#event_rebalance:mineable/sword",
+                                "speed": 24,
+                                "correct_for_drops": true
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+            "function": "minecraft:set_lore",
+            "lore": [
+                {
+                    "translate": " ",
+                    "color": "#AAAAAA",
+                    "italic": false
+                },
+                {
+                    "translate": "item.modifiers.mainhand",
+                    "color": "#AAAAAA",
+                    "italic": false
+                },
+                {
+                    "translate": " 4 ",
+                    "extra": [
+                        {
+                            "translate": "attribute.name.attack_damage"
+                        }
+                    ],
+                    "color": "#1aa819",
+                    "italic": false
+                },
+                {
+                    "translate": " 5 ",
+                    "extra": [
+                        {
+                            "translate": "attribute.name.attack_speed"
+                        }
+                    ],
+                    "color": "#1aa819",
+                    "italic": false
+                }
+            ],
+            "mode": "replace_all"
+            }
+        ]
+    }
+}

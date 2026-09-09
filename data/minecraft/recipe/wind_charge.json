@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#":"#event_rebalance:custom_item/breeze_powder"
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 8,
+    "id": "minecraft:wind_charge"
+  }
+}

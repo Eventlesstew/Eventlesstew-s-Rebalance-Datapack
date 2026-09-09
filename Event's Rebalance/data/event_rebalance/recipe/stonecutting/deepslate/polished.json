@@ -1,7 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": "deepslate",
-    "result": {
-        "id": "polished_deepslate"
-    }
-}

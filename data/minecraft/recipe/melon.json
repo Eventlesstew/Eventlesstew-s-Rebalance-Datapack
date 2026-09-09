@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#":"melon_slice"
+  },
+  "pattern":[
+    "##",
+    "##"
+  ],
+  "result": {
+    "id": "minecraft:melon"
+  }
+}

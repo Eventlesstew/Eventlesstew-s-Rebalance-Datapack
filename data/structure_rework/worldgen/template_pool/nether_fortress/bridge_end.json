@@ -1,0 +1,14 @@
+{
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/bridge/connector_dead_end",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        }
+    ],
+    "fallback": "empty"
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "ingredient": "deepslate_bricks",
+  "result": {
+    "id": "minecraft:cracked_deepslate_bricks",
+    "count": 1
+  }
+}

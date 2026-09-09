@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#minecraft:has_structure/village_plains",
+  "max_distance_from_center": 80,
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "size": 6,
+  "spawn_overrides": {},
+  "start_height": {
+    "absolute": 0
+  },
+  "start_pool": "minecraft:village/plains/town_centers",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "use_expansion_hack": true,
+  "pool_aliases": [
+    {
+      "type": "random",
+      "alias": "minecraft:village/plains/houses",
+      "targets": [
+        {
+          "data": "structure_rework:village/plains/empty",
+          "weight": 10
+        },
+        {
+          "data": "structure_rework:village/plains/decor",
+          "weight": 8
+        },
+        {
+          "data": "structure_rework:village/plains/meeting_points",
+          "weight": 4
+        },
+        {
+          "data": "structure_rework:village/plains/jobsites",
+          "weight": 16
+        },
+        {
+          "data": "structure_rework:village/plains/small_houses",
+          "weight": 16
+        },
+        {
+          "data": "structure_rework:village/plains/large_houses",
+          "weight": 16
+        }
+      ]
+    }
+  ]
+}

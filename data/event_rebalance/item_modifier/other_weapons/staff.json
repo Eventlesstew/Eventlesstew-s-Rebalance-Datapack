@@ -1,0 +1,102 @@
+{
+    "function": "filtered",
+    "item_filter": {
+        "items": "#event_rebalance:custom_item/staff"
+    },
+    "on_pass": {
+        "function": "sequence",
+        "functions": [
+            {
+                "tag": {
+                    "modified": true
+                },
+                "function": "set_custom_data"
+            },
+            {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                    {
+                        "id": "balance",
+                        "attribute": "minecraft:attack_damage",
+                        "amount": 9,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "id": "balance",
+                        "attribute": "minecraft:attack_speed",
+                        "amount": -3,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    }
+                ]
+            },
+            {
+                "function": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "function": "set_components",
+                "components": {
+                    "rarity":"common",
+                    "!jukebox_playable":{},
+                    "minecraft:max_damage": 1536,
+                    "damage":0,
+                    "repairable": {
+                        "items": "#event_rebalance:tool_repair/staff"
+                    },
+                    "consumable": {
+                        "consume_seconds": 2,
+                        "animation": "trident",
+                        "sound": "minecraft:block.enchantment_table.use",
+                        "has_consume_particles": false,
+                        "on_consume_effects": [
+                            {
+                                "type": "play_sound",
+                                "sound": "minecraft:entity.lightning_bolt.thunder"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "function": "minecraft:set_lore",
+                "lore": [
+                    {
+                        "translate": " ",
+                        "color": "#AAAAAA",
+                        "italic": false
+                    },
+                    {
+                        "translate": "item.modifiers.mainhand",
+                        "color": "#AAAAAA",
+                        "italic": false
+                    },
+                    {
+                        "translate": " 10 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.attack_damage"
+                            }
+                        ],
+                        "color": "#1aa819",
+                        "italic": false
+                    },
+                    {
+                        "translate": " 1 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.attack_speed"
+                            }
+                        ],
+                        "color": "#1aa819",
+                        "italic": false
+                    }
+                ],
+                "mode": "replace_all"
+            }
+        ]
+    }
+}

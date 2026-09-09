@@ -1,0 +1,1 @@
+execute as @a run function event_rebalance:balance_items

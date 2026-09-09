@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:husbandry/breed_an_animal",
+  "criteria": {
+    "minecraft:mule": {
+      "conditions": {
+        "child": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:mule"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:bred_animals"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.husbandry.breed_mule.description"
+    },
+    "icon": {
+      "id": "minecraft:hay_block"
+    },
+    "title": {
+      "translate": "advancements.husbandry.breed_mule.title"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:mule"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "item_gained": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#event_rebalance:rose_golden_tools"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "parent": "event_rebalance:nether/obtain_rose_gold_upgrade",
+  "display": {
+    "title": {
+      "translate": "advancements.nether.upgrade_rose_gold.title"
+    },
+    "description": {
+      "translate": "advancements.nether.upgrade_rose_gold.description"
+    },
+    "icon": {
+        "id": "stone_pickaxe"
+    }
+  },
+  "requirements": [
+    [
+      "item_gained"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

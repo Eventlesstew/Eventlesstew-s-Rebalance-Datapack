@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:smelting",
+    "group": "golden_nugget",
+    "ingredient": "#event_rebalance:custom_item/golden_hammer",
+    "result": {
+        "id": "gold_nugget"
+    }
+}

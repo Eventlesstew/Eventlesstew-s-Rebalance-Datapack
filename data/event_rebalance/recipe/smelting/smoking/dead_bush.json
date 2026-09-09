@@ -1,0 +1,10 @@
+{
+  "type": "smoking",
+  "category": "misc",
+  "group": "dead_bush",
+  "ingredient": "bush",
+  "experience": 0.7,
+  "result": {
+    "id": "minecraft:dead_bush"
+  }
+}

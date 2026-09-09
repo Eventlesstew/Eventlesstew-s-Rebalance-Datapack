@@ -1,0 +1,228 @@
+{
+  "criteria": {
+    "red": {
+      "conditions": {
+        "items": [
+          {
+            "items": "red_dye"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "orange": {
+      "conditions": {
+        "items": [
+          {
+            "items": "orange_dye"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "yellow": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yellow_dye"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "green": {
+      "conditions": {
+        "items": [
+          {
+            "items": "green_dye"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "lime": {
+      "conditions": {
+        "items": [
+          {
+            "items": "lime_dye"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "brown": {
+      "conditions": {
+        "items": [
+          {
+            "items": "brown_dye"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "blue": {
+      "conditions": {
+        "items": [
+          {
+            "items": "blue_dye"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "cyan": {
+      "conditions": {
+        "items": [
+          {
+            "items": "cyan_dye"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "light_blue": {
+      "conditions": {
+        "items": [
+          {
+            "items": "light_blue_dye"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "purple": {
+      "conditions": {
+        "items": [
+          {
+            "items": "purple_dye"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "magenta": {
+      "conditions": {
+        "items": [
+          {
+            "items": "magenta_dye"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "pink": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pink_dye"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "white": {
+      "conditions": {
+        "items": [
+          {
+            "items": "white_dye"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "light_gray": {
+      "conditions": {
+        "items": [
+          {
+            "items": "light_gray_dye"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "gray": {
+      "conditions": {
+        "items": [
+          {
+            "items": "gray_dye"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "black": {
+      "conditions": {
+        "items": [
+          {
+            "items": "black_dye"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "parent": "event_rebalance:story/shear_sheep",
+  "display": {
+    "frame": "goal",
+    "title": {
+      "translate": "advancements.story.rainbow_collection.title"
+    },
+    "description": {
+      "translate": "advancements.story.rainbow_collection.description"
+    },
+    "icon": {
+      "id": "minecraft:red_dye"
+    }
+  },
+  "requirements": [
+    [
+      "red"
+    ],
+    [
+      "orange"
+    ],
+    [
+      "yellow"
+    ],
+    [
+      "green"
+    ],
+    [
+      "lime"
+    ],
+    [
+      "brown"
+    ],
+    [
+      "blue"
+    ],
+    [
+      "cyan"
+    ],
+    [
+      "light_blue"
+    ],
+    [
+      "purple"
+    ],
+    [
+      "magenta"
+    ],
+    [
+      "pink"
+    ],
+    [
+      "white"
+    ],
+    [
+      "light_gray"
+    ],
+    [
+      "gray"
+    ],
+    [
+      "black"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

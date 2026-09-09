@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "item_gained": {
+      "conditions": {
+        "items": [
+          {
+            "items": "campfire"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "parent": "event_rebalance:story/getting_wood",
+  "display": {
+    "title": {
+      "translate": "advancements.story.light_campfire.title"
+    },
+    "description": {
+      "translate": "advancements.story.light_campfire.description"
+    },
+    "icon": {
+      "id": "campfire"
+    }
+  },
+  "requirements": [
+    [
+      "item_gained"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

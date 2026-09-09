@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "group": "glazed_terracotta",
+  "ingredient": "light_gray_terracotta",
+  "result": {
+    "id": "light_gray_glazed_terracotta",
+    "count": 1
+  }
+}

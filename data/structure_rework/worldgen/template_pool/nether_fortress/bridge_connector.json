@@ -1,0 +1,68 @@
+{
+    "elements": [
+        {
+            "weight": 12,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/bridge/connector_bend",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 12,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/bridge/connector_line",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 4,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/bridge/connector_stairs",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 9,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/bridge/connector_t_way",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 4,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/bridge/connector_intersection",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/bridge/connector_intersection_treasure",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/bridge/connector_dead_end",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        }
+    ],
+    "fallback": "structure_rework:nether_fortress/bridge_end"
+}

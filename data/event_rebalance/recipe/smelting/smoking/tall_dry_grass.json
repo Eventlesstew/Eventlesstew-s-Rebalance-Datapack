@@ -1,0 +1,10 @@
+{
+  "type": "smoking",
+  "category": "misc",
+  "ingredient": "tall_grass",
+  "cookingtime": 200,
+  "experience": 1.4,
+  "result": {
+    "id": "minecraft:tall_dry_grass"
+  }
+}

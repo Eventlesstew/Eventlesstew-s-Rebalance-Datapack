@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "item_gained": {
+      "conditions": {
+        "items": [
+          {
+            "items": "cobbled_deepslate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "block/mud_bricks",
+    "title": {
+      "translate": "advancements.construction.root.title"
+    },
+    "description": {
+      "translate": "advancements.construction.root.description"
+    },
+    "icon": {
+        "id": "bricks"
+    },
+    "announce_to_chat": false,
+    "show_toast": false
+  },
+  "requirements": [
+    [
+      "item_gained"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

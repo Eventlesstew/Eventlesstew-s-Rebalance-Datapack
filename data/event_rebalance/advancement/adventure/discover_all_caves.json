@@ -1,0 +1,99 @@
+{
+  "parent": "minecraft:adventure/avoid_vibration",
+  "criteria": {
+    "minecraft:deep_dark": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "biomes": "minecraft:deep_dark"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "minecraft:dripstone_caves": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "biomes": "minecraft:dripstone_caves"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "minecraft:lush_caves": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "biomes": "minecraft:lush_caves"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "minecraft:sulfur_caves": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "biomes": "minecraft:sulfur_caves"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.discover_all_caves.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "id": "minecraft:iron_boots"
+    },
+    "title": {
+      "translate": "advancements.adventure.discover_all_caves.title"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:dripstone_caves"
+    ],
+    [
+      "minecraft:lush_caves"
+    ],
+    [
+      "minecraft:sulfur_caves"
+    ],
+    [
+      "minecraft:deep_dark"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  },
+  "sends_telemetry_event": true
+}

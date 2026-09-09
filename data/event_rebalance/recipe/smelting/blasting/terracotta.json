@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "ingredient": "clay",
+  "result": {
+    "id": "terracotta",
+    "count": 1
+  }
+}

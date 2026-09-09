@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "ingredient": "polished_blackstone_bricks",
+  "result": {
+    "id": "minecraft:cracked_polished_blackstone_bricks",
+    "count": 1
+  }
+}

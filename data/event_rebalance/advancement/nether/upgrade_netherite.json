@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "item_gained": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#event_rebalance:netherite_tools"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "parent": "nether/obtain_ancient_debris",
+  "display": {
+    "title": {
+      "translate": "advancements.nether.upgrade_netherite.title"
+    },
+    "description": {
+      "translate": "advancements.nether.upgrade_netherite.description"
+    },
+    "icon": {
+        "id": "netherite_pickaxe"
+    }
+  },
+  "requirements": [
+    [
+      "item_gained"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

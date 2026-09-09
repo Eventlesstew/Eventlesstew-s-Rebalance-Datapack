@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "#":"#copper_tool_materials",
+        "S":"stick"
+    },
+    "pattern": [
+        "###",
+        "###",
+        " S "
+    ],
+    "result": {
+        "id": "music_disc_creator_music_box",
+        "components": {
+            "custom_data": {
+                "copper_hammer":true
+            }
+        }
+    }
+}

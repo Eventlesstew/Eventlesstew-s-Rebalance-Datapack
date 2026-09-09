@@ -1,0 +1,76 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "translate": "enchantment.event.harpoon"
+  },
+  "effects": {
+    "minecraft:knockback": [
+      {
+        "effect": {
+          "type": "minecraft:multiply",
+          "factor": -1.0
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "minecraft:entity_type": "#minecraft:arrows"
+          }
+        }
+      }
+    ],
+    "post_attack": [
+      {
+        "affected": "victim",
+        "enchanted": "attacker",
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_impulse",
+              "coordinate_scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "magnitude": {
+                "type": "minecraft:linear",
+                "base": -0.6,
+                "per_level_above_first": -0.6
+              }
+            },
+            {
+              "type": "minecraft:play_sound",
+              "pitch": 1.0,
+              "sound": [
+                "minecraft:item.spear.lunge_1",
+                "minecraft:item.spear.lunge_2",
+                "minecraft:item.spear.lunge_3"
+              ],
+              "volume": 1.0
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 37,
+    "per_level_above_first": 20
+  },
+  "max_level": 2,
+  "min_cost": {
+    "base": 12,
+    "per_level_above_first": 20
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#event_rebalance:enchantable/ranged_weapon",
+  "weight": 2
+}

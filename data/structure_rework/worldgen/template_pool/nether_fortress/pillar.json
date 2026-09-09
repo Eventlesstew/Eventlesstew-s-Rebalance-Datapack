@@ -1,0 +1,13 @@
+{
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "feature_pool_element",
+                "feature": "structure_rework:nether_fortress/pillar",
+                "projection": "rigid"
+            }
+        }
+    ],
+    "fallback": "structure_rework:nether_fortress/pillar"
+}

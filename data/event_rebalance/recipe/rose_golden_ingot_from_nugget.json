@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "group": "rose_gold_ingot",
+    "ingredients": [
+        "piglin_spawn_egg",
+        "piglin_spawn_egg",
+        "piglin_spawn_egg",
+        "piglin_spawn_egg",
+        "piglin_spawn_egg",
+        "piglin_spawn_egg",
+        "piglin_spawn_egg",
+        "piglin_spawn_egg",
+        "piglin_spawn_egg"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:piglin_brute_spawn_egg",
+        "components": {
+            "!entity_data": {},
+            "max_stack_size": 64
+        }
+    }
+}

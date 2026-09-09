@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        "music_disc_tears"
+    ],
+    "result": {
+        "count": 9,
+        "id": "minecraft:piglin_spawn_egg",
+        "components": {
+            "!entity_data":{},
+            "max_stack_size": 64,
+            "rarity": "common"
+        }
+    }
+}

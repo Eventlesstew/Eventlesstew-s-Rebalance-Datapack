@@ -1,0 +1,9 @@
+{
+  "type": "smoking",
+  "category": "misc",
+  "ingredient": "short_grass",
+  "experience": 0.7,
+  "result": {
+    "id": "minecraft:short_dry_grass"
+  }
+}

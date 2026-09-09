@@ -1,0 +1,25 @@
+{
+  "feature": "minecraft:warped_fungus_planted",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 8
+    },
+    {
+      "type": "environment_scan",
+      "direction_of_search": "down",
+      "max_steps": 32,
+      "target_condition": {
+        "type": "matching_blocks",
+        "offset": [0,-1,0],
+        "blocks": [
+          "warped_nylium",
+          "netherrack"
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

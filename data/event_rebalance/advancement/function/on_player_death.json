@@ -1,0 +1,16 @@
+{
+	"criteria": {
+		"on_change": {
+			"trigger": "minecraft:entity_hurt_player"
+		}
+	},
+	"requirements": [
+		[
+			"on_change"
+		]
+	],
+	"rewards": {
+		"function": "event_rebalance:on_player_death"
+	},
+	"sends_telemetry_event": false
+}

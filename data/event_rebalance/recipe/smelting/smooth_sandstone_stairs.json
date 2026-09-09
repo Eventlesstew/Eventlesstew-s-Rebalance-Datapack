@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "ingredient": "sandstone_stairs",
+  "result": {
+    "id": "minecraft:smooth_sandstone_stairs",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "copper_bulb",
+  "key": {
+    "B": "minecraft:glowstone",
+    "C": "minecraft:copper_ingot",
+    "R": "minecraft:redstone"
+  },
+  "pattern": [
+    "CCC",
+    "CBC",
+    "CRC"
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:copper_bulb"
+  }
+}

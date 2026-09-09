@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "misc",
+  "ingredient": "tall_grass",
+  "cookingtime": 1200,
+  "result": {
+    "id": "minecraft:tall_dry_grass"
+  }
+}

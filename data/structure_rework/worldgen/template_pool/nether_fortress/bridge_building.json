@@ -1,0 +1,32 @@
+{
+    "elements": [
+        {
+            "weight": 50,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/bridge/blaze_arena_1",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 50,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/bridge/blaze_arena_2",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 50,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/bridge/magma_cube_arena_1",
+                "processors": "empty",
+                "projection": "rigid"
+            }
+        }
+    ],
+    "fallback": "structure_rework:nether_fortress/bridge_end"
+}

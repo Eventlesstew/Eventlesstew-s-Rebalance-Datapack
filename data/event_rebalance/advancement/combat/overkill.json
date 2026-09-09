@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:adventure/kill_a_mob",
+  "criteria": {
+    "overkill": {
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 20.0
+          }
+        }
+      },
+      "trigger": "minecraft:player_hurt_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.combat.overkill.description"
+    },
+    "icon": {
+      "id": "minecraft:netherite_sword"
+    },
+    "title": {
+      "translate": "advancements.combat.overkill.title"
+    }
+  },
+  "requirements": [
+    [
+      "overkill"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
