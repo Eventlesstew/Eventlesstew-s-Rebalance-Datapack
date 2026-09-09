@@ -22,6 +22,14 @@
               "type": "minecraft:item",
               "functions": [
                 {
+                  "function": "set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 5.0,
+                    "min": 10.0
+                  }
+                },
+                {
                   "enchantment": "minecraft:fortune",
                   "formula": "minecraft:ore_drops",
                   "function": "minecraft:apply_bonus"

@@ -1,0 +1,204 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "enchantment.event.focusing",
+    "color": "#abf2ff",
+    "shadow_color": 1883020435
+  },
+  "effects": {
+    "tick": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "event_rebalance:enchantments/focusing/1"
+        },
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "movement": {
+              "speed": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "event_rebalance:focusing",
+                      "levels": 1
+                    }
+                  ]
+                }
+              }
+            },
+            "periodic_tick": 40
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "event_rebalance:enchantments/focusing/2"
+        },
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "movement": {
+              "speed": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "event_rebalance:focusing",
+                      "levels": 2
+                    }
+                  ]
+                }
+              }
+            },
+            "periodic_tick": 40
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "event_rebalance:enchantments/focusing/3"
+        },
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "movement": {
+              "speed": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "event_rebalance:focusing",
+                      "levels": 3
+                    }
+                  ]
+                }
+              }
+            },
+            "periodic_tick": 40
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "event_rebalance:enchantments/focusing/4"
+        },
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "movement": {
+              "speed": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "event_rebalance:focusing",
+                      "levels": 4
+                    }
+                  ]
+                }
+              }
+            },
+            "periodic_tick": 40
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "event_rebalance:enchantments/focusing/5"
+        },
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "movement": {
+              "speed": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "event_rebalance:focusing",
+                      "levels": 5
+                    }
+                  ]
+                }
+              }
+            },
+            "periodic_tick": 40
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "event_rebalance:enchantments/focusing/0"
+        },
+        "requirements": {
+          "condition": "all_of",
+          "terms": [
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "movement": {
+                  "speed": {
+                    "min": 1
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#event_rebalance:exclusive_set/mining_speed",
+  "max_level": 5,
+  "max_cost": {
+    "base": 8,
+    "per_level_above_first": 8
+  },
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 8
+  },
+  "weight": 8,
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/mining"
+}
