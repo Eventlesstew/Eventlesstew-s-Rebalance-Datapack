@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "item_gained": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#event_rebalance:custom_item/rose_golden_upgrade_smithing_template"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "parent": "nether/loot_bastion",
+  "display": {
+    "title": {
+      "translate": "advancements.nether.obtain_rose_gold_upgrade.title"
+    },
+    "description": {
+      "translate": "advancements.nether.obtain_rose_gold_upgrade.description"
+    },
+    "icon": {
+        "id": "hoglin_spawn_egg"
+    }
+  },
+  "requirements": [
+    [
+      "item_gained"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

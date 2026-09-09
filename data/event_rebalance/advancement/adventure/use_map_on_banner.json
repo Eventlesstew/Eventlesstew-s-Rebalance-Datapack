@@ -1,0 +1,45 @@
+{
+  "criteria": {
+    "item_gained": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:filled_map"
+              ]
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block":{
+                "blocks": "#banners"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "parent": "event_rebalance:adventure/obtain_compass",
+  "display": {
+    "title": {
+      "translate": "advancements.adventure.use_map_on_banner.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.use_map_on_banner.description"
+    },
+    "icon": {
+        "id": "filled_map"
+    }
+  },
+  "requirements": [
+    [
+      "item_gained"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

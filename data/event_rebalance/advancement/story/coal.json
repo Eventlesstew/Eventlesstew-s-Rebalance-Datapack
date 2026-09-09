@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "item_gained": {
+      "conditions": {
+        "items": [
+          {
+            "items": "coal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "parent": "event_rebalance:story/light_campfire",
+  "display": {
+    "title": {
+      "translate": "advancements.story.coal.title"
+    },
+    "description": {
+      "translate": "advancements.story.coal.description"
+    },
+    "icon": {
+        "id": "coal"
+    }
+  },
+  "requirements": [
+    [
+      "item_gained"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

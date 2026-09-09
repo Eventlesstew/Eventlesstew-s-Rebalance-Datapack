@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "event:item/copper_compass/copper_compass_21"
-  }
-}

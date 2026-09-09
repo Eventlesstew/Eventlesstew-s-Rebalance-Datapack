@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smoking",
-  "category": "blocks",
-  "ingredient": "stone_bricks",
-  "result": {
-    "id": "minecraft:cracked_stone_bricks",
-    "count": 1
-  }
-}

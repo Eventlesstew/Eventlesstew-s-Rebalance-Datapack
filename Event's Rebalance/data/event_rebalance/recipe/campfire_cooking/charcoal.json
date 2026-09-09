@@ -1,6 +1,0 @@
-{
-    "type": "campfire_cooking",
-    "ingredient": "#logs",
-    "result": "charcoal",
-    "category": "misc"
-}

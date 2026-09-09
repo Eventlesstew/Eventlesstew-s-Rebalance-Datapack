@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smoking",
-  "category": "blocks",
-  "ingredient": "black_terracotta",
-  "result": {
-    "id": "black_glazed_terracotta",
-    "count": 1
-  }
-}

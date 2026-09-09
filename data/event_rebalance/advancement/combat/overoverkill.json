@@ -1,0 +1,36 @@
+{
+  "parent": "event_rebalance:combat/overkill",
+  "criteria": {
+    "overkill": {
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 40.0
+          }
+        }
+      },
+      "trigger": "minecraft:player_hurt_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.combat.overoverkill.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "id": "minecraft:netherite_axe"
+    },
+    "title": {
+      "translate": "advancements.combat.overoverkill.title"
+    }
+  },
+  "requirements": [
+    [
+      "overkill"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": true
+}

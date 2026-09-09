@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smoking",
-  "category": "blocks",
-  "ingredient": "sandstone",
-  "result": {
-    "id": "minecraft:smooth_sandstone",
-    "count": 1
-  }
-}

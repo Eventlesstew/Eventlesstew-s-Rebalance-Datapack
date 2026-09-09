@@ -1,0 +1,32 @@
+{
+  "parent": "story/obtain_armor",
+  "criteria": {
+    "obtain_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "turtle_helmet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.combat.obtain_turtle_helmet.description"
+    },
+    "icon": {
+      "id": "minecraft:turtle_helmet"
+    },
+    "title": {
+      "translate": "advancements.combat.obtain_turtle_helmet.title"
+    }
+  },
+  "requirements": [
+    [
+      "obtain_armor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

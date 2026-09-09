@@ -1,7 +1,0 @@
-{
-    "type": "smoking",
-    "ingredient": "#logs",
-    "result": "charcoal",
-    "experience": 0.15,
-    "category": "misc"
-}

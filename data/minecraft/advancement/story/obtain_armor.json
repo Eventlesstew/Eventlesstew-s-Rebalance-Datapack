@@ -1,0 +1,32 @@
+{
+  "parent": "event_rebalance:combat/root",
+  "criteria": {
+    "obtain_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#event_rebalance:armor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.story.obtain_armor.description"
+    },
+    "icon": {
+      "id": "minecraft:copper_chestplate"
+    },
+    "title": {
+      "translate": "advancements.story.obtain_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "obtain_armor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

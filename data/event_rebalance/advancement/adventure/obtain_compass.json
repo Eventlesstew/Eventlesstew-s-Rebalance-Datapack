@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "item_gained": {
+      "conditions": {
+        "items": [
+          {
+            "items": "compass"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "parent": "adventure/root",
+  "display": {
+    "title": {
+      "translate": "advancements.adventure.obtain_compass.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.obtain_compass.description"
+    },
+    "icon": {
+        "id": "compass"
+    }
+  },
+  "requirements": [
+    [
+      "item_gained"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
