@@ -18,14 +18,7 @@
                     {
                         "id": "balance_helmet",
                         "attribute": "minecraft:armor",
-                        "amount": 4,
-                        "operation": "add_value",
-                        "slot": "head"
-                    },
-                    {
-                        "id": "balance_helmet",
-                        "attribute": "minecraft:armor_toughness",
-                        "amount": 2,
+                        "amount": 3,
                         "operation": "add_value",
                         "slot": "head"
                     }

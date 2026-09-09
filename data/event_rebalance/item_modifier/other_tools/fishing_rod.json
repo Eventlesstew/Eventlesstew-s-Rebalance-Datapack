@@ -1,0 +1,26 @@
+{
+    "function": "filtered",
+    "item_filter": {
+        "items": "fishing_rod"
+    },
+    "on_pass": {
+        "function": "sequence",
+        "functions": [
+            {
+                "tag": {
+                    "modified": true
+                },
+                "function": "set_custom_data"
+            },
+            {
+                "function": "set_components",
+                "components": {
+                    "minecraft:max_damage": 64,
+                    "repairable": {
+                        "items": "#event_rebalance:tool_repair/fishing_rod"
+                    }
+                }
+            }
+        ]
+    }
+}

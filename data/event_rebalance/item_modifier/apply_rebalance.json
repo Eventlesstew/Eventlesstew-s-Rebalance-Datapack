@@ -94,7 +94,6 @@
                 "function": "reference",
                 "name": "event_rebalance:hoe/netherite"
             },
-
             {
                 "function": "reference",
                 "name": "event_rebalance:axe/wooden"
@@ -123,7 +122,6 @@
                 "function": "reference",
                 "name": "event_rebalance:axe/netherite"
             },
-
             {
                 "function": "reference",
                 "name": "event_rebalance:sword/wooden"
@@ -152,7 +150,6 @@
                 "function": "reference",
                 "name": "event_rebalance:sword/netherite"
             },
-
             {
                 "function": "reference",
                 "name": "event_rebalance:spear/wooden"
@@ -181,7 +178,6 @@
                 "function": "reference",
                 "name": "event_rebalance:spear/netherite"
             },
-
             {
                 "function": "reference",
                 "name": "event_rebalance:dagger/wooden"
@@ -210,7 +206,6 @@
                 "function": "reference",
                 "name": "event_rebalance:dagger/netherite"
             },
-
             {
                 "function": "reference",
                 "name": "event_rebalance:hammer/wooden"
@@ -239,7 +234,6 @@
                 "function": "reference",
                 "name": "event_rebalance:hammer/netherite"
             },
-
             {
                 "function": "reference",
                 "name": "event_rebalance:helmet/leather"
@@ -268,7 +262,6 @@
                 "function": "reference",
                 "name": "event_rebalance:helmet/netherite"
             },
-
             {
                 "function": "reference",
                 "name": "event_rebalance:chestplate/leather"
@@ -297,7 +290,6 @@
                 "function": "reference",
                 "name": "event_rebalance:chestplate/netherite"
             },
-
             {
                 "function": "reference",
                 "name": "event_rebalance:leggings/leather"
@@ -326,7 +318,6 @@
                 "function": "reference",
                 "name": "event_rebalance:leggings/netherite"
             },
-
             {
                 "function": "reference",
                 "name": "event_rebalance:boots/leather"
@@ -355,7 +346,6 @@
                 "function": "reference",
                 "name": "event_rebalance:boots/netherite"
             },
-
             {
                 "function": "reference",
                 "name": "event_rebalance:shield/wooden_shield"
@@ -380,7 +370,6 @@
                 "function": "reference",
                 "name": "event_rebalance:shield/shell_shield"
             },
-
             {
                 "function": "reference",
                 "name": "event_rebalance:other_tools/handsaw"
@@ -389,17 +378,50 @@
                 "function": "reference",
                 "name": "event_rebalance:other_tools/shears"
             },
-            
+            {
+                "function": "reference",
+                "name": "event_rebalance:other_tools/brush"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:other_tools/carrot_on_a_stick"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:other_tools/fishing_rod"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:other_tools/flint_and_steel"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:other_tools/warped_fungus_on_a_stick"
+            },
             {
                 "function": "reference",
                 "name": "event_rebalance:other_weapons/staff"
             },
-
+            {
+                "function": "reference",
+                "name": "event_rebalance:other_weapons/bow"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:other_weapons/crossbow"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:other_weapons/trident"
+            },
+            {
+                "function": "reference",
+                "name": "event_rebalance:other_weapons/mace"
+            },
             {
                 "function": "reference",
                 "name": "event_rebalance:other_armor/turtle_helmet"
             },
-
             {
                 "function": "reference",
                 "name": "event_rebalance:food/popped_chorus_fruit"

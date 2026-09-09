@@ -1,0 +1,26 @@
+{
+    "function": "filtered",
+    "item_filter": {
+        "items": "warped_fungus_on_a_stick"
+    },
+    "on_pass": {
+        "function": "sequence",
+        "functions": [
+            {
+                "tag": {
+                    "modified": true
+                },
+                "function": "set_custom_data"
+            },
+            {
+                "function": "set_components",
+                "components": {
+                    "minecraft:max_damage": 128,
+                    "repairable": {
+                        "items": "#event_rebalance:tool_repair/warped_fungus_on_a_stick"
+                    }
+                }
+            }
+        ]
+    }
+}

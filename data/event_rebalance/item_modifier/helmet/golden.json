@@ -24,9 +24,9 @@
                     },
                     {
                         "id": "balance_helmet",
-                        "attribute": "minecraft:max_health",
-                        "amount": 2,
-                        "operation": "add_value",
+                        "attribute": "minecraft:knockback_resistance",
+                        "amount": -0.6,
+                        "operation": "add_multiplied_base",
                         "slot": "head"
                     },
                     {

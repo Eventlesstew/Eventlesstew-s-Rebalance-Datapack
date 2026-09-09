@@ -18,15 +18,15 @@
                     {
                         "id": "balance_helmet",
                         "attribute": "minecraft:armor",
-                        "amount": 5,
+                        "amount": 4,
                         "operation": "add_value",
                         "slot": "head"
                     },
                     {
                         "id": "balance_helmet",
-                        "attribute": "minecraft:max_health",
-                        "amount": 4,
-                        "operation": "add_value",
+                        "attribute": "minecraft:knockback_resistance",
+                        "amount": -0.12,
+                        "operation": "add_multiplied_base",
                         "slot": "head"
                     },
                     {
@@ -49,7 +49,7 @@
                 "function": "set_components",
                 "components": {
                     "minecraft:max_damage": 256,
-                    "rarity":"common",
+                    "rarity": "common",
                     "repairable": {
                         "items": "#event_rebalance:tool_repair/rose_golden"
                     }

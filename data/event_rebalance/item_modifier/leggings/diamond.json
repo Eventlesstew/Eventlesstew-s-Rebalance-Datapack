@@ -25,21 +25,21 @@
                     {
                         "id": "balance_leggings",
                         "attribute": "minecraft:armor_toughness",
-                        "amount": 3,
+                        "amount": 2,
                         "operation": "add_value",
                         "slot": "legs"
                     },
                     {
                         "id": "balance_leggings",
                         "attribute": "minecraft:movement_speed",
-                        "amount": -0.03,
+                        "amount": -0.04,
                         "operation": "add_multiplied_base",
                         "slot": "legs"
                     },
                     {
                         "id": "balance_leggings",
                         "attribute": "minecraft:air_drag_modifier",
-                        "amount": 0.06,
+                        "amount": 0.08,
                         "operation": "add_multiplied_base",
                         "slot": "legs"
                     }

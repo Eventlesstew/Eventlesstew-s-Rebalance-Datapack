@@ -24,9 +24,9 @@
                     },
                     {
                         "id": "balance_boots",
-                        "attribute": "minecraft:max_health",
-                        "amount": 2,
-                        "operation": "add_value",
+                        "attribute": "minecraft:knockback_resistance",
+                        "amount": -0.06,
+                        "operation": "add_multiplied_base",
                         "slot": "feet"
                     },
                     {

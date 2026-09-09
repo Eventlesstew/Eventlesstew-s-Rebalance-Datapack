@@ -18,28 +18,28 @@
                     {
                         "id": "balance_boots",
                         "attribute": "minecraft:armor",
-                        "amount": 4,
+                        "amount": 3,
                         "operation": "add_value",
                         "slot": "feet"
                     },
                     {
                         "id": "balance_boots",
-                        "attribute": "minecraft:max_health",
-                        "amount": 4,
-                        "operation": "add_value",
+                        "attribute": "minecraft:knockback_resistance",
+                        "amount": -0.12,
+                        "operation": "add_multiplied_base",
                         "slot": "feet"
                     },
                     {
                         "id": "balance_boots",
                         "attribute": "minecraft:movement_speed",
-                        "amount": 0.03,
+                        "amount": 0.04,
                         "operation": "add_multiplied_base",
                         "slot": "feet"
                     },
                     {
                         "id": "balance_boots",
                         "attribute": "minecraft:air_drag_modifier",
-                        "amount": -0.03,
+                        "amount": -0.04,
                         "operation": "add_multiplied_base",
                         "slot": "feet"
                     }
@@ -49,7 +49,7 @@
                 "function": "set_components",
                 "components": {
                     "minecraft:max_damage": 256,
-                    "rarity":"common",
+                    "rarity": "common",
                     "repairable": {
                         "items": "#event_rebalance:tool_repair/rose_golden"
                     }

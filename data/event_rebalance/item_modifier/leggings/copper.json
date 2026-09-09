@@ -18,21 +18,21 @@
                     {
                         "id": "balance_leggings",
                         "attribute": "minecraft:armor",
-                        "amount": 3,
+                        "amount": 4,
                         "operation": "add_value",
                         "slot": "legs"
                     },
                     {
                         "id": "balance_leggings",
                         "attribute": "minecraft:movement_speed",
-                        "amount": 0.03,
+                        "amount": 0.04,
                         "operation": "add_multiplied_base",
                         "slot": "legs"
                     },
                     {
                         "id": "balance_leggings",
                         "attribute": "minecraft:air_drag_modifier",
-                        "amount": -0.03,
+                        "amount": -0.04,
                         "operation": "add_multiplied_base",
                         "slot": "legs"
                     }
@@ -41,7 +41,7 @@
             {
                 "function": "set_components",
                 "components": {
-                    "minecraft:max_damage": 128,
+                    "minecraft:max_damage": 256,
                     "repairable": {
                         "items": "#event_rebalance:tool_repair/copper"
                     }

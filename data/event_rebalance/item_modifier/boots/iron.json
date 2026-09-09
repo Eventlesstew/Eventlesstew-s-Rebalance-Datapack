@@ -18,14 +18,7 @@
                     {
                         "id": "balance_boots",
                         "attribute": "minecraft:armor",
-                        "amount": 3,
-                        "operation": "add_value",
-                        "slot": "feet"
-                    },
-                    {
-                        "id": "balance_boots",
-                        "attribute": "minecraft:armor_toughness",
-                        "amount": 1,
+                        "amount": 2,
                         "operation": "add_value",
                         "slot": "feet"
                     }

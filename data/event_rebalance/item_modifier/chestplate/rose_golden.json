@@ -18,15 +18,15 @@
                     {
                         "id": "balance_chestplate",
                         "attribute": "minecraft:armor",
-                        "amount": 6,
+                        "amount": 8,
                         "operation": "add_value",
                         "slot": "chest"
                     },
                     {
                         "id": "balance_chestplate",
-                        "attribute": "minecraft:max_health",
-                        "amount": 6,
-                        "operation": "add_value",
+                        "attribute": "minecraft:knockback_resistance",
+                        "amount": -0.24,
+                        "operation": "add_multiplied_base",
                         "slot": "chest"
                     },
                     {
@@ -49,7 +49,7 @@
                 "function": "set_components",
                 "components": {
                     "minecraft:max_damage": 256,
-                    "rarity":"common",
+                    "rarity": "common",
                     "repairable": {
                         "items": "#event_rebalance:tool_repair/rose_golden"
                     }

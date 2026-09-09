@@ -18,14 +18,7 @@
                     {
                         "id": "balance_leggings",
                         "attribute": "minecraft:armor",
-                        "amount": 4,
-                        "operation": "add_value",
-                        "slot": "legs"
-                    },
-                    {
-                        "id": "balance_leggings",
-                        "attribute": "minecraft:armor_toughness",
-                        "amount": 2,
+                        "amount": 5,
                         "operation": "add_value",
                         "slot": "legs"
                     }

@@ -18,15 +18,15 @@
                     {
                         "id": "balance_chestplate",
                         "attribute": "minecraft:armor",
-                        "amount": 5,
+                        "amount": 8,
                         "operation": "add_value",
                         "slot": "chest"
                     },
                     {
                         "id": "balance_chestplate",
-                        "attribute": "minecraft:max_health",
-                        "amount": 4,
-                        "operation": "add_value",
+                        "attribute": "minecraft:knockback_resistance",
+                        "amount": -0.12,
+                        "operation": "add_multiplied_base",
                         "slot": "chest"
                     },
                     {

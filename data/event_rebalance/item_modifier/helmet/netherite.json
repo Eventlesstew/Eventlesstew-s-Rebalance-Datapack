@@ -18,28 +18,28 @@
                     {
                         "id": "balance_helmet",
                         "attribute": "minecraft:armor",
-                        "amount": 5,
+                        "amount": 4,
                         "operation": "add_value",
                         "slot": "head"
                     },
                     {
                         "id": "balance_helmet",
                         "attribute": "minecraft:armor_toughness",
-                        "amount": 5,
+                        "amount": 4,
                         "operation": "add_value",
                         "slot": "head"
                     },
                     {
                         "id": "balance_helmet",
                         "attribute": "minecraft:movement_speed",
-                        "amount": -0.02,
+                        "amount": -0.03,
                         "operation": "add_multiplied_base",
                         "slot": "head"
                     },
                     {
                         "id": "balance_helmet",
                         "attribute": "minecraft:air_drag_modifier",
-                        "amount": 0.04,
+                        "amount": 0.06,
                         "operation": "add_multiplied_base",
                         "slot": "head"
                     },

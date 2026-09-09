@@ -18,14 +18,7 @@
                     {
                         "id": "balance_chestplate",
                         "attribute": "minecraft:armor",
-                        "amount": 5,
-                        "operation": "add_value",
-                        "slot": "chest"
-                    },
-                    {
-                        "id": "balance_chestplate",
-                        "attribute": "minecraft:armor_toughness",
-                        "amount": 3,
+                        "amount": 6,
                         "operation": "add_value",
                         "slot": "chest"
                     }
