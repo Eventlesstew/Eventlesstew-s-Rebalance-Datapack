@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "category": "blocks",
+    "ingredient": "cobblestone_stairs",
+    "result": {
+        "id": "minecraft:stone_stairs",
+        "count": 1
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:smelting",
+    "category": "blocks",
+    "ingredient": "cobblestone_slab",
+    "cookingtime": 50,
+    "result": {
+        "id": "minecraft:stone_slab",
+        "count": 1
+    }
+}

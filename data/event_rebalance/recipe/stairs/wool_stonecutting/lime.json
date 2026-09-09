@@ -1,0 +1,7 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "lime_wool",
+    "result": {
+        "id": "lime_wool_stairs"
+    }
+}
