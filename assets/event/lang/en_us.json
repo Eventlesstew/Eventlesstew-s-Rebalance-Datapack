@@ -3,6 +3,28 @@
     "block.minecraft.smooth_stone_slab": "Polished Stone Slab",
     "block.minecraft.stone_button": "Polished Stone Button",
     "block.minecraft.stone_pressure_plate": "Polished Stone Pressure Plate",
+
+    "block.minecraft.polished_blackstone_bricks": "Blackstone Bricks",
+    "block.minecraft.polished_blackstone_brick_slab": "Blackstone Brick Slab",
+    "block.minecraft.polished_blackstone_brick_stairs": "Blackstone Brick Stairs",
+    "block.minecraft.cracked_polished_blackstone_bricks": "Cracked Blackstone Bricks",
+    "block.minecraft.polished_blackstone_brick_wall": "Blackstone Brick Wall",
+
+    "block.minecraft.sandstone": "Cobbled Sandstone",
+    "block.minecraft.sandstone_slab": "Cobbled Sandstone Slab",
+    "block.minecraft.sandstone_stairs": "Cobbled Sandstone Stairs",
+    "block.minecraft.sandstone_wall": "Cobbled Sandstone Wall",
+    "block.minecraft.smooth_sandstone": "Sandstone",
+    "block.minecraft.smooth_sandstone_slab": "Sandstone Slab",
+    "block.minecraft.smooth_sandstone_stairs": "Sandstone Stairs",
+
+    "block.minecraft.red_sandstone": "Cobbled Red Sandstone",
+    "block.minecraft.red_sandstone_slab": "Cobbled Red Sandstone Slab",
+    "block.minecraft.red_sandstone_stairs": "Cobbled Red Sandstone Stairs",
+    "block.minecraft.smooth_red_sandstone": "Red Sandstone",
+    "block.minecraft.smooth_red_sandstone_slab": "Red Sandstone Slab",
+    "block.minecraft.smooth_red_sandstone_stairs": "Red Sandstone Stairs",
+
     "block.minecraft.shulker_box": "Portal Box",
     "block.minecraft.red_shulker_box": "Red Portal Box",
     "block.minecraft.orange_shulker_box": "Orange Portal Box",
@@ -190,5 +212,8 @@
 
     "stats.shield.block": "Damage Blocked: ",
     "stats.shield.absorb": "Damage Absorbed: ",
-    "stats.shield.blocking_angle": "Blocking Angle: "
+    "stats.shield.blocking_angle": "Blocking Angle: ",
+
+    "subtitles.enchant.focusing.activate": "Focusing Activates",
+    "subtitles.enchant.focusing.deactivate": "Focusing Deactivates"
 }

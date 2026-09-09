@@ -1,0 +1,7 @@
+{
+    "type": "stonecutting",
+    "ingredient": "smooth_sandstone",
+    "result": {
+        "id": "sandstone"
+    }
+}
