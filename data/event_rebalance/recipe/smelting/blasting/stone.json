@@ -2,6 +2,7 @@
   "type": "minecraft:blasting",
   "category": "blocks",
   "ingredient": "cobblestone",
+  "cookingtime": 100,
   "result": {
     "id": "minecraft:stone",
     "count": 1

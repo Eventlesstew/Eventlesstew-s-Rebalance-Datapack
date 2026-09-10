@@ -1,6 +1,7 @@
 {
     "type": "minecraft:smelting",
     "group": "golden_nugget",
+    "cookingtime": 100,
     "ingredient": "#event_rebalance:custom_item/golden_dagger",
     "result": {
         "id": "gold_nugget"

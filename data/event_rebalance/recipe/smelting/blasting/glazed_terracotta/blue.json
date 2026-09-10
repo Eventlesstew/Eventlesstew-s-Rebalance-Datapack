@@ -2,6 +2,8 @@
   "type": "minecraft:blasting",
   "category": "blocks",
   "group": "glazed_terracotta",
+  "cookingtime": 100,
+  "experience": 0.7,
   "ingredient": "blue_terracotta",
   "result": {
     "id": "blue_glazed_terracotta",

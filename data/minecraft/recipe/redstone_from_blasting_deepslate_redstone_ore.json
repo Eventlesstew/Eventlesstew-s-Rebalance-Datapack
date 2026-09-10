@@ -2,6 +2,7 @@
   "type": "minecraft:blasting",
   "category": "blocks",
   "experience": 2.4,
+  "cookingtime": 100,
   "group": "redstone",
   "ingredient": "minecraft:deepslate_redstone_ore",
   "result": {

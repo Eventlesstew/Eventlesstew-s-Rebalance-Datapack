@@ -2,6 +2,7 @@
     "type": "smoking",
     "ingredient": "wet_sponge",
     "result": "sponge",
+    "cookingtime": 100,
     "experience": 0.7,
     "category": "misc"
 }

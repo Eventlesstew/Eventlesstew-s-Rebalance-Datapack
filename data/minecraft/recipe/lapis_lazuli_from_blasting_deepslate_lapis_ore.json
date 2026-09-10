@@ -1,6 +1,7 @@
 {
   "type": "minecraft:blasting",
   "experience": 64.0,
+  "cookingtime": 100,
   "group": "lapis_lazuli",
   "ingredient": "minecraft:deepslate_lapis_ore",
   "result": {

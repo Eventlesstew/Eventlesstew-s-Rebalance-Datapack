@@ -5,32 +5,38 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
+          "modifier": {
+            "type": "sequence",
+            "functions": [
+              {
+                "type": "set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 3,
+                  "min": 1
+                }
+              }
+            ]
+          },
           "name": "minecraft:emerald",
           "weight": 125
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:arrow",
+          "modifier": {
+            "type": "sequence",
+            "functions": [
+              {
+                "type": "set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 8,
+                  "min": 2
+                }
+              }
+            ]
+          },
+          "name": "arrow",
           "weight": 100
         },
         {
@@ -62,16 +68,18 @@
         {
           "type": "minecraft:item",
           "functions": [
-                {
-                    "function": "minecraft:set_components",
-                    "components":{
-                        "jukebox_playable": "creator_music_box",
-                        "item_model": "music_disc_creator_music_box",
-                        "item_name": {"translate": "item.minecraft.music_disc_creator_music_box"}
-                    }
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "jukebox_playable": "creator_music_box",
+                "item_model": "music_disc_creator_music_box",
+                "item_name": {
+                  "translate": "item.minecraft.music_disc_creator_music_box"
                 }
-            ],
-            "name": "minecraft:music_disc_13",
+              }
+            }
+          ],
+          "name": "minecraft:music_disc_13",
           "weight": 5
         },
         {
@@ -111,7 +119,7 @@
           "name": "minecraft:diamond_block"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
   "random_sequence": "minecraft:pots/trial_chambers/corridor"

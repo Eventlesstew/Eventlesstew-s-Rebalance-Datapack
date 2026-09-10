@@ -1,6 +1,7 @@
 {
   "type": "minecraft:smelting",
   "experience": 7,
+  "cookingtime": 50,
   "group": "copper_ingot",
   "ingredient": "minecraft:copper_ore",
   "result": {

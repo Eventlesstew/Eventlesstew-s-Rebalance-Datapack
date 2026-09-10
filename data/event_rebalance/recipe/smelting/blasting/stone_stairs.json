@@ -1,6 +1,7 @@
 {
     "type": "minecraft:blasting",
     "category": "blocks",
+    "cookingtime": 100,
     "ingredient": "cobblestone_stairs",
     "result": {
         "id": "minecraft:stone_stairs",

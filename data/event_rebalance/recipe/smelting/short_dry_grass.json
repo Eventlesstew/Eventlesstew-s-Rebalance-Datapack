@@ -1,5 +1,6 @@
 {
   "type": "minecraft:campfire_cooking",
+  "cookingtime": 100,
   "category": "misc",
   "ingredient": "short_grass",
   "result": {

@@ -1,6 +1,7 @@
 {
   "type": "minecraft:blasting",
   "category": "blocks",
+  "cookingtime": 100,
   "ingredient": "stone_bricks",
   "result": {
     "id": "minecraft:cracked_stone_bricks",

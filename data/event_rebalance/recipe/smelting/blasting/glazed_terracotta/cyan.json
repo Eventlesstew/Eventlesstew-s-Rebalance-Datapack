@@ -2,6 +2,8 @@
   "type": "minecraft:blasting",
   "category": "blocks",
   "group": "glazed_terracotta",
+  "cookingtime": 100,
+  "experience": 0.7,
   "ingredient": "cyan_terracotta",
   "result": {
     "id": "cyan_glazed_terracotta",

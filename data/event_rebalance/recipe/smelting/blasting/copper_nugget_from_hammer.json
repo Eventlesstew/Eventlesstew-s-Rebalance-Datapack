@@ -1,5 +1,6 @@
 {
     "type": "minecraft:blasting",
+    "cookingtime": 100,
     "ingredient": "#event_rebalance:custom_item/copper_hammer",
     "result": {
         "id": "copper_nugget"

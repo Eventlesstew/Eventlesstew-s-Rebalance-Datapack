@@ -3,6 +3,7 @@
   "category": "misc",
   "ingredient": "short_grass",
   "experience": 0.7,
+  "cookingtime": 100,
   "result": {
     "id": "minecraft:short_dry_grass"
   }

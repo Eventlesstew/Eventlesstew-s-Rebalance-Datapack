@@ -1,6 +1,7 @@
 {
   "type": "minecraft:blasting",
   "experience": 0.1,
+  "cookingtime": 100,
   "ingredient": "#event_rebalance:recipe/smelts_into_copper_nugget",
   "result": {
     "id": "minecraft:copper_nugget"

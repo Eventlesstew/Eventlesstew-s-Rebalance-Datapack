@@ -4,6 +4,7 @@
   "group": "dead_bush",
   "ingredient": "#saplings",
   "experience": 0.7,
+  "cookingtime": 100,
   "result": {
     "id": "minecraft:dead_bush"
   }

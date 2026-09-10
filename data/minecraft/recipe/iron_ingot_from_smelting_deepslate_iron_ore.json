@@ -1,6 +1,7 @@
 {
   "type": "minecraft:smelting",
   "experience": 2.8,
+  "cookingtime": 100,
   "group": "iron_ingot",
   "ingredient": "minecraft:deepslate_iron_ore",
   "result": {

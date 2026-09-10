@@ -3,6 +3,7 @@
   "category": "misc",
   "ingredient": "#saplings",
   "group": "dead_bush",
+  "cookingtime": 100,
   "result": {
     "id": "minecraft:dead_bush",
     "count": 1

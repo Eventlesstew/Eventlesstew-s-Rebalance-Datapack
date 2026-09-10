@@ -2,6 +2,7 @@
   "type": "minecraft:blasting",
   "category": "blocks",
   "ingredient": "sandstone",
+  "cookingtime": 100,
   "result": {
     "id": "minecraft:smooth_sandstone",
     "count": 1

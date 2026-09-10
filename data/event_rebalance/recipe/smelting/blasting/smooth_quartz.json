@@ -2,6 +2,7 @@
   "type": "minecraft:blasting",
   "category": "blocks",
   "ingredient": "quartz_block",
+  "cookingtime": 100,
   "result": {
     "id": "minecraft:smooth_quartz",
     "count": 1

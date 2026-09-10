@@ -2,6 +2,7 @@
   "type": "minecraft:blasting",
   "category": "blocks",
   "ingredient": "clay",
+  "cookingtime": 100,
   "result": {
     "id": "terracotta",
     "count": 1

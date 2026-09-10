@@ -1,7 +1,8 @@
 {
     "type": "smoking",
-    "ingredient": "#logs",
+    "ingredient": "#logs_that_burn",
     "result": "coal",
+    "cookingtime": 100,
     "experience": 0.15,
     "category": "misc"
 }

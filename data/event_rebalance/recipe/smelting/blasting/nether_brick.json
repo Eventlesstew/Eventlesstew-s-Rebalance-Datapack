@@ -2,6 +2,7 @@
   "type": "minecraft:blasting",
   "category": "blocks",
   "ingredient": "netherrack",
+  "cookingtime": 100,
   "result": {
     "id": "nether_brick",
     "count": 1
