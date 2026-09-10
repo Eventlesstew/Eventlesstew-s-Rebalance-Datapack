@@ -1,5 +1,5 @@
 {
-    "function": "filtered",
+    "type": "filtered",
     "item_filter": {
         "components": {
             "custom_data": {
@@ -8,424 +8,98 @@
         }
     },
     "on_fail": {
-        "function": "sequence",
+        "type": "sequence",
         "functions": [
-            {
-                "function": "reference",
-                "name": "event_rebalance:pickaxe/wooden"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:pickaxe/copper"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:pickaxe/iron"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:pickaxe/golden"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:pickaxe/rose_golden"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:pickaxe/diamond"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:pickaxe/netherite"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:shovel/wooden"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:shovel/copper"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:shovel/iron"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:shovel/golden"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:shovel/rose_golden"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:shovel/diamond"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:shovel/netherite"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:hoe/wooden"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:hoe/copper"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:hoe/iron"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:hoe/golden"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:hoe/rose_golden"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:hoe/diamond"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:hoe/netherite"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:axe/wooden"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:axe/copper"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:axe/iron"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:axe/golden"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:axe/rose_golden"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:axe/diamond"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:axe/netherite"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:sword/wooden"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:sword/copper"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:sword/iron"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:sword/golden"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:sword/rose_golden"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:sword/diamond"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:sword/netherite"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:spear/wooden"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:spear/copper"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:spear/iron"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:spear/golden"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:spear/rose_golden"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:spear/diamond"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:spear/netherite"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:dagger/wooden"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:dagger/copper"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:dagger/iron"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:dagger/golden"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:dagger/rose_golden"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:dagger/diamond"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:dagger/netherite"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:hammer/wooden"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:hammer/copper"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:hammer/iron"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:hammer/golden"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:hammer/rose_golden"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:hammer/diamond"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:hammer/netherite"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:helmet/leather"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:helmet/copper"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:helmet/iron"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:helmet/golden"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:helmet/rose_golden"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:helmet/diamond"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:helmet/netherite"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:chestplate/leather"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:chestplate/copper"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:chestplate/iron"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:chestplate/golden"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:chestplate/rose_golden"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:chestplate/diamond"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:chestplate/netherite"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:leggings/leather"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:leggings/copper"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:leggings/iron"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:leggings/golden"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:leggings/rose_golden"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:leggings/diamond"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:leggings/netherite"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:boots/leather"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:boots/copper"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:boots/iron"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:boots/golden"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:boots/rose_golden"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:boots/diamond"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:boots/netherite"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:shield/wooden_shield"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:shield/mini_shield"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:shield/gear_shield"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:shield/cluster_shield"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:shield/heavy_shield"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:shield/shell_shield"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:other_tools/handsaw"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:other_tools/shears"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:other_tools/brush"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:other_tools/carrot_on_a_stick"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:other_tools/fishing_rod"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:other_tools/flint_and_steel"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:other_tools/warped_fungus_on_a_stick"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:other_weapons/staff"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:other_weapons/bow"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:other_weapons/crossbow"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:other_weapons/trident"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:other_weapons/mace"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:other_armor/turtle_helmet"
-            },
-            {
-                "function": "reference",
-                "name": "event_rebalance:food/popped_chorus_fruit"
-            }
+            "event_rebalance:pickaxe/wooden",
+            "event_rebalance:pickaxe/copper",
+            "event_rebalance:pickaxe/iron",
+            "event_rebalance:pickaxe/diamond",
+            "event_rebalance:pickaxe/netherite",
+            "event_rebalance:pickaxe/golden",
+            "event_rebalance:pickaxe/rose_golden",
+            "event_rebalance:shovel/wooden",
+            "event_rebalance:shovel/copper",
+            "event_rebalance:shovel/iron",
+            "event_rebalance:shovel/diamond",
+            "event_rebalance:shovel/netherite",
+            "event_rebalance:shovel/golden",
+            "event_rebalance:shovel/rose_golden",
+            "event_rebalance:hoe/wooden",
+            "event_rebalance:hoe/copper",
+            "event_rebalance:hoe/iron",
+            "event_rebalance:hoe/diamond",
+            "event_rebalance:hoe/netherite",
+            "event_rebalance:hoe/golden",
+            "event_rebalance:hoe/rose_golden",
+            "event_rebalance:axe/wooden",
+            "event_rebalance:axe/copper",
+            "event_rebalance:axe/iron",
+            "event_rebalance:axe/diamond",
+            "event_rebalance:axe/netherite",
+            "event_rebalance:axe/golden",
+            "event_rebalance:axe/rose_golden",
+            "event_rebalance:hammer/wooden",
+            "event_rebalance:hammer/copper",
+            "event_rebalance:hammer/iron",
+            "event_rebalance:hammer/diamond",
+            "event_rebalance:hammer/netherite",
+            "event_rebalance:hammer/golden",
+            "event_rebalance:hammer/rose_golden",
+            "event_rebalance:sword/wooden",
+            "event_rebalance:sword/copper",
+            "event_rebalance:sword/iron",
+            "event_rebalance:sword/diamond",
+            "event_rebalance:sword/netherite",
+            "event_rebalance:sword/golden",
+            "event_rebalance:sword/rose_golden",
+            "event_rebalance:dagger/wooden",
+            "event_rebalance:dagger/copper",
+            "event_rebalance:dagger/iron",
+            "event_rebalance:dagger/diamond",
+            "event_rebalance:dagger/netherite",
+            "event_rebalance:dagger/golden",
+            "event_rebalance:dagger/rose_golden",
+            "event_rebalance:helmet/leather",
+            "event_rebalance:helmet/copper",
+            "event_rebalance:helmet/iron",
+            "event_rebalance:helmet/diamond",
+            "event_rebalance:helmet/netherite",
+            "event_rebalance:helmet/golden",
+            "event_rebalance:helmet/rose_golden",
+            "event_rebalance:other_armor/turtle_helmet",
+            "event_rebalance:chestplate/leather",
+            "event_rebalance:chestplate/copper",
+            "event_rebalance:chestplate/iron",
+            "event_rebalance:chestplate/diamond",
+            "event_rebalance:chestplate/netherite",
+            "event_rebalance:chestplate/golden",
+            "event_rebalance:chestplate/rose_golden",
+            "event_rebalance:leggings/leather",
+            "event_rebalance:leggings/copper",
+            "event_rebalance:leggings/iron",
+            "event_rebalance:leggings/diamond",
+            "event_rebalance:leggings/netherite",
+            "event_rebalance:leggings/golden",
+            "event_rebalance:leggings/rose_golden",
+            "event_rebalance:boots/leather",
+            "event_rebalance:boots/copper",
+            "event_rebalance:boots/iron",
+            "event_rebalance:boots/diamond",
+            "event_rebalance:boots/netherite",
+            "event_rebalance:boots/golden",
+            "event_rebalance:boots/rose_golden",
+            "event_rebalance:other_tools/brush",
+            "event_rebalance:other_tools/carrot_on_a_stick",
+            "event_rebalance:other_tools/warped_fungus_on_a_stick",
+            "event_rebalance:other_tools/fishing_rod",
+            "event_rebalance:other_tools/flint_and_steel",
+            "event_rebalance:other_tools/handsaw",
+            "event_rebalance:other_tools/shears",
+            "event_rebalance:other_weapons/bow",
+            "event_rebalance:other_weapons/crossbow",
+            "event_rebalance:other_weapons/trident",
+            "event_rebalance:other_weapons/mace",
+            "event_rebalance:other_weapons/staff"
         ]
     }
 }

@@ -1,19 +1,19 @@
 {
-    "function": "filtered",
+    "type": "filtered",
     "item_filter": {
         "items": "golden_shovel"
     },
     "on_pass": {
-        "function": "sequence",
+        "type": "sequence",
         "functions": [
             {
                 "tag": {
                     "modified": true
                 },
-                "function": "set_custom_data"
+                "type": "set_custom_data"
             },
             {
-                "function": "minecraft:set_attributes",
+                "type": "minecraft:set_attributes",
                 "modifiers": [
                     {
                         "id": "balance",
@@ -32,13 +32,13 @@
                 ]
             },
             {
-                "function": "minecraft:toggle_tooltips",
+                "type": "minecraft:toggle_tooltips",
                 "toggles": {
                     "minecraft:attribute_modifiers": false
                 }
             },
             {
-                "function": "set_components",
+                "type": "set_components",
                 "components": {
                     "minecraft:max_damage": 128,
                     "repairable": {
@@ -56,7 +56,7 @@
                 }
             },
             {
-                "function": "minecraft:set_lore",
+                "type": "minecraft:set_lore",
                 "lore": [
                     {
                         "translate": " ",

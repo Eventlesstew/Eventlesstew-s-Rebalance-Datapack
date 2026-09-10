@@ -1,19 +1,19 @@
 {
-    "function": "filtered",
+    "type": "filtered",
     "item_filter": {
         "items": "copper_boots"
     },
     "on_pass": {
-        "function": "sequence",
+        "type": "sequence",
         "functions": [
             {
                 "tag": {
                     "modified": true
                 },
-                "function": "set_custom_data"
+                "type": "set_custom_data"
             },
             {
-                "function": "minecraft:set_attributes",
+                "type": "minecraft:set_attributes",
                 "modifiers": [
                     {
                         "id": "balance_boots",
@@ -39,7 +39,7 @@
                 ]
             },
             {
-                "function": "set_components",
+                "type": "set_components",
                 "components": {
                     "minecraft:max_damage": 256,
                     "repairable": {

@@ -1,5 +1,5 @@
 {
-    "function": "filtered",
+    "type": "filtered",
     "item_filter": {
         "items": "shield",
         "components": {
@@ -7,16 +7,16 @@
         }
     },
     "on_pass": {
-        "function": "sequence",
+        "type": "sequence",
         "functions": [
             {
                 "tag": {
                     "modified": true
                 },
-                "function": "set_custom_data"
+                "type": "set_custom_data"
             },
             {
-                "function": "set_components",
+                "type": "set_components",
                 "components": {
                     "item_model": "event:shield/wooden_shield",
                     "blocks_attacks": {
@@ -50,59 +50,59 @@
                 }
             },
             {
-                "function": "set_name",
+                "type": "set_name",
                 "name": {
                     "translate": "item.event.wooden_shield",
                     "italic": false
                 }
             },
             {
-                "function": "minecraft:set_lore",
+                "type": "minecraft:set_lore",
                 "lore": [
                     {
-                    "translate": " ",
-                    "color": "#AAAAAA",
-                    "italic": false
+                        "translate": " ",
+                        "color": "#AAAAAA",
+                        "italic": false
                     },
                     {
-                    "translate": "item.modifiers.use",
-                    "color": "#AAAAAA",
-                    "italic": false
+                        "translate": "item.modifiers.use",
+                        "color": "#AAAAAA",
+                        "italic": false
                     },
                     {
-                    "translate": "stats.shield.block",
-                    "extra": [
-                        {
-                        "text": "8"
-                        }
-                    ],
-                    "color": "#1aa819",
-                    "italic": false
+                        "translate": "stats.shield.block",
+                        "extra": [
+                            {
+                                "text": "8"
+                            }
+                        ],
+                        "color": "#1aa819",
+                        "italic": false
                     },
                     {
-                    "translate": "stats.shield.absorb",
-                    "extra": [
-                        {
-                        "text": "25%"
-                        }
-                    ],
-                    "color": "#1aa819",
-                    "italic": false
+                        "translate": "stats.shield.absorb",
+                        "extra": [
+                            {
+                                "text": "25%"
+                            }
+                        ],
+                        "color": "#1aa819",
+                        "italic": false
                     },
                     {
-                    "translate": "stats.shield.blocking_angle",
-                    "extra": [
-                        {
-                        "text": "120°"
-                        }
-                    ],
-                    "color": "#1aa819",
-                    "italic": false
+                        "translate": "stats.shield.blocking_angle",
+                        "extra": [
+                            {
+                                "text": "120°"
+                            }
+                        ],
+                        "color": "#1aa819",
+                        "italic": false
                     },
                     {
-                    "translate": "stats.tool.moving_spd.-50P",
-                    "color": "#ff5555",
-                    "italic": false
+                        "translate": "stats.tool.moving_spd.-50P",
+                        "color": "#ff5555",
+                        "italic": false
                     }
                 ],
                 "mode": "replace_all"

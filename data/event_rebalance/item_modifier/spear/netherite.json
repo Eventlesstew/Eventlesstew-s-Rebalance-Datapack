@@ -1,19 +1,19 @@
 {
-    "function": "filtered",
+    "type": "filtered",
     "item_filter": {
         "items": "netherite_spear"
     },
     "on_pass": {
-        "function": "sequence",
+        "type": "sequence",
         "functions": [
             {
                 "tag": {
                     "modified": true
                 },
-                "function": "set_custom_data"
+                "type": "set_custom_data"
             },
             {
-                "function": "minecraft:set_attributes",
+                "type": "minecraft:set_attributes",
                 "modifiers": [
                     {
                         "id": "balance",
@@ -39,13 +39,13 @@
                 ]
             },
             {
-                "function": "minecraft:toggle_tooltips",
+                "type": "minecraft:toggle_tooltips",
                 "toggles": {
                     "minecraft:attribute_modifiers": false
                 }
             },
             {
-                "function": "set_components",
+                "type": "set_components",
                 "components": {
                     "minecraft:max_damage": 2048,
                     "repairable": {
@@ -60,24 +60,24 @@
                         "hit_sound": "item.spear.hit"
                     },
                     "kinetic_weapon": {
-                    "delay_ticks": 14,
-                    "dismount_conditions": {
-                        "max_duration_ticks": 40,
-                        "min_speed": 8
-                    },
-                    "knockback_conditions": {
-                        "max_duration_ticks": 80,
-                        "min_speed": 4
-                    },
-                    "damage_conditions": {
-                        "max_duration_ticks": 120,
-                        "min_relative_speed": 4
-                    },
-                    "damage_multiplier": 1.5,
-                    "contact_cooldown_ticks": 10,
-                    "sound": "item.spear.use",
-                    "hit_sound": "item.spear.hit",
-                    "forward_movement": 0.4
+                        "delay_ticks": 14,
+                        "dismount_conditions": {
+                            "max_duration_ticks": 40,
+                            "min_speed": 8
+                        },
+                        "knockback_conditions": {
+                            "max_duration_ticks": 80,
+                            "min_speed": 4
+                        },
+                        "damage_conditions": {
+                            "max_duration_ticks": 120,
+                            "min_relative_speed": 4
+                        },
+                        "damage_multiplier": 1.5,
+                        "contact_cooldown_ticks": 10,
+                        "sound": "item.spear.use",
+                        "hit_sound": "item.spear.hit",
+                        "forward_movement": 0.4
                     },
                     "attack_range": {
                         "min_reach": 2,
@@ -88,7 +88,7 @@
                 }
             },
             {
-                "function": "minecraft:set_lore",
+                "type": "minecraft:set_lore",
                 "lore": [
                     {
                         "translate": " ",

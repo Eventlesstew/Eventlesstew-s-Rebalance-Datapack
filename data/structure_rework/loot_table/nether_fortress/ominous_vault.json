@@ -34,7 +34,7 @@
           "weight": 3
         }
       ],
-      "rolls": 2.0
+      "rolls": 2
     }
   ],
   "random_sequence": "event_rebalance:nether_fortress/chest_treasure"

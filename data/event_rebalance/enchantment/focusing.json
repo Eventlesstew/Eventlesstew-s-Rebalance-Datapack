@@ -13,7 +13,7 @@
           "function": "event_rebalance:enchantments/focusing/1"
         },
         "requirements": {
-          "condition": "entity_properties",
+          "type": "entity_properties",
           "entity": "this",
           "predicate": {
             "movement": {
@@ -44,7 +44,7 @@
           "function": "event_rebalance:enchantments/focusing/2"
         },
         "requirements": {
-          "condition": "entity_properties",
+          "type": "entity_properties",
           "entity": "this",
           "predicate": {
             "movement": {
@@ -75,7 +75,7 @@
           "function": "event_rebalance:enchantments/focusing/3"
         },
         "requirements": {
-          "condition": "entity_properties",
+          "type": "entity_properties",
           "entity": "this",
           "predicate": {
             "movement": {
@@ -106,7 +106,7 @@
           "function": "event_rebalance:enchantments/focusing/4"
         },
         "requirements": {
-          "condition": "entity_properties",
+          "type": "entity_properties",
           "entity": "this",
           "predicate": {
             "movement": {
@@ -137,7 +137,7 @@
           "function": "event_rebalance:enchantments/focusing/5"
         },
         "requirements": {
-          "condition": "entity_properties",
+          "type": "entity_properties",
           "entity": "this",
           "predicate": {
             "movement": {
@@ -168,10 +168,10 @@
           "function": "event_rebalance:enchantments/focusing/0"
         },
         "requirements": {
-          "condition": "all_of",
+          "type": "all_of",
           "terms": [
             {
-              "condition": "entity_properties",
+              "type": "entity_properties",
               "entity": "this",
               "predicate": {
                 "movement": {

@@ -1,19 +1,19 @@
 {
-    "function": "filtered",
+    "type": "filtered",
     "item_filter": {
         "items": "popped_chorus_fruit"
     },
     "on_pass": {
-        "function": "sequence",
+        "type": "sequence",
         "functions": [
             {
                 "tag": {
                     "modified": true
                 },
-                "function": "set_custom_data"
+                "type": "set_custom_data"
             },
             {
-                "function": "minecraft:set_components",
+                "type": "minecraft:set_components",
                 "components": {
                     "consumable": {
                         "sound": {

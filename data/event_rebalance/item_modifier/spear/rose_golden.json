@@ -1,19 +1,19 @@
 {
-    "function": "filtered",
+    "type": "filtered",
     "item_filter": {
         "items": "#event_rebalance:custom_item/rose_golden_spear"
     },
     "on_pass": {
-        "function": "sequence",
+        "type": "sequence",
         "functions": [
             {
                 "tag": {
                     "modified": true
                 },
-                "function": "set_custom_data"
+                "type": "set_custom_data"
             },
             {
-                "function": "minecraft:set_attributes",
+                "type": "minecraft:set_attributes",
                 "modifiers": [
                     {
                         "id": "balance",
@@ -39,13 +39,13 @@
                 ]
             },
             {
-                "function": "minecraft:toggle_tooltips",
+                "type": "minecraft:toggle_tooltips",
                 "toggles": {
                     "minecraft:attribute_modifiers": false
                 }
             },
             {
-                "function": "set_components",
+                "type": "set_components",
                 "components": {
                     "minecraft:max_damage": 256,
                     "repairable": {
@@ -56,26 +56,26 @@
                         "hit_sound": "item.spear.hit"
                     },
                     "kinetic_weapon": {
-                    "delay_ticks": 6,
-                    "dismount_conditions": {
-                        "max_duration_ticks": 80,
-                        "min_speed": 8
+                        "delay_ticks": 6,
+                        "dismount_conditions": {
+                            "max_duration_ticks": 80,
+                            "min_speed": 8
+                        },
+                        "knockback_conditions": {
+                            "max_duration_ticks": 160,
+                            "min_speed": 4
+                        },
+                        "damage_conditions": {
+                            "max_duration_ticks": 240,
+                            "min_relative_speed": 4
+                        },
+                        "damage_multiplier": 1,
+                        "contact_cooldown_ticks": 10,
+                        "sound": "item.spear.use",
+                        "hit_sound": "item.spear.hit",
+                        "forward_movement": 0.4
                     },
-                    "knockback_conditions": {
-                        "max_duration_ticks": 160,
-                        "min_speed": 4
-                    },
-                    "damage_conditions": {
-                        "max_duration_ticks": 240,
-                        "min_relative_speed": 4
-                    },
-                    "damage_multiplier": 1,
-                    "contact_cooldown_ticks": 10,
-                    "sound": "item.spear.use",
-                    "hit_sound": "item.spear.hit",
-                    "forward_movement": 0.4
-                    },
-                        "attack_range": {
+                    "attack_range": {
                         "min_reach": 2,
                         "max_reach": 4.5,
                         "mob_factor": 0.5
@@ -84,7 +84,7 @@
                 }
             },
             {
-                "function": "minecraft:set_lore",
+                "type": "minecraft:set_lore",
                 "lore": [
                     {
                         "translate": " ",

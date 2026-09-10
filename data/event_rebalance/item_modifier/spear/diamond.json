@@ -1,19 +1,19 @@
 {
-    "function": "filtered",
+    "type": "filtered",
     "item_filter": {
         "items": "diamond_spear"
     },
     "on_pass": {
-        "function": "sequence",
+        "type": "sequence",
         "functions": [
             {
                 "tag": {
                     "modified": true
                 },
-                "function": "set_custom_data"
+                "type": "set_custom_data"
             },
             {
-                "function": "minecraft:set_attributes",
+                "type": "minecraft:set_attributes",
                 "modifiers": [
                     {
                         "id": "balance",
@@ -39,13 +39,13 @@
                 ]
             },
             {
-                "function": "minecraft:toggle_tooltips",
+                "type": "minecraft:toggle_tooltips",
                 "toggles": {
                     "minecraft:attribute_modifiers": false
                 }
             },
             {
-                "function": "set_components",
+                "type": "set_components",
                 "components": {
                     "minecraft:max_damage": 1024,
                     "repairable": {
@@ -79,7 +79,7 @@
                         "hit_sound": "item.spear.hit",
                         "forward_movement": 0.4
                     },
-                        "attack_range": {
+                    "attack_range": {
                         "min_reach": 2,
                         "max_reach": 4.5,
                         "mob_factor": 0.5
@@ -88,7 +88,7 @@
                 }
             },
             {
-                "function": "minecraft:set_lore",
+                "type": "minecraft:set_lore",
                 "lore": [
                     {
                         "translate": " ",
