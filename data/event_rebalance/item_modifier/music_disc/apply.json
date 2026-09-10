@@ -1,0 +1,20 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items":"music_disc_13"
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            {
+                "type": "filtered",
+                "item_filter": {
+                    "components": {
+                        "item_model": "event:music_disc/strad"
+                    }
+                },
+                "on_pass": "event_rebalance:music_disc/strad"
+            }
+        ]
+    }
+}

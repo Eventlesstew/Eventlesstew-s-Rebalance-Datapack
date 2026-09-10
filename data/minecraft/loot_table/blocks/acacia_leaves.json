@@ -8,26 +8,28 @@
           "children": [
             {
               "type": "minecraft:item",
-              "conditions": [
+              "condition": 
                 {
-                  "condition": "minecraft:any_of",
+                  "type": "minecraft:any_of",
                   "terms": [
                     {
-                      "condition": "minecraft:match_tool",
+                      "type": "minecraft:match_tool",
                       "predicate": {
                         "items": "minecraft:shears"
                       }
                     }
                   ]
                 }
-              ],
+              ,
               "name": "minecraft:acacia_leaves"
             },
             {
               "type": "minecraft:item",
-              "conditions": [
-                {
-                  "condition": "minecraft:survives_explosion"
+              "condition": {
+                "type": "any_of",
+                "terms": [
+                  {
+                  "type": "minecraft:survives_explosion"
                 },
                 {
                   "chances": [
@@ -36,26 +38,27 @@
                     0.083333336,
                     0.1
                   ],
-                  "condition": "minecraft:table_bonus",
+                  "type": "minecraft:table_bonus",
                   "enchantment": "minecraft:fortune"
                 }
-              ],
+                ]
+              },
               "name": "minecraft:acacia_sapling"
             }
           ]
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     },
     {
-      "conditions": [
+      "condition": 
         {
-          "condition": "minecraft:inverted",
+          "type": "minecraft:inverted",
           "term": {
-            "condition": "minecraft:any_of",
+            "type": "minecraft:any_of",
             "terms": [
               {
-                "condition": "minecraft:match_tool",
+                "type": "minecraft:match_tool",
                 "predicate": {
                   "items": "minecraft:shears"
                 }
@@ -63,11 +66,11 @@
             ]
           }
         }
-      ],
+      ,
       "entries": [
         {
           "type": "minecraft:item",
-          "conditions": [
+          "condition": 
             {
               "chances": [
                 0.02,
@@ -76,27 +79,30 @@
                 0.033333335,
                 0.1
               ],
-              "condition": "minecraft:table_bonus",
+              "type": "minecraft:table_bonus",
               "enchantment": "minecraft:fortune"
             }
-          ],
-          "functions": [
-            {
+          ,
+          "modifier": {
+            "type": "sequence",
+            "functions": [
+              {
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
+                "max": 2,
+                "min": 1
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             },
             {
-              "function": "minecraft:explosion_decay"
+              "type": "minecraft:explosion_decay"
             }
-          ],
+            ]
+          },
           "name": "minecraft:stick"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
   "random_sequence": "minecraft:blocks/acacia_leaves"

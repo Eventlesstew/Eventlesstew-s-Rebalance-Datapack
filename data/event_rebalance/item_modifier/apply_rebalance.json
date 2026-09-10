@@ -99,7 +99,9 @@
             "event_rebalance:other_weapons/crossbow",
             "event_rebalance:other_weapons/trident",
             "event_rebalance:other_weapons/mace",
-            "event_rebalance:other_weapons/staff"
+            "event_rebalance:other_weapons/staff",
+            "event_rebalance:food/popped_chorus_fruit",
+            "event_rebalance:music_disc/apply"
         ]
     }
 }

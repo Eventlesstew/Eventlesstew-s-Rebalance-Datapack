@@ -20,18 +20,8 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
-                {
-                    "function": "minecraft:set_components",
-                    "components":{
-                        "jukebox_playable": "precipice",
-                        "item_model": "music_disc_precipice",
-                        "item_name": {"translate": "item.minecraft.music_disc_precipice"}
-                        
-                    }
-                }
-            ],
-            "name": "minecraft:music_disc_13",
+          "name": "minecraft:music_disc_13",
+          "modifier": "event_rebalance:music_disc/precipice",
           "weight": 2
         },
         {
@@ -39,7 +29,7 @@
           "name": "minecraft:trident"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
   "random_sequence": "minecraft:chests/trial_chambers/reward_unique"

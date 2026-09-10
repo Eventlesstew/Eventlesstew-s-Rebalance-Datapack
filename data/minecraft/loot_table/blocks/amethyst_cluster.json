@@ -8,14 +8,14 @@
           "children": [
             {
               "type": "minecraft:item",
-              "conditions": [
+              "condition": 
                 {
-                  "condition": "minecraft:match_tool",
+                  "type": "minecraft:match_tool",
                   "predicate": {
                     "items": "#event_rebalance:custom_item/handsaw"
                   }
                 }
-              ],
+              ,
               "name": "minecraft:amethyst_cluster"
             },
             {
@@ -23,38 +23,45 @@
               "children": [
                 {
                   "type": "minecraft:item",
-                  "conditions": [
+                  "condition": 
                     {
-                      "condition": "minecraft:match_tool",
+                      "type": "minecraft:match_tool",
                       "predicate": {
                         "items": "#minecraft:cluster_max_harvestables"
                       }
                     }
-                  ],
-                  "functions": [
+                  ,
+                  "modifier": {
+                    "type": "sequence",
+                    "functions": [
                     {
-                      "count": 4.0,
-                      "function": "minecraft:set_count"
+                      "count": 4,
+                      "type": "minecraft:set_count"
                     },
                     {
                       "enchantment": "minecraft:fortune",
                       "formula": "minecraft:ore_drops",
-                      "function": "minecraft:apply_bonus"
+                      "type": "minecraft:apply_bonus"
                     }
-                  ],
+                  ]
+                  },
+                  
                   "name": "minecraft:amethyst_shard"
                 },
                 {
                   "type": "minecraft:item",
+                  "modifier": {
+                    "type": "sequence",
                   "functions": [
                     {
-                      "count": 2.0,
-                      "function": "minecraft:set_count"
+                      "count": 2,
+                      "type": "minecraft:set_count"
                     },
                     {
-                      "function": "minecraft:explosion_decay"
+                      "type": "minecraft:explosion_decay"
                     }
-                  ],
+                  ]
+                },
                   "name": "minecraft:amethyst_shard"
                 }
               ]
@@ -62,7 +69,7 @@
           ]
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
   "random_sequence": "minecraft:blocks/amethyst_cluster"

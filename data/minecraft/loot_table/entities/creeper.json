@@ -1,52 +1,51 @@
 {
   "type": "minecraft:entity",
   "pools": [
+    {
+      "entries": [
         {
-        "entries": [
+          "type": "minecraft:item",
+          "modifier": [
             {
-            "type": "minecraft:item",
-            "functions": [
-                {
-                "count": {
-                    "type": "minecraft:uniform",
-                    "max": 2.0,
-                    "min": 0.0
-                },
-                "function": "minecraft:set_count"
-                },
-                {
-                "count": {
-                    "type": "minecraft:uniform",
-                    "max": 1.0,
-                    "min": 0.0
-                },
-                "enchantment": "minecraft:looting",
-                "function": "minecraft:enchanted_count_increase"
-                }
-            ],
-            "name": "minecraft:gunpowder"
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2,
+                "min": 0
+              }
+            },
+            {
+              "type": "minecraft:enchanted_count_increase",
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "enchantment": "minecraft:looting"
             }
-        ],
-        "rolls": 1.0
-        },
-        {
-            "conditions": [
-                {
-                "condition": "minecraft:entity_properties",
-                "entity": "attacker",
-                "predicate": {
-                    "minecraft:entity_type": "#minecraft:skeletons"
-                }
-                }
-            ],
-            "entries": [
-                {
-                "type": "minecraft:loot_table",
-                "value": "minecraft:music_disc_optimisation/creeper_music_discs"
-                }
-            ],
-            "rolls": 1.0
+          ],
+          "name": "minecraft:gunpowder"
         }
-    ],
-    "random_sequence": "minecraft:entities/creeper"
+      ],
+      "rolls": 1
+    },
+    {
+      "condition": {
+        "type": "minecraft:entity_properties",
+        "entity": "attacker",
+        "predicate": {
+          "minecraft:entity_type": "#minecraft:skeletons"
+        }
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "music_disc_13",
+          "modifier": "event_rebalance:music_disc/strad"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:entities/creeper"
 }

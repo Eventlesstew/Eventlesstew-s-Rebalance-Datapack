@@ -6,17 +6,12 @@
         {
           "type": "minecraft:item",
           "modifier": {
-            "type": "sequence",
-            "functions": [
-              {
-                "type": "set_count",
-                "count": {
-                  "type": "minecraft:uniform",
-                  "max": 3,
-                  "min": 1
-                }
-              }
-            ]
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 3,
+              "min": 1
+            }
           },
           "name": "minecraft:emerald",
           "weight": 125
@@ -24,98 +19,72 @@
         {
           "type": "minecraft:item",
           "modifier": {
-            "type": "sequence",
-            "functions": [
-              {
-                "type": "set_count",
-                "count": {
-                  "type": "minecraft:uniform",
-                  "max": 8,
-                  "min": 2
-                }
-              }
-            ]
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 8,
+              "min": 2
+            }
           },
-          "name": "arrow",
+          "name": "minecraft:arrow",
           "weight": 100
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 2,
+              "min": 1
             }
-          ],
+          },
           "name": "minecraft:iron_ingot",
           "weight": 100
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": 1
+          },
           "name": "minecraft:trial_key",
           "weight": 10
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "jukebox_playable": "creator_music_box",
-                "item_model": "music_disc_creator_music_box",
-                "item_name": {
-                  "translate": "item.minecraft.music_disc_creator_music_box"
-                }
-              }
-            }
-          ],
           "name": "minecraft:music_disc_13",
+          "modifier": "event_rebalance:music_disc/creator_music_box",
           "weight": 5
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 2,
+              "min": 1
             }
-          ],
+          },
           "name": "minecraft:diamond",
           "weight": 5
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": 1
+          },
           "name": "minecraft:emerald_block",
           "weight": 5
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": 1
+          },
           "name": "minecraft:diamond_block"
         }
       ],

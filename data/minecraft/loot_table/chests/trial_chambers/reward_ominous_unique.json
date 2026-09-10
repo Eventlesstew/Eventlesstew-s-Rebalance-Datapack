@@ -20,25 +20,15 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
-                {
-                    "function": "minecraft:set_components",
-                    "components":{
-                        "jukebox_playable": "creator",
-                        "item_model": "music_disc_creator",
-                        "item_name": {"translate": "item.minecraft.music_disc_creator"}
-                        
-                    }
-                }
-            ],
-            "name": "minecraft:music_disc_13"
+          "name": "minecraft:music_disc_13",
+          "modifier": "event_rebalance:music_disc/creator"
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:heavy_core"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
   "random_sequence": "minecraft:chests/trial_chambers/reward_ominous_unique"
