@@ -2,13 +2,12 @@
   "parent": "minecraft:husbandry/wax_on",
   "criteria": {
     "wax_off": {
-      "trigger": "item_used_on_block",
       "conditions": {
         "location": {
           "type": "minecraft:all_of",
           "terms": [
             {
-              "type": "location_check",
+              "type": "minecraft:location_check",
               "predicate": {
                 "block": {
                   "blocks": [
@@ -77,7 +76,7 @@
               }
             },
             {
-              "type": "match_tool",
+              "type": "minecraft:match_tool",
               "predicate": {
                 "items": [
                   "minecraft:wooden_axe",
@@ -91,9 +90,9 @@
               }
             }
           ]
-        },
-        "trigger": "item_used_on_block"
-      }
+        }
+      },
+      "trigger": "minecraft:item_used_on_block"
     }
   },
   "display": {

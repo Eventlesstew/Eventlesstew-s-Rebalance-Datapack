@@ -1,17 +1,15 @@
 {
-  "parent": "minecraft:husbandry/breed_an_animal",
+  "parent": "husbandry/breed_an_animal",
   "criteria": {
     "brush_armadillo": {
       "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:entity_type": "minecraft:armadillo"
-            }
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:armadillo"
           }
-        ],
+        },
         "item": {
           "items": "minecraft:brush"
         }

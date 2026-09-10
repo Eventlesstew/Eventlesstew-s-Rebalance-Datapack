@@ -3,7 +3,7 @@
   "criteria": {
     "silk_touch_nest": {
       "conditions": {
-        "block": "minecraft:bee_nest",
+        "blocks": "bee_nest",
         "item": {
           "items": "#event_rebalance:custom_item/handsaw"
         },
