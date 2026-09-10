@@ -8,17 +8,17 @@
           "children": [
             {
               "type": "minecraft:item",
-              "conditions": [
+              "condition": 
                 {
-                  "condition": "minecraft:survives_explosion"
+                  "type": "minecraft:survives_explosion"
                 }
-              ],
+              ,
               "name": "minecraft:campfire"
             }
           ]
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
   "random_sequence": "minecraft:blocks/campfire"

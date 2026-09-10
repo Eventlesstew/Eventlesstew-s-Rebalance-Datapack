@@ -7,20 +7,20 @@
           "items": "minecraft:arrow"
         },
         "victims": [
-          [
+          
             {
-              "condition": "minecraft:entity_properties",
+              "type": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {}
             }
-          ],
-          [
+          ,
+          
             {
-              "condition": "minecraft:entity_properties",
+              "type": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {}
             }
-          ]
+          
         ]
       },
       "trigger": "minecraft:killed_by_arrow"

@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "ingredient": "minecraft:cinnabar",
   "result": {
-    "id": "minecraft:cinnabar_wall",
-    "count":2
+    "count": 2,
+    "id": "minecraft:cinnabar_wall"
   }
 }

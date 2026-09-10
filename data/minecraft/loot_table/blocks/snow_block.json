@@ -8,13 +8,13 @@
           "children": [
             {
               "type": "minecraft:item",
-              "functions": [
+              "modifier": [
                 {
-                  "count": 4.0,
-                  "function": "minecraft:set_count"
+                  "count": 4,
+                  "type": "minecraft:set_count"
                 },
                 {
-                  "function": "minecraft:explosion_decay"
+                  "type": "minecraft:explosion_decay"
                 }
               ],
               "name": "minecraft:snowball"
@@ -22,7 +22,7 @@
           ]
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
   "random_sequence": "minecraft:blocks/snow_block"

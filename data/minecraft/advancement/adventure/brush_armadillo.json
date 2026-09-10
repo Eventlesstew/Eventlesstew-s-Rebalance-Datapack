@@ -1,5 +1,5 @@
 {
-  "parent": "husbandry/breed_an_animal",
+  "parent": "adventure/salvage_sherd",
   "criteria": {
     "brush_armadillo": {
       "conditions": {

@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "#poplar_logs",
+    "result": {
+        "id": "poplar_planks",
+        "count": 4
+    }
+}

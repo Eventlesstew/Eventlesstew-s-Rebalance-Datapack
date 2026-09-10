@@ -1,9 +1,9 @@
 {
-  "parent": "minecraft:husbandry/safely_harvest_honey",
+  "parent": "husbandry/safely_harvest_honey",
   "criteria": {
     "honey_block_slide": {
       "conditions": {
-        "block": "minecraft:honey_block"
+        "blocks": "minecraft:honey_block"
       },
       "trigger": "minecraft:slide_down_block"
     }

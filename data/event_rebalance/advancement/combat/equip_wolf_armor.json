@@ -3,18 +3,20 @@
   "criteria": {
     "repair_wolf_armor": {
       "conditions": {
-        "entity": [
+        "entity": {
+          "type":"all_of",
+          "terms":[
           {
-            "condition": "minecraft:entity_properties",
+            "type": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
               "minecraft:entity_type": "minecraft:wolf"
             }
           },
           {
-            "condition": "inverted",
+            "type": "inverted",
             "term": {
-                "condition": "entity_properties",
+                "type": "entity_properties",
                 "entity": "this",
                 "predicate": {
                     "minecraft:equipment": {
@@ -28,7 +30,7 @@
                 }
             }
           }
-        ],
+        ]},
         "item": {
           "items": "minecraft:wolf_armor"
         }

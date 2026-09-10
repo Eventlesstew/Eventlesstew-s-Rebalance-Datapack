@@ -6,7 +6,11 @@
             "items": "shears"
         },
         "entity": {
+          "type": "entity_properties",
+          "entity": "interacting_entity",
+          "predicate": {
             "entity_type": "sheep"
+          }
         }
       },
       "trigger": "minecraft:player_interacted_with_entity"

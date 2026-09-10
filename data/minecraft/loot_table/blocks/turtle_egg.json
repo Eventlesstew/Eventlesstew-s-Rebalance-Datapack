@@ -2,12 +2,7 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "condition": {
-        "type": "minecraft:match_tool",
-        "predicate": {
-          "items": "shears"
-        }
-      },
+      "condition": "tool/can_shear",
       "entries": [
         {
           "type": "minecraft:item",

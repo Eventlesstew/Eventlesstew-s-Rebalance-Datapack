@@ -9,7 +9,7 @@
             "tags": [
               {
                 "expected": true,
-                "id": "event_rebalance:cluster_shield_blocks"
+                "id": "#event_rebalance:cluster_shield_blocks"
                 
               }
             ]

@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:match_tool",
+  "predicate": {
+    "items": "#event_rebalance:custom_item/handsaw"
+  }
+}

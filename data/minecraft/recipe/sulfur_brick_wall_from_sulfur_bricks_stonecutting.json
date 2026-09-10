@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "ingredient": "minecraft:sulfur_bricks",
   "result": {
-    "id": "minecraft:sulfur_brick_wall",
-    "count":2
+    "count": 2,
+    "id": "minecraft:sulfur_brick_wall"
   }
 }

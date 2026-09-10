@@ -3,25 +3,28 @@
   "criteria": {
     "under_lock_and_key": {
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "block": {
-                "blocks": "minecraft:vault",
-                "state": {
-                  "ominous": "true"
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:vault",
+                  "state": {
+                    "ominous": "true"
+                  }
                 }
               }
+            },
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "items": "#structure_rework:custom_item/ominous_fortress_key"
+              }
             }
-          },
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "items": "#structure_rework:custom_item/ominous_fortress_key"
-            }
-          }
-        ]
+          ]
+        }
       },
       "trigger": "minecraft:item_used_on_block"
     }

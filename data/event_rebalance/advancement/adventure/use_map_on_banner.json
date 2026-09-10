@@ -2,9 +2,11 @@
   "criteria": {
     "item_gained": {
       "conditions": {
-        "location": [
+        "location": {
+          "type":"all_of",
+          "terms":[
           {
-            "condition": "minecraft:match_tool",
+            "type": "minecraft:match_tool",
             "predicate": {
               "items": [
                 "minecraft:filled_map"
@@ -12,14 +14,14 @@
             }
           },
           {
-            "condition": "minecraft:location_check",
+            "type": "minecraft:location_check",
             "predicate": {
               "block":{
                 "blocks": "#banners"
               }
             }
           }
-        ]
+        ]}
       },
       "trigger": "minecraft:item_used_on_block"
     }

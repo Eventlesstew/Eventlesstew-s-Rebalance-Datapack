@@ -2,18 +2,18 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "conditions": [
+      "condition": 
         {
-          "condition": "minecraft:survives_explosion"
+          "type": "minecraft:survives_explosion"
         }
-      ],
+      ,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:orange_stained_glass_pane"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
   "random_sequence": "minecraft:blocks/orange_stained_glass_pane"

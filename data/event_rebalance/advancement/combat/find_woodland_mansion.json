@@ -3,17 +3,15 @@
   "criteria": {
     "minecraft_trials_edition": {
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:location": {
-                "structures": "minecraft:mansion"
-              }
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "structures": "minecraft:mansion"
             }
           }
-        ]
+        }
       },
       "trigger": "minecraft:location"
     }
