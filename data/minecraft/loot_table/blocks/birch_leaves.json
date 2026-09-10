@@ -11,11 +11,10 @@
               "condition": {
                 "type": "minecraft:any_of",
                 "terms": [
-                  "minecraft:tool/can_shear",
-                  "minecraft:tool/can_silk_touch"
+                  "minecraft:tool/can_shear"
                 ]
               },
-              "name": "minecraft:oak_leaves"
+              "name": "minecraft:birch_leaves"
             },
             {
               "type": "minecraft:item",
@@ -37,7 +36,7 @@
                   }
                 ]
               },
-              "name": "minecraft:oak_sapling"
+              "name": "minecraft:birch_sapling"
             }
           ]
         }
@@ -50,8 +49,7 @@
         "term": {
           "type": "minecraft:any_of",
           "terms": [
-            "minecraft:tool/can_shear",
-            "minecraft:tool/can_silk_touch"
+            "minecraft:tool/can_shear"
           ]
         }
       },
@@ -86,45 +84,7 @@
         }
       ],
       "rolls": 1
-    },
-    {
-      "condition": {
-        "type": "minecraft:inverted",
-        "term": {
-          "type": "minecraft:any_of",
-          "terms": [
-            "minecraft:tool/can_shear",
-            "minecraft:tool/can_silk_touch"
-          ]
-        }
-      },
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "condition": {
-            "type": "minecraft:all_of",
-            "terms": [
-              {
-                "type": "minecraft:survives_explosion"
-              },
-              {
-                "type": "minecraft:table_bonus",
-                "chances": [
-                  0.005,
-                  0.0055555557,
-                  0.00625,
-                  0.008333334,
-                  0.025
-                ],
-                "enchantment": "minecraft:fortune"
-              }
-            ]
-          },
-          "name": "minecraft:apple"
-        }
-      ],
-      "rolls": 1
     }
   ],
-  "random_sequence": "minecraft:blocks/oak_leaves"
+  "random_sequence": "minecraft:blocks/birch_leaves"
 }

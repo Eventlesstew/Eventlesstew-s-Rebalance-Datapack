@@ -11,11 +11,10 @@
               "condition": {
                 "type": "minecraft:any_of",
                 "terms": [
-                  "minecraft:tool/can_shear",
-                  "minecraft:tool/can_silk_touch"
+                  "minecraft:tool/can_shear"
                 ]
               },
-              "name": "minecraft:dark_oak_leaves"
+              "name": "minecraft:pale_oak_leaves"
             },
             {
               "type": "minecraft:item",
@@ -37,7 +36,7 @@
                   }
                 ]
               },
-              "name": "minecraft:dark_oak_sapling"
+              "name": "minecraft:pale_oak_sapling"
             }
           ]
         }
@@ -50,8 +49,7 @@
         "term": {
           "type": "minecraft:any_of",
           "terms": [
-            "minecraft:tool/can_shear",
-            "minecraft:tool/can_silk_touch"
+            "minecraft:tool/can_shear"
           ]
         }
       },
@@ -93,8 +91,7 @@
         "term": {
           "type": "minecraft:any_of",
           "terms": [
-            "minecraft:tool/can_shear",
-            "minecraft:tool/can_silk_touch"
+            "minecraft:tool/can_shear"
           ]
         }
       },
@@ -110,11 +107,11 @@
               {
                 "type": "minecraft:table_bonus",
                 "chances": [
-                  0.005,
-                  0.0055555557,
-                  0.00625,
-                  0.008333334,
-                  0.025
+                  0.02,
+                  0.04,
+                  0.06,
+                  0.08,
+                  0.1
                 ],
                 "enchantment": "minecraft:fortune"
               }
@@ -126,5 +123,5 @@
       "rolls": 1
     }
   ],
-  "random_sequence": "minecraft:blocks/dark_oak_leaves"
+  "random_sequence": "minecraft:blocks/pale_oak_leaves"
 }

@@ -35,6 +35,14 @@
             "charge": 0.7,
             "energy_budget": 0.15
           },
+          "minecraft:wither_skeleton": {
+            "charge": 0.7,
+            "energy_budget": 0.15
+          },
+          "minecraft:allay": {
+            "charge": 0.7,
+            "energy_budget": 0.15
+          },
           "minecraft:strider": {
             "charge": 0.7,
             "energy_budget": 0.15
@@ -55,6 +63,16 @@
           "monster": [
             {
               "type": "minecraft:skeleton",
+              "count": 5,
+              "weight": 20
+            },
+            {
+              "type": "minecraft:wither_skeleton",
+              "count": 5,
+              "weight": 20
+            },
+            {
+              "type": "minecraft:allay",
               "count": 5,
               "weight": 20
             },

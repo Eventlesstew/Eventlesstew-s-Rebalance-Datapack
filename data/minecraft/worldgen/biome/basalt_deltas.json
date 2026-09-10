@@ -49,6 +49,15 @@
                 "min_inclusive": 2
               },
               "weight": 100
+            },
+            {
+              "type": "minecraft:wither_skeleton",
+              "count": {
+                "type": "minecraft:uniform",
+                "max_inclusive": 5,
+                "min_inclusive": 2
+              },
+              "weight": 100
             }
           ]
         }

@@ -11,11 +11,10 @@
               "condition": {
                 "type": "minecraft:any_of",
                 "terms": [
-                  "minecraft:tool/can_shear",
-                  "minecraft:tool/can_silk_touch"
+                  "minecraft:tool/can_shear"
                 ]
               },
-              "name": "minecraft:yellow_poplar_leaves"
+              "name": "minecraft:dark_oak_leaves"
             },
             {
               "type": "minecraft:item",
@@ -37,7 +36,7 @@
                   }
                 ]
               },
-              "name": "minecraft:poplar_sapling"
+              "name": "minecraft:dark_oak_sapling"
             }
           ]
         }
@@ -50,8 +49,7 @@
         "term": {
           "type": "minecraft:any_of",
           "terms": [
-            "minecraft:tool/can_shear",
-            "minecraft:tool/can_silk_touch"
+            "minecraft:tool/can_shear"
           ]
         }
       },
@@ -86,7 +84,44 @@
         }
       ],
       "rolls": 1
+    },
+    {
+      "condition": {
+        "type": "minecraft:inverted",
+        "term": {
+          "type": "minecraft:any_of",
+          "terms": [
+            "minecraft:tool/can_shear"
+          ]
+        }
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "condition": {
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:survives_explosion"
+              },
+              {
+                "type": "minecraft:table_bonus",
+                "chances": [
+                  0.02,
+                  0.04,
+                  0.06,
+                  0.08,
+                  0.1
+                ],
+                "enchantment": "minecraft:fortune"
+              }
+            ]
+          },
+          "name": "minecraft:apple"
+        }
+      ],
+      "rolls": 1
     }
   ],
-  "random_sequence": "minecraft:blocks/yellow_poplar_leaves"
+  "random_sequence": "minecraft:blocks/dark_oak_leaves"
 }

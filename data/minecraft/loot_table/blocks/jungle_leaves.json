@@ -11,11 +11,10 @@
               "condition": {
                 "type": "minecraft:any_of",
                 "terms": [
-                  "minecraft:tool/can_shear",
-                  "minecraft:tool/can_silk_touch"
+                  "minecraft:tool/can_shear"
                 ]
               },
-              "name": "minecraft:red_poplar_leaves"
+              "name": "minecraft:jungle_leaves"
             },
             {
               "type": "minecraft:item",
@@ -28,16 +27,17 @@
                   {
                     "type": "minecraft:table_bonus",
                     "chances": [
-                      0.05,
-                      0.0625,
-                      0.083333336,
+                      0.025,
+                      0.027777778,
+                      0.03125,
+                      0.041666668,
                       0.1
                     ],
                     "enchantment": "minecraft:fortune"
                   }
                 ]
               },
-              "name": "minecraft:poplar_sapling"
+              "name": "minecraft:jungle_sapling"
             }
           ]
         }
@@ -50,8 +50,7 @@
         "term": {
           "type": "minecraft:any_of",
           "terms": [
-            "minecraft:tool/can_shear",
-            "minecraft:tool/can_silk_touch"
+            "minecraft:tool/can_shear"
           ]
         }
       },
@@ -88,5 +87,5 @@
       "rolls": 1
     }
   ],
-  "random_sequence": "minecraft:blocks/red_poplar_leaves"
+  "random_sequence": "minecraft:blocks/jungle_leaves"
 }

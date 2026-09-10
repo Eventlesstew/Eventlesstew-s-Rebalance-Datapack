@@ -11,8 +11,7 @@
               "condition": {
                 "type": "minecraft:any_of",
                 "terms": [
-                  "minecraft:tool/can_shear",
-                  "minecraft:tool/can_silk_touch"
+                  "minecraft:tool/can_shear"
                 ]
               },
               "name": "minecraft:mangrove_leaves"
