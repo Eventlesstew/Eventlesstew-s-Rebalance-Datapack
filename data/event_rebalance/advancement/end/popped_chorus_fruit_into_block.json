@@ -1,0 +1,25 @@
+{
+  "parent": "event_rebalance:end/chaos_control",
+  "criteria": {
+    "no":{
+        "trigger": "impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.end.popped_chorus_fruit_into_block.description"
+    },
+    "icon": {
+      "id": "minecraft:popped_chorus_fruit"
+    },
+    "title": {
+      "translate": "advancements.end.popped_chorus_fruit_into_block.title"
+    }
+  },
+  "requirements": [
+    [
+      "no"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

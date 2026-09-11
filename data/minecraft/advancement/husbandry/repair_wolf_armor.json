@@ -1,5 +1,5 @@
 {
-  "parent": "event_rebalance:combat/equip_wolf_armor",
+  "parent": "story/obtain_armor",
   "criteria": {
     "repair_wolf_armor": {
       "conditions": {
@@ -30,7 +30,7 @@
       "translate": "advancements.husbandry.repair_wolf_armor.description"
     },
     "icon": {
-      "id": "minecraft:armadillo_scute"
+      "id": "minecraft:wolf_armor"
     },
     "title": {
       "translate": "advancements.husbandry.repair_wolf_armor.title"

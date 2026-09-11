@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "item_gained": {
+      "conditions": {
+        "location": {
+            "type": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "stonecutter"
+                }
+            }
+        }
+
+      },
+      "trigger": "minecraft:default_block_use"
+    }
+  },
+  "parent": "event_rebalance:construction/root",
+  "display": {
+    "title": {
+      "translate": "advancements.construction.redstone.title"
+    },
+    "description": {
+      "translate": "advancements.construction.redstone.description"
+    },
+    "icon": {
+        "id": "redstone"
+    }
+  },
+  "requirements": [
+    [
+      "item_gained"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,5 +1,5 @@
 {
-  "parent": "story/obtain_armor",
+  "parent": "husbandry/repair_wolf_armor",
   "criteria": {
     "obtain_armor": {
       "conditions": {
@@ -16,6 +16,7 @@
     "description": {
       "translate": "advancements.combat.obtain_turtle_helmet.description"
     },
+    "frame": "goal",
     "icon": {
       "id": "minecraft:turtle_helmet"
     },

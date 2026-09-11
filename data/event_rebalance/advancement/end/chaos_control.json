@@ -1,0 +1,39 @@
+{
+  "parent": "end/enter_end_gateway",
+  "criteria": {
+    "golden_apple": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:chorus_fruit"
+        },
+        "player": {
+            "type": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "flags": {
+                  "is_on_ground": false
+                }
+            }
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.end.chaos_control.description"
+    },
+    "icon": {
+      "id": "minecraft:chorus_fruit"
+    },
+    "title": {
+      "translate": "advancements.end.chaos_control.title"
+    }
+  },
+  "requirements": [
+    [
+      "golden_apple"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

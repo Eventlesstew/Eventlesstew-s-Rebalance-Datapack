@@ -31,6 +31,9 @@
     "block.minecraft.smooth_red_sandstone_slab": "Red Sandstone Slab",
     "block.minecraft.smooth_red_sandstone_stairs": "Red Sandstone Stairs",
 
+    "block.minecraft.stonecutter": "Sawmill",
+    "container.stonecutter": "Sawmill",
+
     "block.minecraft.shulker_box": "Portal Box",
     "block.minecraft.red_shulker_box": "Red Portal Box",
     "block.minecraft.orange_shulker_box": "Orange Portal Box",
@@ -263,7 +266,15 @@
     "advancements.construction.remove_sign_glow.title": "Lights Out!",
     "advancements.construction.remove_sign_glow.description": "Remove the glow from a Sign",
     "advancements.adventure.lightning_rod_with_villager_no_fire.description":"Be near a Lightning Rod when it absorbs a Lightning strike.",
+    "advancements.construction.use_sawmill.title": "Mason",
+    "advancements.construction.use_sawmill.description": "Interact with a Sawmill",
 
+    "advancements.end.chaos_control.title": "Chaos Control!",
+    "advancements.end.chaos_control.description": "Save yourself from fall damage by eating Chorus Fruit just in time!",
+    "advancements.end.popped_chorus_fruit_into_block.title": "Transmutation Failure",
+    "advancements.end.popped_chorus_fruit_into_block.description": "Teleport right into a block after eating Popped Chorus Fruit",
+
+    "stat.minecraft.interact_with_stonecutter": "Interactions with Sawmill",
     "stat.minecraft.clean_shulker_box": "Portal Boxes Cleaned",
     "stat.minecraft.open_shulker_box": "Portal Boxes Opened",
 
@@ -272,5 +283,6 @@
     "stats.shield.blocking_angle": "Blocking Angle: ",
 
     "subtitles.enchant.focusing.activate": "Focusing Activates",
-    "subtitles.enchant.focusing.deactivate": "Focusing Deactivates"
+    "subtitles.enchant.focusing.deactivate": "Focusing Deactivates",
+    "subtitles.ui.stonecutter.take_result": "Sawmill used"
 }

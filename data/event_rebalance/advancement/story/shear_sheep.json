@@ -7,7 +7,7 @@
         },
         "entity": {
           "type": "entity_properties",
-          "entity": "interacting_entity",
+          "entity": "target_entity",
           "predicate": {
             "entity_type": "sheep"
           }
