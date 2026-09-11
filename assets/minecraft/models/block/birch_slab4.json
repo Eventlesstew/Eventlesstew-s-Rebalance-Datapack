@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "top": "minecraft:block/birch_planks4",
-    "side": "minecraft:block/birch_planks4",
-    "bottom": "minecraft:block/birch_planks4"
-  }
-}

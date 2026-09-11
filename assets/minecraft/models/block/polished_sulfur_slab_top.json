@@ -1,8 +1,0 @@
-{
-    "parent": "block/slab_top",
-    "textures": {
-        "bottom": "block/polished_sulfur",
-        "top": "block/polished_sulfur",
-        "side": "block/polished_sulfur_slab_side"
-    }
-}

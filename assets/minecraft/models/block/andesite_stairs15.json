@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "bottom": "minecraft:block/andesite15",
-    "side": "minecraft:block/andesite15",
-    "top": "minecraft:block/andesite15"
-  }
-}

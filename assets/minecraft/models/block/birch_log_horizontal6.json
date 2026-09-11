@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/birch_log_horizontal",
-  "textures": {
-    "side": "minecraft:block/birch_log6"
-  }
-}

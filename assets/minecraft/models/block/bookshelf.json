@@ -1,8 +1,0 @@
-{
-    "parent": "block/ctm_row",
-    "textures": {
-		"ends": "block/oak_planks",
-		"connected": "block/bookshelf_borderless",
-		"border": "block/bookshelf"
-    }
-}

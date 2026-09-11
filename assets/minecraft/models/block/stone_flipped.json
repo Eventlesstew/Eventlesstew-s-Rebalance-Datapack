@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_flipped_all",
-  "textures": {
-    "all": "minecraft:block/stone"
-  }
-}

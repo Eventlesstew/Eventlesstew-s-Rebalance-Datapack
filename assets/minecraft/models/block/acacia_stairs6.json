@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "bottom": "minecraft:block/acacia_planks6",
-    "top": "minecraft:block/acacia_planks6",
-    "side": "minecraft:block/acacia_planks6"
-  }
-}
