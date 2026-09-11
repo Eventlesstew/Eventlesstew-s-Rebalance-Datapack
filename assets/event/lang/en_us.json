@@ -172,8 +172,6 @@
     "advancements.story.smelt_copper.description": "Obtain Copper and smelt it into ingots",
     "advancements.story.shear_sheep.title": "Clip of the Day",
     "advancements.story.shear_sheep.description": "Use Shears to collect wool from Sheep",
-    "advancements.story.rainbow_collection.title": "Rainbow Collection",
-    "advancements.story.rainbow_collection.description": "Obtain all 16 Dye colours",
     "advancements.story.upgrade_tools.title": "Getting an Upgrade",
     "advancements.story.upgrade_tools.description": "Use copper to craft some new tools",
     "advancements.story.craft_weapon.title": "Time To Strike!",
@@ -232,7 +230,7 @@
     "advancements.adventure.very_very_frightening.description": "Strike a Creeper with lightning",
     "advancements.combat.double_kill.title": "Double Kill",
     "advancements.combat.double_kill.description": "Kill more than one mob with a single Crossbow shot",
-    
+    "advancements.story.obtain_armor.description": "Protect yourself with a suit of armor",
     "advancements.combat.rose_golden_armor.title": "Cover Me In Roses",
     "advancements.combat.rose_golden_armor.description": "Get a full set of Rose Golden Armor",
     "advancements.combat.leather_armor.title": "Tailored for Comfort",
@@ -268,6 +266,8 @@
     "advancements.adventure.lightning_rod_with_villager_no_fire.description":"Be near a Lightning Rod when it absorbs a Lightning strike.",
     "advancements.construction.use_sawmill.title": "Mason",
     "advancements.construction.use_sawmill.description": "Interact with a Sawmill",
+    "advancements.construction.rainbow_collection.title": "Rainbow Collection",
+    "advancements.construction.rainbow_collection.description": "Obtain all 16 Dye colours",
 
     "advancements.end.chaos_control.title": "Chaos Control!",
     "advancements.end.chaos_control.description": "Save yourself from fall damage by eating Chorus Fruit just in time!",

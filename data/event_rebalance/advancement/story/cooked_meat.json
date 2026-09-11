@@ -9,7 +9,7 @@
       "trigger": "minecraft:consume_item"
     }
   },
-  "parent": "event_rebalance:story/light_campfire",
+  "parent": "event_rebalance:story/coal",
   "display": {
     "title": {
       "translate": "advancements.story.cooked_meat.title"

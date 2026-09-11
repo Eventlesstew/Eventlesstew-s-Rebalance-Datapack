@@ -161,14 +161,14 @@
       "trigger": "minecraft:inventory_changed"
     }
   },
-  "parent": "event_rebalance:story/shear_sheep",
+  "parent": "event_rebalance:construction/root",
   "display": {
     "frame": "goal",
     "title": {
-      "translate": "advancements.story.rainbow_collection.title"
+      "translate": "advancements.construction.rainbow_collection.title"
     },
     "description": {
-      "translate": "advancements.story.rainbow_collection.description"
+      "translate": "advancements.construction.rainbow_collection.description"
     },
     "icon": {
       "id": "minecraft:red_dye"
