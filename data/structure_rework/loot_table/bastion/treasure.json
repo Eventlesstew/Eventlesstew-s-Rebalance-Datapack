@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "type": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:diamond_pickaxe",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": "event_rebalance:music_disc/pigstep",
+          "name": "minecraft:music_disc_13",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": {
+            "type": "sequence",
+            "functions": [
+                {
+                    "type": "set_count",
+                    "count": 2
+                }
+            ]
+          },
+          "name": "snout_armor_trim_smithing_template",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": {
+            "type": "sequence",
+            "functions": [
+                "event_rebalance:custom_item/spawn_egg",
+                {
+                    "type": "set_count",
+                    "count": 2
+                }
+            ]
+          },
+          "name": "hoglin_spawn_egg",
+          "weight": 18
+        },
+        {
+          "type": "minecraft:item",
+          "name": "piglin_banner_pattern",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mojang_banner_pattern",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": {
+            "type": "minecraft:enchant_randomly",
+            "options": "minecraft:soul_speed"
+          },
+          "name": "minecraft:book",
+          "weight": 18
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "structure_rework:bastion/chest_treasure"
+}

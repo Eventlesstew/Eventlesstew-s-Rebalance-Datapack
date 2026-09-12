@@ -1,0 +1,35 @@
+{
+    "spawn_range": 1,
+    "simultaneous_mobs": 1,
+    "simultaneous_mobs_added_per_player": 0,
+    "total_mobs": 1,
+    "total_mobs_added_per_player": 0,
+    "spawn_potentials": [
+        {
+            "data": {
+                "entity": {
+                    "id": "illusioner",
+                    "Tags": ["illusioner_boss"],
+                    "attributes": [
+                        {
+                            "id": "max_health",
+                            "base": 100.0
+                        }
+                    ]
+                },
+                "equipment": {
+                    "loot_table": "structure_rework:woodland_mansion/equipment/illusioner",
+                    "slot_drop_chances": 0
+                }
+            },
+            "weight": 1
+        }
+    ],
+    "items_to_drop_when_ominous": "structure_rework:woodland_mansion/illusioner_spawner_drops_ominous",
+    "loot_tables_to_eject": [
+        {
+            "data": "structure_rework:woodland_mansion/illusioner_spawner_loot_ominous",
+            "weight": 1
+        }
+    ]
+}

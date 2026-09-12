@@ -1,0 +1,483 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+            {
+            "type": "minecraft:empty",
+            "weight": 30
+            },
+            {
+            "type": "minecraft:item",
+            "name": "minecraft:emerald",
+            "modifier": [
+                {
+                "type": "minecraft:set_count",
+                "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 8
+                }
+                }
+            ],
+            "weight": 30
+            },
+            {
+            "type": "minecraft:item",
+            "name": "minecraft:copper_nugget",
+            "modifier": [
+                {
+                "type": "minecraft:set_count",
+                "count": {
+                    "type": "uniform",
+                    "min": 3,
+                    "max": 18
+                }
+                }
+            ],
+            "weight": 30
+            },
+            {
+            "type": "minecraft:item",
+            "name": "minecraft:gold_nugget",
+            "modifier": [
+                {
+                "type": "minecraft:set_count",
+                "count": {
+                    "type": "uniform",
+                    "min": 3,
+                    "max": 18
+                }
+                }
+            ],
+            "weight": 30
+            },
+            {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_nugget",
+            "modifier": [
+                {
+                "type": "minecraft:set_count",
+                "count": {
+                    "type": "uniform",
+                    "min": 3,
+                    "max": 18
+                }
+                }
+            ],
+            "weight": 30
+            },
+            {
+                "type": "minecraft:item",
+                "name": "minecraft:gold_ingot",
+                "modifier": [
+                    {
+                    "type": "minecraft:set_count",
+                    "count": {
+                        "type": "uniform",
+                        "min": 1,
+                        "max": 5
+                    }
+                    }
+                ],
+                "weight": 20
+            },
+            {
+                "type": "minecraft:item",
+                "name": "minecraft:copper_ingot",
+                "modifier": [
+                    {
+                    "type": "minecraft:set_count",
+                    "count": {
+                        "type": "uniform",
+                        "min": 1,
+                        "max": 10
+                    }
+                    }
+                ],
+                "weight": 20
+            },
+            {
+                "type": "minecraft:item",
+                "name": "minecraft:iron_ingot",
+                "modifier": [
+                    {
+                    "type": "minecraft:set_count",
+                    "count": {
+                        "type": "uniform",
+                        "min": 1,
+                        "max": 5
+                    }
+                    }
+                ],
+                "weight": 20
+            },
+            {
+                "type": "minecraft:item",
+                "name": "minecraft:gilded_blackstone",
+                "modifier": [
+                    {
+                    "type": "minecraft:set_count",
+                    "count": {
+                        "type": "uniform",
+                        "min": 1,
+                        "max": 3
+                    }
+                    }
+                ],
+                "weight": 10
+            },
+            {
+                "type": "minecraft:item",
+                "name": "minecraft:obsidian",
+                "modifier": [
+                    {
+                    "type": "minecraft:set_count",
+                    "count": {
+                        "type": "uniform",
+                        "min": 1,
+                        "max": 5
+                    }
+                    }
+                ],
+                "weight": 10
+            },
+            {
+                "type": "minecraft:item",
+                "name": "minecraft:crying_obsidian",
+                "modifier": [
+                    {
+                    "type": "minecraft:set_count",
+                    "count": {
+                        "type": "uniform",
+                        "min": 1,
+                        "max": 5
+                    }
+                    }
+                ],
+                "weight": 10
+            },
+            {
+                "type": "minecraft:item",
+                "name": "minecraft:piglin_brute_spawn_egg",
+                "modifier": "event_rebalance:custom_item/spawn_egg",
+                "weight": 10
+            },
+            {
+                "type": "minecraft:item",
+                "name": "minecraft:iron_block",
+                "weight": 10
+            },
+            {
+                "type": "minecraft:item",
+                "name": "minecraft:gold_block",
+                "weight": 10
+            }
+      ],
+      "rolls": 2
+    },
+    {
+        "entries": [
+            {
+            "type": "minecraft:item",
+            "name": "minecraft:string",
+            "modifier": [
+                {
+                "type": "minecraft:set_count",
+                "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 6
+                }
+                }
+            ],
+            "weight": 30
+            },
+            {
+                "type": "minecraft:item",
+                "name": "minecraft:leather",
+                "modifier": [
+                    {
+                    "type": "minecraft:set_count",
+                    "count": {
+                        "type": "uniform",
+                        "min": 1,
+                        "max": 6
+                    }
+                    }
+                ],
+                "weight": 30
+            },
+            {
+                "type": "minecraft:item",
+                "name": "minecraft:magma_cream",
+                "modifier": [
+                    {
+                    "type": "minecraft:set_count",
+                    "count": {
+                        "type": "uniform",
+                        "min": 2,
+                        "max": 6
+                    }
+                    }
+                ],
+                "weight": 30
+            },
+            {
+                "type": "minecraft:item",
+                "name": "minecraft:arrow",
+                "modifier": [
+                    {
+                    "type": "minecraft:set_count",
+                    "count": {
+                        "type": "uniform",
+                        "min": 5,
+                        "max": 20
+                    }
+                    }
+                ],
+                "weight": 30
+            },
+            {
+                "type": "minecraft:item",
+                "name": "minecraft:quartz",
+                "modifier": [
+                    {
+                    "type": "minecraft:set_count",
+                    "count": {
+                        "type": "uniform",
+                        "min": 2,
+                        "max": 20
+                    }
+                    }
+                ],
+                "weight": 30
+            }
+        ],
+        "rolls": 4
+    },
+    {
+        "entries": [
+            {
+                "type": "minecraft:item",
+                "name": "minecraft:crossbow",
+                "modifier": [
+                    {
+                    "type": "minecraft:set_damage",
+                    "damage": {
+                        "type": "minecraft:uniform",
+                        "max": 0.5,
+                        "min": 0.1
+                    }
+                    },
+                    {
+                    "type": "minecraft:enchant_randomly",
+                    "options": "#minecraft:on_random_loot"
+                    }
+                ],
+                "weight": 20
+            },
+            {
+                "type": "minecraft:item",
+                "name": "minecraft:iron_sword",
+                "modifier": [
+                    {
+                    "type": "minecraft:set_damage",
+                    "damage": {
+                        "type": "minecraft:uniform",
+                        "max": 0.5,
+                        "min": 0.1
+                    }
+                    },
+                    {
+                    "type": "minecraft:enchant_randomly",
+                    "options": "#minecraft:on_random_loot"
+                    }
+                ],
+                "weight": 20
+            },
+            {
+            "type": "minecraft:item",
+            "name": "minecraft:blaze_powder",
+            "modifier": [
+                {
+                "type": "minecraft:set_count",
+                "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 4
+                }
+                }
+            ],
+            "weight": 15
+            },
+            {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_carrot",
+            "modifier": [
+                {
+                "type": "minecraft:set_count",
+                "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 8
+                }
+                }
+            ],
+            "weight": 15
+            },
+            {
+            "type": "minecraft:item",
+            "name": "minecraft:spectral_arrow",
+            "modifier": [
+                {
+                "type": "minecraft:set_count",
+                "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 15
+                }
+                }
+            ],
+            "weight": 15
+            },
+            {
+            "type": "minecraft:item",
+            "name": "minecraft:blaze_rod",
+            "modifier": [
+                {
+                "type": "minecraft:set_count",
+                "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 5
+                }
+                }
+            ],
+            "weight": 10
+            },
+            {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_chain",
+            "modifier": [
+                {
+                "type": "minecraft:set_count",
+                "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 5
+                }
+                }
+            ],
+            "weight": 10
+            },
+            {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_apple",
+            "weight": 10
+            },
+            {
+            "type": "minecraft:item",
+            "name": "minecraft:lodestone",
+            "weight": 10
+            },
+            {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_shovel",
+            "weight": 5
+            },
+            {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_sword",
+            "modifier": [
+                {
+                "type": "minecraft:enchant_randomly",
+                "options": "#minecraft:on_random_loot"
+                }
+            ],
+            "weight": 2
+            },
+            {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_spear",
+            "modifier": [
+                {
+                "type": "minecraft:enchant_randomly",
+                "options": "#minecraft:on_random_loot"
+                }
+            ],
+            "weight": 1
+            },
+            {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_axe",
+            "modifier": [
+                {
+                "type": "minecraft:enchant_randomly",
+                "options": "#minecraft:on_random_loot"
+                }
+            ],
+            "weight": 1
+            },
+            {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_far",
+            "modifier": [
+                "event_rebalance:dagger/golden",
+                {
+                "type": "minecraft:enchant_randomly",
+                "options": "#minecraft:on_random_loot"
+                }
+            ],
+            "weight": 1
+            },
+            {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_helmet",
+            "modifier": [
+                {
+                "type": "minecraft:enchant_randomly",
+                "options": "#minecraft:on_random_loot"
+                }
+            ],
+            "weight": 1
+            },
+            {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_chestplate",
+            "modifier": [
+                {
+                "type": "minecraft:enchant_randomly",
+                "options": "#minecraft:on_random_loot"
+                }
+            ],
+            "weight": 2
+            },
+            {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_leggings",
+            "modifier": [
+                {
+                "type": "minecraft:enchant_randomly",
+                "options": "#minecraft:on_random_loot"
+                }
+            ],
+            "weight": 1
+            },
+            {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_boots",
+            "modifier": [
+                {
+                "type": "minecraft:enchant_randomly",
+                "options": "#minecraft:on_random_loot"
+                }
+            ],
+            "weight": 1
+            }
+        ],
+        "rolls": 1
+    }
+  ],
+  "random_sequence": "structure_rework:bastion/chest_common"
+}

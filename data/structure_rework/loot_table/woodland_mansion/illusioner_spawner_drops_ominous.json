@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:spawners/mansion/illusioner"
+}

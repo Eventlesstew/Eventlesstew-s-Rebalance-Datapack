@@ -85,6 +85,8 @@
     
     "item.minecraft.vex_spawn_egg": "Steel Ingot (WORKING NAME)",
     "item.minecraft.blaze_spawn_egg": "Ruby",
+    "item.minecraft.silverfish_spawn_egg": "Disc Fragment",
+    "item.minecraft.magma_cube_spawn_egg": "Disc Fragment",
     "item.minecraft.music_disc_strad": "Staff",
 
     "item.event.music_disc_13":"Music Disc",

@@ -1,0 +1,17 @@
+{
+    "type": "sequence",
+    "functions": [
+        {
+            "tag": {
+                "modified": true
+            },
+            "type": "set_custom_data"
+        },
+        {
+            "type": "minecraft:set_components",
+            "components": {
+                "!entity_data":{}
+            }
+        }
+    ]
+}

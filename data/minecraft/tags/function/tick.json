@@ -1,6 +1,7 @@
 {
     "values": [
         "ranged_weapons:on_tick",
-        "event_enchants:on_tick"
+        "event_enchants:on_tick",
+        "structure_rework:on_tick"
     ]
 }

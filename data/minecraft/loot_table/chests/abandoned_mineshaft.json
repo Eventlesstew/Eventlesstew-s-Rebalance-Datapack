@@ -5,57 +5,17 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:set_count",
-            "count": {
-              "type": "minecraft:uniform",
-              "max": 5,
-              "min": 1
-            }
-          },
-          "name": "minecraft:leather",
+          "name": "minecraft:golden_apple",
           "weight": 20
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:golden_apple",
-          "weight": 15
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:mojang_banner_pattern",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_13",
-          "modifier": "event_rebalance:music_disc/otherside",
-          "weight": 15
+          "name": "minecraft:mojang_banner_pattern"
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:name_tag",
-          "weight": 20
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_horse_armor",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:copper_horse_armor",
-          "weight": 15
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_horse_armor",
-          "weight": 15
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_horse_armor",
-          "weight": 5
+          "weight": 30
         },
         {
           "type": "minecraft:item",
@@ -65,13 +25,18 @@
           },
           "name": "minecraft:book",
           "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_pickaxe",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 5
         }
       ],
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 3,
-        "min": 1
-      }
+      "rolls": 1
     },
     {
       "entries": [
@@ -81,7 +46,7 @@
             "type": "minecraft:set_count",
             "count": {
               "type": "minecraft:uniform",
-              "max": 4,
+              "max": 5,
               "min": 1
             }
           },
@@ -94,7 +59,7 @@
             "type": "minecraft:set_count",
             "count": {
               "type": "minecraft:uniform",
-              "max": 4,
+              "max": 3,
               "min": 1
             }
           },
@@ -103,8 +68,16 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:bread",
-          "weight": 20
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 9,
+              "min": 4
+            }
+          },
+          "name": "minecraft:redstone",
+          "weight": 5
         },
         {
           "type": "minecraft:item",
@@ -112,16 +85,37 @@
             "type": "minecraft:set_count",
             "count": {
               "type": "minecraft:uniform",
-              "max": 4,
-              "min": 1
+              "max": 9,
+              "min": 4
             }
           },
-          "name": "minecraft:wheat",
-          "weight": 20
+          "name": "minecraft:lapis_lazuli",
+          "weight": 5
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:bucket",
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 2,
+              "min": 1
+            }
+          },
+          "name": "minecraft:diamond",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 8,
+              "min": 3
+            }
+          },
+          "name": "minecraft:coal",
           "weight": 10
         },
         {
@@ -130,11 +124,11 @@
             "type": "minecraft:set_count",
             "count": {
               "type": "minecraft:uniform",
-              "max": 4,
+              "max": 3,
               "min": 1
             }
           },
-          "name": "minecraft:redstone",
+          "name": "minecraft:bread",
           "weight": 15
         },
         {
@@ -143,11 +137,11 @@
             "type": "minecraft:set_count",
             "count": {
               "type": "minecraft:uniform",
-              "max": 4,
-              "min": 1
+              "max": 6,
+              "min": 3
             }
           },
-          "name": "minecraft:coal",
+          "name": "minecraft:glow_berries",
           "weight": 15
         },
         {
@@ -193,7 +187,7 @@
       "rolls": {
         "type": "minecraft:uniform",
         "max": 4,
-        "min": 1
+        "min": 2
       }
     },
     {
@@ -205,11 +199,11 @@
             "count": {
               "type": "minecraft:uniform",
               "max": 8,
-              "min": 1
+              "min": 4
             }
           },
-          "name": "minecraft:bone",
-          "weight": 10
+          "name": "minecraft:rail",
+          "weight": 20
         },
         {
           "type": "minecraft:item",
@@ -217,12 +211,12 @@
             "type": "minecraft:set_count",
             "count": {
               "type": "minecraft:uniform",
-              "max": 8,
+              "max": 4,
               "min": 1
             }
           },
-          "name": "minecraft:gunpowder",
-          "weight": 10
+          "name": "minecraft:powered_rail",
+          "weight": 5
         },
         {
           "type": "minecraft:item",
@@ -230,12 +224,12 @@
             "type": "minecraft:set_count",
             "count": {
               "type": "minecraft:uniform",
-              "max": 8,
+              "max": 4,
               "min": 1
             }
           },
-          "name": "minecraft:rotten_flesh",
-          "weight": 10
+          "name": "minecraft:detector_rail",
+          "weight": 5
         },
         {
           "type": "minecraft:item",
@@ -243,16 +237,41 @@
             "type": "minecraft:set_count",
             "count": {
               "type": "minecraft:uniform",
-              "max": 8,
+              "max": 4,
               "min": 1
             }
           },
-          "name": "minecraft:string",
+          "name": "minecraft:activator_rail",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 16,
+              "min": 1
+            }
+          },
+          "name": "minecraft:torch",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "condition": {
+            "type": "minecraft:location_check",
+            "predicate": {
+              "biomes": "minecraft:sulfur_caves"
+            }
+          },
+          "name": "minecraft:music_disc_13",
+          "modifier": "event_rebalance:music_disc/bounce",
           "weight": 10
         }
       ],
       "rolls": 3
     }
   ],
-  "random_sequence": "minecraft:chests/simple_dungeon"
+  "random_sequence": "minecraft:chests/abandoned_mineshaft"
 }

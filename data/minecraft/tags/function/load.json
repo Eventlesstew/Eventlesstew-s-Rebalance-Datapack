@@ -1,6 +1,7 @@
 {
     "values": [
         "event_enchants:on_load",
-        "event_rebalance:on_load"
+        "event_rebalance:on_load",
+        "structure_rework:on_load"
     ]
 }

@@ -1,0 +1,31 @@
+{
+    "spawn_range": 4,
+    "total_mobs": 9,
+    "total_mobs_added_per_player": 3,
+    "simultaneous_mobs": 3,
+    "simultaneous_mobs_added_per_player": 1,
+    "loot_tables_to_eject": [
+        {
+            "data": "structure_rework:woodland_mansion/illusioner_spawner_loot",
+            "weight": 1
+        }
+    ],
+    "spawn_potentials": [
+        {
+            "data": {
+                "entity": {
+                    "id": "vindicator"
+                }
+            },
+            "weight": 2
+        },
+        {
+            "data": {
+                "entity": {
+                    "id": "evoker"
+                }
+            },
+            "weight": 1
+        }
+    ]
+}

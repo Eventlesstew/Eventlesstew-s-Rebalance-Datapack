@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:enchanted_golden_apple",
+          "name": "minecraft:mojang_banner_pattern",
           "weight": 3
         },
         {

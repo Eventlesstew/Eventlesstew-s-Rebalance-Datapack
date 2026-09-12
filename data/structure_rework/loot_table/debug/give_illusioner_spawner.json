@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trial_spawner",
+          "modifier": "structure_rework:custom_item/mansion_illusioner_spawner"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "structure_rework:debug"
+}

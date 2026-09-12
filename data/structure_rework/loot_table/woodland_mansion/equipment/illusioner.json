@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:equipment",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "modifier": [
+            {
+                "type": "enchant_with_levels",
+                "levels": 20,
+                "options": [
+                    "power",
+                    "knockback",
+                    "fire_aspect"
+                ]
+            }
+          ],
+          "weight": 2
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:spawners/mansion/illusioner/equipment"
+}

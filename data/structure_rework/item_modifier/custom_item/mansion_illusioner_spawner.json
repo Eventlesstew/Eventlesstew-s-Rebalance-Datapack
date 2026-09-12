@@ -1,0 +1,16 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "trial_spawner"
+    },
+    "on_pass": {
+        "type": "minecraft:set_components",
+        "components": {
+            "block_entity_data": {
+                "id": "trial_spawner",
+                "normal_config": "structure_rework:woodland_mansion/illusioner",
+                "ominous_config": "structure_rework:woodland_mansion/illusioner_ominous"
+            }
+        }
+    }
+}

@@ -1,0 +1,1 @@
+function structure_rework:illusioner_bossbar

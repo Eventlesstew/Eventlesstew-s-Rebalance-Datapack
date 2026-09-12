@@ -1,0 +1,2 @@
+execute at @e[tag=illusioner_boss,limit=1] run bossbar set structure_rework:illusioner players @a[distance=..32]
+execute as @e[tag=illusioner_boss] run execute store result bossbar structure_rework:illusioner value run data get entity @s Health 1

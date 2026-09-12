@@ -1,0 +1,2 @@
+execute unless entity @e[tag=illusioner_boss,limit=1] run function structure_rework:illusioner_bossbar_inactive
+execute if entity @e[tag=illusioner_boss,limit=1] run function structure_rework:illusioner_bossbar_active
