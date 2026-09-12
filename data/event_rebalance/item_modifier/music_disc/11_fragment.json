@@ -1,0 +1,29 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items":"#event_rebalance:custom_item/disc_fragment_11"
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:custom_item/spawn_egg",
+            {
+                "type": "set_components",
+                "components": {
+                    "rarity":"uncommon"
+                }
+            },
+            {
+                "type": "set_lore",
+                "mode": "append",
+                "lore": [
+                    {
+                        "color": "#AAAAAA",
+                        "translate": "item.event.disc_fragment_11.lore",
+                        "italic": false
+                    }
+                ]
+            }
+        ]
+    }
+}

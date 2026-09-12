@@ -1,0 +1,11 @@
+{
+  "values": [
+    "minecraft:wandering_trader/emerald_packed_ice",
+    "minecraft:wandering_trader/emerald_blue_ice",
+    "minecraft:wandering_trader/emerald_gunpowder",
+    "minecraft:wandering_trader/emerald_podzol",
+    "minecraft:wandering_trader/emerald_enchanted_iron_pickaxe",
+    "minecraft:wandering_trader/emerald_long_invisibility_potion",
+    "event_rebalance:wandering_trader/emerald_music_disc_mall"
+  ]
+}

@@ -86,7 +86,9 @@
     "item.minecraft.vex_spawn_egg": "Steel Ingot (WORKING NAME)",
     "item.minecraft.blaze_spawn_egg": "Ruby",
     "item.minecraft.silverfish_spawn_egg": "Disc Fragment",
+    "item.event.disc_fragment_13.lore": "Music Disc - 13",
     "item.minecraft.magma_cube_spawn_egg": "Disc Fragment",
+    "item.event.disc_fragment_11.lore": "Music Disc - 11",
     "item.minecraft.music_disc_strad": "Staff",
 
     "item.event.music_disc_13":"Music Disc",
@@ -132,6 +134,9 @@
     
     "item.modifiers.use": "When used:",
     
+    "enchantment.event.eternity":"Eternity",
+    "enchantment.event.lasting":"Lasting",
+    "enchantment.event.auto_repair":"Auto-Repair",
     "enchantment.event.harpoon":"Harpoon",
     "enchantment.event.rebound":"Rebound",
     

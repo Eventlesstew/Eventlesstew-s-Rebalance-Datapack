@@ -10,10 +10,199 @@
                 "type": "filtered",
                 "item_filter": {
                     "components": {
+                        "item_model": "event:music_disc/13"
+                    }
+                },
+                "on_pass": "event_rebalance:music_disc/13"
+            },
+            {
+                "type": "filtered",
+                "item_filter": {
+                    "components": {
+                        "item_model": "event:music_disc/11"
+                    }
+                },
+                "on_pass": "event_rebalance:music_disc/11"
+            },
+            {
+                "type": "filtered",
+                "item_filter": {
+                    "components": {
+                        "item_model": "event:music_disc/5"
+                    }
+                },
+                "on_pass": "event_rebalance:music_disc/5"
+            },
+            {
+                "type": "filtered",
+                "item_filter": {
+                    "components": {
+                        "item_model": "event:music_disc/cat"
+                    }
+                },
+                "on_pass": "event_rebalance:music_disc/cat"
+            },
+            {
+                "type": "filtered",
+                "item_filter": {
+                    "components": {
+                        "item_model": "event:music_disc/blocks"
+                    }
+                },
+                "on_pass": "event_rebalance:music_disc/blocks"
+            },
+            {
+                "type": "filtered",
+                "item_filter": {
+                    "components": {
+                        "item_model": "event:music_disc/bounce"
+                    }
+                },
+                "on_pass": "event_rebalance:music_disc/bounce"
+            },
+            {
+                "type": "filtered",
+                "item_filter": {
+                    "components": {
+                        "item_model": "event:music_disc/chirp"
+                    }
+                },
+                "on_pass": "event_rebalance:music_disc/chirp"
+            },
+            {
+                "type": "filtered",
+                "item_filter": {
+                    "components": {
+                        "item_model": "event:music_disc/creator_music_box"
+                    }
+                },
+                "on_pass": "event_rebalance:music_disc/creator_music_box"
+            },
+            {
+                "type": "filtered",
+                "item_filter": {
+                    "components": {
+                        "item_model": "event:music_disc/creator"
+                    }
+                },
+                "on_pass": "event_rebalance:music_disc/creator"
+            },
+            {
+                "type": "filtered",
+                "item_filter": {
+                    "components": {
+                        "item_model": "event:music_disc/far"
+                    }
+                },
+                "on_pass": "event_rebalance:music_disc/far"
+            },
+            {
+                "type": "filtered",
+                "item_filter": {
+                    "components": {
+                        "item_model": "event:music_disc/lava_chicken"
+                    }
+                },
+                "on_pass": "event_rebalance:music_disc/lava_chicken"
+            },
+            {
+                "type": "filtered",
+                "item_filter": {
+                    "components": {
+                        "item_model": "event:music_disc/mall"
+                    }
+                },
+                "on_pass": "event_rebalance:music_disc/mall"
+            },
+            {
+                "type": "filtered",
+                "item_filter": {
+                    "components": {
+                        "item_model": "event:music_disc/mellohi"
+                    }
+                },
+                "on_pass": "event_rebalance:music_disc/mellohi"
+            },
+            {
+                "type": "filtered",
+                "item_filter": {
+                    "components": {
+                        "item_model": "event:music_disc/otherside"
+                    }
+                },
+                "on_pass": "event_rebalance:music_disc/otherside"
+            },
+            {
+                "type": "filtered",
+                "item_filter": {
+                    "components": {
+                        "item_model": "event:music_disc/pigstep"
+                    }
+                },
+                "on_pass": "event_rebalance:music_disc/pigstep"
+            },
+            {
+                "type": "filtered",
+                "item_filter": {
+                    "components": {
+                        "item_model": "event:music_disc/precipice"
+                    }
+                },
+                "on_pass": "event_rebalance:music_disc/precipice"
+            },
+            {
+                "type": "filtered",
+                "item_filter": {
+                    "components": {
+                        "item_model": "event:music_disc/relic"
+                    }
+                },
+                "on_pass": "event_rebalance:music_disc/relic"
+            },
+            {
+                "type": "filtered",
+                "item_filter": {
+                    "components": {
+                        "item_model": "event:music_disc/stal"
+                    }
+                },
+                "on_pass": "event_rebalance:music_disc/stal"
+            },
+            {
+                "type": "filtered",
+                "item_filter": {
+                    "components": {
                         "item_model": "event:music_disc/strad"
                     }
                 },
                 "on_pass": "event_rebalance:music_disc/strad"
+            },
+            {
+                "type": "filtered",
+                "item_filter": {
+                    "components": {
+                        "item_model": "event:music_disc/tears"
+                    }
+                },
+                "on_pass": "event_rebalance:music_disc/tears"
+            },
+            {
+                "type": "filtered",
+                "item_filter": {
+                    "components": {
+                        "item_model": "event:music_disc/wait"
+                    }
+                },
+                "on_pass": "event_rebalance:music_disc/wait"
+            },
+            {
+                "type": "filtered",
+                "item_filter": {
+                    "components": {
+                        "item_model": "event:music_disc/ward"
+                    }
+                },
+                "on_pass": "event_rebalance:music_disc/ward"
             }
         ]
     }

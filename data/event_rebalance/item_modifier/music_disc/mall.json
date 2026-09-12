@@ -1,0 +1,17 @@
+{
+    "type": "sequence",
+    "functions": [
+        "event_rebalance:custom_item/music_disc",
+        {
+            "type": "minecraft:set_components",
+            "components": {
+                "jukebox_playable": "mall",
+                
+                "item_name": {
+                    "translate": "item.event.music_disc_mall"
+                },
+                "item_model": "event:music_disc/mall"
+            }
+        }
+    ]
+}

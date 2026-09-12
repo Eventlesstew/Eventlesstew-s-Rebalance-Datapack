@@ -1,0 +1,27 @@
+{
+  "values": [
+    "#event_rebalance:armor",
+    "#event_rebalance:daggers",
+    "#event_rebalance:hammers",
+    "#event_rebalance:custom_item/handsaw",
+    "#event_rebalance:custom_item/staff",
+    "minecraft:elytra",
+    "minecraft:shield",
+    "#minecraft:swords",
+    "#minecraft:axes",
+    "#minecraft:pickaxes",
+    "#minecraft:shovels",
+    "#minecraft:hoes",
+    "minecraft:bow",
+    "minecraft:crossbow",
+    "minecraft:trident",
+    "minecraft:flint_and_steel",
+    "minecraft:shears",
+    "minecraft:brush",
+    "minecraft:fishing_rod",
+    "minecraft:carrot_on_a_stick",
+    "minecraft:warped_fungus_on_a_stick",
+    "minecraft:mace",
+    "#minecraft:spears"
+  ]
+}

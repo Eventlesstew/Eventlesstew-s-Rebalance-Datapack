@@ -1,0 +1,27 @@
+{
+	"criteria": {
+		"on_change": {
+			"trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "enchantments": [
+                            {
+                                "enchantments": "event_rebalance:auto-repair"
+                            }
+                        ]
+                    }
+                }
+            }
+		}
+	},
+	"requirements": [
+		[
+			"on_change"
+		]
+	],
+	"rewards": {
+		"function": "event_rebalance:on_auto_repair"
+	},
+	"sends_telemetry_event": false
+}

@@ -1,0 +1,13 @@
+{
+    "type": "sequence",
+    "functions": [
+        "event_rebalance:modified",
+        {
+            "type": "minecraft:set_components",
+            "components": {
+                "!jukebox_playable":{},
+                "rarity": "common"
+            }
+        }
+    ]
+}

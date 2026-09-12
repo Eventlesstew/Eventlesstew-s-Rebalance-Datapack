@@ -1,0 +1,19 @@
+{
+  "gives": {
+    "id": "minecraft:music_disc_13",
+    "components": {
+        "jukebox_playable": "mall",
+        "item_name": {
+          "translate": "item.event.music_disc_mall"
+        },
+        "item_model": "event:music_disc/mall",
+        "max_stack_size": 64
+    }
+  },
+  "max_uses": 1,
+  "reputation_discount": 0.05,
+  "wants": {
+    "count": 5,
+    "id": "minecraft:emerald"
+  }
+}

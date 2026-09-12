@@ -1,0 +1,31 @@
+{
+  "anvil_cost": 20,
+  "description": {
+    "translate": "enchantment.event.eternity"
+  },
+  "effects": {
+    "minecraft:item_damage": [
+      {
+        "effect": {
+          "type": "minecraft:set",
+          "value": 0
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 20,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 40,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "any"
+  ],
+  "supported_items": "#minecraft:enchantable/durability",
+  "exclusive_set": "#event_rebalance:exclusive_set/legendary_durability",
+  "weight": 1
+}

@@ -1,0 +1,43 @@
+{
+  "anvil_cost": 2,
+  "description": {
+    "translate": "enchantment.minecraft.unbreaking"
+  },
+  "effects": {
+    "minecraft:item_damage": [
+      {
+        "effect": {
+          "type": "minecraft:remove_binomial",
+          "chance": {
+            "type": "minecraft:fraction",
+            "denominator": {
+              "type": "minecraft:linear",
+              "base": 100.0,
+              "per_level_above_first": 0
+            },
+            "numerator": {
+              "type": "minecraft:linear",
+              "base": 35,
+              "per_level_above_first": 15
+            }
+          }
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 55,
+    "per_level_above_first": 8
+  },
+  "max_level": 4,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 8
+  },
+  "slots": [
+    "any"
+  ],
+  "supported_items": "#minecraft:enchantable/durability",
+  "exclusive_set": "#event_rebalance:exclusive_set/durability",
+  "weight": 5
+}

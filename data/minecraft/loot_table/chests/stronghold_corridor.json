@@ -180,6 +180,31 @@
         }
       ],
       "rolls": 1
+    },
+    {
+      "entries": [
+        {
+          "type": "empty",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "magma_cube_spawn_egg",
+          "modifier": [
+            "event_rebalance:music_disc/11_fragment",
+            {
+              "type": "set_count",
+              "count": {
+                "type": "uniform",
+                "max": 4,
+                "min": 1
+              }
+            }
+          ],
+          "weight": 3
+        }
+      ],
+      "rolls": 1
     }
   ],
   "random_sequence": "minecraft:chests/stronghold_corridor"

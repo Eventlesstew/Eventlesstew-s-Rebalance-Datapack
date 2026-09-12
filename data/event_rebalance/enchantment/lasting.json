@@ -1,5 +1,7 @@
 {
-    "description": "Auto Repair",
+    "description": {
+        "translate": "enchantment.event.lasting"
+    },
     "supported_items": "#minecraft:enchantable/durability",
     "weight": 5,
     "max_level": 1,

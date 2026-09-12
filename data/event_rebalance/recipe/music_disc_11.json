@@ -15,7 +15,9 @@
     "id": "minecraft:music_disc_13",
     "components": {
         "jukebox_playable": "11",
-        "item_name": "item.event.music_disc_11",
+        "item_name": {
+          "translate": "item.event.music_disc_11"
+        },
         "item_model": "event:music_disc/11",
         "max_stack_size": 64
     }

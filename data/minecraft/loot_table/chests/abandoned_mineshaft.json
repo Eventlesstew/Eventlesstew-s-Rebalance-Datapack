@@ -256,21 +256,53 @@
           },
           "name": "minecraft:torch",
           "weight": 15
-        },
-        {
-          "type": "minecraft:item",
-          "condition": {
-            "type": "minecraft:location_check",
-            "predicate": {
-              "biomes": "minecraft:sulfur_caves"
-            }
-          },
-          "name": "minecraft:music_disc_13",
-          "modifier": "event_rebalance:music_disc/bounce",
-          "weight": 10
         }
       ],
       "rolls": 3
+    },
+    {
+      "entries": [
+        {
+          "type": "empty",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:silverfish_spawn_egg",
+          "weight": 2,
+          "modifier": [
+            "event_rebalance:music_disc/13_fragment",
+            {
+              "type": "set_count",
+              "count": {
+                "type": "uniform",
+                "max": 4,
+                "min": 1
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "condition": {
+        "type": "minecraft:location_check",
+        "predicate": {
+          "biomes": "minecraft:sulfur_caves"
+        }
+      },
+      "entries": [
+        {
+          "type": "empty"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:music_disc_13",
+          "modifier": "event_rebalance:music_disc/bounce"
+        }
+      ],
+      "rolls": 1
     }
   ],
   "random_sequence": "minecraft:chests/abandoned_mineshaft"

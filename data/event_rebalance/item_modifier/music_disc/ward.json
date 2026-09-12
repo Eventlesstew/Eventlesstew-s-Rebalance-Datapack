@@ -1,0 +1,17 @@
+{
+    "type": "sequence",
+    "functions": [
+        "event_rebalance:custom_item/music_disc",
+        {
+            "type": "minecraft:set_components",
+            "components": {
+                "jukebox_playable": "ward",
+                
+                "item_name": {
+                    "translate": "item.event.music_disc_ward"
+                },
+                "item_model": "event:music_disc/ward"
+            }
+        }
+    ]
+}

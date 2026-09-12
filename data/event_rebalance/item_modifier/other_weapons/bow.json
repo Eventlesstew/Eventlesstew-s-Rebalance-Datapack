@@ -6,12 +6,7 @@
     "on_pass": {
         "type": "sequence",
         "functions": [
-            {
-                "tag": {
-                    "modified": true
-                },
-                "type": "set_custom_data"
-            },
+            "event_rebalance:modified",
             {
                 "type": "set_components",
                 "components": {

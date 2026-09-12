@@ -1,18 +1,15 @@
 {
     "type": "sequence",
     "functions": [
-        {
-            "tag": {
-                "modified": true
-            },
-            "type": "set_custom_data"
-        },
+        "event_rebalance:custom_item/music_disc",
         {
             "type": "minecraft:set_components",
             "components": {
                 "jukebox_playable": "lava_chicken",
-                "max_stack_size": 64,
-                "item_name": "item.event.music_disc_lava_chicken",
+                
+                "item_name": {
+                    "translate": "item.event.music_disc_lava_chicken"
+                },
                 "item_model": "event:music_disc/lava_chicken"
             }
         }

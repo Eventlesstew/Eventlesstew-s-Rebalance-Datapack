@@ -1,0 +1,1 @@
+advancement revoke @s only event_rebalance:function/use_auto_repair_tool

@@ -6,12 +6,7 @@
     "on_pass": {
         "type": "sequence",
         "functions": [
-            {
-                "tag": {
-                    "modified": true
-                },
-                "type": "set_custom_data"
-            },
+            "event_rebalance:modified",
             {
                 "type": "minecraft:set_attributes",
                 "modifiers": [
@@ -47,7 +42,7 @@
                     "tool": {
                         "rules": [
                             {
-                                "blocks": "#mineable/shovel",
+                                "blocks": "#mineable/axe",
                                 "speed": 24,
                                 "correct_for_drops": true
                             }

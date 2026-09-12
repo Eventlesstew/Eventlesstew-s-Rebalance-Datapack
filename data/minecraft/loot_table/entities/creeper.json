@@ -41,7 +41,7 @@
         {
           "type": "minecraft:item",
           "name": "music_disc_13",
-          "modifier": "event_rebalance:music_disc/strad"
+          "modifier": "event_rebalance:music_disc/wait"
         }
       ],
       "rolls": 1

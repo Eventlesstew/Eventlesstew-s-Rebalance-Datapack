@@ -1,0 +1,6 @@
+{
+    "values": [
+        "#event_rebalance:exclusive_set/durability",
+        "#event_rebalance:exclusive_set/legendary"
+    ]
+}
