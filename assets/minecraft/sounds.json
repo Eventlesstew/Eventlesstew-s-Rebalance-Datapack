@@ -428,6 +428,7 @@
         {"name":"event:enchant/shark_grab/shark_grab4"},
         {"name":"event:enchant/shark_grab/shark_grab5"}
     ]},
+
     "enchant.focusing.activate":{
         "sounds":[
             "item/spyglass/use"
@@ -439,5 +440,14 @@
             "item/spyglass/stop"
         ],
         "subtitle": "subtitles.enchant.focusing.deactivate"
+    },
+
+    "enchant.harpoon":{
+        "sounds":[
+            "item/spear/lunge1",
+            "item/spear/lunge2",
+            "item/spear/lunge3"
+        ],
+        "subtitle": "subtitles.enchant.harpoon"
     }
 }

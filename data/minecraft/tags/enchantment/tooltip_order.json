@@ -18,6 +18,7 @@
     "minecraft:fire_aspect",
     "minecraft:knockback",
     "minecraft:punch",
+    "event_rebalance:launching",
     "event_rebalance:harpoon",
     "minecraft:protection",
     "minecraft:blast_protection",

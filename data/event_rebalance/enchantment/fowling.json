@@ -1,0 +1,73 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "enchantment.event.fowling"
+  },
+  "effects": {
+    "minecraft:damage": [
+      {
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "flags": {
+                  "is_on_ground": false
+                }
+              }
+            },
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "fluid": {
+                        "fluids": "#event_rebalance:any"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 2.0,
+            "per_level_above_first": 1.5
+          }
+        }
+      }
+    ],
+    "post_attack": [{
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {
+            "pitch": 1,
+            "volume": 1,
+            "type": "play_sound",
+            "sound": "entity.arrow.hit_player"
+        }
+    }]
+  },
+  "max_cost": {
+    "base": 16,
+    "per_level_above_first": 10
+  },
+  "max_level": 5,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "exclusive_set": "#exclusive_set/damage",
+  "supported_items": "#event_rebalance:enchantable/weapon",
+  "weight": 10
+}

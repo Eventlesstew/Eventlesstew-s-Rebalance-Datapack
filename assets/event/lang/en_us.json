@@ -134,14 +134,16 @@
     
     "item.modifiers.use": "When used:",
     
-    "enchantment.event.eternity":"Eternity",
-    "enchantment.event.lasting":"Lasting",
-    "enchantment.event.auto_repair":"Auto-Repair",
+    "enchantment.event.focusing":"Focusing",
+
+    "enchantment.event.fowling":"Fowling",
+    
+    "enchantment.event.launching":"Launching",
     "enchantment.event.harpoon":"Harpoon",
     "enchantment.event.rebound":"Rebound",
-    
-    "subtitles.block.shulker_box.close": "Portal box closes",
-    "subtitles.block.shulker_box.open": "Portal box opens",
+    "enchantment.event.auto_repair":"Auto-Repair",
+    "enchantment.event.eternity":"Eternity",
+    "enchantment.event.lasting":"Lasting",
 
     "attribute.name.mining_speed": "Mining Speed",
     "attribute.name.ore_mining_speed": "Ore Mining Speed",
@@ -288,8 +290,11 @@
     "stats.shield.block": "Damage Blocked: ",
     "stats.shield.absorb": "Damage Absorbed: ",
     "stats.shield.blocking_angle": "Blocking Angle: ",
-
+    
     "subtitles.enchant.focusing.activate": "Focusing Activates",
     "subtitles.enchant.focusing.deactivate": "Focusing Deactivates",
+    "subtitles.enchant.harpoon": "Mob Harpooned",
+    "subtitles.block.shulker_box.close": "Portal box closes",
+    "subtitles.block.shulker_box.open": "Portal box opens",
     "subtitles.ui.stonecutter.take_result": "Sawmill used"
 }

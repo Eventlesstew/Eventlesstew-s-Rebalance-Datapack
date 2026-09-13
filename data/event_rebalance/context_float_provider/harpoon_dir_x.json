@@ -1,0 +1,13 @@
+{
+    "type": "sub",
+    "left": {
+        "type": "storage",
+        "storage": "event_rebalance:harpoon",
+        "path": "SELF_X"
+    },
+    "right": {
+        "type": "storage",
+        "storage": "event_rebalance:harpoon",
+        "path": "SOURCE_X"
+    }
+}

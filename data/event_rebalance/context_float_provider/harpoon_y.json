@@ -1,0 +1,12 @@
+{
+    "type": "add",
+    "inputs": [
+        {
+            "type": "mul",
+            "inputs": [
+                "event_rebalance:harpoon_dir_y",
+                "event_rebalance:harpoon_dist"
+            ]
+        }
+    ]
+}

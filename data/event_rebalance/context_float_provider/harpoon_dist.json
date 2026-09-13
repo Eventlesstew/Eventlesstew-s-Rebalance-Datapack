@@ -1,0 +1,31 @@
+{
+    "type": "div",
+    "left": {
+        "type": "storage",
+        "storage": "event_rebalance:harpoon",
+        "path": "AMOUNT"
+    },
+    "right":{
+        "type": "sqrt",
+        "input": {
+            "type": "add",
+            "inputs": [
+                {
+                    "type": "pow",
+                    "base": "event_rebalance:harpoon_dir_x",
+                    "exponent": 2
+                },
+                {
+                    "type": "pow",
+                    "base": "event_rebalance:harpoon_dir_y",
+                    "exponent": 2
+                },
+                {
+                    "type": "pow",
+                    "base": "event_rebalance:harpoon_dir_z",
+                    "exponent": 2
+                }
+            ]
+        }
+    }
+}

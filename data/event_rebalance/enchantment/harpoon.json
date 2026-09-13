@@ -4,55 +4,133 @@
     "translate": "enchantment.event.harpoon"
   },
   "effects": {
-    "minecraft:knockback": [
+    "post_attack": [
+      
       {
-        "effect": {
-          "type": "minecraft:multiply",
-          "factor": -1.0
-        },
+        "enchanted": "attacker",
+        "affected": "attacker",
         "requirements": {
           "type": "minecraft:entity_properties",
           "entity": "direct_attacker",
           "predicate": {
-            "minecraft:entity_type": "#minecraft:arrows"
+            "minecraft:entity_type": "#impact_projectiles"
           }
+        },
+        "effect": {
+          "type": "run_function",
+          "function": "event_rebalance:enchantments/harpoon/setup"
         }
-      }
-    ],
-    "post_attack": [
+      },
       {
         "affected": "victim",
         "enchanted": "attacker",
         "effect": {
-          "type": "minecraft:all_of",
-          "effects": [
+          "type": "run_function",
+          "function": "event_rebalance:enchantments/harpoon/1"
+        },
+        "requirements": {
+          "type":"all_of",
+          "terms":[
             {
-              "type": "minecraft:apply_impulse",
-              "coordinate_scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "direction": [
-                0.0,
-                0.0,
-                1.0
-              ],
-              "magnitude": {
-                "type": "minecraft:linear",
-                "base": -0.6,
-                "per_level_above_first": -0.6
+              "type": "minecraft:entity_properties",
+              "entity": "direct_attacker",
+              "predicate": {
+                "minecraft:entity_type": "#impact_projectiles"
               }
             },
             {
-              "type": "minecraft:play_sound",
-              "pitch": 1.0,
-              "sound": [
-                "minecraft:item.spear.lunge_1",
-                "minecraft:item.spear.lunge_2",
-                "minecraft:item.spear.lunge_3"
-              ],
-              "volume": 1.0
+              "type": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "event_rebalance:harpoon",
+                          "levels": 1
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "affected": "victim",
+        "enchanted": "attacker",
+        "effect": {
+          "type": "run_function",
+          "function": "event_rebalance:enchantments/harpoon/2"
+        },
+        "requirements": {
+          "type":"all_of",
+          "terms":[
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "direct_attacker",
+              "predicate": {
+                "minecraft:entity_type": "#impact_projectiles"
+              }
+            },
+            {
+              "type": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "event_rebalance:harpoon",
+                          "levels": 2
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "affected": "victim",
+        "enchanted": "attacker",
+        "effect": {
+          "type": "run_function",
+          "function": "event_rebalance:enchantments/harpoon/3"
+        },
+        "requirements": {
+          "type":"all_of",
+          "terms":[
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "direct_attacker",
+              "predicate": {
+                "minecraft:entity_type": "#impact_projectiles"
+              }
+            },
+            {
+              "type": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "event_rebalance:harpoon",
+                          "levels": 3
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
             }
           ]
         }
@@ -63,7 +141,7 @@
     "base": 37,
     "per_level_above_first": 20
   },
-  "max_level": 2,
+  "max_level": 3,
   "min_cost": {
     "base": 12,
     "per_level_above_first": 20
@@ -71,6 +149,7 @@
   "slots": [
     "mainhand"
   ],
+  "exclusive_set": "#event_rebalance:exclusive_set/knockback",
   "supported_items": "#event_rebalance:enchantable/ranged_weapon",
   "weight": 2
 }

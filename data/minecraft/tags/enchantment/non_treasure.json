@@ -11,6 +11,7 @@
     "minecraft:depth_strider",
     "minecraft:smite",
     "minecraft:knockback",
+    "event_rebalance:launching",
     "event_rebalance:harpoon",
     "minecraft:fire_aspect",
     "minecraft:looting",

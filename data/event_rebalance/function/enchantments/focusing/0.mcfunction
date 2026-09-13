@@ -1,4 +1,4 @@
-execute if entity @s[tag=focusing] run playsound item.spyglass.stop_using ambient @a ~ ~ ~ 1 1
+execute if entity @s[tag=focusing] run playsound enchant.focusing.deactivate ambient @a ~ ~ ~ 1 1
 tag @s[tag=focusing] remove focusing
 attribute @s mining_efficiency modifier remove focusing1
 attribute @s block_interaction_range modifier remove focusing1

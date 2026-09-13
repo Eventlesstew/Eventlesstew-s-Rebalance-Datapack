@@ -1,0 +1,63 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "enchantment.event.launching",
+    "color": "#d0b2ff",
+    "shadow_color": -477808129
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "affected": "victim",
+        "enchanted": "attacker",
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_impulse",
+              "coordinate_scale": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "direction": [
+                0.0,
+                1.0,
+                0.0
+              ],
+              "magnitude": {
+                "type": "minecraft:linear",
+                "base": 0.4,
+                "per_level_above_first": 0.15
+              }
+            },
+            {
+              "type": "minecraft:play_sound",
+              "pitch": 1.0,
+              "sound": [
+                "minecraft:entity.player.attack.knockback"
+              ],
+              "volume": 1.0
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "exclusive_set": [
+  ],
+  "max_level": 3,
+  "max_cost": {
+    "base": 16,
+    "per_level_above_first": 12
+  },
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 12
+  },
+  "weight": 2,
+  "slots": [
+    "hand"
+  ],
+  "supported_items": "#event_rebalance:enchantable/weapon"
+}

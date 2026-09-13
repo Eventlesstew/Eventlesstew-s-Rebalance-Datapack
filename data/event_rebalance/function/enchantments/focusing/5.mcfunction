@@ -1,4 +1,4 @@
-execute if entity @s[tag=!focusing] run playsound item.spyglass.use ambient @a ~ ~ ~ 0.5 1
+execute if entity @s[tag=!focusing] run playsound enchant.focusing.activate ambient @a ~ ~ ~ 0.5 1
 tag @s[tag=!focusing] add focusing
 attribute @s mining_efficiency modifier add focusing5 20 add_value
 attribute @s block_interaction_range modifier add focusing5 5 add_value
