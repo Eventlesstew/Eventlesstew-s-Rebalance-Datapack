@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:adventure/trade",
+  "criteria": {
+    "traded": {
+      "conditions": {
+        "villager": {
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": {
+              "VillagerData": {
+                "level": 5
+              }
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:villager_trade"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.trade_with_max_villager.description"
+    },
+    "icon": {
+      "id": "minecraft:diamond"
+    },
+    "title": {
+      "translate": "advancements.adventure.trade_with_max_villager.title"
+    }
+  },
+  "requirements": [
+    [
+      "traded"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

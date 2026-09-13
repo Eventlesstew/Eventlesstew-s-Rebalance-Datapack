@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/custom_fence_inventory",
+  "parent": "minecraft:block/fence_inventory",
   "textures": {
-    "texture": "minecraft:block/bamboo_fence"
+    "texture": "minecraft:block/bamboo_block"
   }
 }

@@ -190,6 +190,7 @@
     "advancements.story.disenchant_item.description": "Craft a Grindstone.",
     "advancements.story.craft_weapon.description": "Craft a weapon",
     
+    "advancements.nether.obtain_blaze_rod.description":"Relieve a Blaze of it's rod... Or steal it from a Bastion",
     "advancements.nether.portal_box.title": "Organizational Wizard",
     "advancements.nether.portal_box.description": "Craft a Portal Box out of Crying Obsidian",
     "advancements.nether.obtain_rose_gold_upgrade.title": "Sickening Greed",
@@ -205,8 +206,8 @@
 
     "advancements.food.root.title": "Food and Drink",
     "advancements.food.root.description": "Bake or brew culinary delights or regrets.",
-    "advancements.food.eat_food.title": "Sustenance",
-    "advancements.food.eat_food.description": "Consume any food.",
+    "advancements.food.eat_food_with_effects.title": "Interesting Intrinsic",
+    "advancements.food.eat_food_with_effects.description": "Get an effect from eating food.",
     "advancements.food.eat_golden_apple.title": "Superpowered",
     "advancements.food.eat_golden_apple.description": "Eat a Golden Apple",
     "advancements.food.eat_enchanted_golden_apple.title": "Overpowered",
@@ -252,7 +253,10 @@
     "advancements.combat.obtain_turtle_helmet.description": "Get a Turtle Shell",
     "advancements.combat.find_woodland_mansion.title": "It's not much, but...",
     "advancements.combat.find_woodland_mansion.description": "Discover a Woodland Mansion",
+    "advancements.adventure.voluntary_exile.description":"Drink an Ominous Bottle. Who knows what is going to happen next?",
 
+    "advancements.adventure.trade_with_max_villager.title": "The Haggler",
+    "advancements.adventure.trade_with_max_villager.description": "Trade with a villager at max level",
     "advancements.adventure.find_ancient_city.title": "Too late to Sift through",
     "advancements.adventure.find_ancient_city.description": "Discover an Ancient City",
     "advancements.adventure.obtain_compass.title": "Getting Warmer",

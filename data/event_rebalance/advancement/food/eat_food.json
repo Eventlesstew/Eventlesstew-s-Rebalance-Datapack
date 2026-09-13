@@ -7,13 +7,13 @@
   },
   "display": {
     "description": {
-      "translate": "advancements.food.eat_food.description"
+      "translate": "advancements.food.eat_food_with_effects.description"
     },
     "icon": {
-      "id": "minecraft:cooked_beef"
+      "id": "minecraft:pumpkin_pie"
     },
     "title": {
-      "translate": "advancements.food.eat_food.title"
+      "translate": "advancements.food.eat_food_with_effects.title"
     },
     "announce_to_chat": false,
     "show_toast": false

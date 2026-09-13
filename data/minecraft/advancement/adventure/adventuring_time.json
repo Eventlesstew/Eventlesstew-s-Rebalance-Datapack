@@ -1,5 +1,5 @@
 {
-  "parent": "event_rebalance:adventure/use_map_on_banner",
+  "parent": "adventure/heart_transplanter",
   "criteria": {
     "minecraft:badlands": {
       "conditions": {

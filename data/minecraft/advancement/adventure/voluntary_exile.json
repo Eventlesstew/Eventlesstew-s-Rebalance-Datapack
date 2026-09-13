@@ -1,0 +1,31 @@
+{
+  "parent": "event_rebalance:combat/root",
+  "criteria": {
+    "voluntary_exile": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:ominous_bottle"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.voluntary_exile.description"
+    },
+    "hidden": true,
+    "icon": {
+      "id": "minecraft:ominous_bottle"
+    },
+    "title": {
+      "translate": "advancements.adventure.voluntary_exile.title"
+    }
+  },
+  "requirements": [
+    [
+      "voluntary_exile"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
