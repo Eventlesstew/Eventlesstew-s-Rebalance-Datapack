@@ -1,14 +1,10 @@
 {
   "criteria": {
-    "item_gained": {
+    "upgrade_gear": {
       "conditions": {
-        "items": [
-          {
-            "items": "#event_rebalance:netherite_tools"
-          }
-        ]
+        "recipes": "#event_rebalance:netherite_upgrade"
       },
-      "trigger": "minecraft:inventory_changed"
+      "trigger": "minecraft:recipe_crafted"
     }
   },
   "parent": "nether/obtain_ancient_debris",
@@ -25,7 +21,7 @@
   },
   "requirements": [
     [
-      "item_gained"
+      "upgrade_gear"
     ]
   ],
   "sends_telemetry_event": true

@@ -1,0 +1,18 @@
+{
+    "values": [
+        "netherite_helmet_smithing",
+        "netherite_chestplate_smithing",
+        "netherite_leggings_smithing",
+        "netherite_boots_smithing",
+        "netherite_horse_armor_smithing",
+        "netherite_nautilus_armor_smithing",
+        "netherite_pickaxe_smithing",
+        "netherite_shovel_smithing",
+        "netherite_hoe_smithing",
+        "netherite_axe_smithing",
+        "netherite_sword_smithing",
+        "netherite_spear_smithing",
+        "event_rebalance:smithing/netherite_upgrade/dagger",
+        "event_rebalance:smithing/netherite_upgrade/hammer"
+    ]
+}

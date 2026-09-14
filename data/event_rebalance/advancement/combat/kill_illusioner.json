@@ -1,0 +1,35 @@
+{
+  "parent": "adventure/totem_of_undying",
+  "criteria": {
+    "minecraft:illusioner": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:illusioner"
+          }
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.kill_illusioner.description"
+    },
+    "icon": {
+      "id": "minecraft:bow"
+    },
+    "frame": "challenge",
+    "title": {
+      "translate": "advancements.adventure.kill_illusioner.title"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:illusioner"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

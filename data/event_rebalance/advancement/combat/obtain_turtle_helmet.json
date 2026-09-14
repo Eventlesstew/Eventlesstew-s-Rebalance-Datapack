@@ -1,5 +1,5 @@
 {
-  "parent": "husbandry/repair_wolf_armor",
+  "parent": "husbandry/fishy_business",
   "criteria": {
     "obtain_armor": {
       "conditions": {

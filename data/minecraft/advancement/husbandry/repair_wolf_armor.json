@@ -1,5 +1,5 @@
 {
-  "parent": "story/obtain_armor",
+  "parent": "adventure/brush_armadillo",
   "criteria": {
     "repair_wolf_armor": {
       "conditions": {

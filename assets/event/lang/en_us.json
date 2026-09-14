@@ -203,6 +203,8 @@
     "advancements.nether.open_fortress_vault.description": "Open a Vault in a Nether Fortress",
     "advancements.nether.open_ominous_fortress_vault.title": "Next Layer",
     "advancements.nether.open_ominous_fortress_vault.description": "Open an Ominous Vault in a Nether Fortress",
+    "advancements.combat.kill_wildfire.title": "Blazing Inferno",
+    "advancements.combat.kill_wildfire.description": "Defeat the Wildfire",
 
     "advancements.food.root.title": "Food and Drink",
     "advancements.food.root.description": "Bake or brew culinary delights or regrets.",
@@ -253,10 +255,13 @@
     "advancements.combat.obtain_turtle_helmet.description": "Get a Turtle Shell",
     "advancements.combat.find_woodland_mansion.title": "It's not much, but...",
     "advancements.combat.find_woodland_mansion.description": "Discover a Woodland Mansion",
+    "advancements.combat.kill_illusioner.title": "Disillusioned",
+    "advancements.combat.kill_illusioner.description": "Defeat the Illusioner",
     "advancements.adventure.voluntary_exile.description":"Drink an Ominous Bottle. Who knows what is going to happen next?",
+    "advancements.adventure.trim_with_all_exclusive_armor_patterns.description":"Apply every Smithing Template at least once",
 
     "advancements.adventure.trade_with_max_villager.title": "The Haggler",
-    "advancements.adventure.trade_with_max_villager.description": "Trade with a villager at max level",
+    "advancements.adventure.trade_with_max_villager.description": "Trade with a Villager at Max Level",
     "advancements.adventure.find_ancient_city.title": "Too late to Sift through",
     "advancements.adventure.find_ancient_city.description": "Discover an Ancient City",
     "advancements.adventure.obtain_compass.title": "Getting Warmer",

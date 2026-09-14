@@ -1,14 +1,10 @@
 {
   "criteria": {
-    "item_gained": {
+    "upgrade_gear": {
       "conditions": {
-        "items": [
-          {
-            "items": "#event_rebalance:rose_golden_tools"
-          }
-        ]
+        "recipes": "#event_rebalance:rose_golden_upgrade"
       },
-      "trigger": "minecraft:inventory_changed"
+      "trigger": "minecraft:recipe_crafted"
     }
   },
   "parent": "event_rebalance:nether/obtain_rose_gold_upgrade",
@@ -25,7 +21,7 @@
   },
   "requirements": [
     [
-      "item_gained"
+      "upgrade_gear"
     ]
   ],
   "sends_telemetry_event": true

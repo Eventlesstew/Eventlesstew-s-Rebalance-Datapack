@@ -1,0 +1,16 @@
+{
+    "values": [
+        "event_rebalance:smithing/rose_golden_upgrade/helmet",
+        "event_rebalance:smithing/rose_golden_upgrade/chestplate",
+        "event_rebalance:smithing/rose_golden_upgrade/leggings",
+        "event_rebalance:smithing/rose_golden_upgrade/boots",
+        "event_rebalance:smithing/rose_golden_upgrade/hammer",
+        "event_rebalance:smithing/rose_golden_upgrade/dagger",
+        "stone_axe",
+        "stone_pickaxe",
+        "stone_sword",
+        "stone_shovel",
+        "stone_hoe",
+        "stone_spear"
+    ]
+}
