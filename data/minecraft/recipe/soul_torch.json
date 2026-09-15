@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "key": {
-    "#": "minecraft:nether_brick",
+    "#": "minecraft:stick",
     "X": "#event_rebalance:custom_item/withered_chunks"
   },
   "pattern": [

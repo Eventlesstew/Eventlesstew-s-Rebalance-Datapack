@@ -1,10 +1,15 @@
 {
-    "type": "set_components",
-    "components": {
-        "!entity_data": {},
-        "cooking_fuel": {
-            "burn_time": "cooking/time_coal",
-            "speed_multiplier": "cooking/speed_default"
+    "type": "sequence",
+    "functions": [
+        "event_rebalance:custom_item/spawn_egg",
+        {
+            "type": "set_components",
+            "components": {
+                "cooking_fuel": {
+                    "burn_time": "cooking/time_coal",
+                    "speed_multiplier": "cooking/speed_default"
+                }
+            }
         }
-    }
+    ]
 }
