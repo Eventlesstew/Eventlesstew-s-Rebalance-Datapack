@@ -6,7 +6,8 @@
     "R":"redstone"
   },
   "pattern": [
-    "#R#"
+    "##",
+    "RR"
   ],
   "result": {
     "id": "minecraft:heavy_weighted_pressure_plate"

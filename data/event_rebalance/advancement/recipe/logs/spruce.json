@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:spruce_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:spruce_fence_gate",
+      "spruce_fence",
+      "spruce_sign",
+      "spruce_hanging_sign",
+      "spruce_shelf"
+    ]
+  }
+}

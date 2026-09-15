@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:cherry_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:cherry_fence_gate",
+      "cherry_fence",
+      "cherry_sign",
+      "cherry_hanging_sign",
+      "cherry_shelf"
+    ]
+  }
+}

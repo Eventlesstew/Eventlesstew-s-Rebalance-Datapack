@@ -7,7 +7,8 @@
     "R":"redstone"
   },
   "pattern": [
-    "#R#"
+    "##",
+    "RR"
   ],
   "result": {
     "id": "minecraft:mangrove_pressure_plate"

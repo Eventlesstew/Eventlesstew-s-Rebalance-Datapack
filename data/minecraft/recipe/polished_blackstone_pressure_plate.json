@@ -6,7 +6,8 @@
     "R":"redstone"
   },
   "pattern": [
-    "#R#"
+    "##",
+    "RR"
   ],
   "result": {
     "id": "minecraft:polished_blackstone_pressure_plate"

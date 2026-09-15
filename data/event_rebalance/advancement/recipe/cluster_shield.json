@@ -19,7 +19,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:cluster_shield"
+      "event_rebalance:shield/cluster_shield"
     ]
   }
 }

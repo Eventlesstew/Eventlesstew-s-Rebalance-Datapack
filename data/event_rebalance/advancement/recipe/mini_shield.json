@@ -19,7 +19,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:mini_shield"
+      "event_rebalance:shield/mini_shield"
     ]
   }
 }

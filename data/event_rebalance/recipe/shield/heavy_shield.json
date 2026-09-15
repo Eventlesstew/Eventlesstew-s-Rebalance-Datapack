@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "G": "minecraft:lodestone",
+    "G": "minecraft:iron_block",
     "I": "minecraft:iron_ingot"
   },
   "pattern": [

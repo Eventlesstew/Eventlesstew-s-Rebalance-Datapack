@@ -19,7 +19,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:heavy_shield"
+      "event_rebalance:shield/heavy_shield"
     ]
   }
 }

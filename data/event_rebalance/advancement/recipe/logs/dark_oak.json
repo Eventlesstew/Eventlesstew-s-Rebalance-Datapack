@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:dark_oak_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:dark_oak_fence_gate",
+      "dark_oak_fence",
+      "dark_oak_sign",
+      "dark_oak_hanging_sign",
+      "dark_oak_shelf"
+    ]
+  }
+}

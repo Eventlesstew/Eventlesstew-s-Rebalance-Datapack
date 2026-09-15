@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#":"#logs_that_burn",
+    "#":"#logs",
     "A":"stick"
   },
   "pattern": [

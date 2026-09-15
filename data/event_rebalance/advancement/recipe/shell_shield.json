@@ -19,7 +19,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:shell_shield"
+      "event_rebalance:shield/shell_shield"
     ]
   }
 }

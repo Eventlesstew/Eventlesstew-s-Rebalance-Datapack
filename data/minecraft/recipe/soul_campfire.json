@@ -2,12 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#":"#soul_fire_base_blocks",
-    "A":"stick"
+    "#":"campfire",
+    "A":"#event_rebalance:custom_item/withered_chunks"
   },
   "pattern": [
-    "AA",
-    "##"
+    "A",
+    "#"
   ],
   "result": {
     "id": "minecraft:soul_campfire"
