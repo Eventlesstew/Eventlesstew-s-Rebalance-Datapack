@@ -1,0 +1,10 @@
+{
+    "type": "set_components",
+    "components": {
+        "!entity_data": {},
+        "cooking_fuel": {
+            "burn_time": "cooking/time_coal",
+            "speed_multiplier": "cooking/speed_default"
+        }
+    }
+}

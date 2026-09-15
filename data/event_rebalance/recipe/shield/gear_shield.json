@@ -3,11 +3,8 @@
   "category": "equipment",
   "key": {
     "S": "minecraft:copper_ingot",
-    "N": [
-      "copper_bulb",
-      "waxed_copper_bulb"
-    ],
-    "G": "minecraft:glowstone_dust"
+    "N": "redstone",
+    "G": "minecraft:quartz"
   },
   "pattern": [
     "GSG",

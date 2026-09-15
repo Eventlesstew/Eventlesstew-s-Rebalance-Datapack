@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "group": "rose_gold_ingot",
+    "ingredients": [
+        "#event_rebalance:custom_item/withered_chunks",
+        "#event_rebalance:non_suspicious_sand"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:soul_sand"
+    }
+}
