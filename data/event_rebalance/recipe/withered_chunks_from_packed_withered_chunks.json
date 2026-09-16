@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        "#event_rebalance:custom_item/packed_withered_chunks"
+    ],
+    "result": {
+        "count": 9,
+        "id": "minecraft:wither_skeleton_spawn_egg"
+    }
+}

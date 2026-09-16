@@ -1,0 +1,15 @@
+{
+    "type": "sequence",
+    "functions": [
+        "event_rebalance:custom_item/spawn_egg",
+        {
+            "type": "set_components",
+            "components": {
+                "cooking_fuel": {
+                    "burn_time": "cooking/time_coal_block",
+                    "speed_multiplier": "cooking/speed_default"
+                }
+            }
+        }
+    ]
+}

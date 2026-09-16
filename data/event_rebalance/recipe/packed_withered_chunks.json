@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        "#event_rebalance:custom_item/withered_chunks",
+        "#event_rebalance:custom_item/withered_chunks",
+        "#event_rebalance:custom_item/withered_chunks",
+        "#event_rebalance:custom_item/withered_chunks",
+        "#event_rebalance:custom_item/withered_chunks",
+        "#event_rebalance:custom_item/withered_chunks",
+        "#event_rebalance:custom_item/withered_chunks",
+        "#event_rebalance:custom_item/withered_chunks",
+        "#event_rebalance:custom_item/withered_chunks"
+    ],
+    "result": {
+        "id": "minecraft:wither_spawn_egg"
+    }
+}
