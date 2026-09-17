@@ -1,12 +1,15 @@
 {
-    "type": "minecraft:match_tool",
-    "predicate": {
-        "predicates": {
-            "enchantments": [
-                {
-                    "enchantments": "event_rebalance:melting"
-                }
-            ]
+  "type": "minecraft:match_tool",
+  "predicate": {
+    "predicates": {
+      "minecraft:enchantments": [
+        {
+          "enchantments": "event_rebalance:melting",
+          "levels": {
+            "min": 1
+          }
         }
+      ]
     }
+  }
 }

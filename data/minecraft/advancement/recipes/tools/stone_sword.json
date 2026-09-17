@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#event_rebalance:rose_golden_tool_materials"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "stone_sword"
+    ]
+  }
+}

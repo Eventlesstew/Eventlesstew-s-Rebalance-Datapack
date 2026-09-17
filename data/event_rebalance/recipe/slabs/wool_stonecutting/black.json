@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "ingredient": "black_wool",
-    "result": {
-        "id": "black_wool_slab",
-        "count": 2
-    }
-}

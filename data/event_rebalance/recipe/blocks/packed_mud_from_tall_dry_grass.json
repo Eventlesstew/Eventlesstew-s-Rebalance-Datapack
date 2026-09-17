@@ -3,8 +3,8 @@
   "category": "building",
   "group": "packed_mud",
   "ingredients": [
-    "#event_rebalance:recipe/packed_mud_block",
-    "#event_rebalance:recipe/packed_mud_block",
+    "#event_rebalance:soil",
+    "#event_rebalance:soil",
     "tall_dry_grass"
   ],
   "result": {

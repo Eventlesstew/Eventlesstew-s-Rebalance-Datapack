@@ -22,8 +22,7 @@
       "minecraft:oak_fence_gate",
       "oak_fence",
       "oak_sign",
-      "oak_hanging_sign",
-      "oak_shelf"
+      "oak_hanging_sign"
     ]
   }
 }

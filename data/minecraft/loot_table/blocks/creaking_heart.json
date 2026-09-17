@@ -40,7 +40,6 @@
                   "type": "minecraft:explosion_decay"
                 }
               ],
-              
               "children": [
                 {
                   "type": "item",

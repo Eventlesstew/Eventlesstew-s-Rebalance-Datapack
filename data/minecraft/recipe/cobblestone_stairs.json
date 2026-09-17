@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "cobblestone_stairs",
   "category": "building",
   "key": {
     "#": "minecraft:cobblestone"

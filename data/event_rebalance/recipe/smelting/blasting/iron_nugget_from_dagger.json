@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:blasting",
-    "ingredient": "#event_rebalance:custom_item/iron_dagger",
-    "cookingtime": 100,
-    "result": {
-        "id": "iron_nugget"
-    }
-}

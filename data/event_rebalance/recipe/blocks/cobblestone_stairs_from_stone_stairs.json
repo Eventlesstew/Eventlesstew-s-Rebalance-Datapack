@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "cobblestone_stairs",
+    "category": "building",
+    "ingredients": [
+        "minecraft:stone_stairs"
+    ],
+    "result": {
+        "id": "minecraft:cobblestone_stairs"
+    }
+}

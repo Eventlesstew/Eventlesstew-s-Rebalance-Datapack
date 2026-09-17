@@ -22,8 +22,7 @@
       "minecraft:poplar_fence_gate",
       "poplar_fence",
       "poplar_sign",
-      "poplar_hanging_sign",
-      "poplar_shelf"
+      "poplar_hanging_sign"
     ]
   }
 }

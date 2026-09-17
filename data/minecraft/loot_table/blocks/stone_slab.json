@@ -8,7 +8,7 @@
           "children": [
             {
               "type": "item",
-              "condition": "tool/can_silk_touch",
+              "condition": "event_rebalance:tool/can_silk_touch_or_melt",
               "modifier": [
                 {
                   "type": "minecraft:set_count",

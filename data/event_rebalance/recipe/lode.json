@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "group": "lode",
+    "ingredients": [
+        "iron_ingot",
+        "iron_ingot",
+        "iron_ingot",
+        "iron_ingot",
+        "redstone",
+        "redstone",
+        "redstone",
+        "redstone"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:vex_spawn_egg",
+        "components": {
+            "max_stack_size": 64,
+            "!entity_data":{}
+        }
+    }
+}

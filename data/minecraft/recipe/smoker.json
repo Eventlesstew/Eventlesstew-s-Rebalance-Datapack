@@ -2,12 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": "#minecraft:logs",
-    "X": "campfire"
+    "X": "campfire",
+    "C": "#stone_crafting_materials"
   },
   "pattern": [
-    " # ",
-    "#X#",
-    " # "
+    "###",
+    "CXC",
+    "###"
   ],
   "result": {
     "id": "minecraft:smoker"

@@ -83,7 +83,7 @@
     
     "item.minecraft.music_disc_tears":"Hand Saw",
     
-    "item.minecraft.vex_spawn_egg": "Steel Ingot (WORKING NAME)",
+    "item.minecraft.vex_spawn_egg": "Lode",
     "item.minecraft.blaze_spawn_egg": "Ruby",
     "item.minecraft.silverfish_spawn_egg": "Disc Fragment",
     "item.event.disc_fragment_13.lore": "Music Disc - 13",
@@ -177,7 +177,7 @@
     "advancements.story.moar_tools.description": "Craft a Pickaxe, Axe, Shovel and Hoe to mine just about anything.",
     "advancements.story.mine_stone.description": "Craft a Pickaxe or Hammer and use it to obtain Stone",
     "advancements.story.hot_topic.title": "Hot Topic",
-    "advancements.story.hot_topic.description": "Craft a Furnace using Cobblestone and Coal",
+    "advancements.story.hot_topic.description": "Craft a Furnace using Cobblestone",
     "advancements.story.smelt_copper.title": "Metalworking",
     "advancements.story.smelt_copper.description": "Obtain Copper and smelt it into ingots",
     "advancements.story.shear_sheep.title": "Clip of the Day",
