@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "alternatives",
+          "children": [
+            {
+              "type": "item",
+              "name": "iron_block",
+              "condition": "event_rebalance:tool/can_melt"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:raw_iron_block",
+              "condition": "event_rebalance:survives_explosion"
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:blocks/raw_iron_block"
+}

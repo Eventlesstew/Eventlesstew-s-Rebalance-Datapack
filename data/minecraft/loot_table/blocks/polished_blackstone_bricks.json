@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "alternatives",
+          "children": [
+            {
+              "type": "item",
+              "name": "cracked_polished_blackstone_bricks",
+              "condition": "event_rebalance:tool/can_melt"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:polished_blackstone_bricks",
+              "condition": "event_rebalance:survives_explosion"
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:blocks/polished_blackstone_bricks"
+}

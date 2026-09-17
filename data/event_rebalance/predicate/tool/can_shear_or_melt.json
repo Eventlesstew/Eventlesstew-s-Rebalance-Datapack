@@ -1,0 +1,7 @@
+{
+    "type": "any_of",
+    "terms": [
+        "tool/can_shear",
+        "event_rebalance:tool/can_melt"
+    ]
+}

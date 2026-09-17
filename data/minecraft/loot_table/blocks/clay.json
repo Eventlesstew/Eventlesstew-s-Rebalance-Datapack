@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "condition": "event_rebalance:tool/can_silk_touch_and_melt",
+              "name": "minecraft:terracotta"
+            },
+            {
+              "type": "minecraft:item",
+              "condition": "event_rebalance:tool/can_melt",
+              "modifier": [
+                {
+                  "type": "minecraft:set_count",
+                  "count": 4
+                }
+              ],
+              "name": "minecraft:brick"
+            },
+            {
+              "type": "minecraft:item",
+              "condition": "minecraft:tool/can_silk_touch",
+              "name": "minecraft:clay"
+            },
+            {
+              "type": "minecraft:item",
+              "modifier": [
+                {
+                  "type": "minecraft:set_count",
+                  "count": 4
+                },
+                {
+                  "type": "minecraft:explosion_decay"
+                }
+              ],
+              "name": "minecraft:clay_ball"
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:blocks/clay"
+}

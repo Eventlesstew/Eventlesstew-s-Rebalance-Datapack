@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "alternatives",
+          "children": [
+            {
+              "type": "item",
+              "condition": "event_rebalance:tool/can_melt",
+              "name": "dead_bush"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:cherry_sapling",
+              "condition": {
+                "type": "survives_explosion"
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:blocks/cherry_sapling"
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "ingredient": "quartz_stairs",
+  "cookingtime": 100,
+  "result": {
+    "id": "minecraft:smooth_quartz_stairs",
+    "count": 1
+  }
+}

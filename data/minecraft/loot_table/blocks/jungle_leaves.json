@@ -11,6 +11,26 @@
               "condition": {
                 "type": "minecraft:any_of",
                 "terms": [
+                  "event_rebalance:tool/can_shear_and_melt"
+                ]
+              },
+              "name": "minecraft:leaf_litter"
+            },
+            {
+              "type": "minecraft:item",
+              "condition": {
+                "type": "minecraft:any_of",
+                "terms": [
+                  "event_rebalance:tool/can_melt"
+                ]
+              },
+              "name": "minecraft:dead_bush"
+            },
+            {
+              "type": "minecraft:item",
+              "condition": {
+                "type": "minecraft:any_of",
+                "terms": [
                   "minecraft:tool/can_shear"
                 ]
               },
@@ -50,7 +70,7 @@
         "term": {
           "type": "minecraft:any_of",
           "terms": [
-            "minecraft:tool/can_shear"
+            "event_rebalance:tool/can_shear_or_melt"
           ]
         }
       },

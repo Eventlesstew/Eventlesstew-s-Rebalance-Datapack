@@ -5,7 +5,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:ender_chest"
+          "name": "minecraft:ender_chest",
+          "condition": "event_rebalance:survives_explosion"
         }
       ],
       "rolls": 1

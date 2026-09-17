@@ -11,6 +11,16 @@
               "condition": {
                 "type": "minecraft:any_of",
                 "terms": [
+                  "event_rebalance:tool/can_melt"
+                ]
+              },
+              "name": "minecraft:leaf_litter"
+            },
+            {
+              "type": "minecraft:item",
+              "condition": {
+                "type": "minecraft:any_of",
+                "terms": [
                   "minecraft:tool/can_shear"
                 ]
               },

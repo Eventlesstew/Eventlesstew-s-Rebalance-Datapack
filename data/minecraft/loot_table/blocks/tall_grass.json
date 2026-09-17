@@ -32,6 +32,11 @@
           "children": [
             {
               "type": "minecraft:item",
+              "condition": "event_rebalance:tool/can_shear_and_melt",
+              "name": "minecraft:tall_dry_grass"
+            },
+            {
+              "type": "minecraft:item",
               "condition": "minecraft:tool/can_shear",
               "name": "minecraft:tall_grass"
             },
@@ -85,6 +90,11 @@
         {
           "type": "minecraft:alternatives",
           "children": [
+            {
+              "type": "minecraft:item",
+              "condition": "event_rebalance:tool/can_shear_and_melt",
+              "name": "minecraft:tall_dry_grass"
+            },
             {
               "type": "minecraft:item",
               "condition": "minecraft:tool/can_shear",

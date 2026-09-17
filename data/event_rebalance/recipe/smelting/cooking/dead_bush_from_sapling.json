@@ -1,9 +1,11 @@
 {
-  "type": "minecraft:campfire_cooking",
+  "type": "minecraft:smelting",
   "category": "misc",
-  "ingredient": "#saplings",
+  "ingredient": "#event_rebalance:bush_saplings",
+  "group": "dead_bush",
   "cookingtime": 600,
   "result": {
-    "id": "minecraft:dead_bush"
+    "id": "minecraft:dead_bush",
+    "count": 1
   }
 }

@@ -11,8 +11,27 @@
               "condition": {
                 "type": "minecraft:any_of",
                 "terms": [
-                  "minecraft:tool/can_shear",
-                  "minecraft:tool/can_silk_touch"
+                  "event_rebalance:tool/can_shear_and_melt"
+                ]
+              },
+              "name": "minecraft:leaf_litter"
+            },
+            {
+              "type": "minecraft:item",
+              "condition": {
+                "type": "minecraft:any_of",
+                "terms": [
+                  "event_rebalance:tool/can_melt"
+                ]
+              },
+              "name": "minecraft:dead_bush"
+            },
+            {
+              "type": "minecraft:item",
+              "condition": {
+                "type": "minecraft:any_of",
+                "terms": [
+                  "minecraft:tool/can_shear"
                 ]
               },
               "name": "minecraft:oak_leaves"
@@ -50,8 +69,7 @@
         "term": {
           "type": "minecraft:any_of",
           "terms": [
-            "minecraft:tool/can_shear",
-            "minecraft:tool/can_silk_touch"
+            "event_rebalance:tool/can_shear_or_melt"
           ]
         }
       },
@@ -93,8 +111,7 @@
         "term": {
           "type": "minecraft:any_of",
           "terms": [
-            "minecraft:tool/can_shear",
-            "minecraft:tool/can_silk_touch"
+            "event_rebalance:tool/can_shear_or_melt"
           ]
         }
       },

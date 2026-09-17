@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0
+              }
+            },
+            {
+              "type": "minecraft:explosion_decay"
+            }
+          ],
+          "children": [
+            {
+              "type": "item",
+              "name": "glass",
+              "condition": "event_rebalance:tool/can_melt"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:sand",
+              "condition": "event_rebalance:survives_explosion"
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:blocks/chorus_plant"
+}

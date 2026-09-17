@@ -1,9 +1,10 @@
 {
   "type": "minecraft:smelting",
   "category": "misc",
-  "ingredient": "#saplings",
+  "ingredient": "#event_rebalance:bush_saplings",
   "group": "dead_bush",
   "cookingtime": 100,
+  "experience": 0.7,
   "result": {
     "id": "minecraft:dead_bush",
     "count": 1

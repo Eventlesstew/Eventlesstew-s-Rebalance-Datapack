@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "alternatives",
+          "children": [
+            {
+              "type": "item",
+              "name": "coal",
+              "condition": "event_rebalance:tool/can_melt"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:pale_oak_log",
+              "condition": "event_rebalance:survives_explosion"
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:blocks/pale_oak_log"
+}

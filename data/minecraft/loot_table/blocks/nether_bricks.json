@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "alternatives",
+          "children": [
+            {
+              "type": "item",
+              "name": "cracked_nether_bricks",
+              "condition": "event_rebalance:tool/can_melt"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:nether_bricks",
+              "condition": "event_rebalance:survives_explosion"
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:blocks/nether_bricks"
+}

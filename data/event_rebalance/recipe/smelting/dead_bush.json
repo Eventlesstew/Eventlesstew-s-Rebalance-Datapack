@@ -1,9 +1,10 @@
 {
   "type": "minecraft:smelting",
   "category": "misc",
-  "ingredient": "bush",
+  "ingredient": "#event_rebalance:bush",
   "group": "dead_bush",
   "cookingtime": 100,
+  "experience": 0.7,
   "result": {
     "id": "minecraft:dead_bush",
     "count": 1
