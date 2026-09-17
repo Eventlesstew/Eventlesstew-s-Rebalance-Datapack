@@ -1,0 +1,10 @@
+{
+    "type": "all_of",
+    "terms": [
+        "tool/can_silk_touch",
+        {
+            "type": "inverted",
+            "term": "event_rebalance:tool/can_melt"
+        }
+    ]
+}

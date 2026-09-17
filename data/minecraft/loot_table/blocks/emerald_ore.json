@@ -11,11 +11,7 @@
               "condition": {
                 "type": "all_of",
                 "terms": [
-                  "minecraft:tool/can_silk_touch",
-                  {
-                    "type": "inverted",
-                    "term": "event_rebalance:tool/can_melt"
-                  }
+                  "event_rebalance:tool/can_silk_touch_but_not_melt"
                 ]
               },
               "name": "minecraft:emerald_ore"
