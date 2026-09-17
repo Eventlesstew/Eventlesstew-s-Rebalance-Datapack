@@ -7,24 +7,51 @@
           "type": "minecraft:alternatives",
           "children": [
             {
+              "type": "item",
+              "condition": "event_rebalance:tool/can_melt",
+              "modifier": [
+                {
+                  "type": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 3,
+                    "min": 1
+                  }
+                },
+                {
+                  "type": "minecraft:apply_bonus",
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:ore_drops"
+                }
+              ],
+              "name": "gold_ingot"
+            },
+            {
               "type": "minecraft:item",
               "condition": "minecraft:tool/can_silk_touch",
               "name": "minecraft:gilded_blackstone"
             },
             {
               "type": "item",
-              "modifier": {
-                "type": "minecraft:set_count",
-                "count": {
-                  "type": "minecraft:uniform",
-                  "max": 3,
-                  "min": 1
+              "modifier": [
+                {
+                  "type": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 3,
+                    "min": 1
+                  }
+                },
+                {
+                  "type": "minecraft:apply_bonus",
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:ore_drops"
+                },
+                {
+                  "type": "explosion_decay"
                 }
-              },
-              "name": "minecraft:raw_gold",
-              "condition": {
-                "type": "minecraft:survives_explosion"
-              }
+              ],
+              "name": "minecraft:raw_gold"
             }
           ]
         }

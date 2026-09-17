@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "lime_wool",
+    "result": {
+        "id": "lime_cushion",
+        "count": 2
+    }
+}

@@ -8,7 +8,16 @@
           "children": [
             {
               "type": "minecraft:item",
-              "condition": "minecraft:tool/can_silk_touch",
+              "condition": {
+                "type": "all_of",
+                "terms": [
+                  "minecraft:tool/can_silk_touch",
+                  {
+                    "type": "inverted",
+                    "term": "event_rebalance:tool/can_melt"
+                  }
+                ]
+              },
               "name": "minecraft:deepslate_emerald_ore"
             },
             {

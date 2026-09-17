@@ -1,0 +1,7 @@
+{
+    "type": "any_of",
+    "terms": [
+        "minecraft:tool/can_silk_touch",
+        "event_rebalance:tool/can_melt"
+    ]
+}

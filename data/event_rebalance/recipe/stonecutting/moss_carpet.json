@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": "moss_block",
+    "result": {
+        "id": "moss_carpet",
+        "count": 3
+    }
+}
