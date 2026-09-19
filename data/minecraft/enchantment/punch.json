@@ -1,0 +1,1192 @@
+{
+  "anvil_cost": 3,
+  "description": {
+    "translate": "enchantment.minecraft.punch",
+    "color": "#c3ff7e",
+    "shadow_color": -869230800
+  },
+  "effects": {
+    "tick": [
+      {
+        "effect": {
+          "type": "play_sound",
+          "sound": {
+            "sound_id": ""
+          },
+          "pitch": 1,
+          "volume": 1
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 10,
+                "max": 30
+              }
+            },
+            "periodic_tick": 12
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "play_sound",
+          "sound": {
+            "sound_id": ""
+          },
+          "pitch": 1,
+          "volume": 1
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 30
+              }
+            },
+            "periodic_tick": 24
+          }
+        }
+      }
+    ],
+    "minecraft:knockback": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 5
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 6
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 7
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 8
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 9
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 10
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 11
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 12
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 13
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 14
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 15
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 16
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 17
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 18
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 19
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 20
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 21
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 22
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 23
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 24
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 25
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 26
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 27
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 28
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 29
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 30
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 31
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 32
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 33
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 34
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 35
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 36
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 37
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 38
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 39
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 40
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 41
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 42
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 43
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 44
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 45
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 46
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 47
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 48
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 49
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 50
+              }
+            }
+          }
+        }
+      }
+    ],
+    "minecraft:post_attack": [
+      {
+        "affected": "attacker",
+        "enchanted": "attacker",
+        "effect": {
+          "type": "minecraft:play_sound",
+          "sound": {
+            "sound_id": "enchant.punch.hit_1"
+          },
+          "pitch": 1,
+          "volume": 2
+        },
+        "requirements": {
+          "type": "all_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "direct_attacker",
+              "predicate": {
+                "movement": {
+                  "horizontal_speed": {
+                    "min": 5,
+                    "max": 10
+                  }
+                }
+              }
+            },
+            {
+              "type": "inverted",
+              "term": {
+                "type": "entity_properties",
+                "entity": "direct_attacker",
+                "predicate": {
+                  "entity_type": "#impact_projectiles"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "affected": "attacker",
+        "enchanted": "attacker",
+        "effect": {
+          "type": "minecraft:play_sound",
+          "sound": {
+            "sound_id": "enchant.punch.hit_2"
+          },
+          "pitch": 1,
+          "volume": 5
+        },
+        "requirements": {
+          "type": "all_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "direct_attacker",
+              "predicate": {
+                "movement": {
+                  "horizontal_speed": {
+                    "min": 10,
+                    "max": 30
+                  }
+                }
+              }
+            },
+            {
+              "type": "inverted",
+              "term": {
+                "type": "entity_properties",
+                "entity": "direct_attacker",
+                "predicate": {
+                  "entity_type": "#impact_projectiles"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "affected": "attacker",
+        "enchanted": "attacker",
+        "effect": {
+          "type": "minecraft:play_sound",
+          "sound": {
+            "sound_id": "enchant.punch.hit_3"
+          },
+          "pitch": 1,
+          "volume": 10
+        },
+        "requirements": {
+          "type": "all_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "direct_attacker",
+              "predicate": {
+                "movement": {
+                  "horizontal_speed": {
+                    "min": 30
+                  }
+                }
+              }
+            },
+            {
+              "type": "inverted",
+              "term": {
+                "type": "entity_properties",
+                "entity": "direct_attacker",
+                "predicate": {
+                  "entity_type": "#impact_projectiles"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "affected": "attacker",
+        "enchanted": "attacker",
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "event_rebalance:advancements/home_run"
+        },
+        "requirements": {
+          "type": "all_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "direct_attacker",
+              "predicate": {
+                "movement": {
+                  "horizontal_speed": {
+                    "min": 47
+                  }
+                }
+              }
+            },
+            {
+              "type": "inverted",
+              "term": {
+                "type": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "entity_type": "#event_rebalance:knockback_resistant"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#event_rebalance:exclusive_set/knockback",
+  "max_level": 3,
+  "max_cost": {
+    "base": 16,
+    "per_level_above_first": 12
+  },
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 12
+  },
+  "weight": 4,
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/sharp_weapon"
+}

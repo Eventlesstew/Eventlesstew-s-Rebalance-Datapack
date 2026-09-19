@@ -1,0 +1,2 @@
+$execute store result entity @n[type=marker,tag=balance.acceleration_marker] data.acceleration_count double 0.005 run data get entity @n[type=marker,tag=balance.acceleration_marker] data.acceleration_count $(acceleration_level)
+function event_rebalance:enchantments/acceleration/apply with entity @n[type=marker,tag=balance.acceleration_marker] data

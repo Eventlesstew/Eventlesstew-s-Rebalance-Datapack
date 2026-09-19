@@ -16,14 +16,14 @@
   },
   "display": {
     "description": {
-      "translate": "advancements.adventure.kill_illusioner.description"
+      "translate": "advancements.combat.kill_illusioner.description"
     },
     "icon": {
       "id": "minecraft:bow"
     },
     "frame": "challenge",
     "title": {
-      "translate": "advancements.adventure.kill_illusioner.title"
+      "translate": "advancements.combat.kill_illusioner.title"
     }
   },
   "requirements": [

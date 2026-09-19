@@ -1,0 +1,11 @@
+summon marker ~ ~ ~ {Tags:["balance.acceleration_boost_marker"]}
+execute store result entity @n[type=marker,tag=balance.acceleration_boost_marker] data.lunge_level int 1 run data get entity @s SelectedItem.components."minecraft:enchantments"."minecraft:lunge" 1
+#execute store result entity @n[type=marker,tag=balance.acceleration_boost_marker] data.dashing_level int 1 run data get entity @s SelectedItem.components."minecraft:enchantments"."balance:dashing" 1
+execute if score @s event_rebalance.acceleration_count matches ..40 store result entity @n[type=marker,tag=balance.acceleration_boost_marker] data.lunge_level int 1 run data get entity @s SelectedItem.components."minecraft:enchantments"."minecraft:lunge" 2
+#execute if score @s event_rebalance.acceleration_count matches ..40 store result entity @n[type=marker,tag=balance.acceleration_boost_marker] data.dashing_level int 1 run data get entity @s SelectedItem.components."minecraft:enchantments"."balance:dashing" 2
+execute if score @s event_rebalance.acceleration_count matches ..20 store result entity @n[type=marker,tag=balance.acceleration_boost_marker] data.lunge_level int 1 run data get entity @s SelectedItem.components."minecraft:enchantments"."minecraft:lunge" 4
+#execute if score @s event_rebalance.acceleration_count matches ..20 store result entity @n[type=marker,tag=balance.acceleration_boost_marker] data.dashing_level int 1 run data get entity @s SelectedItem.components."minecraft:enchantments"."balance:dashing" 4
+execute if score @s event_rebalance.acceleration_count matches ..10 store result entity @n[type=marker,tag=balance.acceleration_boost_marker] data.lunge_level int 1 run data get entity @s SelectedItem.components."minecraft:enchantments"."minecraft:lunge" 8
+#execute if score @s event_rebalance.acceleration_count matches ..10 store result entity @n[type=marker,tag=balance.acceleration_boost_marker] data.dashing_level int 1 run data get entity @s SelectedItem.components."minecraft:enchantments"."balance:dashing" 8
+function event_rebalance:enchantments/acceleration/increase_boost with entity @n[type=marker,tag=balance.acceleration_boost_marker] data
+kill @e[type=marker,tag=balance.acceleration_boost_marker]

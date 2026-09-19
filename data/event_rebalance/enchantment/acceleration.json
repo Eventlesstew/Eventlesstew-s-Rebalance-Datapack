@@ -1,0 +1,135 @@
+{
+  "anvil_cost": 2,
+  "description": {
+    "translate": "enchantment.event.acceleration",
+    "color": "#fdcfff",
+    "shadow_color": -4909878
+  },
+  "effects": {
+    "location_changed": [
+      {
+        "effect": {
+          "type": "apply_exhaustion",
+          "amount": {
+            "type": "linear",
+            "base": 0.025,
+            "per_level_above_first": 0.025
+          }
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "flags": {
+              "is_sprinting": true
+            }
+          }
+        }
+      }
+    ],
+    "tick": [
+      {
+        "effect": {
+          "type": "all_of",
+          "effects": [
+            {
+              "type": "run_function",
+              "function": "event_rebalance:enchantments/acceleration/increase"
+            },
+            {
+              "type": "change_item_damage",
+              "amount": {
+                "type": "linear",
+                "base": 0.1,
+                "per_level_above_first": 0.1
+              }
+            }
+          ]
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "flags": {
+              "is_sprinting": true,
+              "is_on_ground": true
+            },
+            "periodic_tick": 5
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "event_rebalance:enchantments/acceleration/speed_half"
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "flags": {
+              "is_sprinting": false
+            },
+            "periodic_tick": 5,
+            "movement": {
+              "speed": {
+                "min": 4
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "event_rebalance:enchantments/acceleration/reset"
+        },
+        "requirements": {
+          "type": "any_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "flags": {
+                  "is_sprinting": false
+                },
+                "movement": {
+                  "speed": {
+                    "max": 4
+                  }
+                }
+              }
+            },
+            {
+              "type": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "movement": {
+                  "speed": {
+                    "max": 4
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "max_level": 3,
+  "max_cost": {
+    "base": 16,
+    "per_level_above_first": 12
+  },
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 12
+  },
+  "weight": 1,
+  "slots": [
+    "armor"
+  ],
+  "exclusive_set": "#event_rebalance:exclusive_set/leggings",
+  "supported_items": "#minecraft:enchantable/leg_armor"
+}

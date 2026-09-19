@@ -1,7 +1,7 @@
 {
   "anvil_cost": 1,
   "description": {
-    "translate": "enchantment.balance.valor",
+    "translate": "enchantment.event.valor",
     "color": "#abf2ff",
     "shadow_color": 1883020435
   },

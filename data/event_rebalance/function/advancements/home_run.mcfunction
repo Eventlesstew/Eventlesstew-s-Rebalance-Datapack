@@ -1,0 +1,1 @@
+advancement grant @s only event_rebalance:combat/knock_mob_50_blocks_away

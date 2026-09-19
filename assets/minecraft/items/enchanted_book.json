@@ -319,7 +319,7 @@
                     ]
                 }
             },
-
+            
             {
                 "when": {
                     "aqua_affinity": 1
@@ -420,6 +420,123 @@
                         {
                             "type": "model",
                             "model": "event:item/enchanted_book/breach"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:bookworm_bait": 5
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/bookworm_bait"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:bulwark": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/bulwark"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:bulwark": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/bulwark"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:bulwark": 3
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/bulwark"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:bulwark": 4
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/bulwark"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:combo": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/combo_1"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:combo": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/combo_2"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:combo": 3
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/combo_3"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:combo": 4
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/combo_4"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:combo": 5
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/combo_5"
                         },
                         {
                             "type": "model",

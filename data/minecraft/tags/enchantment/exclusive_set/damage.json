@@ -6,6 +6,7 @@
     "minecraft:impaling",
     "minecraft:density",
     "minecraft:breach",
-    "event_rebalance:valor"
+    "event_rebalance:valor",
+    "event_rebalance:combo"
   ]
 }

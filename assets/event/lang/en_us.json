@@ -134,14 +134,28 @@
     "item.event.shell_shield": "Shell Shield",
     
     "item.modifiers.use": "When used:",
-    
+
+    "enchantment.event.bookworm_bait":"Bookworm Bait",
+    "enchantment.event.live_catch":"Live Catch",
+    "enchantment.event.hot_rod":"Hot Rod",
+
     "enchantment.event.focusing":"Focusing",
 
+    "enchantment.event.prospector":"Prospector",
+    "enchantment.event.melting":"Melting",
+
+    "enchantment.event.valor":"Valor",
+    "enchantment.event.combo":"Combo",
     "enchantment.event.fowling":"Fowling",
     
     "enchantment.event.launching":"Launching",
     "enchantment.event.harpoon":"Harpoon",
     "enchantment.event.rebound":"Rebound",
+
+    "enchantment.event.bulwark":"Bulwark",
+    "enchantment.event.aerodynamic":"Aerodynamic",
+    "enchantment.event.acceleration":"Acceleration",
+
     "enchantment.event.auto_repair":"Auto-Repair",
     "enchantment.event.eternity":"Eternity",
     "enchantment.event.lasting":"Lasting",
@@ -223,7 +237,7 @@
     "advancements.combat.overkill.title": "Overkill",
     "advancements.combat.overkill.description": "Deal 10 hearts of damage in a single hit",
     "advancements.combat.overoverkill.title": "Over-Overkill",
-    "advancements.combat.overoverkill.description": "Deal 20 hearts of damage in a single hit. Combo or Breach recommended!",
+    "advancements.combat.overoverkill.description": "Deal 20 hearts of damage in a single hit.",
     "advancements.adventure.overoverkill.title": "SMAAAAAASH!",
     "advancements.combat.moar_weaponry.title": "MOAR Weaponry",
     "advancements.combat.moar_weaponry.description": "Craft a Sword, Spear, Axe and Dagger",
@@ -260,6 +274,8 @@
     "advancements.combat.kill_illusioner.description": "Defeat the Illusioner",
     "advancements.adventure.voluntary_exile.description":"Drink an Ominous Bottle. Who knows what is going to happen next?",
     "advancements.adventure.trim_with_all_exclusive_armor_patterns.description":"Apply every Smithing Template at least once",
+    "advancements.combat.knock_mob_50_blocks_away.title": "Home Run",
+    "advancements.combat.knock_mob_50_blocks_away.description": "Knock a mob over 50 blocks away using a weapon enchanted with Punch",
 
     "advancements.adventure.trade_with_max_villager.title": "The Haggler",
     "advancements.adventure.trade_with_max_villager.description": "Trade with a Villager at Max Level",

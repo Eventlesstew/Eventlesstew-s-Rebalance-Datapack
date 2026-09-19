@@ -1,0 +1,25 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "translate": "enchantment.event.live_catch",
+    "color": "#d0b2ff",
+    "shadow_color": -477808129
+  },
+  "effects": {
+  },
+  "max_level": 1,
+  "max_cost": {
+    "base": 40,
+    "per_level_above_first": 0
+  },
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 0
+  },
+  "weight": 2,
+  "exclusive_set": "#event_rebalance:exclusive_set/fishing_treasure",
+  "slots": [
+    "hand"
+  ],
+  "supported_items": "#minecraft:enchantable/fishing"
+}

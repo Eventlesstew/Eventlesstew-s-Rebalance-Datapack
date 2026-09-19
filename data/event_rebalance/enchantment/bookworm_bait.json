@@ -1,0 +1,25 @@
+{
+  "anvil_cost": 5,
+  "description": {
+    "translate": "enchantment.event.bookworm_bait",
+    "color": "#fff281",
+    "shadow_color": -2403049
+  },
+  "effects": {
+  },
+  "max_level": 1,
+  "max_cost": {
+    "base": 40,
+    "per_level_above_first": 0
+  },
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 0
+  },
+  "weight": 1,
+  "slots": [
+    "hand"
+  ],
+  "exclusive_set": "#event_rebalance:exclusive_set/fishing_treasure",
+  "supported_items": "#minecraft:enchantable/fishing"
+}

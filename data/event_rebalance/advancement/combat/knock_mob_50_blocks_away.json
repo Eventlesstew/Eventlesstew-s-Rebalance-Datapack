@@ -1,0 +1,26 @@
+{
+  "parent": "adventure/spear_many_mobs",
+  "criteria": {
+    "minecraft:illusioner": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.combat.knock_mob_50_blocks_away.description"
+    },
+    "icon": {
+      "id": "minecraft:stone_spear"
+    },
+    "frame": "challenge",
+    "title": {
+      "translate": "advancements.combat.knock_mob_50_blocks_away.title"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:illusioner"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
