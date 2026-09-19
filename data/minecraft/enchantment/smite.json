@@ -34,10 +34,10 @@
     "base": 5,
     "per_level_above_first": 8
   },
-  "primary_items": "#event_rebalance:enchantable/melee_weapon",
+  "primary_items": "#enchantable/sharp_weapon",
+  "supported_items": "#enchantable/weapon",
   "slots": [
     "mainhand"
   ],
-  "supported_items": "#event_rebalance:enchantable/weapon",
   "weight": 5
 }

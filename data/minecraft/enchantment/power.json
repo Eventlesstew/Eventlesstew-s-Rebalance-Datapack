@@ -4,6 +4,62 @@
     "translate": "enchantment.minecraft.power"
   },
   "effects": {
+    "tick": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "event_rebalance:enchantments/flat_damage/remove"
+        },
+        "requirements": {
+          "type": "all_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:['balance.flat_damage_enchantment_cooldown']}"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "attacker",
+        "effect": {
+          "type": "run_function",
+          "function": "event_rebalance:enchantments/flat_damage/cooldown"
+        },
+        "requirements": {
+          "type": "all_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "attacker",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "items": "#event_rebalance:daggers"
+                  }
+                }
+              }
+            },
+            {
+              "type": "inverted",
+              "term": {
+                "type": "entity_properties",
+                "entity": "attacker",
+                "predicate": {
+                  "nbt": "{Tags:['balance.flat_damage_enchantment_cooldown']}"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
     "minecraft:damage": [
       {
         "effect": {
@@ -13,6 +69,48 @@
             "base": 1.0,
             "per_level_above_first": 0.5
           }
+        },
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "direct_attacker",
+              "predicate": {
+                "flags": {
+                  "is_flying": false,
+                  "is_sprinting": false
+                },
+                "movement": {
+                  "fall_distance": {
+                    "min": 0.001
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "direct_attacker",
+                "predicate": {
+                  "effects": {
+                    "slow_falling": {}
+                  }
+                }
+              }
+            },
+            {
+              "type": "inverted",
+              "term": {
+                "type": "entity_properties",
+                "entity": "attacker",
+                "predicate": {
+                  "nbt": "{Tags:['balance.flat_damage_enchantment_cooldown']}"
+                }
+              }
+            }
+          ]
         }
       }
     ]
@@ -30,6 +128,6 @@
     "mainhand"
   ],
   "exclusive_set": "#exclusive_set/damage",
-  "supported_items": "#event_rebalance:enchantable/weapon",
+  "supported_items": "#event_rebalance:enchantable/any_weapon",
   "weight": 10
 }

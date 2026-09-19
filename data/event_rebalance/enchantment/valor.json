@@ -1,0 +1,189 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "enchantment.balance.valor",
+    "color": "#abf2ff",
+    "shadow_color": 1883020435
+  },
+  "effects": {
+    "tick": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "event_rebalance:enchantments/flat_damage/remove"
+        },
+        "requirements": {
+          "type": "all_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:['balance.flat_damage_enchantment_cooldown']}"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 2,
+            "per_level_above_first": 1.5
+          }
+        },
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "direct_attacker",
+              "predicate": {
+                "flags": {
+                  "is_flying": false,
+                  "is_sprinting": false
+                },
+                "movement": {
+                  "fall_distance": {
+                    "min": 0.001
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "direct_attacker",
+                "predicate": {
+                  "effects": {
+                    "slow_falling": {}
+                  }
+                }
+              }
+            },
+            {
+              "type": "inverted",
+              "term": {
+                "type": "entity_properties",
+                "entity": "attacker",
+                "predicate": {
+                  "nbt": "{Tags:['balance.flat_damage_enchantment_cooldown']}"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "post_attack": [
+      {
+        "affected": "attacker",
+        "enchanted": "attacker",
+        "effect": {
+          "type": "play_sound",
+          "sound": {
+            "sound_id": "minecraft:enchant.valor"
+          },
+          "pitch": 1,
+          "volume": 1
+        },
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "attacker",
+              "predicate": {
+                "flags": {
+                  "is_flying": false,
+                  "is_sprinting": false
+                },
+                "movement": {
+                  "fall_distance": {
+                    "min": 0.001
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "attacker",
+                "predicate": {
+                  "effects": {
+                    "slow_falling": {}
+                  }
+                }
+              }
+            },
+            {
+              "type": "inverted",
+              "term": {
+                "type": "entity_properties",
+                "entity": "attacker",
+                "predicate": {
+                  "nbt": "{Tags:['balance.flat_damage_enchantment_cooldown']}"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "enchanted": "attacker",
+        "affected": "attacker",
+        "effect": {
+          "type": "run_function",
+          "function": "event_rebalance:enchantments/flat_damage/cooldown"
+        },
+        "requirements": {
+          "type": "all_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "attacker",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "items": "#event_rebalance:daggers"
+                  }
+                }
+              }
+            },
+            {
+              "type": "inverted",
+              "term": {
+                "type": "entity_properties",
+                "entity": "attacker",
+                "predicate": {
+                  "nbt": "{Tags:['balance.flat_damage_enchantment_cooldown']}"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#minecraft:exclusive_set/damage",
+  "max_level": 5,
+  "max_cost": {
+    "base": 8,
+    "per_level_above_first": 8
+  },
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 8
+  },
+  "weight": 8,
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#event_rebalance:enchantable/knife_weapon"
+}

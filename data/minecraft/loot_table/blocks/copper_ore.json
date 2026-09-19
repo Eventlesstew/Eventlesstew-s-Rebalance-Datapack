@@ -8,6 +8,29 @@
           "children": [
             {
               "type": "minecraft:item",
+              "condition": "event_rebalance:tool/can_melt",
+              "modifier": [
+                {
+                  "type": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 5,
+                    "min": 2
+                  }
+                },
+                {
+                  "type": "minecraft:apply_bonus",
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:ore_drops"
+                },
+                {
+                  "type": "minecraft:explosion_decay"
+                }
+              ],
+              "name": "minecraft:copper_ingot"
+            },
+            {
+              "type": "minecraft:item",
               "condition": "minecraft:tool/can_silk_touch",
               "name": "minecraft:copper_ore"
             },

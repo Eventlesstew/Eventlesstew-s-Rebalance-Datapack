@@ -8,12 +8,20 @@
           "children": [
             {
               "type": "minecraft:item",
-              "condition": "minecraft:tool/can_silk_touch",
+              "condition": "event_rebalance:tool/can_silk_touch_but_not_melt",
               "name": "minecraft:nether_quartz_ore"
             },
             {
               "type": "minecraft:item",
               "modifier": [
+                {
+                  "type": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 5,
+                    "min": 2
+                  }
+                },
                 {
                   "type": "minecraft:apply_bonus",
                   "enchantment": "minecraft:fortune",

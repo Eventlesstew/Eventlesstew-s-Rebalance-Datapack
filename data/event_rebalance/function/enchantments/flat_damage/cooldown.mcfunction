@@ -1,0 +1,2 @@
+scoreboard players set @s event_rebalance.flat_damage_enchantment_cooldown 10
+tag @s add event_rebalance.flat_damage_enchantment_cooldown

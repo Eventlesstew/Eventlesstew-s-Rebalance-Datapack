@@ -19,7 +19,9 @@
   ],
   "rewards": {
     "recipes": [
-      "event_rebalance:blocks/cobbled_red_sandstone_from_sandstone"
+      "event_rebalance:blocks/cobbled_red_sandstone_from_sandstone",
+      "event_rebalance:blocks/cobbled_red_sandstone_slab_from_red_sandstone_slab",
+      "event_rebalance:blocks/cobbled_red_sandstone_stairs_from_red_sandstone_stairs"
     ]
   }
 }

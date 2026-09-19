@@ -4,7 +4,7 @@
   "key": {
     "#": "minecraft:cobblestone",
     "R": "minecraft:redstone",
-    "X": "minecraft:string"
+    "X": "minecraft:tripwire_hook"
   },
   "pattern": [
     "###",

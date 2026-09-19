@@ -8,7 +8,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "condition": "minecraft:tool/can_silk_touch",
+              "condition": "event_rebalance:tool/can_silk_touch_but_not_melt",
               "name": "minecraft:deepslate_lapis_ore"
             },
             {

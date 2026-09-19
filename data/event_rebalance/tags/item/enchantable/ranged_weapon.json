@@ -1,7 +1,6 @@
 {
     "values": [
-        "bow",
-        "crossbow",
+        "#event_rebalance:enchantable/ranged_ammo_weapon",
         "trident"
     ]
 }

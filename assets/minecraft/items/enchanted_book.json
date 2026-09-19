@@ -1,0 +1,1409 @@
+{
+    "model": {
+        "type": "select",
+        "property": "component",
+        "component": "stored_enchantments",
+        "cases": [
+            {
+                "when": {
+                    "silk_touch": 1
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/removed"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "sharpness": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/removed"
+                }
+            },
+            {
+                "when": {
+                    "sharpness": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/removed"
+                }
+            },
+            {
+                "when": {
+                    "sharpness": 3
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/removed"
+                }
+            },
+            {
+                "when": {
+                    "sharpness": 4
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/removed"
+                }
+            },
+            {
+                "when": {
+                    "sharpness": 5
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/removed"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "bane_of_arthropods": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/removed"
+                }
+            },
+            {
+                "when": {
+                    "bane_of_arthropods": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/removed"
+                }
+            },
+            {
+                "when": {
+                    "bane_of_arthropods": 3
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/removed"
+                }
+            },
+            {
+                "when": {
+                    "bane_of_arthropods": 4
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/removed"
+                }
+            },
+            {
+                "when": {
+                    "bane_of_arthropods": 5
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/removed"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "looting": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/removed"
+                }
+            },
+            {
+                "when": {
+                    "looting": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/removed"
+                }
+            },
+            {
+                "when": {
+                    "looting": 3
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/removed"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "fire_protection": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/removed"
+                }
+            },
+            {
+                "when": {
+                    "fire_protection": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/removed"
+                }
+            },
+            {
+                "when": {
+                    "fire_protection": 3
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/removed"
+                }
+            },
+            {
+                "when": {
+                    "fire_protection": 4
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/removed"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "blast_protection": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/removed"
+                }
+            },
+            {
+                "when": {
+                    "blast_protection": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/removed"
+                }
+            },
+            {
+                "when": {
+                    "blast_protection": 3
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/removed"
+                }
+            },
+            {
+                "when": {
+                    "blast_protection": 4
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/removed"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "projectile_protection": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/removed"
+                }
+            },
+            {
+                "when": {
+                    "projectile_protection": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/removed"
+                }
+            },
+            {
+                "when": {
+                    "projectile_protection": 3
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/removed"
+                }
+            },
+            {
+                "when": {
+                    "projectile_protection": 4
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/removed"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "flame": 1
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/removed"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+
+            {
+                "when": {
+                    "aqua_affinity": 1
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/aqua_affinity"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:auto-repair": 1
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/auto_repair"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "binding_curse": 1
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/binding_curse"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "breach": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/breach"
+                }
+            },
+            {
+                "when": {
+                    "breach": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/breach"
+                }
+            },
+            {
+                "when": {
+                    "breach": 3
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/breach"
+                }
+            },
+            {
+                "when": {
+                    "breach": 4
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/breach"
+                }
+            },
+            {
+                "when": {
+                    "breach": 5
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/breach"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "density": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/density"
+                }
+            },
+            {
+                "when": {
+                    "density": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/density"
+                }
+            },
+            {
+                "when": {
+                    "density": 3
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/density"
+                }
+            },
+            {
+                "when": {
+                    "density": 4
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/density"
+                }
+            },
+            {
+                "when": {
+                    "density": 5
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/density"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "efficiency": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/efficiency"
+                }
+            },
+            {
+                "when": {
+                    "efficiency": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/efficiency"
+                }
+            },
+            {
+                "when": {
+                    "efficiency": 3
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/efficiency"
+                }
+            },
+            {
+                "when": {
+                    "efficiency": 4
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/efficiency"
+                }
+            },
+            {
+                "when": {
+                    "efficiency": 5
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/efficiency"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:eternity": 1
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/eternity"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "feather_falling": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/feather_falling"
+                }
+            },
+            {
+                "when": {
+                    "feather_falling": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/feather_falling"
+                }
+            },
+            {
+                "when": {
+                    "feather_falling": 3
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/feather_falling"
+                }
+            },
+            {
+                "when": {
+                    "feather_falling": 4
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/feather_falling"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "fire_aspect": 1
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/fire_aspect"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:focusing": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/focusing"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:focusing": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/focusing"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:focusing": 3
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/focusing"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:focusing": 4
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/focusing"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:focusing": 5
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/focusing"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "fortune": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/fortune"
+                }
+            },
+            {
+                "when": {
+                    "fortune": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/fortune"
+                }
+            },
+            {
+                "when": {
+                    "fortune": 3
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/fortune"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:fowling": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/fowling"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:fowling": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/fowling"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:fowling": 3
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/fowling"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:fowling": 4
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/fowling"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:fowling": 5
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/fowling"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "impaling": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/impaling"
+                }
+            },
+            {
+                "when": {
+                    "impaling": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/impaling"
+                }
+            },
+            {
+                "when": {
+                    "impaling": 3
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/impaling"
+                }
+            },
+            {
+                "when": {
+                    "impaling": 4
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/impaling"
+                }
+            },
+            {
+                "when": {
+                    "impaling": 5
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/impaling"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "infinity": 1
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/infinity"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "knockback": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/knockback"
+                }
+            },
+            {
+                "when": {
+                    "knockback": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/knockback"
+                }
+            },
+            {
+                "when": {
+                    "knockback": 3
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/knockback"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:launching": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/launching"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:launching": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/launching"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:launching": 3
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/launching"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "luck_of_the_sea": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/luck_of_the_sea"
+                }
+            },
+            {
+                "when": {
+                    "luck_of_the_sea": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/luck_of_the_sea"
+                }
+            },
+            {
+                "when": {
+                    "luck_of_the_sea": 3
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/luck_of_the_sea"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "lure": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/lure"
+                }
+            },
+            {
+                "when": {
+                    "lure": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/lure"
+                }
+            },
+            {
+                "when": {
+                    "lure": 3
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/lure"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:melting": 1
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/melting"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "mending": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/mending"
+                }
+            },
+            {
+                "when": {
+                    "mending": 2
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/mending"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "power": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/power"
+                }
+            },
+            {
+                "when": {
+                    "power": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/power"
+                }
+            },
+            {
+                "when": {
+                    "power": 3
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/power"
+                }
+            },
+            {
+                "when": {
+                    "power": 4
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/power"
+                }
+            },
+            {
+                "when": {
+                    "power": 5
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/power"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "protection": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/protection"
+                }
+            },
+            {
+                "when": {
+                    "protection": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/protection"
+                }
+            },
+            {
+                "when": {
+                    "protection": 3
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/protection"
+                }
+            },
+            {
+                "when": {
+                    "protection": 4
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/protection"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "punch": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/punch"
+                }
+            },
+            {
+                "when": {
+                    "punch": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/punch"
+                }
+            },
+            {
+                "when": {
+                    "punch": 3
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/punch"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "riptide": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/riptide"
+                }
+            },
+            {
+                "when": {
+                    "riptide": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/riptide"
+                }
+            },
+            {
+                "when": {
+                    "riptide": 3
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/riptide"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "smite": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/smite"
+                }
+            },
+            {
+                "when": {
+                    "smite": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/smite"
+                }
+            },
+            {
+                "when": {
+                    "smite": 3
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/smite"
+                }
+            },
+            {
+                "when": {
+                    "smite": 4
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/smite"
+                }
+            },
+            {
+                "when": {
+                    "smite": 5
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/smite"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "thorns": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/thorns"
+                }
+            },
+            {
+                "when": {
+                    "thorns": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/thorns"
+                }
+            },
+            {
+                "when": {
+                    "thorns": 3
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/thorns"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "unbreaking": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/unbreaking"
+                }
+            },
+            {
+                "when": {
+                    "unbreaking": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/unbreaking"
+                }
+            },
+            {
+                "when": {
+                    "unbreaking": 3
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/unbreaking"
+                }
+            },
+            {
+                "when": {
+                    "unbreaking": 4
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/unbreaking"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:valor": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/valor"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:valor": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/valor"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:valor": 3
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/valor"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:valor": 4
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/valor"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:valor": 5
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/valor"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "vanishing_curse": 1
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/vanishing_curse"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "item/enchanted_book"
+        }
+    }
+}

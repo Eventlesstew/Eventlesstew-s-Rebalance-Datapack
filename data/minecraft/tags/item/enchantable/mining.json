@@ -1,0 +1,11 @@
+{
+  "values": [
+    "#minecraft:axes",
+    "#minecraft:pickaxes",
+    "#minecraft:shovels",
+    "#minecraft:hoes",
+    "minecraft:shears",
+    "#event_rebalance:custom_item/handsaw",
+    "#event_rebalance:hammers"
+  ]
+}

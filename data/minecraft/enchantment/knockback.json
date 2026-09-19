@@ -30,6 +30,6 @@
     "mainhand"
   ],
   "exclusive_set": "#event_rebalance:exclusive_set/knockback",
-  "supported_items": "#event_rebalance:enchantable/weapon",
+  "supported_items": "#event_rebalance:enchantable/any_weapon",
   "weight": 5
 }

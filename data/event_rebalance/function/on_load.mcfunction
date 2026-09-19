@@ -5,6 +5,7 @@ scoreboard objectives add event.player_deaths deathCount
 scoreboard objectives add temp dummy
 scoreboard objectives add timer dummy
 scoreboard objectives add static dummy
+scoreboard objectives add event_rebalance.flat_damage_enchantment_cooldown dummy
 
 # Add values if they don't exist
 scoreboard players add armor_stand_eye_height static 0

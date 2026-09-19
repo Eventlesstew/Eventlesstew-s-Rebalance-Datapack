@@ -1,0 +1,3 @@
+execute if score @s event_rebalance.flat_damage_enchantment_cooldown matches 1.. run scoreboard players remove @s event_rebalance.flat_damage_enchantment_cooldown 1
+execute if score @s event_rebalance.flat_damage_enchantment_cooldown matches 0 run tag @s remove event_rebalance.flat_damage_enchantment_cooldown
+execute if score @s event_rebalance.flat_damage_enchantment_cooldown matches 0 run scoreboard players reset @s event_rebalance.flat_damage_enchantment_cooldown

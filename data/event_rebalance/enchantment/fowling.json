@@ -68,6 +68,6 @@
     "mainhand"
   ],
   "exclusive_set": "#exclusive_set/damage",
-  "supported_items": "#event_rebalance:enchantable/weapon",
+  "supported_items": "#event_rebalance:enchantable/ranged_weapon",
   "weight": 10
 }

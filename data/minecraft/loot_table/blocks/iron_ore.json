@@ -8,6 +8,21 @@
           "children": [
             {
               "type": "minecraft:item",
+              "condition": "event_rebalance:tool/can_melt",
+              "modifier": [
+                {
+                  "type": "minecraft:apply_bonus",
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:ore_drops"
+                },
+                {
+                  "type": "minecraft:explosion_decay"
+                }
+              ],
+              "name": "minecraft:iron_ingot"
+            },
+            {
+              "type": "minecraft:item",
               "condition": "minecraft:tool/can_silk_touch",
               "name": "minecraft:iron_ore"
             },

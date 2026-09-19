@@ -61,5 +61,5 @@
   "slots": [
     "hand"
   ],
-  "supported_items": "#event_rebalance:enchantable/melee_weapon"
+  "supported_items": "#enchantable/sharp_weapon"
 }
