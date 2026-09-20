@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "C": "minecraft:amethyst_shard",
-    "S": "#event_rebalance:custom_item/rose_golden_ingot"
+    "C": "minecraft:compass",
+    "S": "glowstone_dust"
   },
   "pattern": [
-    " S ",
+    "SSS",
     "SCS",
-    " S "
+    "SSS"
   ],
   "result": {
     "id": "minecraft:recovery_compass"
