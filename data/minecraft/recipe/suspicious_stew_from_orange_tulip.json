@@ -1,13 +1,12 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "group": "suspicious_stew",
-  "ingredients": [
-    "minecraft:bowl",
-    "#minecraft:mushrooms",
-    "#minecraft:mushrooms",
-    "minecraft:orange_tulip"
-  ],
-  "result": {
+  "type": "minecraft:brewing",
+  "reagent": {
+    "item": "orange_tulip"
+  },
+  "input": {
+    "item": "mushroom_stew"
+  },
+  "output": {
     "components": {
       "minecraft:suspicious_stew_effects": [
         {
