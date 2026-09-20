@@ -58,6 +58,47 @@
             }
           ]
         }
+      },
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {
+            "pitch": 1,
+            "volume": 1,
+            "type": "play_sound",
+            "sound": {
+              "sound_id": "enchant.power.melee"
+            }
+        },
+        "requirements": {
+          "type": "inverted",
+          "term": {
+            "type": "minecraft:entity_properties",
+            "entity": "direct_attacker",
+            "predicate": {
+              "minecraft:entity_type": "#impact_projectiles"
+            }
+          }
+        }
+      },
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {
+            "pitch": 1,
+            "volume": 1,
+            "type": "play_sound",
+            "sound": {
+              "sound_id": "enchant.power.ranged"
+            }
+        },
+        "requirements": {
+          "type": "minecraft:entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "minecraft:entity_type": "#impact_projectiles"
+          }
+        }
       }
     ],
     "minecraft:damage": [

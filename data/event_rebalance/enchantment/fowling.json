@@ -51,7 +51,9 @@
             "pitch": 1,
             "volume": 1,
             "type": "play_sound",
-            "sound": "entity.arrow.hit_player"
+            "sound": {
+              "sound_id": "enchant.fowling"
+            }
         }
     }]
   },

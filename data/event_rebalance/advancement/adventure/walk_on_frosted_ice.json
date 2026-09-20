@@ -1,0 +1,49 @@
+{
+  "parent": "adventure/walk_on_powder_snow_with_leather_boots",
+  "criteria": {
+    "walk_on_powder_snow_with_leather_boots": {
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:equipment": {
+              "feet": {
+                "predicates": {
+                    "enchantments": [
+                        {
+                            "enchantments": "frost_walker"
+                        }
+                    ]
+                }
+              }
+            },
+            "minecraft:stepping_on": {
+              "block": {
+                "blocks": "minecraft:frosted_ice"
+              }
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.walk_on_frosted_ice.description"
+    },
+    "icon": {
+      "id": "minecraft:ice"
+    },
+    "title": {
+      "translate": "advancements.adventure.walk_on_frosted_ice.title"
+    }
+  },
+  "requirements": [
+    [
+      "walk_on_powder_snow_with_leather_boots"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

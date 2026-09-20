@@ -2,13 +2,13 @@
   "criteria": {
     "item_gained": {
       "conditions": {
-        "items": [
-          {
-            "items": "coal"
-          }
+        "recipes": [
+          "charcoal",
+          "event_rebalance:smelting/smoking/coal_from_log",
+          "event_rebalance:smelting/cooking/coal_from_log"
         ]
       },
-      "trigger": "minecraft:inventory_changed"
+      "trigger": "minecraft:recipe_crafted"
     }
   },
   "parent": "event_rebalance:story/light_campfire",

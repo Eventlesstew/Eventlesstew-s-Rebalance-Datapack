@@ -1,5 +1,5 @@
 {
-  "parent": "event_rebalance:nether/open_fortress_vault",
+  "parent": "event_rebalance:nether/open_ominous_fortress_vault",
   "criteria": {
     "ancient_debris": {
       "conditions": {

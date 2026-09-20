@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:adventure/walk_on_powder_snow_with_leather_boots",
+  "parent": "event_rebalance:construction/root",
   "criteria": {
     "place_creaking_heart_awake": {
       "conditions": {

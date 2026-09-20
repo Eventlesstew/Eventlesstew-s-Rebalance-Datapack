@@ -4,8 +4,24 @@
     "overkill": {
       "conditions": {
         "damage": {
+          "type": {
+            "direct_entity": {
+              "minecraft:entity_type": "minecraft:player",
+              "minecraft:equipment": {
+                "mainhand": {
+                  "items": "#spears"
+                }
+              }
+            },
+            "tags": [
+              {
+                "expected": true,
+                "id": "minecraft:spear"
+              }
+            ]
+          },
           "dealt": {
-            "min": 40.0
+            "min": 100.0
           }
         }
       },
@@ -18,7 +34,7 @@
     },
     "frame": "challenge",
     "icon": {
-      "id": "minecraft:netherite_axe"
+      "id": "minecraft:netherite_spear"
     },
     "title": {
       "translate": "advancements.combat.overoverkill.title"

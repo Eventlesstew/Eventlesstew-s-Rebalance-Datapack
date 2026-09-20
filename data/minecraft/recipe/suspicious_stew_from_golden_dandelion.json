@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:brewing",
+  "reagent": {
+    "item": "golden_dandelion"
+  },
+  "input": {
+    "item": "mushroom_stew"
+  },
+  "output": {
+    "components": {
+      "minecraft:suspicious_stew_effects": [
+        {
+          "duration": 7,
+          "id": "minecraft:saturation"
+        }
+      ]
+    },
+    "id": "minecraft:suspicious_stew"
+  }
+}

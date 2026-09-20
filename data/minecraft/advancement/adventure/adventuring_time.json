@@ -1,5 +1,5 @@
 {
-  "parent": "adventure/heart_transplanter",
+  "parent": "event_rebalance:adventure/use_map_on_banner",
   "criteria": {
     "minecraft:badlands": {
       "conditions": {
@@ -792,7 +792,7 @@
     },
     "frame": "challenge",
     "icon": {
-      "id": "minecraft:diamond_boots"
+      "id": "minecraft:filled_map"
     },
     "title": {
       "translate": "advancements.adventure.adventuring_time.title"

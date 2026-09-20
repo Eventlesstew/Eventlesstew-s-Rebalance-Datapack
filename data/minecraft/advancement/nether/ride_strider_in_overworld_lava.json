@@ -31,6 +31,7 @@
     "icon": {
       "id": "minecraft:deepslate"
     },
+    "frame": "goal",
     "title": {
       "translate": "advancements.nether.ride_strider_in_overworld_lava.title"
     }

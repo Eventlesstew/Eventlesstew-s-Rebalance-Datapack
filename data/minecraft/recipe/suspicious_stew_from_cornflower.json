@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:brewing",
+  "reagent": {
+    "item": "cornflower"
+  },
+  "input": {
+    "item": "mushroom_stew"
+  },
+  "output": {
+    "components": {
+      "minecraft:suspicious_stew_effects": [
+        {
+          "duration": 100,
+          "id": "minecraft:jump_boost"
+        }
+      ]
+    },
+    "id": "minecraft:suspicious_stew"
+  }
+}

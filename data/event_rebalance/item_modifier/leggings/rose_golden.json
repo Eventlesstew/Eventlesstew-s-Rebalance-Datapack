@@ -19,13 +19,6 @@
                     },
                     {
                         "id": "balance_leggings",
-                        "attribute": "minecraft:knockback_resistance",
-                        "amount": 0.16,
-                        "operation": "add_value",
-                        "slot": "legs"
-                    },
-                    {
-                        "id": "balance_leggings",
                         "attribute": "minecraft:movement_speed",
                         "amount": 0.04,
                         "operation": "add_multiplied_base",
@@ -47,6 +40,10 @@
                     "rarity": "common",
                     "repairable": {
                         "items": "#event_rebalance:tool_repair/rose_golden"
+                    },
+                    "mob_visibility": {
+                        "targeting_entity_types": "#event_rebalance:mobs",
+                        "visibility": 1.8
                     }
                 }
             }

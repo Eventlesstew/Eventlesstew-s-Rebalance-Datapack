@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:brewing",
+  "reagent": {
+    "item": "lily_of_the_valley"
+  },
+  "input": {
+    "item": "mushroom_stew"
+  },
+  "output": {
+    "components": {
+      "minecraft:suspicious_stew_effects": [
+        {
+          "duration": 220,
+          "id": "minecraft:poison"
+        }
+      ]
+    },
+    "id": "minecraft:suspicious_stew"
+  }
+}

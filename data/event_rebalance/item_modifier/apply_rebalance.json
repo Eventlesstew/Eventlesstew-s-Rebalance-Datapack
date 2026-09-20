@@ -10,6 +10,8 @@
     "on_fail": {
         "type": "sequence",
         "functions": [
+            "event_rebalance:modified",
+            
             "event_rebalance:pickaxe/wooden",
             "event_rebalance:pickaxe/copper",
             "event_rebalance:pickaxe/iron",
@@ -17,6 +19,7 @@
             "event_rebalance:pickaxe/netherite",
             "event_rebalance:pickaxe/golden",
             "event_rebalance:pickaxe/rose_golden",
+
             "event_rebalance:shovel/wooden",
             "event_rebalance:shovel/copper",
             "event_rebalance:shovel/iron",
@@ -24,6 +27,7 @@
             "event_rebalance:shovel/netherite",
             "event_rebalance:shovel/golden",
             "event_rebalance:shovel/rose_golden",
+
             "event_rebalance:hoe/wooden",
             "event_rebalance:hoe/copper",
             "event_rebalance:hoe/iron",
@@ -31,6 +35,7 @@
             "event_rebalance:hoe/netherite",
             "event_rebalance:hoe/golden",
             "event_rebalance:hoe/rose_golden",
+
             "event_rebalance:axe/wooden",
             "event_rebalance:axe/copper",
             "event_rebalance:axe/iron",
@@ -38,6 +43,7 @@
             "event_rebalance:axe/netherite",
             "event_rebalance:axe/golden",
             "event_rebalance:axe/rose_golden",
+
             "event_rebalance:hammer/wooden",
             "event_rebalance:hammer/copper",
             "event_rebalance:hammer/iron",
@@ -45,6 +51,7 @@
             "event_rebalance:hammer/netherite",
             "event_rebalance:hammer/golden",
             "event_rebalance:hammer/rose_golden",
+
             "event_rebalance:sword/wooden",
             "event_rebalance:sword/copper",
             "event_rebalance:sword/iron",
@@ -52,6 +59,7 @@
             "event_rebalance:sword/netherite",
             "event_rebalance:sword/golden",
             "event_rebalance:sword/rose_golden",
+
             "event_rebalance:dagger/wooden",
             "event_rebalance:dagger/copper",
             "event_rebalance:dagger/iron",
@@ -59,6 +67,15 @@
             "event_rebalance:dagger/netherite",
             "event_rebalance:dagger/golden",
             "event_rebalance:dagger/rose_golden",
+
+            "event_rebalance:spear/wooden",
+            "event_rebalance:spear/copper",
+            "event_rebalance:spear/iron",
+            "event_rebalance:spear/diamond",
+            "event_rebalance:spear/netherite",
+            "event_rebalance:spear/golden",
+            "event_rebalance:spear/rose_golden",
+
             "event_rebalance:helmet/leather",
             "event_rebalance:helmet/copper",
             "event_rebalance:helmet/iron",
@@ -67,6 +84,7 @@
             "event_rebalance:helmet/golden",
             "event_rebalance:helmet/rose_golden",
             "event_rebalance:other_armor/turtle_helmet",
+
             "event_rebalance:chestplate/leather",
             "event_rebalance:chestplate/copper",
             "event_rebalance:chestplate/iron",
@@ -74,6 +92,7 @@
             "event_rebalance:chestplate/netherite",
             "event_rebalance:chestplate/golden",
             "event_rebalance:chestplate/rose_golden",
+
             "event_rebalance:leggings/leather",
             "event_rebalance:leggings/copper",
             "event_rebalance:leggings/iron",
@@ -81,6 +100,7 @@
             "event_rebalance:leggings/netherite",
             "event_rebalance:leggings/golden",
             "event_rebalance:leggings/rose_golden",
+
             "event_rebalance:boots/leather",
             "event_rebalance:boots/copper",
             "event_rebalance:boots/iron",
@@ -88,6 +108,7 @@
             "event_rebalance:boots/netherite",
             "event_rebalance:boots/golden",
             "event_rebalance:boots/rose_golden",
+
             "event_rebalance:other_tools/brush",
             "event_rebalance:other_tools/carrot_on_a_stick",
             "event_rebalance:other_tools/warped_fungus_on_a_stick",
@@ -95,12 +116,14 @@
             "event_rebalance:other_tools/flint_and_steel",
             "event_rebalance:other_tools/handsaw",
             "event_rebalance:other_tools/shears",
+
             "event_rebalance:other_weapons/bow",
             "event_rebalance:other_weapons/crossbow",
             "event_rebalance:other_weapons/trident",
             "event_rebalance:other_weapons/mace",
             "event_rebalance:other_weapons/staff",
-            "event_rebalance:food/potion",
+
+            "event_rebalance:make_stackable",
             "event_rebalance:food/popped_chorus_fruit",
             "event_rebalance:music_disc/11_fragment",
             "event_rebalance:music_disc/13_fragment",

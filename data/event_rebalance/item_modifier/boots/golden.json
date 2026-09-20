@@ -19,13 +19,6 @@
                     },
                     {
                         "id": "balance_boots",
-                        "attribute": "minecraft:knockback_resistance",
-                        "amount": -0.06,
-                        "operation": "add_multiplied_base",
-                        "slot": "feet"
-                    },
-                    {
-                        "id": "balance_boots",
                         "attribute": "minecraft:movement_speed",
                         "amount": 0.02,
                         "operation": "add_multiplied_base",
@@ -46,6 +39,10 @@
                     "minecraft:max_damage": 128,
                     "repairable": {
                         "items": "#event_rebalance:tool_repair/golden"
+                    },
+                    "mob_visibility": {
+                        "targeting_entity_types": "#event_rebalance:mobs",
+                        "visibility": 1.3
                     }
                 }
             }

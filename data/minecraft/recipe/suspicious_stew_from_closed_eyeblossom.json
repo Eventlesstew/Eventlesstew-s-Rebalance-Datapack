@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:brewing",
+  "reagent": {
+    "item": "closed_eyeblossom"
+  },
+  "input": {
+    "item": "mushroom_stew"
+  },
+  "output": {
+    "components": {
+      "minecraft:suspicious_stew_effects": [
+        {
+          "duration": 140,
+          "id": "minecraft:nausea"
+        }
+      ]
+    },
+    "id": "minecraft:suspicious_stew"
+  }
+}

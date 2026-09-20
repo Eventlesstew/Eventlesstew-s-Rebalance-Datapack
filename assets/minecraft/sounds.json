@@ -87,11 +87,6 @@
         {"name":"event:enchant/fumigation/blow3"},
         {"name":"event:enchant/fumigation/blow4"}
     ]},
-    "enchant.sharpness":{"sounds":[ 
-        {"name":"event:enchant/sharpness/sharpness1"},
-        {"name":"event:enchant/sharpness/sharpness2"},
-        {"name":"event:enchant/sharpness/sharpness3"}
-    ]},
     "enchant.ambush":{"sounds":[ 
         {"name":"event:enchant/ambush/ambush1"},
         {"name":"event:enchant/ambush/ambush2"},
@@ -124,15 +119,24 @@
         {"name":"event:enchant/alpha/big/big4"},
         {"name":"event:enchant/alpha/big/big5"}
     ]},
-    "enchant.acceleration.stop.soft":{"sounds":[ 
-        {"name":"event:enchant/acceleration/stop/soft1"}
-    ]},
-    "enchant.acceleration.stop.medium":{"sounds":[ 
-        {"name":"event:enchant/acceleration/stop/medium1"}
-    ]},
-    "enchant.acceleration.stop.hard":{"sounds":[ 
-        {"name":"event:enchant/acceleration/stop/hard1"}
-    ]},
+    "enchant.acceleration.stop.soft":{
+        "sounds":[ 
+            {"name":"event:enchant/acceleration/stop/soft1"}
+        ],
+        "subtitle": "subtitles.enchant.acceleration.stop.soft"
+    },
+    "enchant.acceleration.stop.medium":{
+        "sounds":[ 
+            {"name":"event:enchant/acceleration/stop/medium1"}
+        ],
+        "subtitle": "subtitles.enchant.acceleration.stop.medium"
+    },
+    "enchant.acceleration.stop.hard":{
+        "sounds":[ 
+            {"name":"event:enchant/acceleration/stop/hard1"}
+        ],
+        "subtitle": "subtitles.enchant.acceleration.stop.hard"
+    },
     "enchant.absorb":{"sounds":[ 
         {"name":"event:enchant/absorb/absorb1"},
         {"name":"event:enchant/absorb/absorb2"},
@@ -254,33 +258,48 @@
         {"name":"event:enchant/sensing/warn_close/warn1"},
         {"name":"event:enchant/sensing/warn_close/warn2"}
     ]},
-    "enchant.overcharge.loop.weak":{"sounds":[ 
-        {"name":"event:enchant/overcharge/loop/weak/weak1"},
-        {"name":"event:enchant/overcharge/loop/weak/weak2"},
-        {"name":"event:enchant/overcharge/loop/weak/weak3"},
-        {"name":"event:enchant/overcharge/loop/weak/weak4"}
-    ]},
-    "enchant.overcharge.loop.strong":{"sounds":[ 
-        {"name":"event:enchant/overcharge/loop/strong/strong1"},
-        {"name":"event:enchant/overcharge/loop/strong/strong2"},
-        {"name":"event:enchant/overcharge/loop/strong/strong3"},
-        {"name":"event:enchant/overcharge/loop/strong/strong4"}
-    ]},
-    "enchant.overcharge.hit_1":{"sounds":[ 
-        {"name":"event:enchant/overcharge/hit_1/hit1"},
-        {"name":"event:enchant/overcharge/hit_1/hit2"},
-        {"name":"event:enchant/overcharge/hit_1/hit3"}
-    ]},
-    "enchant.overcharge.hit_2":{"sounds":[ 
-        {"name":"event:enchant/overcharge/hit_2/hit1"},
-        {"name":"event:enchant/overcharge/hit_2/hit2"},
-        {"name":"event:enchant/overcharge/hit_2/hit3"}
-    ]},
-    "enchant.overcharge.hit_3":{"sounds":[ 
-        {"name":"event:enchant/overcharge/hit_3/hit1"},
-        {"name":"event:enchant/overcharge/hit_3/hit2"},
-        {"name":"event:enchant/overcharge/hit_3/hit3"}
-    ]},
+    "enchant.acceleration.loop":{
+        "sounds": [ 
+            {"name":"event:enchant/breach/loop/weak/weak1"},
+            {"name":"event:enchant/breach/loop/weak/weak2"},
+            {"name":"event:enchant/breach/loop/weak/weak3"},
+            {"name":"event:enchant/breach/loop/weak/weak4"}
+        ],
+        "subtitle": "subtitles.enchant.acceleration.loop"
+    },
+    "enchant.acceleration.loop.strong":{
+        "sounds":[ 
+            {"name":"event:enchant/breach/loop/strong/strong1"},
+            {"name":"event:enchant/breach/loop/strong/strong2"},
+            {"name":"event:enchant/breach/loop/strong/strong3"},
+            {"name":"event:enchant/breach/loop/strong/strong4"}
+        ],
+        "subtitle": "subtitles.enchant.acceleration.loop.strong"
+    },
+    "enchant.breach.hit_1":{
+        "sounds":[ 
+            {"name":"event:enchant/breach/hit_1/hit1"},
+            {"name":"event:enchant/breach/hit_1/hit2"},
+            {"name":"event:enchant/breach/hit_1/hit3"}
+        ],
+        "subtitle": "subtitles.breach.hit.weak"
+    },
+    "enchant.breach.hit_2":{
+        "sounds":[ 
+            {"name":"event:enchant/breach/hit_2/hit1"},
+            {"name":"event:enchant/breach/hit_2/hit2"},
+            {"name":"event:enchant/breach/hit_2/hit3"}
+        ],
+        "subtitle": "subtitles.breach.hit.medium"
+    },
+    "enchant.breach.hit_3":{
+        "sounds":[ 
+            {"name":"event:enchant/breach/hit_3/hit1"},
+            {"name":"event:enchant/breach/hit_3/hit2"},
+            {"name":"event:enchant/breach/hit_3/hit3"}
+        ],
+        "subtitle": "subtitles.breach.hit.strong"
+    },
     "enchant.punch.hit_1":{"sounds":[ 
         {"name":"event:enchant/punch/hit_1/hit1"},
         {"name":"event:enchant/punch/hit_1/hit2"},
@@ -371,17 +390,31 @@
         {"name":"event:enchant/hunting/hunting2"},
         {"name":"event:enchant/hunting/hunting3"}
     ]},
-    "enchant.power":{"sounds":[ 
-        {"name":"event:enchant/power/power1"},
-        {"name":"event:enchant/power/power2"},
-        {"name":"event:enchant/power/power3"},
-        {"name":"event:enchant/power/power4"}
-    ]},
-    "enchant.fowling":{"sounds":[ 
-        {"name":"event:enchant/fowling/fowling1"},
-        {"name":"event:enchant/fowling/fowling2"},
-        {"name":"event:enchant/fowling/fowling3"}
-    ]},
+    "enchant.power.ranged":{
+        "sounds":[ 
+            {"name":"event:enchant/power/ranged/1"},
+            {"name":"event:enchant/power/ranged/2"},
+            {"name":"event:enchant/power/ranged/3"},
+            {"name":"event:enchant/power/ranged/4"}
+        ],
+        "subtitle": "subtitles.enchant.power.ranged"
+    },
+    "enchant.power.melee":{
+        "sounds":[ 
+            {"name":"event:enchant/power/melee/1"},
+            {"name":"event:enchant/power/melee/2"},
+            {"name":"event:enchant/power/melee/3"}
+        ],
+        "subtitle": "subtitles.enchant.power.melee"
+    },
+    "enchant.fowling":{
+        "sounds":[ 
+            {"name":"event:enchant/fowling/fowling1"},
+            {"name":"event:enchant/fowling/fowling2"},
+            {"name":"event:enchant/fowling/fowling3"}
+        ],
+        "subtitle": "subtitles.enchant.fowling"
+    },
     "enchant.howling":{"sounds":[ 
         {"name":"event:enchant/howling/howling1"}
     ]},

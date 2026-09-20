@@ -1,0 +1,26 @@
+{
+  "parent": "event_rebalance:adventure/walk_on_frosted_ice",
+  "criteria": {
+    "walk_on_powder_snow_with_leather_boots": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.high_acceleration.description"
+    },
+    "icon": {
+      "id": "minecraft:chainmail_leggings"
+    },
+    "frame": "challenge",
+    "title": {
+      "translate": "advancements.adventure.high_acceleration.title"
+    }
+  },
+  "requirements": [
+    [
+      "walk_on_powder_snow_with_leather_boots"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

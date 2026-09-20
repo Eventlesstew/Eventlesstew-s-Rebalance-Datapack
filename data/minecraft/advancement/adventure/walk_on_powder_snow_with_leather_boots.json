@@ -1,5 +1,5 @@
 {
-  "parent": "event_rebalance:adventure/use_map_on_banner",
+  "parent": "adventure/root",
   "criteria": {
     "walk_on_powder_snow_with_leather_boots": {
       "conditions": {

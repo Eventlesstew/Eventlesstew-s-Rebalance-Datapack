@@ -19,13 +19,6 @@
                     },
                     {
                         "id": "balance_chestplate",
-                        "attribute": "minecraft:knockback_resistance",
-                        "amount": -0.24,
-                        "operation": "add_multiplied_base",
-                        "slot": "chest"
-                    },
-                    {
-                        "id": "balance_chestplate",
                         "attribute": "minecraft:movement_speed",
                         "amount": 0.02,
                         "operation": "add_multiplied_base",
@@ -47,6 +40,10 @@
                     "rarity": "common",
                     "repairable": {
                         "items": "#event_rebalance:tool_repair/rose_golden"
+                    },
+                    "mob_visibility": {
+                        "targeting_entity_types": "#event_rebalance:mobs",
+                        "visibility": 2.2
                     }
                 }
             }

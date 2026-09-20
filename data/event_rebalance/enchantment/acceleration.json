@@ -114,6 +114,12 @@
             }
           ]
         }
+      },
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "event_rebalance:enchantments/acceleration/speed_sound"
+        }
       }
     ]
   },

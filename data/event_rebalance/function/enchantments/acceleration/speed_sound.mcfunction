@@ -1,0 +1,3 @@
+execute if score @s event_rebalance.acceleration_count matches 20..80 if predicate event_rebalance:enchant/acceleration/medium_speed_sound run playsound enchant.acceleration.loop master @a
+execute if score @s event_rebalance.acceleration_count matches 81.. if predicate event_rebalance:enchant/acceleration/high_speed_sound run playsound enchant.acceleration.loop.strong master @a
+execute if score @s event_rebalance.acceleration_count matches 200.. run advancement grant @s only event_rebalance:adventure/high_acceleration

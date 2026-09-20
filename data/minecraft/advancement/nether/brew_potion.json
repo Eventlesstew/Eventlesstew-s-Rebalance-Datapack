@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:nether/obtain_blaze_rod",
+  "parent": "event_rebalance:food/eat_food",
   "criteria": {
     "potion": {
       "trigger": "minecraft:brewed_potion"

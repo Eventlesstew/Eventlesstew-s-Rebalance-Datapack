@@ -1,5 +1,5 @@
 {
-  "parent": "event_rebalance:food/eat_food",
+  "parent": "event_rebalance:food/obtain_nether_wart",
   "criteria": {
     "all_effects": {
       "conditions": {

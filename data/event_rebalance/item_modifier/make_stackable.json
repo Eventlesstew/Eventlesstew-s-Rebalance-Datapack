@@ -1,14 +1,14 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "potion"
+        "items": "#event_rebalance:change_to_stackable"
     },
     "on_pass": {
         "type": "sequence",
         "functions": [
             "event_rebalance:modified",
             {
-                "type": "minecraft:set_components",
+                "type": "set_components",
                 "components": {
                     "max_stack_size": 64
                 }

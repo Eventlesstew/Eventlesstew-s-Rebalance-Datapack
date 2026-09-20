@@ -1,5 +1,5 @@
 {
-  "parent": "story/mine_diamond",
+  "parent": "adventure/root",
   "criteria": {
     "play_jukebox_in_meadows": {
       "conditions": {

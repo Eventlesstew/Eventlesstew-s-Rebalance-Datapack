@@ -26,7 +26,7 @@
       "trigger": "minecraft:item_used_on_block"
     }
   },
-  "parent": "event_rebalance:adventure/obtain_compass",
+  "parent": "adventure/use_lodestone",
   "display": {
     "title": {
       "translate": "advancements.adventure.use_map_on_banner.title"
@@ -35,7 +35,7 @@
       "translate": "advancements.adventure.use_map_on_banner.description"
     },
     "icon": {
-        "id": "filled_map"
+        "id": "red_banner"
     }
   },
   "requirements": [

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:brewing",
+  "reagent": {
+    "item": "allium"
+  },
+  "input": {
+    "item": "mushroom_stew"
+  },
+  "output": {
+    "components": {
+      "minecraft:suspicious_stew_effects": [
+        {
+          "duration": 60,
+          "id": "minecraft:fire_resistance"
+        }
+      ]
+    },
+    "id": "minecraft:suspicious_stew"
+  }
+}

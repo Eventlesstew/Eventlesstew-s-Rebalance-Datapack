@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:end/root",
+  "parent": "minecraft:story/enter_the_end",
   "criteria": {
     "killed_dragon": {
       "conditions": {
@@ -19,8 +19,10 @@
       "translate": "advancements.end.kill_dragon.description"
     },
     "icon": {
-      "id": "minecraft:bedrock"
+      "id": "minecraft:dragon_head"
     },
+    "frame":"challenge",
+    "hidden": true,
     "title": {
       "translate": "advancements.end.kill_dragon.title"
     }

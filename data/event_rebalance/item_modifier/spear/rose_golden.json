@@ -92,7 +92,7 @@
                         "italic": false
                     },
                     {
-                        "translate": " 7 ",
+                        "translate": " 4 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.attack_damage"
@@ -102,7 +102,7 @@
                         "italic": false
                     },
                     {
-                        "translate": " 1.8 ",
+                        "translate": " 1.4 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.attack_speed"

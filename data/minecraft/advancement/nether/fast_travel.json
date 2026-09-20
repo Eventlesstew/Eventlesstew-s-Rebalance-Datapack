@@ -16,9 +16,9 @@
     "description": {
       "translate": "advancements.nether.fast_travel.description"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "icon": {
-      "id": "minecraft:map"
+      "id": "minecraft:grass_block"
     },
     "title": {
       "translate": "advancements.nether.fast_travel.title"
@@ -29,8 +29,5 @@
       "travelled"
     ]
   ],
-  "rewards": {
-    "experience": 100
-  },
   "sends_telemetry_event": true
 }

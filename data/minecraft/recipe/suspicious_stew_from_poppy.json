@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:brewing",
+  "reagent": {
+    "item": "poppy"
+  },
+  "input": {
+    "item": "mushroom_stew"
+  },
+  "output": {
+    "components": {
+      "minecraft:suspicious_stew_effects": [
+        {
+          "duration": 100,
+          "id": "minecraft:night_vision"
+        }
+      ]
+    },
+    "id": "minecraft:suspicious_stew"
+  }
+}

@@ -17,7 +17,7 @@
     "icon": {
       "id": "minecraft:nether_star"
     },
-    "frame": "goal",
+    "frame": "challenge",
     "title": {
       "translate": "advancements.nether.create_beacon.title"
     }

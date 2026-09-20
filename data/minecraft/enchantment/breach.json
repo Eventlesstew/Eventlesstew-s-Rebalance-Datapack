@@ -43,51 +43,6 @@
             }
           }
         }
-      },
-      {
-        "effect": {
-          "type": "play_sound",
-          "sound": {
-            "sound_id": "enchant.overcharge.loop.weak"
-          },
-          "pitch": 1,
-          "volume": 1
-        },
-        "requirements": {
-          "type": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "movement": {
-              "horizontal_speed": {
-                "min": 8,
-                "max": 30
-              }
-            },
-            "periodic_tick": 12
-          }
-        }
-      },
-      {
-        "effect": {
-          "type": "play_sound",
-          "sound": {
-            "sound_id": "enchant.overcharge.loop.strong"
-          },
-          "pitch": 1,
-          "volume": 1
-        },
-        "requirements": {
-          "type": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "movement": {
-              "horizontal_speed": {
-                "min": 30
-              }
-            },
-            "periodic_tick": 24
-          }
-        }
       }
     ],
     "minecraft:damage": [

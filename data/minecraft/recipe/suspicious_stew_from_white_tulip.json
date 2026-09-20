@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:brewing",
+  "reagent": {
+    "item": "white_tulip"
+  },
+  "input": {
+    "item": "mushroom_stew"
+  },
+  "output": {
+    "components": {
+      "minecraft:suspicious_stew_effects": [
+        {
+          "duration": 140,
+          "id": "minecraft:weakness"
+        }
+      ]
+    },
+    "id": "minecraft:suspicious_stew"
+  }
+}
