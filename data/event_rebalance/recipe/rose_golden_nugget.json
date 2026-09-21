@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shapeless",
     "category": "misc",
     "ingredients": [
-        "#event_rebalance:custom_item/rose_golden/ingot"
+        "#event_rebalance:custom_item/rose_golden_ingot"
     ],
     "result": {
         "count": 9,

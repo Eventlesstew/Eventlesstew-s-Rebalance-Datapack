@@ -28,9 +28,9 @@
     "#event_rebalance:custom_item/golden_dagger",
     "#event_rebalance:custom_item/golden_hammer",
     "#event_rebalance:rose_golden_tools",
-    "#event_rebalance:custom_item/rose_golden/ingot",
-    "#event_rebalance:custom_item/rose_golden/nugget",
-    "#event_rebalance:custom_item/rose_golden/upgrade_smithing_template",
+    "#event_rebalance:custom_item/rose_golden_ingot",
+    "#event_rebalance:custom_item/rose_golden_nugget",
+    "#event_rebalance:custom_item/rose_golden_upgrade_smithing_template",
     "minecraft:golden_dandelion"
   ]
 }

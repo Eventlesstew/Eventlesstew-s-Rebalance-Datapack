@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#event_rebalance:custom_item/rose_golden/upgrade_smithing_template"
+            "items": "#event_rebalance:custom_item/rose_golden_upgrade_smithing_template"
           }
         ]
       },

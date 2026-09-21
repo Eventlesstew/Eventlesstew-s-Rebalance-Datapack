@@ -3,15 +3,15 @@
     "category": "misc",
     "group": "rose_gold_ingot",
     "ingredients": [
-        "piglin_spawn_egg",
-        "piglin_spawn_egg",
-        "piglin_spawn_egg",
-        "piglin_spawn_egg",
-        "piglin_spawn_egg",
-        "piglin_spawn_egg",
-        "piglin_spawn_egg",
-        "piglin_spawn_egg",
-        "piglin_spawn_egg"
+        "#event_rebalance:custom_item/rose_golden_nugget",
+        "#event_rebalance:custom_item/rose_golden_nugget",
+        "#event_rebalance:custom_item/rose_golden_nugget",
+        "#event_rebalance:custom_item/rose_golden_nugget",
+        "#event_rebalance:custom_item/rose_golden_nugget",
+        "#event_rebalance:custom_item/rose_golden_nugget",
+        "#event_rebalance:custom_item/rose_golden_nugget",
+        "#event_rebalance:custom_item/rose_golden_nugget",
+        "#event_rebalance:custom_item/rose_golden_nugget"
     ],
     "result": {
         "count": 1,

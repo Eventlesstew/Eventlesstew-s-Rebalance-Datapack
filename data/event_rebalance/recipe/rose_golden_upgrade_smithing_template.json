@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": "#event_rebalance:custom_item/rose_golden/upgrade_smithing_template",
-    "M": "#event_rebalance:custom_item/rose_golden/ingot",
+    "#": "#event_rebalance:custom_item/rose_golden_upgrade_smithing_template",
+    "M": "#event_rebalance:custom_item/rose_golden_ingot",
     "X": "minecraft:gold_ingot"
   },
   "pattern": [

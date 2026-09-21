@@ -20,7 +20,7 @@
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_speed",
-                        "amount": -3.3,
+                        "amount": -2.8,
                         "operation": "add_value",
                         "slot": "mainhand"
                     }
@@ -74,7 +74,7 @@
                         "italic": false
                     },
                     {
-                        "translate": " 0.7 ",
+                        "translate": " 1.1 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.attack_speed"
