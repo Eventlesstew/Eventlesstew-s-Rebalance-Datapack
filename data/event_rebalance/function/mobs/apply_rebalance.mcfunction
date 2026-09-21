@@ -1,0 +1,1 @@
+execute as @e[tag=!rebalanced] run function event_rebalance:mobs/rebalance_mobs

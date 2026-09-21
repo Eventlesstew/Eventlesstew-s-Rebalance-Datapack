@@ -100,7 +100,7 @@
       "translate": "advancements.husbandry.wax_off.description"
     },
     "icon": {
-      "id": "minecraft:iron_axe"
+      "id": "minecraft:copper_axe"
     },
     "title": {
       "translate": "advancements.husbandry.wax_off.title"
