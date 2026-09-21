@@ -16,7 +16,10 @@
       "translate": "advancements.nether.upgrade_rose_gold.description"
     },
     "icon": {
-        "id": "stone_pickaxe"
+      "id": "music_disc_13",
+      "components": {
+        "item_model": "event:rose_golden_gear/pickaxe"
+      }
     }
   },
   "requirements": [

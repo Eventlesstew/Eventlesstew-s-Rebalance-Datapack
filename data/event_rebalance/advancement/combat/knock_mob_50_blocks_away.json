@@ -10,7 +10,10 @@
       "translate": "advancements.combat.knock_mob_50_blocks_away.description"
     },
     "icon": {
-      "id": "minecraft:stone_spear"
+      "id": "minecraft:music_disc_13",
+      "components": {
+        "item_model": "event:rose_golden_gear/spear"
+      }
     },
     "frame": "challenge",
     "title": {

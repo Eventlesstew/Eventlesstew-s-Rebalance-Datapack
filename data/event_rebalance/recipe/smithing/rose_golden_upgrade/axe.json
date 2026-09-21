@@ -1,0 +1,9 @@
+{
+    "type": "smithing_transform",
+    "base": "golden_axe",
+    "addition": "#event_rebalance:rose_golden_tool_materials",
+    "template": "#event_rebalance:custom_item/rose_golden/upgrade_smithing_template",
+    "result": {
+        "id": "stone_axe"
+    }
+}

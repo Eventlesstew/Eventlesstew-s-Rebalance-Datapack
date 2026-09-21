@@ -1,7 +1,7 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "chainmail_chestplate"
+        "items": "#event_rebalance:custom_item/rose_golden/chestplate"
     },
     "on_pass": {
         "type": "sequence",

@@ -1,7 +1,7 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "#event_rebalance:custom_item/rose_golden_pickaxe"
+        "items": "#event_rebalance:custom_item/rose_golden/pickaxe"
     },
     "on_pass": {
         "type": "sequence",

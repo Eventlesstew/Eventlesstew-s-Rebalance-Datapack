@@ -1,7 +1,7 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "#event_rebalance:custom_item/rose_golden_axe"
+        "items": "#event_rebalance:custom_item/rose_golden/axe"
     },
     "on_pass": {
         "type": "sequence",

@@ -1,7 +1,7 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "chainmail_leggings"
+        "items": "#event_rebalance:custom_item/rose_golden/leggings"
     },
     "on_pass": {
         "type": "sequence",

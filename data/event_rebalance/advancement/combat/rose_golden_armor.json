@@ -5,16 +5,16 @@
       "conditions": {
         "items": [
           {
-            "items": "chainmail_helmet"
+            "items": "#event_rebalance:custom_item/rose_golden/helmet"
           },
           {
-            "items": "chainmail_chestplate"
+            "items": "#event_rebalance:custom_item/rose_golden/chestplate"
           },
           {
-            "items": "chainmail_leggings"
+            "items": "#event_rebalance:custom_item/rose_golden/leggings"
           },
           {
-            "items": "chainmail_boots"
+            "items": "#event_rebalance:custom_item/rose_golden/boots"
           }
         ]
       },

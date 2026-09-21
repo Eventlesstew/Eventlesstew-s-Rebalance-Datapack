@@ -6,11 +6,11 @@
         "event_rebalance:smithing/rose_golden_upgrade/boots",
         "event_rebalance:smithing/rose_golden_upgrade/hammer",
         "event_rebalance:smithing/rose_golden_upgrade/dagger",
-        "stone_axe",
-        "stone_pickaxe",
-        "stone_sword",
-        "stone_shovel",
-        "stone_hoe",
-        "stone_spear"
+        "event_rebalance:smithing/rose_golden_upgrade/sword",
+        "event_rebalance:smithing/rose_golden_upgrade/spear",
+        "event_rebalance:smithing/rose_golden_upgrade/axe",
+        "event_rebalance:smithing/rose_golden_upgrade/pickaxe",
+        "event_rebalance:smithing/rose_golden_upgrade/shovel",
+        "event_rebalance:smithing/rose_golden_upgrade/hoe"
     ]
 }

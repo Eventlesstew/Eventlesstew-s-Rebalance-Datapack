@@ -4,7 +4,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#event_rebalance:custom_item/rose_golden_upgrade_smithing_template"
+            "items": "#event_rebalance:custom_item/rose_golden/upgrade_smithing_template"
           }
         ]
       },
@@ -20,7 +20,7 @@
       "translate": "advancements.nether.obtain_rose_gold_upgrade.description"
     },
     "icon": {
-        "id": "hoglin_spawn_egg"
+      "id": "hoglin_spawn_egg"
     }
   },
   "requirements": [

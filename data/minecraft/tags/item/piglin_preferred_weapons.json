@@ -2,8 +2,8 @@
   "values": [
     "minecraft:crossbow",
     "minecraft:golden_spear",
-    "#event_rebalance:custom_item/rose_golden_sword",
-    "#event_rebalance:custom_item/rose_golden_spear",
-    "#event_rebalance:custom_item/rose_golden_axe"
+    "#event_rebalance:custom_item/rose_golden/sword",
+    "#event_rebalance:custom_item/rose_golden/spear",
+    "#event_rebalance:custom_item/rose_golden/axe"
   ]
 }

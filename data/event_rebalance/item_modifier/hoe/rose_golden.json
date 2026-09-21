@@ -1,7 +1,7 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "stone_hoe"
+        "items": "#event_rebalance:custom_item/rose_golden/hoe"
     },
     "on_pass": {
         "type": "sequence",

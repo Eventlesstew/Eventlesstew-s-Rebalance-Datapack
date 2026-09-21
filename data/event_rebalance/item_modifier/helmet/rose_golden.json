@@ -1,7 +1,7 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "chainmail_helmet"
+        "items": "#event_rebalance:custom_item/rose_golden/helmet"
     },
     "on_pass": {
         "type": "sequence",

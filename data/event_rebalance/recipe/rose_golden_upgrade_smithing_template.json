@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": "#event_rebalance:custom_item/rose_golden_upgrade_smithing_template",
-    "M": "#event_rebalance:custom_item/rose_golden_ingot",
+    "#": "#event_rebalance:custom_item/rose_golden/upgrade_smithing_template",
+    "M": "#event_rebalance:custom_item/rose_golden/ingot",
     "X": "minecraft:gold_ingot"
   },
   "pattern": [
@@ -15,9 +15,9 @@
     "count": 2,
     "id": "minecraft:hoglin_spawn_egg",
     "components": {
-        "!entity_data": {},
-        "max_stack_size": 64,
-        "rarity": "common"
+      "!entity_data": {},
+      "max_stack_size": 64,
+      "rarity": "common"
     }
   }
 }

@@ -5,7 +5,7 @@
         "#event_rebalance:custom_item/iron_dagger",
         "#event_rebalance:custom_item/golden_dagger",
         "#event_rebalance:custom_item/diamond_dagger",
-        "#event_rebalance:custom_item/rose_golden_dagger",
+        "#event_rebalance:custom_item/rose_golden/dagger",
         "#event_rebalance:custom_item/netherite_dagger"
     ]
 }
