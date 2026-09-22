@@ -1,0 +1,66 @@
+{
+    "type": "equipment",
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "empty",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "iron_helmet",
+                    "modifier": "event_rebalance:helmet/iron",
+                    "weight": 1
+                }
+            ],
+            "rolls": 1
+        },
+        {
+            "entries": [
+                {
+                    "type": "empty",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "iron_chestplate",
+                    "modifier": "event_rebalance:chestplate/iron",
+                    "weight": 1
+                }
+            ],
+            "rolls": 1
+        },
+        {
+            "entries": [
+                {
+                    "type": "empty",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "iron_leggings",
+                    "modifier": "event_rebalance:leggings/iron",
+                    "weight": 1
+                }
+            ],
+            "rolls": 1
+        },
+        {
+            "entries": [
+                {
+                    "type": "empty",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "iron_boots",
+                    "modifier": "event_rebalance:boots/iron",
+                    "weight": 1
+                }
+            ],
+            "rolls": 1
+        }
+    ],
+    "random_sequence": "event_rebalance:mob_equipment/tier/iron"
+}

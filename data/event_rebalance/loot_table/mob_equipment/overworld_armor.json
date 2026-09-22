@@ -1,0 +1,40 @@
+{
+    "type": "equipment",
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "empty",
+                    "weight": 600
+                },
+                {
+                    "type": "loot_table",
+                    "value": "event_rebalance:mob_equipment/tier/leather",
+                    "weight": 100
+                },
+                {
+                    "type": "loot_table",
+                    "value": "event_rebalance:mob_equipment/tier/copper",
+                    "weight": 200
+                },
+                {
+                    "type": "loot_table",
+                    "value": "event_rebalance:mob_equipment/tier/iron",
+                    "weight": 200
+                },
+                {
+                    "type": "loot_table",
+                    "value": "event_rebalance:mob_equipment/tier/golden",
+                    "weight": 100
+                },
+                {
+                    "type": "loot_table",
+                    "value": "event_rebalance:mob_equipment/tier/diamond",
+                    "weight": 1
+                }
+            ],
+            "rolls": 1
+        }
+    ],
+    "random_sequence": "event_rebalance:mob_equipment/overworld"
+}

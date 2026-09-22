@@ -1,0 +1,66 @@
+{
+    "type": "equipment",
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "empty",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "copper_helmet",
+                    "modifier": "event_rebalance:helmet/copper",
+                    "weight": 1
+                }
+            ],
+            "rolls": 1
+        },
+        {
+            "entries": [
+                {
+                    "type": "empty",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "copper_chestplate",
+                    "modifier": "event_rebalance:chestplate/copper",
+                    "weight": 1
+                }
+            ],
+            "rolls": 1
+        },
+        {
+            "entries": [
+                {
+                    "type": "empty",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "copper_leggings",
+                    "modifier": "event_rebalance:leggings/copper",
+                    "weight": 1
+                }
+            ],
+            "rolls": 1
+        },
+        {
+            "entries": [
+                {
+                    "type": "empty",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "copper_boots",
+                    "modifier": "event_rebalance:boots/copper",
+                    "weight": 1
+                }
+            ],
+            "rolls": 1
+        }
+    ],
+    "random_sequence": "event_rebalance:mob_equipment/tier/copper"
+}

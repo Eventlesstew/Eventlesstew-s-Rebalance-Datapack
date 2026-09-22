@@ -1,0 +1,66 @@
+{
+    "type": "equipment",
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "empty",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "diamond_helmet",
+                    "modifier": "event_rebalance:helmet/diamond",
+                    "weight": 1
+                }
+            ],
+            "rolls": 1
+        },
+        {
+            "entries": [
+                {
+                    "type": "empty",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "diamond_chestplate",
+                    "modifier": "event_rebalance:chestplate/diamond",
+                    "weight": 1
+                }
+            ],
+            "rolls": 1
+        },
+        {
+            "entries": [
+                {
+                    "type": "empty",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "diamond_leggings",
+                    "modifier": "event_rebalance:leggings/diamond",
+                    "weight": 1
+                }
+            ],
+            "rolls": 1
+        },
+        {
+            "entries": [
+                {
+                    "type": "empty",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "diamond_boots",
+                    "modifier": "event_rebalance:boots/diamond",
+                    "weight": 1
+                }
+            ],
+            "rolls": 1
+        }
+    ],
+    "random_sequence": "event_rebalance:mob_equipment/tier/diamond"
+}

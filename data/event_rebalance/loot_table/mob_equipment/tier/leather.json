@@ -1,0 +1,66 @@
+{
+    "type": "equipment",
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "empty",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "leather_helmet",
+                    "modifier": "event_rebalance:helmet/leather",
+                    "weight": 1
+                }
+            ],
+            "rolls": 1
+        },
+        {
+            "entries": [
+                {
+                    "type": "empty",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "leather_chestplate",
+                    "modifier": "event_rebalance:chestplate/leather",
+                    "weight": 1
+                }
+            ],
+            "rolls": 1
+        },
+        {
+            "entries": [
+                {
+                    "type": "empty",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "leather_leggings",
+                    "modifier": "event_rebalance:leggings/leather",
+                    "weight": 1
+                }
+            ],
+            "rolls": 1
+        },
+        {
+            "entries": [
+                {
+                    "type": "empty",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "leather_boots",
+                    "modifier": "event_rebalance:boots/leather",
+                    "weight": 1
+                }
+            ],
+            "rolls": 1
+        }
+    ],
+    "random_sequence": "event_rebalance:mob_equipment/tier/leather"
+}
