@@ -1,0 +1,81 @@
+{
+  "type": "minecraft:tree",
+  "minimum_size": {
+    "type": "minecraft:two_layers_feature_size",
+    "limit": 2,
+    "upper_size": 2
+  },
+    "ignore_vines": true,
+    "below_trunk_provider": {
+      "type": "minecraft:rule_based",
+      "rules": [
+        {
+          "if_true": {
+            "type": "minecraft:matching_block_tag",
+            "tag": "minecraft:supports_warped_fungus"
+          },
+          "then": {
+            "type": "minecraft:simple",
+            "state": {
+              "id": "minecraft:netherrack"
+            }
+          }
+        }
+      ]
+    },
+    "trunk_provider":{
+      "type": "minecraft:simple",
+      "state": {
+        "id": "minecraft:warped_stem",
+        "properties": {
+          "axis": "y"
+        }
+      }
+    },
+    "trunk_placer": {
+      "type": "straight_trunk_placer",
+      "base_height": 2,
+      "height_rand_a": 8,
+      "height_rand_b": 4
+    },
+    "foliage_provider":{
+      "type": "minecraft:weighted",
+      "entries": [
+        {
+          "data": {
+            "id": "minecraft:warped_wart_block"
+          },
+          "weight": 14
+        },
+        {
+          "data": {
+            "id": "minecraft:shroomlight"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "foliage_placer": {
+      "type": "bush_foliage_placer",
+      "height": 1,
+      "offset": 1,
+      "radius": {
+        "type": "weighted_list",
+        "distribution": [
+          {
+            "data": 2,
+            "weight": 1
+          },
+          {
+            "data": 3,
+            "weight": 3
+          },
+          {
+            "data": 4,
+            "weight": 1
+          }
+        ]
+      }
+    },
+    "decorators": []
+}

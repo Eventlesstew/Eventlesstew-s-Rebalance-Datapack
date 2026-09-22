@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:quartz",
+    "minecraft:quartz",
+    "minecraft:quartz",
+    "minecraft:quartz",
+    "minecraft:quartz",
+    "minecraft:quartz",
+    "minecraft:quartz",
+    "minecraft:quartz",
+    "minecraft:quartz"
+  ],
+  "result": {
+    "id": "minecraft:quartz_block"
+  }
+}

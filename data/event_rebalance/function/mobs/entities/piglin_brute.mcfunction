@@ -1,2 +1,1 @@
-item replace entity @s weapon.mainhand with stone_axe 1
-item modify entity @s weapon.mainhand event_rebalance:axe/rose_golden
+loot replace entity @s weapon.mainhand loot event_rebalance:mob_equipment/piglin_brute

@@ -1,0 +1,1 @@
+execute if predicate event_rebalance:mobs/can_see_sky run tp @s ~ ~-10000 ~

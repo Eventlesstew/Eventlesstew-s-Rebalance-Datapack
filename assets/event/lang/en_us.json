@@ -34,6 +34,8 @@
     "block.minecraft.stonecutter": "Sawmill",
     "container.stonecutter": "Sawmill",
 
+    "block.minecraft.deepslate_coal_ore": "Withered Remains",
+
     "block.minecraft.shulker_box": "Portal Box",
     "block.minecraft.red_shulker_box": "Red Portal Box",
     "block.minecraft.orange_shulker_box": "Orange Portal Box",

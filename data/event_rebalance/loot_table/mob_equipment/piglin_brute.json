@@ -1,0 +1,17 @@
+{
+    "type": "equipment",
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "tag",
+                    "expand": false,
+                    "items": "#event_rebalance:custom_item/rose_golden/axe",
+                    "modifier": "event_rebalance:axe/rose_golden"
+                }
+            ],
+            "rolls": 1
+        }
+    ],
+    "random_sequence": "event_rebalance:mob_rebalance/piglin_brute"
+}

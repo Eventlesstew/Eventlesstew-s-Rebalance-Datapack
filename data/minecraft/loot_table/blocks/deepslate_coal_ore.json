@@ -12,8 +12,16 @@
               "name": "minecraft:deepslate_coal_ore"
             },
             {
-              "type": "minecraft:item",
+              "type": "minecraft:tag",
               "modifier": [
+                {
+                  "type": "set_count",
+                  "count": {
+                    "type": "uniform",
+                    "max": 3,
+                    "min": 1
+                  }
+                },
                 {
                   "type": "minecraft:apply_bonus",
                   "enchantment": "minecraft:fortune",
@@ -21,9 +29,11 @@
                 },
                 {
                   "type": "minecraft:explosion_decay"
-                }
+                },
+                "event_rebalance:custom_item/withered_chunks"
               ],
-              "name": "minecraft:coal"
+              "expand": false,
+              "items": "#event_rebalance:custom_item/withered_chunks"
             }
           ]
         }
