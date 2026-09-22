@@ -20,3 +20,6 @@ scoreboard players set armor_stand_eye_height static 15415
 scoreboard players set 0 static 0
 scoreboard players set 1 static 1
 scoreboard players set 180_arrow static 1800000
+
+gamerule spawn_phantoms false
+gamerule keep_inventory true
