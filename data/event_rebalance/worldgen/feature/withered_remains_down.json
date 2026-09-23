@@ -1,0 +1,25 @@
+{
+    "type": "block_column",
+    "allowed_placement": {
+        "type": "matching_blocks",
+        "blocks": "#event_rebalance:worldgen/withered_remains"
+    },
+    "layers": [
+        {
+            "height": {
+                "type": "uniform",
+                "max_inclusive": 5,
+                "min_inclusive": 2
+            },
+            "provider": {
+                "type": "simple",
+                "state": {
+                    "id": "deepslate_coal_ore"
+                }
+            },
+            "prioritize_tip":false
+        }
+    ],
+    "prioritize_tip": false,
+    "direction": "down"
+}

@@ -1,7 +1,6 @@
 {
     "values": [
         "#event_rebalance:pickaxe_power_4",
-        "#event_rebalance:gold_blocks_except_nether_gold_ore",
         "#event_rebalance:diamond_blocks",
         "#event_rebalance:emerald_blocks",
         "#event_rebalance:redstone_blocks"

@@ -1,0 +1,11 @@
+{
+    "type": "crafting_shapeless",
+    "category": "misc",
+    "group": "black_dye",
+    "ingredients": [
+        "#event_rebalance:custom_item/withered_chunks"
+    ],
+    "result": {
+        "id": "black_dye"
+    }
+}

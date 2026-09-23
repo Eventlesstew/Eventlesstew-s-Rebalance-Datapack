@@ -1,0 +1,34 @@
+{
+    "feature": "event_rebalance:withered_remains_up",
+    "placement": [
+        {
+            "type": "count",
+            "count": 2
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:height_range",
+            "height": {
+                "type": "minecraft:trapezoid",
+                "max_inclusive": {
+                "below_top": 32
+                },
+                "min_inclusive": {
+                "above_bottom": 32
+                }
+            }
+        },
+        {
+            "type": "environment_scan",
+            "direction_of_search": "down",
+            "max_steps": 32,
+            "target_condition": {
+                "type": "matching_blocks",
+                "offset": [0,0,0],
+                "blocks": "#event_rebalance:worldgen/withered_remains_base"
+            }
+        }
+    ]
+}

@@ -72,7 +72,20 @@
             }
           },
           "name": "minecraft:copper_nugget",
-          "weight": 10
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 4,
+              "min": 2
+            }
+          },
+          "name": "minecraft:copper_ingot",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
