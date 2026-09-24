@@ -1,1 +1,3 @@
-execute if predicate event_rebalance:mobs/can_see_sky run tp @s ~ ~-10000 ~
+execute unless predicate event_rebalance:mobs/can_see_sky run return fail
+summon skeleton ~ ~ ~
+tp @s ~ ~-10000 ~

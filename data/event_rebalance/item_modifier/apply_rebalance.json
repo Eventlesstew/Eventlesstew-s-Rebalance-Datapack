@@ -1,17 +1,15 @@
 {
     "type": "filtered",
     "item_filter": {
-        "components": {
+        "predicates": {
             "custom_data": {
-                "modified": true
+                "modified":true
             }
         }
     },
     "on_fail": {
         "type": "sequence",
         "functions": [
-            "event_rebalance:modified",
-            
             "event_rebalance:pickaxe/wooden",
             "event_rebalance:pickaxe/copper",
             "event_rebalance:pickaxe/iron",

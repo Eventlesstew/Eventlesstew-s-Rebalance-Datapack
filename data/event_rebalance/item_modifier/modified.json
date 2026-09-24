@@ -1,6 +1,6 @@
 {
+    "type": "set_custom_data",
     "tag": {
-        "modified": true
-    },
-    "type": "set_custom_data"
+        "modified":true
+    }
 }
