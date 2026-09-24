@@ -21,7 +21,8 @@
     },
     "icon": {
       "id": "minecraft:crafting_table"
-    }
+    },
+    "announce_to_chat": false
   },
   "requirements": [
     [

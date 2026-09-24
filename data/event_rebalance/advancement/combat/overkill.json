@@ -5,7 +5,7 @@
       "conditions": {
         "damage": {
           "dealt": {
-            "min": 20.0
+            "min": 40.0
           }
         }
       },
@@ -21,7 +21,8 @@
     },
     "title": {
       "translate": "advancements.combat.overkill.title"
-    }
+    },
+    "frame": "goal"
   },
   "requirements": [
     [

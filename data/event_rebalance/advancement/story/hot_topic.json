@@ -21,7 +21,8 @@
     },
     "icon": {
       "id": "minecraft:furnace"
-    }
+    },
+    "announce_to_chat": false
   },
   "requirements": [
     [

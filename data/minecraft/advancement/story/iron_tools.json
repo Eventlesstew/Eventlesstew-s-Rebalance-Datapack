@@ -1,32 +1,32 @@
 {
+  "parent": "minecraft:story/smelt_iron",
   "criteria": {
-    "item_gained": {
+    "iron_pickaxe": {
       "conditions": {
         "items": [
           {
-            "items": "#logs"
+            "items": "minecraft:iron_pickaxe"
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
     }
   },
-  "parent": "event_rebalance:story/root",
   "display": {
-    "title": {
-      "translate": "advancements.story.getting_wood.title"
-    },
     "description": {
-      "translate": "advancements.story.getting_wood.description"
+      "translate": "advancements.story.iron_tools.description"
     },
     "icon": {
-      "id": "minecraft:oak_log"
+      "id": "minecraft:iron_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.story.iron_tools.title"
     },
     "announce_to_chat": false
   },
   "requirements": [
     [
-      "item_gained"
+      "iron_pickaxe"
     ]
   ],
   "sends_telemetry_event": true

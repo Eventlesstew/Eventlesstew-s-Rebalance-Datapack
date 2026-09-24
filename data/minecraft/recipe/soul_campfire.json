@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#":"#logs",
-    "A":"#event_rebalance:custom_item/withered_chunks"
+    "#":"#soul_fire_base_blocks",
+    "A":"stick"
   },
   "pattern": [
     "AA",
