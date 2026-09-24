@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:any_of",
+    "terms": [
+        {
+            "type": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "effects": {
+                    "glowing": {
+                        "amplifier": {
+                            "min": 3
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "items": "#event_rebalance:light_level/15"
+                    }
+                }
+            }
+        },
+        {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "offhand": {
+                        "items": "#event_rebalance:light_level/15"
+                    }
+                }
+            }
+        }
+    ]
+}

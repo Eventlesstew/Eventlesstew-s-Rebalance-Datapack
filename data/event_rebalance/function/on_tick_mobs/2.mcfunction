@@ -1,0 +1,1 @@
+execute at @s anchored eyes run function event_rebalance:light/run

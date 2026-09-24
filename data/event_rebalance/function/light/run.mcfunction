@@ -1,0 +1,2 @@
+execute if entity @s[tag=!event_rebalance.emitting_light] if predicate event_rebalance:light/can_emit_light run tag @s add event_rebalance.emitting_light
+execute if entity @s[tag=event_rebalance.emitting_light] run function event_rebalance:light/emit

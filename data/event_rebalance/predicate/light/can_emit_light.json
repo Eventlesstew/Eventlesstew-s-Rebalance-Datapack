@@ -1,0 +1,47 @@
+{
+    "type": "any_of",
+    "terms": [
+        {
+            "type": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "entity_type": "#event_rebalance:can_emit_light"
+            }
+        },
+        {
+            "type": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "effects": {
+                    "glowing": {
+                        "amplifier": {
+                            "min":1
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "items": "#event_rebalance:can_emit_light"
+                    }
+                }
+            }
+        },
+        {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "offhand": {
+                        "items": "#event_rebalance:can_emit_light"
+                    }
+                }
+            }
+        }
+    ]
+}

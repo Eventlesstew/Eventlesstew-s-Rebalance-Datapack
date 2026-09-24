@@ -1,0 +1,2 @@
+execute if entity @s[tag=!rebalanced] run function event_rebalance:mobs/rebalance_mobs
+execute if entity @s[tag=event_rebalance.emitting_light] at @s anchored eyes run function event_rebalance:light/clear
