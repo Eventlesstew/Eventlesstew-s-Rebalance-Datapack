@@ -11,20 +11,37 @@ Chainmail Boots: Rose Golden Boots
 
 Music Disc 13: Music Discs
 
-Music Disc Creator: Wooden and Netherite Daggers.
-Music Disc Cat: Copper Dagger
-Music Disc Mellohi: Iron Dagger
-Music Disc Creator (Music Box): Golden Dagger
-Music Disc Strad: Rose Golden Dagger
-Music Disc Precipice: Diamond Dagger
+Music Disc Cat: Wooden Dagger.
+Music Disc Blocks: Copper Dagger
+Music Disc Chirp: Iron Dagger
+Music Disc Far: Golden Dagger
+Music Disc Mall: Rose Golden Dagger
+Music Disc Mellohi: Diamond Dagger
+Music Disc Stal: Netherite Dagger
 
-Music Disc Chirp: Wooden and Netherite Hammers
-Music Disc Wait: Copper Hammer
-Music Disc Mall: Iron Hammer
-Music Disc Bounce: Golden Hammer
-Music Disc Stal: Rose Golden Hammer
+Music Disc 11: Wooden Hammers
+Music Disc Creator (Music Box): Copper Hammer
+Music Disc Wait: Iron Hammer
+Music Disc Creator: Golden Hammer
+Music Disc Precipice: Rose Golden Hammer
 Music Disc Otherside: Diamond Hammer
+Music Disc Relic: Netherite Hammer
 
-Music Disc Tears: Rose Golden Ingot
-Music Disc Pigstep: Rose Golden Upgrade
-Enderman Spawn Egg: Lodestone
+Music Disc Strad: Staff
+Music Disc Tears: Hand Saw
+
+Silverfish Spawn Egg: Disc Fragment 13
+Magma Cube Spawn Egg: Disc Fragment 11
+
+Vex Spawn Egg: Lode
+Breeze Spawn Egg: Breeze Powder
+Ghast Spawn Egg: Ominous Fortress Key
+Happy Ghast Spawn Egg: Fortress Key
+
+Piglin Spawn Egg: Rose Golden Nugget
+Piglin Brute Spawn Egg: Rose Golden Ingot
+Hoglin Spawn Egg: Rose Golden Upgrade
+Wither Skeleton Spawn Egg: Withered Chunks
+Wither Spawn Egg: Packed Withered Chunks
+
+Deepslate Coal Ore: Withered Remains
