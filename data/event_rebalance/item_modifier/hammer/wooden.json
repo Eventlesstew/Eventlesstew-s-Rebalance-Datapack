@@ -66,11 +66,7 @@
                         "color": "#AAAAAA",
                         "italic": false
                     },
-                    {
-                        "translate": "item.modifiers.mainhand",
-                        "color": "#AAAAAA",
-                        "italic": false
-                    },
+                    
                     {
                         "translate": " 7 ",
                         "extra": [
@@ -92,13 +88,13 @@
                         "italic": false
                     },
                     {
-                        "translate": " X3 ",
+                        "translate": " 3 ",
                         "extra": [
                             {
-                                "translate": "attribute.name.mining_speed"
+                                "translate": "attribute.name.breaking_speed"
                             }
                         ],
-                        "color": "#d3a921",
+                        "color": "#1aa819",
                         "italic": false
                     },
                     {
@@ -108,7 +104,7 @@
                                 "translate": "attribute.name.mining_power"
                             }
                         ],
-                        "color": "#d3a921",
+                        "color": "#1aa819",
                         "italic": false
                     }
                 ],

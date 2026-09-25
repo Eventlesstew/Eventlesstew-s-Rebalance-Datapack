@@ -20,9 +20,6 @@
           "translate": "item.event.heavy_shield"
         }
       ],
-      "custom_data": {
-        "heavy_shield":true
-      },
       "lore": [
         {
           "translate": " ",

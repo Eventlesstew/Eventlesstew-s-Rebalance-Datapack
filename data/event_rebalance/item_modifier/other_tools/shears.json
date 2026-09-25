@@ -63,11 +63,7 @@
                         "color": "#AAAAAA",
                         "italic": false
                     },
-                    {
-                        "translate": "item.modifiers.mainhand",
-                        "color": "#AAAAAA",
-                        "italic": false
-                    },
+                    
                     {
                         "translate": " 2 ",
                         "extra": [
@@ -89,13 +85,13 @@
                         "italic": false
                     },
                     {
-                        "translate": " X8 ",
+                        "translate": " 8 ",
                         "extra": [
                             {
-                                "translate": "attribute.name.mining_speed"
+                                "translate": "attribute.name.shearing_speed"
                             }
                         ],
-                        "color": "#d3a921",
+                        "color": "#1aa819",
                         "italic": false
                     }
                 ],

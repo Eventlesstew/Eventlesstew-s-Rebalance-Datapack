@@ -106,6 +106,13 @@
             "event_rebalance:boots/netherite",
             "event_rebalance:boots/golden",
             "event_rebalance:boots/rose_golden",
+            
+            "event_rebalance:shield/wooden_shield",
+            "event_rebalance:shield/cluster_shield",
+            "event_rebalance:shield/gear_shield",
+            "event_rebalance:shield/heavy_shield",
+            "event_rebalance:shield/mini_shield",
+            "event_rebalance:shield/shell_shield",
 
             "event_rebalance:other_tools/brush",
             "event_rebalance:other_tools/carrot_on_a_stick",

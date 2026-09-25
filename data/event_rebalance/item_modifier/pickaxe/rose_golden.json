@@ -42,7 +42,7 @@
                     "tool": {
                         "rules": [
                             {
-                                "blocks": "#event_rebalance:pickaxe_power_5",
+                                "blocks": "#event_rebalance:pickaxe_power_4",
                                 "speed": 6,
                                 "correct_for_drops": false
                             },
@@ -68,11 +68,7 @@
                         "color": "#AAAAAA",
                         "italic": false
                     },
-                    {
-                        "translate": "item.modifiers.mainhand",
-                        "color": "#AAAAAA",
-                        "italic": false
-                    },
+                    
                     {
                         "translate": " 6 ",
                         "extra": [
@@ -94,33 +90,33 @@
                         "italic": false
                     },
                     {
-                        "translate": " X24 ",
+                        "translate": " 24 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.mining_speed"
                             }
                         ],
-                        "color": "#d3a921",
+                        "color": "#1aa819",
                         "italic": false
                     },
                     {
-                        "translate": " X12 ",
+                        "translate": " 12 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.ore_mining_speed"
                             }
                         ],
-                        "color": "#d3a921",
+                        "color": "#1aa819",
                         "italic": false
                     },
                     {
-                        "translate": " 4 ",
+                        "translate": " 3 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.mining_power"
                             }
                         ],
-                        "color": "#d3a921",
+                        "color": "#1aa819",
                         "italic": false
                     }
                 ],

@@ -69,11 +69,6 @@
                         "italic": false
                     },
                     {
-                        "translate": "item.modifiers.mainhand",
-                        "color": "#AAAAAA",
-                        "italic": false
-                    },
-                    {
                         "translate": " 7 ",
                         "extra": [
                             {
@@ -94,23 +89,13 @@
                         "italic": false
                     },
                     {
-                        "translate": " X12 ",
+                        "translate": " 12 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.mining_speed"
                             }
                         ],
-                        "color": "#d3a921",
-                        "italic": false
-                    },
-                    {
-                        "translate": " X24 ",
-                        "extra": [
-                            {
-                                "translate": "attribute.name.obsidian_mining_speed"
-                            }
-                        ],
-                        "color": "#d3a921",
+                        "color": "#1aa819",
                         "italic": false
                     },
                     {
@@ -120,7 +105,7 @@
                                 "translate": "attribute.name.mining_power"
                             }
                         ],
-                        "color": "#d3a921",
+                        "color": "#1aa819",
                         "italic": false
                     }
                 ],

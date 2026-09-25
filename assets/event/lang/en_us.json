@@ -166,11 +166,21 @@
     "enchantment.event.lasting":"Lasting",
 
     "attribute.name.mining_speed": "Mining Speed",
+    "attribute.name.chopping_speed": "Chopping Speed",
+    "attribute.name.digging_speed": "Digging Speed",
+    "attribute.name.cultivating_speed": "Cultivating Speed",
+    "attribute.name.breaking_speed": "Breaking Speed",
+    "attribute.name.shearing_speed": "Shearing Speed",
+    "attribute.name.handsaw_speed": "Cutting Speed",
     "attribute.name.ore_mining_speed": "Ore Mining Speed",
     "attribute.name.obsidian_mining_speed": "Obsidian Mining Speed",
     "attribute.name.mining_power": "Mining Power",
     "attribute.name.charge_delay": "Charge Delay",
     "attribute.name.charge_duration": "Charge Duration",
+    
+    "stats.shield.block": "Damage Blocked: ",
+    "stats.shield.absorb": "Damage Absorbed: ",
+    "stats.shield.blocking_angle": "Blocking Angle: ",
 
     "death.attack.dagger": "%1$s was stabbed to death by %2$s",
     "death.attack.dagger.item": "%1$s was stabbed to death by %2$s using %3$s",
@@ -248,7 +258,7 @@
     "advancements.combat.root.title": "Combat",
     "advancements.combat.root.description": "Attack and Defend!",
     "advancements.combat.overkill.title": "Overkill",
-    "advancements.combat.overkill.description": "Deal 10 hearts of damage in a single hit",
+    "advancements.combat.overkill.description": "Deal 20 hearts of damage in a single hit",
     "advancements.combat.overoverkill.title": "Over-Overkill",
     "advancements.combat.overoverkill.description": "Deal 50 hearts of damage in a single hit using a Spear.",
     "advancements.adventure.overoverkill.title": "SMAAAAAASH!",
@@ -330,10 +340,6 @@
     "stat.minecraft.interact_with_stonecutter": "Interactions with Sawmill",
     "stat.minecraft.clean_shulker_box": "Portal Boxes Cleaned",
     "stat.minecraft.open_shulker_box": "Portal Boxes Opened",
-
-    "stats.shield.block": "Damage Blocked: ",
-    "stats.shield.absorb": "Damage Absorbed: ",
-    "stats.shield.blocking_angle": "Blocking Angle: ",
     
     "subtitles.enchant.power.melee": "Powered Attack",
     "subtitles.enchant.power.ranged": "Powered Shot",

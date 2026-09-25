@@ -1,10 +1,7 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "shield",
-        "components": {
-            "item_model": "event:shield/wooden_shield"
-        }
+        "items": "shield"
     },
     "on_pass": {
         "type": "sequence",
@@ -13,7 +10,6 @@
             {
                 "type": "set_components",
                 "components": {
-                    "item_model": "event:shield/wooden_shield",
                     "blocks_attacks": {
                         "block_delay_seconds": 0,
                         "block_sound": "item.shield.block",

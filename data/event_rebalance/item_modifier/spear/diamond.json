@@ -90,11 +90,7 @@
                         "color": "#AAAAAA",
                         "italic": false
                     },
-                    {
-                        "translate": "item.modifiers.mainhand",
-                        "color": "#AAAAAA",
-                        "italic": false
-                    },
+                    
                     {
                         "translate": " 5 ",
                         "extra": [

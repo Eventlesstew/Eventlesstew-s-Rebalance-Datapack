@@ -62,11 +62,7 @@
             {
                 "type": "minecraft:set_lore",
                 "lore": [
-                    {
-                        "translate": "item.modifiers.mainhand",
-                        "color": "#AAAAAA",
-                        "italic": false
-                    },
+                    
                     {
                         "translate": " 3 ",
                         "extra": [
@@ -88,13 +84,13 @@
                         "italic": false
                     },
                     {
-                        "translate": " X6 ",
+                        "translate": " 6 ",
                         "extra": [
                             {
-                                "translate": "attribute.name.mining_speed"
+                                "translate": "attribute.name.handsaw_speed"
                             }
                         ],
-                        "color": "#d3a921",
+                        "color": "#1aa819",
                         "italic": false
                     },
                     {
@@ -104,7 +100,7 @@
                                 "translate": "attribute.name.mining_power"
                             }
                         ],
-                        "color": "#d3a921",
+                        "color": "#1aa819",
                         "italic": false
                     }
                 ],

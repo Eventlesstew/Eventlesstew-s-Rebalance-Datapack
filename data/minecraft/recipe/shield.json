@@ -14,12 +14,6 @@
     "count": 1,
     "id": "minecraft:shield",
     "components": {
-      "item_model": "event:shield/wooden_shield",
-      "item_name": [
-        {
-          "translate": "item.event.wooden_shield"
-        }
-      ],
       "lore": [
         {
           "translate": " ",

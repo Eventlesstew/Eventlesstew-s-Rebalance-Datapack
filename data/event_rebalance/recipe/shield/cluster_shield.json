@@ -20,9 +20,6 @@
           "translate": "item.event.cluster_shield"
         }
       ],
-      "custom_data": {
-        "cluster_shield":true
-      },
       "lore": [
         {
           "translate": " ",

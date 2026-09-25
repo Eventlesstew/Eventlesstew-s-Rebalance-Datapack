@@ -58,11 +58,7 @@
                         "color": "#AAAAAA",
                         "italic": false
                     },
-                    {
-                        "translate": "item.modifiers.mainhand",
-                        "color": "#AAAAAA",
-                        "italic": false
-                    },
+                    
                     {
                         "translate": " 7 ",
                         "extra": [
@@ -84,13 +80,13 @@
                         "italic": false
                     },
                     {
-                        "translate": " X16 ",
+                        "translate": " 16 ",
                         "extra": [
                             {
-                                "translate": "attribute.name.mining_speed"
+                                "translate": "attribute.name.cultivating_speed"
                             }
                         ],
-                        "color": "#d3a921",
+                        "color": "#1aa819",
                         "italic": false
                     }
                 ],

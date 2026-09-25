@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "S": "minecraft:copper_ingot",
-    "N": "redstone",
+    "N": "glowstone",
     "G": "minecraft:quartz"
   },
   "pattern": [
@@ -21,9 +21,6 @@
           "translate": "item.event.gear_shield"
         }
       ],
-      "custom_data": {
-        "gear_shield":true
-      },
       "lore": [
         {
           "translate": " ",

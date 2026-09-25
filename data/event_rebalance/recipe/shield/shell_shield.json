@@ -20,9 +20,6 @@
           "translate": "item.event.shell_shield"
         }
       ],
-      "custom_data": {
-        "shell_shield":true
-      },
       "lore": [
         {
           "translate": " ",

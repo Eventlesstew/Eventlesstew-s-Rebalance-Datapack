@@ -18,9 +18,6 @@
           "translate": "item.event.mini_shield"
         }
       ],
-      "custom_data": {
-        "mini_shield":true
-      },
       "lore": [
         {
           "translate": " ",
