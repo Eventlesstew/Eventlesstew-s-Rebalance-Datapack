@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WWW",
+    " SW",
+    "   "
+  ],
+  "key": {
+    "S": [
+      "minecraft:sugar"
+    ],
+    "W": [
+      "minecraft:wheat"
+    ]
+  },
+  "result": {
+    "id": "minecraft:music_disc_creator",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 4,
+        "saturation": 1
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 1
+      },
+      "minecraft:item_name": "Biscuit",
+      "minecraft:custom_model_data": {
+        "floats": [],
+        "flags": [],
+        "strings": [
+          "biscuit"
+        ]
+      }
+    }
+  }
+}
