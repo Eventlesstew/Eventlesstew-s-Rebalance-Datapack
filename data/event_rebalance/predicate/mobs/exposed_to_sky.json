@@ -1,0 +1,39 @@
+{
+	"type": "minecraft:all_of",
+	"terms": [
+		{
+			"type": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"minecraft:location": {
+					"can_see_sky": true
+				}
+			}
+		},
+        {
+            "type": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "head": {
+                        "items": "air"
+                    }
+                }
+            }
+        },
+        {
+            "type": "weather_check",
+            "raining": false,
+            "thundering": false
+        },
+        {
+            "type": "time_check",
+            "clock": "minecraft:overworld",
+            "value": {
+                "min": 0, 
+                "max": 12000
+            },
+            "period": 24000
+        }
+	]
+}

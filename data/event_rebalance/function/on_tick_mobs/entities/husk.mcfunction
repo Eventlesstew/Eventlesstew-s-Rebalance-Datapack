@@ -1,0 +1,2 @@
+execute store result score fire temp run data get entity @s Fire 1
+execute if score fire temp <= 0 static at @s if entity @s[nbt={Fire:0s}] if predicate event_rebalance:mobs/exposed_to_sky run data modify entity @s Fire set value 600

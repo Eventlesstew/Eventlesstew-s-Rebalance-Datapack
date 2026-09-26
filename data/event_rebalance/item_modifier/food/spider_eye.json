@@ -37,7 +37,7 @@
                 "mode": "replace_all",
                 "lore": [
                     {
-                        "translate": "attribute.name.consumable.food.nutrition.8",
+                        "translate": "attribute.name.consumable.food.nutrition.4",
                         "color": "#f5ce0c",
                         "italic": false
                     },
