@@ -1,7 +1,7 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "poisonous_potato"
+        "items": "sweet_berries"
     },
     "on_pass": {
         "type": "sequence",
@@ -11,32 +11,28 @@
                 "type": "minecraft:set_components",
                 "components": {
                     "food": {
-                        "nutrition": 0,
+                        "nutrition": 2,
                         "saturation": 2
                     },
                     "consumable": {
-                        "consume_seconds": 2,
+                        "consume_seconds": 1,
+                        "sound": {
+                            "sound_id": "item.apple.eat"
+                        },
                         "on_consume_effects": [
                             {
-                                "type": "minecraft:apply_effects",
+                                "type": "apply_effects",
                                 "effects": [
                                     {
-                                    "id": "minecraft:poison",
-                                    "amplifier": 0,
-                                    "duration": 200
+                                        "id": "regeneration",
+                                        "amplifier": 2,
+                                        "duration": 24,
+                                        "show_icon": false,
+                                        "show_particles": false
                                     }
                                 ]
-                            },
-                            {
-                                "type": "play_sound",
-                                "sound": {
-                                    "sound_id": "item.bad_food.consume"
-                                }
                             }
                         ]
-                    },
-                    "compostable": {
-                        "layers": "compostable/always_add_one"
                     }
                 }
             },
@@ -45,7 +41,7 @@
                 "mode": "replace_all",
                 "lore": [
                     {
-                        "translate": " 2s ",
+                        "translate": " 1s ",
                         "extra": [
                             {
                                 "translate": "attribute.name.consumable.food.eating_time"
@@ -55,17 +51,23 @@
                         "italic": false
                     },
                     {
+                        "translate": "attribute.name.consumable.food.nutrition.2",
+                        "color": "#f5ce0c",
+                        "italic": false
+                    },
+                    {
                         "translate": "attribute.name.consumable.food.saturation.2",
                         "color": "#f5ce0c",
                         "italic": false
                     },
                     {
-                        "translate": "attribute.name.consumable.food.effect.poisonous_potato",
-                        "color": "#ff5555",
+                        "translate": "attribute.name.consumable.food.health.2",
+                        "color": "#f545ac",
                         "italic": false
                     }
                 ]
-            }
+            },
+            "event_rebalance:food/stats/slowing/no"
         ]
     }
 }

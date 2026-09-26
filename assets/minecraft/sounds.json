@@ -90,7 +90,7 @@
         ],
         "subtitle": "subtitles.entity.player.burp.golden_food"
     },
-    "event.effect_apply.enchanted_gold":{
+    "item.enchanted_golden_food.consume":{
         "sounds":[ 
             {"name":"event:item/enchanted_golden_apple/consume/1"},
             {"name":"event:item/enchanted_golden_apple/consume/2"},

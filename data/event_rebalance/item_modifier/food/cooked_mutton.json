@@ -1,7 +1,7 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "baked_potato"
+        "items": "cooked_mutton"
     },
     "on_pass": {
         "type": "sequence",
@@ -11,8 +11,8 @@
                 "type": "minecraft:set_components",
                 "components": {
                     "food": {
-                        "nutrition": 8,
-                        "saturation": 8
+                        "nutrition": 6,
+                        "saturation": 4
                     },
                     "consumable": {
                         "consume_seconds": 2
@@ -34,18 +34,17 @@
                         "italic": false
                     },
                     {
-                        "translate": "attribute.name.consumable.food.nutrition.8",
+                        "translate": "attribute.name.consumable.food.nutrition.6",
                         "color": "#f5ce0c",
                         "italic": false
                     },
                     {
-                        "translate": "attribute.name.consumable.food.saturation.8",
+                        "translate": "attribute.name.consumable.food.saturation.4",
                         "color": "#f5ce0c",
                         "italic": false
                     }
                 ]
-            },
-            "event_rebalance:food/stats/slowing/less"
+            }
         ]
     }
 }

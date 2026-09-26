@@ -1,7 +1,10 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "poisonous_potato"
+        "items": "pumpkin_pie",
+        "components": {
+            "item_model": "event:cooked_tropical_fish"
+        }
     },
     "on_pass": {
         "type": "sequence",
@@ -11,14 +14,15 @@
                 "type": "minecraft:set_components",
                 "components": {
                     "food": {
-                        "nutrition": 0,
-                        "saturation": 2
+                        "nutrition": 8,
+                        "saturation": 8
                     },
                     "consumable": {
                         "consume_seconds": 2,
                         "on_consume_effects": [
                             {
                                 "type": "minecraft:apply_effects",
+                                "probability": 0.05,
                                 "effects": [
                                     {
                                     "id": "minecraft:poison",
@@ -26,17 +30,8 @@
                                     "duration": 200
                                     }
                                 ]
-                            },
-                            {
-                                "type": "play_sound",
-                                "sound": {
-                                    "sound_id": "item.bad_food.consume"
-                                }
                             }
                         ]
-                    },
-                    "compostable": {
-                        "layers": "compostable/always_add_one"
                     }
                 }
             },
@@ -55,12 +50,24 @@
                         "italic": false
                     },
                     {
-                        "translate": "attribute.name.consumable.food.saturation.2",
+                        "translate": "attribute.name.consumable.food.nutrition.8",
                         "color": "#f5ce0c",
                         "italic": false
                     },
                     {
-                        "translate": "attribute.name.consumable.food.effect.poisonous_potato",
+                        "translate": "attribute.name.consumable.food.saturation.8",
+                        "color": "#f5ce0c",
+                        "italic": false
+                    }
+                ]
+            },
+            "event_rebalance:food/stats/slowing/less",
+            {
+                "type": "set_lore",
+                "mode": "append",
+                "lore": [
+                    {
+                        "translate": "attribute.name.consumable.food.effect.cooked_tropical_fish",
                         "color": "#ff5555",
                         "italic": false
                     }

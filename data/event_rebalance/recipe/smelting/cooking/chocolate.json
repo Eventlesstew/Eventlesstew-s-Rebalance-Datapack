@@ -1,0 +1,15 @@
+{
+    "type": "campfire_cooking",
+    "cookingtime":600,
+    "category": "food",
+    "ingredient": "cocoa_beans",
+    "result": {
+        "id": "pumpkin_pie",
+        "components": {
+            "item_model": "event:chocolate",
+            "item_name": {
+                "translate": "item.event.chocolate"
+            }
+        }
+    }
+}

@@ -1,7 +1,7 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "baked_potato"
+        "items": "mushroom_stew"
     },
     "on_pass": {
         "type": "sequence",
@@ -11,11 +11,14 @@
                 "type": "minecraft:set_components",
                 "components": {
                     "food": {
-                        "nutrition": 8,
-                        "saturation": 8
+                        "nutrition": 12,
+                        "saturation": 5
                     },
                     "consumable": {
-                        "consume_seconds": 2
+                        "consume_seconds": 2,
+                        "sound": {
+                            "sound_id": "entity.generic.drink"
+                        }
                     }
                 }
             },
@@ -34,12 +37,12 @@
                         "italic": false
                     },
                     {
-                        "translate": "attribute.name.consumable.food.nutrition.8",
+                        "translate": "attribute.name.consumable.food.nutrition.12",
                         "color": "#f5ce0c",
                         "italic": false
                     },
                     {
-                        "translate": "attribute.name.consumable.food.saturation.8",
+                        "translate": "attribute.name.consumable.food.saturation.5",
                         "color": "#f5ce0c",
                         "italic": false
                     }

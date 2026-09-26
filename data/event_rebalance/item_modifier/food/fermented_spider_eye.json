@@ -1,7 +1,7 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "poisonous_potato"
+        "items": "fermented_spider_eye"
     },
     "on_pass": {
         "type": "sequence",
@@ -11,32 +11,24 @@
                 "type": "minecraft:set_components",
                 "components": {
                     "food": {
-                        "nutrition": 0,
-                        "saturation": 2
+                        "nutrition": 6,
+                        "saturation": 2,
+                        "can_always_eat": true
                     },
                     "consumable": {
-                        "consume_seconds": 2,
+                        "consume_seconds": 1,
                         "on_consume_effects": [
                             {
                                 "type": "minecraft:apply_effects",
                                 "effects": [
                                     {
-                                    "id": "minecraft:poison",
+                                    "id": "minecraft:strength",
                                     "amplifier": 0,
                                     "duration": 200
                                     }
                                 ]
-                            },
-                            {
-                                "type": "play_sound",
-                                "sound": {
-                                    "sound_id": "item.bad_food.consume"
-                                }
                             }
                         ]
-                    },
-                    "compostable": {
-                        "layers": "compostable/always_add_one"
                     }
                 }
             },
@@ -45,7 +37,7 @@
                 "mode": "replace_all",
                 "lore": [
                     {
-                        "translate": " 2s ",
+                        "translate": " 1s ",
                         "extra": [
                             {
                                 "translate": "attribute.name.consumable.food.eating_time"
@@ -55,13 +47,18 @@
                         "italic": false
                     },
                     {
-                        "translate": "attribute.name.consumable.food.saturation.2",
+                        "translate": "attribute.name.consumable.food.nutrition.8",
                         "color": "#f5ce0c",
                         "italic": false
                     },
                     {
-                        "translate": "attribute.name.consumable.food.effect.poisonous_potato",
-                        "color": "#ff5555",
+                        "translate": "attribute.name.consumable.food.always_edible",
+                        "color": "#f78324",
+                        "italic": false
+                    },
+                    {
+                        "translate": "attribute.name.consumable.food.effect.fermented_spider_eye",
+                        "color": "#5555ff",
                         "italic": false
                     }
                 ]

@@ -8,7 +8,7 @@
                 "effects": {
                     "glowing": {
                         "amplifier": {
-                            "min": 3
+                            "min": 2
                         }
                     }
                 }

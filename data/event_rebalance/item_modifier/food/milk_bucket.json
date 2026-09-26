@@ -1,21 +1,26 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "baked_potato"
+        "items": "milk_bucket"
     },
     "on_pass": {
         "type": "sequence",
         "functions": [
             "event_rebalance:modified",
+            "event_rebalance:make_stackable",
             {
                 "type": "minecraft:set_components",
                 "components": {
-                    "food": {
-                        "nutrition": 8,
-                        "saturation": 8
-                    },
                     "consumable": {
-                        "consume_seconds": 2
+                        "consume_seconds": 2,
+                        "sound": {
+                            "sound_id": "entity.generic.drink"
+                        },
+                        "on_consume_effects": [
+                            {
+                                "type": "clear_all_effects"
+                            }
+                        ]
                     }
                 }
             },
@@ -27,25 +32,19 @@
                         "translate": " 2s ",
                         "extra": [
                             {
-                                "translate": "attribute.name.consumable.food.eating_time"
+                                "translate": "attribute.name.consumable.food.drinking_time"
                             }
                         ],
                         "color": "#f5ce0c",
                         "italic": false
                     },
                     {
-                        "translate": "attribute.name.consumable.food.nutrition.8",
-                        "color": "#f5ce0c",
-                        "italic": false
-                    },
-                    {
-                        "translate": "attribute.name.consumable.food.saturation.8",
-                        "color": "#f5ce0c",
+                        "translate": "attribute.name.consumable.food.effect.milk_bucket",
+                        "color": "#5555ff",
                         "italic": false
                     }
                 ]
-            },
-            "event_rebalance:food/stats/slowing/less"
+            }
         ]
     }
 }

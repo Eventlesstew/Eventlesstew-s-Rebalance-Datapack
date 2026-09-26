@@ -1,0 +1,16 @@
+{
+    "type": "smoking",
+    "cookingtime":100,
+    "experience": 0.7,
+    "category": "food",
+    "ingredient": "tropical_fish",
+    "result": {
+        "id": "pumpkin_pie",
+        "components": {
+            "item_model": "event:cooked_tropical_fish",
+            "item_name": {
+                "translate": "item.event.cooked_tropical_fish"
+            }
+        }
+    }
+}

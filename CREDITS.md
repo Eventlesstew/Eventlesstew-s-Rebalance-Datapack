@@ -1,7 +1,8 @@
 # Credits
-- 99% of everything: Eventlesstew
+- Making the Datapack: Eventlesstew
 - Nether Fortress Rework: Slimester and Tusky
 - Rose Golden Nugget Texture: Slimester
+- Literally half of the stuff here: Slimester
 - Doing 1% of the work: Terrozei
 
 # Taken from other Datapacks
@@ -33,7 +34,7 @@ Some things from Matcha Flavoured also inspired a couple things here.
 - Cheaper Campfires
 - Smeltable Grass to Dry Grass
 - Cheaper Mud Crafting
-- "Interesting Intrinsic" Advancement is a reference to Matcha Flavoured.
+- Potion Effects from eating food
 
 ## Slimester's Datapack
 Slimester was making a datapack that inspired me to make this one.
@@ -60,6 +61,8 @@ Hence, I "burrowed" the following things from him, which includes but not limite
 - Rose Golden Gear
 - Shields
 - New Foods
+- Idea for variable eating times and speed reductions.
+- New Food Sounds
 
 Enchantment Credits:
 - Acceleration
@@ -82,3 +85,7 @@ Enchantment Credits:
 - Rebound
 - Valor
 
+Food Credits:
+- Much of the reworks made to existing food
+- Chocolate
+- Apple Pie

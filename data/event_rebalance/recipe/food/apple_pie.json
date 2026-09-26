@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "A":"apple",
+        "W":"wheat",
+        "E":"#eggs"
+    },
+    "pattern": [
+        "AAA",
+        "WEW"
+    ],
+    "result": {
+        "id": "pumpkin_pie",
+        "components": {
+            "item_model": "event:apple_pie",
+            "item_name": {
+                "translate": "item.event.apple_pie"
+            }
+        }
+    }
+}

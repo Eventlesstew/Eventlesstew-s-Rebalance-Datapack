@@ -1,7 +1,7 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "baked_potato"
+        "items": "suspicious_stew"
     },
     "on_pass": {
         "type": "sequence",
@@ -11,11 +11,15 @@
                 "type": "minecraft:set_components",
                 "components": {
                     "food": {
-                        "nutrition": 8,
-                        "saturation": 8
+                        "nutrition": 12,
+                        "saturation": 5,
+                        "can_always_eat": true
                     },
                     "consumable": {
-                        "consume_seconds": 2
+                        "consume_seconds": 2,
+                        "sound": {
+                            "sound_id": "entity.generic.drink"
+                        }
                     }
                 }
             },
@@ -34,18 +38,34 @@
                         "italic": false
                     },
                     {
-                        "translate": "attribute.name.consumable.food.nutrition.8",
+                        "translate": "attribute.name.consumable.food.nutrition.12",
                         "color": "#f5ce0c",
                         "italic": false
                     },
                     {
-                        "translate": "attribute.name.consumable.food.saturation.8",
+                        "translate": "attribute.name.consumable.food.saturation.5",
                         "color": "#f5ce0c",
+                        "italic": false
+                    },
+                    {
+                        "translate": "attribute.name.consumable.food.always_edible",
+                        "color": "#f78324",
                         "italic": false
                     }
                 ]
             },
-            "event_rebalance:food/stats/slowing/less"
+            "event_rebalance:food/stats/slowing/less",
+            {
+                "type": "set_lore",
+                "mode": "append",
+                "lore": [
+                    {
+                        "translate": "attribute.name.consumable.food.effect.suspicious_stew",
+                        "color": "#7a58f1",
+                        "italic": false
+                    }
+                ]
+            }
         ]
     }
 }

@@ -1,7 +1,7 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "poisonous_potato"
+        "items": "cod"
     },
     "on_pass": {
         "type": "sequence",
@@ -11,19 +11,20 @@
                 "type": "minecraft:set_components",
                 "components": {
                     "food": {
-                        "nutrition": 0,
-                        "saturation": 2
+                        "nutrition": 6,
+                        "saturation": 1
                     },
                     "consumable": {
                         "consume_seconds": 2,
                         "on_consume_effects": [
                             {
                                 "type": "minecraft:apply_effects",
+                                "probability": 0.1,
                                 "effects": [
                                     {
                                     "id": "minecraft:poison",
-                                    "amplifier": 0,
-                                    "duration": 200
+                                    "amplifier": 1,
+                                    "duration": 400
                                     }
                                 ]
                             },
@@ -34,9 +35,6 @@
                                 }
                             }
                         ]
-                    },
-                    "compostable": {
-                        "layers": "compostable/always_add_one"
                     }
                 }
             },
@@ -55,12 +53,17 @@
                         "italic": false
                     },
                     {
-                        "translate": "attribute.name.consumable.food.saturation.2",
+                        "translate": "attribute.name.consumable.food.nutrition.6",
                         "color": "#f5ce0c",
                         "italic": false
                     },
                     {
-                        "translate": "attribute.name.consumable.food.effect.poisonous_potato",
+                        "translate": "attribute.name.consumable.food.saturation.1",
+                        "color": "#f5ce0c",
+                        "italic": false
+                    },
+                    {
+                        "translate": "attribute.name.consumable.food.effect.raw_cod",
                         "color": "#ff5555",
                         "italic": false
                     }

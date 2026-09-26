@@ -1,7 +1,7 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "baked_potato"
+        "items": "cooked_salmon"
     },
     "on_pass": {
         "type": "sequence",
@@ -44,8 +44,7 @@
                         "italic": false
                     }
                 ]
-            },
-            "event_rebalance:food/stats/slowing/less"
+            }
         ]
     }
 }

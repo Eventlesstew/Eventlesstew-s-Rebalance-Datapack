@@ -1,7 +1,7 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "baked_potato"
+        "items": "#event_rebalance:custom_item/chocolate"
     },
     "on_pass": {
         "type": "sequence",
@@ -10,9 +10,13 @@
             {
                 "type": "minecraft:set_components",
                 "components": {
+                    "item_model":"event:chocolate",
+                    "item_name":{
+                        "translate": "item.event.chocolate"
+                    },
                     "food": {
-                        "nutrition": 8,
-                        "saturation": 8
+                        "nutrition": 1,
+                        "saturation": 4
                     },
                     "consumable": {
                         "consume_seconds": 2
@@ -34,18 +38,17 @@
                         "italic": false
                     },
                     {
-                        "translate": "attribute.name.consumable.food.nutrition.8",
+                        "translate": "attribute.name.consumable.food.nutrition.1",
                         "color": "#f5ce0c",
                         "italic": false
                     },
                     {
-                        "translate": "attribute.name.consumable.food.saturation.8",
+                        "translate": "attribute.name.consumable.food.saturation.4",
                         "color": "#f5ce0c",
                         "italic": false
                     }
                 ]
-            },
-            "event_rebalance:food/stats/slowing/less"
+            }
         ]
     }
 }

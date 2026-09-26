@@ -7,7 +7,7 @@
             "predicate": {
                 "effects": {
                     "glowing": {
-                        "amplifier": 2
+                        "amplifier": 1
                     }
                 }
             }

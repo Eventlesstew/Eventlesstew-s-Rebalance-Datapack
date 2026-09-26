@@ -11,18 +11,19 @@
                 "type": "minecraft:set_components",
                 "components": {
                     "food": {
-                        "nutrition": 2,
-                        "saturation": 2
+                        "nutrition": 3,
+                        "saturation": 3
                     },
                     "consumable": {
+                        "consume_seconds": 2,
                         "on_consume_effects": [
                             {
                                 "type": "apply_effects",
                                 "effects": [
                                     {
                                         "id": "regeneration",
-                                        "amplifier": 3,
-                                        "duration": 24
+                                        "amplifier": 2,
+                                        "duration": 36
                                     }
                                 ]
                             }
@@ -35,7 +36,7 @@
                 "mode": "replace_all",
                 "lore": [
                     {
-                        "translate": " 1s ",
+                        "translate": " 2s ",
                         "extra": [
                             {
                                 "translate": "attribute.name.consumable.food.eating_time"
@@ -45,22 +46,23 @@
                         "italic": false
                     },
                     {
-                        "translate": "attribute.name.consumable.food.nutrition.2",
+                        "translate": "attribute.name.consumable.food.nutrition.3",
                         "color": "#f5ce0c",
                         "italic": false
                     },
                     {
-                        "translate": "attribute.name.consumable.food.saturation.2",
+                        "translate": "attribute.name.consumable.food.saturation.3",
                         "color": "#f5ce0c",
                         "italic": false
                     },
                     {
-                        "translate": "attribute.name.consumable.food.health.2",
+                        "translate": "attribute.name.consumable.food.health.3",
                         "color": "#f545ac",
                         "italic": false
                     }
                 ]
-            }
+            },
+            "event_rebalance:food/stats/slowing/more"
         ]
     }
 }

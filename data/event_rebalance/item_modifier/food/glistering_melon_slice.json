@@ -1,7 +1,7 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "golden_carrot"
+        "items": "glistering_melon_slice"
     },
     "on_pass": {
         "type": "sequence",
@@ -11,29 +11,28 @@
                 "type": "minecraft:set_components",
                 "components": {
                     "food": {
-                        "nutrition": 4,
-                        "saturation": 4,
+                        "nutrition": 5,
+                        "saturation": 5,
                         "can_always_eat": true
                     },
                     "consumable": {
                         "consume_seconds": 2,
-                        "sound": {
-                            "sound_id": "item.apple.eat"
-                        },
                         "on_consume_effects": [
                             {
-                                "type": "minecraft:remove_effects",
+                                "type": "remove_effects",
                                 "effects": [
-                                    "darkness",
-                                    "blindness"
+                                    "wither"
                                 ]
                             },
                             {
                                 "type": "apply_effects",
                                 "effects": [
                                     {
-                                        "id": "night_vision",
-                                        "duration": 1200
+                                        "id": "instant_health",
+                                        "amplifier": 1,
+                                        "duration": 1,
+                                        "show_icon": false,
+                                        "show_particles": false
                                     }
                                 ]
                             },
@@ -62,13 +61,18 @@
                         "italic": false
                     },
                     {
-                        "translate": "attribute.name.consumable.food.nutrition.4",
+                        "translate": "attribute.name.consumable.food.nutrition.5",
                         "color": "#f5ce0c",
                         "italic": false
                     },
                     {
-                        "translate": "attribute.name.consumable.food.saturation.16",
+                        "translate": "attribute.name.consumable.food.saturation.5",
                         "color": "#f5ce0c",
+                        "italic": false
+                    },
+                    {
+                        "translate": "attribute.name.consumable.food.health.8",
+                        "color": "#f545ac",
                         "italic": false
                     },
                     {
@@ -77,18 +81,17 @@
                         "italic": false
                     },
                     {
-                        "translate": "attribute.name.consumable.food.effect.carrot",
+                        "translate": "attribute.name.consumable.food.effect.melon_slice",
                         "color": "#5555ff",
                         "italic": false
                     },
                     {
-                        "translate": "attribute.name.consumable.food.effect.golden_carrot",
+                        "translate": "attribute.name.consumable.food.effect.glistering_melon_slice",
                         "color": "#5555ff",
                         "italic": false
                     }
                 ]
-            },
-            "event_rebalance:food/stats/slowing/less"
+            }
         ]
     }
 }

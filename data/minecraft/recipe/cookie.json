@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "wheat",
+    "sugar",
+    "#event_rebalance:custom_item/chocolate"
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:cookie"
+  }
+}
