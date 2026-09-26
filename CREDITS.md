@@ -87,5 +87,6 @@ Enchantment Credits:
 
 Food Credits:
 - Much of the reworks made to existing food
+- Cooked Tropical Fish
 - Chocolate
 - Apple Pie
