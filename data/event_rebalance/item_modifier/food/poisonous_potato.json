@@ -44,6 +44,12 @@
                 "type": "set_lore",
                 "mode": "replace_all",
                 "lore": [
+                    
+                    {
+                        "translate": "attribute.name.consumable.food.saturation.2",
+                        "color": "#f5ce0c",
+                        "italic": false
+                    },
                     {
                         "translate": " 2s ",
                         "extra": [
@@ -51,12 +57,7 @@
                                 "translate": "attribute.name.consumable.food.eating_time"
                             }
                         ],
-                        "color": "#f5ce0c",
-                        "italic": false
-                    },
-                    {
-                        "translate": "attribute.name.consumable.food.saturation.2",
-                        "color": "#f5ce0c",
+                        "color": "#5555ff",
                         "italic": false
                     },
                     {

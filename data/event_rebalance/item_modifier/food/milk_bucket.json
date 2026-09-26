@@ -32,10 +32,10 @@
                         "translate": " 2s ",
                         "extra": [
                             {
-                                "translate": "attribute.name.consumable.food.drinking_time"
+                                "translate": "attribute.name.consumable.food.eating_time"
                             }
                         ],
-                        "color": "#f5ce0c",
+                        "color": "#5555ff",
                         "italic": false
                     },
                     {

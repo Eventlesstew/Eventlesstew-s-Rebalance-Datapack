@@ -37,18 +37,18 @@
                 "mode": "replace_all",
                 "lore": [
                     {
+                        "translate": "attribute.name.consumable.food.nutrition.8",
+                        "color": "#f5ce0c",
+                        "italic": false
+                    },
+                    {
                         "translate": " 1s ",
                         "extra": [
                             {
                                 "translate": "attribute.name.consumable.food.eating_time"
                             }
                         ],
-                        "color": "#f5ce0c",
-                        "italic": false
-                    },
-                    {
-                        "translate": "attribute.name.consumable.food.nutrition.8",
-                        "color": "#f5ce0c",
+                        "color": "#24f7ed",
                         "italic": false
                     },
                     {

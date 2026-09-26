@@ -43,16 +43,6 @@
                 "mode": "replace_all",
                 "lore": [
                     {
-                        "translate": " 3s ",
-                        "extra": [
-                            {
-                                "translate": "attribute.name.consumable.food.eating_time"
-                            }
-                        ],
-                        "color": "#f5ce0c",
-                        "italic": false
-                    },
-                    {
                         "translate": "attribute.name.consumable.food.nutrition.6",
                         "color": "#f5ce0c",
                         "italic": false
@@ -60,6 +50,16 @@
                     {
                         "translate": "attribute.name.consumable.food.saturation.1",
                         "color": "#f5ce0c",
+                        "italic": false
+                    },
+                    {
+                        "translate": " 3s ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.consumable.food.eating_time"
+                            }
+                        ],
+                        "color": "#7a58f1",
                         "italic": false
                     },
                     {

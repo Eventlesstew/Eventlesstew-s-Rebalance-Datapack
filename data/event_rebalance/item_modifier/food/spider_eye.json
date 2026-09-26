@@ -37,16 +37,6 @@
                 "mode": "replace_all",
                 "lore": [
                     {
-                        "translate": " 1s ",
-                        "extra": [
-                            {
-                                "translate": "attribute.name.consumable.food.eating_time"
-                            }
-                        ],
-                        "color": "#f5ce0c",
-                        "italic": false
-                    },
-                    {
                         "translate": "attribute.name.consumable.food.nutrition.8",
                         "color": "#f5ce0c",
                         "italic": false
@@ -54,6 +44,16 @@
                     {
                         "translate": "attribute.name.consumable.food.always_edible",
                         "color": "#f78324",
+                        "italic": false
+                    },
+                    {
+                        "translate": " 1s ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.consumable.food.eating_time"
+                            }
+                        ],
+                        "color": "#24f7ed",
                         "italic": false
                     }
                 ]
@@ -63,6 +63,11 @@
                 "type": "set_lore",
                 "mode": "append",
                 "lore": [
+                    {
+                        "translate": "attribute.name.consumable.food.always_edible",
+                        "color": "#f78324",
+                        "italic": false
+                    },
                     {
                         "translate": "attribute.name.consumable.food.effect.spider_eye",
                         "color": "#ff5555",

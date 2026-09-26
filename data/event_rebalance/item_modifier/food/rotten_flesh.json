@@ -53,8 +53,13 @@
                         "italic": false
                     },
                     {
-                        "translate": "attribute.name.consumable.food.always_edible",
-                        "color": "#f78324",
+                        "translate": " 2s ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.consumable.food.eating_time"
+                            }
+                        ],
+                        "color": "#5555ff",
                         "italic": false
                     }
                 ]
@@ -64,6 +69,11 @@
                 "type": "set_lore",
                 "mode": "append",
                 "lore": [
+                    {
+                        "translate": "attribute.name.consumable.food.always_edible",
+                        "color": "#f78324",
+                        "italic": false
+                    },
                     {
                         "translate": "attribute.name.consumable.food.effect.rotten_flesh",
                         "color": "#ff5555",

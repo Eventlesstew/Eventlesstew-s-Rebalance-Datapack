@@ -127,7 +127,9 @@
             "event_rebalance:other_weapons/trident",
             "event_rebalance:other_weapons/mace",
             "event_rebalance:other_weapons/staff",
-
+            
+            "event_rebalance:food/pumpkin_pie",
+            
             "event_rebalance:food/potato",
             "event_rebalance:food/baked_potato",
             "event_rebalance:food/poisonous_potato",

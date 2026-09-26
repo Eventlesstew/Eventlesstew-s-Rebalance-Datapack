@@ -25,16 +25,6 @@
                 "mode": "replace_all",
                 "lore": [
                     {
-                        "translate": " 4s ",
-                        "extra": [
-                            {
-                                "translate": "attribute.name.consumable.food.eating_time"
-                            }
-                        ],
-                        "color": "#f5ce0c",
-                        "italic": false
-                    },
-                    {
                         "translate": "attribute.name.consumable.food.nutrition.10",
                         "color": "#f5ce0c",
                         "italic": false
@@ -45,13 +35,29 @@
                         "italic": false
                     },
                     {
+                        "translate": " 4s ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.consumable.food.eating_time"
+                            }
+                        ],
+                        "color": "#7a58f1",
+                        "italic": false
+                    }
+                ]
+            },
+            "event_rebalance:food/stats/slowing/no",
+            {
+                "type": "set_lore",
+                "mode": "append",
+                "lore": [
+                    {
                         "translate": "attribute.name.consumable.food.always_edible",
                         "color": "#f78324",
                         "italic": false
                     }
                 ]
-            },
-            "event_rebalance:food/stats/slowing/no"
+            }
         ]
     }
 }
