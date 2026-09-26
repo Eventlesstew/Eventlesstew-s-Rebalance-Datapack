@@ -1,7 +1,7 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "popped_chorus_fruit"
+        "items": "beetroot"
     },
     "on_pass": {
         "type": "sequence",
@@ -10,18 +10,23 @@
             {
                 "type": "minecraft:set_components",
                 "components": {
-                    "consumable": {
-                        "sound": {
-                            "sound_id": "item.bread.eat"
-                        }
-                    },
-                    "use_cooldown": {
-                        "seconds": 2
-                    },
                     "food": {
-                        "nutrition": 8,
-                        "saturation": 4,
-                        "can_always_eat": true
+                        "nutrition": 2,
+                        "saturation": 2
+                    },
+                    "consumable": {
+                        "on_consume_effects": [
+                            {
+                                "type": "apply_effects",
+                                "effects": [
+                                    {
+                                        "id": "regeneration",
+                                        "amplifier": 3,
+                                        "duration": 24
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 }
             },
@@ -30,7 +35,7 @@
                 "mode": "replace_all",
                 "lore": [
                     {
-                        "translate": " 2s ",
+                        "translate": " 1s ",
                         "extra": [
                             {
                                 "translate": "attribute.name.consumable.food.eating_time"
@@ -40,23 +45,18 @@
                         "italic": false
                     },
                     {
-                        "translate": "attribute.name.consumable.food.nutrition.8",
+                        "translate": "attribute.name.consumable.food.nutrition.2",
                         "color": "#f5ce0c",
                         "italic": false
                     },
                     {
-                        "translate": "attribute.name.consumable.food.saturation.4",
+                        "translate": "attribute.name.consumable.food.saturation.2",
                         "color": "#f5ce0c",
                         "italic": false
                     },
                     {
-                        "translate": "attribute.name.consumable.food.always_edible",
-                        "color": "#f78324",
-                        "italic": false
-                    },
-                    {
-                        "translate": "attribute.name.consumable.food.effect.popped_chorus_fruit",
-                        "color": "#9824f7",
+                        "translate": "attribute.name.consumable.food.health.2",
+                        "color": "#f545ac",
                         "italic": false
                     }
                 ]

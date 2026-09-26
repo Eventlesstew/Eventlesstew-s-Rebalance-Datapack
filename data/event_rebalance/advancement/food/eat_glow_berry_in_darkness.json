@@ -1,0 +1,40 @@
+{
+  "parent": "nether/brew_potion",
+  "criteria": {
+    "suspicious_stew": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:glow_berries"
+        },
+        "player": {
+            "type": "location_check",
+            "predicate": {
+                "light": {
+                    "light": {
+                        "max": 0
+                    }
+                }
+            }
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.food.eat_glow_berry_in_darkness.description"
+    },
+    "icon": {
+      "id": "minecraft:glow_berries"
+    },
+    "title": {
+      "translate": "advancements.food.eat_glow_berry_in_darkness.title"
+    }
+  },
+  "requirements": [
+    [
+      "suspicious_stew"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

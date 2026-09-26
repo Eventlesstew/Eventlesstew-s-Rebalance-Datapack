@@ -1,0 +1,26 @@
+{
+    "type": "sequence",
+    "functions": [
+        "event_rebalance:modified",
+        {
+            "type": "minecraft:set_components",
+            "components": {
+                "minecraft:use_effects": {
+                    "speed_multiplier": 0.5,
+                    "can_sprint": true
+                }
+            }
+        },
+        {
+            "type": "set_lore",
+            "mode": "append",
+            "lore": [
+                {
+                    "translate": "attribute.name.consumable.food.slowing.less",
+                    "color": "#24f7ed",
+                    "italic": false
+                }
+            ]
+        }
+    ]
+}

@@ -1,7 +1,7 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "popped_chorus_fruit"
+        "items": "carrot"
     },
     "on_pass": {
         "type": "sequence",
@@ -10,18 +10,30 @@
             {
                 "type": "minecraft:set_components",
                 "components": {
-                    "consumable": {
-                        "sound": {
-                            "sound_id": "item.bread.eat"
-                        }
-                    },
-                    "use_cooldown": {
-                        "seconds": 2
-                    },
                     "food": {
-                        "nutrition": 8,
+                        "nutrition": 4,
                         "saturation": 4,
                         "can_always_eat": true
+                    },
+                    "consumable": {
+                        "sound": {
+                            "sound_id": "item.apple.eat"
+                        },
+                        "on_consume_effects": [
+                            {
+                                "type": "minecraft:remove_effects",
+                                "effects": [
+                                    "darkness",
+                                    "blindness"
+                                ]
+                            },
+                            {
+                                "type": "play_sound",
+                                "sound": {
+                                    "sound_id": "item.carrot.consume"
+                                }
+                            }
+                        ]
                     }
                 }
             },
@@ -40,7 +52,7 @@
                         "italic": false
                     },
                     {
-                        "translate": "attribute.name.consumable.food.nutrition.8",
+                        "translate": "attribute.name.consumable.food.nutrition.4",
                         "color": "#f5ce0c",
                         "italic": false
                     },
@@ -53,14 +65,10 @@
                         "translate": "attribute.name.consumable.food.always_edible",
                         "color": "#f78324",
                         "italic": false
-                    },
-                    {
-                        "translate": "attribute.name.consumable.food.effect.popped_chorus_fruit",
-                        "color": "#9824f7",
-                        "italic": false
                     }
                 ]
-            }
+            },
+            "event_rebalance:food/stats/slowing/less"
         ]
     }
 }

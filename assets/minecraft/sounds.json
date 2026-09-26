@@ -24,51 +24,82 @@
         {"name":"event:item/cluster_shield/block/block3"},
         {"name":"event:item/cluster_shield/block/block4"}
     ]},
-    "item.milk_bucket.drink":{"sounds":[ 
-        {"name":"event:item/milk_bucket/drink/drink1"},
-        {"name":"event:item/milk_bucket/drink/drink2"},
-        {"name":"event:item/milk_bucket/drink/drink3"},
-        {"name":"event:item/milk_bucket/drink/drink4"}
-    ]},
-    "item.bread.eat":{"sounds":[ 
-        {"name":"event:item/bread/eat/eat1"},
-        {"name":"event:item/bread/eat/eat2"},
-        {"name":"event:item/bread/eat/eat3"},
-        {"name":"event:item/bread/eat/eat4"}
-    ]},
-    "item.apple.eat":{"sounds":[ 
-        {"name":"event:item/apple/eat/eat1"},
-        {"name":"event:item/apple/eat/eat2"},
-        {"name":"event:item/apple/eat/eat3"}
-    ]},
+
+    "item.milk_bucket.drink":{
+        "sounds":[ 
+            {"name":"event:item/milk_bucket/drink/1"},
+            {"name":"event:item/milk_bucket/drink/2"},
+            {"name":"event:item/milk_bucket/drink/3"},
+            {"name":"event:item/milk_bucket/drink/4"}
+        ],
+        "subtitle": "subtitles.entity.generic.drink"
+    },
+    "item.milk_bucket.consume":{
+        "sounds":[ 
+            {"name":"event:item/milk_bucket/consume"}
+        ]
+    },
+    "item.bread.eat":{
+        "sounds":[ 
+            {"name":"event:item/bread/eat/1"},
+            {"name":"event:item/bread/eat/2"},
+            {"name":"event:item/bread/eat/3"},
+            {"name":"event:item/bread/eat/4"}
+        ],
+        "subtitle": "subtitles.entity.generic.eat"
+    },
+    "item.apple.eat":{
+        "sounds":[ 
+            {"name":"event:item/apple/eat/1"},
+            {"name":"event:item/apple/eat/2"},
+            {"name":"event:item/apple/eat/3"}
+        ],
+        "subtitle": "subtitles.entity.generic.eat"
+    },
+    "item.carrot.consume":{
+        "sounds":[ 
+            {"name":"event:item/carrot/consume"}
+        ],
+        "subtitle": "subtitles.entity.player.burp"
+    },
+    "item.melon.consume":{
+        "sounds":[ 
+            {"name":"event:item/melon/consume/1"},
+            {"name":"event:item/melon/consume/2"}
+        ],
+        "subtitle": "subtitles.entity.player.burp"
+    },
+    "item.honey_bottle.consume":{
+        "sounds":[ 
+            {"name":"event:item/honey_bottle/consume"}
+        ],
+        "subtitle": "subtitles.entity.player.burp"
+    },
+    "item.bad_food.consume":{
+        "sounds":[ 
+            {"name":"event:item/bad_food/consume/1"},
+            {"name":"event:item/bad_food/consume/2"},
+            {"name":"event:item/bad_food/consume/3"}
+        ],
+        "subtitle": "subtitles.entity.player.burp.bad_food"
+    },
+    "item.golden_food.consume":{
+        "sounds":[ 
+            {"name":"event:item/golden_food/consume"}
+            
+        ],
+        "subtitle": "subtitles.entity.player.burp.golden_food"
+    },
+    "event.effect_apply.enchanted_gold":{
+        "sounds":[ 
+            {"name":"event:item/enchanted_golden_apple/consume/1"},
+            {"name":"event:item/enchanted_golden_apple/consume/2"},
+            {"name":"event:item/enchanted_golden_apple/consume/3"}
+        ],
+        "subtitle": "subtitles.entity.player.burp.enchanted_golden_food"
+    },
     "block.eyeblossom.darkness":{"sounds":[ 
         {"name":"event:block/eyeblossom/darkness"}
-    ]},
-    "event.effect_clear.carrot":{"sounds":[ 
-        {"name":"event:event/effect_clear/carrot"}
-    ]},
-    "event.effect_clear.melon":{"sounds":[ 
-        {"name":"event:event/effect_clear/melon1"},
-        {"name":"event:event/effect_clear/melon2"}
-    ]},
-    "event.effect_clear.honey":{"sounds":[ 
-        {"name":"event:event/effect_clear/honey"}
-    ]},
-    "event.effect_clear.milk":{"sounds":[ 
-        {"name":"event:event/effect_clear/milk"}
-    ]},
-    "event.effect_apply.poison":{"sounds":[ 
-        {"name":"event:event/effect_apply/poison/poison1"},
-        {"name":"event:event/effect_apply/poison/poison2"},
-        {"name":"event:event/effect_apply/poison/poison3"}
-    ]},
-    "event.effect_apply.gold":{"sounds":[ 
-        {"name":"event:event/effect_apply/gold/gold"}
-    ]},
-    "event.effect_apply.enchanted_gold":{"sounds":[ 
-        {"name":"event:event/effect_apply/enchanted_gold/enchanted_gold1"},
-        {"name":"event:event/effect_apply/enchanted_gold/enchanted_gold2"},
-        {"name":"event:event/effect_apply/enchanted_gold/enchanted_gold3"}
     ]},
     "enchant.gas_giant":{"sounds":[ 
         {"name":"event:enchant/gas_giant/gas_giant1"},

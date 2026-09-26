@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:adventure/avoid_vibration",
+  "parent": "event_rebalance:adventure/use_map_on_banner",
   "criteria": {
     "minecraft:deep_dark": {
       "conditions": {

@@ -1,0 +1,58 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "event:font/food_full.png",
+            "chars": [
+                "🍗"
+            ],
+            "ascent": 8,
+            "height": 8
+        },
+        {
+            "type": "bitmap",
+            "file": "event:font/food_half.png",
+            "chars": [
+                "🍖"
+            ],
+            "ascent": 8,
+            "height": 8
+        },
+        {
+            "type": "bitmap",
+            "file": "event:font/saturation_full.png",
+            "chars": [
+                "🍎"
+            ],
+            "ascent": 8,
+            "height": 8
+        },
+        {
+            "type": "bitmap",
+            "file": "event:font/saturation_half.png",
+            "chars": [
+                "🍐"
+            ],
+            "ascent": 8,
+            "height": 8
+        },
+        {
+            "type": "bitmap",
+            "file": "event:font/health_full.png",
+            "chars": [
+                "❤️"
+            ],
+            "ascent": 8,
+            "height": 8
+        },
+        {
+            "type": "bitmap",
+            "file": "event:font/health_half.png",
+            "chars": [
+                "💔"
+            ],
+            "ascent": 8,
+            "height": 8
+        }
+    ]
+}

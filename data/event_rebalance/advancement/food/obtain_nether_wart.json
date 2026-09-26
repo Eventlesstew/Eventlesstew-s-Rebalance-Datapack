@@ -14,10 +14,10 @@
   "parent": "nether/brew_potion",
   "display": {
     "title": {
-      "translate": "advancements.nether.obtain_nether_wart.title"
+      "translate": "advancements.food.obtain_nether_wart.title"
     },
     "description": {
-      "translate": "advancements.nether.obtain_nether_wart.description"
+      "translate": "advancements.food.obtain_nether_wart.description"
     },
     "icon": {
         "id": "nether_wart"

@@ -1,0 +1,70 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "poisonous_potato"
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "minecraft:set_components",
+                "components": {
+                    "food": {
+                        "nutrition": 0,
+                        "saturation": 2
+                    },
+                    "consumable": {
+                        "on_consume_effects": [
+                            {
+                                "type": "minecraft:apply_effects",
+                                "effects": [
+                                    {
+                                    "id": "minecraft:poison",
+                                    "amplifier": 1,
+                                    "duration": 200
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "play_sound",
+                                "sound": {
+                                    "sound_id": "item.bad_food.consume"
+                                }
+                            }
+                        ]
+                    },
+                    "compostable": {
+                        "layers": "compostable/always_add_one"
+                    }
+                }
+            },
+            {
+                "type": "set_lore",
+                "mode": "replace_all",
+                "lore": [
+                    {
+                        "translate": " 2s ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.consumable.food.eating_time"
+                            }
+                        ],
+                        "color": "#f5ce0c",
+                        "italic": false
+                    },
+                    {
+                        "translate": "attribute.name.consumable.food.saturation.2",
+                        "color": "#f5ce0c",
+                        "italic": false
+                    },
+                    {
+                        "translate": "attribute.name.consumable.food.effect.poisonous_potato",
+                        "color": "#ff5555",
+                        "italic": false
+                    }
+                ]
+            }
+        ]
+    }
+}

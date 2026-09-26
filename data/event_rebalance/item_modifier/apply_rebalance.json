@@ -128,8 +128,16 @@
             "event_rebalance:other_weapons/mace",
             "event_rebalance:other_weapons/staff",
 
-            "event_rebalance:make_stackable",
+            "event_rebalance:food/potato",
+            "event_rebalance:food/baked_potato",
+            "event_rebalance:food/poisonous_potato",
+            "event_rebalance:food/carrot",
+            "event_rebalance:food/golden_carrot",
+            "event_rebalance:food/beetroot",
+            "event_rebalance:food/beetroot_soup",
             "event_rebalance:food/popped_chorus_fruit",
+
+            "event_rebalance:make_stackable",
             "event_rebalance:music_disc/11_fragment",
             "event_rebalance:music_disc/13_fragment",
             "event_rebalance:music_disc/apply"
