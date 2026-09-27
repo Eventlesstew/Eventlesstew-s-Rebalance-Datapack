@@ -4,38 +4,30 @@
     {
       "entries": [
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 10.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:glowstone_dust",
-          "weight": 20
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 2,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:glowstone",
-          "weight": 3
+          "type": "minecraft:loot_table",
+          "value": "structure_rework:nether_fortress/vault_common"
         }
       ],
-      "rolls": 2
+      "rolls": 1
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "structure_rework:nether_fortress/vault_rare"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "structure_rework:nether_fortress/vault_unique"
+        }
+      ],
+      "rolls": 1
     }
   ],
-  "random_sequence": "event_rebalance:nether_fortress/chest_treasure"
+  "random_sequence": "event_rebalance:nether_fortress/vault"
 }

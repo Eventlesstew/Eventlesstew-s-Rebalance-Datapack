@@ -118,6 +118,9 @@
     "item.event.music_disc_tears":"Music Disc",
     "item.event.music_disc_lava_chicken":"Music Disc",
     "item.event.music_disc_bounce":"Music Disc",
+    "item.event.music_disc_ivor":"Music Disc",
+    "item.event.music_disc_far_lands":"Music Disc",
+    "item.event.music_disc_mob_grinder":"Music Disc",
 
     "item.minecraft.auto_crossbow": "Auto Crossbow",
     "item.minecraft.egg": "White Chicken Egg",
@@ -493,5 +496,9 @@
 
     "subtitles.block.shulker_box.close": "Portal box closes",
     "subtitles.block.shulker_box.open": "Portal box opens",
-    "subtitles.ui.stonecutter.take_result": "Sawmill used"
+    "subtitles.ui.stonecutter.take_result": "Sawmill used",
+
+    "jukebox_song.event.ivor":"Antimo and Welles - Ivor",
+    "jukebox_song.event.far_lands":"Antimo and Welles - Far Lands",
+    "jukebox_song.event.mob_grinder":"Antimo and Welles - Mob Grinder"
 }

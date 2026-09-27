@@ -1,0 +1,10 @@
+{
+  "comparator_output": 3,
+  "description": {
+    "translate": "jukebox_song.event.mob_grinder"
+  },
+  "length_in_seconds": 182.0,
+  "sound_event": {
+    "sound_id": "music_disc.mob_grinder"
+  }
+}

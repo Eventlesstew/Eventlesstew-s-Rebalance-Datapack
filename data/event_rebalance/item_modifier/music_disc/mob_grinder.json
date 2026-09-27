@@ -1,0 +1,16 @@
+{
+    "type": "sequence",
+    "functions": [
+        "event_rebalance:custom_item/music_disc",
+        {
+            "type": "minecraft:set_components",
+            "components": {
+                "jukebox_playable": "event_rebalance:mob_grinder",
+                "item_name": {
+                    "translate": "item.event.music_disc_mob_grinder"
+                },
+                "item_model": "event:music_disc/mob_grinder"
+            }
+        }
+    ]
+}

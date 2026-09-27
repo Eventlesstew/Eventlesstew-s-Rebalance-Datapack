@@ -110,3 +110,5 @@ Some things from Matcha Flavoured also inspired a couple things here.
 
 # Blaze and Cave's Advancements
 - Pixel Perfect (Modified)
+- Lucky Break (Modified)
+- Dripstone Drip

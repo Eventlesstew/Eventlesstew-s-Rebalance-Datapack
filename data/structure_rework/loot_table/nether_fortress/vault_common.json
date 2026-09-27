@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:vault",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "modifier": {
+            "type": "set_count",
+            "count": {
+                "type": "uniform",
+                "max": 5,
+                "min": 2
+            }
+          },
+          "name": "minecraft:emerald",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": {
+            "type": "set_count",
+            "count": {
+                "type": "uniform",
+                "max": 3,
+                "min": 1
+            }
+          },
+          "name": "minecraft:diamond",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": {
+            "type": "set_count",
+            "count": {
+                "type": "uniform",
+                "max": 8,
+                "min": 4
+            }
+          },
+          "name": "minecraft:fire_charge",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": {
+            "type": "set_count",
+            "count": {
+                "type": "uniform",
+                "max": 12,
+                "min": 5
+            }
+          },
+          "name": "minecraft:arrow",
+          "weight": 3
+        }
+      ],
+      "rolls": {
+        "type": "uniform",
+        "max": 3,
+        "min": 1
+      }
+    }
+  ],
+  "random_sequence": "event_rebalance:nether_fortress/vault/common"
+}

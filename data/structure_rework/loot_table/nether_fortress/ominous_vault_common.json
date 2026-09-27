@@ -1,0 +1,86 @@
+{
+  "type": "minecraft:vault",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 12,
+                "min": 4
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:emerald",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3,
+                "min": 9
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 8,
+                "min": 12
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:fire_charge",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 10,
+                "min": 25
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:arrow",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": [
+            {
+              "type": "minecraft:set_ominous_bottle_amplifier",
+              "amplifier": 2
+            }
+          ],
+          "name": "minecraft:ominous_bottle",
+          "weight": 3
+        }
+      ],
+      "rolls": {
+        "type": "uniform",
+        "max": 3,
+        "min": 1
+      }
+    }
+  ],
+  "random_sequence": "event_rebalance:nether_fortress/ominous_vault/common"
+}

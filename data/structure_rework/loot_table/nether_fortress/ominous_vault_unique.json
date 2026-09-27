@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:vault",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mojang_banner_pattern",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": [
+            {
+              "count": 2,
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:netherite_upgrade_smithing_template",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:skull_banner_pattern",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_13",
+          "modifier": "event_rebalance:music_disc/mob_grinder",
+          "weight": 3
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "event_rebalance:nether_fortress/ominous_vault/unique"
+}

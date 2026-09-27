@@ -1,0 +1,16 @@
+{
+    "type": "sequence",
+    "functions": [
+        "event_rebalance:custom_item/music_disc",
+        {
+            "type": "minecraft:set_components",
+            "components": {
+                "jukebox_playable": "event_rebalance:far_lands",
+                "item_name": {
+                    "translate": "item.event.music_disc_far_lands"
+                },
+                "item_model": "event:music_disc/far_lands"
+            }
+        }
+    ]
+}

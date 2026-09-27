@@ -4,327 +4,274 @@
     {
       "entries": [
         {
-          "type": "minecraft:item",
+          "type": "item",
+          "weight": 5,
+          "name": "soul_sand",
           "modifier": [
             {
+              "type": "set_count",
               "count": {
-                "type": "minecraft:uniform",
+                "type": "uniform",
+                "max": 5,
+                "min": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "tag",
+          "weight": 5,
+          "items": "#event_rebalance:custom_item/withered_chunks",
+          "expand": false,
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+                "type": "uniform",
+                "max": 5,
+                "min": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "arrow",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+                "type": "uniform",
+                "max": 20,
+                "min": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "gold_ingot",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+                "type": "uniform",
+                "max": 3,
+                "min": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "iron_ingot",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+                "type": "uniform",
                 "max": 5,
                 "min": 1
-              },
-              "type": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:leather",
-          "weight": 20
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_apple",
-          "weight": 15
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:enchanted_golden_apple",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "jukebox_playable": "otherside",
-                "item_model": "music_disc_otherside",
-                "item_name": {
-                  "translate": "item.minecraft.music_disc_otherside"
-                }
               }
             }
-          ],
-          "name": "minecraft:music_disc_13",
-          "weight": 2
+          ]
         },
         {
-          "type": "minecraft:item",
-          "functions": [
+          "type": "item",
+          "weight": 5,
+          "name": "nether_wart",
+          "modifier": [
+            "event_rebalance:food/nether_wart",
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "jukebox_playable": "13",
-                "item_model": "music_disc_13",
-                "item_name": {
-                  "translate": "item.minecraft.music_disc_13"
-                }
+              "type": "set_count",
+              "count": {
+                "type": "uniform",
+                "max": 7,
+                "min": 3
               }
             }
-          ],
-          "name": "minecraft:music_disc_13",
-          "weight": 15
+          ]
         },
         {
-          "type": "minecraft:item",
-          "functions": [
+          "type": "item",
+          "weight": 3,
+          "name": "glowstone_dust",
+          "modifier": [
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "jukebox_playable": "cat",
-                "item_model": "music_disc_cat",
-                "item_name": {
-                  "translate": "item.minecraft.music_disc_cat"
-                }
+              "type": "set_count",
+              "count": {
+                "type": "uniform",
+                "max": 16,
+                "min": 3
               }
             }
-          ],
-          "name": "minecraft:music_disc_13",
-          "weight": 15
+          ]
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:name_tag",
-          "weight": 20
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_horse_armor",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:copper_horse_armor",
-          "weight": 15
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_horse_armor",
-          "weight": 15
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_horse_armor",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
+          "type": "item",
+          "weight": 2,
+          "name": "glowstone",
+          "modifier": [
             {
-              "function": "minecraft:enchant_randomly",
-              "options": "#minecraft:on_random_loot"
+              "type": "set_count",
+              "count": {
+                "type": "uniform",
+                "max": 4,
+                "min": 1
+              }
             }
-          ],
-          "name": "minecraft:book",
-          "weight": 10
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 4,
+          "name": "obsidian",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+                "type": "uniform",
+                "max": 6,
+                "min": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "flint_and_steel",
+          "modifier": [
+            "event_rebalance:other_tools/flint_and_steel"
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "golden_sword",
+          "modifier": [
+            "event_rebalance:sword/golden"
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "iron_sword",
+          "modifier": [
+            "event_rebalance:sword/iron"
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "bow",
+          "modifier": [
+            "event_rebalance:other_weapons/bow"
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "golden_chestplate",
+          "modifier": [
+            "event_rebalance:chestplate/golden"
+          ]
         }
       ],
       "rolls": {
-        "type": "minecraft:uniform",
-        "max": 3,
-        "min": 1
-      }
-    },
-    {
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:iron_ingot",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:gold_ingot",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:bread",
-          "weight": 20
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:wheat",
-          "weight": 20
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:bucket",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:redstone",
-          "weight": 15
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:coal",
-          "weight": 15
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:melon_seeds",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:pumpkin_seeds",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:beetroot_seeds",
-          "weight": 10
-        }
-      ],
-      "rolls": {
-        "type": "minecraft:uniform",
+        "type": "uniform",
         "max": 4,
-        "min": 1
+        "min": 2
       }
     },
     {
       "entries": [
         {
-          "type": "minecraft:item",
-          "functions": [
+          "type": "item",
+          "weight": 10,
+          "name": "diamond",
+          "modifier": [
             {
+              "type": "set_count",
               "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
+                "type": "uniform",
+                "max": 6,
+                "min": 1
+              }
             }
-          ],
-          "name": "minecraft:bone",
-          "weight": 10
+          ]
         },
         {
-          "type": "minecraft:item",
-          "functions": [
+          "type": "item",
+          "weight": 10,
+          "name": "crying_obsidian",
+          "modifier": [
             {
+              "type": "set_count",
               "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
+                "type": "uniform",
+                "max": 6,
+                "min": 3
+              }
             }
-          ],
-          "name": "minecraft:gunpowder",
-          "weight": 10
+          ]
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:rotten_flesh",
-          "weight": 10
+          "type": "item",
+          "weight": 2,
+          "name": "wither_skeleton_skull"
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:string",
-          "weight": 10
+          "type": "item",
+          "weight": 2,
+          "name": "ancient_debris"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "netherite_scrap"
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "golden_apple"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "wither_skeleton_skull"
         }
       ],
-      "rolls": 3
+      "rolls": 1
+    },
+    {
+      "entries": [
+        {
+          "type": "empty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "rib_armor_trim_smithing_template",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "music_disc_13",
+          "modifier": "event_rebalance:music_disc/ivor"
+        }
+      ],
+      "rolls": 1
     }
   ],
   "random_sequence": "event_rebalance:nether_fortress/chest_treasure"

@@ -1,4 +1,20 @@
-{ "ambient.end.loop":{"sounds":["ambient/end/loop"]},
+{ 
+    "music_disc.ivor":{
+        "sounds": [
+            "event:music/ivor"
+        ]
+    },
+    "music_disc.far_lands":{
+        "sounds": [
+            "event:music/far_lands"
+        ]
+    },
+    "music_disc.mob_grinder":{
+        "sounds": [
+            "event:music/mob_grinder"
+        ]
+    },
+    "ambient.end.loop":{"sounds":["ambient/end/loop"]},
     "ambient.end.shadow_loop":{"sounds":["ambient/end/shadow_loop"]},
     "ambient.end.additions":{"sounds":[ 
         {"name":"event:ambient/end/additions/noise1"},

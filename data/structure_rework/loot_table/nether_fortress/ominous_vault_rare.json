@@ -1,0 +1,105 @@
+{
+  "type": "minecraft:vault",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald_block",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2,
+                "min": 4
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_block",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_block",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 2
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:netherite_scrap",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": [
+            "event_rebalance:sword/diamond",
+            {
+                "type": "enchant_with_levels",
+                "levels": {
+                    "type": "uniform",
+                    "max": 20,
+                    "min": 10
+                }
+            }
+          ],
+          "name": "minecraft:diamond_sword",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": [
+            "event_rebalance:hoe/netherite"
+          ],
+          "name": "minecraft:netherite_hoe",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": [
+            {
+              "type": "minecraft:set_ominous_bottle_amplifier",
+              "amplifier": {
+                "type": "uniform",
+                "max": 4,
+                "min": 3
+              }
+            }
+          ],
+          "name": "minecraft:ominous_bottle",
+          "weight": 9
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "uniform",
+                "max": 2,
+                "min": 1
+              }
+            }
+          ],
+          "name": "minecraft:wither_skeleton_skull",
+          "weight": 1
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "event_rebalance:nether_fortress/ominous_vault/uncommon"
+}

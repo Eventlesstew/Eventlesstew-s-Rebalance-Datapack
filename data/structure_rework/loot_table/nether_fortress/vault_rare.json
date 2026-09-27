@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:vault",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "modifier": [
+            {
+              "type": "minecraft:set_ominous_bottle_amplifier",
+              "amplifier": 2
+            }
+          ],
+          "name": "minecraft:ominous_bottle",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ancient_debris",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_scrap",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wither_skeleton_skull",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": {
+            "type": "set_enchantments",
+            "enchantments": {
+                "soul_speed": {
+                    "type": "uniform",
+                    "max": 3,
+                    "min": 1
+                }
+            }
+          },
+          "name": "minecraft:enchanted_book",
+          "weight": 3
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "event_rebalance:nether_fortress/vault/rare"
+}
