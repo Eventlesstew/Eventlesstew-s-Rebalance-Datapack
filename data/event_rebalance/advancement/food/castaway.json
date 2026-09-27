@@ -1,0 +1,26 @@
+{
+  "parent": "husbandry/plant_seed",
+  "criteria": {
+    "suspicious_stew": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.food.castaway.description"
+    },
+    "icon": {
+      "id": "minecraft:dried_kelp"
+    },
+    "title": {
+      "translate": "advancements.food.castaway.title"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "suspicious_stew"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

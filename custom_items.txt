@@ -45,3 +45,6 @@ Wither Skeleton Spawn Egg: Withered Chunks
 Wither Spawn Egg: Packed Withered Chunks
 
 Deepslate Coal Ore: Withered Remains
+Charcoal: Chocolate
+Pumpkin Pie: Apple Pie
+Pumpkin Pie: Cooked Tropical Fish

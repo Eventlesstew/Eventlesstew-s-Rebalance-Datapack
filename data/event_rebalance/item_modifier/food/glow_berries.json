@@ -18,7 +18,7 @@
                     "consumable": {
                         "consume_seconds": 1,
                         "sound": {
-                            "sound_id": "item.apple.eat"
+                            "sound_id": "item.chocolate.eat"
                         },
                         "on_consume_effects": [
                             {
@@ -37,6 +37,12 @@
                                         "duration": 200
                                     }
                                 ]
+                            },
+                            {
+                                "type": "play_sound",
+                                "sound": {
+                                    "sound_id": "item.glow_berries.consume"
+                                }
                             }
                         ]
                     }

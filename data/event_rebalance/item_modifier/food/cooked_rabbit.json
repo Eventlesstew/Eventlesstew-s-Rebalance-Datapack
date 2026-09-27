@@ -12,7 +12,7 @@
                 "components": {
                     "food": {
                         "nutrition": 6,
-                        "saturation": 1
+                        "saturation": 6
                     },
                     "consumable": {
                         "consume_seconds": 2
@@ -45,8 +45,7 @@
                         "italic": false
                     }
                 ]
-            },
-            "event_rebalance:food/stats/slowing/less"
+            }
         ]
     }
 }

@@ -28,6 +28,12 @@
                                     "duration": 400
                                     }
                                 ]
+                            },
+                            {
+                                "type": "play_sound",
+                                "sound": {
+                                    "sound_id": "item.bad_food.consume"
+                                }
                             }
                         ]
                     }

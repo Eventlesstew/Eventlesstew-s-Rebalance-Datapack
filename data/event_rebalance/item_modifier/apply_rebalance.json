@@ -128,8 +128,6 @@
             "event_rebalance:other_weapons/mace",
             "event_rebalance:other_weapons/staff",
             
-            "event_rebalance:food/pumpkin_pie",
-            
             "event_rebalance:food/potato",
             "event_rebalance:food/baked_potato",
             "event_rebalance:food/poisonous_potato",
@@ -145,10 +143,18 @@
             "event_rebalance:food/glistering_melon_slice",
             "event_rebalance:food/sweet_berries",
             "event_rebalance:food/glow_berries",
+            "event_rebalance:food/brown_mushroom",
+            "event_rebalance:food/red_mushroom",
+            "event_rebalance:food/shelf_mushroom",
+            "event_rebalance:food/crimson_fungus",
+            "event_rebalance:food/warped_fungus",
+            "event_rebalance:food/nether_wart",
+            "event_rebalance:food/dried_kelp",
             "event_rebalance:food/bread",
             "event_rebalance:food/chocolate",
             "event_rebalance:food/cookie",
             "event_rebalance:food/milk_bucket",
+
             "event_rebalance:food/raw_porkchop",
             "event_rebalance:food/cooked_porkchop",
             "event_rebalance:food/raw_beef",
@@ -166,6 +172,8 @@
             "event_rebalance:food/raw_tropical_fish",
             "event_rebalance:food/cooked_tropical_fish",
             
+            "event_rebalance:food/pumpkin_pie",
+
             "event_rebalance:food/rabbit_stew",
             "event_rebalance:food/mushroom_stew",
             "event_rebalance:food/suspicious_stew",

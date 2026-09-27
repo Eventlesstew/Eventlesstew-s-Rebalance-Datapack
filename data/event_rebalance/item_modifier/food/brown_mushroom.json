@@ -1,0 +1,71 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "brown_mushroom"
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "minecraft:set_components",
+                "components": {
+                    "food": {
+                        "nutrition": 4,
+                        "saturation": 6
+                    },
+                    "consumable": {
+                        "consume_seconds": 1,
+                        "sound": {
+                            "sound_id": "item.chocolate.eat"
+                        },
+                        "on_consume_effects": [
+                            {
+                                "type": "apply_effects",
+                                "probability": 0.3,
+                                "effects": [
+                                    {
+                                        "id": "wither",
+                                        "amplifier": 0,
+                                        "duration": 200
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "set_lore",
+                "mode": "replace_all",
+                "lore": [
+                    {
+                        "translate": "attribute.name.consumable.food.nutrition.4",
+                        "color": "#f5ce0c",
+                        "italic": false
+                    },
+                    {
+                        "translate": "attribute.name.consumable.food.saturation.6",
+                        "color": "#f5ce0c",
+                        "italic": false
+                    },
+                    {
+                        "translate": " 1s ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.consumable.food.eating_time"
+                            }
+                        ],
+                        "color": "#24f7ed",
+                        "italic": false
+                    },
+                    {
+                        "translate": "attribute.name.consumable.food.effect.brown_mushroom",
+                        "color": "#ff5555",
+                        "italic": false
+                    }
+                ]
+            }
+        ]
+    }
+}

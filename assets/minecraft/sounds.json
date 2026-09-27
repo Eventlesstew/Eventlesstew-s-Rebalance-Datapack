@@ -56,6 +56,32 @@
         ],
         "subtitle": "subtitles.entity.generic.eat"
     },
+    "item.chocolate.eat":{
+        "sounds":[ 
+            {"name":"mob/frog/eat1"},
+            {"name":"mob/frog/eat2"},
+            {"name":"mob/frog/eat3"},
+            {"name":"mob/frog/eat4"}
+        ],
+        "subtitle": "subtitles.entity.generic.eat"
+    },
+    "item.fish.eat":{
+        "sounds":[ 
+            {"name":"event:item/fish/eat/1"},
+            {"name":"event:item/fish/eat/2"},
+            {"name":"event:item/fish/eat/3"}
+        ],
+        "subtitle": "subtitles.entity.generic.eat"
+    },
+    "item.chorus_fruit.eat":{
+        "sounds":[ 
+            {"name":"event:item/chorus_fruit/eat/1"},
+            {"name":"event:item/chorus_fruit/eat/2"},
+            {"name":"event:item/chorus_fruit/eat/3"},
+            {"name":"event:item/chorus_fruit/eat/4"}
+        ],
+        "subtitle": "subtitles.entity.generic.eat"
+    },
     "item.carrot.consume":{
         "sounds":[ 
             {"name":"event:item/carrot/consume"}
@@ -97,6 +123,14 @@
             {"name":"event:item/enchanted_golden_apple/consume/3"}
         ],
         "subtitle": "subtitles.entity.player.burp.enchanted_golden_food"
+    },
+    "item.glow_berries.consume":{
+        "sounds":[ 
+            {"name":"block/enchantment_table/enchant1"},
+            {"name":"block/enchantment_table/enchant2"},
+            {"name":"block/enchantment_table/enchant3"}
+        ],
+        "subtitle": "subtitles.entity.player.burp.glow_berries"
     },
     "block.eyeblossom.darkness":{"sounds":[ 
         {"name":"event:block/eyeblossom/darkness"}

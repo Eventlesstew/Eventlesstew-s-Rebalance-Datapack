@@ -17,7 +17,7 @@
                     "consumable": {
                         "consume_seconds": 1,
                         "sound": {
-                            "sound_id": "item.apple.eat"
+                            "sound_id": "item.chocolate.eat"
                         },
                         "on_consume_effects": [
                             {

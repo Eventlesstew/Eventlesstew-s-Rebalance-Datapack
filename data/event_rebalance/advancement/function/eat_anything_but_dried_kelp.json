@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "golden_apple": {
+      "conditions": {
+        "player": {
+            "type": "inverted",
+            "term": {
+                "type": "match_tool",
+                "predicate": {
+                    "items": "dried_kelp"
+                }
+            }
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "rewards": {
+    "function": "event_rebalance:advancements/castaway/timer_stop"
+  },
+  "requirements": [
+    [
+      "golden_apple"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

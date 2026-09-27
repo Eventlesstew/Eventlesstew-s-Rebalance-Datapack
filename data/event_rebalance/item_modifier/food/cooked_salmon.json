@@ -15,7 +15,10 @@
                         "saturation": 8
                     },
                     "consumable": {
-                        "consume_seconds": 2
+                        "consume_seconds": 2,
+                        "sound": {
+                            "sound_id": "item.fish.eat"
+                        }
                     }
                 }
             },

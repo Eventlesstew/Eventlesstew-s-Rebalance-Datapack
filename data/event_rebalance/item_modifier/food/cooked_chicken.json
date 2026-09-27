@@ -11,11 +11,11 @@
                 "type": "minecraft:set_components",
                 "components": {
                     "food": {
-                        "nutrition": 6,
+                        "nutrition": 8,
                         "saturation": 8
                     },
                     "consumable": {
-                        "consume_seconds": 3
+                        "consume_seconds": 2
                     }
                 }
             },
@@ -24,7 +24,7 @@
                 "mode": "replace_all",
                 "lore": [
                     {
-                        "translate": "attribute.name.consumable.food.nutrition.6",
+                        "translate": "attribute.name.consumable.food.nutrition.8",
                         "color": "#f5ce0c",
                         "italic": false
                     },
@@ -34,17 +34,18 @@
                         "italic": false
                     },
                     {
-                        "translate": " 3s ",
+                        "translate": " 2s ",
                         "extra": [
                             {
                                 "translate": "attribute.name.consumable.food.eating_time"
                             }
                         ],
-                        "color": "#7a58f1",
+                        "color": "#5555ff",
                         "italic": false
                     }
                 ]
-            }
+            },
+            "event_rebalance:food/stats/slowing/more"
         ]
     }
 }

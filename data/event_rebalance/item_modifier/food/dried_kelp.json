@@ -1,0 +1,50 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "dried_kelp"
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "minecraft:set_components",
+                "components": {
+                    "food": {
+                        "nutrition": 2,
+                        "saturation": 0
+                    },
+                    "consumable": {
+                        "consume_seconds": 1,
+                        "sound": {
+                            "sound_id": "item.bread.eat"
+                        }
+                    }
+                }
+            },
+            {
+                "type": "set_lore",
+                "mode": "replace_all",
+                "lore": [
+                    
+                    {
+                        "translate": "attribute.name.consumable.food.nutrition.2",
+                        "color": "#f5ce0c",
+                        "italic": false
+                    },
+                    {
+                        "translate": " 1s ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.consumable.food.eating_time"
+                            }
+                        ],
+                        "color": "#24f7ed",
+                        "italic": false
+                    }
+                ]
+            },
+            "event_rebalance:food/stats/slowing/no"
+        ]
+    }
+}

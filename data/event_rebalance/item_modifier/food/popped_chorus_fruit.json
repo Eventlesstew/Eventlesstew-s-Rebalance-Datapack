@@ -13,7 +13,7 @@
                     "consumable": {
                         "consume_seconds": 2,
                         "sound": {
-                            "sound_id": "item.bread.eat"
+                            "sound_id": "item.chorus_fruit.eat"
                         }
                     },
                     "use_cooldown": {

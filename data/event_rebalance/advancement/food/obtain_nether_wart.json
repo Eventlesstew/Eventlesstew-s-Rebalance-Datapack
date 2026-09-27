@@ -2,22 +2,20 @@
   "criteria": {
     "item_gained": {
       "conditions": {
-        "items": [
-          {
-            "items": "nether_wart"
-          }
-        ]
+        "potion": {
+          "potions": "awkward"
+        }
       },
-      "trigger": "minecraft:inventory_changed"
+      "trigger": "minecraft:brewed_potion"
     }
   },
   "parent": "nether/brew_potion",
   "display": {
     "title": {
-      "translate": "advancements.food.obtain_nether_wart.title"
+      "translate": "advancements.food.brew_awkward_potion.title"
     },
     "description": {
-      "translate": "advancements.food.obtain_nether_wart.description"
+      "translate": "advancements.food.brew_awkward_potion.description"
     },
     "icon": {
         "id": "nether_wart"

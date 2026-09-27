@@ -1,0 +1,40 @@
+{
+  "parent": "event_rebalance:food/root",
+  "criteria": {
+    "golden_apple": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:rotten_flesh"
+        },
+        "player": {
+            "type": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                
+                "nbt": {
+                    "foodLevel":0
+                }
+            }
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.food.iron_belly.description"
+    },
+    "icon": {
+      "id": "minecraft:rotten_flesh"
+    },
+    "title": {
+      "translate": "advancements.food.iron_belly.title"
+    }
+  },
+  "requirements": [
+    [
+      "golden_apple"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

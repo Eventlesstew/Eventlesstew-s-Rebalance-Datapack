@@ -1,7 +1,10 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "pumpkin_pie"
+        "items": "pumpkin_pie",
+        "components": {
+            "item_model": "pumpkin_pie"
+        }
     },
     "on_pass": {
         "type": "sequence",

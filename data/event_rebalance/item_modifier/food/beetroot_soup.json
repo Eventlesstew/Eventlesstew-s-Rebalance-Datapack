@@ -12,11 +12,12 @@
                 "type": "minecraft:set_components",
                 "components": {
                     "food": {
-                        "nutrition": 16,
-                        "saturation": 8
+                        "nutrition": 8,
+                        "saturation": 16,
+                        "can_always_eat": true
                     },
                     "consumable": {
-                        "consume_seconds": 4,
+                        "consume_seconds": 3,
                         "sound": {
                             "sound_id": "entity.generic.drink"
                         },
@@ -26,7 +27,7 @@
                                 "effects": [
                                     {
                                         "id": "regeneration",
-                                        "amplifier": 4,
+                                        "amplifier": 3,
                                         "duration": 48,
                                         "show_icon": false,
                                         "show_particles": false
@@ -42,22 +43,22 @@
                 "mode": "replace_all",
                 "lore": [
                     {
-                        "translate": "attribute.name.consumable.food.nutrition.16",
+                        "translate": "attribute.name.consumable.food.nutrition.8",
                         "color": "#f5ce0c",
                         "italic": false
                     },
                     {
-                        "translate": "attribute.name.consumable.food.saturation.8",
+                        "translate": "attribute.name.consumable.food.saturation.16",
                         "color": "#f5ce0c",
                         "italic": false
                     },
                     {
-                        "translate": "attribute.name.consumable.food.health.16",
+                        "translate": "attribute.name.consumable.food.health.8",
                         "color": "#f545ac",
                         "italic": false
                     },
                     {
-                        "translate": " 4s ",
+                        "translate": " 3s ",
                         "extra": [
                             {
                                 "translate": "attribute.name.consumable.food.eating_time"
@@ -68,7 +69,18 @@
                     }
                 ]
             },
-            "event_rebalance:food/stats/slowing/more"
+            "event_rebalance:food/stats/slowing/stop",
+            {
+                "type": "set_lore",
+                "mode": "append",
+                "lore": [
+                    {
+                        "translate": "attribute.name.consumable.food.always_edible",
+                        "color": "#f78324",
+                        "italic": false
+                    }
+                ]
+            }
         ]
     }
 }

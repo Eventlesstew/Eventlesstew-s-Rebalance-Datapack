@@ -8,6 +8,7 @@ scoreboard objectives add static dummy
 scoreboard objectives add event_rebalance.flat_damage_enchantment_cooldown dummy
 scoreboard objectives add event_rebalance.acceleration_count dummy
 scoreboard objectives add event_rebalance.combo_timer dummy
+scoreboard objectives add event_rebalance.castaway_timer dummy
 
 # Add values if they don't exist
 scoreboard players add armor_stand_eye_height static 0

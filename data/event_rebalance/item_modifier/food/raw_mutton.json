@@ -11,7 +11,7 @@
                 "type": "minecraft:set_components",
                 "components": {
                     "food": {
-                        "nutrition": 6,
+                        "nutrition": 10,
                         "saturation": 1
                     },
                     "consumable": {
@@ -44,7 +44,7 @@
                 "lore": [
                     
                     {
-                        "translate": "attribute.name.consumable.food.nutrition.6",
+                        "translate": "attribute.name.consumable.food.nutrition.8",
                         "color": "#f5ce0c",
                         "italic": false
                     },
@@ -54,15 +54,22 @@
                         "italic": false
                     },
                     {
-                        "translate": " 2s ",
+                        "translate": " 4s ",
                         "extra": [
                             {
                                 "translate": "attribute.name.consumable.food.eating_time"
                             }
                         ],
-                        "color": "#5555ff",
+                        "color": "#7a58f1",
                         "italic": false
-                    },
+                    }
+                ]
+            },
+            "event_rebalance:food/stats/slowing/less",
+            {
+                "type": "set_lore",
+                "mode": "append",
+                "lore": [
                     {
                         "translate": "attribute.name.consumable.food.effect.raw_mutton",
                         "color": "#ff5555",

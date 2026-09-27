@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "golden_apple": {
+      "conditions": {
+        "item": {
+          "items": "dried_kelp"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "rewards": {
+    "function": "event_rebalance:advancements/castaway/timer_start"
+  },
+  "requirements": [
+    [
+      "golden_apple"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

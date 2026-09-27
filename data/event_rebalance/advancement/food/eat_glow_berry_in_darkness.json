@@ -1,5 +1,5 @@
 {
-  "parent": "nether/brew_potion",
+  "parent": "event_rebalance:food/eat_food",
   "criteria": {
     "suspicious_stew": {
       "conditions": {

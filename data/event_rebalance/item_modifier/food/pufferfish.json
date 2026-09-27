@@ -17,6 +17,9 @@
                     },
                     "consumable": {
                         "consume_seconds": 3,
+                        "sound": {
+                            "sound_id": "item.fish.eat"
+                        },
                         "on_consume_effects": [
                             {
                                 "type": "minecraft:apply_effects",

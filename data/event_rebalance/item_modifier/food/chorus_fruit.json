@@ -13,7 +13,7 @@
                     "consumable": {
                         "consume_seconds": 2,
                         "sound": {
-                            "sound_id": "item.apple.eat"
+                            "sound_id": "item.chorus_fruit.eat"
                         },
                         "on_consume_effects": [
                             {

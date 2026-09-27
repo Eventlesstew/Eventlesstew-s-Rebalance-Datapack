@@ -12,8 +12,8 @@
                 "type": "minecraft:set_components",
                 "components": {
                     "food": {
-                        "nutrition": 10,
-                        "saturation": 16
+                        "nutrition": 20,
+                        "saturation": 6
                     },
                     "consumable": {
                         "consume_seconds": 4
@@ -25,12 +25,12 @@
                 "mode": "replace_all",
                 "lore": [
                     {
-                        "translate": "attribute.name.consumable.food.nutrition.10",
+                        "translate": "attribute.name.consumable.food.nutrition.20",
                         "color": "#f5ce0c",
                         "italic": false
                     },
                     {
-                        "translate": "attribute.name.consumable.food.saturation.16",
+                        "translate": "attribute.name.consumable.food.saturation.6",
                         "color": "#f5ce0c",
                         "italic": false
                     },
@@ -46,18 +46,7 @@
                     }
                 ]
             },
-            "event_rebalance:food/stats/slowing/no",
-            {
-                "type": "set_lore",
-                "mode": "append",
-                "lore": [
-                    {
-                        "translate": "attribute.name.consumable.food.always_edible",
-                        "color": "#f78324",
-                        "italic": false
-                    }
-                ]
-            }
+            "event_rebalance:food/stats/slowing/stop"
         ]
     }
 }

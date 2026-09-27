@@ -19,7 +19,10 @@
                         "saturation": 4
                     },
                     "consumable": {
-                        "consume_seconds": 2
+                        "consume_seconds": 2,
+                        "sound": {
+                            "sound_id": "item.chocolate.eat"
+                        }
                     }
                 }
             },
