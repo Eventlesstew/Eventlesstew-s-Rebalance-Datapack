@@ -38,6 +38,7 @@
     ]
   },
 
+  "exclusive_set": "#event_rebalance:exclusive_set/loot",
   "supported_items": "#event_rebalance:enchantable/loot",
   "weight": 2
 }

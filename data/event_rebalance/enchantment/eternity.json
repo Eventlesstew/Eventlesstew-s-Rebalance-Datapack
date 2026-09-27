@@ -26,6 +26,6 @@
     "any"
   ],
   "supported_items": "#minecraft:enchantable/durability",
-  "exclusive_set": "#event_rebalance:exclusive_set/legendary_durability",
+  "exclusive_set": "#event_rebalance:exclusive_set/durability",
   "weight": 1
 }

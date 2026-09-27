@@ -24,3 +24,4 @@ scoreboard players set 180_arrow static 1800000
 
 gamerule spawn_phantoms false
 gamerule keep_inventory true
+gamerule max_minecart_speed 1000

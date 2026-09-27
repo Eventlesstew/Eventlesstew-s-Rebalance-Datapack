@@ -1,1 +1,0 @@
-effect give @s weakness infinite 1 true

@@ -9,6 +9,13 @@ Death is no longer as punishing.
 - You keep the XP you collected when you die.
 - Items no longer despawn after a period of time.
 
+# Experimental Features Enabled
+- Minecart Improvements
+The datapack sets the max minecart speed to 1000, making them more viable.
+
+- Redstone Experiments
+This datapack is not meant to be used with pre-existing worlds anyway.
+
 ## Dynamic Lighting
 This system allows entities to emit light, which happens with the following:
 - Glow Squids, Magma Cubes, Allays and Blazes
@@ -145,52 +152,67 @@ Here's some clues for them:
 - What wasn't stated wasn't changed.
 
 # Mob Changes
-- Copper Golem
+## Copper Golem
 No longer drops Copper Ingots when killed
 
-- Iron Golem
+## Iron Golem
 No longer drops Iron Ingots when killed.
 Iron farms completely break game balance, hence why they're being removed.
 
-- Snow Golem
+## Snow Golem
 No longer drops Snowballs when killed
 
-- Creeper
-Can no longer spawn in the surface!
+## Zombie
+- Health reduced by 80% (16 HP normally)
 
-- Husk
-Buffed, now has 40 HP, but moves slower.
-
-- Zombie Villager
+## Zombie Villager
 Now has a permanent weakness effect, no longer requiring a Potion of Weakness to cure into a Villager.
 
-- Wither Skeletons
+## Husk
+- HP has been buffed to 40
+- Is slightly larger
+- Can spawn in any surface Biome where Creepers would've spawned.
+- Follow Range Reduced by half
+
+## Skeleton
+- Damage reduced to around 3 on Hard difficulty, as the damage was rather excessive for a ranged mob.
+
+## Wither Skeletons
 Now carry Iron Swords instead of Stone Swords
 Coal drop replaced with Withered Chunks.
 
-- Piglin
+## Creeper
+- Can no longer spawn in the surface! Any attempts to spawn them there now spawns a Husk instead.
+
+## Spider
+- Movement Speed doubled
+
+## Cave Spider
+- Movement Speed increased by 50%
+
+## Piglin
 Bartering loot has been changed.
 Can now drop Gold Ingots when killed
 
-- Piglin Brutes
-Can now drop Gold Ingots and Rose Golden Upgrades when killed
+## Piglin Brute
+- Can now drop Gold Ingots and Rose Golden Upgrades when killed
+- Now carry Rose Golden Axes instead of Golden Axes
+- TODO: Adjust the damage.
 
-Now carry Rose Golden Axes instead of Golden Axes
-
-- Phantoms
+## Phantoms
 No longer spawn when you don't sleep at night, but instead spawns in mountains.
 
-- Pillager
+## Pillager
 Can now drop Emeralds when killed
 
-- Evoker
+## Evoker
 No longer drops Totems of Undying
 I plan on making Undying Totems Mansion-exclusive and to prevent raid farming.
 
-- Illusioner
+## Illusioner
 Added
 
-- Herobrine
+## Herobrine
 Removed
 
 # World Changes
@@ -202,6 +224,12 @@ Many trees have been completely reworked to look a lot better.
 
 ## Bastions
 - Only spawns in Nether Wastes, Basalt Deltas and Crimson Forests now.
+- Netherite Upgrades have been replaced with Rose Golden Upgrades and they always come in two’s.
+- Copper Blocks, Ingots and Nuggets can now be found
+- All Netherite Ores and Scraps have been replaced with Rose Golden Ingots and Nuggets, which have been made more common due to their cheaper nature.
+- Netherite Ingots and Scraps can still be found in the Treasure Room.
+- Golden Spears can now be found in chests.
+- Blaze Rods, Powder and Nether Wart can now be found in misc chests.
 
 ## Nether Fortress
 Completely Reworked and Rebuilt!

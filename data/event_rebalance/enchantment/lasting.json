@@ -2,7 +2,7 @@
     "description": {
         "translate": "enchantment.event.lasting"
     },
-    "exclusive_set": "#event_rebalance:exclusive_set/legendary",
+    "exclusive_set": "#event_rebalance:exclusive_set/durability",
     "supported_items": "#minecraft:enchantable/durability",
     "weight": 5,
     "max_level": 1,
