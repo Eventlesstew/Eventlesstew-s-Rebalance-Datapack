@@ -112,3 +112,9 @@ Some things from Matcha Flavoured also inspired a couple things here.
 - Pixel Perfect (Modified)
 - Lucky Break (Modified)
 - Dripstone Drip
+
+# Antimo and Welles
+Made the MCSM OST that has been featured in this datapack:
+- Ivor Theme (Ivor)
+- 103 Credits (Mob Grinder)
+- 104 Credits (Far Lands)
