@@ -1,0 +1,37 @@
+{
+    "type": "brewing",
+    "reagent": {
+        "item": "dragon_breath"
+    },
+    "input": {
+        "item": "potion",
+        "potion_contents": {
+            "effects": {
+                "contains": [
+                    {
+                        "wither": {
+                            "amplifier": 0,
+                            "duration": 1800
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "output": {
+        "id": "lingering_potion",
+        "components": {
+            "potion_contents": {
+                "custom_name": "wither",
+                "custom_color": 7561558,
+                "custom_effects": [
+                    {
+                        "id": "wither",
+                        "amplifier": 0,
+                        "duration": 440
+                    }
+                ]
+            }
+        }
+    }
+}

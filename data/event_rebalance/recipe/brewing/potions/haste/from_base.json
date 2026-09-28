@@ -1,0 +1,28 @@
+{
+    "type": "brewing",
+    "reagent": {
+        "item": "crimson_fungus"
+    },
+    "input": {
+        "item": "potion",
+        "potion_contents": {
+            "potions": "minecraft:awkward"
+        }
+    },
+    "output": {
+        "id": "potion",
+        "components": {
+            "potion_contents": {
+                "custom_name": "haste",
+                "custom_color": 14270531,
+                "custom_effects": [
+                    {
+                        "id": "haste",
+                        "amplifier": 0,
+                        "duration": 900
+                    }
+                ]
+            }
+        }
+    }
+}

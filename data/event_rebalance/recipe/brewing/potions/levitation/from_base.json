@@ -1,0 +1,28 @@
+{
+    "type": "brewing",
+    "reagent": {
+        "item": "shulker_shell"
+    },
+    "input": {
+        "item": "potion",
+        "potion_contents": {
+            "potions": "minecraft:awkward"
+        }
+    },
+    "output": {
+        "id": "potion",
+        "components": {
+            "potion_contents": {
+                "custom_name": "levitation",
+                "custom_color": 13565951,
+                "custom_effects": [
+                    {
+                        "id": "levitation",
+                        "amplifier": 0,
+                        "duration": 900
+                    }
+                ]
+            }
+        }
+    }
+}

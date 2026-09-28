@@ -1,0 +1,28 @@
+{
+    "type": "brewing",
+    "reagent": {
+        "item": "#event_rebalance:custom_item/withered_chunks"
+    },
+    "input": {
+        "item": "potion",
+        "potion_contents": {
+            "potions": "minecraft:awkward"
+        }
+    },
+    "output": {
+        "id": "potion",
+        "components": {
+            "potion_contents": {
+                "custom_name": "wither",
+                "custom_color": 7561558,
+                "custom_effects": [
+                    {
+                        "id": "wither",
+                        "amplifier": 0,
+                        "duration": 900
+                    }
+                ]
+            }
+        }
+    }
+}

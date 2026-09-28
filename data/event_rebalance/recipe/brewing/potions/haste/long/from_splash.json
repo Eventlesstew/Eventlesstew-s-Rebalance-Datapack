@@ -1,0 +1,37 @@
+{
+    "type": "brewing",
+    "reagent": {
+        "item": "redstone"
+    },
+    "input": {
+        "item": "splash_potion",
+        "potion_contents": {
+            "effects": {
+                "contains": [
+                    {
+                        "haste": {
+                            "amplifier": 0,
+                            "duration": 900
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "output": {
+        "id": "splash_potion",
+        "components": {
+            "potion_contents": {
+                "custom_name": "haste",
+                "custom_color": 14270531,
+                "custom_effects": [
+                    {
+                        "id": "haste",
+                        "amplifier": 0,
+                        "duration": 1800
+                    }
+                ]
+            }
+        }
+    }
+}

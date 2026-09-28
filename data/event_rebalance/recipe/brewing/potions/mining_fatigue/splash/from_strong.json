@@ -1,0 +1,37 @@
+{
+    "type": "brewing",
+    "reagent": {
+        "item": "gunpowder"
+    },
+    "input": {
+        "item": "potion",
+        "potion_contents": {
+            "effects": {
+                "contains": [
+                    {
+                        "mining_fatigue": {
+                            "amplifier": 1,
+                            "duration": 432
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "output": {
+        "id": "splash_potion",
+        "components": {
+            "potion_contents": {
+                "custom_name": "mining_fatigue",
+                "custom_color": 4866583,
+                "custom_effects": [
+                    {
+                        "id": "mining_fatigue",
+                        "amplifier": 1,
+                        "duration": 432
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -13,7 +13,7 @@
         "id": "lingering_potion",
         "components": {
             "potion_contents": {
-                "custom_name": "lingering_potion_glowing",
+                "custom_name": "glowing",
                 "custom_color": 9740385,
                 "custom_effects": [
                     {

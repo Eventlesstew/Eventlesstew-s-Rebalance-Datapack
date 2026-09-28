@@ -1,0 +1,37 @@
+{
+    "type": "brewing",
+    "reagent": {
+        "item": "gunpowder"
+    },
+    "input": {
+        "item": "potion",
+        "potion_contents": {
+            "effects": {
+                "contains": [
+                    {
+                        "resistance": {
+                            "amplifier": 0,
+                            "duration": 3600
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "output": {
+        "id": "splash_potion",
+        "components": {
+            "potion_contents": {
+                "custom_name": "resistance",
+                "custom_color": 9520880,
+                "custom_effects": [
+                    {
+                        "id": "resistance",
+                        "amplifier": 0,
+                        "duration": 3600
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "type": "brewing",
+    "reagent": {
+        "item": "golden_apple"
+    },
+    "input": {
+        "item": "splash_potion",
+        "potion_contents": {
+            "potions": "minecraft:awkward"
+        }
+    },
+    "output": {
+        "id": "splash_potion",
+        "components": {
+            "potion_contents": {
+                "custom_name": "resistance",
+                "custom_color": 9520880,
+                "custom_effects": [
+                    {
+                        "id": "resistance",
+                        "amplifier": 0,
+                        "duration": 3600
+                    }
+                ]
+            }
+        }
+    }
+}

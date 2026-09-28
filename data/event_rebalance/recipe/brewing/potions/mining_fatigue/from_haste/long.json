@@ -1,0 +1,37 @@
+{
+    "type": "brewing",
+    "reagent": {
+        "item": "fermented_spider_eye"
+    },
+    "input": {
+        "item": "potion",
+        "potion_contents": {
+            "effects": {
+                "contains": [
+                    {
+                        "haste": {
+                            "amplifier": 0,
+                            "duration": 1800
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "output": {
+        "id": "potion",
+        "components": {
+            "potion_contents": {
+                "custom_name": "mining_fatigue",
+                "custom_color": 4866583,
+                "custom_effects": [
+                    {
+                        "id": "mining_fatigue",
+                        "amplifier": 0,
+                        "duration": 1800
+                    }
+                ]
+            }
+        }
+    }
+}
