@@ -1,5 +1,6 @@
 {
 	"values": [
-		"event_rebalance:dagger"
+		"event_rebalance:dagger",
+		"event_rebalance:brutality"
 	]
 }

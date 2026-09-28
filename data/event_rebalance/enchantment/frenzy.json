@@ -1,0 +1,37 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "enchantment.balance.frenzy",
+    "color": "#c3ff7e",
+    "shadow_color": -869230800
+  },
+  "effects": {
+    "attributes": [
+      {
+        "id": "frenzy",
+        "attribute": "attack_speed",
+        "operation": "add_multiplied_base",
+        "amount": {
+          "type": "linear",
+          "base": 0.1,
+          "per_level_above_first": 0.1
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#exclusive_set/damage",
+  "max_level": 5,
+  "max_cost": {
+    "base": 8,
+    "per_level_above_first": 8
+  },
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 8
+  },
+  "weight": 4,
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/weapon"
+}

@@ -1,0 +1,71 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "enchantment.balance.brutality",
+    "color": "#fff281",
+    "shadow_color": -2403049
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "affected": "attacker",
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:damage_entity",
+              "damage_type": "event_rebalance:brutality",
+              "max_damage": {
+                "type": "minecraft:linear",
+                "base": 1,
+                "per_level_above_first": 0.5
+              },
+              "min_damage": {
+                "type": "minecraft:linear",
+                "base": 1,
+                "per_level_above_first": 0.5
+              }
+            },
+            {
+              "type": "play_sound",
+              "sound": {
+                "sound_id": "minecraft:enchant.brutality"
+              },
+              "volume": 1,
+              "pitch": 1
+            }
+          ]
+        },
+        "enchanted": "attacker"
+      }
+    ],
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 4,
+            "per_level_above_first": 2
+          }
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#minecraft:exclusive_set/damage",
+  "max_level": 5,
+  "max_cost": {
+    "base": 8,
+    "per_level_above_first": 8
+  },
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 8
+  },
+  "weight": 2,
+  "slots": [
+    "mainhand",
+    "armor"
+  ],
+  "supported_items": "#event_rebalance:enchantable/brute"
+}

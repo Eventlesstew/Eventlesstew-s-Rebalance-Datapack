@@ -292,6 +292,8 @@
 
     "death.attack.dagger": "%1$s was stabbed to death by %2$s",
     "death.attack.dagger.item": "%1$s was stabbed to death by %2$s using %3$s",
+    "death.attack.brutality": "%1$s couldn't handle their own strength",
+    "death.attack.brutality.item": "%1$s couldn't handle the strength of %3$s",
     "death.attack.staff_area": "%1$s was blasted by %2$s",
     "death.attack.staff_area.item": "%1$s was blasted by %2$s using %3$s",
     "death.attack.wither": "%1$s decayed",

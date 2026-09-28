@@ -7,6 +7,7 @@
     "minecraft:density",
     "minecraft:breach",
     "event_rebalance:valor",
-    "event_rebalance:combo"
+    "event_rebalance:combo",
+    "event_rebalance:brutality"
   ]
 }
