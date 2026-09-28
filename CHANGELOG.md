@@ -16,8 +16,8 @@ The datapack sets the max minecart speed to 1000, making them more viable.
 - Redstone Experiments
 This datapack is not meant to be used with pre-existing worlds anyway.
 
-## Dynamic Lighting
-This system allows entities to emit light, which happens with the following:
+# Dynamic Lighting
+Entities can now emit light when in air or full water blocks, which happens with the following:
 - Glow Squids, Magma Cubes, Allays and Blazes
 (Plan on making this affect Creaking, Wardens, Phantoms and Endermen as well)
 - Holding Lanterns
@@ -28,18 +28,31 @@ The link below will provide a list of enchantments and advancements, along with 
 https://docs.google.com/spreadsheets/d/1JOV3jzUgcOdk2cNXv5mEQuyegpTAdHWbY9tlUcQd-fU/edit?gid=258838270#gid=258838270 
 
 # Gear Changes
-- Stone tools have been removed. Wooden tools have been buffed accordingly.
 - Mining Speed and Power is now displayed on all tools.
 - Added Rose Golden Tools, a fragile, yet fast sidegrade of Gold that you can find in Bastion Remnants
 - Netherite Upgrades can now be found in Nether Fortresses, along with a lot of Netherite.
 
 - The Handsaw has completely replaced Silk Touch, allowing certain blocks to become easier to obtain.
 
+# Gear
+- Durability has been readjusted for Wooden, Copper, Iron and Golden Tools.
+- Golden Gear has been rebalanced to have it's strength be inbetween Iron and Diamond, offering excellent speed at the cost of durability.
+- Weapons now display more information in their tooltips.
+
+## Stone Tools and Chainmail Armor
+- Stone tools have been completely removed. Wooden tools have been buffed accordingly and upgrade straight to Copper.
+- Additionally, Chainmail armor was also removed. It corresponded to Stone Tools originally, but has become an odd, rare armor set.
+
+## Rose Golden Gear
+- A new tier of tools, weapons and armor that serves as a formidable sidegrade to Netherite Armor. 
+- Rose Golden Gear offers faster gameplay at the cost of low durability, damage and stealth.
+- The Smithing Upgrades can be found at Bastion Remnants. (While the Netherite Upgrade is fortress exclusive)
+
 ## Hammers
 - Tired of a good chunk of inventory being taken by your tools? The Hammer solves that problem! It can mine just about anything, just a bit slower.
 
-## Weapons
-- Diamond and Netherite weapons now reduce attack speed while Golden and Rose Golden weapons increase it
+## Hand Saw
+- The Hand Saw has replaced Silk Touch as a cheaper method to obtain certain blocks that usually don't drop themselves.
 
 ## Daggers
 - You might like this Bedrock users! The dagger has a high attack speed for rapid attacks, but has low damage and zero knockback to boot.
