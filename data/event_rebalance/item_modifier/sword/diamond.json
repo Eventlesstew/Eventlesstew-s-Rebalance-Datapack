@@ -13,14 +13,14 @@
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_damage",
-                        "amount": 7,
+                        "amount": "event_rebalance:item_rebalance/sword_damage/diamond",
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_speed",
-                        "amount": -2.5,
+                        "amount": "event_rebalance:item_rebalance/sword_speed/diamond",
                         "operation": "add_value",
                         "slot": "mainhand"
                     }

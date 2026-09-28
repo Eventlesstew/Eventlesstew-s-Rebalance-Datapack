@@ -1,0 +1,5 @@
+{
+    "type": "sub",
+    "left": "event_rebalance:item_rebalance/axe_damage/copper",
+    "right": 2
+}

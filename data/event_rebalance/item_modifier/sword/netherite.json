@@ -13,14 +13,14 @@
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_damage",
-                        "amount": 8,
+                        "amount": "event_rebalance:item_rebalance/sword_damage/netherite",
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_speed",
-                        "amount": -2.6,
+                        "amount": "event_rebalance:item_rebalance/sword_speed/netherite",
                         "operation": "add_value",
                         "slot": "mainhand"
                     }
@@ -65,7 +65,7 @@
                     },
                     
                     {
-                        "translate": " 9 ",
+                        "translate": " 10 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.attack_damage"

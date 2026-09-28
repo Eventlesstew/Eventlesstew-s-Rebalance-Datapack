@@ -13,14 +13,14 @@
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_damage",
-                        "amount": 5,
+                        "amount": "event_rebalance:item_rebalance/sword_damage/copper",
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_speed",
-                        "amount": -2.2,
+                        "amount": "event_rebalance:item_rebalance/sword_speed/copper",
                         "operation": "add_value",
                         "slot": "mainhand"
                     }
@@ -43,12 +43,12 @@
                         "rules": [
                             {
                                 "blocks": "cobweb",
-                                "speed": 12,
+                                "speed": 16,
                                 "correct_for_drops": true
                             },
                             {
                                 "blocks": "#event_rebalance:mineable/sword",
-                                "speed": 6,
+                                "speed": 8,
                                 "correct_for_drops": true
                             }
                         ]
@@ -65,7 +65,7 @@
                     },
                     
                     {
-                        "translate": " 6 ",
+                        "translate": " 5 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.attack_damage"

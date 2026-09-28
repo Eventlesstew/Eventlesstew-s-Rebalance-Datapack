@@ -13,14 +13,14 @@
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_damage",
-                        "amount": 7,
+                        "amount": "event_rebalance:item_rebalance/pickaxe_damage/netherite",
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_speed",
-                        "amount": -3.4,
+                        "amount": "event_rebalance:item_rebalance/axe_speed/netherite",
                         "operation": "add_value",
                         "slot": "mainhand"
                     }
@@ -65,7 +65,7 @@
                     },
                     
                     {
-                        "translate": " 8 ",
+                        "translate": " 7 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.attack_damage"
@@ -75,7 +75,7 @@
                         "italic": false
                     },
                     {
-                        "translate": " 0.6 ",
+                        "translate": " 1 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.attack_speed"
@@ -95,7 +95,7 @@
                         "italic": false
                     },
                     {
-                        "translate": " 5 ",
+                        "translate": " 4 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.mining_power"

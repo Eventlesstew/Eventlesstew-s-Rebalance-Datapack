@@ -13,14 +13,14 @@
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_damage",
-                        "amount": 10,
+                        "amount": "event_rebalance:item_rebalance/axe_damage/rose_golden",
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_speed",
-                        "amount": -2.6,
+                        "amount": "event_rebalance:item_rebalance/axe_speed/rose_golden",
                         "operation": "add_value",
                         "slot": "mainhand"
                     }

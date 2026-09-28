@@ -13,14 +13,14 @@
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_damage",
-                        "amount": 10,
+                        "amount": "event_rebalance:item_rebalance/axe_damage/iron",
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_speed",
-                        "amount": -2.8,
+                        "amount": "event_rebalance:item_rebalance/axe_speed/iron",
                         "operation": "add_value",
                         "slot": "mainhand"
                     }
@@ -43,7 +43,7 @@
                         "rules": [
                             {
                                 "blocks": "#mineable/axe",
-                                "speed": 8,
+                                "speed": 6,
                                 "correct_for_drops": true
                             }
                         ]
@@ -60,7 +60,7 @@
                     },
                     
                     {
-                        "translate": " 11 ",
+                        "translate": " 12 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.attack_damage"
@@ -70,7 +70,7 @@
                         "italic": false
                     },
                     {
-                        "translate": " 1.1 ",
+                        "translate": " 1 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.attack_speed"
@@ -80,7 +80,7 @@
                         "italic": false
                     },
                     {
-                        "translate": " 8 ",
+                        "translate": " 6 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.chopping_speed"

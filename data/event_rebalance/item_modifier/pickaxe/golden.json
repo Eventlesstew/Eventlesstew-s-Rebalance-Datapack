@@ -13,14 +13,14 @@
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_damage",
-                        "amount": 5,
+                        "amount": "event_rebalance:item_rebalance/pickaxe_damage/golden",
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_speed",
-                        "amount": -3.1,
+                        "amount": "event_rebalance:item_rebalance/axe_speed/golden",
                         "operation": "add_value",
                         "slot": "mainhand"
                     }
@@ -79,7 +79,7 @@
                         "italic": false
                     },
                     {
-                        "translate": " 0.9 ",
+                        "translate": " 1 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.attack_speed"
@@ -109,7 +109,7 @@
                         "italic": false
                     },
                     {
-                        "translate": " 3 ",
+                        "translate": " 2 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.mining_power"

@@ -7,6 +7,7 @@
         "type": "sequence",
         "functions": [
             "event_rebalance:modified",
+            "event_rebalance:custom_item/music_disc_unstackable",
             {
                 "type": "minecraft:set_attributes",
                 "modifiers": [
@@ -14,6 +15,13 @@
                         "id": "balance",
                         "attribute": "minecraft:attack_damage",
                         "amount": 4,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "id": "balance",
+                        "attribute": "minecraft:attack_speed",
+                        "amount": -1,
                         "operation": "add_value",
                         "slot": "mainhand"
                     }
@@ -28,9 +36,6 @@
             {
                 "type": "set_components",
                 "components": {
-                    "!jukebox_playable": {},
-                    "rarity": "common",
-                    "max_stack_size": 1,
                     "minecraft:max_damage": 2048,
                     "damage": 0,
                     "damage_type": "event_rebalance:dagger",
@@ -84,7 +89,7 @@
                         "italic": false
                     },
                     {
-                        "translate": " 4 ",
+                        "translate": " 3 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.attack_speed"

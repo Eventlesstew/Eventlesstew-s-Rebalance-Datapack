@@ -13,14 +13,14 @@
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_damage",
-                        "amount": 4,
+                        "amount": "event_rebalance:item_rebalance/pickaxe_damage/copper",
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_speed",
-                        "amount": -3.1,
+                        "amount": "event_rebalance:item_rebalance/axe_speed/copper",
                         "operation": "add_value",
                         "slot": "mainhand"
                     }
@@ -43,12 +43,12 @@
                         "rules": [
                             {
                                 "blocks": "#event_rebalance:pickaxe_power_3",
-                                "speed": 1.5,
+                                "speed": 2,
                                 "correct_for_drops": false
                             },
                             {
                                 "blocks": "#mineable/pickaxe",
-                                "speed": 6,
+                                "speed": 8,
                                 "correct_for_drops": true
                             }
                         ]
@@ -65,7 +65,7 @@
                     },
                     
                     {
-                        "translate": " 5 ",
+                        "translate": " 4 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.attack_damage"
@@ -75,7 +75,7 @@
                         "italic": false
                     },
                     {
-                        "translate": " 0.9 ",
+                        "translate": " 1.2 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.attack_speed"
@@ -85,7 +85,7 @@
                         "italic": false
                     },
                     {
-                        "translate": " 6 ",
+                        "translate": " 8 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.mining_speed"

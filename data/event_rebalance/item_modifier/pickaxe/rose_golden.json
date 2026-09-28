@@ -13,14 +13,14 @@
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_damage",
-                        "amount": 5,
+                        "amount": "event_rebalance:item_rebalance/pickaxe_damage/rose_golden",
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_speed",
-                        "amount": -3,
+                        "amount": "event_rebalance:item_rebalance/axe_speed/rose_golden",
                         "operation": "add_value",
                         "slot": "mainhand"
                     }
@@ -42,7 +42,7 @@
                     "tool": {
                         "rules": [
                             {
-                                "blocks": "#event_rebalance:pickaxe_power_4",
+                                "blocks": "#event_rebalance:pickaxe_power_3",
                                 "speed": 6,
                                 "correct_for_drops": false
                             },
@@ -80,7 +80,7 @@
                         "italic": false
                     },
                     {
-                        "translate": " 1 ",
+                        "translate": " 1.4 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.attack_speed"
@@ -110,7 +110,7 @@
                         "italic": false
                     },
                     {
-                        "translate": " 3 ",
+                        "translate": " 2 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.mining_power"

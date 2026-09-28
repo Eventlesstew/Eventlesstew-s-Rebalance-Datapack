@@ -13,14 +13,14 @@
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_damage",
-                        "amount": 3,
+                        "amount": "event_rebalance:item_rebalance/pickaxe_damage/wooden",
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_speed",
-                        "amount": -3,
+                        "amount": "event_rebalance:item_rebalance/axe_speed/wooden",
                         "operation": "add_value",
                         "slot": "mainhand"
                     }
@@ -65,7 +65,7 @@
                     },
                     
                     {
-                        "translate": " 4 ",
+                        "translate": " 3 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.attack_damage"
@@ -75,7 +75,7 @@
                         "italic": false
                     },
                     {
-                        "translate": " 1 ",
+                        "translate": " 1.2 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.attack_speed"

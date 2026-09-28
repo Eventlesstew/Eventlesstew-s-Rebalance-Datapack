@@ -13,14 +13,14 @@
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_damage",
-                        "amount": 12,
+                        "amount": "event_rebalance:item_rebalance/axe_damage/diamond",
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_speed",
-                        "amount": -3.4,
+                        "amount": "event_rebalance:item_rebalance/axe_speed/diamond",
                         "operation": "add_value",
                         "slot": "mainhand"
                     }
@@ -60,7 +60,7 @@
                     },
                     
                     {
-                        "translate": " 13 ",
+                        "translate": " 14 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.attack_damage"
@@ -70,7 +70,7 @@
                         "italic": false
                     },
                     {
-                        "translate": " 0.6 ",
+                        "translate": " 1 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.attack_speed"
