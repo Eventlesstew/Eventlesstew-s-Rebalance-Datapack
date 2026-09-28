@@ -1,0 +1,28 @@
+{
+    "type": "brewing",
+    "reagent": {
+        "item": "glow_berries"
+    },
+    "input": {
+        "item": "lingering_potion",
+        "potion_contents": {
+            "potions": "minecraft:awkward"
+        }
+    },
+    "output": {
+        "id": "lingering_potion",
+        "components": {
+            "potion_contents": {
+                "custom_name": "lingering_potion_glowing",
+                "custom_color": 9740385,
+                "custom_effects": [
+                    {
+                        "id": "glowing",
+                        "amplifier": 0,
+                        "duration": 900
+                    }
+                ]
+            }
+        }
+    }
+}

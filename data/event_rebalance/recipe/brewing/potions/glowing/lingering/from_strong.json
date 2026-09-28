@@ -1,0 +1,37 @@
+{
+    "type": "brewing",
+    "reagent": {
+        "item": "dragon_breath"
+    },
+    "input": {
+        "item": "potion",
+        "potion_contents": {
+            "effects": {
+                "contains": [
+                    {
+                        "glowing": {
+                            "amplifier": 1,
+                            "duration": 1800
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "output": {
+        "id": "lingering_potion",
+        "components": {
+            "potion_contents": {
+                "custom_name": "lingering_potion_glowing",
+                "custom_color": 9740385,
+                "custom_effects": [
+                    {
+                        "id": "glowing",
+                        "amplifier": 1,
+                        "duration": 440
+                    }
+                ]
+            }
+        }
+    }
+}
