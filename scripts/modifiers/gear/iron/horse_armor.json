@@ -1,0 +1,59 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "iron_horse_armor"
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "minecraft:set_attributes",
+                "modifiers": [
+                    {
+                        "id": "balance",
+                        "operation": "add_value",
+                        "attribute": "armor",
+                        "amount": 16.0,
+                        "slot": "body"
+                    }
+                ]
+            },
+            {
+                "type": "minecraft:set_components",
+                "components": {
+                    "weapon": {
+                        "item_damage_per_attack": 1,
+                        "disable_blocking_for_seconds": null
+                    }
+                }
+            },
+            {
+                "type": "minecraft:set_lore",
+                "lore": [
+                    {
+                        "text": " ",
+                        "color": "#AAAAAA",
+                        "italic": false
+                    },
+                    {
+                        "text": " 16 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.armor"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
+                    }
+                ]
+            }
+        ]
+    }
+}

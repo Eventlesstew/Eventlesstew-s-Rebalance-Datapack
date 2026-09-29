@@ -4,9 +4,9 @@
     "minecraft:golden_chestplate",
     "minecraft:golden_leggings",
     "minecraft:golden_boots",
-    "#event_rebalance:custom_item/rose_golden/helmet",
-    "#event_rebalance:custom_item/rose_golden/chestplate",
-    "#event_rebalance:custom_item/rose_golden/leggings",
-    "#event_rebalance:custom_item/rose_golden/boots"
+    "#event_rebalance:custom_item/gear/rose_golden/helmet",
+    "#event_rebalance:custom_item/gear/rose_golden/chestplate",
+    "#event_rebalance:custom_item/gear/rose_golden/leggings",
+    "#event_rebalance:custom_item/gear/rose_golden/boots"
   ]
 }

@@ -1,0 +1,130 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "diamond_spear"
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "minecraft:set_attributes",
+                "modifiers": [
+                    {
+                        "id": "balance",
+                        "operation": "add_value",
+                        "attribute": "attack_damage",
+                        "amount": 4,
+                        "slot": "mainhand"
+                    },
+                    {
+                        "id": "balance",
+                        "operation": "add_value",
+                        "attribute": "attack_speed",
+                        "amount": -3.1,
+                        "slot": "mainhand"
+                    }
+                ]
+            },
+            {
+                "type": "minecraft:set_components",
+                "components": {
+                    "max_damage": 1024,
+                    "repairable": {
+                        "items": "#event_rebalance:tool_repair/diamond"
+                    },
+                    "weapon": {
+                        "item_damage_per_attack": 1,
+                        "disable_blocking_for_seconds": 1
+                    },
+                    "piercing_weapon": {
+                        "sound": "item.spear.attack",
+                        "hit_sound": "item.spear.hit"
+                    },
+                    "kinetic_weapon": {
+                        "delay_ticks": 12.0,
+                        "dismount_conditions": {
+                            "max_duration_ticks": 46,
+                            "min_speed": 8
+                        },
+                        "knockback_conditions": {
+                            "max_duration_ticks": 93,
+                            "min_speed": 4
+                        },
+                        "damage_conditions": {
+                            "max_duration_ticks": 140,
+                            "min_speed": 4
+                        },
+                        "damage_multiplier": 1,
+                        "contact_cooldown_ticks": 10,
+                        "sound": "item.spear.use",
+                        "hit_sound": "item.spear.hit",
+                        "forward_movement": 0.4
+                    },
+                    "attack_range": {
+                        "min_reach": 2,
+                        "max_reach": 4.5,
+                        "mob_factor": 0.5
+                    },
+                    "minimum_attack_charge": 1
+                }
+            },
+            {
+                "type": "minecraft:set_lore",
+                "lore": [
+                    {
+                        "text": " ",
+                        "color": "#AAAAAA",
+                        "italic": false
+                    },
+                    {
+                        "text": " 5 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.attack_damage"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
+                    },
+                    {
+                        "text": " 0.9 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.attack_speed"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
+                    },
+                    {
+                        "text": " 0.6s ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.charge_delay"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
+                    },
+                    {
+                        "text": " 7s ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.charge_duration"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
+                    }
+                ]
+            }
+        ]
+    }
+}

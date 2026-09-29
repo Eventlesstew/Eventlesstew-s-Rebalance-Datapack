@@ -1,7 +1,7 @@
 {
     "values": [
         "#axes",
-        "#event_rebalance:hammers",
+        "#minecraft:hammers",
         "#event_rebalance:custom_item/staff",
         "mace"
     ]

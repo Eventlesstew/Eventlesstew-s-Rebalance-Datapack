@@ -151,7 +151,7 @@
               "predicate": {
                 "equipment": {
                   "mainhand": {
-                    "items": "#event_rebalance:daggers"
+                    "items": "#minecraft:daggers"
                   }
                 }
               }

@@ -423,7 +423,7 @@
             "type": "minecraft:item",
             "name": "minecraft:music_disc_far",
             "modifier": [
-                "event_rebalance:dagger/golden",
+                "event_rebalance:gear/golden/dagger",
                 {
                 "type": "minecraft:enchant_randomly",
                 "options": "#minecraft:on_random_loot"

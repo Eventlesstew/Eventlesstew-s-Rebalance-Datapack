@@ -2,6 +2,6 @@
   "values": [
     "#minecraft:enchantable/melee_weapon",
     "#minecraft:axes",
-    "#event_rebalance:hammers"
+    "#minecraft:hammers"
   ]
 }

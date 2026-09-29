@@ -1,0 +1,13 @@
+{
+  "values": [
+    "#event_rebalance:custom_item/gear/wooden/hammer",
+    "#event_rebalance:custom_item/gear/stone/hammer",
+    "#event_rebalance:custom_item/gear/copper/hammer",
+    "#event_rebalance:custom_item/gear/iron/hammer",
+    "#event_rebalance:custom_item/gear/hyphae/hammer",
+    "#event_rebalance:custom_item/gear/golden/hammer",
+    "#event_rebalance:custom_item/gear/diamond/hammer",
+    "#event_rebalance:custom_item/gear/rose_golden/hammer",
+    "#event_rebalance:custom_item/gear/netherite/hammer"
+  ]
+}

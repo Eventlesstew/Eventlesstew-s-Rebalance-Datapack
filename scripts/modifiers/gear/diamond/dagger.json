@@ -1,0 +1,90 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "#event_rebalance:custom_item/gear/diamond/dagger",
+        "components": {
+            "item_model": "event:gear/diamond/dagger"
+        }
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "minecraft:set_attributes",
+                "modifiers": [
+                    {
+                        "id": "balance",
+                        "operation": "add_value",
+                        "attribute": "attack_damage",
+                        "amount": 3,
+                        "slot": "mainhand"
+                    },
+                    {
+                        "id": "balance",
+                        "operation": "add_value",
+                        "attribute": "attack_speed",
+                        "amount": -1,
+                        "slot": "mainhand"
+                    }
+                ]
+            },
+            {
+                "type": "minecraft:set_components",
+                "components": {
+                    "max_damage": 1024,
+                    "repairable": {
+                        "items": "#event_rebalance:tool_repair/diamond"
+                    },
+                    "weapon": {
+                        "item_damage_per_attack": 1,
+                        "disable_blocking_for_seconds": 0
+                    },
+                    "damage_type": "event_rebalance:dagger",
+                    "attack_animation": {
+                        "type": "stab",
+                        "duration": 4
+                    },
+                    "item_name": "item.event.diamond_dagger",
+                    "damage": 0
+                }
+            },
+            {
+                "type": "minecraft:set_lore",
+                "lore": [
+                    {
+                        "text": " ",
+                        "color": "#AAAAAA",
+                        "italic": false
+                    },
+                    {
+                        "text": " 4 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.attack_damage"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
+                    },
+                    {
+                        "text": " 3 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.attack_speed"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
+                    }
+                ]
+            }
+        ]
+    }
+}

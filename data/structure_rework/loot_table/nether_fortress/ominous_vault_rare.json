@@ -46,7 +46,7 @@
         {
           "type": "minecraft:item",
           "modifier": [
-            "event_rebalance:sword/diamond",
+            "event_rebalance:gear/diamond/sword",
             {
                 "type": "enchant_with_levels",
                 "levels": {
@@ -62,7 +62,7 @@
         {
           "type": "minecraft:item",
           "modifier": [
-            "event_rebalance:hoe/netherite"
+            "event_rebalance:gear/netherite/hoe"
           ],
           "name": "minecraft:netherite_hoe",
           "weight": 1

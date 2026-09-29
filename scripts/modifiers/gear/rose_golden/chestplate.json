@@ -1,0 +1,96 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "#event_rebalance:custom_item/gear/rose_golden/chestplate",
+        "components": {
+            "item_model": "event:gear/rose_golden/chestplate"
+        }
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "minecraft:set_attributes",
+                "modifiers": [
+                    {
+                        "id": "balance",
+                        "operation": "add_value",
+                        "attribute": "armor",
+                        "amount": 8.0,
+                        "slot": "chest"
+                    },
+                    {
+                        "id": "balance",
+                        "operation": "add_multiplied_base",
+                        "attribute": "movement_speed",
+                        "amount": 2.0,
+                        "slot": "chest"
+                    },
+                    {
+                        "id": "balance",
+                        "operation": "add_multiplied_base",
+                        "attribute": "air_drag_modifier",
+                        "amount": -2.0,
+                        "slot": "chest"
+                    }
+                ]
+            },
+            {
+                "type": "minecraft:set_components",
+                "components": {
+                    "max_damage": 128,
+                    "repairable": {
+                        "items": "#event_rebalance:tool_repair/rose_golden"
+                    },
+                    "mob_visibility": {
+                        "targeting_entity_types": "#event_rebalance:mobs",
+                        "visibility": 1.4285714285714286
+                    },
+                    "weapon": {
+                        "item_damage_per_attack": 1,
+                        "disable_blocking_for_seconds": null
+                    },
+                    "item_name": "item.event.rose_golden_chestplate",
+                    "damage": 0
+                }
+            },
+            {
+                "type": "minecraft:set_lore",
+                "lore": [
+                    {
+                        "text": " ",
+                        "color": "#AAAAAA",
+                        "italic": false
+                    },
+                    {
+                        "text": " 8 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.armor"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
+                    },
+                    {
+                        "text": " 2% ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.movement_speed"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
+                    }
+                ]
+            }
+        ]
+    }
+}

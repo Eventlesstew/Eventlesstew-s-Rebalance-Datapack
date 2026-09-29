@@ -1,0 +1,99 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "diamond_hoe"
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "minecraft:set_attributes",
+                "modifiers": [
+                    {
+                        "id": "balance",
+                        "operation": "add_value",
+                        "attribute": "attack_damage",
+                        "amount": 4,
+                        "slot": "mainhand"
+                    },
+                    {
+                        "id": "balance",
+                        "operation": "add_value",
+                        "attribute": "attack_speed",
+                        "amount": -3,
+                        "slot": "mainhand"
+                    }
+                ]
+            },
+            {
+                "type": "minecraft:set_components",
+                "components": {
+                    "max_damage": 1024,
+                    "repairable": {
+                        "items": "#event_rebalance:tool_repair/diamond"
+                    },
+                    "weapon": {
+                        "item_damage_per_attack": 1,
+                        "disable_blocking_for_seconds": 0
+                    },
+                    "tool": {
+                        "rules": [
+                            {
+                                "blocks": "#mineable/hoe",
+                                "speed": 12,
+                                "correct_for_drops": true
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "minecraft:set_lore",
+                "lore": [
+                    {
+                        "text": " ",
+                        "color": "#AAAAAA",
+                        "italic": false
+                    },
+                    {
+                        "text": " 5 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.attack_damage"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
+                    },
+                    {
+                        "text": " 1 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.attack_speed"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
+                    },
+                    {
+                        "text": " 12 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.hoe_mining_speed"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
+                    }
+                ]
+            }
+        ]
+    }
+}

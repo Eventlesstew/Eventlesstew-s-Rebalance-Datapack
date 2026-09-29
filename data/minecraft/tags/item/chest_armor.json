@@ -1,0 +1,13 @@
+{
+  "values": [
+    "minecraft:leather_chestplate",
+    "minecraft:copper_chestplate",
+    "minecraft:chainmail_chestplate",
+    "minecraft:golden_chestplate",
+    "minecraft:iron_chestplate",
+    "minecraft:diamond_chestplate",
+    "minecraft:netherite_chestplate",
+    "#event_rebalance:custom_item/gear/hoglin_hide/chestplate",
+    "#event_rebalance:custom_item/gear/rose_golden/chestplate"
+  ]
+}

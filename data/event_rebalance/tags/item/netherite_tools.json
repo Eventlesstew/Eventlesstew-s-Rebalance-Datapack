@@ -12,7 +12,7 @@
         "netherite_shovel",
         "netherite_spear",
         "netherite_sword",
-        "#event_rebalance:custom_item/netherite_dagger",
-        "#event_rebalance:custom_item/netherite_hammer"
+        "#event_rebalance:custom_item/gear/netherite/dagger",
+        "#event_rebalance:custom_item/gear/netherite/hammer"
     ]
 }

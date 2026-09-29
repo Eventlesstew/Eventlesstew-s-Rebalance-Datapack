@@ -1,9 +1,18 @@
 {
     "values": [
-        "copper_pickaxe",
-        "copper_axe",
-        "copper_shovel",
-        "copper_hoe",
-        "#event_rebalance:custom_item/copper_hammer"
+        "minecraft:copper_pickaxe",
+        "minecraft:copper_shovel",
+        "minecraft:copper_axe",
+        "minecraft:copper_hoe",
+        "minecraft:copper_sword",
+        "minecraft:copper_spear",
+        "minecraft:copper_helmet",
+        "minecraft:copper_chestplate",
+        "minecraft:copper_leggings",
+        "minecraft:copper_boots",
+        "minecraft:copper_horse_armor",
+        "minecraft:copper_nautilus_armor",
+        "#event_rebalance:custom_item/gear/copper/dagger",
+        "#event_rebalance:custom_item/gear/copper/hammer"
     ]
 }

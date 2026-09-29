@@ -1,6 +1,6 @@
 {
     "values": [
-        "#event_rebalance:mineable/hammer",
+        "#mineable/hammer",
         "cobweb",
         "glowstone",
         "sea_lantern"

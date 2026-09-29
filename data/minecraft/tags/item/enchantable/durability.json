@@ -1,8 +1,8 @@
 {
   "values": [
-    "#event_rebalance:armor",
-    "#event_rebalance:daggers",
-    "#event_rebalance:hammers",
+    "#minecraft:armor",
+    "#minecraft:daggers",
+    "#minecraft:hammers",
     "#event_rebalance:custom_item/handsaw",
     "#event_rebalance:custom_item/staff",
     "minecraft:elytra",

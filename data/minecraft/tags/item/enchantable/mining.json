@@ -6,6 +6,6 @@
     "#minecraft:hoes",
     "minecraft:shears",
     "#event_rebalance:custom_item/handsaw",
-    "#event_rebalance:hammers"
+    "#minecraft:hammers"
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "values": [
+    "minecraft:diamond_pickaxe",
+    "minecraft:stone_pickaxe",
+    "minecraft:golden_pickaxe",
+    "minecraft:netherite_pickaxe",
+    "minecraft:wooden_pickaxe",
+    "minecraft:iron_pickaxe",
+    "minecraft:copper_pickaxe",
+    "#event_rebalance:custom_item/gear/hyphae/pickaxe",
+    "#event_rebalance:custom_item/gear/rose_golden/pickaxe"
+  ]
+}

@@ -3,7 +3,7 @@
         "#swords",
         "#spears",
         "#axes",
-        "#event_rebalance:hammers",
-        "#event_rebalance:daggers"
+        "#minecraft:hammers",
+        "#minecraft:daggers"
     ]
 }

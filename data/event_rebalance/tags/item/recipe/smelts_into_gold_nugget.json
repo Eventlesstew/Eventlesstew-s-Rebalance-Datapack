@@ -1,17 +1,6 @@
 {
     "values": [
-        "minecraft:golden_pickaxe",
-        "minecraft:golden_shovel",
-        "minecraft:golden_axe",
-        "minecraft:golden_hoe",
-        "minecraft:golden_sword",
-        "minecraft:golden_spear",
-        "minecraft:golden_helmet",
-        "minecraft:golden_chestplate",
-        "minecraft:golden_leggings",
-        "minecraft:golden_boots",
-        "minecraft:golden_horse_armor",
-        "minecraft:golden_nautilus_armor",
+        "#event_rebalance:golden_tools",
         "clock"
     ]
 }

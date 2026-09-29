@@ -1,0 +1,13 @@
+{
+  "values": [
+    "minecraft:diamond_sword",
+    "minecraft:stone_sword",
+    "minecraft:golden_sword",
+    "minecraft:netherite_sword",
+    "minecraft:wooden_sword",
+    "minecraft:iron_sword",
+    "minecraft:copper_sword",
+    "#event_rebalance:custom_item/gear/hyphae/sword",
+    "#event_rebalance:custom_item/gear/rose_golden/sword"
+  ]
+}

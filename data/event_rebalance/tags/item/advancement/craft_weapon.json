@@ -1,8 +1,8 @@
 {
     "values": [
         "#swords",
-        "#event_rebalance:daggers",
-        "#event_rebalance:hammers",
+        "#daggers",
+        "#hammers",
         "#axes",
         "#spears"
     ]

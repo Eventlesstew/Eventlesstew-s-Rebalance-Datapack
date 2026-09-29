@@ -4,7 +4,7 @@ import pathlib
 
 template_path = "scripts/gear_rebalance_template.json"
 data_path = "scripts/gear_rebalance_data.json"
-modifier_folder_path = "scripts/modifiers"
+modifier_folder_path = "data/event_rebalance/item_modifier/gear"
 
 lore_base = {
     "text": "",
@@ -93,7 +93,7 @@ def add_tool_attribute(
         "id": "balance",
         "operation": type,
         "attribute": id,
-        "value": value,
+        "amount": value,
         "slot": slot,
     }
 
@@ -133,7 +133,7 @@ for tier_i, tier in enumerate(data_file["tiers"]):
         tool_data = {
             "attributes": [],
             "components": {},
-            "lore": [{"translate": " ", "color": "#AAAAAA", "italic": False}],
+            "lore": [{"text": " ", "color": "#AAAAAA", "italic": False}],
         }
         components = tool_data["components"]
 
@@ -154,7 +154,11 @@ for tier_i, tier in enumerate(data_file["tiers"]):
             {"type": "minecraft:set_components", "components": components}
         )
         modifier["on_pass"]["functions"].append(
-            {"type": "minecraft:set_lore", "lore": tool_data["lore"]}
+            {
+                "type": "minecraft:set_lore",
+                "mode": "replace_all",
+                "lore": tool_data["lore"],
+            }
         )
 
         add_attribute("attack_damage", 1)
@@ -177,10 +181,11 @@ for tier_i, tier in enumerate(data_file["tiers"]):
 
         if not get_tool_value(tier, tool, "unbreakable"):
             components["max_damage"] = get_tool_value(tier, tool, "max_damage")
-            components["repairable"] = (
-                {"items": "#event_rebalance:tool_repair/" + display_tier},
-            )
+            components["repairable"] = {
+                "items": "#event_rebalance:tool_repair/" + display_tier
+            }
 
+        # Stealth
         stealth = get_tool_value(tier, tool, "stealth")
         if stealth:
             components["mob_visibility"] = {
@@ -188,16 +193,74 @@ for tier_i, tier in enumerate(data_file["tiers"]):
                 "visibility": 1 / stealth,
             }
 
+        # Durability and Shield Break Handling
         components["weapon"] = {
             "item_damage_per_attack": 1,
             "disable_blocking_for_seconds": get_tool_value(
                 tier, tool, "shield_disable_time"
             ),
         }
+
+        # Mining Components
+        mineable = get_tool_value(tier, tool, "mineable")
+        if mineable:
+            # Mining Speed
+            mining_speed = get_tool_value(tier, tool, "mining_speed")
+            tool_rules = []
+            components["tool"] = {"rules": tool_rules}
+
+            tool_rules.append(
+                {
+                    "blocks": "#mineable/" + mineable,
+                    "speed": mining_speed,
+                    "correct_for_drops": True,
+                }
+            )
+
+            # Mining Speed tooltip
+            mining_speed_tooltip = copy.deepcopy(lore_base)
+            mining_speed_tooltip["text"] = " " + str(mining_speed) + " "
+            mining_speed_tooltip["extra"] = [
+                {"translate": "attribute.name." + mineable + "_mining_speed"}
+            ]
+            tool_data["lore"].append(mining_speed_tooltip)
+
+            if get_tool_value(tier, tool, "uses_pickaxe_mining_power"):
+                mining_power = get_tool_value(tier, tool, "mining_power")
+
+                if mineable == "pickaxe" and mining_power >= 3:
+                    tool_rules.insert(
+                        0,
+                        {
+                            "blocks": "#event_rebalance:obsidian",
+                            "speed": mining_speed * 2,
+                            "correct_for_drops": True,
+                        },
+                    )
+
+                tool_rules.insert(
+                    0,
+                    {
+                        "blocks": "#event_rebalance:pickaxe_power_"
+                        + str(mining_power + 1),
+                        "speed": mining_speed / 4,
+                        "correct_for_drops": False,
+                    },
+                )
+
+                mining_power_tooltip = copy.deepcopy(lore_base)
+                mining_power_tooltip["text"] = " " + str(mining_power) + " "
+                mining_power_tooltip["extra"] = [
+                    {"translate": "attribute.name.mining_power"}
+                ]
+                tool_data["lore"].append(mining_power_tooltip)
+
+        # Dagger Animation
         if tool == "dagger":
             components["damage_type"] = "event_rebalance:dagger"
             components["attack_animation"] = {"type": "stab", "duration": 4}
 
+        # Spear Data
         if tool == "spear":
             charge_delay_seconds = get_tool_value(tier, tool, "charge_delay")
             charge_delay_ticks = charge_delay_seconds * 20
@@ -265,10 +328,10 @@ for tier_i, tier in enumerate(data_file["tiers"]):
             modifier["item_filter"]["items"] = display_tier + "_" + tool
 
         # Saving the Modifier
-        modifier_directory = modifier_folder_path + "/" + tool + "/"
+        modifier_directory = modifier_folder_path + "/" + display_tier + "/"
         pathlib.Path(modifier_directory).mkdir(parents=True, exist_ok=True)
 
-        modifier_path = modifier_directory + display_tier + ".json"
+        modifier_path = modifier_directory + tool + ".json"
         with open(modifier_path, "w") as file:
             file.write(json.dumps(modifier, indent=4))
         print("Creating " + display_tier + "_" + tool)

@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#event_rebalance:copper_tools"
+            "items": "#event_rebalance:advancement/upgrade_tools"
           }
         ]
       },

@@ -20,6 +20,7 @@
         ]
     },
     "default":{
+        "shield_disable_time":0,
         "sword":{
             "shield_disable_time":1
         },
@@ -607,7 +608,7 @@
         "netherite":{
             "max_damage":2048,
             "mining_speed":16,
-            "mining_power":4,
+            "mining_power":3,
             "tools":{
                 "sword": {
                     "attack_damage": 10,
