@@ -87,7 +87,7 @@ def add_tool_attribute(
     display_value = str(value)
     value -= base
     if type == "add_multiplied_base":
-        value / 100
+        value *= 0.01
         display_value += "%"
     attribute = {
         "id": "balance",

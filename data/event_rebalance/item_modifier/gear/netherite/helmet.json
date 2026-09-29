@@ -34,21 +34,21 @@
                         "id": "balance",
                         "operation": "add_multiplied_base",
                         "attribute": "movement_speed",
-                        "amount": -3.0,
+                        "amount": -0.03,
                         "slot": "head"
                     },
                     {
                         "id": "balance",
                         "operation": "add_multiplied_base",
                         "attribute": "air_drag_modifier",
-                        "amount": 6.0,
+                        "amount": 0.06,
                         "slot": "head"
                     },
                     {
                         "id": "balance",
                         "operation": "add_multiplied_base",
                         "attribute": "burning_time",
-                        "amount": -25.0,
+                        "amount": -0.25,
                         "slot": "head"
                     }
                 ]

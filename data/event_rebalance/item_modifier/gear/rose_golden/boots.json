@@ -30,14 +30,14 @@
                         "id": "balance",
                         "operation": "add_multiplied_base",
                         "attribute": "movement_speed",
-                        "amount": 4.0,
+                        "amount": 0.04,
                         "slot": "feet"
                     },
                     {
                         "id": "balance",
                         "operation": "add_multiplied_base",
                         "attribute": "air_drag_modifier",
-                        "amount": -4.0,
+                        "amount": -0.04,
                         "slot": "feet"
                     }
                 ]

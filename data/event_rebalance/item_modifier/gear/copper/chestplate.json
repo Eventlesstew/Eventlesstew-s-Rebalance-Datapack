@@ -27,14 +27,14 @@
                         "id": "balance",
                         "operation": "add_multiplied_base",
                         "attribute": "movement_speed",
-                        "amount": 2.0,
+                        "amount": 0.02,
                         "slot": "chest"
                     },
                     {
                         "id": "balance",
                         "operation": "add_multiplied_base",
                         "attribute": "air_drag_modifier",
-                        "amount": -2.0,
+                        "amount": -0.02,
                         "slot": "chest"
                     }
                 ]
