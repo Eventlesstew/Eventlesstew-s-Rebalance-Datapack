@@ -1,0 +1,187 @@
+{
+    "config": {
+        "base_damage":1,
+        "base_attack_speed":4,
+        "tool_list": [
+            "sword",
+            "axe",
+            "spear",
+            "dagger",
+            "pickaxe",
+            "shovel",
+            "hoe",
+            "hammer",
+            "helmet",
+            "chestplate",
+            "leggings",
+            "boots",
+            "horse_armor",
+            "nautilus_armor"
+        ]
+    },
+    "default":{
+        
+        "axe":{
+            "slot":"mainhand",
+            "mineable":"axe"
+        },
+        "dagger":{
+            "slot":"mainhand",
+            "custom_tool":true
+        },
+        "hammer":{
+            "custom_tool":true,
+            "slot":"mainhand",
+            "attack_damage": {
+                "reference": "axe",
+                "mod": -2
+            },
+            "attack_speed": {
+                "reference": "axe"
+            },
+            "mining_speed": {
+                "reference": "pickaxe",
+                "mult": 0.75
+            },
+            "mineable":"hammer",
+            "uses_pickaxe_mining_power":true,
+            "mining_speed_mod":0.75
+        },
+        "pickaxe":{
+            "slot":"mainhand",
+            "attack_damage": {
+                "reference": "sword",
+                "mod": -1
+            },
+            "attack_speed": {
+                "reference": "axe"
+            },
+            "mineable":"pickaxe",
+            "uses_pickaxe_mining_power":true
+        },
+        "shovel":{
+            "slot":"mainhand",
+            "attack_damage": {
+                "reference": "sword",
+                "mod": -2
+            },
+            "attack_speed": {
+                "reference": "axe"
+            },
+            "mining_speed": {
+                "reference": "pickaxe"
+            },
+            "mineable":"shovel"
+        },
+        "hoe":{
+            "slot":"mainhand",
+            "attack_damage": {
+                "reference": "sword",
+                "mod": -3
+            },
+            "attack_speed": {
+                "reference": "axe"
+            },
+            "mining_speed": {
+                "reference": "pickaxe"
+            },
+            "mineable":"hoe"
+        }
+    },
+    "tiers": {
+        "wooden":{
+            "durability":128,
+            "mining_speed":4,
+            "mining_power":1,
+            "armor_name":"leather",
+            "tools":{
+                "sword": {
+                    "attack_damage": 4,
+                    "attack_speed": 1.8
+                },
+                "axe": {
+                    "attack_damage": 8,
+                    "attack_speed": 1.2
+                },
+                "dagger": {
+                    "attack_damage": 1,
+                    "attack_speed": 4
+                },
+                "spear": {
+                    "attack_damage": 2,
+                    "attack_speed": 1.1,
+                    "charge_delay": 0.3,
+                    "charge_duration": 9
+                }
+            }
+        },
+        "stone":{
+            "durability":256,
+            "mining_speed":5,
+            "mining_power":1,
+            "armor_name":"chainmail",
+            "tools":{
+
+            }
+        },
+        "copper":{
+            "durability":128,
+            "mining_speed":8,
+            "mining_power":2,
+            "tools":{
+                
+            }
+        },
+        "iron":{
+            "durability":512,
+            "mining_speed":6,
+            "mining_power":2,
+            "tools":{
+                
+            }
+        },
+        "hyphae":{
+            "durability":64,
+            "mining_speed":20,
+            "mining_power":2,
+            "custom_tier":true,
+            "armor_name":"hoglin_hide",
+            "tools":{
+                
+            }
+        },
+        "golden":{
+            "durability":128,
+            "mining_speed":16,
+            "mining_power":2,
+            "tools":{
+                
+            }
+        },
+        "diamond":{
+            "durability":1024,
+            "mining_speed":12,
+            "mining_power":3,
+            "tools":{
+                
+            }
+        },
+        "rose_golden":{
+            "durability":128,
+            "mining_speed":24,
+            "mining_power":2,
+            "custom_tier":true,
+            "tools":{
+                
+            }
+        },
+        "netherite":{
+            "durability":2048,
+            "mining_speed":16,
+            "mining_power":4,
+            "tools":{
+                
+            }
+        }
+    }
+}
