@@ -13,14 +13,14 @@
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_damage",
-                        "amount": 8,
+                        "amount": "event_rebalance:item_rebalance/axe_damage/copper",
                         "operation": "add_value",
                         "slot": "mainhand"
                     },
                     {
                         "id": "balance",
                         "attribute": "minecraft:attack_speed",
-                        "amount": -2.8,
+                        "amount": "event_rebalance:item_rebalance/axe_speed/copper",
                         "operation": "add_value",
                         "slot": "mainhand"
                     }

@@ -86,11 +86,37 @@
                 "reference": "pickaxe"
             },
             "mineable":"hoe"
+        },
+        "helmet":{
+            "slot":"head",
+            "uses_armor_tier":true
+        },
+        "chestplate":{
+            "slot":"chest",
+            "uses_armor_tier":true
+        },
+        "leggings":{
+            "slot":"legs",
+            "uses_armor_tier":true
+        },
+        "boots":{
+            "slot":"feet",
+            "uses_armor_tier":true
+        },
+        "horse_armor":{
+            "slot":"body",
+            "uses_armor_tier":true,
+            "unbreakable": true
+        },
+        "nautilus_armor":{
+            "slot":"body",
+            "uses_armor_tier":true,
+            "unbreakable": true
         }
     },
     "tiers": {
         "wooden":{
-            "durability":128,
+            "max_damage":128,
             "mining_speed":4,
             "mining_power":1,
             "armor_name":"leather",
@@ -116,7 +142,7 @@
             }
         },
         "stone":{
-            "durability":256,
+            "max_damage":256,
             "mining_speed":5,
             "mining_power":1,
             "armor_name":"chainmail",
@@ -125,7 +151,7 @@
             }
         },
         "copper":{
-            "durability":128,
+            "max_damage":128,
             "mining_speed":8,
             "mining_power":2,
             "tools":{
@@ -133,7 +159,7 @@
             }
         },
         "iron":{
-            "durability":512,
+            "max_damage":512,
             "mining_speed":6,
             "mining_power":2,
             "tools":{
@@ -141,7 +167,7 @@
             }
         },
         "hyphae":{
-            "durability":64,
+            "max_damage":64,
             "mining_speed":20,
             "mining_power":2,
             "custom_tier":true,
@@ -151,7 +177,7 @@
             }
         },
         "golden":{
-            "durability":128,
+            "max_damage":128,
             "mining_speed":16,
             "mining_power":2,
             "tools":{
@@ -159,7 +185,7 @@
             }
         },
         "diamond":{
-            "durability":1024,
+            "max_damage":1024,
             "mining_speed":12,
             "mining_power":3,
             "tools":{
@@ -167,7 +193,7 @@
             }
         },
         "rose_golden":{
-            "durability":128,
+            "max_damage":128,
             "mining_speed":24,
             "mining_power":2,
             "custom_tier":true,
@@ -176,7 +202,7 @@
             }
         },
         "netherite":{
-            "durability":2048,
+            "max_damage":2048,
             "mining_speed":16,
             "mining_power":4,
             "tools":{

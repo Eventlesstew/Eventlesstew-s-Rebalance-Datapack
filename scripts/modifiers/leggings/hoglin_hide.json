@@ -1,0 +1,43 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "#event_rebalance:custom_item/hoglin_hide/leggings",
+        "components": {
+            "item_model": "event:gear/hoglin_hide/leggings"
+        }
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "minecraft:set_attributes",
+                "modifiers": []
+            },
+            {
+                "type": "minecraft:set_components",
+                "components": {
+                    "max_damage": 64,
+                    "item_name": "item.event.hoglin_hide_leggings",
+                    "damage": 0
+                }
+            },
+            {
+                "type": "minecraft:set_lore",
+                "lore": [
+                    {
+                        "translate": " ",
+                        "color": "#AAAAAA",
+                        "italic": false
+                    }
+                ]
+            }
+        ]
+    }
+}

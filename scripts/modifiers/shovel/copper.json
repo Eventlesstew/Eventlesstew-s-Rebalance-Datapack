@@ -1,0 +1,38 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "copper_shovel"
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "minecraft:set_attributes",
+                "modifiers": []
+            },
+            {
+                "type": "minecraft:set_components",
+                "components": {
+                    "max_damage": 128
+                }
+            },
+            {
+                "type": "minecraft:set_lore",
+                "lore": [
+                    {
+                        "translate": " ",
+                        "color": "#AAAAAA",
+                        "italic": false
+                    }
+                ]
+            }
+        ]
+    }
+}

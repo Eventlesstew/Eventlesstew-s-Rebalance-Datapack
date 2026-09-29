@@ -2,6 +2,7 @@
     "type": "filtered",
     "item_filter": {
         "items": "shield",
+        
         "components": {
             "item_model": "event:shield/cluster_shield"
         }
