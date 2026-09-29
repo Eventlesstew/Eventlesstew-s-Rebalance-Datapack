@@ -15,12 +15,50 @@
             },
             {
                 "type": "minecraft:set_attributes",
-                "modifiers": []
+                "modifiers": [
+                    {
+                        "id": "balance",
+                        "operation": "add_value",
+                        "attribute": "armor",
+                        "value": 3.0,
+                        "slot": "legs"
+                    },
+                    {
+                        "id": "balance",
+                        "operation": "add_value",
+                        "attribute": "armor_toughness",
+                        "value": 1.0,
+                        "slot": "legs"
+                    },
+                    {
+                        "id": "balance",
+                        "operation": "add_multiplied_base",
+                        "attribute": "movement_speed",
+                        "value": 5.0,
+                        "slot": "legs"
+                    },
+                    {
+                        "id": "balance",
+                        "operation": "add_multiplied_base",
+                        "attribute": "air_drag_modifier",
+                        "value": -5.0,
+                        "slot": "legs"
+                    }
+                ]
             },
             {
                 "type": "minecraft:set_components",
                 "components": {
-                    "max_damage": 256
+                    "max_damage": 256,
+                    "repairable": [
+                        {
+                            "items": "#event_rebalance:tool_repair/chainmail"
+                        }
+                    ],
+                    "weapon": {
+                        "item_damage_per_attack": 1,
+                        "disable_blocking_for_seconds": null
+                    }
                 }
             },
             {
@@ -30,6 +68,36 @@
                         "translate": " ",
                         "color": "#AAAAAA",
                         "italic": false
+                    },
+                    {
+                        "text": " 3 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.armor"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
+                    },
+                    {
+                        "text": " 1 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.armor_toughness"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
+                    },
+                    {
+                        "text": " 5% ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.movement_speed"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
                     }
                 ]
             }

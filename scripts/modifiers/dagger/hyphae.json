@@ -1,7 +1,7 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "#event_rebalance:custom_item/hyphae/dagger",
+        "items": "#event_rebalance:custom_item/gear/hyphae/dagger",
         "components": {
             "item_model": "event:gear/hyphae/dagger"
         }
@@ -18,12 +18,41 @@
             },
             {
                 "type": "minecraft:set_attributes",
-                "modifiers": []
+                "modifiers": [
+                    {
+                        "id": "balance",
+                        "operation": "add_value",
+                        "attribute": "attack_damage",
+                        "value": 0.5,
+                        "slot": "mainhand"
+                    },
+                    {
+                        "id": "balance",
+                        "operation": "add_value",
+                        "attribute": "attack_speed",
+                        "value": 1,
+                        "slot": "mainhand"
+                    }
+                ]
             },
             {
                 "type": "minecraft:set_components",
                 "components": {
                     "max_damage": 64,
+                    "repairable": [
+                        {
+                            "items": "#event_rebalance:tool_repair/hyphae"
+                        }
+                    ],
+                    "weapon": {
+                        "item_damage_per_attack": 1,
+                        "disable_blocking_for_seconds": 0
+                    },
+                    "damage_type": "event_rebalance:dagger",
+                    "attack_animation": {
+                        "type": "stab",
+                        "duration": 4
+                    },
                     "item_name": "item.event.hyphae_dagger",
                     "damage": 0
                 }
@@ -35,6 +64,26 @@
                         "translate": " ",
                         "color": "#AAAAAA",
                         "italic": false
+                    },
+                    {
+                        "text": " 1.5 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.attack_damage"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
+                    },
+                    {
+                        "text": " 5 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.attack_speed"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
                     }
                 ]
             }

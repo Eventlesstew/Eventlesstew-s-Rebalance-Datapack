@@ -15,12 +15,23 @@
             },
             {
                 "type": "minecraft:set_attributes",
-                "modifiers": []
+                "modifiers": [
+                    {
+                        "id": "balance",
+                        "operation": "add_value",
+                        "attribute": "armor",
+                        "value": 16.0,
+                        "slot": "body"
+                    }
+                ]
             },
             {
                 "type": "minecraft:set_components",
                 "components": {
-                    "max_damage": 512
+                    "weapon": {
+                        "item_damage_per_attack": 1,
+                        "disable_blocking_for_seconds": null
+                    }
                 }
             },
             {
@@ -30,6 +41,16 @@
                         "translate": " ",
                         "color": "#AAAAAA",
                         "italic": false
+                    },
+                    {
+                        "text": " 16 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.armor"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
                     }
                 ]
             }

@@ -1,7 +1,10 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "chainmail_horse_armor"
+        "items": "#event_rebalance:custom_item/gear/chainmail/horse_armor",
+        "components": {
+            "item_model": "event:gear/chainmail/horse_armor"
+        }
     },
     "on_pass": {
         "type": "sequence",
@@ -15,12 +18,39 @@
             },
             {
                 "type": "minecraft:set_attributes",
-                "modifiers": []
+                "modifiers": [
+                    {
+                        "id": "balance",
+                        "operation": "add_value",
+                        "attribute": "armor",
+                        "value": 10.0,
+                        "slot": "body"
+                    },
+                    {
+                        "id": "balance",
+                        "operation": "add_multiplied_base",
+                        "attribute": "movement_speed",
+                        "value": 6.0,
+                        "slot": "body"
+                    },
+                    {
+                        "id": "balance",
+                        "operation": "add_multiplied_base",
+                        "attribute": "air_drag_modifier",
+                        "value": -8.0,
+                        "slot": "body"
+                    }
+                ]
             },
             {
                 "type": "minecraft:set_components",
                 "components": {
-                    "max_damage": 256
+                    "weapon": {
+                        "item_damage_per_attack": 1,
+                        "disable_blocking_for_seconds": null
+                    },
+                    "item_name": "item.event.chainmail_horse_armor",
+                    "damage": 0
                 }
             },
             {
@@ -30,6 +60,26 @@
                         "translate": " ",
                         "color": "#AAAAAA",
                         "italic": false
+                    },
+                    {
+                        "text": " 10 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.armor"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
+                    },
+                    {
+                        "text": " 6% ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.movement_speed"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
                     }
                 ]
             }

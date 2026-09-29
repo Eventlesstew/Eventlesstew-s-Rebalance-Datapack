@@ -15,12 +15,51 @@
             },
             {
                 "type": "minecraft:set_attributes",
-                "modifiers": []
+                "modifiers": [
+                    {
+                        "id": "balance",
+                        "operation": "add_value",
+                        "attribute": "armor",
+                        "value": 20.0,
+                        "slot": "body"
+                    },
+                    {
+                        "id": "balance",
+                        "operation": "add_value",
+                        "attribute": "armor_toughness",
+                        "value": 20.0,
+                        "slot": "body"
+                    },
+                    {
+                        "id": "balance",
+                        "operation": "add_multiplied_base",
+                        "attribute": "movement_speed",
+                        "value": -10.0,
+                        "slot": "body"
+                    },
+                    {
+                        "id": "balance",
+                        "operation": "add_multiplied_base",
+                        "attribute": "air_drag_modifier",
+                        "value": 20.0,
+                        "slot": "body"
+                    },
+                    {
+                        "id": "balance",
+                        "operation": "add_multiplied_base",
+                        "attribute": "burning_time",
+                        "value": -1.0,
+                        "slot": "body"
+                    }
+                ]
             },
             {
                 "type": "minecraft:set_components",
                 "components": {
-                    "max_damage": 2048
+                    "weapon": {
+                        "item_damage_per_attack": 1,
+                        "disable_blocking_for_seconds": null
+                    }
                 }
             },
             {
@@ -30,6 +69,46 @@
                         "translate": " ",
                         "color": "#AAAAAA",
                         "italic": false
+                    },
+                    {
+                        "text": " 20 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.armor"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
+                    },
+                    {
+                        "text": " 20 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.armor_toughness"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
+                    },
+                    {
+                        "text": " -10% ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.movement_speed"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
+                    },
+                    {
+                        "text": " -1% ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.burning_time"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
                     }
                 ]
             }

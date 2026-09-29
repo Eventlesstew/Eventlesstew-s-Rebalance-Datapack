@@ -20,14 +20,18 @@
         ]
     },
     "default":{
-        
+        "sword":{
+            "shield_disable_time":1
+        },
         "axe":{
             "slot":"mainhand",
-            "mineable":"axe"
+            "mineable":"axe",
+            "shield_disable_time":5
         },
         "dagger":{
             "slot":"mainhand",
-            "custom_tool":true
+            "custom_tool":true,
+            "shield_disable_time":0
         },
         "hammer":{
             "custom_tool":true,
@@ -45,7 +49,14 @@
             },
             "mineable":"hammer",
             "uses_pickaxe_mining_power":true,
-            "mining_speed_mod":0.75
+            "shield_disable_time":3
+        },
+        "spear": {
+            "spear_sound_id": "spear",
+            "spear_damage_multiplier": 1,
+            "charge_delay": 1,
+            "charge_duration": 2,
+            "shield_disable_time": 1
         },
         "pickaxe":{
             "slot":"mainhand",
@@ -55,6 +66,9 @@
             },
             "attack_speed": {
                 "reference": "axe"
+            },
+            "shield_disable_time": {
+                "reference": "dagger"
             },
             "mineable":"pickaxe",
             "uses_pickaxe_mining_power":true
@@ -71,6 +85,9 @@
             "mining_speed": {
                 "reference": "pickaxe"
             },
+            "shield_disable_time": {
+                "reference": "dagger"
+            },
             "mineable":"shovel"
         },
         "hoe":{
@@ -84,6 +101,9 @@
             },
             "mining_speed": {
                 "reference": "pickaxe"
+            },
+            "shield_disable_time": {
+                "reference": "dagger"
             },
             "mineable":"hoe"
         },
@@ -111,7 +131,25 @@
         "nautilus_armor":{
             "slot":"body",
             "uses_armor_tier":true,
-            "unbreakable": true
+            "unbreakable": true,
+            "armor": {
+                "reference":"horse_armor"
+            },
+            "armor_toughness": {
+                "reference":"horse_armor"
+            },
+            "movement_speed": {
+                "reference":"horse_armor"
+            },
+            "air_drag_modifier": {
+                "reference":"horse_armor"
+            },
+            "stealth": {
+                "reference":"horse_armor"
+            },
+            "burning_time": {
+                "reference":"horse_armor"
+            }
         }
     },
     "tiers": {
@@ -138,6 +176,34 @@
                     "attack_speed": 1.1,
                     "charge_delay": 0.3,
                     "charge_duration": 9
+                },
+                "helmet": {
+                    "armor": 2,
+                    "movement_speed": 4,
+                    "air_drag_modifier": -4
+                },
+                "chestplate":{
+                    "armor": 3,
+                    "movement_speed":4,
+                    "air_drag_modifier": -4
+                },
+                "leggings": {
+                    "armor": 2,
+                    "movement_speed": 6,
+                    "air_drag_modifier": -6
+                },
+                "boots": {
+                    "armor": 1,
+                    "movement_speed": 6,
+                    "air_drag_modifier": -6
+                },
+                "horse_armor": {
+                    "armor": 8,
+                    "movement_speed": 2,
+                    "air_drag_modifier": -2
+                },
+                "nautilus_armor": {
+                    "custom_tool": true
                 }
             }
         },
@@ -147,7 +213,58 @@
             "mining_power":1,
             "armor_name":"chainmail",
             "tools":{
-
+                "sword": {
+                    "attack_damage": 5,
+                    "attack_speed": 1.6
+                },
+                "axe": {
+                    "attack_damage": 10,
+                    "attack_speed": 1
+                },
+                "dagger": {
+                    "attack_damage": 1.5,
+                    "attack_speed": 3.5
+                },
+                "spear": {
+                    "attack_damage": 3,
+                    "attack_speed": 1,
+                    "charge_delay": 0.4,
+                    "charge_duration": 9.5
+                },
+                "helmet": {
+                    "armor": 3,
+                    "armor_toughness":2,
+                    "movement_speed": 3,
+                    "air_drag_modifier": -3
+                },
+                "chestplate":{
+                    "armor": 4,
+                    "armor_toughness":2,
+                    "movement_speed":3,
+                    "air_drag_modifier": -3
+                },
+                "leggings": {
+                    "armor": 3,
+                    "armor_toughness":1,
+                    "movement_speed": 5,
+                    "air_drag_modifier": -5
+                },
+                "boots": {
+                    "armor": 2,
+                    "armor_toughness":1,
+                    "movement_speed": 5,
+                    "air_drag_modifier": -5
+                },
+                "horse_armor": {
+                    "armor": 10,
+                    "movement_speed": 6,
+                    "air_drag_modifier": -8,
+                    "jump_strength":5,
+                    "custom_tool": true
+                },
+                "nautilus_armor": {
+                    "custom_tool": true
+                }
             }
         },
         "copper":{
@@ -155,7 +272,52 @@
             "mining_speed":8,
             "mining_power":2,
             "tools":{
-                
+                "sword": {
+                    "attack_damage": 5,
+                    "attack_speed": 1.8
+                },
+                "axe": {
+                    "attack_damage": 9,
+                    "attack_speed": 1.2
+                },
+                "dagger": {
+                    "attack_damage": 1.5,
+                    "attack_speed": 4.25
+                },
+                "spear": {
+                    "attack_damage": 3,
+                    "attack_speed": 1.2,
+                    "charge_delay": 0.4,
+                    "charge_duration": 10
+                },
+                "helmet": {
+                    "armor": 2,
+                    "movement_speed": 2,
+                    "air_drag_modifier": -2
+                },
+                "chestplate":{
+                    "armor": 5,
+                    "movement_speed":2,
+                    "air_drag_modifier": -2
+                },
+                "leggings": {
+                    "armor": 4,
+                    "movement_speed": 4,
+                    "air_drag_modifier": -4
+                },
+                "boots": {
+                    "armor": 1,
+                    "movement_speed": 4,
+                    "air_drag_modifier": -4
+                },
+                "horse_armor": {
+                    "armor": 12,
+                    "movement_speed": 12,
+                    "air_drag_modifier": -12
+                },
+                "nautilus_armor": {
+                    
+                }
             }
         },
         "iron":{
@@ -163,7 +325,42 @@
             "mining_speed":6,
             "mining_power":2,
             "tools":{
-                
+                "sword": {
+                    "attack_damage": 5,
+                    "attack_speed": 1.8
+                },
+                "axe": {
+                    "attack_damage": 9,
+                    "attack_speed": 1.2
+                },
+                "dagger": {
+                    "attack_damage": 1.5,
+                    "attack_speed": 4.25
+                },
+                "spear": {
+                    "attack_damage": 3,
+                    "attack_speed": 1.2,
+                    "charge_delay": 0.4,
+                    "charge_duration": 10
+                },
+                "helmet": {
+                    "armor": 3
+                },
+                "chestplate":{
+                    "armor": 6
+                },
+                "leggings": {
+                    "armor": 5
+                },
+                "boots": {
+                    "armor": 2
+                },
+                "horse_armor": {
+                    "armor": 16
+                },
+                "nautilus_armor": {
+                    
+                }
             }
         },
         "hyphae":{
@@ -173,7 +370,53 @@
             "custom_tier":true,
             "armor_name":"hoglin_hide",
             "tools":{
-                
+                "sword": {
+                    "attack_damage": 5,
+                    "attack_speed": 2
+                },
+                "axe": {
+                    "attack_damage": 9,
+                    "attack_speed": 1.6
+                },
+                "dagger": {
+                    "attack_damage": 1.5,
+                    "attack_speed": 5
+                },
+                "spear": {
+                    "attack_damage": 4,
+                    "attack_speed": 1.1,
+                    "charge_delay": 1,
+                    "charge_duration": 15
+                },
+                "helmet": {
+                    "armor": 3,
+                    "stealth": 1.2
+                },
+                "chestplate":{
+                    "armor": 4,
+                    "stealth": {
+                        "reference":"helmet"
+                    }
+                },
+                "leggings": {
+                    "armor": 4,
+                    "stealth": {
+                        "reference":"helmet"
+                    }
+                },
+                "boots": {
+                    "armor": 1,
+                    "stealth": {
+                        "reference":"helmet"
+                    }
+                },
+                "horse_armor": {
+                    "armor": 12,
+                    "jump_strength": 10
+                },
+                "nautilus_armor": {
+                    
+                }
             }
         },
         "golden":{
@@ -181,7 +424,62 @@
             "mining_speed":16,
             "mining_power":2,
             "tools":{
-                
+                "sword": {
+                    "attack_damage": 6,
+                    "attack_speed": 1.9
+                },
+                "axe": {
+                    "attack_damage": 10,
+                    "attack_speed": 1.3
+                },
+                "dagger": {
+                    "attack_damage": 2,
+                    "attack_speed": 5
+                },
+                "spear": {
+                    "attack_damage": 4,
+                    "attack_speed": 1.3,
+                    "charge_delay": 0.4,
+                    "charge_duration": 11
+                },
+                "helmet": {
+                    "armor": 4,
+                    "movement_speed": 1,
+                    "air_drag_modifier": -1,
+                    "stealth": 0.8
+                },
+                "chestplate":{
+                    "armor": 8,
+                    "movement_speed": 1,
+                    "air_drag_modifier": -1,
+                    "stealth": {
+                        "reference":"helmet"
+                    }
+                },
+                "leggings": {
+                    "armor": 5,
+                    "movement_speed": 2,
+                    "air_drag_modifier": -2,
+                    "stealth": {
+                        "reference":"helmet"
+                    }
+                },
+                "boots": {
+                    "armor": 3,
+                    "movement_speed": 2,
+                    "air_drag_modifier": -2,
+                    "stealth": {
+                        "reference":"helmet"
+                    }
+                },
+                "horse_armor": {
+                    "armor": 18,
+                    "movement_speed":5,
+                    "air_drag_modifier":-5
+                },
+                "nautilus_armor": {
+                    
+                }
             }
         },
         "diamond":{
@@ -189,7 +487,57 @@
             "mining_speed":12,
             "mining_power":3,
             "tools":{
-                
+                "sword": {
+                    "attack_damage": 8,
+                    "attack_speed": 1.5
+                },
+                "axe": {
+                    "attack_damage": 14,
+                    "attack_speed": 1
+                },
+                "dagger": {
+                    "attack_damage": 4,
+                    "attack_speed": 3
+                },
+                "spear": {
+                    "attack_damage": 5,
+                    "attack_speed": 0.9,
+                    "charge_delay": 0.6,
+                    "charge_duration": 7
+                },
+                "helmet": {
+                    "armor": 4,
+                    "armor_toughness": 2,
+                    "movement_speed": -2,
+                    "air_drag_modifier": 4
+                },
+                "chestplate":{
+                    "armor": 8,
+                    "armor_toughness": 3,
+                    "movement_speed": -4,
+                    "air_drag_modifier": 8
+                },
+                "leggings": {
+                    "armor": 5,
+                    "armor_toughness": 2,
+                    "movement_speed": -4,
+                    "air_drag_modifier": 8
+                },
+                "boots": {
+                    "armor": 3,
+                    "armor_toughness": 1,
+                    "movement_speed": -2,
+                    "air_drag_modifier": 4
+                },
+                "horse_armor": {
+                    "armor": 20,
+                    "armor_toughness": 8,
+                    "movement_speed":-5,
+                    "air_drag_modifier":10
+                },
+                "nautilus_armor": {
+                    
+                }
             }
         },
         "rose_golden":{
@@ -198,7 +546,62 @@
             "mining_power":2,
             "custom_tier":true,
             "tools":{
-                
+                "sword": {
+                    "attack_damage": 7,
+                    "attack_speed": 2
+                },
+                "axe": {
+                    "attack_damage": 11,
+                    "attack_speed": 1.4
+                },
+                "dagger": {
+                    "attack_damage": 3,
+                    "attack_speed": 5
+                },
+                "spear": {
+                    "attack_damage": 4,
+                    "attack_speed": 1.4,
+                    "charge_delay": 0.3,
+                    "charge_duration": 12
+                },
+                "helmet": {
+                    "armor": 4,
+                    "movement_speed": 2,
+                    "air_drag_modifier": -2,
+                    "stealth": 0.7
+                },
+                "chestplate":{
+                    "armor": 8,
+                    "movement_speed": 2,
+                    "air_drag_modifier": -2,
+                    "stealth": {
+                        "reference":"helmet"
+                    }
+                },
+                "leggings": {
+                    "armor": 5,
+                    "movement_speed": 4,
+                    "air_drag_modifier": -4,
+                    "stealth": {
+                        "reference":"helmet"
+                    }
+                },
+                "boots": {
+                    "armor": 3,
+                    "movement_speed": 4,
+                    "air_drag_modifier": -4,
+                    "stealth": {
+                        "reference":"helmet"
+                    }
+                },
+                "horse_armor": {
+                    "armor": 18,
+                    "movement_speed":5,
+                    "air_drag_modifier":-5
+                },
+                "nautilus_armor": {
+                    
+                }
             }
         },
         "netherite":{
@@ -206,7 +609,68 @@
             "mining_speed":16,
             "mining_power":4,
             "tools":{
-                
+                "sword": {
+                    "attack_damage": 10,
+                    "attack_speed": 1.4
+                },
+                "axe": {
+                    "attack_damage": 16,
+                    "attack_speed": 1
+                },
+                "dagger": {
+                    "attack_damage": 5,
+                    "attack_speed": 3
+                },
+                "spear": {
+                    "attack_damage": 6,
+                    "attack_speed": 0.8,
+                    "charge_delay": 0.7,
+                    "charge_duration": 6
+                },
+                "helmet": {
+                    "armor": 4,
+                    "armor_toughness": 4,
+                    "movement_speed": -3,
+                    "air_drag_modifier": 6,
+                    "burning_time": -25
+                },
+                "chestplate":{
+                    "armor": 8,
+                    "armor_toughness": 8,
+                    "movement_speed": -8,
+                    "air_drag_modifier": 16,
+                    "burning_time": {
+                        "reference": "helmet"
+                    }
+                },
+                "leggings": {
+                    "armor": 5,
+                    "armor_toughness": 5,
+                    "movement_speed": -6,
+                    "air_drag_modifier": 12,
+                    "burning_time": {
+                        "reference": "helmet"
+                    }
+                },
+                "boots": {
+                    "armor": 3,
+                    "armor_toughness": 3,
+                    "movement_speed": -3,
+                    "air_drag_modifier": 6,
+                    "burning_time": {
+                        "reference": "helmet"
+                    }
+                },
+                "horse_armor": {
+                    "armor": 20,
+                    "armor_toughness": 20,
+                    "movement_speed":-10,
+                    "air_drag_modifier":20,
+                    "burning_time": -1
+                },
+                "nautilus_armor": {
+                    
+                }
             }
         }
     }

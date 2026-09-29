@@ -1,7 +1,7 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "#event_rebalance:custom_item/hyphae/shovel",
+        "items": "#event_rebalance:custom_item/gear/hyphae/shovel",
         "components": {
             "item_model": "event:gear/hyphae/shovel"
         }
@@ -18,12 +18,36 @@
             },
             {
                 "type": "minecraft:set_attributes",
-                "modifiers": []
+                "modifiers": [
+                    {
+                        "id": "balance",
+                        "operation": "add_value",
+                        "attribute": "attack_damage",
+                        "value": 2,
+                        "slot": "mainhand"
+                    },
+                    {
+                        "id": "balance",
+                        "operation": "add_value",
+                        "attribute": "attack_speed",
+                        "value": -2.4,
+                        "slot": "mainhand"
+                    }
+                ]
             },
             {
                 "type": "minecraft:set_components",
                 "components": {
                     "max_damage": 64,
+                    "repairable": [
+                        {
+                            "items": "#event_rebalance:tool_repair/hyphae"
+                        }
+                    ],
+                    "weapon": {
+                        "item_damage_per_attack": 1,
+                        "disable_blocking_for_seconds": 0
+                    },
                     "item_name": "item.event.hyphae_shovel",
                     "damage": 0
                 }
@@ -35,6 +59,26 @@
                         "translate": " ",
                         "color": "#AAAAAA",
                         "italic": false
+                    },
+                    {
+                        "text": " 3 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.attack_damage"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
+                    },
+                    {
+                        "text": " 1.6 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.attack_speed"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
                     }
                 ]
             }

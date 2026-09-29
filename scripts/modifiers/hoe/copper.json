@@ -15,12 +15,36 @@
             },
             {
                 "type": "minecraft:set_attributes",
-                "modifiers": []
+                "modifiers": [
+                    {
+                        "id": "balance",
+                        "operation": "add_value",
+                        "attribute": "attack_damage",
+                        "value": 1,
+                        "slot": "mainhand"
+                    },
+                    {
+                        "id": "balance",
+                        "operation": "add_value",
+                        "attribute": "attack_speed",
+                        "value": -2.8,
+                        "slot": "mainhand"
+                    }
+                ]
             },
             {
                 "type": "minecraft:set_components",
                 "components": {
-                    "max_damage": 128
+                    "max_damage": 128,
+                    "repairable": [
+                        {
+                            "items": "#event_rebalance:tool_repair/copper"
+                        }
+                    ],
+                    "weapon": {
+                        "item_damage_per_attack": 1,
+                        "disable_blocking_for_seconds": 0
+                    }
                 }
             },
             {
@@ -30,6 +54,26 @@
                         "translate": " ",
                         "color": "#AAAAAA",
                         "italic": false
+                    },
+                    {
+                        "text": " 2 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.attack_damage"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
+                    },
+                    {
+                        "text": " 1.2 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.attack_speed"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
                     }
                 ]
             }

@@ -15,12 +15,47 @@
             },
             {
                 "type": "minecraft:set_attributes",
-                "modifiers": []
+                "modifiers": [
+                    {
+                        "id": "balance",
+                        "operation": "add_value",
+                        "attribute": "armor",
+                        "value": 3.0,
+                        "slot": "feet"
+                    },
+                    {
+                        "id": "balance",
+                        "operation": "add_multiplied_base",
+                        "attribute": "movement_speed",
+                        "value": 2.0,
+                        "slot": "feet"
+                    },
+                    {
+                        "id": "balance",
+                        "operation": "add_multiplied_base",
+                        "attribute": "air_drag_modifier",
+                        "value": -2.0,
+                        "slot": "feet"
+                    }
+                ]
             },
             {
                 "type": "minecraft:set_components",
                 "components": {
-                    "max_damage": 128
+                    "max_damage": 128,
+                    "repairable": [
+                        {
+                            "items": "#event_rebalance:tool_repair/golden"
+                        }
+                    ],
+                    "mob_visibility": {
+                        "targeting_entity_types": "#event_rebalance:mobs",
+                        "visibility": 1.25
+                    },
+                    "weapon": {
+                        "item_damage_per_attack": 1,
+                        "disable_blocking_for_seconds": null
+                    }
                 }
             },
             {
@@ -30,6 +65,26 @@
                         "translate": " ",
                         "color": "#AAAAAA",
                         "italic": false
+                    },
+                    {
+                        "text": " 3 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.armor"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
+                    },
+                    {
+                        "text": " 2% ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.movement_speed"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
                     }
                 ]
             }

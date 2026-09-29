@@ -1,7 +1,7 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "#event_rebalance:custom_item/rose_golden/hammer",
+        "items": "#event_rebalance:custom_item/gear/rose_golden/hammer",
         "components": {
             "item_model": "event:gear/rose_golden/hammer"
         }
@@ -18,12 +18,36 @@
             },
             {
                 "type": "minecraft:set_attributes",
-                "modifiers": []
+                "modifiers": [
+                    {
+                        "id": "balance",
+                        "operation": "add_value",
+                        "attribute": "attack_damage",
+                        "value": 8,
+                        "slot": "mainhand"
+                    },
+                    {
+                        "id": "balance",
+                        "operation": "add_value",
+                        "attribute": "attack_speed",
+                        "value": -2.6,
+                        "slot": "mainhand"
+                    }
+                ]
             },
             {
                 "type": "minecraft:set_components",
                 "components": {
                     "max_damage": 128,
+                    "repairable": [
+                        {
+                            "items": "#event_rebalance:tool_repair/rose_golden"
+                        }
+                    ],
+                    "weapon": {
+                        "item_damage_per_attack": 1,
+                        "disable_blocking_for_seconds": 3
+                    },
                     "item_name": "item.event.rose_golden_hammer",
                     "damage": 0
                 }
@@ -35,6 +59,26 @@
                         "translate": " ",
                         "color": "#AAAAAA",
                         "italic": false
+                    },
+                    {
+                        "text": " 9 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.attack_damage"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
+                    },
+                    {
+                        "text": " 1.4 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.attack_speed"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
                     }
                 ]
             }

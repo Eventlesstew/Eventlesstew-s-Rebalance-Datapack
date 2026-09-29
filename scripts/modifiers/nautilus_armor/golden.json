@@ -15,12 +15,37 @@
             },
             {
                 "type": "minecraft:set_attributes",
-                "modifiers": []
+                "modifiers": [
+                    {
+                        "id": "balance",
+                        "operation": "add_value",
+                        "attribute": "armor",
+                        "value": 18.0,
+                        "slot": "body"
+                    },
+                    {
+                        "id": "balance",
+                        "operation": "add_multiplied_base",
+                        "attribute": "movement_speed",
+                        "value": 5.0,
+                        "slot": "body"
+                    },
+                    {
+                        "id": "balance",
+                        "operation": "add_multiplied_base",
+                        "attribute": "air_drag_modifier",
+                        "value": -5.0,
+                        "slot": "body"
+                    }
+                ]
             },
             {
                 "type": "minecraft:set_components",
                 "components": {
-                    "max_damage": 128
+                    "weapon": {
+                        "item_damage_per_attack": 1,
+                        "disable_blocking_for_seconds": null
+                    }
                 }
             },
             {
@@ -30,6 +55,26 @@
                         "translate": " ",
                         "color": "#AAAAAA",
                         "italic": false
+                    },
+                    {
+                        "text": " 18 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.armor"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
+                    },
+                    {
+                        "text": " 5% ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.movement_speed"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
                     }
                 ]
             }
