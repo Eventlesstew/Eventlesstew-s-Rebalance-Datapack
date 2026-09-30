@@ -1,0 +1,6 @@
+{
+  "parent": "event:item/gear/template/helmet",
+  "textures": {
+    "layer1": "minecraft:trims/items/helmet_trim_lapis"
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "type": "sequence",
+    "functions": [
+        {
+            "type": "minecraft:set_components",
+            "components": {
+                "provides_pottery_pattern":"skull",
+                "item_name": {
+                    "translate": "item.minecraft.skull_pottery_sherd"
+                },
+                "item_model": "skull_pottery_sherd"
+            }
+        }
+    ]
+}

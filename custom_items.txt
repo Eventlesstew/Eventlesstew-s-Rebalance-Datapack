@@ -1,4 +1,5 @@
 Music Disc 13: Music Discs
+Angler Pottery Sherd: Pottery Sherds
 
 Music Disc Cat: Wooden Dagger
 Music Disc Blocks: Wooden Hammer
@@ -78,3 +79,9 @@ Deepslate Coal Ore: Withered Remains
 Charcoal: Chocolate
 Pumpkin Pie: Apple Pie
 Pumpkin Pie: Cooked Tropical Fish
+
+FREE ITEMS:
+Music Disc Creator
+Music Disc Creator (Music Box)
+Music Disc Lava Chicken
+Music Disc Bounce

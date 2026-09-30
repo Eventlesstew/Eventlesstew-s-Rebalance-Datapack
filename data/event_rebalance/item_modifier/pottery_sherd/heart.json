@@ -1,0 +1,15 @@
+{
+    "type": "sequence",
+    "functions": [
+        {
+            "type": "minecraft:set_components",
+            "components": {
+                "provides_pottery_pattern":"heart",
+                "item_name": {
+                    "translate": "item.minecraft.heart_pottery_sherd"
+                },
+                "item_model": "heart_pottery_sherd"
+            }
+        }
+    ]
+}

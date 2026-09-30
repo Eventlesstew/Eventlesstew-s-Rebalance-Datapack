@@ -1,0 +1,15 @@
+{
+    "type": "sequence",
+    "functions": [
+        {
+            "type": "minecraft:set_components",
+            "components": {
+                "provides_pottery_pattern":"arms_up",
+                "item_name": {
+                    "translate": "item.minecraft.arms_up_pottery_sherd"
+                },
+                "item_model": "arms_up_pottery_sherd"
+            }
+        }
+    ]
+}

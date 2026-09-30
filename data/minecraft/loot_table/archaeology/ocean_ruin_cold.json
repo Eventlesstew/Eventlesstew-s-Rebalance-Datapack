@@ -1,0 +1,82 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:angler_pottery_sherd",
+          "modifier": "event_rebalance:pottery_sherd/angler"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:angler_pottery_sherd",
+          "modifier": "event_rebalance:pottery_sherd/shelter"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:angler_pottery_sherd",
+          "modifier": "event_rebalance:pottery_sherd/snort"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:angler_pottery_sherd",
+          "modifier": "event_rebalance:pottery_sherd/blade"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:angler_pottery_sherd",
+          "modifier": "event_rebalance:pottery_sherd/explorer"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:angler_pottery_sherd",
+          "modifier": "event_rebalance:pottery_sherd/mourner"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:angler_pottery_sherd",
+          "modifier": "event_rebalance:pottery_sherd/plenty"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sniffer_egg",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_axe",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wheat",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_hoe",
+          "modifier": "event_rebalance:gear/wooden/hoe",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:coal",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "weight": 4
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:archaeology/ocean_ruin_cold"
+}

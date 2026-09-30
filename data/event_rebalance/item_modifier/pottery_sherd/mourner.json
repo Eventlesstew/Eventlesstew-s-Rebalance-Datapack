@@ -1,0 +1,15 @@
+{
+    "type": "sequence",
+    "functions": [
+        {
+            "type": "minecraft:set_components",
+            "components": {
+                "provides_pottery_pattern":"mourner",
+                "item_name": {
+                    "translate": "item.minecraft.mourner_pottery_sherd"
+                },
+                "item_model": "mourner_pottery_sherd"
+            }
+        }
+    ]
+}

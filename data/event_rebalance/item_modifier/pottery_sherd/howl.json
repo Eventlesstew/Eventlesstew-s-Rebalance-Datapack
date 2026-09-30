@@ -1,0 +1,15 @@
+{
+    "type": "sequence",
+    "functions": [
+        {
+            "type": "minecraft:set_components",
+            "components": {
+                "provides_pottery_pattern":"howl",
+                "item_name": {
+                    "translate": "item.minecraft.howl_pottery_sherd"
+                },
+                "item_model": "howl_pottery_sherd"
+            }
+        }
+    ]
+}

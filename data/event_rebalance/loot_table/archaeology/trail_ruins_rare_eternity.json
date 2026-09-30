@@ -1,0 +1,247 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_helmet",
+          "modifier": [
+            "event_rebalance:gear/iron/helmet",
+            {
+              "type": "set_enchantments",
+              "enchantments": {
+                "event_rebalance:eternity": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_chestplate",
+          "modifier": [
+            "event_rebalance:gear/iron/chestplate",
+            {
+              "type": "set_enchantments",
+              "enchantments": {
+                "event_rebalance:eternity": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_leggings",
+          "modifier": [
+            "event_rebalance:gear/iron/leggings",
+            {
+              "type": "set_enchantments",
+              "enchantments": {
+                "event_rebalance:eternity": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_boots",
+          "modifier": [
+            "event_rebalance:gear/iron/boots",
+            {
+              "type": "set_enchantments",
+              "enchantments": {
+                "event_rebalance:eternity": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "modifier": [
+            "event_rebalance:gear/iron/sword",
+            {
+              "type": "set_enchantments",
+              "enchantments": {
+                "event_rebalance:eternity": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_pickaxe",
+          "modifier": [
+            "event_rebalance:gear/iron/pickaxe",
+            {
+              "type": "set_enchantments",
+              "enchantments": {
+                "event_rebalance:eternity": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_axe",
+          "modifier": [
+            "event_rebalance:gear/iron/axe",
+            {
+              "type": "set_enchantments",
+              "enchantments": {
+                "event_rebalance:eternity": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "items":"#event_rebalance:custom_item/gear/iron/hammer",
+          "expand": false,
+          "modifier": [
+            "event_rebalance:gear/iron/hammer",
+            {
+              "type": "set_enchantments",
+              "enchantments": {
+                "event_rebalance:eternity": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_spear",
+          "modifier": [
+            "event_rebalance:gear/iron/spear",
+            {
+              "type": "set_enchantments",
+              "enchantments": {
+                "event_rebalance:eternity": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "modifier": [
+            "event_rebalance:gear/leather/helmet",
+            {
+              "type": "set_enchantments",
+              "enchantments": {
+                "event_rebalance:eternity": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "modifier": [
+            "event_rebalance:gear/leather/chestplate",
+            {
+              "type": "set_enchantments",
+              "enchantments": {
+                "event_rebalance:eternity": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "modifier": [
+            "event_rebalance:gear/leather/leggings",
+            {
+              "type": "set_enchantments",
+              "enchantments": {
+                "event_rebalance:eternity": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "modifier": [
+            "event_rebalance:gear/leather/boots",
+            {
+              "type": "set_enchantments",
+              "enchantments": {
+                "event_rebalance:eternity": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_sword",
+          "modifier": [
+            "event_rebalance:gear/copper/sword",
+            {
+              "type": "set_enchantments",
+              "enchantments": {
+                "event_rebalance:eternity": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_pickaxe",
+          "modifier": [
+            "event_rebalance:gear/copper/pickaxe",
+            {
+              "type": "set_enchantments",
+              "enchantments": {
+                "event_rebalance:eternity": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_axe",
+          "modifier": [
+            "event_rebalance:gear/copper/axe",
+            {
+              "type": "set_enchantments",
+              "enchantments": {
+                "event_rebalance:eternity": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:tag",
+          "items":"#event_rebalance:custom_item/gear/copper/hammer",
+          "expand": false,
+          "modifier": [
+            "event_rebalance:gear/copper/hammer",
+            {
+              "type": "set_enchantments",
+              "enchantments": {
+                "event_rebalance:eternity": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_spear",
+          "modifier": [
+            "event_rebalance:gear/copper/spear",
+            {
+              "type": "set_enchantments",
+              "enchantments": {
+                "event_rebalance:eternity": 1
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:archaeology/trail_ruins_rare_eternity"
+}

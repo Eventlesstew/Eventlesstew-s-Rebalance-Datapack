@@ -43,6 +43,11 @@
                         "item_damage_per_attack": 1,
                         "disable_blocking_for_seconds": 0
                     },
+                    "equippable": {
+                        "slot": "feet",
+                        "asset_id": "event:hyphae",
+                        "equip_on_interact": true
+                    },
                     "item_name": {
                         "translate": "item.event.hoglin_hide_boots"
                     },

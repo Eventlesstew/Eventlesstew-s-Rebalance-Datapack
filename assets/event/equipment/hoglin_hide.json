@@ -1,0 +1,59 @@
+{
+  "layers": {
+    "horse_body": [
+      {
+        "dyeable": {
+          "color_when_undyed": -6265536
+        },
+        "texture": "event:hoglin_hide"
+      },
+      {
+        "texture": "event:hoglin_hide_overlay"
+      }
+    ],
+    "nautilus_body": [
+      {
+        "dyeable": {
+          "color_when_undyed": -6265536
+        },
+        "texture": "event:hoglin_hide"
+      },
+      {
+        "texture": "event:hoglin_hide_overlay"
+      }
+    ],
+    "humanoid": [
+      {
+        "dyeable": {
+          "color_when_undyed": -6265536
+        },
+        "texture": "event:hoglin_hide"
+      },
+      {
+        "texture": "event:hoglin_hide_overlay"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "dyeable": {
+          "color_when_undyed": -6265536
+        },
+        "texture": "event:hoglin_hide"
+      },
+      {
+        "texture": "event:hoglin_hide_overlay"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "dyeable": {
+          "color_when_undyed": -6265536
+        },
+        "texture": "event:hoglin_hide"
+      },
+      {
+        "texture": "event:hoglin_hide_overlay"
+      }
+    ]
+  }
+}

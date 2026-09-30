@@ -1,6 +1,0 @@
-{
-    "type": "sequence",
-    "functions": [
-        "event_rebalance:template/base/unstackable"
-    ]
-}

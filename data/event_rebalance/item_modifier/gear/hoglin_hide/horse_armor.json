@@ -35,6 +35,11 @@
                         "item_damage_per_attack": 1,
                         "disable_blocking_for_seconds": 0
                     },
+                    "equippable": {
+                        "slot": "body",
+                        "asset_id": "event:hyphae",
+                        "allowed_entities": "#can_wear_horse_armor"
+                    },
                     "item_name": {
                         "translate": "item.event.hoglin_hide_horse_armor"
                     },

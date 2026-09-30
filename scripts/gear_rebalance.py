@@ -315,6 +315,21 @@ for tier_i, tier in enumerate(data_file["tiers"]):
             tool_data["lore"].append(charge_duration_lore)
 
         if is_custom(tier, tool):
+            slot = get_tool_value(tier, tool, "slot")
+            if slot and slot != "mainhand":
+                components["equippable"] = {"slot": slot, "asset_id": "event:" + tier}
+                if slot == "body":
+                    if tool == "horse_armor":
+                        components["equippable"][
+                            "allowed_entities"
+                        ] = "#can_wear_horse_armor"
+                    elif tool == "nautilus_armor":
+                        components["equippable"][
+                            "allowed_entities"
+                        ] = "#can_wear_nautilus_armor"
+                        components["equippable"]["can_be_sheared"] = True
+                else:
+                    components["equippable"]["equip_on_interact"] = True
             modifier["item_filter"]["items"] = (
                 "#event_rebalance:custom_item/gear/" + display_tier + "/" + tool
             )

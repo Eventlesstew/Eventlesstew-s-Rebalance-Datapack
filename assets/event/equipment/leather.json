@@ -1,0 +1,15 @@
+{
+  "layers": {
+    "nautilus_body": [
+      {
+        "dyeable": {
+          "color_when_undyed": -6265536
+        },
+        "texture": "event:leather"
+      },
+      {
+        "texture": "event:leather_overlay"
+      }
+    ]
+  }
+}

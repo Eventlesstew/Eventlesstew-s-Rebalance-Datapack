@@ -1,0 +1,6 @@
+{
+  "parent": "event:item/gear/rose_golden/helmet",
+  "textures": {
+    "layer1": "minecraft:trims/items/helmet_trim_resin"
+  }
+}

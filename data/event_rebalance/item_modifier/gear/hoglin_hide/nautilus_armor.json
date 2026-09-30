@@ -35,6 +35,12 @@
                         "item_damage_per_attack": 1,
                         "disable_blocking_for_seconds": 0
                     },
+                    "equippable": {
+                        "slot": "body",
+                        "asset_id": "event:hyphae",
+                        "allowed_entities": "#can_wear_nautilus_armor",
+                        "can_be_sheared": true
+                    },
                     "item_name": {
                         "translate": "item.event.hoglin_hide_nautilus_armor"
                     },

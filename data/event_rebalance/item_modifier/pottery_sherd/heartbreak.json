@@ -1,0 +1,15 @@
+{
+    "type": "sequence",
+    "functions": [
+        {
+            "type": "minecraft:set_components",
+            "components": {
+                "provides_pottery_pattern":"heartbreak",
+                "item_name": {
+                    "translate": "item.minecraft.heartbreak_pottery_sherd"
+                },
+                "item_model": "heartbreak_pottery_sherd"
+            }
+        }
+    ]
+}

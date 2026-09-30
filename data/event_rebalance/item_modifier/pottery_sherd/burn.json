@@ -1,0 +1,15 @@
+{
+    "type": "sequence",
+    "functions": [
+        {
+            "type": "minecraft:set_components",
+            "components": {
+                "provides_pottery_pattern":"burn",
+                "item_name": {
+                    "translate": "item.minecraft.burn_pottery_sherd"
+                },
+                "item_model": "burn_pottery_sherd"
+            }
+        }
+    ]
+}

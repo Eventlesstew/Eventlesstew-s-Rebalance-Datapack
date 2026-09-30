@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#event_rebalance:custom_item/chainmail_upgrade_smothing_template"
+            "items": "#event_rebalance:custom_item/chainmail_upgrade_smithing_template"
           }
         ]
       },

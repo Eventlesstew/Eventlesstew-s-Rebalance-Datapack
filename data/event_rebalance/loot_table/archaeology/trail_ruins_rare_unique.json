@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_13",
+          "modifier": "event_rebalance:music_disc/relic",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "modifier": {
+            "type": "set_enchantments",
+            "enchantments": {
+              "event_rebalance:eternity": 1
+            }
+          }
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:archaeology/trail_ruins_rare_unique"
+}

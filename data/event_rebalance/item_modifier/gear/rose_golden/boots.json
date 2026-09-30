@@ -57,6 +57,11 @@
                         "item_damage_per_attack": 1,
                         "disable_blocking_for_seconds": 0
                     },
+                    "equippable": {
+                        "slot": "feet",
+                        "asset_id": "event:rose_golden",
+                        "equip_on_interact": true
+                    },
                     "item_name": {
                         "translate": "item.event.rose_golden_boots"
                     },

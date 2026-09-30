@@ -1,0 +1,15 @@
+{
+    "type": "sequence",
+    "functions": [
+        {
+            "type": "minecraft:set_components",
+            "components": {
+                "provides_pottery_pattern":"explorer",
+                "item_name": {
+                    "translate": "item.minecraft.explorer_pottery_sherd"
+                },
+                "item_model": "explorer_pottery_sherd"
+            }
+        }
+    ]
+}

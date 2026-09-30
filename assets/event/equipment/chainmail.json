@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "horse_body": [
+      {
+        "texture": "event:chainmail"
+      }
+    ],
+    "nautilus_body": [
+      {
+        "texture": "event:chainmail"
+      }
+    ]
+  }
+}

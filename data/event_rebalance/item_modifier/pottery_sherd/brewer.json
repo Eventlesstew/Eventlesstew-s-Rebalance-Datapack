@@ -1,0 +1,15 @@
+{
+    "type": "sequence",
+    "functions": [
+        {
+            "type": "minecraft:set_components",
+            "components": {
+                "provides_pottery_pattern":"brewer",
+                "item_name": {
+                    "translate": "item.minecraft.brewer_pottery_sherd"
+                },
+                "item_model": "brewer_pottery_sherd"
+            }
+        }
+    ]
+}

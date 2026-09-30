@@ -1,0 +1,15 @@
+{
+    "type": "sequence",
+    "functions": [
+        {
+            "type": "minecraft:set_components",
+            "components": {
+                "provides_pottery_pattern":"sheaf",
+                "item_name": {
+                    "translate": "item.minecraft.sheaf_pottery_sherd"
+                },
+                "item_model": "sheaf_pottery_sherd"
+            }
+        }
+    ]
+}
