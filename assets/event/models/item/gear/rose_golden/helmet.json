@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "event:item/rose_golden_helmet"
+    "layer0": "event:item/gear/rose_golden/helmet"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "event:item/gear/rose_golden/leggings"
+    "layer0": "event:item/gear/rose_golden/horse_armor"
   }
 }
