@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "#":"#wooden_tool_materials",
+        "S":"stick"
+    },
+    "pattern": [
+        "###",
+        "###",
+        " S "
+    ],
+    "result": {
+        "id": "music_disc_blocks",
+        "components": {
+            "item_model": "event:gear/wooden/hammer",
+            "item_name": {
+                "translate": "item.event.wooden_hammer"
+            }
+        }
+    }
+}

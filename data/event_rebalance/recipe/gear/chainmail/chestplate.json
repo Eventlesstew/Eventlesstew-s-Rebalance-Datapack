@@ -1,0 +1,9 @@
+{
+    "type": "smithing_transform",
+    "base": "leather_chestplate",
+    "addition": "#event_rebalance:chainmail_tool_materials",
+    "template": "#event_rebalance:custom_item/chainmail_upgrade_smithing_template",
+    "result": {
+        "id": "chainmail_chestplate"
+    }
+}

@@ -57,8 +57,14 @@
                         "item_damage_per_attack": 1,
                         "disable_blocking_for_seconds": 0
                     },
-                    "item_name": "item.event.rose_golden_chestplate",
-                    "damage": 0
+                    "item_name": {
+                        "translate": "item.event.rose_golden_chestplate"
+                    },
+                    "damage": 0,
+                    "!jukebox_playable": {},
+                    "!provides_pottery_pattern": {},
+                    "max_stack_size": 1,
+                    "rarity": "common"
                 }
             },
             {

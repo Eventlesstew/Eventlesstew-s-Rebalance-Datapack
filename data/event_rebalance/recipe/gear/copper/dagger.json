@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "#": "#copper_tool_materials",
+        "S": "stick"
+    },
+    "pattern": [
+        " #",
+        "S "
+    ],
+    "result": {
+        "id": "music_disc_chirp",
+        "components": {
+            "item_model": "event:gear/copper/dagger",
+            "item_name": {
+                "translate": "item.event.copper_dagger"
+            }
+        }
+    }
+}

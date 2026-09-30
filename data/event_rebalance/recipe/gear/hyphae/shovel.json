@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "#":"#event_rebalance:hyphae_tool_materials",
+        "S":"stick"
+    },
+    "pattern": [
+        "#",
+        "S",
+        "S"
+    ],
+    "result": {
+        "id": "music_disc_wait",
+        "components": {
+            "item_model": "event:gear/hyphae/shovel",
+            "item_name": "item.event.hyphae_shovel"
+        }
+    }
+}

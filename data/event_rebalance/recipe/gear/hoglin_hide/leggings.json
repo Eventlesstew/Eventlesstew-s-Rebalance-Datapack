@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "#":"#event_rebalance:hoglin_hide_tool_materials"
+    },
+    "pattern": [
+        "###",
+        "# #",
+        "# #"
+    ],
+    "result": {
+        "id": "shelter_pottery_sherd",
+        "components": {
+            "item_model": "event:gear/hoglin_hide/leggings",
+            "item_name": "item.event.hoglin_hide_leggings"
+        }
+    }
+}

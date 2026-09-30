@@ -51,8 +51,14 @@
                         "type": "stab",
                         "duration": 4
                     },
-                    "item_name": "item.event.hyphae_dagger",
-                    "damage": 0
+                    "item_name": {
+                        "translate": "item.event.hyphae_dagger"
+                    },
+                    "damage": 0,
+                    "!jukebox_playable": {},
+                    "!provides_pottery_pattern": {},
+                    "max_stack_size": 1,
+                    "rarity": "common"
                 }
             },
             {

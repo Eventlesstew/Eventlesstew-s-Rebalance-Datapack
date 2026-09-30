@@ -19,8 +19,10 @@
   ],
   "rewards": {
     "recipes": [
-      "event_rebalance:daggers/copper",
-      "event_rebalance:hammers/copper"
+      "event_rebalance:gear/copper/dagger",
+      "event_rebalance:gear/copper/hammer",
+      "event_rebalance:gear/copper/horse_armor",
+      "event_rebalance:gear/copper/nautilus_armor"
     ]
   }
 }

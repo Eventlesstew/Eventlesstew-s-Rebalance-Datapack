@@ -1,0 +1,13 @@
+{
+    "type": "sequence",
+    "functions": [
+        "event_rebalance:custom_item/music_disc_unstackable",
+        {
+            "type": "minecraft:set_components",
+            "components": {
+                "!jukebox_playable":{},
+                "rarity": "common"
+            }
+        }
+    ]
+}

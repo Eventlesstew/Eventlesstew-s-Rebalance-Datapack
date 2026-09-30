@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "#":"#event_rebalance:hoglin_hide_tool_materials"
+    },
+    "pattern": [
+        "###",
+        "# #"
+    ],
+    "result": {
+        "id": "scrape_pottery_sherd",
+        "components": {
+            "item_model": "event:gear/hoglin_hide/helmet",
+            "item_name": "item.event.hoglin_hide_helmet"
+        }
+    }
+}

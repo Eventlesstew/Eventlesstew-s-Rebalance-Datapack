@@ -60,8 +60,14 @@
                             }
                         ]
                     },
-                    "item_name": "item.event.hyphae_pickaxe",
-                    "damage": 0
+                    "item_name": {
+                        "translate": "item.event.hyphae_pickaxe"
+                    },
+                    "damage": 0,
+                    "!jukebox_playable": {},
+                    "!provides_pottery_pattern": {},
+                    "max_stack_size": 1,
+                    "rarity": "common"
                 }
             },
             {

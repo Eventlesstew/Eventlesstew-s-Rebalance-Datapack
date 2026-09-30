@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "#":"#iron_tool_materials",
+        "S":"stick"
+    },
+    "pattern": [
+        "###",
+        "###",
+        " S "
+    ],
+    "result": {
+        "id": "music_disc_mellohi",
+        "components": {
+            "item_model": "event:gear/iron/hammer",
+            "item_name": {
+                "translate": "item.event.iron_hammer"
+            }
+        }
+    }
+}

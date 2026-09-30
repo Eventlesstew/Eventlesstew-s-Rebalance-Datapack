@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "#":"#copper_tool_materials"
+    },
+    "pattern": [
+        " ##",
+        "###"
+    ],
+    "result": {
+        "id": "copper_nautilus_armor"
+    }
+}

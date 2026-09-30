@@ -19,8 +19,8 @@
   ],
   "rewards": {
     "recipes": [
-      "event_rebalance:smithing/netherite_upgrade/dagger",
-      "event_rebalance:smithing/netherite_upgrade/hammer"
+      "event_rebalance:gear/netherite/dagger",
+      "event_rebalance:gear/netherite/hammer"
     ]
   }
 }

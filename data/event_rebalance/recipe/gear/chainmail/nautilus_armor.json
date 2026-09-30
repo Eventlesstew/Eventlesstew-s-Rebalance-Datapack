@@ -1,0 +1,15 @@
+{
+    "type": "smithing_transform",
+    "base": "#event_rebalance:custom_item/gear/leather/nautilus_armor",
+    "addition": "#event_rebalance:chainmail_tool_materials",
+    "template": "#event_rebalance:custom_item/chainmail_upgrade_smithing_template",
+    "result": {
+        "id": "prize_pottery_sherd",
+        "components": {
+            "item_model": "event:gear/chainmail/nautilus_armor",
+            "item_name": {
+                "translate": "item.event.chainmail_nautilus_armor"
+            }
+        }
+    }
+}

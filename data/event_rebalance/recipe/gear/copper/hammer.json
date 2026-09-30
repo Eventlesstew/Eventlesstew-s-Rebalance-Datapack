@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "#":"#copper_tool_materials",
+        "S":"stick"
+    },
+    "pattern": [
+        "###",
+        "###",
+        " S "
+    ],
+    "result": {
+        "id": "music_disc_far",
+        "components": {
+            "item_model": "event:gear/copper/hammer",
+            "item_name": {
+                "translate": "item.event.copper_hammer"
+            }
+        }
+    }
+}

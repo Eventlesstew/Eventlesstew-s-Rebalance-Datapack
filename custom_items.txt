@@ -1,33 +1,60 @@
-Stone Hoe: Rose Golden Hoe
-Stone Shovel: Rose Golden Shovel
-Stone Pickaxe: Rose Golden Pickaxe
-Stone Axe: Rose Golden Axe
-Stone Spear: Rose Golden Spear
-Stone Sword: Rose Golden Sword
-Chainmail Helmet: Rose Golden Helmet
-Chainmail Chestplate: Rose Golden Chestplate
-Chainmail Leggings: Rose Golden Leggings
-Chainmail Boots: Rose Golden Boots
-
 Music Disc 13: Music Discs
 
-Music Disc Cat: Wooden Dagger.
-Music Disc Blocks: Copper Dagger
-Music Disc Chirp: Iron Dagger
-Music Disc Far: Golden Dagger
-Music Disc Mall: Rose Golden Dagger
-Music Disc Mellohi: Diamond Dagger
-Music Disc Stal: Netherite Dagger
+Music Disc Cat: Wooden Dagger
+Music Disc Blocks: Wooden Hammer
+Pottery Sherd Mourner: Leather Nautilus Armor
 
-Music Disc 11: Wooden Hammers
-Music Disc Creator (Music Box): Copper Hammer
-Music Disc Wait: Iron Hammer
-Music Disc Creator: Golden Hammer
-Music Disc Precipice: Rose Golden Hammer
-Music Disc Otherside: Diamond Hammer
-Music Disc Relic: Netherite Hammer
+Music Disc Cat: Stone Dagger
+Music Disc Blocks: Stone Hammer
+Pottery Sherd Plenty: Chainmail Horse Armor
+Pottery Sherd Prize: Chainmail Nautilus Armor
 
-Music Disc Strad: Staff
+Music Disc Chirp: Copper Dagger
+Music Disc Far: Copper Hammer
+
+Music Disc Mall: Iron Dagger
+Music Disc Mellohi: Iron Hammer
+
+Music Disc Stal: Hyphae Sword
+Music Disc Strad: Hyphae Spear
+Music Disc Cat: Hyphae Dagger
+Music Disc Blocks: Hyphae Hammer
+Music Disc Ward: Hyphae Axe
+Music Disc 11: Hyphae Pickaxe
+Music Disc Wait: Hyphae Shovel
+Music Disc Otherside: Hyphae Hoe
+Pottery Sherd Scrape: Hoglin Hide Helmet
+Pottery Sherd Sheaf: Hoglin Hide Chestplate
+Pottery Sherd Shelter: Hoglin Hide Leggings
+Pottery Sherd Skull: Hoglin Hide Boots
+Pottery Sherd Snort: Hoglin Hide Horse Armor
+Music Disc Precipice: Hoglin Hide Nautilus Armor
+
+Music Disc Pigstep: Golden Dagger
+Music Disc 5: Golden Hammer
+
+Music Disc Cat: Diamond Dagger
+Music Disc Blocks: Diamond Hammer
+
+Pottery Sherd Archer: Rose Golden Sword
+Pottery Sherd Arms Up: Rose Golden Spear
+Pottery Sherd Blade: Rose Golden Dagger
+Pottery Sherd Brewer: Rose Golden Hammer
+Pottery Sherd Burn: Rose Golden Axe
+Pottery Sherd Danger: Rose Golden Pickaxe
+Pottery Sherd Explorer: Rose Golden Shovel
+Pottery Sherd Flow: Rose Golden Hoe
+Pottery Sherd Heart: Rose Golden Helmet
+Pottery Sherd Heartbreak: Rose Golden Chestplate
+Pottery Sherd Howl: Rose Golden Leggings
+Pottery Sherd Miner: Rose Golden Boots
+Pottery Sherd Friend: Rose Golden Horse Armor
+Pottery Sherd Guster: Rose Golden Nautilus Armor
+
+Music Disc Cat: Netherite Dagger
+Music Disc Blocks: Netherite Hammer
+
+Music Disc Relic: Staff
 Music Disc Tears: Hand Saw
 
 Silverfish Spawn Egg: Disc Fragment 13
@@ -43,6 +70,9 @@ Piglin Brute Spawn Egg: Rose Golden Ingot
 Hoglin Spawn Egg: Rose Golden Upgrade
 Wither Skeleton Spawn Egg: Withered Chunks
 Wither Spawn Egg: Packed Withered Chunks
+
+Zombified Piglin Spawn Egg: Raw Hoglin Hide
+Zoglin Spawn Egg: Hoglin Hide
 
 Deepslate Coal Ore: Withered Remains
 Charcoal: Chocolate

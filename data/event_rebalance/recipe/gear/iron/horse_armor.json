@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "#":"#iron_tool_materials"
+    },
+    "pattern": [
+        "# #",
+        "###",
+        "# #"
+    ],
+    "result": {
+        "id": "iron_horse_armor"
+    }
+}

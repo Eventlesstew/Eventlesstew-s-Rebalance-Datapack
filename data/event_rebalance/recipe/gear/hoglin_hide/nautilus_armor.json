@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "#":"#event_rebalance:hoglin_hide_tool_materials"
+    },
+    "pattern": [
+        " ##",
+        "###"
+    ],
+    "result": {
+        "id": "music_disc_precipice",
+        "components": {
+            "item_model": "event:gear/hoglin_hide/nautilus_armor",
+            "item_name": "item.event.hoglin_hide_nautilus_armor"
+        }
+    }
+}

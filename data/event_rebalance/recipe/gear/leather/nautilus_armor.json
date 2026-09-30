@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "#":"#repairs_leather_armor"
+    },
+    "pattern": [
+        " ##",
+        " ##",
+        "###"
+    ],
+    "result": {
+        "id": "mourner_pottery_sherd",
+        "components": {
+            "item_model": "event:gear/leather/nautilus_armor",
+            "item_name": {
+                "translate": "item.event.leather_nautilus_armor"
+            }
+        }
+    }
+}

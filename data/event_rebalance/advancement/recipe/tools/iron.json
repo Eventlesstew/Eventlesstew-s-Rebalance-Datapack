@@ -19,8 +19,10 @@
   ],
   "rewards": {
     "recipes": [
-      "event_rebalance:daggers/iron",
-      "event_rebalance:hammers/iron"
+      "event_rebalance:gear/iron/dagger",
+      "event_rebalance:gear/iron/hammer",
+      "event_rebalance:gear/iron/horse_armor",
+      "event_rebalance:gear/iron/nautilus_armor"
     ]
   }
 }

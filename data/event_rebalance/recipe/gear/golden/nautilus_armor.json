@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "#":"#gold_tool_materials"
+    },
+    "pattern": [
+        " ##",
+        "###"
+    ],
+    "result": {
+        "id": "golden_nautilus_armor"
+    }
+}

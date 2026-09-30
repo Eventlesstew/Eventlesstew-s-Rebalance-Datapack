@@ -314,7 +314,6 @@ for tier_i, tier in enumerate(data_file["tiers"]):
             ]
             tool_data["lore"].append(charge_duration_lore)
 
-        ## TODO: Add an item modifier that changes Discs or Pottery Sherds into a suitable dummy item.
         if is_custom(tier, tool):
             modifier["item_filter"]["items"] = (
                 "#event_rebalance:custom_item/gear/" + display_tier + "/" + tool
@@ -322,8 +321,14 @@ for tier_i, tier in enumerate(data_file["tiers"]):
             modifier["item_filter"]["components"] = {
                 "item_model": "event:gear/" + display_tier + "/" + tool
             }
-            components["item_name"] = "item.event." + display_tier + "_" + tool
+            components["item_name"] = {
+                "translate": "item.event." + display_tier + "_" + tool
+            }
             components["damage"] = 0
+            components["!jukebox_playable"] = {}
+            components["!provides_pottery_pattern"] = {}
+            components["max_stack_size"] = 1
+            components["rarity"] = "common"
         else:
             modifier["item_filter"]["items"] = display_tier + "_" + tool
 

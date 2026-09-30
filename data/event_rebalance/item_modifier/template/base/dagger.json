@@ -1,0 +1,15 @@
+{
+    "type": "sequence",
+    "functions": [
+        "event_rebalance:template/base/unstackable",
+        {
+            "type": "set_components",
+            "components": {
+                "attack_animation": {
+                    "type": "stab",
+                    "duration": 4
+                }
+            }
+        }
+    ]
+}

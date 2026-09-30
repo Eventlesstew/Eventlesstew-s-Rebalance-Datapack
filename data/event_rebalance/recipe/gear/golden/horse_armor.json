@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "#":"#gold_tool_materials"
+    },
+    "pattern": [
+        "# #",
+        "###",
+        "# #"
+    ],
+    "result": {
+        "id": "golden_horse_armor"
+    }
+}

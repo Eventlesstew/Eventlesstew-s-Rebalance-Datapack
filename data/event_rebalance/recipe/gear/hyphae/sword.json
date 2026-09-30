@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "#":"#event_rebalance:hyphae_tool_materials",
+        "S":"stick"
+    },
+    "pattern": [
+        "#",
+        "#",
+        "S"
+    ],
+    "result": {
+        "id": "music_disc_stal",
+        "components": {
+            "item_model": "event:gear/hyphae/sword",
+            "item_name": "item.event.hyphae_sword"
+        }
+    }
+}

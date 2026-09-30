@@ -1,0 +1,15 @@
+{
+    "type": "smithing_transform",
+    "base": "golden_axe",
+    "addition": "#event_rebalance:rose_golden_tool_materials",
+    "template": "#event_rebalance:custom_item/rose_golden_upgrade_smithing_template",
+    "result": {
+        "id": "burn_pottery_sherd",
+        "components": {
+            "item_model": "event:gear/rose_golden/axe",
+            "item_name": {
+                "translate": "item.event.rose_golden_axe"
+            }
+        }
+    }
+}
