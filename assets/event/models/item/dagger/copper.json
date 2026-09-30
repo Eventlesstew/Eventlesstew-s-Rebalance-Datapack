@@ -1,6 +1,0 @@
-{
-    "parent": "event:item/dagger",
-    "textures": {
-        "layer0": "event:item/copper_dagger"
-    }
-}

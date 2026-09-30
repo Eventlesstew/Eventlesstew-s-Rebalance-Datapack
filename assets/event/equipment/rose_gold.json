@@ -1,0 +1,29 @@
+{
+  "layers": {
+    "horse_body": [
+      {
+        "texture": "event:rose_gold"
+      }
+    ],
+    "nautilus_body": [
+      {
+        "texture": "event:rose_gold"
+      }
+    ],
+    "humanoid": [
+      {
+        "texture": "event:rose_gold"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "event:rose_gold"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "event:rose_gold"
+      }
+    ]
+  }
+}

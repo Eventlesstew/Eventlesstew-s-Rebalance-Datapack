@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "event:item/dagger/golden"
+    "model": "event:item/gear/golden/dagger"
   }
 }

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "event:item/hammer/diamond"
+    "model": "event:item/gear/diamond/hammer"
   }
 }

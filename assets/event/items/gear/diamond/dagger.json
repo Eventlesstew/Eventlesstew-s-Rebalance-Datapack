@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "event:item/dagger/diamond"
+    "model": "event:item/gear/diamond/dagger"
   }
 }
