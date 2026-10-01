@@ -23,7 +23,7 @@
               },
               "enchantment": "minecraft:looting"
             },
-            "event_rebalance:custom_item/withered_chunks"
+            "event_rebalance:fuel_furnace/withered_chunks"
           ],
           "name": "minecraft:wither_skeleton_spawn_egg"
         }

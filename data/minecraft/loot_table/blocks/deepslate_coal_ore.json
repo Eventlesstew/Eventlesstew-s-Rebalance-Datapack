@@ -30,7 +30,7 @@
                 {
                   "type": "minecraft:explosion_decay"
                 },
-                "event_rebalance:custom_item/withered_chunks"
+                "event_rebalance:fuel_furnace/withered_chunks"
               ],
               "expand": false,
               "items": "#event_rebalance:custom_item/withered_chunks"

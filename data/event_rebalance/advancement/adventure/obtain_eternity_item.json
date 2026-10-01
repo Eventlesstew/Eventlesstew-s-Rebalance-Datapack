@@ -1,0 +1,43 @@
+{
+  "criteria": {
+    "item_gained": {
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+                "enchantments": [
+                    {
+                        "enchantments": "event_rebalance:eternity"
+                    }
+                ]
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "parent": "adventure/craft_decorated_pot_using_only_sherds",
+  "display": {
+    "title": {
+      "translate": "advancements.adventure.obtain_eternity_item.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.obtain_eternity_item.description"
+    },
+    "icon": {
+        "id": "enchanted_book",
+        "components": {
+            "enchantments": {
+                "event_rebalance:eternity": 1
+            }
+        }
+    }
+  },
+  "requirements": [
+    [
+      "item_gained"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

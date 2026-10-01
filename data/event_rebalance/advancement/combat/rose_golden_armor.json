@@ -27,7 +27,10 @@
     },
     "frame": "challenge",
     "icon": {
-      "id": "minecraft:chainmail_chestplate"
+      "id": "minecraft:chainmail_chestplate",
+      "components": {
+        "item_model": "event:gear/rose_golden/chestplate"
+      }
     },
     "title": {
       "translate": "advancements.combat.rose_golden_armor.title"

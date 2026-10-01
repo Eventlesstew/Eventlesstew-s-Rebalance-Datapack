@@ -21,7 +21,7 @@
     },
     "icon": {
         "components": {
-            "item_model": "event:hammer/wooden"
+            "item_model": "event:gear/wooden/hammer"
         },
         "id": "paper"
     }

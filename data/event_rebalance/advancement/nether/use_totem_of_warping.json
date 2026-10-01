@@ -9,7 +9,7 @@
       }
     }
   },
-  "parent": "event_rebalance:nether/obtain_rose_gold_upgrade",
+  "parent": "nether/root",
   "display": {
     "title": {
       "translate": "advancements.nether.use_totem_of_warping.title"

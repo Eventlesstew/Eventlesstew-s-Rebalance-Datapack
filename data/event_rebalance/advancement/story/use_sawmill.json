@@ -15,7 +15,7 @@
       "trigger": "minecraft:default_block_use"
     }
   },
-  "parent": "event_rebalance:construction/root",
+  "parent": "story/smelt_iron",
   "display": {
     "title": {
       "translate": "advancements.construction.use_sawmill.title"

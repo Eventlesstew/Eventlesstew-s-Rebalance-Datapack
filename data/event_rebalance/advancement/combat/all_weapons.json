@@ -113,7 +113,7 @@
     "icon": {
       "id": "minecraft:wooden_axe",
       "components": {
-        "item_model": "event:hammer/golden"
+        "item_model": "event:gear/golden/hammer"
       }
     }
   },

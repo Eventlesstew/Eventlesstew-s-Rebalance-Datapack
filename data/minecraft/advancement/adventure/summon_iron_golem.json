@@ -1,5 +1,5 @@
 {
-  "parent": "event_rebalance:construction/root",
+  "parent": "adventure/trade",
   "criteria": {
     "summoned_golem": {
       "conditions": {

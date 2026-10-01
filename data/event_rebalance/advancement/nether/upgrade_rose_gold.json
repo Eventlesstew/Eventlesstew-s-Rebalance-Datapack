@@ -18,7 +18,7 @@
     "icon": {
       "id": "music_disc_13",
       "components": {
-        "item_model": "event:rose_golden_gear/pickaxe"
+        "item_model": "event:gear/rose_golden/pickaxe"
       }
     }
   },

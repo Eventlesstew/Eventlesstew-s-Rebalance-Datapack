@@ -12,7 +12,7 @@
     "icon": {
       "id": "minecraft:music_disc_13",
       "components": {
-        "item_model": "event:rose_golden_gear/spear"
+        "item_model": "event:gear/rose_golden/spear"
       }
     },
     "frame": "challenge",

@@ -1,5 +1,5 @@
 {
-  "parent": "event_rebalance:construction/root",
+  "parent": "adventure/root",
   "criteria": {
     "place_creaking_heart_awake": {
       "conditions": {

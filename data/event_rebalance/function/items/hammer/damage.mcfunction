@@ -1,1 +1,1 @@
-$execute at @n[type=marker,tag=balance.hammer_area] run execute as @e[type=#mobs,distance=..3,tag=!balance.hammer_attacker] run damage @s $(damage) player_attack by @n[tag=balance.hammer_attacker]
+$execute at @n[type=marker,tag=balance.hammer_area] run execute as @e[type=#event_rebalance:mobs,distance=..3,tag=!balance.hammer_attacker] run damage @s $(damage) player_attack by @n[tag=balance.hammer_attacker]

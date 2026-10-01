@@ -2,16 +2,6 @@
 	"type": "minecraft:any_of",
 	"terms": [
 		{
-			"type": "location_check",
-			"predicate": {
-				"position": {
-					"y": {
-						"min": 64
-					}
-				}
-			}
-		},
-		{
 			"type": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {

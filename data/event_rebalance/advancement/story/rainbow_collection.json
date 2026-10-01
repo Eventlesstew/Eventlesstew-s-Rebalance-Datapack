@@ -161,7 +161,7 @@
       "trigger": "minecraft:inventory_changed"
     }
   },
-  "parent": "event_rebalance:construction/root",
+  "parent": "event_rebalance:story/shear_sheep",
   "display": {
     "frame": "goal",
     "title": {
