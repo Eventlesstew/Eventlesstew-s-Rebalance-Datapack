@@ -203,6 +203,42 @@
                     }
                 },
                 "on_pass": "event_rebalance:music_disc/ward"
+            },
+            {
+                "type": "filtered",
+                "item_filter": {
+                    "components": {
+                        "item_model": "event:music_disc/ivor"
+                    }
+                },
+                "on_pass": "event_rebalance:music_disc/ivor"
+            },
+            {
+                "type": "filtered",
+                "item_filter": {
+                    "components": {
+                        "item_model": "event:music_disc/far_lands"
+                    }
+                },
+                "on_pass": "event_rebalance:music_disc/far_lands"
+            },
+            {
+                "type": "filtered",
+                "item_filter": {
+                    "components": {
+                        "item_model": "event:music_disc/mob_grinder"
+                    }
+                },
+                "on_pass": "event_rebalance:music_disc/mob_grinder"
+            },
+            {
+                "type": "filtered",
+                "item_filter": {
+                    "components": {
+                        "item_model": "event:music_disc/creakstep"
+                    }
+                },
+                "on_pass": "event_rebalance:music_disc/creakstep"
             }
         ]
     }

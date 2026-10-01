@@ -1,0 +1,18 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "#event_rebalance:custom_item/totem_of_warping"
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:custom_item/music_disc_unstackable",
+            {
+                "type": "set_components",
+                "components": {
+                    "rarity": "uncommon"
+                }
+            }
+        ]
+    }
+}

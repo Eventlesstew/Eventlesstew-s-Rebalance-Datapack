@@ -222,6 +222,18 @@
             "event_rebalance:food/fermented_spider_eye",
             "event_rebalance:food/chorus_fruit",
             "event_rebalance:food/popped_chorus_fruit",
+            
+            "event_rebalance:fuel_furnace/withered_chunks",
+            "event_rebalance:fuel_furnace/packed_withered_chunks",
+
+            "event_rebalance:custom_item/totem_of_warping",
+            "event_rebalance:custom_item/raw_hoglin_hide",
+            "event_rebalance:custom_item/hoglin_hide",
+            "event_rebalance:custom_item/rose_golden_ingot",
+            "event_rebalance:custom_item/rose_golden_nugget",
+            
+            "event_rebalance:trims/chainmail_upgrade",
+            "event_rebalance:trims/rose_golden_upgrade",
 
             "event_rebalance:make_stackable",
             "event_rebalance:music_disc/11_fragment",

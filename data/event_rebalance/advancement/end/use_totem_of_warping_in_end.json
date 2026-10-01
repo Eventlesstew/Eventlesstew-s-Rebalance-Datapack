@@ -1,0 +1,28 @@
+{
+  "parent": "end/root",
+  "criteria": {
+    "no":{
+        "trigger": "impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.end.use_totem_of_warping_in_end.description"
+    },
+    "icon": {
+      "id": "minecraft:popped_chorus_fruit",
+      "components": {
+        "item_model": "event:totem_of_warping"
+      }
+    },
+    "title": {
+      "translate": "advancements.end.use_totem_of_warping_in_end.title"
+    }
+  },
+  "requirements": [
+    [
+      "no"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

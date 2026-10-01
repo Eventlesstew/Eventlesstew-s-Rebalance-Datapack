@@ -35,6 +35,36 @@
         }
       ],
       "rolls": 2
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 1
+        },
+        {
+          "type": "tag",
+          "items": "#event_rebalance:custom_item/totem_of_warping",
+          "expand": false,
+          "modifier": [
+            "event_rebalance:custom_item/totem_of_warping",
+            {
+              "type": "set_count",
+              "count": {
+                "type": "uniform",
+                "max": 2,
+                "min": 1
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": {
+        "type": "uniform",
+        "max": 3,
+        "min": 0
+      }
     }
   ],
   "random_sequence": "event_rebalance:nether_fortress/chest_treasure"

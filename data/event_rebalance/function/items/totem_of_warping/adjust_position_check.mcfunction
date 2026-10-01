@@ -1,0 +1,1 @@
+execute as @a[tag=balance.totem_of_warping_adjust] at @s run function event_rebalance:items/totem_of_warping/adjust_position

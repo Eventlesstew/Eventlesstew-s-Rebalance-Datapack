@@ -1,0 +1,41 @@
+{
+  "parent": "event_rebalance:combat/leather_armor",
+  "criteria": {
+    "netherite_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "chainmail_helmet"
+          },
+          {
+            "items": "chainmail_chestplate"
+          },
+          {
+            "items": "chainmail_leggings"
+          },
+          {
+            "items": "chainmail_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.combat.chainmail_armor.description"
+    },
+    "icon": {
+      "id": "minecraft:chainmail_chestplate"
+    },
+    "title": {
+      "translate": "advancements.combat.chainmail_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "netherite_armor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

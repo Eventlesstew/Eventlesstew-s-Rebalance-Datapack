@@ -1,0 +1,22 @@
+{
+  "values": [
+    "#minecraft:air",
+    "#event_rebalance:liquid",
+    "#buttons",
+    "#event_rebalance:torches",
+    "#signs",
+    "#coral_plants",
+    "ladder",
+    "#cave_vines",
+    "#event_rebalance:grass",
+    "#rails",
+    "bush",
+    "pink_petals",
+    "leaf_litter",
+    "structure_void",
+    "tripwire",
+    "vine",
+    "powder_snow",
+    "bubble_column"
+  ]
+}

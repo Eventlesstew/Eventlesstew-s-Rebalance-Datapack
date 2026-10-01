@@ -78,15 +78,7 @@
             {
               "type": "minecraft:match_tool",
               "predicate": {
-                "items": [
-                  "minecraft:wooden_axe",
-                  "minecraft:golden_axe",
-                  "minecraft:stone_axe",
-                  "minecraft:copper_axe",
-                  "minecraft:iron_axe",
-                  "minecraft:diamond_axe",
-                  "minecraft:netherite_axe"
-                ]
+                "items": "#axes"
               }
             }
           ]
@@ -100,7 +92,7 @@
       "translate": "advancements.husbandry.wax_off.description"
     },
     "icon": {
-      "id": "minecraft:copper_axe"
+      "id": "minecraft:stone_axe"
     },
     "title": {
       "translate": "advancements.husbandry.wax_off.title"

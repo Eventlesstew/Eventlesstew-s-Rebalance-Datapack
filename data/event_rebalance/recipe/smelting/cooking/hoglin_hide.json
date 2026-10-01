@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "misc",
+  "ingredient": "#event_rebalance:custom_item/raw_hoglin_hide",
+  "cookingtime": 600,
+  "experience": 0.7,
+  "result": {
+    "id": "minecraft:zoglin_spawn_egg",
+    "components": {
+        "!entity_data": {}
+    },
+    "count": 1
+  }
+}

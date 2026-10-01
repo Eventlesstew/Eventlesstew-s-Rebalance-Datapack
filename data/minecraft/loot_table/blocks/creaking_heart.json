@@ -56,6 +56,35 @@
         }
       ],
       "rolls": 1
+    },
+    {
+      "condition": {
+        "type": "minecraft:all_of",
+        "terms": [
+          {
+            "type": "match_block",
+            "blocks": "creaking_heart",
+            "state": {
+              "creaking_heart_state": "awake"
+            }
+          },
+          {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:creeper"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_13",
+          "modifier": "event_rebalance:music_disc/creakstep"
+        }
+      ],
+      "rolls": 1
     }
   ],
   "random_sequence": "minecraft:blocks/creaking_heart"

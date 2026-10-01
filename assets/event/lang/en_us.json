@@ -111,6 +111,7 @@
     "item.minecraft.zoglin_spawn_egg": "Hoglin Hide",
 
     "item.minecraft.music_disc_relic": "Staff",
+    "item.minecraft.music_disc_bounce": "Totem of Warping",
 
     "item.event.music_disc_13": "Music Disc",
     "item.event.music_disc_cat": "Music Disc",
@@ -137,6 +138,7 @@
     "item.event.music_disc_ivor": "Music Disc",
     "item.event.music_disc_far_lands": "Music Disc",
     "item.event.music_disc_mob_grinder": "Music Disc",
+    "item.event.music_disc_creakstep": "Music Disc",
 
     "item.minecraft.auto_crossbow": "Auto Crossbow",
 
@@ -383,9 +385,11 @@
     "advancements.nether.open_fortress_vault.description": "Open a Vault in a Nether Fortress",
     "advancements.nether.open_ominous_fortress_vault.title": "Next Layer",
     "advancements.nether.open_ominous_fortress_vault.description": "Open an Ominous Vault in a Nether Fortress",
-    "advancements.combat.kill_wildfire.title": "Blazing Inferno",
-    "advancements.combat.kill_wildfire.description": "Defeat the Wildfire",
+    "advancements.nether.kill_wildfire.title": "Blazing Inferno",
+    "advancements.nether.kill_wildfire.description": "Defeat the Wildfire",
     "advancements.nether.fast_travel.description": "Use the Nether to travel 7,000 blocks in the Overworld",
+    "advancements.nether.use_totem_of_warping.title": "Return to Shadow, Now!",
+    "advancements.nether.use_totem_of_warping.description": "Use a Totem of Warping to escape death with your life!",
     
     "advancements.food.root.title": "Food and Drink",
     "advancements.food.root.description": "Bake or brew culinary delights or regrets.",
@@ -437,6 +441,8 @@
     "advancements.story.obtain_armor.description": "Protect yourself with a suit of armor",
     "advancements.combat.rose_golden_armor.title": "Cover Me In Roses",
     "advancements.combat.rose_golden_armor.description": "Get a full set of Rose Golden Armor",
+    "advancements.combat.chainmail_armor.title": "Cover Me In Chains",
+    "advancements.combat.chainmail_armor.description": "Get a full set of Chainmail Armor",
     "advancements.combat.leather_armor.title": "Tailored for Comfort",
     "advancements.combat.leather_armor.description": "Get a full set of Leather Armor",
     "advancements.combat.dyed_leather_armor.title": "Tie Dye Outfit",
@@ -484,11 +490,14 @@
     "advancements.construction.use_sawmill.description": "Interact with a Sawmill",
     "advancements.construction.rainbow_collection.title": "Rainbow Collection",
     "advancements.construction.rainbow_collection.description": "Obtain all 16 Dye colours",
+
     "advancements.end.respawn_dragon.title": "The End... Again.",
     "advancements.end.chaos_control.title": "Chaos Control!",
     "advancements.end.chaos_control.description": "Save yourself from fall damage by eating Chorus Fruit just in time!",
     "advancements.end.popped_chorus_fruit_into_block.title": "Transmutation Failure",
     "advancements.end.popped_chorus_fruit_into_block.description": "Teleport right into a block after eating Popped Chorus Fruit",
+    "advancements.end.use_totem_of_warping_in_end.title": "It's NOT the end!",
+    "advancements.end.use_totem_of_warping_in_end.description": "Save yourself from the Void with a Totem of Warping",
     
     "container.stonecutter": "Sawmill",
     "container.shulkerBox": "Portal Box",
@@ -522,5 +531,6 @@
     
     "jukebox_song.event.ivor": "Antimo and Welles - Ivor",
     "jukebox_song.event.far_lands": "Antimo and Welles - Far Lands",
-    "jukebox_song.event.mob_grinder": "Antimo and Welles - Mob Grinder"
+    "jukebox_song.event.mob_grinder": "Antimo and Welles - Mob Grinder",
+    "jukebox_song.event.creakstep": "Camilo Forero - Creakstep"
 }

@@ -1,0 +1,27 @@
+{
+    "type": "any_of",
+    "terms": [
+        {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "items": "#event_rebalance:custom_item/totem_of_warping"
+                    }
+                }
+            }
+        },
+        {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "offhand": {
+                        "items": "#event_rebalance:custom_item/totem_of_warping"
+                    }
+                }
+            }
+        }
+    ]
+}

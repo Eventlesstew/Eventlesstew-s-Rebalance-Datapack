@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "warp": {
+      "trigger": "used_totem",
+      "conditions": {
+        "item": {
+          "items": "#event_rebalance:custom_item/totem_of_warping"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "warp"
+    ]
+  ],
+	"rewards": {
+		"function": "event_rebalance:items/totem_of_warping/trigger"
+	},
+  "sends_telemetry_event": true
+}

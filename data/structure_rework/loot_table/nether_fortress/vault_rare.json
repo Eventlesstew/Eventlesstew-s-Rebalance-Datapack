@@ -43,6 +43,15 @@
           },
           "name": "minecraft:enchanted_book",
           "weight": 3
+        },
+        {
+          "type": "tag",
+          "items": "#event_rebalance:custom_item/totem_of_warping",
+          "expand": false,
+          "modifier": [
+            "event_rebalance:custom_item/totem_of_warping"
+          ],
+          "weight": 9
         }
       ],
       "rolls": 1

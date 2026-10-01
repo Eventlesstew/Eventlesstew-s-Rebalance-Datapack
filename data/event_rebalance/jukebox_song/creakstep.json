@@ -1,0 +1,10 @@
+{
+  "comparator_output": 13,
+  "description": {
+    "translate": "jukebox_song.event.far_lands"
+  },
+  "length_in_seconds": 130,
+  "sound_event": {
+    "sound_id": "music_disc.creakstep"
+  }
+}

@@ -272,6 +272,30 @@
         }
       ],
       "rolls": 1
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "totem_of_undying",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+                "type": "uniform",
+                "max": 2,
+                "min": 1
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1
     }
   ],
   "random_sequence": "minecraft:chests/woodland_mansion"

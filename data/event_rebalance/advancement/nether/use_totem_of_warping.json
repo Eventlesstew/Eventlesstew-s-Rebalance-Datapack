@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "warp": {
+      "trigger": "used_totem",
+      "conditions": {
+        "item": {
+          "items": "#event_rebalance:custom_item/totem_of_warping"
+        }
+      }
+    }
+  },
+  "parent": "event_rebalance:nether/obtain_rose_gold_upgrade",
+  "display": {
+    "title": {
+      "translate": "advancements.nether.use_totem_of_warping.title"
+    },
+    "description": {
+      "translate": "advancements.nether.use_totem_of_warping.description"
+    },
+    "icon": {
+      "id": "music_disc_13",
+      "components": {
+        "item_model": "event:totem_of_warping"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "warp"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

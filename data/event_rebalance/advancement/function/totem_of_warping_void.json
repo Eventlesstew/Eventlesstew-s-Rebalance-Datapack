@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "warp": {
+      "trigger": "tick",
+      "conditions": {
+        "player": {
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "dimension": "the_end",
+              "position": {
+                "y": {
+                  "max": -64
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "warp"
+    ]
+  ],
+	"rewards": {
+		"function": "event_rebalance:items/totem_of_warping/void_save"
+	},
+  "sends_telemetry_event": true
+}

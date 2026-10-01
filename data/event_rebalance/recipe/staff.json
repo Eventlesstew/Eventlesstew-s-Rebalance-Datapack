@@ -5,12 +5,12 @@
         "S":"blaze_rod"
     },
     "pattern": [
-        " # ",
-        " S ",
-        " S "
+        "#",
+        "S",
+        "S"
     ],
     "result": {
-        "id": "music_disc_strad",
+        "id": "music_disc_relic",
         "components": {
             "!jukebox_playable": {}
         }

@@ -83,6 +83,15 @@
           "weight": 9
         },
         {
+          "type": "tag",
+          "items": "#event_rebalance:custom_item/totem_of_warping",
+          "expand": false,
+          "modifier": [
+            "event_rebalance:custom_item/totem_of_warping"
+          ],
+          "weight": 9
+        },
+        {
           "type": "minecraft:item",
           "modifier": [
             {

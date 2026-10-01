@@ -69,13 +69,14 @@ Happy Ghast Spawn Egg: Fortress Key
 Piglin Spawn Egg: Rose Golden Nugget
 Piglin Brute Spawn Egg: Rose Golden Ingot
 Hoglin Spawn Egg: Rose Golden Upgrade
+Iron Goldem Spawn Egg: Chainmail Upgrade
 Wither Skeleton Spawn Egg: Withered Chunks
 Wither Spawn Egg: Packed Withered Chunks
-
+Deepslate Coal Ore: Withered Remains
 Zombified Piglin Spawn Egg: Raw Hoglin Hide
 Zoglin Spawn Egg: Hoglin Hide
+Music Disc Bounce: Totem of Warping
 
-Deepslate Coal Ore: Withered Remains
 Charcoal: Chocolate
 Pumpkin Pie: Apple Pie
 Pumpkin Pie: Cooked Tropical Fish
@@ -84,4 +85,3 @@ FREE ITEMS:
 Music Disc Creator
 Music Disc Creator (Music Box)
 Music Disc Lava Chicken
-Music Disc Bounce
