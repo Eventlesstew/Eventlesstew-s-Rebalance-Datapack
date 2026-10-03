@@ -518,10 +518,13 @@
     "subtitles.entity.player.burp.golden_food": "Golden Item Consumed",
     "subtitles.entity.player.burp.enchanted_golden_food": "Enchanted Golden Item Consumed",
     "subtitles.entity.player.burp.glow_berries": "Glow Berries Consumed",
+
     "subtitles.enchant.brutality": "Brutal Attack",
     "subtitles.enchant.power.melee": "Powered Attack",
     "subtitles.enchant.power.ranged": "Powered Shot",
     "subtitles.enchant.fowling": "Fowling Shot",
+    "subtitles.enchant.impaling": "Impaling Attack",
+    "subtitles.enchant.smite": "Smitten Attack",
     "subtitles.enchant.focusing.activate": "Focusing Activates",
     "subtitles.enchant.focusing.deactivate": "Focusing Deactivates",
     "subtitles.enchant.harpoon": "Mob Harpooned",
@@ -533,6 +536,7 @@
     "subtitles.enchant.breach.hit.weak": "Weak Breach Attack",
     "subtitles.enchant.breach.hit.medium": "Breach Attack",
     "subtitles.enchant.breach.hit.strong": "Strong Breach Attack",
+
     "subtitles.block.shulker_box.close": "Portal box closes",
     "subtitles.block.shulker_box.open": "Portal box opens",
     "subtitles.ui.stonecutter.take_result": "Sawmill used",

@@ -1,0 +1,1 @@
+loot give @s loot debug:mannequin_spawn_egg/all

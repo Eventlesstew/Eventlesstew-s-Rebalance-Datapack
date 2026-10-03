@@ -1,0 +1,22 @@
+{
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "debug:mannequin_spawn_egg/normal"
+                }
+            ],
+            "rolls": 1
+        },
+        {
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "debug:mannequin_spawn_egg/100hp"
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "type": "set_components",
+    "components": {
+        "entity_data": {
+            "id": "mannequin",
+            "attributes":[
+                {
+                    "id": "max_health",
+                    "base": 100
+                }
+            ],
+            "Health": 100
+        },
+        "item_name": "100 HP Mannequin"
+    }
+}

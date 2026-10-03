@@ -1,0 +1,46 @@
+{
+    "type": "minecraft:any_of",
+    "terms": [
+        {
+            "type": "minecraft:all_of",
+            "terms": [
+            {
+                "type": "minecraft:weather_check",
+                "raining": true
+            },
+            {
+                "type": "minecraft:location_check",
+                "predicate": {
+                "can_see_sky": true
+                }
+            },
+            {
+                "type": "minecraft:inverted",
+                "term": {
+                "type": "location_check",
+                "predicate": {
+                    "dimension": "minecraft:the_nether"
+                }
+                }
+            },
+            {
+                "type": "minecraft:inverted",
+                "term": {
+                "type": "location_check",
+                "predicate": {
+                    "biomes": "#event_rebalance:no_rain"
+                }
+                }
+            }
+            ]
+        },
+        {
+            "type": "minecraft:location_check",
+            "predicate": {
+            "block": {
+                "blocks": "minecraft:water"
+            }
+            }
+        }
+    ]
+}

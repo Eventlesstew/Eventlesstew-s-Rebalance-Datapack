@@ -1,0 +1,14 @@
+{
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "villager_spawn_egg",
+                    "modifier": "debug:mannequin_spawn_egg/normal"
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

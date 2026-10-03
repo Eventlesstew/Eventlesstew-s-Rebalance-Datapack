@@ -1,0 +1,10 @@
+{
+    "type": "all_of",
+    "terms": [
+        "event_rebalance:mobs/has_wolf_armor",
+        {
+            "type": "inverted",
+            "term": "event_rebalance:mobs/has_wolf_armor_tag"
+        }
+    ]
+}

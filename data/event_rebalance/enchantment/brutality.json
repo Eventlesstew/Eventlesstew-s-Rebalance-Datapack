@@ -64,8 +64,7 @@
   },
   "weight": 2,
   "slots": [
-    "mainhand",
-    "armor"
+    "mainhand"
   ],
   "supported_items": "#event_rebalance:enchantable/brute"
 }

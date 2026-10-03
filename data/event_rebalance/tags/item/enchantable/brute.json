@@ -3,6 +3,7 @@
         "#axes",
         "#minecraft:hammers",
         "#event_rebalance:custom_item/staff",
-        "mace"
+        "mace",
+        "wolf_armor"
     ]
 }

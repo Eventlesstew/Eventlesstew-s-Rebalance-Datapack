@@ -2,6 +2,7 @@
   "values": [
     "#minecraft:enchantable/melee_weapon",
     "#minecraft:axes",
-    "#minecraft:hammers"
+    "#minecraft:hammers",
+    "#event_rebalance:custom_item/staff"
   ]
 }

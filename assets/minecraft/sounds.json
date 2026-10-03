@@ -241,11 +241,14 @@
         {"name":"event:enchant/magnetic/magnetic2"},
         {"name":"event:enchant/magnetic/magnetic3"}
     ]},
-    "enchant.smite":{"sounds":[ 
-        {"name":"event:enchant/smite/smite1"},
-        {"name":"event:enchant/smite/smite2"},
-        {"name":"event:enchant/smite/smite3"}
-    ]},
+    "enchant.smite":{
+        "sounds":[ 
+            {"name":"event:enchant/smite/smite1"},
+            {"name":"event:enchant/smite/smite2"},
+            {"name":"event:enchant/smite/smite3"}
+        ],
+        "subtitle": "subtitles.enchant.smite"
+    },
     "enchant.valor":{"sounds":[ 
         {"name":"event:enchant/valor/valor1"},
         {"name":"event:enchant/valor/valor2"},
@@ -304,10 +307,13 @@
         {"name":"event:enchant/bounty/bounty2"},
         {"name":"event:enchant/bounty/bounty3"}
     ]},
-    "enchant.impaling":{"sounds":[ 
-        {"name":"event:enchant/impaling/impaling1"},
-        {"name":"event:enchant/impaling/impaling2"}
-    ]},
+    "enchant.impaling":{
+        "sounds":[ 
+            {"name":"event:enchant/impaling/impaling1"},
+            {"name":"event:enchant/impaling/impaling2"}
+        ],
+        "subtitle": "subtitles.enchant.impaling"
+    },
     "enchant.dragonflight":{"sounds":[ 
         {"name":"event:enchant/dragonflight/dragonflight1"},
         {"name":"event:enchant/dragonflight/dragonflight2"},

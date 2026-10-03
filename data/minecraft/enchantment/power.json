@@ -73,14 +73,29 @@
             }
         },
         "requirements": {
-          "type": "inverted",
-          "term": {
-            "type": "minecraft:entity_properties",
-            "entity": "direct_attacker",
-            "predicate": {
-              "minecraft:entity_type": "#impact_projectiles"
+          "type": "all_of",
+          "terms": [
+            {
+              "type": "inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "direct_attacker",
+                "predicate": {
+                  "minecraft:entity_type": "#impact_projectiles"
+                }
+              }
+            },
+            {
+              "type": "inverted",
+              "term": {
+                "type": "entity_properties",
+                "entity": "attacker",
+                "predicate": {
+                  "nbt": "{Tags:['balance.flat_damage_enchantment_cooldown']}"
+                }
+              }
             }
-          }
+          ]
         }
       },
       {
@@ -95,11 +110,26 @@
             }
         },
         "requirements": {
-          "type": "minecraft:entity_properties",
-          "entity": "direct_attacker",
-          "predicate": {
-            "minecraft:entity_type": "#impact_projectiles"
-          }
+          "type":"all_of",
+          "terms":[
+            {
+              "type": "inverted",
+              "term": {
+                "type": "entity_properties",
+                "entity": "attacker",
+                "predicate": {
+                  "nbt": "{Tags:['balance.flat_damage_enchantment_cooldown']}"
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "direct_attacker",
+              "predicate": {
+                "minecraft:entity_type": "#impact_projectiles"
+              }
+            }
+          ]
         }
       }
     ],
@@ -116,33 +146,6 @@
         "requirements": {
           "type": "minecraft:all_of",
           "terms": [
-            {
-              "type": "minecraft:entity_properties",
-              "entity": "direct_attacker",
-              "predicate": {
-                "flags": {
-                  "is_flying": false,
-                  "is_sprinting": false
-                },
-                "movement": {
-                  "fall_distance": {
-                    "min": 0.001
-                  }
-                }
-              }
-            },
-            {
-              "type": "minecraft:inverted",
-              "term": {
-                "type": "minecraft:entity_properties",
-                "entity": "direct_attacker",
-                "predicate": {
-                  "effects": {
-                    "slow_falling": {}
-                  }
-                }
-              }
-            },
             {
               "type": "inverted",
               "term": {
@@ -171,6 +174,6 @@
     "mainhand"
   ],
   "exclusive_set": "#exclusive_set/damage",
-  "supported_items": "#event_rebalance:enchantable/any_weapon",
+  "supported_items": "#event_rebalance:enchantable/any_weapon_or_wolf",
   "weight": 10
 }

@@ -1,0 +1,9 @@
+{
+    "type": "set_components",
+    "components": {
+        "entity_data": {
+            "id": "mannequin"
+        },
+        "item_name": "20 HP Mannequin"
+    }
+}

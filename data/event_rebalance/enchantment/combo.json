@@ -477,5 +477,5 @@
   "slots": [
     "mainhand"
   ],
-  "supported_items": "#enchantable/melee_weapon"
+  "supported_items": "#event_rebalance:enchantable/stab_weapon_or_wolf"
 }

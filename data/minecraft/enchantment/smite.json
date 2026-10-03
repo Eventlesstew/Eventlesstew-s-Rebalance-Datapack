@@ -6,22 +6,127 @@
     "shadow_color": [0.6, 0.11, 0.11, 1.0]
   },
   "effects": {
+    "tick": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "event_rebalance:enchantments/flat_damage/remove"
+        },
+        "requirements": {
+          "type": "all_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:['balance.flat_damage_enchantment_cooldown']}"
+              }
+            }
+          ]
+        }
+      }
+    ],
     "minecraft:damage": [
       {
         "effect": {
           "type": "minecraft:add",
           "value": {
             "type": "minecraft:linear",
-            "base": 2.5,
-            "per_level_above_first": 2.5
+            "base": 4,
+            "per_level_above_first": 2
           }
         },
         "requirements": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:entity_type": "#minecraft:sensitive_to_smite"
-          }
+          "type": "all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:entity_type": "#minecraft:sensitive_to_smite"
+              }
+            },
+            {
+              "type": "inverted",
+              "term": {
+                "type": "entity_properties",
+                "entity": "attacker",
+                "predicate": {
+                  "nbt": "{Tags:['balance.flat_damage_enchantment_cooldown']}"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "attacker",
+        "effect": {
+          "type": "run_function",
+          "function": "event_rebalance:enchantments/flat_damage/cooldown"
+        },
+        "requirements": {
+          "type": "all_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "attacker",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "items": "#minecraft:daggers"
+                  }
+                }
+              }
+            },
+            {
+              "type": "inverted",
+              "term": {
+                "type": "entity_properties",
+                "entity": "attacker",
+                "predicate": {
+                  "nbt": "{Tags:['balance.flat_damage_enchantment_cooldown']}"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {
+            "pitch": 1,
+            "volume": 1,
+            "type": "play_sound",
+            "sound": {
+              "sound_id": "enchant.smite"
+            }
+        },
+        "requirements": {
+          "type": "all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:entity_type": "#minecraft:sensitive_to_smite"
+              }
+            },
+            {
+              "type": "inverted",
+              "term": {
+                "type": "entity_properties",
+                "entity": "attacker",
+                "predicate": {
+                  "nbt": "{Tags:['balance.flat_damage_enchantment_cooldown']}"
+                }
+              }
+            }
+          ]
         }
       }
     ]
@@ -37,7 +142,7 @@
     "per_level_above_first": 8
   },
   "primary_items": "#enchantable/sharp_weapon",
-  "supported_items": "#enchantable/weapon",
+  "supported_items": "#event_rebalance:enchantable/any_weapon_or_wolf",
   "slots": [
     "mainhand"
   ],
