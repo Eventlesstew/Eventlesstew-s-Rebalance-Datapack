@@ -1,7 +1,9 @@
 {
   "anvil_cost": 1,
   "description": {
-    "translate": "enchantment.event.fowling"
+    "translate": "enchantment.event.fowling",
+    "color": "#ffac8e",
+    "shadow_color": [0.6, 0.11, 0.11, 1.0]
   },
   "effects": {
     "minecraft:damage": [

@@ -1,6 +1,7 @@
 {
   "values": [
     "minecraft:protection",
+    "event_rebalance:regrow",
     "event_rebalance:bulwark",
     "event_rebalance:aerodynamic"
   ]

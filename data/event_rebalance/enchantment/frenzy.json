@@ -1,9 +1,9 @@
 {
   "anvil_cost": 1,
   "description": {
-    "translate": "enchantment.balance.frenzy",
-    "color": "#c3ff7e",
-    "shadow_color": -869230800
+    "translate": "enchantment.event.frenzy",
+    "color": "#ffac8e",
+    "shadow_color": [0.6, 0.11, 0.11, 1.0]
   },
   "effects": {
     "attributes": [

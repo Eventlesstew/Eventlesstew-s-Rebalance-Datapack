@@ -1,6 +1,8 @@
 {
     "description": {
-        "translate": "enchantment.event.lasting"
+        "translate": "enchantment.event.lasting",
+        "color": "#c3ff7e",
+        "shadow_color": -869230800
     },
     "exclusive_set": "#event_rebalance:exclusive_set/durability",
     "supported_items": "#minecraft:enchantable/durability",

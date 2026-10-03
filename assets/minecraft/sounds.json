@@ -314,11 +314,14 @@
         {"name":"event:enchant/dragonflight/dragonflight3"},
         {"name":"event:enchant/dragonflight/dragonflight4"}
     ]},
-    "enchant.brutality":{"sounds":[ 
-        {"name":"event:enchant/brutality/brutality1"},
-        {"name":"event:enchant/brutality/brutality2"},
-        {"name":"event:enchant/brutality/brutality3"}
-    ]},
+    "enchant.brutality":{
+        "sounds":[ 
+            {"name":"event:enchant/brutality/brutality1"},
+            {"name":"event:enchant/brutality/brutality2"},
+            {"name":"event:enchant/brutality/brutality3"}
+        ],
+        "subtitle": "subtitles.enchant.brutality"
+    },
     "enchant.puncture":{"sounds":[ 
         {"name":"event:enchant/puncture/puncture1"},
         {"name":"event:enchant/puncture/puncture2"},

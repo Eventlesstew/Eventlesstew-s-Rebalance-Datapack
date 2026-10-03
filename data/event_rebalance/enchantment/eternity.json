@@ -1,7 +1,9 @@
 {
   "anvil_cost": 20,
   "description": {
-    "translate": "enchantment.event.eternity"
+    "translate": "enchantment.event.eternity",
+    "color": "#c3ff7e",
+    "shadow_color": -869230800
   },
   "effects": {
     "minecraft:item_damage": [

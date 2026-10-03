@@ -1,0 +1,66 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "enchantment.event.avarice_curse"
+  },
+  "effects": {
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:multiply",
+          "factor": {
+            "type": "minecraft:linear",
+            "base": 0.00001,
+            "per_level_above_first": 0
+          }
+        },
+        "requirements": {
+          "type": "minecraft:entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "entity_type": [
+              "minecraft:arrow"
+            ]
+          }
+        }
+      }
+    ],
+    "minecraft:post_attack": [
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "max_amplifier": 10,
+          "max_duration": 0.05,
+          "min_amplifier": 10,
+          "min_duration": 0.05,
+          "to_apply": "minecraft:regeneration"
+        },
+        "enchanted": "attacker",
+        "requirements": {
+          "type": "minecraft:entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "entity_type": [
+              "minecraft:arrow"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "max_level": 1,
+  "max_cost": {
+    "base": 40,
+    "per_level_above_first": 0
+  },
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 0
+  },
+  "weight": 8,
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#event_rebalance:enchantable/ranged_ammo_weapon"
+}

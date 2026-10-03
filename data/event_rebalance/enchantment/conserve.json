@@ -1,7 +1,7 @@
 {
   "anvil_cost": 8,
   "description": {
-    "translate": "enchantment.minecraft.infinity",
+    "translate": "enchantment.event.conserve",
     "color": "#c3ff7e",
     "shadow_color": -869230800
   },
@@ -13,10 +13,15 @@
           "value": 0.0
         },
         "requirements": {
-          "type": "minecraft:match_tool",
-          "predicate": {
-            "items": "minecraft:arrow"
-          }
+            "type": "random_chance",
+            "chance": {
+                "type": "enchantment_level",
+                "amount": {
+                    "type": "linear",
+                    "base": 0.25,
+                    "per_level_above_first": 0.25
+                }
+            }
         }
       }
     ]
@@ -26,7 +31,7 @@
     "base": 50,
     "per_level_above_first": 0
   },
-  "max_level": 1,
+  "max_level": 3,
   "min_cost": {
     "base": 20,
     "per_level_above_first": 0

@@ -1,9 +1,9 @@
 {
   "anvil_cost": 1,
   "description": {
-    "translate": "enchantment.balance.brutality",
-    "color": "#fff281",
-    "shadow_color": -2403049
+    "translate": "enchantment.event.brutality",
+    "color": "#ffac8e",
+    "shadow_color": [0.6, 0.11, 0.11, 1.0]
   },
   "effects": {
     "minecraft:post_attack": [

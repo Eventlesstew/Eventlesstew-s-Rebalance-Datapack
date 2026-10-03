@@ -1,6 +1,8 @@
 {
     "description": {
-        "translate":"enchantment.event.auto_repair"
+        "translate":"enchantment.event.auto_repair",
+        "color": "#c3ff7e",
+        "shadow_color": -869230800
     },
     "supported_items": "#minecraft:enchantable/durability",
     "exclusive_set": "#event_rebalance:exclusive_set/durability",

@@ -2,8 +2,8 @@
   "anvil_cost": 3,
   "description": {
     "translate": "enchantment.event.combo",
-    "color": "#c3ff7e",
-    "shadow_color": -869230800
+    "color": "#ffac8e",
+    "shadow_color": [0.6, 0.11, 0.11, 1.0]
   },
   "effects": {
     "damage": [

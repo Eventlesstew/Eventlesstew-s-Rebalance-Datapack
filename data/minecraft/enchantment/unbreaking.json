@@ -1,7 +1,9 @@
 {
   "anvil_cost": 2,
   "description": {
-    "translate": "enchantment.minecraft.unbreaking"
+    "translate": "enchantment.minecraft.unbreaking",
+    "color": "#c3ff7e",
+    "shadow_color": -869230800
   },
   "effects": {
     "minecraft:item_damage": [

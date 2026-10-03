@@ -1,26 +1,19 @@
 {
   "anvil_cost": 2,
   "description": {
-    "translate": "enchantment.minecraft.smite",
+    "translate": "enchantment.minecraft.density",
     "color": "#ffac8e",
     "shadow_color": [0.6, 0.11, 0.11, 1.0]
   },
   "effects": {
-    "minecraft:damage": [
+    "minecraft:smash_damage_per_fallen_block": [
       {
         "effect": {
           "type": "minecraft:add",
           "value": {
             "type": "minecraft:linear",
-            "base": 2.5,
-            "per_level_above_first": 2.5
-          }
-        },
-        "requirements": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:entity_type": "#minecraft:sensitive_to_smite"
+            "base": 0.5,
+            "per_level_above_first": 0.5
           }
         }
       }
@@ -36,10 +29,9 @@
     "base": 5,
     "per_level_above_first": 8
   },
-  "primary_items": "#enchantable/sharp_weapon",
-  "supported_items": "#enchantable/weapon",
   "slots": [
     "mainhand"
   ],
+  "supported_items": "#minecraft:enchantable/mace",
   "weight": 5
 }

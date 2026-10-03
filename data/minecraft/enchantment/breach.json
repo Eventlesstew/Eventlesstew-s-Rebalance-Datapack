@@ -2,8 +2,8 @@
   "anvil_cost": 3,
   "description": {
     "translate": "enchantment.minecraft.breach",
-    "color": "#fdcfff",
-    "shadow_color": -4909878
+    "color": "#ffac8e",
+    "shadow_color": [0.6, 0.11, 0.11, 1.0]
   },
   "effects": {
     "tick": [

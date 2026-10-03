@@ -1,7 +1,9 @@
 {
   "anvil_cost": 4,
   "description": {
-    "translate": "enchantment.minecraft.fortune"
+    "translate": "enchantment.minecraft.fortune",
+    "color": "#fff281",
+    "shadow_color": -2403049
   },
   "max_cost": {
     "base": 65,
