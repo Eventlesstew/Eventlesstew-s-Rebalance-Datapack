@@ -322,6 +322,87 @@
             
             {
                 "when": {
+                    "event_rebalance:acceleration": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/acceleration"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:acceleration": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/acceleration"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:acceleration": 3
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/acceleration"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:aerodynamic": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/aerodynamic"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:aerodynamic": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/aerodynamic"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:aerodynamic": 3
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/aerodynamic"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:aerodynamic": 4
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/aerodynamic"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
                     "aqua_affinity": 1
                 },
                 "model": {
@@ -358,6 +439,24 @@
             },
             {
                 "when": {
+                    "event_rebalance:avarice_curse": 1
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/avarice_curse"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
                     "binding_curse": 1
                 },
                 "model": {
@@ -366,6 +465,24 @@
                         {
                             "type": "model",
                             "model": "event:item/enchanted_book/binding_curse"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:bookworm_bait": 1
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/bookworm_bait"
                         },
                         {
                             "type": "model",
@@ -484,24 +601,6 @@
             },
             {
                 "when": {
-                    "event_rebalance:bookworm_bait": 5
-                },
-                "model": {
-                    "type": "composite",
-                    "models": [
-                        {
-                            "type": "model",
-                            "model": "event:item/enchanted_book/bookworm_bait"
-                        },
-                        {
-                            "type": "model",
-                            "model": "event:item/book_mark"
-                        }
-                    ]
-                }
-            },
-            {
-                "when": {
                     "event_rebalance:bulwark": 1
                 },
                 "model": {
@@ -537,6 +636,24 @@
                         {
                             "type": "model",
                             "model": "event:item/enchanted_book/bulwark"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "channeling": 1
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/channeling"
                         },
                         {
                             "type": "model",
@@ -591,6 +708,42 @@
                         {
                             "type": "model",
                             "model": "event:item/enchanted_book/combo_5"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:conserve": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/conserve"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:conserve": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/conserve"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:conserve": 3
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/conserve"
                         },
                         {
                             "type": "model",
@@ -681,6 +834,42 @@
                         {
                             "type": "model",
                             "model": "event:item/enchanted_book/density"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "depth_strider": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/depth_strider"
+                }
+            },
+            {
+                "when": {
+                    "depth_strider": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/depth_strider"
+                }
+            },
+            {
+                "when": {
+                    "depth_strider": 3
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/depth_strider"
                         },
                         {
                             "type": "model",
@@ -1024,6 +1213,69 @@
             },
             {
                 "when": {
+                    "frost_walker": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/frost_walker"
+                }
+            },
+            {
+                "when": {
+                    "frost_walker": 2
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/frost_walker"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:harpoon": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/harpoon"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:harpoon": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/harpoon"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:harpoon": 3
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/harpoon"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
                     "impaling": 1
                 },
                 "model": {
@@ -1168,6 +1420,24 @@
             },
             {
                 "when": {
+                    "event_rebalance:live_catch": 1
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/live_catch"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
                     "luck_of_the_sea": 1
                 },
                 "model": {
@@ -1230,6 +1500,42 @@
                         {
                             "type": "model",
                             "model": "event:item/enchanted_book/lure"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "loyalty": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/loyalty"
+                }
+            },
+            {
+                "when": {
+                    "loyalty": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/loyalty"
+                }
+            },
+            {
+                "when": {
+                    "loyalty": 3
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/loyalty"
                         },
                         {
                             "type": "model",

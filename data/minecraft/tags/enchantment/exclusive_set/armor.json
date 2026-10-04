@@ -3,6 +3,7 @@
     "minecraft:protection",
     "event_rebalance:regrow",
     "event_rebalance:bulwark",
-    "event_rebalance:aerodynamic"
+    "event_rebalance:aerodynamic",
+    "feather_falling"
   ]
 }

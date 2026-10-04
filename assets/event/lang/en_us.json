@@ -208,6 +208,9 @@
     "enchantment.event.auto_repair": "Auto-Repair",
     "enchantment.event.eternity": "Eternity",
     "enchantment.event.lasting": "Lasting",
+    "enchantment.event.avarice_curse": "Curse of Avarice",
+    "enchantment.event.fragility_curse": "Curse of Fragility",
+    "enchantment.event.slumber_curse": "Curse of Slumber",
 
     "attribute.name.pickaxe_mining_speed": "Mining Speed",
     "attribute.name.axe_mining_speed": "Chopping Speed",

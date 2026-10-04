@@ -23,7 +23,9 @@
       "event_rebalance:smelting/blasting/stone_slab",
       "event_rebalance:smelting/stone_stairs",
       "event_rebalance:smelting/blasting/stone_stairs",
-      "event_rebalance:smelting/blasting/stone"
+      "event_rebalance:smelting/blasting/stone",
+      "event_rebalance:gear/stone/hammer",
+      "event_rebalance:gear/stone/dagger"
     ]
   }
 }
