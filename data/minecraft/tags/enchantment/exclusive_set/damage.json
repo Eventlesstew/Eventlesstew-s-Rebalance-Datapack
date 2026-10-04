@@ -8,6 +8,8 @@
     "minecraft:breach",
     "event_rebalance:valor",
     "event_rebalance:combo",
-    "event_rebalance:brutality"
+    "event_rebalance:brutality",
+    "event_rebalance:puncture",
+    "event_rebalance:charging"
   ]
 }

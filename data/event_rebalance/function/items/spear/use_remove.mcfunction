@@ -1,0 +1,1 @@
+tag @s remove using_item_spear

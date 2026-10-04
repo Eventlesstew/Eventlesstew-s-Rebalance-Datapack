@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "using_item_spear": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "kinetic_weapon": {}
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "using_item_spear"
+    ]
+  ],
+	"rewards": {
+		"function": "event_rebalance:items/spear/use"
+	},
+  "sends_telemetry_event": true
+}

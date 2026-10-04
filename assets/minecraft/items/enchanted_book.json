@@ -1636,6 +1636,24 @@
             },
             {
                 "when": {
+                    "event_rebalance:lasting": 1
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/lasting"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
                     "event_rebalance:valor": 1
                 },
                 "model": {
@@ -1680,6 +1698,114 @@
                         {
                             "type": "model",
                             "model": "event:item/enchanted_book/valor"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:puncture": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/puncture"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:puncture": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/puncture"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:puncture": 3
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/puncture"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:puncture": 4
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/puncture"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:puncture": 5
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/puncture"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:charging": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/charging"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:charging": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/charging"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:charging": 3
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/charging"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:charging": 4
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/charging"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:charging": 5
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/charging"
                         },
                         {
                             "type": "model",

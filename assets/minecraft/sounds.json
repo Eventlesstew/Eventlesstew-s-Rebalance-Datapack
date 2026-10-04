@@ -328,12 +328,15 @@
         ],
         "subtitle": "subtitles.enchant.brutality"
     },
-    "enchant.puncture":{"sounds":[ 
-        {"name":"event:enchant/puncture/puncture1"},
-        {"name":"event:enchant/puncture/puncture2"},
-        {"name":"event:enchant/puncture/puncture3"},
-        {"name":"event:enchant/puncture/puncture4"}
-    ]},
+    "enchant.puncture":{
+        "sounds":[ 
+            {"name":"event:enchant/puncture/puncture1"},
+            {"name":"event:enchant/puncture/puncture2"},
+            {"name":"event:enchant/puncture/puncture3"},
+            {"name":"event:enchant/puncture/puncture4"}
+        ],
+        "subtitle": "subtitles.enchant.puncture"
+    },
     "enchant.sensing.locate":{"sounds":[ 
         {"name":"event:enchant/sensing/locate/locate1"},
         {"name":"event:enchant/sensing/locate/locate2"},
