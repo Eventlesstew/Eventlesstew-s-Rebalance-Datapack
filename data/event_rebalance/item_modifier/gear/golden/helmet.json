@@ -84,6 +84,16 @@
                         ],
                         "italic": false,
                         "color": "#1aa819"
+                    },
+                    {
+                        "text": " 0.8x ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.stealth"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
                     }
                 ]
             }

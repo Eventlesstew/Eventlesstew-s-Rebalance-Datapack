@@ -100,6 +100,16 @@
                         ],
                         "italic": false,
                         "color": "#1aa819"
+                    },
+                    {
+                        "text": " 0.7x ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.stealth"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
                     }
                 ]
             }

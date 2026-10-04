@@ -1,7 +1,9 @@
 {
   "anvil_cost": 1,
   "description": {
-    "translate": "enchantment.minecraft.efficiency"
+    "translate": "enchantment.minecraft.efficiency",
+    "color": "#c3ff7e",
+    "shadow_color": -869230800
   },
   "effects": {
     "minecraft:attributes": [

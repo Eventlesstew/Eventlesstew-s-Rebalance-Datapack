@@ -224,10 +224,14 @@
     "attribute.name.mining_power": "Mining Power",
     "attribute.name.charge_delay": "Charge Delay",
     "attribute.name.charge_duration": "Charge Duration",
+    "attribute.name.armor_toughness": "Toughness",
+    "attribute.name.stealth": "Stealth",
+
     "attribute.name.consumable.food.eating_time": "Eating Time",
     "attribute.name.consumable.food.drinking_time": "Drinking Time",
     "attribute.name.consumable.food.always_edible": " Always Edible",
     "attribute.name.consumable.food.unknown_effect": " Unknown Effect",
+
     "attribute.name.consumable.food.effect.poisonous_potato": " Poison (00:10)",
     "attribute.name.consumable.food.effect.carrot": " Cures Blindness and Darkness",
     "attribute.name.consumable.food.effect.golden_carrot": " Night Vision (01:00)",
@@ -271,6 +275,7 @@
     "attribute.name.consumable.food.slowing.less": " Less Slowing when eating",
     "attribute.name.consumable.food.slowing.more": " More Slowing when eating",
     "attribute.name.consumable.food.slowing.stop": " Stops you when eating",
+
     "attribute.name.consumable.food.nutrition.1": " 🍖",
     "attribute.name.consumable.food.nutrition.2": " 🍗",
     "attribute.name.consumable.food.nutrition.3": " 🍗🍖",

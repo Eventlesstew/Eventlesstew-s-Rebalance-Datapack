@@ -29,7 +29,7 @@
       }
     ]
   },
-  "exclusive_set": "#minecraft:exclusive_set/armor",
+  "exclusive_set": "#event_rebalance:exclusive_set/chestplate",
   "max_level": 4,
   "max_cost": {
     "base": 16,

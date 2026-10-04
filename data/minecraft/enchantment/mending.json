@@ -2,8 +2,8 @@
   "anvil_cost": 4,
   "description": {
     "translate": "enchantment.minecraft.mending",
-    "color": "#c3ff7e",
-    "shadow_color": -869230800
+    "color": "#f993c8",
+    "shadow_color": [0.64, 0.08, 0.4, 1.00]
   },
   "effects": {
     "minecraft:repair_with_xp": [

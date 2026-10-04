@@ -19,6 +19,13 @@ with open(data_path, "r") as file:
     data_file = json.loads(file.read())
 
 
+def get_tooltip(text, extra):
+    lore = copy.deepcopy(lore_base)
+    lore["text"] = text
+    lore["extra"] = extra
+    return lore
+
+
 def get_tier_value(tier: str, id: str):
     value = None
     try:
@@ -169,6 +176,7 @@ for tier_i, tier in enumerate(data_file["tiers"]):
         add_attribute(
             "air_drag_modifier", operator="add_multiplied_base", show_attribute=False
         )
+        add_attribute("sweeping_damage_ratio", show_attribute=False)
         add_attribute("burning_time", operator="add_multiplied_base")
 
         # Item Filter
@@ -192,6 +200,12 @@ for tier_i, tier in enumerate(data_file["tiers"]):
                 "targeting_entity_types": "#event_rebalance:mobs",
                 "visibility": 1 / stealth,
             }
+            tool_data["lore"].append(
+                get_tooltip(
+                    text=" " + str(stealth) + "x ",
+                    extra=[{"translate": "attribute.name.stealth"}],
+                )
+            )
 
         # Durability and Shield Break Handling
         components["weapon"] = {
@@ -218,12 +232,14 @@ for tier_i, tier in enumerate(data_file["tiers"]):
             )
 
             # Mining Speed tooltip
-            mining_speed_tooltip = copy.deepcopy(lore_base)
-            mining_speed_tooltip["text"] = " " + str(mining_speed) + " "
-            mining_speed_tooltip["extra"] = [
-                {"translate": "attribute.name." + mineable + "_mining_speed"}
-            ]
-            tool_data["lore"].append(mining_speed_tooltip)
+            tool_data["lore"].append(
+                get_tooltip(
+                    text=" " + str(mining_speed) + " ",
+                    extra=[
+                        {"translate": "attribute.name." + mineable + "_mining_speed"}
+                    ],
+                )
+            )
 
             if get_tool_value(tier, tool, "uses_pickaxe_mining_power"):
                 mining_power = get_tool_value(tier, tool, "mining_power")
@@ -248,12 +264,12 @@ for tier_i, tier in enumerate(data_file["tiers"]):
                     },
                 )
 
-                mining_power_tooltip = copy.deepcopy(lore_base)
-                mining_power_tooltip["text"] = " " + str(mining_power) + " "
-                mining_power_tooltip["extra"] = [
-                    {"translate": "attribute.name.mining_power"}
-                ]
-                tool_data["lore"].append(mining_power_tooltip)
+                tool_data["lore"].append(
+                    get_tooltip(
+                        text=" " + str(mining_power) + " ",
+                        extra=[{"translate": "attribute.name.mining_power"}],
+                    )
+                )
 
         # Dagger Animation
         if tool == "dagger":
@@ -301,18 +317,20 @@ for tier_i, tier in enumerate(data_file["tiers"]):
             components["minimum_attack_charge"] = 1
 
             # Charge Delay Tooltip
-            charge_delay_lore = copy.deepcopy(lore_base)
-            charge_delay_lore["text"] = " " + str(charge_delay_seconds) + "s "
-            charge_delay_lore["extra"] = [{"translate": "attribute.name.charge_delay"}]
-            tool_data["lore"].append(charge_delay_lore)
+            tool_data["lore"].append(
+                get_tooltip(
+                    text=" " + str(charge_delay_seconds) + "s ",
+                    extra=[{"translate": "attribute.name.charge_delay"}],
+                )
+            )
 
             # Charge Duration Tooltip
-            charge_duration_lore = copy.deepcopy(lore_base)
-            charge_duration_lore["text"] = " " + str(charge_duration_seconds) + "s "
-            charge_duration_lore["extra"] = [
-                {"translate": "attribute.name.charge_duration"}
-            ]
-            tool_data["lore"].append(charge_duration_lore)
+            tool_data["lore"].append(
+                get_tooltip(
+                    text=" " + str(charge_duration_seconds) + "s ",
+                    extra=[{"translate": "attribute.name.charge_duration"}],
+                )
+            )
 
         if is_custom(tier, tool):
             slot = get_tool_value(tier, tool, "slot")

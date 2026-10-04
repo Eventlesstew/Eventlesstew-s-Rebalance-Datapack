@@ -2,8 +2,8 @@
   "anvil_cost": 1,
   "description": {
     "translate": "enchantment.event.focusing",
-    "color": "#abf2ff",
-    "shadow_color": 1883020435
+    "color": "#c3ff7e",
+    "shadow_color": -869230800
   },
   "effects": {
     "tick": [

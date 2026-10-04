@@ -4,6 +4,7 @@
         "punch",
         "event_rebalance:harpoon",
         "event_rebalance:rebound",
-        "event_rebalance:launching"
+        "event_rebalance:launching",
+        "sweeping_edge"
     ]
 }

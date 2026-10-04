@@ -649,6 +649,42 @@
                     "channeling": 1
                 },
                 "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/channeling"
+                }
+            },
+            {
+                "when": {
+                    "channeling": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/channeling"
+                }
+            },
+            {
+                "when": {
+                    "channeling": 3
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/channeling"
+                }
+            },
+            {
+                "when": {
+                    "channeling": 4
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/channeling"
+                }
+            },
+            {
+                "when": {
+                    "channeling": 5
+                },
+                "model": {
                     "type": "composite",
                     "models": [
                         {
@@ -1474,6 +1510,42 @@
             },
             {
                 "when": {
+                    "lunge": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/lunge"
+                }
+            },
+            {
+                "when": {
+                    "lunge": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/lunge"
+                }
+            },
+            {
+                "when": {
+                    "lunge": 3
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/lunge"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
                     "lure": 1
                 },
                 "model": {
@@ -1581,6 +1653,78 @@
                         {
                             "type": "model",
                             "model": "event:item/enchanted_book/mending"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "multishot": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/multishot"
+                }
+            },
+            {
+                "when": {
+                    "multishot": 2
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/multishot"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "piercing": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/piercing"
+                }
+            },
+            {
+                "when": {
+                    "piercing": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/piercing"
+                }
+            },
+            {
+                "when": {
+                    "piercing": 3
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/piercing"
+                }
+            },
+            {
+                "when": {
+                    "piercing": 4
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/piercing"
                         },
                         {
                             "type": "model",
@@ -1726,6 +1870,78 @@
             },
             {
                 "when": {
+                    "quick_charge": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/quick_charge"
+                }
+            },
+            {
+                "when": {
+                    "quick_charge": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/quick_charge"
+                }
+            },
+            {
+                "when": {
+                    "quick_charge": 3
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/quick_charge"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:rebound": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/rebound"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:rebound": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/rebound"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:rebound": 3
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/rebound"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
                     "event_rebalance:regrow": 1
                 },
                 "model": {
@@ -1761,6 +1977,42 @@
                         {
                             "type": "model",
                             "model": "event:item/enchanted_book/regrow"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "respiration": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/respiration"
+                }
+            },
+            {
+                "when": {
+                    "respiration": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/respiration"
+                }
+            },
+            {
+                "when": {
+                    "respiration": 3
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/respiration"
                         },
                         {
                             "type": "model",
@@ -1851,6 +2103,114 @@
                         {
                             "type": "model",
                             "model": "event:item/enchanted_book/smite"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "soul_speed": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/soul_speed"
+                }
+            },
+            {
+                "when": {
+                    "soul_speed": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/soul_speed"
+                }
+            },
+            {
+                "when": {
+                    "soul_speed": 3
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/soul_speed"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "sweeping_edge": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/sweeping_edge"
+                }
+            },
+            {
+                "when": {
+                    "sweeping_edge": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/sweeping_edge"
+                }
+            },
+            {
+                "when": {
+                    "sweeping_edge": 3
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/sweeping_edge"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "swift_sneak": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/swift_sneak"
+                }
+            },
+            {
+                "when": {
+                    "swift_sneak": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/swift_sneak"
+                }
+            },
+            {
+                "when": {
+                    "swift_sneak": 3
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/swift_sneak"
                         },
                         {
                             "type": "model",
@@ -2068,50 +2428,14 @@
             },
             {
                 "when": {
-                    "event_rebalance:charging": 1
-                },
-                "model": {
-                    "type": "model",
-                    "model": "event:item/enchanted_book/charging"
-                }
-            },
-            {
-                "when": {
-                    "event_rebalance:charging": 2
-                },
-                "model": {
-                    "type": "model",
-                    "model": "event:item/enchanted_book/charging"
-                }
-            },
-            {
-                "when": {
-                    "event_rebalance:charging": 3
-                },
-                "model": {
-                    "type": "model",
-                    "model": "event:item/enchanted_book/charging"
-                }
-            },
-            {
-                "when": {
-                    "event_rebalance:charging": 4
-                },
-                "model": {
-                    "type": "model",
-                    "model": "event:item/enchanted_book/charging"
-                }
-            },
-            {
-                "when": {
-                    "event_rebalance:charging": 5
+                    "vanishing_curse": 1
                 },
                 "model": {
                     "type": "composite",
                     "models": [
                         {
                             "type": "model",
-                            "model": "event:item/enchanted_book/charging"
+                            "model": "event:item/enchanted_book/vanishing_curse"
                         },
                         {
                             "type": "model",
@@ -2122,14 +2446,32 @@
             },
             {
                 "when": {
-                    "vanishing_curse": 1
+                    "wind_burst": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/wind_burst"
+                }
+            },
+            {
+                "when": {
+                    "wind_burst": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/wind_burst"
+                }
+            },
+            {
+                "when": {
+                    "wind_burst": 3
                 },
                 "model": {
                     "type": "composite",
                     "models": [
                         {
                             "type": "model",
-                            "model": "event:item/enchanted_book/vanishing_curse"
+                            "model": "event:item/enchanted_book/wind_burst"
                         },
                         {
                             "type": "model",
