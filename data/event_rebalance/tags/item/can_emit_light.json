@@ -1,6 +1,19 @@
 {
     "values": [
+        "#event_rebalance:light_level/1",
+        "#event_rebalance:light_level/2",
+        "#event_rebalance:light_level/3_air_only",
+        "#event_rebalance:light_level/3",
+        "#event_rebalance:light_level/4",
+        "#event_rebalance:light_level/5",
+        "#event_rebalance:light_level/6_water_only",
+        "#event_rebalance:light_level/6",
+        "#event_rebalance:light_level/7",
+        "#event_rebalance:light_level/10_air_only",
         "#event_rebalance:light_level/10",
+        "#event_rebalance:light_level/14_air_only",
+        "#event_rebalance:light_level/14",
+        "#event_rebalance:light_level/15_air_only",
         "#event_rebalance:light_level/15"
     ]
 }

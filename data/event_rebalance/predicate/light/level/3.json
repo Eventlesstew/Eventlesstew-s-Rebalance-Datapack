@@ -2,19 +2,12 @@
     "type": "minecraft:any_of",
     "terms": [
         {
-            "type": "entity_properties",
-            "entity": "this",
-            "predicate": {
-                "entity_type": "#event_rebalance:light_level/14"
-            }
-        },
-        {
             "type": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
                 "slots": {
                     "armor.*":{
-                        "items": "#event_rebalance:light_level/14"
+                        "items": "#event_rebalance:light_level/3"
                     }
                 }
             }
@@ -25,7 +18,7 @@
             "predicate": {
                 "slots": {
                     "weapon.*":{
-                        "items": "#event_rebalance:light_level/14"
+                        "items": "#event_rebalance:light_level/3"
                     }
                 }
             }
@@ -36,7 +29,7 @@
             "predicate": {
                 "slots": {
                     "contents":{
-                        "items": "#event_rebalance:light_level/14"
+                        "items": "#event_rebalance:light_level/3"
                     }
                 }
             }
@@ -47,7 +40,7 @@
             "predicate": {
                 "slots": {
                     "armor.*":{
-                        "items": "#event_rebalance:light_level/14_air_only"
+                        "items": "#event_rebalance:light_level/3_air_only"
                     }
                 },
                 "flags": {
@@ -61,7 +54,7 @@
             "predicate": {
                 "slots": {
                     "weapon.*":{
-                        "items": "#event_rebalance:light_level/14_air_only"
+                        "items": "#event_rebalance:light_level/3_air_only"
                     }
                 },
                 "flags": {
@@ -75,7 +68,7 @@
             "predicate": {
                 "slots": {
                     "contents":{
-                        "items": "#event_rebalance:light_level/14_air_only"
+                        "items": "#event_rebalance:light_level/3_air_only"
                     }
                 },
                 "flags": {

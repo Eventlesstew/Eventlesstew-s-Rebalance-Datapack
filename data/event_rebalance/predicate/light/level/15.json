@@ -8,7 +8,7 @@
                 "effects": {
                     "glowing": {
                         "amplifier": {
-                            "min": 2
+                            "min": 15
                         }
                     }
                 }
@@ -18,8 +18,17 @@
             "type": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-                "equipment": {
-                    "mainhand": {
+                "flags": {
+                    "is_on_fire": true
+                }
+            }
+        },
+        {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "armor.*":{
                         "items": "#event_rebalance:light_level/15"
                     }
                 }
@@ -29,10 +38,63 @@
             "type": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-                "equipment": {
-                    "offhand": {
+                "slots": {
+                    "weapon.*":{
                         "items": "#event_rebalance:light_level/15"
                     }
+                }
+            }
+        },
+        {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "contents":{
+                        "items": "#event_rebalance:light_level/15"
+                    }
+                }
+            }
+        },
+        {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "armor.*":{
+                        "items": "#event_rebalance:light_level/15_air_only"
+                    }
+                },
+                "flags": {
+                    "is_in_water": false
+                }
+            }
+        },
+        {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "weapon.*":{
+                        "items": "#event_rebalance:light_level/15_air_only"
+                    }
+                },
+                "flags": {
+                    "is_in_water": false
+                }
+            }
+        },
+        {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "contents":{
+                        "items": "#event_rebalance:light_level/15_air_only"
+                    }
+                },
+                "flags": {
+                    "is_in_water": false
                 }
             }
         }

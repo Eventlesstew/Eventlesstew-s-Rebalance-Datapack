@@ -15,7 +15,7 @@
                 "effects": {
                     "glowing": {
                         "amplifier": {
-                            "min":1
+                            "min":0
                         }
                     }
                 }
@@ -25,8 +25,17 @@
             "type": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-                "equipment": {
-                    "mainhand": {
+                "flags": {
+                    "is_on_fire": true
+                }
+            }
+        },
+        {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "armor.*":{
                         "items": "#event_rebalance:can_emit_light"
                     }
                 }
@@ -36,8 +45,19 @@
             "type": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-                "equipment": {
-                    "offhand": {
+                "slots": {
+                    "weapon.*":{
+                        "items": "#event_rebalance:can_emit_light"
+                    }
+                }
+            }
+        },
+        {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "contents":{
                         "items": "#event_rebalance:can_emit_light"
                     }
                 }

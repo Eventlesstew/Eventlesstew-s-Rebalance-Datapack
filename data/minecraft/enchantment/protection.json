@@ -10,8 +10,8 @@
           "type": "minecraft:add",
           "value": {
             "type": "minecraft:linear",
-            "base": 0.75,
-            "per_level_above_first": 0.75
+            "base": 1,
+            "per_level_above_first": 1
           }
         },
         "requirements": {
@@ -20,9 +20,21 @@
             {
               "type": "inverted",
               "term": {
-                "type": "match_tool",
+                "type": "entity_properties",
+                "entity": "this",
                 "predicate": {
-                  "items": "#event_rebalance:animal_armor"
+                  "equipment": {
+                    "body": {
+                      "items": "#event_rebalance:animal_armor",
+                      "predicates": {
+                        "enchantments": [
+                          {
+                            "enchantments": "event_rebalance:lighweight"
+                          }
+                        ]
+                      }
+                    }
+                  }
                 }
               }
             },
@@ -45,17 +57,29 @@
           "type": "minecraft:add",
           "value": {
             "type": "minecraft:linear",
-            "base": 3,
-            "per_level_above_first": 3
+            "base": 4,
+            "per_level_above_first": 4
           }
         },
         "requirements": {
           "type":"all_of",
           "terms":[
             {
-              "type": "match_tool",
+              "type": "entity_properties",
+              "entity": "this",
               "predicate": {
-                "items": "#event_rebalance:animal_armor"
+                "equipment": {
+                  "body": {
+                    "items": "#event_rebalance:animal_armor",
+                    "predicates": {
+                      "enchantments": [
+                        {
+                          "enchantments": "event_rebalance:lighweight"
+                        }
+                      ]
+                    }
+                  }
+                }
               }
             },
             {

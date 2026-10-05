@@ -2,29 +2,12 @@
     "type": "minecraft:any_of",
     "terms": [
         {
-            "type": "entity_properties",
-            "entity": "this",
-            "predicate": {
-                "entity_type": "#event_rebalance:light_level/5"
-            }
-        },
-        {
-            "type": "entity_properties",
-            "entity": "this",
-            "predicate": {
-                "entity_type": "#event_rebalance:light_level/5_water_only",
-                "flags": {
-                    "is_in_water": true
-                }
-            }
-        },
-        {
             "type": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
                 "slots": {
                     "armor.*":{
-                        "items": "#event_rebalance:light_level/5"
+                        "items": "#event_rebalance:light_level/9"
                     }
                 }
             }
@@ -35,7 +18,7 @@
             "predicate": {
                 "slots": {
                     "weapon.*":{
-                        "items": "#event_rebalance:light_level/5"
+                        "items": "#event_rebalance:light_level/9"
                     }
                 }
             }
@@ -46,7 +29,7 @@
             "predicate": {
                 "slots": {
                     "contents":{
-                        "items": "#event_rebalance:light_level/5"
+                        "items": "#event_rebalance:light_level/9"
                     }
                 }
             }

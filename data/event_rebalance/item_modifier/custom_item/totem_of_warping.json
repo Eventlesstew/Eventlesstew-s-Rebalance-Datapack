@@ -10,7 +10,14 @@
             {
                 "type": "set_components",
                 "components": {
-                    "rarity": "uncommon"
+                    "rarity": "uncommon",
+                    "death_protection": {
+                        "death_effects": [
+                            {
+                                "type": "clear_all_effects"
+                            }
+                        ]
+                    }
                 }
             }
         ]

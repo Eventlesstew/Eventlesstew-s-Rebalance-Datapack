@@ -1,6 +1,14 @@
 {
     "values": [
         "lantern",
-        "#event_rebalance:copper/lantern"
+        "#event_rebalance:copper/lantern",
+        "beacon",
+        "#event_rebalance:froglights",
+        "glowstone",
+        "jack_o_lantern",
+        "lava_bucket",
+        "sea_lantern",
+        "shroomlight",
+        "nether_star"
     ]
 }
