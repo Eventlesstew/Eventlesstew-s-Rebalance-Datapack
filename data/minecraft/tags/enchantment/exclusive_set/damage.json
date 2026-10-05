@@ -4,11 +4,14 @@
     "event_rebalance:fowling",
     "minecraft:smite",
     "minecraft:impaling",
+    "channeling",
     "minecraft:density",
     "minecraft:breach",
+    "event_rebalance:frenzy",
     "event_rebalance:valor",
     "event_rebalance:combo",
     "event_rebalance:brutality",
-    "event_rebalance:puncture"
+    "event_rebalance:puncture",
+    "quick_charge"
   ]
 }

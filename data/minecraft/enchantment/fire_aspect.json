@@ -45,6 +45,7 @@
   "slots": [
     "mainhand"
   ],
+  "exclusive_set": "#event_rebalance:exclusive_set/effect",
   "supported_items": "#event_rebalance:enchantable/any_weapon",
   "weight": 2
 }
