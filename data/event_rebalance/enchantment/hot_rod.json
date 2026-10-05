@@ -1,7 +1,7 @@
 {
   "anvil_cost": 4,
   "description": {
-    "translate": "enchantment.event.live_catch",
+    "translate": "enchantment.event.hot_rod",
     "color": "#d0b2ff",
     "shadow_color": -477808129
   },
@@ -17,7 +17,7 @@
     "per_level_above_first": 0
   },
   "weight": 2,
-  "exclusive_set": "#event_rebalance:exclusive_set/fishing_treasure",
+  "exclusive_set": "#event_rebalance:exclusive_set/fishing",
   "slots": [
     "hand"
   ],

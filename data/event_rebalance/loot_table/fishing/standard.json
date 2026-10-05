@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "quality": -2,
+          "value": "event_rebalance:fishing/junk",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "condition": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/fishing_hook": {
+                "in_open_water": true
+              }
+            }
+          },
+          "quality": 2,
+          "value": "event_rebalance:fishing/treasure",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "quality": -1,
+          "value": "event_rebalance:fishing/fish",
+          "weight": 68
+        },
+        {
+          "type": "minecraft:loot_table",
+          "quality": -1,
+          "value": "event_rebalance:fishing/food",
+          "weight": 17
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/standard"
+}

@@ -1,0 +1,179 @@
+{
+    "type": "fishing",
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "alternatives",
+                    "children": [
+                        {
+                            "type": "item",
+                            "name": "cod",
+                            "weight": 20,
+                            "modifier": "event_rebalance:food/cooked_cod",
+                            "condition": {
+                                "type": "match_tool",
+                                "predicate": {
+                                "predicates": {
+                                    "enchantments": [
+                                    {
+                                        "enchantments": "event_rebalance:hot_rod",
+                                        "levels": {
+                                            "min": 1
+                                        }
+                                    }
+                                    ]
+                                }
+                                }
+                            }
+                        },
+                        {
+                            "type": "item",
+                            "name": "cod",
+                            "weight": 20,
+                            "modifier": "event_rebalance:food/raw_cod"
+                        }
+                    ],
+                    "condition": {
+                        "type": "location_check",
+                        "predicate": {
+                            "biomes": [
+                                "ocean",
+                                "deep_ocean",
+                                "cold_ocean",
+                                "deep_cold_ocean",
+                                "lukewarm_ocean",
+                                "deep_lukewarm_ocean",
+                                "frozen_ocean",
+                                "deep_frozen_ocean",
+                                "mushroom_fields",
+                                "beach",
+                                "snowy_beach",
+                                "stony_shore"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "alternatives",
+                    "children": [
+                        {
+                            "type": "item",
+                            "name": "cooked_salmon",
+                            "weight": 20,
+                            "modifier": "event_rebalance:food/cooked_salmon",
+                            "condition": {
+                                "type": "match_tool",
+                                "predicate": {
+                                "predicates": {
+                                    "enchantments": [
+                                    {
+                                        "enchantments": "event_rebalance:hot_rod",
+                                        "levels": {
+                                            "min": 1
+                                        }
+                                    }
+                                    ]
+                                }
+                                }
+                            }
+                        },
+                        {
+                            "type": "item",
+                            "name": "salmon",
+                            "weight": 20,
+                            "modifier": "event_rebalance:food/raw_salmon"
+                        }
+                    ],
+                    "condition": {
+                        "type": "inverted",
+                        "term": {
+                            "type": "location_check",
+                            "predicate": {
+                                "biomes": [
+                                    "ocean",
+                                    "warm_ocean",
+                                    "lukewarm_ocean",
+                                    "deep_lukewarm_ocean",
+                                    "lush_caves"
+                                ]
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "alternatives",
+                    "children": [
+                        {
+                            "type": "tag",
+                            "items":"#event_rebalance:custom_item/food/cooked_tropical_fish",
+                            "expand": false,
+                            "weight": 20,
+                            "modifier": [
+                                {
+                                    "type": "set_components",
+                                    "components": {
+                                        "item_model": "event:cooked_tropical_fish"
+                                    }
+                                },
+                                "event_rebalance:food/cooked_tropical_fish"
+                            ],
+                            "condition": {
+                                "type": "match_tool",
+                                "predicate": {
+                                "predicates": {
+                                    "enchantments": [
+                                    {
+                                        "enchantments": "event_rebalance:hot_rod",
+                                        "levels": {
+                                            "min": 1
+                                        }
+                                    }
+                                    ]
+                                }
+                                }
+                            }
+                        },
+                        {
+                            "type": "item",
+                            "name": "tropical_fish",
+                            "weight": 20,
+                            "modifier": "event_rebalance:food/raw_tropical_fish"
+                        }
+                    ],
+                    "condition": {
+                        "type": "location_check",
+                        "predicate": {
+                            "biomes": [
+                                "swamp",
+                                "mangrove_swamp",
+                                "lukewarm_ocean",
+                                "deep_lukewarm_ocean",
+                                "warm_ocean",
+                                "lush_caves"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "pufferfish",
+                    "weight": 20,
+                    "modifier": "event_rebalance:food/pufferfish",
+                    "condition": {
+                        "type": "location_check",
+                        "predicate": {
+                            "biomes": [
+                                "lukewarm_ocean",
+                                "deep_lukewarm_ocean",
+                                "warm_ocean"
+                            ]
+                        }
+                    }
+                }
+            ],
+            "rolls": 1
+        }
+    ],
+    "random_sequence": "gameplay/fishing/fish"
+}

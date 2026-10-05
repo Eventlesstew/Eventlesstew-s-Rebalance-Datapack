@@ -1,0 +1,492 @@
+{
+    "type": "fishing",
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "raw_gold",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "raw_iron",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "raw_copper",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "bone",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "bowl",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "leather",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "leather_boots",
+                    "weight": 10,
+                    "modifier": [
+                        "event_rebalance:gear/leather/boots",
+                        {
+                            "type": "set_damage",
+                            "damage": {
+                                "type": "uniform",
+                                "max": 0.9,
+                                "min": 0.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "fishing_rod",
+                    "weight": 2,
+                    "modifier": [
+                        "event_rebalance:other_tools/fishing_rod",
+                        {
+                            "type": "set_damage",
+                            "damage": {
+                                "type": "uniform",
+                                "max": 0.9,
+                                "min": 0.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "book",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "stick",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "flint",
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "name": "string",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "ink_sac",
+                    "weight": 8,
+                    "condition": {
+                        "type": "location_check",
+                        "predicate": {
+                            "biomes": [
+                                "river",
+                                "frozen_river",
+                                "ocean",
+                                "deep_ocean",
+                                "cold_ocean",
+                                "deep_cold_ocean",
+                                "warm_ocean",
+                                "frozen_ocean",
+                                "deep_frozen_ocean",
+                                "lukewarm_ocean",
+                                "deep_lukewarm_ocean"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "glow_ink_sac",
+                    "weight": 8,
+                    "condition": {
+                        "type": "location_check",
+                        "predicate": {
+                            "position": {
+                                "y": {
+                                    "max": 64,
+                                    "min": -64
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "packed_ice",
+                    "weight": 2,
+                    "condition": {
+                        "type": "location_check",
+                        "predicate": {
+                            "biomes": [
+                                "frozen_ocean",
+                                "deep_frozen_ocean",
+                                "jagged_peaks",
+                                "frozen_peaks",
+                                "grove",
+                                "snowy_slopes",
+                                "snowy_taiga",
+                                "frozen_river",
+                                "snowy_beach",
+                                "snowy_plains",
+                                "ice_spikes"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "blue_ice",
+                    "weight": 5,
+                    "condition": {
+                        "type": "location_check",
+                        "predicate": {
+                            "biomes": [
+                                "frozen_ocean",
+                                "deep_frozen_ocean",
+                                "jagged_peaks",
+                                "frozen_peaks",
+                                "grove",
+                                "snowy_slopes",
+                                "snowy_taiga",
+                                "frozen_river",
+                                "snowy_beach",
+                                "snowy_plains",
+                                "ice_spikes"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "cactus",
+                    "weight": 5,
+                    "condition": {
+                        "type": "location_check",
+                        "predicate": {
+                            "biomes": [
+                                "desert",
+                                "badlands",
+                                "eroded_badlands",
+                                "wooded_badlands"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "dead_bush",
+                    "weight": 3,
+                    "condition": {
+                        "type": "location_check",
+                        "predicate": {
+                            "biomes": [
+                                "desert",
+                                "badlands",
+                                "eroded_badlands",
+                                "wooded_badlands"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "sulfur_spike",
+                    "weight": 5,
+                    "condition": {
+                        "type": "location_check",
+                        "predicate": {
+                            "biomes": [
+                                "sulfur_caves"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "pointed_dripstone",
+                    "weight": 5,
+                    "condition": {
+                        "type": "location_check",
+                        "predicate": {
+                            "biomes": [
+                                "dripstone_caves"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "oak_sapling",
+                    "weight": 5,
+                    "condition": {
+                        "type": "location_check",
+                        "predicate": {
+                            "biomes": [
+                                "forest",
+                                "flower_forest",
+                                "wooded_badlands",
+                                "swamp"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "leaf_litter",
+                    "weight": 5,
+                    "condition": {
+                        "type": "location_check",
+                        "predicate": {
+                            "biomes": [
+                                "forest",
+                                "flower_forest",
+                                "wooded_badlands",
+                                "dappled_forest"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "birch_sapling",
+                    "weight": 5,
+                    "condition": {
+                        "type": "location_check",
+                        "predicate": {
+                            "biomes": [
+                                "birch_forest",
+                                "old_growth_birch_forest"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "wildflowers",
+                    "weight": 5,
+                    "condition": {
+                        "type": "location_check",
+                        "predicate": {
+                            "biomes": [
+                                "meadow",
+                                "birch_forest",
+                                "old_growth_birch_forest"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "spruce_sapling",
+                    "weight": 5,
+                    "condition": {
+                        "type": "location_check",
+                        "predicate": {
+                            "biomes": [
+                                "old_growth_pine_taiga",
+                                "old_growth_spruce_taiga",
+                                "taiga",
+                                "snowy_taiga",
+                                "grove",
+                                "windswept_forest"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "jungle_sapling",
+                    "weight": 5,
+                    "condition": {
+                        "type": "location_check",
+                        "predicate": {
+                            "biomes": [
+                                "jungle",
+                                "bamboo_jungle",
+                                "sparse_jungle"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "bamboo",
+                    "weight": 10,
+                    "condition": {
+                        "type": "location_check",
+                        "predicate": {
+                            "biomes": [
+                                "jungle",
+                                "bamboo_jungle",
+                                "sparse_jungle"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "acacia_sapling",
+                    "weight": 5,
+                    "condition": {
+                        "type": "location_check",
+                        "predicate": {
+                            "biomes": [
+                                "savanna",
+                                "savanna_plateau",
+                                "windswept_savanna"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "dark_oak_sapling",
+                    "weight": 5,
+                    "condition": {
+                        "type": "location_check",
+                        "predicate": {
+                            "biomes": [
+                                "dark_forest"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "poplar_sapling",
+                    "weight": 5,
+                    "condition": {
+                        "type": "location_check",
+                        "predicate": {
+                            "biomes": [
+                                "dappled_forest"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "mangrove_propagule",
+                    "weight": 5,
+                    "condition": {
+                        "type": "location_check",
+                        "predicate": {
+                            "biomes": [
+                                "mangrove_swamp"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "slime_ball",
+                    "weight": 10,
+                    "condition": {
+                        "type": "location_check",
+                        "predicate": {
+                            "biomes": [
+                                "swamp",
+                                "mangrove_swamp"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "lily_pad",
+                    "weight": 10,
+                    "condition": {
+                        "type": "location_check",
+                        "predicate": {
+                            "biomes": [
+                                "swamp",
+                                "mangrove_swamp"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "cherry_sapling",
+                    "weight": 5,
+                    "condition": {
+                        "type": "location_check",
+                        "predicate": {
+                            "biomes": [
+                                "cherry_grove"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "pale_oak_sapling",
+                    "weight": 5,
+                    "condition": {
+                        "type": "location_check",
+                        "predicate": {
+                            "biomes": [
+                                "pale_garden"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "resin_clump",
+                    "weight": 10,
+                    "condition": {
+                        "type": "location_check",
+                        "predicate": {
+                            "biomes": [
+                                "pale_garden"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "azalea",
+                    "weight": 4,
+                    "condition": {
+                        "type": "location_check",
+                        "predicate": {
+                            "biomes": [
+                                "lush_caves"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "flowering_azalea",
+                    "weight": 1,
+                    "condition": {
+                        "type": "location_check",
+                        "predicate": {
+                            "biomes": [
+                                "lush_caves"
+                            ]
+                        }
+                    }
+                }
+            ],
+            "rolls": 1
+        }
+    ],
+    "random_sequence": "gameplay/fishing/junk"
+}

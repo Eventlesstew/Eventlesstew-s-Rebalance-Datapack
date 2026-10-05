@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "entries":[
+        {
+          "type": "alternatives",
+          "children": [
+            {
+              "condition": {
+                "type": "match_tool",
+                "predicate": {
+                  "predicates": {
+                    "enchantments": [
+                      {
+                        "enchantments": "event_rebalance:bookworm_bait",
+                        "levels": {
+                            "min": 1
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "type": "loot_table",
+              "value": "event_rebalance:fishing/bookworm_bait"
+            },
+            {
+              "type": "loot_table",
+              "value": "event_rebalance:fishing/standard"
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/base"
+}

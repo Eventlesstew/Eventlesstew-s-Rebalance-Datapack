@@ -1,34 +1,85 @@
 {
   "type": "minecraft:fishing",
+  "modifier": [
+    {
+      "type": "set_count",
+      "count": {
+        "type": "uniform",
+        "min": 1,
+        "max": {
+          "type": "add",
+          "inputs": [
+            {
+              "type": "conditional",
+              "condition": {
+                "type": "match_tool",
+                "predicate": {
+                  "predicates": {
+                    "enchantments": [
+                      {
+                        "enchantments": "fortune",
+                        "levels": {
+                          "min": 1
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "on_true": 1,
+              "on_false": 0
+            },
+            {
+              "type": "conditional",
+              "condition": {
+                "type": "match_tool",
+                "predicate": {
+                  "predicates": {
+                    "enchantments": [
+                      {
+                        "enchantments": "fortune",
+                        "levels": {
+                          "min": 2
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "on_true": 1,
+              "on_false": 0
+            },
+            {
+              "type": "conditional",
+              "condition": {
+                "type": "match_tool",
+                "predicate": {
+                  "predicates": {
+                    "enchantments": [
+                      {
+                        "enchantments": "fortune",
+                        "levels": {
+                          "min": 3
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "on_true": 1,
+              "on_false": 0
+            }
+          ]
+        }
+      }
+    }
+  ],
   "pools": [
     {
-      "entries": [
+      "entries":[
         {
-          "type": "minecraft:loot_table",
-          "quality": -2,
-          "value": "minecraft:gameplay/fishing/junk",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:loot_table",
-          "condition": {
-            "type": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:type_specific/fishing_hook": {
-                "in_open_water": true
-              }
-            }
-          },
-          "quality": 2,
-          "value": "minecraft:gameplay/fishing/treasure",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:loot_table",
-          "quality": -1,
-          "value": "minecraft:gameplay/fishing/fish",
-          "weight": 85
+          "type": "loot_table",
+          "value": "event_rebalance:fishing/base"
         }
       ],
       "rolls": 1

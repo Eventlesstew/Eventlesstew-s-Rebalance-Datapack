@@ -1,7 +1,7 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "pumpkin_pie",
+        "items": "#event_rebalance:custom_item/food/cooked_tropical_fish",
         "components": {
             "item_model": "event:cooked_tropical_fish"
         }

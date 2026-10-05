@@ -1,0 +1,165 @@
+{
+    "type": "fishing",
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "rotten_flesh",
+                    "weight": 1,
+                    "modifier": "event_rebalance:food/rotten_flesh"
+                },
+                {
+                    "type": "item",
+                    "name": "potion",
+                    "weight": 1,
+                    "modifier": [
+                        {
+                            "type": "set_potion",
+                            "id": "water"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "glow_berries",
+                    "weight": 10,
+                    "modifier": "event_rebalance:food/glow_berries",
+                    "condition": {
+                        "type": "location_check",
+                        "predicate": {
+                            "biomes": [
+                                "lush_caves"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "red_mushroom",
+                    "weight": 2,
+                    "modifier": "event_rebalance:food/red_mushroom",
+                    "condition": {
+                        "type": "location_check",
+                        "predicate": {
+                            "biomes": [
+                                "taiga",
+                                "snowy_taiga",
+                                "old_growth_pine_taiga",
+                                "old_growth_spruce_taiga",
+                                "dark_forest",
+                                "pale_garden",
+                                "mushroom_fields"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "brown_mushroom",
+                    "weight": 2,
+                    "modifier": "event_rebalance:food/brown_mushroom",
+                    "condition": {
+                        "type": "location_check",
+                        "predicate": {
+                            "biomes": [
+                                "taiga",
+                                "snowy_taiga",
+                                "old_growth_pine_taiga",
+                                "old_growth_spruce_taiga",
+                                "dark_forest",
+                                "pale_garden",
+                                "mushroom_fields"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "shelf_mushroom",
+                    "weight": 5,
+                    "modifier": "event_rebalance:food/shelf_mushroom",
+                    "condition": {
+                        "type": "location_check",
+                        "predicate": {
+                            "biomes": [
+                                "dappled_forest"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "sweet_berries",
+                    "weight": 5,
+                    "modifier": "event_rebalance:food/sweet_berries",
+                    "condition": {
+                        "type": "location_check",
+                        "predicate": {
+                            "biomes": [
+                                "taiga",
+                                "snowy_taiga",
+                                "old_growth_pine_taiga",
+                                "old_growth_spruce_taiga"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "potato",
+                    "weight": 5,
+                    "modifier": "event_rebalance:food/potato"
+                },
+                {
+                    "type": "item",
+                    "name": "carrot",
+                    "weight": 5,
+                    "modifier": "event_rebalance:food/carrot"
+                },
+                {
+                    "type": "item",
+                    "name": "beetroot",
+                    "weight": 3,
+                    "modifier": "event_rebalance:food/beetroot"
+                },
+                {
+                    "type": "item",
+                    "name": "apple",
+                    "weight": 5,
+                    "modifier": "event_rebalance:food/apple",
+                    "condition": {
+                        "type": "location_check",
+                        "predicate": {
+                            "biomes": [
+                                "forest",
+                                "flower_forest",
+                                "wooded_badlands",
+                                "swamp",
+                                "dark_forest",
+                                "pale_garden"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "cocoa_beans",
+                    "weight": 5,
+                    "condition": {
+                        "type": "location_check",
+                        "predicate": {
+                            "biomes": [
+                                "jungle",
+                                "bamboo_jungle",
+                                "sparse_jungle"
+                            ]
+                        }
+                    }
+                }
+            ],
+            "rolls": 1
+        }
+    ],
+    "random_sequence": "gameplay/fishing/food"
+}

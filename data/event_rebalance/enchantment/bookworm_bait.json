@@ -20,6 +20,6 @@
   "slots": [
     "hand"
   ],
-  "exclusive_set": "#event_rebalance:exclusive_set/fishing_treasure",
+  "exclusive_set": "#event_rebalance:exclusive_set/fishing",
   "supported_items": "#minecraft:enchantable/fishing"
 }

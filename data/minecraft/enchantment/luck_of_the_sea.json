@@ -1,19 +1,17 @@
 {
   "anvil_cost": 4,
   "description": {
-    "translate": "enchantment.minecraft.lure",
-    "color": "#fff281",
-    "shadow_color": -2403049
+    "translate": "enchantment.minecraft.luck_of_the_sea"
   },
   "effects": {
-    "minecraft:fishing_time_reduction": [
+    "minecraft:fishing_luck_bonus": [
       {
         "effect": {
           "type": "minecraft:add",
           "value": {
             "type": "minecraft:linear",
-            "base": 5.0,
-            "per_level_above_first": 5.0
+            "base": 1.0,
+            "per_level_above_first": 1.0
           }
         }
       }
@@ -31,7 +29,7 @@
   "slots": [
     "mainhand"
   ],
-  "exclusive_set": "#event_rebalance:exclusive_set/loot",
-  "supported_items": "#minecraft:enchantable/fishing",
+  "exclusive_set": "#event_rebalance:exclusive_set/fishing",
+  "supported_items": "#enchantable/fishing",
   "weight": 2
 }

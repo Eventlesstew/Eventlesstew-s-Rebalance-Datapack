@@ -1,6 +1,7 @@
 {
     "values": [
         "#enchantable/mining",
-        "#event_rebalance:enchantable/any_weapon"
+        "#event_rebalance:enchantable/any_weapon",
+        "fishing_rod"
     ]
 }

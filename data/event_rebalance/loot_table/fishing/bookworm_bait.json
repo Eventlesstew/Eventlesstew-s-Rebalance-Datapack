@@ -3,9 +3,53 @@
     "pools": [
         {
             "entries": [
-                
+                {
+                    "type": "item",
+                    "name": "book",
+                    "weight": 70
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:book",
+                    "weight": 25,
+                    "modifier": {
+                        "type": "minecraft:enchant_with_levels",
+                        "levels": 30,
+                        "options": "#minecraft:on_random_loot"
+                    },
+                    "condition": {
+                        "type": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "minecraft:type_specific/fishing_hook": {
+                                "in_open_water": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "book",
+                    "weight": 5,
+                    "modifier": {
+                        "type": "set_enchantments",
+                        "enchantments": {
+                            "event_rebalance:hot_rod": 1
+                        }
+                    },
+                    "condition": {
+                        "type": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "minecraft:type_specific/fishing_hook": {
+                                "in_open_water": true
+                            }
+                        }
+                    }
+                }
             ],
             "rolls": 1
         }
-    ]
+    ],
+    "random_sequence": "gameplay/fishing/bookworm_bait"
 }

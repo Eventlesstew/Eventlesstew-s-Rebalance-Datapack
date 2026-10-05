@@ -1,0 +1,152 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "weight": 5,
+          "modifier": [
+            "event_rebalance:other_weapons/bow",
+            {
+              "type": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.25,
+                "min": 0.0
+              }
+            },
+            {
+              "type": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "uniform",
+                "max": 30,
+                "min": 22
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "weight": 5,
+          "modifier": [
+            "event_rebalance:other_tools/fishing_rod",
+            {
+              "type": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.25,
+                "min": 0.0
+              }
+            },
+            {
+              "type": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "uniform",
+                "max": 30,
+                "min": 22
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 5,
+          "modifier": {
+            "type": "minecraft:enchant_with_levels",
+            "levels": 30,
+            "options": "#minecraft:on_random_loot"
+          }
+        },
+        {
+            "type": "item",
+            "name": "book",
+            "weight": 1,
+            "modifier": {
+                "type": "set_enchantments",
+                "enchantments": {
+                    "event_rebalance:hot_rod": 1
+                }
+            }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:name_tag",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nautilus_shell",
+          "condition": {
+            "type": "location_check",
+            "predicate": {
+                "biomes": [
+                    "cold_ocean",
+                    "deep_cold_ocean",
+                    "lukewarm_ocean",
+                    "deep_lukewarm_ocean",
+                    "ocean",
+                    "deep_ocean",
+                    "frozen_ocean",
+                    "deep_frozen_ocean",
+                    "warm_ocean"
+                ]
+            }
+          },
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:saddle",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:buried_treasure_map",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 1,
+          "condition": {
+            "type": "location_check",
+            "predicate": {
+                "biomes": [
+                    "forest",
+                    "flower_forest",
+                    "wooded_badlands",
+                    "swamp",
+                    "dark_forest",
+                    "pale_garden"
+                ]
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_carrot",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_13",
+          "weight": 1,
+          "modifier": "event_rebalance:music_disc/far"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/treasure"
+}
