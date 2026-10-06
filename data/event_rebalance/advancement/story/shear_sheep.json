@@ -16,7 +16,7 @@
       "trigger": "minecraft:player_interacted_with_entity"
     }
   },
-  "parent": "event_rebalance:story/smelt_copper",
+  "parent": "story/smelt_iron",
   "display": {
     "title": {
       "translate": "advancements.story.shear_sheep.title"

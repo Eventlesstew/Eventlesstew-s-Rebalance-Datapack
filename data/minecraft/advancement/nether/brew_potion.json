@@ -1,5 +1,5 @@
 {
-  "parent": "event_rebalance:food/eat_food",
+  "parent": "event_rebalance:husbandry/eat_food_with_positive_effect",
   "criteria": {
     "potion": {
       "trigger": "minecraft:brewed_potion"

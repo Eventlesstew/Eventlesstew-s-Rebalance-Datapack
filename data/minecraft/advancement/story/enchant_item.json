@@ -1,5 +1,5 @@
 {
-  "parent": "event_rebalance:story/anvil",
+  "parent": "story/iron_tools",
   "criteria": {
     "enchanted_item": {
       "trigger": "minecraft:enchanted_item"

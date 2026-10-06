@@ -1,5 +1,5 @@
 {
-  "parent": "event_rebalance:food/obtain_nether_wart",
+  "parent": "event_rebalance:husbandry/awkward_potion",
   "criteria": {
     "all_effects": {
       "conditions": {

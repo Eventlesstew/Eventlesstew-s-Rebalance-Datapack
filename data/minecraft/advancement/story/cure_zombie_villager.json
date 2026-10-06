@@ -1,5 +1,5 @@
 {
-  "parent": "event_rebalance:food/eat_golden_apple",
+  "parent": "event_rebalance:husbandry/eat_golden_apple",
   "criteria": {
     "cured_zombie": {
       "trigger": "minecraft:cured_zombie_villager"

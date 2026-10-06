@@ -1,5 +1,5 @@
 {
-  "parent": "event_rebalance:construction/summon_copper_golem",
+  "parent": "event_rebalance:construction/summon_snow_golem",
   "criteria": {
     "summoned_golem": {
       "conditions": {
@@ -7,7 +7,7 @@
           "type": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "minecraft:entity_type": "minecraft:iron_golem"
+            "minecraft:entity_type": "copper_golem"
           }
         }
       },
@@ -16,14 +16,13 @@
   },
   "display": {
     "description": {
-      "translate": "advancements.adventure.summon_iron_golem.description"
+      "translate": "advancements.construction.summon_copper_golem.description"
     },
-    "frame": "goal",
     "icon": {
-      "id": "minecraft:iron_block"
+      "id": "minecraft:copper_block"
     },
     "title": {
-      "translate": "advancements.adventure.summon_iron_golem.title"
+      "translate": "advancements.construction.summon_copper_golem.title"
     }
   },
   "requirements": [

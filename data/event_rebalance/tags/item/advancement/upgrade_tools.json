@@ -1,9 +1,20 @@
 {
     "values": [
+        "iron_pickaxe",
+        "iron_axe",
+        "iron_shovel",
+        "iron_hoe",
+        "#event_rebalance:custom_item/gear/iron/hammer",
+        "iron_sword",
+        "#event_rebalance:custom_item/gear/iron/dagger",
+        "iron_spear",
         "copper_pickaxe",
         "copper_axe",
         "copper_shovel",
         "copper_hoe",
-        "#event_rebalance:custom_item/gear/copper/hammer"
+        "#event_rebalance:custom_item/gear/copper/hammer",
+        "copper_sword",
+        "#event_rebalance:custom_item/gear/copper/dagger",
+        "copper_spear"
     ]
 }

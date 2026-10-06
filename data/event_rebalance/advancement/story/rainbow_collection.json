@@ -161,7 +161,7 @@
       "trigger": "minecraft:inventory_changed"
     }
   },
-  "parent": "event_rebalance:story/shear_sheep",
+  "parent": "adventure/sleep_in_bed",
   "display": {
     "frame": "goal",
     "title": {

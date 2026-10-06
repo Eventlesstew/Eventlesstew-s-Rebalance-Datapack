@@ -1,10 +1,10 @@
 {
-  "parent": "event_rebalance:food/eat_golden_apple",
+  "parent": "event_rebalance:husbandry/eat_food_with_positive_effect",
   "criteria": {
     "golden_apple": {
       "conditions": {
         "item": {
-          "items": "minecraft:enchanted_golden_apple"
+          "items": "minecraft:golden_apple"
         }
       },
       "trigger": "minecraft:consume_item"
@@ -12,14 +12,13 @@
   },
   "display": {
     "description": {
-      "translate": "advancements.food.eat_enchanted_golden_apple.description"
+      "translate": "advancements.food.eat_golden_apple.description"
     },
     "icon": {
-      "id": "minecraft:enchanted_golden_apple"
+      "id": "minecraft:golden_apple"
     },
-    "frame": "challenge",
     "title": {
-      "translate": "advancements.food.eat_enchanted_golden_apple.title"
+      "translate": "advancements.food.eat_golden_apple.title"
     }
   },
   "requirements": [

@@ -1,5 +1,5 @@
 {
-  "parent": "event_rebalance:food/root",
+  "parent": "husbandry/root",
   "criteria": {
     "golden_apple": {
       "conditions": {

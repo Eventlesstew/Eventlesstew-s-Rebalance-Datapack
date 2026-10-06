@@ -1,0 +1,20 @@
+{
+  "pack": {
+    "pack_format": 88,
+    "min_format":88,
+    "max_format": 90,
+    "description": "A bunch of random things"
+  },
+  "language": {
+    "en_event": {
+      "name": "English (Event)",
+      "region": "down under",
+      "bidirectional": false
+    },
+    "en_funny_death": {
+      "name": "English",
+      "region": "Now with funny death messages",
+      "bidirectional": false
+    }
+  }
+}
