@@ -12,14 +12,33 @@
                 "type": "minecraft:set_components",
                 "components": {
                     "food": {
-                        "nutrition": 12,
-                        "saturation": 5
+                        "nutrition": 16,
+                        "saturation": 6
                     },
                     "consumable": {
                         "consume_seconds": 2,
                         "sound": {
                             "sound_id": "entity.generic.drink"
-                        }
+                        },
+                        "on_consume_effects": [
+                            {
+                                "type": "minecraft:apply_effects",
+                                "probability": 0.1,
+                                "effects": [
+                                    {
+                                    "id": "minecraft:poison",
+                                    "amplifier": 0,
+                                    "duration": 200
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "play_sound",
+                                "sound": {
+                                    "sound_id": "item.bad_food.consume"
+                                }
+                            }
+                        ]
                     }
                 }
             },
@@ -50,7 +69,18 @@
                     }
                 ]
             },
-            "event_rebalance:food/stats/slowing/more"
+            "event_rebalance:food/stats/slowing/stop",
+            {
+                "type": "set_lore",
+                "mode": "append",
+                "lore": [
+                    {
+                        "translate": "attribute.name.consumable.food.effect.mushroom_stew",
+                        "color": "#ff5555",
+                        "italic": false
+                    }
+                ]
+            }
         ]
     }
 }

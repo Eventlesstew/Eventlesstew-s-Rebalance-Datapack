@@ -1,5 +1,5 @@
 {
-  "parent": "husbandry/root",
+  "parent": "event_rebalance:husbandry/eat_food_with_negative_effect",
   "criteria": {
     "golden_apple": {
       "conditions": {

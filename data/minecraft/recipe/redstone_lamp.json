@@ -2,13 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "G": "minecraft:lantern",
-    "R": "minecraft:redstone"
+    "T": "minecraft:torch",
+    "R": "minecraft:redstone",
+    "G": "glass"
   },
   "pattern": [
-    " R ",
-    "RGR",
-    " R "
+    "GGG",
+    "GTG",
+    "GRG"
   ],
   "result": {
     "id": "minecraft:redstone_lamp"

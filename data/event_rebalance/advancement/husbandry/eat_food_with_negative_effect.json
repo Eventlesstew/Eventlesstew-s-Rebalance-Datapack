@@ -5,20 +5,20 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": "#event_rebalance:advancement/positive_effects"
+          "items": "#event_rebalance:advancement/negative_effects"
         }
       }
     }
   },
   "display": {
     "description": {
-      "translate": "advancements.husbandry.eat_food_with_positive_effect.description"
+      "translate": "advancements.husbandry.eat_food_with_negative_effect.description"
     },
     "icon": {
-      "id": "minecraft:pumpkin_pie"
+      "id": "minecraft:poisonous_potato"
     },
     "title": {
-      "translate": "advancements.husbandry.eat_food_with_positive_effect.title"
+      "translate": "advancements.husbandry.eat_food_with_negative_effect.title"
     },
     "announce_to_chat": false,
     "show_toast": false

@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_efficiency",
+    "ingredients": [
+        "book",
+        "cobblestone",
+        "lapis_lazuli",
+        "lapis_lazuli",
+        "lapis_lazuli"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "enchantments": {
+                "efficiency": 3
+            }
+        }
+    }
+}

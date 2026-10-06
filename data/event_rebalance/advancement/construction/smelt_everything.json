@@ -1,0 +1,493 @@
+{
+  "parent": "event_rebalance:construction/root",
+  "criteria": {
+    "place_hopper": {
+      "conditions": {
+        "location": {
+          "type": "minecraft:any_of",
+          "terms": [
+            {
+              "type": "minecraft:all_of",
+              "terms": [
+                {
+                  "type": "minecraft:location_check",
+                  "offsetY": -1,
+                  "offsetZ": 1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "hopper"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetZ": 1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "#event_rebalance:advancement/furnace"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetY": 1,
+                  "offsetZ": 1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "hopper",
+                      "state": {
+                        "facing": "down"
+                      }
+                    }
+                  }
+                },
+                {
+                    "type": "location_check",
+                    "predicate": {
+                        "block": {
+                            "blocks": "hopper",
+                            "state": {
+                                "facing": "south"
+                            }
+                        }
+                    }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:all_of",
+              "terms": [
+                {
+                  "type": "minecraft:location_check",
+                  "offsetY": -1,
+                  "offsetZ": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "hopper"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetZ": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "#event_rebalance:advancement/furnace"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetY": 1,
+                  "offsetZ": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "hopper",
+                      "state": {
+                        "facing": "down"
+                      }
+                    }
+                  }
+                },
+                {
+                    "type": "location_check",
+                    "predicate": {
+                        "block": {
+                            "blocks": "hopper",
+                            "state": {
+                                "facing": "north"
+                            }
+                        }
+                    }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:all_of",
+              "terms": [
+                {
+                  "type": "minecraft:location_check",
+                  "offsetY": -1,
+                  "offsetX": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "hopper"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetX": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "#event_rebalance:advancement/furnace"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetY": 1,
+                  "offsetX": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "hopper",
+                      "state": {
+                        "facing": "down"
+                      }
+                    }
+                  }
+                },
+                {
+                    "type": "location_check",
+                    "predicate": {
+                        "block": {
+                            "blocks": "hopper",
+                            "state": {
+                                "facing": "west"
+                            }
+                        }
+                    }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:all_of",
+              "terms": [
+                {
+                  "type": "minecraft:location_check",
+                  "offsetY": -1,
+                  "offsetX": 1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "hopper"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetX": 1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "#event_rebalance:advancement/furnace"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetY": 1,
+                  "offsetX": 1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "hopper",
+                      "state": {
+                        "facing": "down"
+                      }
+                    }
+                  }
+                },
+                {
+                    "type": "location_check",
+                    "predicate": {
+                        "block": {
+                            "blocks": "hopper",
+                            "state": {
+                                "facing": "east"
+                            }
+                        }
+                    }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:all_of",
+              "terms": [
+                {
+                  "type": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "blocks": "hopper",
+                      "state": {
+                        "facing": "down"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetY": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "#event_rebalance:advancement/furnace"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetY": -2,
+                  "predicate": {
+                    "block": {
+                      "blocks": "hopper"
+                    }
+                  }
+                },
+                {
+                    "type": "any_of",
+                    "terms": [
+                        {
+                            "type": "location_check",
+                            "offsetY": -1,
+                            "offsetX": -1,
+                            "predicate": {
+                                "block": {
+                                    "blocks": "hopper",
+                                    "state": {
+                                        "facing": "east"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "location_check",
+                            "offsetY": -1,
+                            "offsetX": 1,
+                            "predicate": {
+                                "block": {
+                                    "blocks": "hopper",
+                                    "state": {
+                                        "facing": "west"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "location_check",
+                            "offsetY": -1,
+                            "offsetZ": 1,
+                            "predicate": {
+                                "block": {
+                                    "blocks": "hopper",
+                                    "state": {
+                                        "facing": "north"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "location_check",
+                            "offsetY": -1,
+                            "offsetZ": -1,
+                            "predicate": {
+                                "block": {
+                                    "blocks": "hopper",
+                                    "state": {
+                                        "facing": "south"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+              ]
+            },
+            {
+              "type": "minecraft:all_of",
+              "terms": [
+                {
+                  "type": "minecraft:location_check",
+                  "offsetY": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "hopper"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "blocks": "#event_rebalance:advancement/furnace"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetY": 1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "hopper",
+                      "state": {
+                        "facing": "down"
+                      }
+                    }
+                  }
+                },
+                {
+                    "type": "any_of",
+                    "terms": [
+                        {
+                            "type": "location_check",
+                            "offsetX": -1,
+                            "predicate": {
+                                "block": {
+                                    "blocks": "hopper",
+                                    "state": {
+                                        "facing": "east"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "location_check",
+                            "offsetX": 1,
+                            "predicate": {
+                                "block": {
+                                    "blocks": "hopper",
+                                    "state": {
+                                        "facing": "west"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "location_check",
+                            "offsetZ": 1,
+                            "predicate": {
+                                "block": {
+                                    "blocks": "hopper",
+                                    "state": {
+                                        "facing": "north"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "location_check",
+                            "offsetZ": -1,
+                            "predicate": {
+                                "block": {
+                                    "blocks": "hopper",
+                                    "state": {
+                                        "facing": "south"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+              ]
+            },
+            {
+              "type": "minecraft:all_of",
+              "terms": [
+                {
+                  "type": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "blocks": "hopper"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetY": 1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "#event_rebalance:advancement/furnace"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetY": 2,
+                  "predicate": {
+                    "block": {
+                      "blocks": "hopper",
+                      "state": {
+                        "facing": "down"
+                      }
+                    }
+                  }
+                },
+                {
+                    "type": "any_of",
+                    "terms": [
+                        {
+                            "type": "location_check",
+                            "offsetY": 1,
+                            "offsetX": -1,
+                            "predicate": {
+                                "block": {
+                                    "blocks": "hopper",
+                                    "state": {
+                                        "facing": "east"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "location_check",
+                            "offsetY": 1,
+                            "offsetX": 1,
+                            "predicate": {
+                                "block": {
+                                    "blocks": "hopper",
+                                    "state": {
+                                        "facing": "west"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "location_check",
+                            "offsetY": 1,
+                            "offsetZ": 1,
+                            "predicate": {
+                                "block": {
+                                    "blocks": "hopper",
+                                    "state": {
+                                        "facing": "north"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "location_check",
+                            "offsetY": 1,
+                            "offsetZ": -1,
+                            "predicate": {
+                                "block": {
+                                    "blocks": "hopper",
+                                    "state": {
+                                        "facing": "south"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.construction.smelt_everything.description"
+    },
+    "icon": {
+      "id": "minecraft:hopper"
+    },
+    "title": {
+      "translate": "advancements.construction.smelt_everything.title"
+    }
+  },
+  "requirements": [
+    [
+      "place_hopper"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,24 @@
+{
+    "values": [
+        "poisonous_potato",
+        "porkchop",
+        "beef",
+        "chicken",
+        "rabbit",
+        "mutton",
+        "cod",
+        "salmon",
+        "tropical_fish",
+        "pufferfish",
+        "rotten_flesh",
+        "spider_eye",
+        "red_mushroom",
+        "brown_mushroom",
+        "shelf_mushroom",
+        "crimson_fungus",
+        "warped_fungus",
+        "nether_wart",
+        "mushroom_stew",
+        "#event_rebalance:custom_item/food/cooked_tropical_fish"
+    ]
+}

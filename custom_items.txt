@@ -78,8 +78,8 @@ Zoglin Spawn Egg: Hoglin Hide
 Music Disc Bounce: Totem of Warping
 
 Charcoal: Chocolate
-Pumpkin Pie: Apple Pie
-Pumpkin Pie: Cooked Tropical Fish
+Music Disc Creator: Apple Pie
+Music Disc Creator (Music Box): Cooked Tropical Fish
 
 FREE ITEMS:
 Music Disc Creator

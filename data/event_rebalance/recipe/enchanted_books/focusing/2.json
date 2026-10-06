@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_focusing",
+    "ingredients": [
+        "book",
+        "stick",
+        "lapis_lazuli",
+        "lapis_lazuli"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "enchantments": {
+                "event_rebalance:focusing": 2
+            }
+        }
+    }
+}

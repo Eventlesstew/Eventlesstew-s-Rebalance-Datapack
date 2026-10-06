@@ -10,9 +10,11 @@
         "type": "sequence",
         "functions": [
             "event_rebalance:modified",
+            "event_rebalance:custom_item/music_disc",
             {
                 "type": "minecraft:set_components",
                 "components": {
+                    "rarity":"common",
                     "food": {
                         "nutrition": 8,
                         "saturation": 8
