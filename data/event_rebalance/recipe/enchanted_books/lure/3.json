@@ -1,17 +1,18 @@
 {
     "type": "crafting_shapeless",
-    "group": "enchanting_book_efficiency",
+    "group": "enchanting_book_lure",
     "ingredients": [
         "book",
         "lapis_lazuli",
-        "cobblestone",
-        "cobblestone"
+        "#event_rebalance:cod",
+        "#event_rebalance:cod",
+        "#event_rebalance:cod"
     ],
     "result": {
         "id": "enchanted_book",
         "components": {
             "stored_enchantments": {
-                "efficiency": 2
+                "lure": 3
             }
         }
     }

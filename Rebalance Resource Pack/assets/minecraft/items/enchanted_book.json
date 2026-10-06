@@ -1033,6 +1033,60 @@
             },
             {
                 "when": {
+                    "event_rebalance:felling": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/felling"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:felling": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/felling"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:felling": 3
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/felling"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:felling": 4
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/felling"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:felling": 5
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/felling"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
                     "fire_aspect": 1
                 },
                 "model": {
@@ -1312,6 +1366,24 @@
             },
             {
                 "when": {
+                    "event_rebalance:hot_rod": 1
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/hot_rod"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
                     "impaling": 1
                 },
                 "model": {
@@ -1446,24 +1518,6 @@
                         {
                             "type": "model",
                             "model": "event:item/enchanted_book/launching"
-                        },
-                        {
-                            "type": "model",
-                            "model": "event:item/book_mark"
-                        }
-                    ]
-                }
-            },
-            {
-                "when": {
-                    "event_rebalance:live_catch": 1
-                },
-                "model": {
-                    "type": "composite",
-                    "models": [
-                        {
-                            "type": "model",
-                            "model": "event:item/enchanted_book/live_catch"
                         },
                         {
                             "type": "model",

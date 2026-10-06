@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "S":"#event_rebalance:custom_item/scroll/fortune",
+        "L":"lapis_lazuli"
+    },
+    "pattern": [
+        " L ",
+        "LSL",
+        " L "
+    ],
+    "result": {
+        "id": "wandering_trader_spawn_egg",
+        "count": 2
+    }
+}

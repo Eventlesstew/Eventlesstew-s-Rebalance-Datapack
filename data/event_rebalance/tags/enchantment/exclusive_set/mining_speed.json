@@ -1,6 +1,7 @@
 {
     "values": [
         "minecraft:efficiency",
-        "event_rebalance:focusing"
+        "event_rebalance:focusing",
+        "event_rebalance:felling"
     ]
 }

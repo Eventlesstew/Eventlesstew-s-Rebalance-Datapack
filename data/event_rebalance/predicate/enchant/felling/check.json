@@ -1,0 +1,17 @@
+{
+  "type": "entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "predicates": {
+          "enchantments": [
+            {
+              "enchantments": "event_rebalance:felling"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

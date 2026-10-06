@@ -1,17 +1,18 @@
 {
     "type": "crafting_shapeless",
-    "group": "enchanting_book_efficiency",
+    "group": "enchanting_book_fortune",
     "ingredients": [
         "book",
         "lapis_lazuli",
-        "cobblestone",
-        "cobblestone"
+        "#event_rebalance:custom_item/scroll/fortune",
+        "#event_rebalance:custom_item/scroll/fortune",
+        "#event_rebalance:custom_item/scroll/fortune"
     ],
     "result": {
         "id": "enchanted_book",
         "components": {
             "stored_enchantments": {
-                "efficiency": 2
+                "fortune": 3
             }
         }
     }

@@ -77,6 +77,8 @@ Zombified Piglin Spawn Egg: Raw Hoglin Hide
 Zoglin Spawn Egg: Hoglin Hide
 Music Disc Bounce: Totem of Warping
 
+Wandering Trader Spawn Egg: Scroll of Fortune
+
 Charcoal: Chocolate
 Music Disc Creator: Apple Pie
 Music Disc Creator (Music Box): Cooked Tropical Fish

@@ -3,17 +3,17 @@
     "group": "enchanting_book_focusing",
     "ingredients": [
         "book",
+        "lapis_lazuli",
         "stick",
-        "lapis_lazuli",
-        "lapis_lazuli",
-        "lapis_lazuli",
-        "lapis_lazuli",
-        "lapis_lazuli"
+        "stick",
+        "stick",
+        "stick",
+        "stick"
     ],
     "result": {
         "id": "enchanted_book",
         "components": {
-            "enchantments": {
+            "stored_enchantments": {
                 "event_rebalance:focusing": 5
             }
         }

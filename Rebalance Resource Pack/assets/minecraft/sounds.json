@@ -567,6 +567,18 @@
         ],
         "subtitle": "subtitles.enchant.focusing.deactivate"
     },
+    "enchant.felling.activate":{
+        "sounds":[
+            "block/trial_spawner/close_shutter"
+        ],
+        "subtitle": "subtitles.enchant.felling.activate"
+    },
+    "enchant.felling.deactivate":{
+        "sounds":[
+            "block/trial_spawner/close_shutter"
+        ],
+        "subtitle": "subtitles.enchant.felling.deactivate"
+    },
 
     "enchant.harpoon":{
         "sounds":[

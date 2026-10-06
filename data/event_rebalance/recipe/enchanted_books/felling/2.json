@@ -1,17 +1,17 @@
 {
     "type": "crafting_shapeless",
-    "group": "enchanting_book_efficiency",
+    "group": "enchanting_book_felling",
     "ingredients": [
         "book",
         "lapis_lazuli",
-        "cobblestone",
-        "cobblestone"
+        "#logs",
+        "#logs"
     ],
     "result": {
         "id": "enchanted_book",
         "components": {
             "stored_enchantments": {
-                "efficiency": 2
+                "event_rebalance:felling": 2
             }
         }
     }

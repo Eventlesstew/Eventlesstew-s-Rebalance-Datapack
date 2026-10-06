@@ -234,6 +234,7 @@
             
             "event_rebalance:trims/chainmail_upgrade",
             "event_rebalance:trims/rose_golden_upgrade",
+            "event_rebalance:custom_item/scroll",
 
             "event_rebalance:make_stackable",
             "event_rebalance:music_disc/11_fragment",

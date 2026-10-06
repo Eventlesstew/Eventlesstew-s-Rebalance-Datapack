@@ -1,0 +1,33 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "enchantment.event.felling",
+    "color": "#abf2ff",
+    "shadow_color": 1883020435
+  },
+  "effects": {
+    "tick": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "event_rebalance:enchantments/felling/check"
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#event_rebalance:exclusive_set/mining_speed",
+  "max_level": 5,
+  "max_cost": {
+    "base": 8,
+    "per_level_above_first": 8
+  },
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 8
+  },
+  "weight": 8,
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/mining"
+}

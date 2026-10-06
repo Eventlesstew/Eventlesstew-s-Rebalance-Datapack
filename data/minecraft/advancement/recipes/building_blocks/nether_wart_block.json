@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_nether_wart": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "minecraft:nether_wart_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_nether_wart"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:nether_wart_block"
+    ]
+  }
+}

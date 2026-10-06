@@ -109,9 +109,10 @@
     "item.minecraft.iron_golem_spawn_egg": "Chainmail Upgrade",
     "item.minecraft.zombified_piglin_spawn_egg": "Raw Hoglin Hide",
     "item.minecraft.zoglin_spawn_egg": "Hoglin Hide",
-
     "item.minecraft.music_disc_relic": "Staff",
     "item.minecraft.music_disc_bounce": "Totem of Warping",
+    
+    "item.minecraft.wandering_trader_spawn_egg": "Scroll of Fortune",
 
     "item.event.music_disc_13": "Music Disc",
     "item.event.music_disc_cat": "Music Disc",
@@ -187,6 +188,7 @@
     "enchantment.event.live_catch": "Live Catch",
     "enchantment.event.hot_rod": "Hot Rod",
     "enchantment.event.focusing": "Focusing",
+    "enchantment.event.felling": "Felling",
     "enchantment.event.prospector": "Prospector",
     "enchantment.event.melting": "Melting",
     "enchantment.event.valor": "Valor",
@@ -505,6 +507,10 @@
     "advancements.construction.use_sawmill.description": "Interact with a Sawmill",
     "advancements.construction.rainbow_collection.title": "Rainbow Collection",
     "advancements.construction.rainbow_collection.description": "Obtain all 16 Dye colours",
+    "advancements.construction.summon_snow_golem.title": "Build a Snowman",
+    "advancements.construction.summon_snow_golem.description": "Summon a Snow Golem using Snow blocks and a Pumpkin",
+    "advancements.construction.summon_copper_golem.title": "Copper Age",
+    "advancements.construction.summon_copper_golem.description": "Summon a Copper Golem to help organise your chests",
     "advancements.construction.smelt_everything.title": "Smelt Everything!",
     "advancements.construction.smelt_everything.description": "Place a Hopper on top of, to the side of and below a Furnace",
 
@@ -538,6 +544,8 @@
     "subtitles.enchant.puncture": "Puncturing Attack",
     "subtitles.enchant.focusing.activate": "Focusing Activates",
     "subtitles.enchant.focusing.deactivate": "Focusing Deactivates",
+    "subtitles.enchant.felling.activate": "Felling Activates",
+    "subtitles.enchant.felling.deactivate": "Felling Deactivates",
     "subtitles.enchant.harpoon": "Mob Harpooned",
     "subtitles.enchant.acceleration.stop.soft": "Acceleration Stops Softly",
     "subtitles.enchant.acceleration.stop.medium": "Acceleration Stops",

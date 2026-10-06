@@ -3,13 +3,13 @@
     "group": "enchanting_book_efficiency",
     "ingredients": [
         "book",
-        "cobblestone",
-        "lapis_lazuli"
+        "lapis_lazuli",
+        "cobblestone"
     ],
     "result": {
         "id": "enchanted_book",
         "components": {
-            "enchantments": {
+            "stored_enchantments": {
                 "efficiency": 1
             }
         }

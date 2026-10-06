@@ -1,0 +1,18 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "#event_rebalance:scrolls"
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:custom_item/spawn_egg",
+            {
+                "type": "minecraft:set_components",
+                "components": {
+                    "rarity":"uncommon"
+                }
+            }
+        ]
+    }
+}
