@@ -4,7 +4,16 @@
             "weight": 1,
             "element": {
                 "element_type": "single_pool_element",
-                "location": "structure_rework:nether_fortress/bridge/half_1",
+                "location": "structure_rework:nether_fortress/bridge/end_1",
+                "processors": "structure_rework:nether_fortress/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/bridge/end_2",
                 "processors": "structure_rework:nether_fortress/age",
                 "projection": "rigid"
             }
