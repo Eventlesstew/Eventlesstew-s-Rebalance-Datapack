@@ -33,43 +33,20 @@
       ]
     }
   },
-  "pool_aliases": [
-    {
-      "type": "random",
-      "alias": "structure_rework:nether_fortress/bridge",
-      "targets": [
-        {
-          "data": "structure_rework:nether_fortress/bridge_building",
-          "weight": 9
-        },
-        {
-          "data": "structure_rework:nether_fortress/bridge_connector",
-          "weight": 1
-        }
-      ]
-    },
-    {
-      "type": "random",
-      "alias": "structure_rework:nether_fortress/corridor",
-      "targets": [
-        {
-          "data": "structure_rework:nether_fortress/corridor_building",
-          "weight": 9
-        },
-        {
-          "data": "structure_rework:nether_fortress/corridor_connector",
-          "weight": 1
-        }
-      ]
-    }
-  ],
   "start_pool": "structure_rework:nether_fortress/start",
-  "size": 14,
+  "size": 20,
   "start_height": {
-    "absolute": 50
+    "type": "minecraft:uniform",
+    "max_inclusive": {
+      "above_bottom": 70
+    },
+    "min_inclusive": {
+      "above_bottom": 40
+    }
   },
   "step": "surface_structures",
   "terrain_adaptation": "none",
-  "max_distance_from_center": 100,
+  "max_distance_from_center": 116,
+  "dimension_padding": 10,
   "use_expansion_hack": false
 }
