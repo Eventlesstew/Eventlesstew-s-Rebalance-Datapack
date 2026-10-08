@@ -4,11 +4,11 @@
             "weight": 1,
             "element": {
                 "element_type": "single_pool_element",
-                "location": "structure_rework:nether_fortress/bridge_middle/2_1",
+                "location": "structure_rework:nether_fortress/spawner/blaze",
                 "processors": "structure_rework:nether_fortress/age",
                 "projection": "rigid"
             }
         }
     ],
-    "fallback": "structure_rework:nether_fortress/bridge_middle_end"
+    "fallback": "structure_rework:nether_fortress/spawner/any"
 }

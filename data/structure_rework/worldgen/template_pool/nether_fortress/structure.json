@@ -31,6 +31,15 @@
             "weight": 1,
             "element": {
                 "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/building/bridge_lane_4",
+                "processors": "structure_rework:nether_fortress/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
                 "location": "structure_rework:nether_fortress/building/bridge_bend_1",
                 "processors": "structure_rework:nether_fortress/age",
                 "projection": "rigid"
@@ -67,7 +76,43 @@
             "weight": 1,
             "element": {
                 "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/building/bridge_bend_5",
+                "processors": "structure_rework:nether_fortress/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
                 "location": "structure_rework:nether_fortress/building/bridge_t_way_1",
+                "processors": "structure_rework:nether_fortress/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/building/bridge_t_way_2",
+                "processors": "structure_rework:nether_fortress/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/building/bridge_t_way_3",
+                "processors": "structure_rework:nether_fortress/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/building/bridge_t_way_4",
                 "processors": "structure_rework:nether_fortress/age",
                 "projection": "rigid"
             }
@@ -100,10 +145,37 @@
             }
         },
         {
-            "weight": 2,
+            "weight": 1,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:nether_fortress/building/arena_1",
+                "processors": "structure_rework:nether_fortress/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/building/arena_2",
+                "processors": "structure_rework:nether_fortress/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/building/arena_3",
+                "processors": "structure_rework:nether_fortress/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/building/arena_4",
                 "processors": "structure_rework:nether_fortress/age",
                 "projection": "rigid"
             }
