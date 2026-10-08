@@ -1,7 +1,9 @@
 {
   "anvil_cost": 4,
   "description": {
-    "translate": "enchantment.minecraft.respiration"
+    "translate": "enchantment.minecraft.respiration",
+    "color": "#e1ebed",
+    "shadow_color": [0.4, 0.51, 0.6, 1.0]
   },
   "effects": {
     "minecraft:attributes": [

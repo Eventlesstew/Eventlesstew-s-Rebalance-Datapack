@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_puncture",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "pointed_dripstone",
+        "pointed_dripstone",
+        "pointed_dripstone",
+        "pointed_dripstone",
+        "pointed_dripstone"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "event_rebalance:puncture": 5
+            }
+        }
+    }
+}

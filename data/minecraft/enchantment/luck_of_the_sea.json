@@ -1,7 +1,9 @@
 {
   "anvil_cost": 4,
   "description": {
-    "translate": "enchantment.minecraft.luck_of_the_sea"
+    "translate": "enchantment.minecraft.luck_of_the_sea",
+    "color": "#7fd7ff",
+    "shadow_color": [0.15, 0.3, 0.49, 1.0]
   },
   "effects": {
     "minecraft:fishing_luck_bonus": [

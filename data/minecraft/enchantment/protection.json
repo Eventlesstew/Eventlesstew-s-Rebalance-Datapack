@@ -1,7 +1,9 @@
 {
   "anvil_cost": 1,
   "description": {
-    "translate": "enchantment.minecraft.protection"
+    "translate": "enchantment.minecraft.protection",
+    "color": "#b5c8d2",
+    "shadow_color": [0.36, 0.4, 0.47, 1.0]
   },
   "effects": {
     "minecraft:damage_protection": [
@@ -10,8 +12,8 @@
           "type": "minecraft:add",
           "value": {
             "type": "minecraft:linear",
-            "base": 1,
-            "per_level_above_first": 1
+            "base": 1.25,
+            "per_level_above_first": 0.625
           }
         },
         "requirements": {
@@ -29,7 +31,7 @@
                       "predicates": {
                         "enchantments": [
                           {
-                            "enchantments": "event_rebalance:lighweight"
+                            "enchantments": "protection"
                           }
                         ]
                       }
@@ -45,6 +47,10 @@
                   {
                     "expected": false,
                     "id": "#minecraft:bypasses_invulnerability"
+                  },
+                  {
+                    "expected": false,
+                    "id": "#minecraft:bypasses_armor"
                   }
                 ]
               }
@@ -57,8 +63,8 @@
           "type": "minecraft:add",
           "value": {
             "type": "minecraft:linear",
-            "base": 4,
-            "per_level_above_first": 4
+            "base": 5,
+            "per_level_above_first": 2.5
           }
         },
         "requirements": {
@@ -74,7 +80,7 @@
                     "predicates": {
                       "enchantments": [
                         {
-                          "enchantments": "event_rebalance:lighweight"
+                          "enchantments": "protection"
                         }
                       ]
                     }
@@ -89,6 +95,10 @@
                   {
                     "expected": false,
                     "id": "#minecraft:bypasses_invulnerability"
+                  },
+                  {
+                    "expected": false,
+                    "id": "#minecraft:bypasses_armor"
                   }
                 ]
               }

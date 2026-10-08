@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_luck_of_the_sea",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "nautilus_shell"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "luck_of_the_sea": 1
+            }
+        }
+    }
+}

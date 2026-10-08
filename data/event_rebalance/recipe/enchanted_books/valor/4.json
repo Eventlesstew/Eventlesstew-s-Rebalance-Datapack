@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_valor",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "diamond",
+        "diamond",
+        "diamond",
+        "diamond"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "event_rebalance:valor": 4
+            }
+        }
+    }
+}

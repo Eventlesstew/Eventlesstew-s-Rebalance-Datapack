@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_combo",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "#event_rebalance:copper/chain"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "event_rebalance:combo": 1
+            }
+        }
+    }
+}

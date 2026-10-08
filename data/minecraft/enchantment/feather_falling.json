@@ -1,7 +1,9 @@
 {
   "anvil_cost": 2,
   "description": {
-    "translate": "enchantment.minecraft.feather_falling"
+    "translate": "enchantment.minecraft.feather_falling",
+    "color": "#b5c8d2",
+    "shadow_color": [0.4, 0.51, 0.6, 1.0]
   },
   "effects": {
     "minecraft:damage_protection": [

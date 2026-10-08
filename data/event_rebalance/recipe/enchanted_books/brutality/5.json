@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_brutality",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "#event_rebalance:custom_item/scroll/brutality",
+        "#event_rebalance:custom_item/scroll/brutality",
+        "#event_rebalance:custom_item/scroll/brutality",
+        "#event_rebalance:custom_item/scroll/brutality",
+        "#event_rebalance:custom_item/scroll/brutality"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "event_rebalance:brutality": 5
+            }
+        }
+    }
+}

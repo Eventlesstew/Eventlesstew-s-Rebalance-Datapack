@@ -78,6 +78,7 @@ Zoglin Spawn Egg: Hoglin Hide
 Music Disc Bounce: Totem of Warping
 
 Wandering Trader Spawn Egg: Scroll of Fortune
+Pig Spawn Egg: Scroll of Brutality
 
 Charcoal: Chocolate
 Music Disc Creator: Apple Pie

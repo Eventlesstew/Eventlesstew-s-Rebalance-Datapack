@@ -1,0 +1,36 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "enchantment.event.fragility_curse",
+    "color": "#d5c0be",
+    "shadow_color": [0.51, 0.32, 0.35, 1.0]
+  },
+  "effects": {
+    "item_damage": [
+        {
+            "effect": {
+                "type": "multiply",
+                "factor": {
+                    "type": "linear",
+                    "base": 2,
+                    "per_level_above_first": 1
+                }
+            }
+        }
+    ]
+  },
+  "max_level": 1,
+  "max_cost": {
+    "base": 40,
+    "per_level_above_first": 0
+  },
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 0
+  },
+  "weight": 8,
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#enchantable/durability"
+}

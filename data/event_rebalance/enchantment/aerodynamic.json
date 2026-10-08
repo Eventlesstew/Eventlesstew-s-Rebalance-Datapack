@@ -2,8 +2,8 @@
   "anvil_cost": 1,
   "description": {
     "translate": "enchantment.event.aerodynamic",
-    "color": "#d0b2ff",
-    "shadow_color": -477808129
+    "color": "#e1ebed",
+    "shadow_color": [0.4, 0.51, 0.6, 1.0]
   },
   "effects": {
     "minecraft:attributes": [

@@ -1249,6 +1249,24 @@
             },
             {
                 "when": {
+                    "event_rebalance:fragility_curse": 1
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/fragility_curse"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
                     "event_rebalance:frenzy": 1
                 },
                 "model": {
@@ -1518,6 +1536,51 @@
                         {
                             "type": "model",
                             "model": "event:item/enchanted_book/launching"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:lightweight": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/lightweight"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:lightweight": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/lightweight"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:lightweight": 3
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/lightweight"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:lightweight": 4
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/lightweight"
                         },
                         {
                             "type": "model",

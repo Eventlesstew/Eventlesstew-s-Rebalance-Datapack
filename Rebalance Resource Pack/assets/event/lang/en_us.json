@@ -113,6 +113,7 @@
     "item.minecraft.music_disc_bounce": "Totem of Warping",
     
     "item.minecraft.wandering_trader_spawn_egg": "Scroll of Fortune",
+    "item.minecraft.pig_spawn_egg": "Scroll of Brutality",
 
     "item.event.music_disc_13": "Music Disc",
     "item.event.music_disc_cat": "Music Disc",
@@ -202,6 +203,7 @@
     "enchantment.event.harpoon": "Harpoon",
     "enchantment.event.rebound": "Rebound",
     "enchantment.event.regrow": "Regrow",
+    "enchantment.event.lightweight": "Lightweight",
     "enchantment.event.bulwark": "Bulwark",
     "enchantment.event.aerodynamic": "Aerodynamic",
     "enchantment.event.acceleration": "Acceleration",

@@ -2,8 +2,8 @@
   "anvil_cost": 2,
   "description": {
     "translate": "enchantment.event.acceleration",
-    "color": "#fdcfff",
-    "shadow_color": -4909878
+    "color": "#e1ebed",
+    "shadow_color": [0.4, 0.51, 0.6, 1.0]
   },
   "effects": {
     "location_changed": [

@@ -2,8 +2,8 @@
   "anvil_cost": 1,
   "description": {
     "translate": "enchantment.event.regrow",
-    "color": "#abf2ff",
-    "shadow_color": 1883020435
+    "color": "#b5c8d2",
+    "shadow_color": [0.36, 0.4, 0.47, 1.0]
   },
   "effects": {
     "minecraft:tick": [

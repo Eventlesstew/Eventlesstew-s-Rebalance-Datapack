@@ -2,15 +2,19 @@
     "type": "crafting_shaped",
     "key": {
         "S":"#event_rebalance:custom_item/scroll/fortune",
-        "L":"lapis_lazuli"
+        "L":"lapis_lazuli",
+        "M":"gold_ingot"
     },
     "pattern": [
-        " L ",
-        "LSL",
-        " L "
+        "LML",
+        "MSM",
+        "LML"
     ],
     "result": {
         "id": "wandering_trader_spawn_egg",
+        "components": {
+            "rarity":"uncommon"
+        },
         "count": 2
     }
 }

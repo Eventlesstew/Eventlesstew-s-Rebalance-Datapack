@@ -1,5 +1,6 @@
 {
     "values": [
-        "#event_rebalance:custom_item/scroll/fortune"
+        "#event_rebalance:custom_item/scroll/fortune",
+        "#event_rebalance:custom_item/scroll/brutality"
     ]
 }

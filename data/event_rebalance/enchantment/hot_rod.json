@@ -2,8 +2,8 @@
   "anvil_cost": 4,
   "description": {
     "translate": "enchantment.event.hot_rod",
-    "color": "#d0b2ff",
-    "shadow_color": -477808129
+    "color": "#7fd7ff",
+    "shadow_color": [0.15, 0.3, 0.49, 1.0]
   },
   "effects": {
   },

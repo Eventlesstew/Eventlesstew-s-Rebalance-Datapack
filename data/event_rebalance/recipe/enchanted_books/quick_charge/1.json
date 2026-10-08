@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_quick_charge",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "string"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "quick_charge": 1
+            }
+        }
+    }
+}

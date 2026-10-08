@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_frenzy",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "copper_ingot",
+        "copper_ingot",
+        "copper_ingot",
+        "copper_ingot"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "event_rebalance:frenzy": 4
+            }
+        }
+    }
+}

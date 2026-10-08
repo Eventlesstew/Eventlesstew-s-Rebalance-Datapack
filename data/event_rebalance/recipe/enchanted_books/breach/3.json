@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_breach",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "#event_rebalance:custom_item/rose_golden_ingot",
+        "#event_rebalance:custom_item/rose_golden_ingot",
+        "#event_rebalance:custom_item/rose_golden_ingot"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "breach": 3
+            }
+        }
+    }
+}

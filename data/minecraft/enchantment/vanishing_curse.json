@@ -1,7 +1,9 @@
 {
   "anvil_cost": 8,
   "description": {
-    "translate": "enchantment.minecraft.vanishing_curse"
+    "translate": "enchantment.minecraft.vanishing_curse",
+    "color": "#d5c0be",
+    "shadow_color": [0.51, 0.32, 0.35, 1.0]
   },
   "effects": {
     "minecraft:prevent_equipment_drop": {}

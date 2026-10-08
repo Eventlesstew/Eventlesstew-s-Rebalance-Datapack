@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_power",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "brick",
+        "brick",
+        "brick",
+        "brick",
+        "brick"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "power": 5
+            }
+        }
+    }
+}

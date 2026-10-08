@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_smite",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "rotten_flesh",
+        "rotten_flesh"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "smite": 2
+            }
+        }
+    }
+}

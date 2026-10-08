@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_impaling",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "prismarine_shard",
+        "prismarine_shard",
+        "prismarine_shard"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "impaling": 3
+            }
+        }
+    }
+}

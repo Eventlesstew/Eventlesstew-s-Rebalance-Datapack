@@ -2,7 +2,7 @@
   "values": [
     "minecraft:protection",
     "event_rebalance:regrow",
-    "event_rebalance:lighweight",
+    "event_rebalance:lightweight",
     "feather_falling"
   ]
 }
