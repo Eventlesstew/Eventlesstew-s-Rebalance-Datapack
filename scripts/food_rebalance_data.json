@@ -1,0 +1,20 @@
+{
+    "default":{
+        "food":0,
+        "saturation":0,
+        "eat_time":2,
+        "effects":[]
+    },
+
+    "potato":{
+        "food":2,
+        "saturation":2
+    },
+    "baked_potato":{
+        "food":6,
+        "saturation":6
+    },
+    "apple":{
+
+    }
+}
