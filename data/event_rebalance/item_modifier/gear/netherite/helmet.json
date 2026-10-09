@@ -17,35 +17,35 @@
                 "type": "minecraft:set_attributes",
                 "modifiers": [
                     {
-                        "id": "balance",
+                        "id": "balance_helmet",
                         "operation": "add_value",
                         "attribute": "armor",
                         "amount": 4.0,
                         "slot": "head"
                     },
                     {
-                        "id": "balance",
+                        "id": "balance_helmet",
                         "operation": "add_value",
                         "attribute": "armor_toughness",
                         "amount": 4.0,
                         "slot": "head"
                     },
                     {
-                        "id": "balance",
+                        "id": "balance_helmet",
                         "operation": "add_multiplied_base",
                         "attribute": "movement_speed",
                         "amount": -0.03,
                         "slot": "head"
                     },
                     {
-                        "id": "balance",
+                        "id": "balance_helmet",
                         "operation": "add_multiplied_base",
                         "attribute": "air_drag_modifier",
                         "amount": 0.06,
                         "slot": "head"
                     },
                     {
-                        "id": "balance",
+                        "id": "balance_helmet",
                         "operation": "add_multiplied_base",
                         "attribute": "burning_time",
                         "amount": -0.25,
@@ -59,10 +59,6 @@
                     "max_damage": 2048,
                     "repairable": {
                         "items": "#event_rebalance:tool_repair/netherite"
-                    },
-                    "weapon": {
-                        "item_damage_per_attack": 1,
-                        "disable_blocking_for_seconds": 0
                     }
                 }
             },

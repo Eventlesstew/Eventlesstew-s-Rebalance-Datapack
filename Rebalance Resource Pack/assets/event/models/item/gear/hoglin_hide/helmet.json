@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "event:item/gear/hoglin_hide/helmet",
+    "layer1": "event:item/gear/hoglin_hide/helmet_overlay"
+  }
+}

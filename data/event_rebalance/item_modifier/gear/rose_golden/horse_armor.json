@@ -20,21 +20,21 @@
                 "type": "minecraft:set_attributes",
                 "modifiers": [
                     {
-                        "id": "balance",
+                        "id": "balance_horse_armor",
                         "operation": "add_value",
                         "attribute": "armor",
                         "amount": 18.0,
                         "slot": "body"
                     },
                     {
-                        "id": "balance",
+                        "id": "balance_horse_armor",
                         "operation": "add_multiplied_base",
                         "attribute": "movement_speed",
                         "amount": 0.05,
                         "slot": "body"
                     },
                     {
-                        "id": "balance",
+                        "id": "balance_horse_armor",
                         "operation": "add_multiplied_base",
                         "attribute": "air_drag_modifier",
                         "amount": -0.05,
@@ -45,10 +45,6 @@
             {
                 "type": "minecraft:set_components",
                 "components": {
-                    "weapon": {
-                        "item_damage_per_attack": 1,
-                        "disable_blocking_for_seconds": 0
-                    },
                     "equippable": {
                         "slot": "body",
                         "asset_id": "event:rose_golden",

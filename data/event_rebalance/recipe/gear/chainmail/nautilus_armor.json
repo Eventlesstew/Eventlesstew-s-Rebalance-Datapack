@@ -9,6 +9,10 @@
             "item_model": "event:gear/chainmail/nautilus_armor",
             "item_name": {
                 "translate": "item.event.chainmail_nautilus_armor"
+            },
+            "max_stack_size": 1,
+            "custom_data": {
+                "modified":false
             }
         }
     }

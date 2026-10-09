@@ -17,28 +17,28 @@
                 "type": "minecraft:set_attributes",
                 "modifiers": [
                     {
-                        "id": "balance",
+                        "id": "balance_boots",
                         "operation": "add_value",
                         "attribute": "armor",
                         "amount": 2.0,
                         "slot": "feet"
                     },
                     {
-                        "id": "balance",
+                        "id": "balance_boots",
                         "operation": "add_value",
                         "attribute": "armor_toughness",
                         "amount": 1.0,
                         "slot": "feet"
                     },
                     {
-                        "id": "balance",
+                        "id": "balance_boots",
                         "operation": "add_multiplied_base",
                         "attribute": "movement_speed",
                         "amount": 0.05,
                         "slot": "feet"
                     },
                     {
-                        "id": "balance",
+                        "id": "balance_boots",
                         "operation": "add_multiplied_base",
                         "attribute": "air_drag_modifier",
                         "amount": -0.05,
@@ -52,10 +52,6 @@
                     "max_damage": 256,
                     "repairable": {
                         "items": "#event_rebalance:tool_repair/chainmail"
-                    },
-                    "weapon": {
-                        "item_damage_per_attack": 1,
-                        "disable_blocking_for_seconds": 0
                     }
                 }
             },

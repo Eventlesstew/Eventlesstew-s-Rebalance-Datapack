@@ -20,7 +20,7 @@
                 "type": "minecraft:set_attributes",
                 "modifiers": [
                     {
-                        "id": "balance",
+                        "id": "balance_nautilus_armor",
                         "operation": "add_value",
                         "attribute": "armor",
                         "amount": 12.0,
@@ -31,13 +31,9 @@
             {
                 "type": "minecraft:set_components",
                 "components": {
-                    "weapon": {
-                        "item_damage_per_attack": 1,
-                        "disable_blocking_for_seconds": 0
-                    },
                     "equippable": {
                         "slot": "body",
-                        "asset_id": "event:hyphae",
+                        "asset_id": "event:hoglin_hide",
                         "allowed_entities": "#can_wear_nautilus_armor",
                         "can_be_sheared": true
                     },

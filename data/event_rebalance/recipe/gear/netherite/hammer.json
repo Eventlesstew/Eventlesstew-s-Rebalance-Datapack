@@ -9,6 +9,10 @@
             "item_model": "event:gear/netherite/hammer",
             "item_name": {
                 "translate": "item.event.netherite_hammer"
+            },
+            "max_stack_size": 1,
+            "custom_data": {
+                "modified":false
             }
         }
     }

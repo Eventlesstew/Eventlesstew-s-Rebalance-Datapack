@@ -1,0 +1,6 @@
+{
+  "parent": "event:item/gear/hoglin_hide/boots",
+  "textures": {
+    "layer2": "minecraft:trims/items/boots_trim_amethyst"
+  }
+}

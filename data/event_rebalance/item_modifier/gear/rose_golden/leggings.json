@@ -20,21 +20,21 @@
                 "type": "minecraft:set_attributes",
                 "modifiers": [
                     {
-                        "id": "balance",
+                        "id": "balance_leggings",
                         "operation": "add_value",
                         "attribute": "armor",
                         "amount": 5.0,
                         "slot": "legs"
                     },
                     {
-                        "id": "balance",
+                        "id": "balance_leggings",
                         "operation": "add_multiplied_base",
                         "attribute": "movement_speed",
                         "amount": 0.04,
                         "slot": "legs"
                     },
                     {
-                        "id": "balance",
+                        "id": "balance_leggings",
                         "operation": "add_multiplied_base",
                         "attribute": "air_drag_modifier",
                         "amount": -0.04,
@@ -52,10 +52,6 @@
                     "mob_visibility": {
                         "targeting_entity_types": "#event_rebalance:mobs",
                         "visibility": 1.4285714285714286
-                    },
-                    "weapon": {
-                        "item_damage_per_attack": 1,
-                        "disable_blocking_for_seconds": 0
                     },
                     "equippable": {
                         "slot": "legs",

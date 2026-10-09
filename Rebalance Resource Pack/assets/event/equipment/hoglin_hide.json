@@ -3,7 +3,7 @@
     "horse_body": [
       {
         "dyeable": {
-          "color_when_undyed": -6265536
+          "color_when_undyed": [0.15, 0.58, 0.04]
         },
         "texture": "event:hoglin_hide"
       },
@@ -14,7 +14,7 @@
     "nautilus_body": [
       {
         "dyeable": {
-          "color_when_undyed": -6265536
+          "color_when_undyed": [1, 0.55, 0.36]
         },
         "texture": "event:hoglin_hide"
       },
@@ -25,7 +25,7 @@
     "humanoid": [
       {
         "dyeable": {
-          "color_when_undyed": -6265536
+          "color_when_undyed": [1, 0.55, 0.36]
         },
         "texture": "event:hoglin_hide"
       },
@@ -36,7 +36,7 @@
     "humanoid_leggings": [
       {
         "dyeable": {
-          "color_when_undyed": -6265536
+          "color_when_undyed": [1, 0.55, 0.36]
         },
         "texture": "event:hoglin_hide"
       },
@@ -47,7 +47,7 @@
     "humanoid_baby": [
       {
         "dyeable": {
-          "color_when_undyed": -6265536
+          "color_when_undyed": [1, 0.55, 0.36]
         },
         "texture": "event:hoglin_hide"
       },

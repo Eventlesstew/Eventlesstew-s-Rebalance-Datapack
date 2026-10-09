@@ -2,12 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": "minecraft:chest",
-    "-": "minecraft:crying_obsidian"
+    "C": "minecraft:crying_obsidian",
+    "O": "obsidian"
   },
   "pattern": [
-    "---",
+    "OOO",
     " # ",
-    "---"
+    "OCO"
   ],
   "result": {
     "id": "minecraft:shulker_box"

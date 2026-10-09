@@ -17,7 +17,7 @@
                 "type": "minecraft:set_attributes",
                 "modifiers": [
                     {
-                        "id": "balance",
+                        "id": "balance_helmet",
                         "operation": "add_value",
                         "attribute": "armor",
                         "amount": 3.0,
@@ -31,10 +31,6 @@
                     "max_damage": 512,
                     "repairable": {
                         "items": "#event_rebalance:tool_repair/iron"
-                    },
-                    "weapon": {
-                        "item_damage_per_attack": 1,
-                        "disable_blocking_for_seconds": 0
                     }
                 }
             },

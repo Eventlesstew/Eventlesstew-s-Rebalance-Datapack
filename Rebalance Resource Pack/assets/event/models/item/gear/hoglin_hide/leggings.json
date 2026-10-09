@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "event:item/gear/hoglin_hide/leggings",
+    "layer1": "event:item/gear/hoglin_hide/leggings_overlay"
+  }
+}

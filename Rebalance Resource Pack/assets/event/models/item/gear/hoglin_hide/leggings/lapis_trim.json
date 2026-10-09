@@ -1,0 +1,6 @@
+{
+  "parent": "event:item/gear/hoglin_hide/leggings",
+  "textures": {
+    "layer2": "minecraft:trims/items/leggings_trim_lapis"
+  }
+}

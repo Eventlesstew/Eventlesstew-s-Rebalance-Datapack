@@ -17,28 +17,28 @@
                 "type": "minecraft:set_attributes",
                 "modifiers": [
                     {
-                        "id": "balance",
+                        "id": "balance_chestplate",
                         "operation": "add_value",
                         "attribute": "armor",
                         "amount": 4.0,
                         "slot": "chest"
                     },
                     {
-                        "id": "balance",
+                        "id": "balance_chestplate",
                         "operation": "add_value",
                         "attribute": "armor_toughness",
                         "amount": 2.0,
                         "slot": "chest"
                     },
                     {
-                        "id": "balance",
+                        "id": "balance_chestplate",
                         "operation": "add_multiplied_base",
                         "attribute": "movement_speed",
                         "amount": 0.03,
                         "slot": "chest"
                     },
                     {
-                        "id": "balance",
+                        "id": "balance_chestplate",
                         "operation": "add_multiplied_base",
                         "attribute": "air_drag_modifier",
                         "amount": -0.03,
@@ -52,10 +52,6 @@
                     "max_damage": 256,
                     "repairable": {
                         "items": "#event_rebalance:tool_repair/chainmail"
-                    },
-                    "weapon": {
-                        "item_damage_per_attack": 1,
-                        "disable_blocking_for_seconds": 0
                     }
                 }
             },

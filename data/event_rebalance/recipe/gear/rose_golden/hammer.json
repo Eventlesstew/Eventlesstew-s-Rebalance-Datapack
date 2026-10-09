@@ -9,6 +9,10 @@
             "item_model": "event:gear/rose_golden/hammer",
             "item_name": {
                 "translate": "item.event.rose_golden_hammer"
+            },
+            "max_stack_size": 1,
+            "custom_data": {
+                "modified":false
             }
         }
     }

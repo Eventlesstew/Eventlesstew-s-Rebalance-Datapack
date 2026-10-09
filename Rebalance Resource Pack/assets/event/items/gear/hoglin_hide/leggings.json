@@ -1,0 +1,161 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "event:item/gear/hoglin_hide/leggings/quartz_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": [1, 0.55, 0.36]
+            }
+          ]
+        },
+        "when": "minecraft:quartz"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "event:item/gear/hoglin_hide/leggings/iron_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": [1, 0.55, 0.36]
+            }
+          ]
+        },
+        "when": "minecraft:iron"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "event:item/gear/hoglin_hide/leggings/netherite_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": [1, 0.55, 0.36]
+            }
+          ]
+        },
+        "when": "minecraft:netherite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "event:item/gear/hoglin_hide/leggings/redstone_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": [1, 0.55, 0.36]
+            }
+          ]
+        },
+        "when": "minecraft:redstone"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "event:item/gear/hoglin_hide/leggings/copper_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": [1, 0.55, 0.36]
+            }
+          ]
+        },
+        "when": "minecraft:copper"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "event:item/gear/hoglin_hide/leggings/gold_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": [1, 0.55, 0.36]
+            }
+          ]
+        },
+        "when": "minecraft:gold"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "event:item/gear/hoglin_hide/leggings/emerald_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": [1, 0.55, 0.36]
+            }
+          ]
+        },
+        "when": "minecraft:emerald"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "event:item/gear/hoglin_hide/leggings/diamond_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": [1, 0.55, 0.36]
+            }
+          ]
+        },
+        "when": "minecraft:diamond"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "event:item/gear/hoglin_hide/leggings/lapis_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": [1, 0.55, 0.36]
+            }
+          ]
+        },
+        "when": "minecraft:lapis"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "event:item/gear/hoglin_hide/leggings/amethyst_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": [1, 0.55, 0.36]
+            }
+          ]
+        },
+        "when": "minecraft:amethyst"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "event:item/gear/hoglin_hide/leggings/resin_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": [1, 0.55, 0.36]
+            }
+          ]
+        },
+        "when": "minecraft:resin"
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "event:item/gear/hoglin_hide/leggings",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": [1, 0.55, 0.36]
+            }
+          ]
+    },
+    "property": "minecraft:trim_material"
+  }
+}

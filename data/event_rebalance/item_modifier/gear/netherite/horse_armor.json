@@ -17,35 +17,35 @@
                 "type": "minecraft:set_attributes",
                 "modifiers": [
                     {
-                        "id": "balance",
+                        "id": "balance_horse_armor",
                         "operation": "add_value",
                         "attribute": "armor",
                         "amount": 20.0,
                         "slot": "body"
                     },
                     {
-                        "id": "balance",
+                        "id": "balance_horse_armor",
                         "operation": "add_value",
                         "attribute": "armor_toughness",
                         "amount": 20.0,
                         "slot": "body"
                     },
                     {
-                        "id": "balance",
+                        "id": "balance_horse_armor",
                         "operation": "add_multiplied_base",
                         "attribute": "movement_speed",
                         "amount": -0.1,
                         "slot": "body"
                     },
                     {
-                        "id": "balance",
+                        "id": "balance_horse_armor",
                         "operation": "add_multiplied_base",
                         "attribute": "air_drag_modifier",
                         "amount": 0.2,
                         "slot": "body"
                     },
                     {
-                        "id": "balance",
+                        "id": "balance_horse_armor",
                         "operation": "add_multiplied_base",
                         "attribute": "burning_time",
                         "amount": -0.01,
@@ -55,12 +55,7 @@
             },
             {
                 "type": "minecraft:set_components",
-                "components": {
-                    "weapon": {
-                        "item_damage_per_attack": 1,
-                        "disable_blocking_for_seconds": 0
-                    }
-                }
+                "components": {}
             },
             {
                 "type": "minecraft:set_lore",

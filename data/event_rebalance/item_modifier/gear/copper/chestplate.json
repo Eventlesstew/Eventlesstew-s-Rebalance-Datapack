@@ -17,21 +17,21 @@
                 "type": "minecraft:set_attributes",
                 "modifiers": [
                     {
-                        "id": "balance",
+                        "id": "balance_chestplate",
                         "operation": "add_value",
                         "attribute": "armor",
                         "amount": 5.0,
                         "slot": "chest"
                     },
                     {
-                        "id": "balance",
+                        "id": "balance_chestplate",
                         "operation": "add_multiplied_base",
                         "attribute": "movement_speed",
                         "amount": 0.02,
                         "slot": "chest"
                     },
                     {
-                        "id": "balance",
+                        "id": "balance_chestplate",
                         "operation": "add_multiplied_base",
                         "attribute": "air_drag_modifier",
                         "amount": -0.02,
@@ -45,10 +45,6 @@
                     "max_damage": 128,
                     "repairable": {
                         "items": "#event_rebalance:tool_repair/copper"
-                    },
-                    "weapon": {
-                        "item_damage_per_attack": 1,
-                        "disable_blocking_for_seconds": 0
                     }
                 }
             },

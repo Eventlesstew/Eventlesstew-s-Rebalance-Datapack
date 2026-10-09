@@ -7,6 +7,10 @@
     "#event_rebalance:custom_item/gear/rose_golden/helmet",
     "#event_rebalance:custom_item/gear/rose_golden/chestplate",
     "#event_rebalance:custom_item/gear/rose_golden/leggings",
-    "#event_rebalance:custom_item/gear/rose_golden/boots"
+    "#event_rebalance:custom_item/gear/rose_golden/boots",
+    "#event_rebalance:custom_item/gear/hoglin_hide/helmet",
+    "#event_rebalance:custom_item/gear/hoglin_hide/chestplate",
+    "#event_rebalance:custom_item/gear/hoglin_hide/leggings",
+    "#event_rebalance:custom_item/gear/hoglin_hide/boots"
   ]
 }

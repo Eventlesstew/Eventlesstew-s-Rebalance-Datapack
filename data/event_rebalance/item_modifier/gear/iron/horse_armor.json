@@ -17,7 +17,7 @@
                 "type": "minecraft:set_attributes",
                 "modifiers": [
                     {
-                        "id": "balance",
+                        "id": "balance_horse_armor",
                         "operation": "add_value",
                         "attribute": "armor",
                         "amount": 16.0,
@@ -27,12 +27,7 @@
             },
             {
                 "type": "minecraft:set_components",
-                "components": {
-                    "weapon": {
-                        "item_damage_per_attack": 1,
-                        "disable_blocking_for_seconds": 0
-                    }
-                }
+                "components": {}
             },
             {
                 "type": "minecraft:set_lore",

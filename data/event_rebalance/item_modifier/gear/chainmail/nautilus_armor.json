@@ -20,21 +20,21 @@
                 "type": "minecraft:set_attributes",
                 "modifiers": [
                     {
-                        "id": "balance",
+                        "id": "balance_nautilus_armor",
                         "operation": "add_value",
                         "attribute": "armor",
                         "amount": 10.0,
                         "slot": "body"
                     },
                     {
-                        "id": "balance",
+                        "id": "balance_nautilus_armor",
                         "operation": "add_multiplied_base",
                         "attribute": "movement_speed",
                         "amount": 0.06,
                         "slot": "body"
                     },
                     {
-                        "id": "balance",
+                        "id": "balance_nautilus_armor",
                         "operation": "add_multiplied_base",
                         "attribute": "air_drag_modifier",
                         "amount": -0.08,
@@ -45,13 +45,9 @@
             {
                 "type": "minecraft:set_components",
                 "components": {
-                    "weapon": {
-                        "item_damage_per_attack": 1,
-                        "disable_blocking_for_seconds": 0
-                    },
                     "equippable": {
                         "slot": "body",
-                        "asset_id": "event:stone",
+                        "asset_id": "event:chainmail",
                         "allowed_entities": "#can_wear_nautilus_armor",
                         "can_be_sheared": true
                     },

@@ -1,0 +1,6 @@
+{
+  "parent": "event:item/gear/hoglin_hide/helmet",
+  "textures": {
+    "layer2": "minecraft:trims/items/helmet_trim_amethyst"
+  }
+}

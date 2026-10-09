@@ -17,28 +17,28 @@
                 "type": "minecraft:set_attributes",
                 "modifiers": [
                     {
-                        "id": "balance",
+                        "id": "balance_leggings",
                         "operation": "add_value",
                         "attribute": "armor",
                         "amount": 5.0,
                         "slot": "legs"
                     },
                     {
-                        "id": "balance",
+                        "id": "balance_leggings",
                         "operation": "add_value",
                         "attribute": "armor_toughness",
                         "amount": 2.0,
                         "slot": "legs"
                     },
                     {
-                        "id": "balance",
+                        "id": "balance_leggings",
                         "operation": "add_multiplied_base",
                         "attribute": "movement_speed",
                         "amount": -0.04,
                         "slot": "legs"
                     },
                     {
-                        "id": "balance",
+                        "id": "balance_leggings",
                         "operation": "add_multiplied_base",
                         "attribute": "air_drag_modifier",
                         "amount": 0.08,
@@ -52,10 +52,6 @@
                     "max_damage": 1024,
                     "repairable": {
                         "items": "#event_rebalance:tool_repair/diamond"
-                    },
-                    "weapon": {
-                        "item_damage_per_attack": 1,
-                        "disable_blocking_for_seconds": 0
                     }
                 }
             },

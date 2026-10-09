@@ -97,7 +97,7 @@ def add_tool_attribute(
         value *= 0.01
         display_value += "%"
     attribute = {
-        "id": "balance",
+        "id": "balance_" + tool,
         "operation": type,
         "attribute": id,
         "amount": value,
@@ -150,7 +150,7 @@ for tier_i, tier in enumerate(data_file["tiers"]):
             operator: str = "add_value",
             show_attribute: bool = True,
         ):
-            add_tool_attribute(
+            return add_tool_attribute(
                 tool_data, tier, tool, operator, id, base, show_attribute
             )
 
@@ -168,7 +168,7 @@ for tier_i, tier in enumerate(data_file["tiers"]):
             }
         )
 
-        add_attribute("attack_damage", 1)
+        is_weapon = add_attribute("attack_damage", 1)
         add_attribute("attack_speed", 4)
         add_attribute("armor")
         add_attribute("armor_toughness")
@@ -208,12 +208,13 @@ for tier_i, tier in enumerate(data_file["tiers"]):
             )
 
         # Durability and Shield Break Handling
-        components["weapon"] = {
-            "item_damage_per_attack": 1,
-            "disable_blocking_for_seconds": get_tool_value(
-                tier, tool, "shield_disable_time"
-            ),
-        }
+        if is_weapon:
+            components["weapon"] = {
+                "item_damage_per_attack": 1,
+                "disable_blocking_for_seconds": get_tool_value(
+                    tier, tool, "shield_disable_time"
+                ),
+            }
 
         # Mining Components
         mineable = get_tool_value(tier, tool, "mineable")
@@ -335,7 +336,10 @@ for tier_i, tier in enumerate(data_file["tiers"]):
         if is_custom(tier, tool):
             slot = get_tool_value(tier, tool, "slot")
             if slot and slot != "mainhand":
-                components["equippable"] = {"slot": slot, "asset_id": "event:" + tier}
+                components["equippable"] = {
+                    "slot": slot,
+                    "asset_id": "event:" + display_tier,
+                }
                 if slot == "body":
                     if tool == "horse_armor":
                         components["equippable"][

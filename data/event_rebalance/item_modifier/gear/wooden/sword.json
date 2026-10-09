@@ -17,14 +17,14 @@
                 "type": "minecraft:set_attributes",
                 "modifiers": [
                     {
-                        "id": "balance",
+                        "id": "balance_sword",
                         "operation": "add_value",
                         "attribute": "attack_damage",
                         "amount": 3,
                         "slot": "mainhand"
                     },
                     {
-                        "id": "balance",
+                        "id": "balance_sword",
                         "operation": "add_value",
                         "attribute": "attack_speed",
                         "amount": -2.2,

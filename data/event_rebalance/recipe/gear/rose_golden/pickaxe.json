@@ -9,6 +9,10 @@
             "item_model": "event:gear/rose_golden/pickaxe",
             "item_name": {
                 "translate": "item.event.rose_golden_pickaxe"
+            },
+            "max_stack_size": 1,
+            "custom_data": {
+                "modified":false
             }
         }
     }

@@ -17,21 +17,21 @@
                 "type": "minecraft:set_attributes",
                 "modifiers": [
                     {
-                        "id": "balance",
+                        "id": "balance_chestplate",
                         "operation": "add_value",
                         "attribute": "armor",
                         "amount": 8.0,
                         "slot": "chest"
                     },
                     {
-                        "id": "balance",
+                        "id": "balance_chestplate",
                         "operation": "add_multiplied_base",
                         "attribute": "movement_speed",
                         "amount": 0.01,
                         "slot": "chest"
                     },
                     {
-                        "id": "balance",
+                        "id": "balance_chestplate",
                         "operation": "add_multiplied_base",
                         "attribute": "air_drag_modifier",
                         "amount": -0.01,
@@ -49,10 +49,6 @@
                     "mob_visibility": {
                         "targeting_entity_types": "#event_rebalance:mobs",
                         "visibility": 1.25
-                    },
-                    "weapon": {
-                        "item_damage_per_attack": 1,
-                        "disable_blocking_for_seconds": 0
                     }
                 }
             },

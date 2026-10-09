@@ -1,0 +1,8 @@
+{
+    "type": "crafting_dye",
+    "dye": "#dyes",
+    "target": "#event_rebalance:custom_item/gear/hoglin_hide/leggings",
+    "result": {
+        "id": "shelter_pottery_sherd"
+    }
+}

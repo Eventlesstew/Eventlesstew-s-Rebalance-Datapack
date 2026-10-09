@@ -20,7 +20,7 @@
                 "type": "minecraft:set_attributes",
                 "modifiers": [
                     {
-                        "id": "balance",
+                        "id": "balance_helmet",
                         "operation": "add_value",
                         "attribute": "armor",
                         "amount": 3.0,
@@ -39,13 +39,9 @@
                         "targeting_entity_types": "#event_rebalance:mobs",
                         "visibility": 0.8333333333333334
                     },
-                    "weapon": {
-                        "item_damage_per_attack": 1,
-                        "disable_blocking_for_seconds": 0
-                    },
                     "equippable": {
                         "slot": "head",
-                        "asset_id": "event:hyphae",
+                        "asset_id": "event:hoglin_hide",
                         "equip_on_interact": true
                     },
                     "item_name": {

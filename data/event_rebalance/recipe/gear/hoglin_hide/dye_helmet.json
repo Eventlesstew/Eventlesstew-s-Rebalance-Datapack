@@ -1,0 +1,8 @@
+{
+    "type": "crafting_dye",
+    "dye": "#dyes",
+    "target": "#event_rebalance:custom_item/gear/hoglin_hide/helmet",
+    "result": {
+        "id": "scrape_pottery_sherd"
+    }
+}
