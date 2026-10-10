@@ -5,16 +5,29 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:crossbow"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 1,
+        "min": 0
+      }
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
           "modifier": {
             "type": "minecraft:set_count",
             "count": {
               "type": "minecraft:uniform",
-              "max": 3,
-              "min": 1
+              "max": 5,
+              "min": 3
             }
           },
-          "name": "minecraft:diamond",
-          "weight": 3
+          "name": "minecraft:wheat",
+          "weight": 7
         },
         {
           "type": "minecraft:item",
@@ -23,11 +36,72 @@
             "count": {
               "type": "minecraft:uniform",
               "max": 5,
+              "min": 2
+            }
+          },
+          "name": "minecraft:potato",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 5,
+              "min": 3
+            }
+          },
+          "name": "minecraft:carrot",
+          "weight": 5
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 3,
+        "min": 2
+      }
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 3,
+              "min": 2
+            }
+          },
+          "name": "minecraft:dark_oak_log"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 3,
+        "min": 1
+      }
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 6,
               "min": 1
             }
           },
-          "name": "minecraft:iron_ingot",
-          "weight": 10
+          "name": "minecraft:string",
+          "weight": 4
         },
         {
           "type": "minecraft:item",
@@ -39,8 +113,8 @@
               "min": 2
             }
           },
-          "name": "minecraft:gold_ingot",
-          "weight": 15
+          "name": "minecraft:arrow",
+          "weight": 4
         },
         {
           "type": "minecraft:item",
@@ -52,106 +126,33 @@
               "min": 1
             }
           },
-          "name": "minecraft:bamboo",
-          "weight": 15
-        },
-        {
-          "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:set_count",
-            "count": {
-              "type": "minecraft:uniform",
-              "max": 3,
-              "min": 1
-            }
-          },
-          "name": "minecraft:emerald",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:set_count",
-            "count": {
-              "type": "minecraft:uniform",
-              "max": 6,
-              "min": 4
-            }
-          },
-          "name": "minecraft:bone",
-          "weight": 20
-        },
-        {
-          "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:set_count",
-            "count": {
-              "type": "minecraft:uniform",
-              "max": 7,
-              "min": 3
-            }
-          },
-          "name": "minecraft:rotten_flesh",
-          "weight": 16
-        },
-        {
-          "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:set_count",
-            "count": {
-              "type": "minecraft:uniform",
-              "max": 5,
-              "min": 1
-            }
-          },
-          "name": "minecraft:leather",
+          "name": "minecraft:tripwire_hook",
           "weight": 3
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_horse_armor"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_horse_armor"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_horse_armor"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_horse_armor"
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 3,
+              "min": 1
+            }
+          },
+          "name": "minecraft:iron_ingot",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
           "modifier": {
-            "type": "minecraft:enchant_with_levels",
-            "levels": 30,
+            "type": "minecraft:enchant_randomly",
             "options": "#minecraft:on_random_loot"
           },
           "name": "minecraft:book"
-        }
-      ],
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 6,
-        "min": 2
-      }
-    },
-    {
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:set_count",
-            "count": 2
-          },
-          "name": "minecraft:wild_armor_trim_smithing_template"
         },
         {
             "type": "tag",
-            "items": "#event_rebalance:custom_item/scroll/infinity",
+            "items": "#event_rebalance:custom_item/scroll/fortune",
             "expand": false,
             "weight": 1,
             "modifier": [
@@ -159,18 +160,55 @@
             ]
         }
       ],
-      "rolls": 1
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 3,
+        "min": 2
+      }
     },
     {
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:music_disc_13",
-          "modifier": "event_rebalance:music_disc/chirp"
+          "name": "minecraft:goat_horn"
+        }
+      ],
+      "modifier": {
+        "type": "minecraft:set_instrument",
+        "options": "#minecraft:regular_goat_horns"
+      },
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 1,
+        "min": 0
+      }
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": 2
+          },
+          "name": "minecraft:sentry_armor_trim_smithing_template"
+        },
+        {
+            "type": "tag",
+            "items": "#event_rebalance:custom_item/scroll/piercing",
+            "expand": false,
+            "weight": 2,
+            "modifier": [
+              "event_rebalance:custom_item/scroll"
+            ]
         }
       ],
       "rolls": 1
     }
   ],
-  "random_sequence": "minecraft:chests/jungle_temple"
+  "random_sequence": "minecraft:chests/pillager_outpost"
 }

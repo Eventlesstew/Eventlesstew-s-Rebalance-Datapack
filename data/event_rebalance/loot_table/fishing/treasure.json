@@ -75,6 +75,15 @@
             }
         },
         {
+            "type": "tag",
+            "items": "#event_rebalance:custom_item/scroll/fortune",
+            "expand": false,
+            "weight": 1,
+            "modifier": [
+              "event_rebalance:custom_item/scroll"
+            ]
+        },
+        {
           "type": "minecraft:item",
           "name": "minecraft:name_tag",
           "weight": 5
@@ -104,6 +113,26 @@
           "type": "minecraft:item",
           "name": "minecraft:saddle",
           "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wet_sponge",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:angler_pottery_sherd",
+          "modifier": "event_rebalance:pottery_sherd/angler"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:angler_pottery_sherd",
+          "modifier": "event_rebalance:pottery_sherd/plenty"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:angler_pottery_sherd",
+          "modifier": "event_rebalance:pottery_sherd/shelter"
         },
         {
           "type": "minecraft:item",

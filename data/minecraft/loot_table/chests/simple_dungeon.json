@@ -249,6 +249,15 @@
           },
           "name": "minecraft:string",
           "weight": 10
+        },
+        {
+            "type": "tag",
+            "items": "#event_rebalance:custom_item/scroll/fortune",
+            "expand": false,
+            "weight": 5,
+            "modifier": [
+              "event_rebalance:custom_item/scroll"
+            ]
         }
       ],
       "rolls": 3

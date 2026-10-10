@@ -1,6 +1,73 @@
 {
-  "parent": "minecraft:block/fence_inventory",
-  "textures": {
-    "texture": "minecraft:block/bamboo_block"
-  }
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"particle": "#bar",
+    "side": "block/bamboo_fence",
+    "top":"block/bamboo_fence",
+    "bar":"block/bamboo_fence"
+	},
+	"elements": [
+		{
+			"name": "Left post",
+			"from": [6, 0, 0],
+			"to": [10, 16, 4],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 16], "texture": "#side"},
+				"east": {"uv": [0, 0, 4, 16], "texture": "#side"},
+				"south": {"uv": [0, 0, 4, 16], "texture": "#side"},
+				"west": {"uv": [0, 0, 4, 16], "texture": "#side"},
+				"up": {"uv": [4, 0, 8, 4], "texture": "#top"},
+				"down": {"uv": [4, 0, 8, 4], "texture": "#top", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Right post",
+			"from": [6, 0, 12],
+			"to": [10, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 16], "texture": "#side"},
+				"east": {"uv": [0, 0, 4, 16], "texture": "#side"},
+				"south": {"uv": [0, 0, 4, 16], "texture": "#side"},
+				"west": {"uv": [0, 0, 4, 16], "texture": "#side"},
+				"up": {"uv": [4, 0, 8, 4], "texture": "#top"},
+				"down": {"uv": [4, 0, 8, 4], "texture": "#top", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Top bar",
+			"from": [7, 12, 4],
+			"to": [9, 15, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 4]},
+			"faces": {
+				"east": {"uv": [4, 4, 13, 7], "texture": "#bar"},
+				"west": {"uv": [4, 4, 13, 7], "texture": "#bar"},
+				"up": {"uv": [13, 7, 15, 16], "texture": "#bar"},
+				"down": {"uv": [13, 7, 15, 16], "texture": "#bar"}
+			}
+		},
+		{
+			"name": "Top bar",
+			"from": [7, 6, 4],
+			"to": [9, 9, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -6, 4]},
+			"faces": {
+				"east": {"uv": [4, 4, 13, 7], "texture": "#bar"},
+				"west": {"uv": [4, 4, 13, 7], "texture": "#bar"},
+				"up": {"uv": [13, 7, 15, 16], "texture": "#bar"},
+				"down": {"uv": [13, 7, 15, 16], "texture": "#bar"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 135, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
 }

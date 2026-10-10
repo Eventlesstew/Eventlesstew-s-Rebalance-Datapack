@@ -231,7 +231,16 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 6
+          "weight": 4
+        },
+        {
+            "type": "tag",
+            "items": "#event_rebalance:custom_item/scroll/lunge",
+            "expand": false,
+            "weight": 2,
+            "modifier": [
+              "event_rebalance:custom_item/scroll"
+            ]
         },
         {
           "type": "minecraft:item",

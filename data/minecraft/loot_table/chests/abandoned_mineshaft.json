@@ -18,6 +18,15 @@
           "weight": 30
         },
         {
+            "type": "tag",
+            "items": "#event_rebalance:custom_item/scroll/fortune",
+            "expand": false,
+            "weight": 20,
+            "modifier": [
+              "event_rebalance:custom_item/scroll"
+            ]
+        },
+        {
           "type": "minecraft:item",
           "modifier": {
             "type": "minecraft:enchant_randomly",

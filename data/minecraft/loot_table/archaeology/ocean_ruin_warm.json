@@ -6,16 +6,6 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:angler_pottery_sherd",
-          "modifier": "event_rebalance:pottery_sherd/angler"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:angler_pottery_sherd",
-          "modifier": "event_rebalance:pottery_sherd/shelter"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:angler_pottery_sherd",
           "modifier": "event_rebalance:pottery_sherd/snort"
         },
         {
@@ -32,11 +22,6 @@
           "type": "minecraft:item",
           "name": "minecraft:angler_pottery_sherd",
           "modifier": "event_rebalance:pottery_sherd/mourner"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:angler_pottery_sherd",
-          "modifier": "event_rebalance:pottery_sherd/plenty"
         },
         {
           "type": "minecraft:item",
