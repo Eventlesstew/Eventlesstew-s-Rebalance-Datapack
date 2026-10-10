@@ -1,0 +1,22 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "trial_spawner"
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            {
+                "type": "set_components",
+                "components": {
+                    "block_entity_data": {
+                        "id": "trial_spawner",
+                        "required_player_range": 14,
+                        "normal_config": "structure_rework:nether_fortress/wither_skeleton",
+                        "ominous_config": "structure_rework:nether_fortress/wither_skeleton_ominous"
+                    }
+                }
+            }
+        ]
+    }
+}

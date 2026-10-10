@@ -148,6 +148,15 @@
             "weight": 1,
             "element": {
                 "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/building/bridge_intersection_4",
+                "processors": "structure_rework:nether_fortress/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
                 "location": "structure_rework:nether_fortress/building/arena_1",
                 "processors": "structure_rework:nether_fortress/age",
                 "projection": "rigid"
@@ -176,6 +185,51 @@
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:nether_fortress/building/arena_4",
+                "processors": "structure_rework:nether_fortress/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/building/arena_5",
+                "processors": "structure_rework:nether_fortress/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/building/arena_6",
+                "processors": "structure_rework:nether_fortress/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/building/arena_7",
+                "processors": "structure_rework:nether_fortress/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/building/arena_8",
+                "processors": "structure_rework:nether_fortress/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/building/arena_9",
                 "processors": "structure_rework:nether_fortress/age",
                 "projection": "rigid"
             }

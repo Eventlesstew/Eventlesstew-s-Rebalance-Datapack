@@ -1,0 +1,1 @@
+$ attribute @s movement_speed modifier add event.lightweight.animal_armor $(speed) add_multiplied_base

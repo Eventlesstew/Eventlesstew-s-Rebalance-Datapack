@@ -1,0 +1,45 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "trial_spawner",
+                    "modifier": "debug:trial_spawner/blaze"
+                }
+            ],
+            "rolls": 1
+        },
+        {
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "trial_spawner",
+                    "modifier": "debug:trial_spawner/skeleton"
+                }
+            ],
+            "rolls": 1
+        },
+        {
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "trial_spawner",
+                    "modifier": "debug:trial_spawner/wither_skeleton"
+                }
+            ],
+            "rolls": 1
+        },
+        {
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "trial_spawner",
+                    "modifier": "debug:trial_spawner/magma_cube"
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

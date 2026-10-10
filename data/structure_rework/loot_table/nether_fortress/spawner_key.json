@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "items":"#structure_rework:custom_item/fortress_key",
+          "modifier": "event_rebalance:custom_item/fortress_key",
+          "expand": false,
+          "weight": 10
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:spawners/nether_fortress/normal_key"
+}

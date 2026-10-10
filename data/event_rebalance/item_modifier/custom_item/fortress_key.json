@@ -1,0 +1,12 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "#structure_rework:custom_item/fortress_key"
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:custom_item/spawn_egg"
+        ]
+    }
+}

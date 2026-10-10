@@ -1,0 +1,1 @@
+attribute @s movement_speed modifier remove minecraft:event.lightweight.animal_armor

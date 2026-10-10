@@ -1,0 +1,27 @@
+{
+    "spawn_range": 3,
+    "total_mobs": 6,
+    "total_mobs_added_per_player": 2,
+    "simultaneous_mobs": 3,
+    "simultaneous_mobs_added_per_player": 0.5,
+    "loot_tables_to_eject": [
+        {
+            "data": "structure_rework:nether_fortress/spawner_key",
+            "weight": 3
+        },
+        {
+            "data": "structure_rework:nether_fortress/spawner",
+            "weight": 7
+        }
+    ],
+    "spawn_potentials": [
+        {
+            "data": {
+                "entity": {
+                    "id": "skeleton"
+                }
+            },
+            "weight": 1
+        }
+    ]
+}

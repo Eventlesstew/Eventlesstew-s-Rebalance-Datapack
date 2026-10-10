@@ -1,0 +1,11 @@
+{
+    "type": "entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "body": {
+          "items": "#event_rebalance:animal_armor"
+        }
+      }
+    }
+}

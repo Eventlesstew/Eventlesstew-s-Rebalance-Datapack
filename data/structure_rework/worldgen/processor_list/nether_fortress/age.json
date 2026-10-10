@@ -15,12 +15,7 @@
                     "output_state": {
                         "id": "cracked_nether_bricks"
                     }
-                }
-            ]
-        },
-        {
-            "processor_type": "minecraft:rule",
-            "rules": [
+                },
                 {
                     "input_predicate": {
                         "predicate_type": "random_block_match",
@@ -32,6 +27,44 @@
                     },
                     "output_state": {
                         "id": "soul_sand"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "random_block_match",
+                        "block": "obsidian",
+                        "probability": 0.1
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state": {
+                        "id": "crying_obsidian"
+                    }
+                }
+            ]
+        },
+        {
+            "processor_type": "rule",
+            "rules": [
+                {
+                    "input_predicate": {
+                        "predicate_type": "block_match",
+                        "block": "vault"
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state": {
+                        "id": "vault"
+                    },
+                    "block_entity_modifier": {
+                        "type": "append_static",
+                        "data": {
+                            "server_data": {
+                                "state_updating_resumes_at": 0
+                            }
+                        }
                     }
                 }
             ]

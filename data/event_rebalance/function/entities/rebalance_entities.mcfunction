@@ -12,6 +12,7 @@ execute if entity @s[type=spider] run function event_rebalance:entities/rebalanc
 execute if entity @s[type=cave_spider] run function event_rebalance:entities/rebalance/cave_spider
 execute if entity @s[type=zombie_villager] run function event_rebalance:entities/rebalance/zombie_villager
 execute if entity @s[type=creeper] run function event_rebalance:entities/rebalance/creeper
+execute if entity @s[type=horse] run function event_rebalance:entities/rebalance/horse
 
 # Nether
 execute if entity @s[type=piglin_brute] run function event_rebalance:entities/rebalance/piglin_brute

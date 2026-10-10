@@ -1,0 +1,28 @@
+{
+    "spawn_range": 3,
+    "total_mobs": 8,
+    "total_mobs_added_per_player": 2,
+    "simultaneous_mobs": 4,
+    "simultaneous_mobs_added_per_player": 1,
+    "loot_tables_to_eject": [
+        {
+            "data": "structure_rework:nether_fortress/ominous_spawner_key",
+            "weight": 3
+        },
+        {
+            "data": "structure_rework:nether_fortress/ominous_spawner",
+            "weight": 7
+        }
+    ],
+    "items_to_drop_when_ominous": "structure_rework:nether_fortress/ominous_spawner_drops",
+    "spawn_potentials": [
+        {
+            "data": {
+                "entity": {
+                    "id": "wither_skeleton"
+                }
+            },
+            "weight": 1
+        }
+    ]
+}
