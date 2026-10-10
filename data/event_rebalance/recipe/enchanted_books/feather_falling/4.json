@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_feather_falling",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "feather",
+        "feather",
+        "feather",
+        "feather"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "feather_falling": 4
+            }
+        }
+    }
+}

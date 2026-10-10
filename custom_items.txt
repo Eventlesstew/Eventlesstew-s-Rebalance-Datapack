@@ -79,6 +79,8 @@ Music Disc Bounce: Totem of Warping
 
 Wandering Trader Spawn Egg: Scroll of Fortune
 Pig Spawn Egg: Scroll of Brutality
+Camel Spawn Egg: Scroll of Lunge
+Pillager Spawn Egg: Scroll of Piercing
 
 Charcoal: Chocolate
 Music Disc Creator: Apple Pie

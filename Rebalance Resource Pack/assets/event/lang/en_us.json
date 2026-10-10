@@ -114,6 +114,10 @@
     
     "item.minecraft.wandering_trader_spawn_egg": "Scroll of Fortune",
     "item.minecraft.pig_spawn_egg": "Scroll of Brutality",
+    "item.minecraft.camel_spawn_egg": "Scroll of Lunge",
+    "item.minecraft.pillager_spawn_egg": "Scroll of Piercing",
+    "item.minecraft.strider_spawn_egg": "Scroll of Fire Aspect",
+    "item.minecraft.bogged_spawn_egg": "Scroll of Infinity",
 
     "item.event.music_disc_13": "Music Disc",
     "item.event.music_disc_cat": "Music Disc",

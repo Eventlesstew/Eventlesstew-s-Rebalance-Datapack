@@ -1,6 +1,10 @@
 {
     "values": [
         "#event_rebalance:custom_item/scroll/fortune",
-        "#event_rebalance:custom_item/scroll/brutality"
+        "#event_rebalance:custom_item/scroll/brutality",
+        "#event_rebalance:custom_item/scroll/fire_aspect",
+        "#event_rebalance:custom_item/scroll/piercing",
+        "#event_rebalance:custom_item/scroll/lunge",
+        "#event_rebalance:custom_item/scroll/infinity"
     ]
 }

@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_conserve",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "barrel",
+        "barrel",
+        "barrel"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "event_rebalance:conserve": 3
+            }
+        }
+    }
+}

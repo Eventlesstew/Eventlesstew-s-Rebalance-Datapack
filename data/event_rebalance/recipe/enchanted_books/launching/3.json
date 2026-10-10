@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_launching",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "rabbit_foot",
+        "rabbit_foot",
+        "rabbit_foot"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "event_rebalance:launching": 3
+            }
+        }
+    }
+}

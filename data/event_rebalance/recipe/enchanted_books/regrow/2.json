@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_regrow",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "apple",
+        "apple"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "event_rebalance:regrow": 2
+            }
+        }
+    }
+}

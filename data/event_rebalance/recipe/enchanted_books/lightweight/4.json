@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_lightweight",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "leather",
+        "leather",
+        "leather",
+        "leather"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "event_rebalance:lightweight": 4
+            }
+        }
+    }
+}

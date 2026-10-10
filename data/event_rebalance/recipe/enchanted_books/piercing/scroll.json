@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "S":"#event_rebalance:custom_item/scroll/piercing",
+        "L":"lapis_lazuli",
+        "M":"flint"
+    },
+    "pattern": [
+        "LML",
+        "MSM",
+        "LML"
+    ],
+    "result": {
+        "id": "pillager_spawn_egg",
+        "components": {
+            "rarity":"uncommon"
+        },
+        "count": 2
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/spawner/wither_skeleton",
+                "processors": "structure_rework:nether_fortress/age",
+                "projection": "rigid"
+            }
+        }
+    ],
+    "fallback": "structure_rework:nether_fortress/spawner/any"
+}

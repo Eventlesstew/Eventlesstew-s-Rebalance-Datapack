@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_infinity",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "#event_rebalance:custom_item/scroll/infinity"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "infinity": 1
+            }
+        }
+    }
+}

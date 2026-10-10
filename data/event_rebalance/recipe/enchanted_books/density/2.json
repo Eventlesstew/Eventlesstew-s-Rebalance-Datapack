@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_density",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "polished_tuff",
+        "polished_tuff"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "density": 2
+            }
+        }
+    }
+}

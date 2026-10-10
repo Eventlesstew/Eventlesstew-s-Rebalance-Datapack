@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_bulwark",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "iron_block",
+        "iron_block",
+        "iron_block",
+        "iron_block"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "event_rebalance:bulwark": 4
+            }
+        }
+    }
+}

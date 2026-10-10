@@ -3,7 +3,7 @@
     "key": {
         "S":"#event_rebalance:custom_item/scroll/brutality",
         "L":"lapis_lazuli",
-        "M":"#event_rebalance:porkchop"
+        "M":"#event_rebalance:custom_item/hoglin_hide"
     },
     "pattern": [
         "LML",

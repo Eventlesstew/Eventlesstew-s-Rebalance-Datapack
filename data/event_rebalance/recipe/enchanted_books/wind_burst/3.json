@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_wind_burst",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "wind_charge",
+        "wind_charge",
+        "wind_charge"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "wind_burst": 3
+            }
+        }
+    }
+}

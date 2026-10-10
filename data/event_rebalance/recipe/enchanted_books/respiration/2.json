@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_respiration",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "sponge",
+        "sponge"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "respiration": 2
+            }
+        }
+    }
+}

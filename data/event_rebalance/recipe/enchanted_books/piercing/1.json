@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_piercing",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "#event_rebalance:custom_item/scroll/piercing"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "piercing": 1
+            }
+        }
+    }
+}

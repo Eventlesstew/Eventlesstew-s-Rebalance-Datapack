@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_fire_aspect",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "#event_rebalance:custom_item/scroll/fire_aspect"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "fire_aspect": 1
+            }
+        }
+    }
+}

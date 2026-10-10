@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_mending",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "lapis_block",
+        "lapis_block"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "mending": 2
+            }
+        }
+    }
+}

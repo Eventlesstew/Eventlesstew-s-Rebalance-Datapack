@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_protection",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "iron_ingot",
+        "iron_ingot",
+        "iron_ingot",
+        "iron_ingot"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "protection": 4
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_unbreaking",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "obsidian",
+        "obsidian",
+        "obsidian"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "unbreaking": 3
+            }
+        }
+    }
+}

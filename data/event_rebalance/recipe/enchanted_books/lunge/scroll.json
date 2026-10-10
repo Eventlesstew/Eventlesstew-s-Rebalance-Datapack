@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "S":"#event_rebalance:custom_item/scroll/lunge",
+        "L":"lapis_lazuli",
+        "M":"pointed_dripstone"
+    },
+    "pattern": [
+        "LML",
+        "MSM",
+        "LML"
+    ],
+    "result": {
+        "id": "camel_spawn_egg",
+        "components": {
+            "rarity":"uncommon"
+        },
+        "count": 2
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_knockback",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "slime_ball"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "knockback": 1
+            }
+        }
+    }
+}
