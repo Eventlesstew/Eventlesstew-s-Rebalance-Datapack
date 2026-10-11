@@ -1,0 +1,23 @@
+{
+    "type": "sequence",
+    "functions": [
+        "event_rebalance:custom_item/music_disc_unstackable",
+        {
+            "type": "minecraft:set_components",
+            "components": {
+                "rarity":"common",
+                "item_name": {
+                    "translate": "item.event.magnet"
+                },
+                "item_model": "event:magnet",
+                "blocks_attacks": {
+                    "damage_reductions": []
+                },
+                "use_effects": {
+                    "can_sprint": true,
+                    "speed_multiplier": 0.5
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "I":"iron_ingot",
+        "L":"#event_rebalance:custom_item/lode"
+    },
+    "pattern": [
+        "I I",
+        "ILI"
+    ],
+    "result": {
+        "id": "music_disc_13",
+        "components": {
+            "item_name": {
+                "translate": "item.event.magnet"
+            },
+            "item_model": "event:magnet"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "values": [
+        "iron_bars",
+        "iron_block",
+        "iron_chain",
+        "iron_door",
+        "iron_ore",
+        "raw_iron_block",
+        "iron_trapdoor",
+        "lodestone",
+        "ancient_debris",
+        "netherite_block"
+    ]
+}

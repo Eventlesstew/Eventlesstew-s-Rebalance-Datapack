@@ -371,6 +371,7 @@
     "death.attack.staff_area.item": "%1$s was blasted by %2$s using %3$s",
     "death.attack.wither": "%1$s decayed",
     "death.attack.wither.player": "%1$s decayed while fighting %2$s",
+    "death.attack.magnet": "%1$s somehow managed to die to a magnet.",
 
     "advancements.story.root.title": "Progression",
     "advancements.story.getting_wood.title": "Getting Wood",

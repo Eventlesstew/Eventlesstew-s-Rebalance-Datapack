@@ -1,0 +1,95 @@
+{
+    "type": "any_of",
+    "terms": [
+        {
+            "type": "location_check",
+            "offsetZ": 1,
+            "predicate": {
+                "block": {
+                    "blocks": "#event_rebalance:magnetic"
+                }
+            }
+        },
+        {
+            "type": "location_check",
+            "offsetZ": 2,
+            "predicate": {
+                "block": {
+                    "blocks": "#event_rebalance:magnetic"
+                }
+            }
+        },
+        {
+            "type": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "#event_rebalance:magnetic"
+                }
+            },
+            "offsetZ": 3
+        },
+        {
+            "type": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "#event_rebalance:magnetic"
+                }
+            },
+            "offsetZ": 4
+        },
+        {
+            "type": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "#event_rebalance:magnetic"
+                }
+            },
+            "offsetZ": 5
+        },
+        {
+            "type": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "#event_rebalance:magnetic"
+                }
+            },
+            "offsetZ": 6
+        },
+        {
+            "type": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "#event_rebalance:magnetic"
+                }
+            },
+            "offsetZ": 7
+        },
+        {
+            "type": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "#event_rebalance:magnetic"
+                }
+            },
+            "offsetZ": 8
+        },
+        {
+            "type": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "#event_rebalance:magnetic"
+                }
+            },
+            "offsetZ": 9
+        },
+        {
+            "type": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "#event_rebalance:magnetic"
+                }
+            },
+            "offsetZ": 10
+        }
+    ]
+}

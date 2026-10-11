@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "using_magnet": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "item_model": "event:magnet"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "using_magnet"
+    ]
+  ],
+	"rewards": {
+		"function": "event_rebalance:items/magnet/use"
+	},
+  "sends_telemetry_event": true
+}

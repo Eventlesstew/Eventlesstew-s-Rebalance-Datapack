@@ -5,6 +5,8 @@
         {
             "type": "minecraft:set_components",
             "components": {
+                "rarity":"uncommon",
+                "max_stack_size":64,
                 "item_name": {
                     "translate": "item.event.crystal_heart"
                 },

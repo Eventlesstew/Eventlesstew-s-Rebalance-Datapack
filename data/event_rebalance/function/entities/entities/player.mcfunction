@@ -1,5 +1,6 @@
 function event_rebalance:advancements/castaway/timer_tick
 
-execute unless score @s event.player_deaths >= 1 static run return fail
-scoreboard players reset @s event.player_deaths
-function event_rebalance:items/crystal_heart/on_death
+execute unless entity @s[tag=event.using_magnet] run attribute @s gravity modifier remove event.magnet
+tag @s remove event.using_magnet
+
+execute if score @s event.player_deaths >= 1 static run function event_rebalance:entities/entities/player/on_death
