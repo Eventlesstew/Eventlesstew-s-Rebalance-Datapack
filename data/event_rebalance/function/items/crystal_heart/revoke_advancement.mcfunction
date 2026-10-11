@@ -1,0 +1,2 @@
+execute as @a[tag=event.used_crystal_heart] run advancement revoke @s only event_rebalance:function/use_crystal_heart
+execute as @a[tag=event.used_crystal_heart] run tag @s remove event.used_crystal_heart

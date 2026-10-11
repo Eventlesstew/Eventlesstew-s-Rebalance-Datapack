@@ -4,6 +4,8 @@
 # Slimester
 General
 - Main Inspiration
+- Feedback
+
 - Mob Rebalance System
 - Item Rebalance System
 - Dynamic Lighting
@@ -15,10 +17,12 @@ New Content
 - Daggers (Was my idea, but he polished it)
 - Rose Golden Gear
 - Shields
+- Totem of Warping
 
 Textures
 - Pressure Plate Textures
 - Rose Golden Nuggets (Made specifically for this datapack)
+- Creakstep Music Disc
 
 Recipes
 - Slab
@@ -36,6 +40,7 @@ Item Reworks
 Enchantments:
 - Acceleration
 - Bookworm Bait
+- Seine
 - Breach (Rework + Texture)
 - Bulwark (Function + Texture)
 - Combo
@@ -67,32 +72,41 @@ Food:
 - Salad
 - Sea Salad
 
-# Mr. Tusky
-- Helped with Nether Fortress rework
+# Sturbo
+- Insightful Feedback
 
-# AbcCrazy
-- Potion of Haste
-- Biscuits
+# Mr. Tusky
+- Insightful Feedback
+- Helped with Nether Fortress rework
 
 # Terrozei
 - Insightful Feedback
 
+# AbcCrazy
+- Insightful Feedback
+- Playtesting
+- Potion of Haste
+- Biscuits
+
 # Vanilla Tweaks
-I took some things from them in order to make gameplay better, including:
+Optional Resource Pack Tweaks:
 - Flint Tipped Arrows
 - Old XP sounds
-- Pixel Consistent Signs, Sonic Boom, Experience Orbs
 - Iron Golem Roses
 - Consistent Blank Pot Side
 - Age 25 Kelp
 - Different Melon and Pumpkin Stems
-- Redstone Lever Base 
 - Indicated Infested and Waxed Blocks
-- Painting Items
 - Bucket Pixel Fix
 - Brown Leather
 - Sulfur Cube Goo Fix
 
+Rebalance Resource Pack Tweaks:
+- Pixel Consistent Signs, Sonic Boom, Experience Orbs
+- Redstone Lever Groove 
+- Painting Items
+
+Datapack Tweaks
 - Unpackable Packed/Blue Ice
 
 technically i came up with these ideas without finding out they already exist on vanilla tweaks but uhhh just to be safe.
@@ -100,8 +114,13 @@ technically i came up with these ideas without finding out they already exist on
 - Ender Chest Always Drops
 - Glass Always Drops
 
-# Matcha Flavoured
-Some things from Matcha Flavoured also inspired a couple things here.
+# Klei Wright
+This guy is the creator of Matcha Flavoured, a datapack that had some influence on key things in this mod.
+
+- New Death System
+- Placeholder Crystal Heart Texture
+
+Inspirations
 - Cheaper Campfires
 - Smeltable Grass to Dry Grass
 - Cheaper Mud Crafting
@@ -118,3 +137,5 @@ Made the MCSM OST that has been featured in this datapack:
 - Ivor Theme (Ivor)
 - 103 Credits (Mob Grinder)
 - 104 Credits (Far Lands)
+
+All of the MCSM OST is free to download on Bandcamp: https://antimo.bandcamp.com/album/minecraft-story-mode-original-soundtrack 

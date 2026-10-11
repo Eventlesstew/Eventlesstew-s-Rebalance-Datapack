@@ -1,0 +1,23 @@
+{
+    "type": "sequence",
+    "functions": [
+        "event_rebalance:custom_item/music_disc",
+        {
+            "type": "minecraft:set_components",
+            "components": {
+                "item_name": {
+                    "translate": "item.event.crystal_heart"
+                },
+                "item_model": "event:crystal_heart",
+                "blocks_attacks": {
+
+                    "damage_reductions": []
+                },
+                "use_effects": {
+                    "can_sprint": true,
+                    "speed_multiplier": 1
+                }
+            }
+        }
+    ]
+}

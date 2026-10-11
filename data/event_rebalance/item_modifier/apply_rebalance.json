@@ -237,6 +237,7 @@
             "event_rebalance:custom_item/scroll",
 
             "event_rebalance:make_stackable",
+            "event_rebalance:custom_item/crystal_heart_apply",
             "event_rebalance:music_disc/11_fragment",
             "event_rebalance:music_disc/13_fragment",
             "event_rebalance:music_disc/apply"

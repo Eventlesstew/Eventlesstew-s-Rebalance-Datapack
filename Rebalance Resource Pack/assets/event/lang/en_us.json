@@ -170,6 +170,17 @@
     "item.event.chocolate": "Chocolate",
     "item.minecraft.tropical_fish": "Raw Tropical Fish",
     "item.event.cooked_tropical_fish": "Cooked Tropical Fish",
+    
+    "item.event.smithing_template.chainmail_upgrade.additions_slot_description": "Add Iron Ingot",
+    "item.event.smithing_template.chainmail_upgrade.applies_to": " Leather Armor",
+    "item.event.smithing_template.chainmail_upgrade.base_slot_description": "Add Leather armor",
+    "item.event.smithing_template.chainmail_upgrade.ingredients": " Iron Ingot",
+    "item.event.smithing_template.rose_golden_upgrade.additions_slot_description": "Add Rose Golden Ingot",
+    "item.event.smithing_template.rose_golden_upgrade.applies_to": " Golden Equipment",
+    "item.event.smithing_template.rose_golden_upgrade.base_slot_description": "Add Golden armor, weapon, or tool",
+    "item.event.smithing_template.rose_golden_upgrade.ingredients": " Rose Golden Ingot",
+    
+    "item.event.crystal_heart": "Crystal Heart",
 
     "item.minecraft.potion.effect.glowing": "Potion of Glowing",
     "item.minecraft.splash_potion.effect.glowing": "Splash Potion of Glowing",

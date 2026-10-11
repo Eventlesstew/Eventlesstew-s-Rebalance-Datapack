@@ -6,7 +6,47 @@
     "on_pass": {
         "type": "sequence",
         "functions": [
-            "event_rebalance:custom_item/spawn_egg"
+            "event_rebalance:custom_item/spawn_egg",
+            {
+                "type": "set_components",
+                "components": {
+                    "rarity":"uncommon"
+                }
+            },
+            {
+                "type": "set_lore",
+                "mode": "replace_all",
+                "lore": [
+                    {
+                        "translate":"item.minecraft.smithing_template",
+                        "color":"#aaaaaa",
+                        "italic": false
+                    },
+                    {
+                        "text": ""
+                    },
+                    {
+                        "translate":"item.minecraft.smithing_template.applies_to",
+                        "color":"#aaaaaa",
+                        "italic": false
+                    },
+                    {
+                        "translate":"item.event.smithing_template.chainmail_upgrade.applies_to",
+                        "color": "#5555ff",
+                        "italic": false
+                    },
+                    {
+                        "translate":"item.minecraft.smithing_template.ingredients",
+                        "color":"#aaaaaa",
+                        "italic": false
+                    },
+                    {
+                        "translate":"item.event.smithing_template.chainmail_upgrade.ingredients",
+                        "color": "#5555ff",
+                        "italic": false
+                    }
+                ]
+            }
         ]
     }
 }
