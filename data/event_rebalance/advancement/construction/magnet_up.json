@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "item_gained": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "event_rebalance:construction/redstone",
+  "display": {
+    "title": {
+      "translate": "advancements.construction.magnet_up.title"
+    },
+    "description": {
+      "translate": "advancements.construction.magnet_up.description"
+    },
+    "icon": {
+        "components": {
+            "item_model": "event:magnet"
+        },
+        "id": "paper"
+    }
+  },
+  "requirements": [
+    [
+      "item_gained"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

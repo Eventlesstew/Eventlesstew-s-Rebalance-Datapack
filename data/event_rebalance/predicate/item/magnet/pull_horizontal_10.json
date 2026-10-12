@@ -1,0 +1,9 @@
+{
+    "type": "any_of",
+    "terms": [
+        "event_rebalance:item/magnet/pull_east_10",
+        "event_rebalance:item/magnet/pull_north_10",
+        "event_rebalance:item/magnet/pull_south_10",
+        "event_rebalance:item/magnet/pull_west_10"
+    ]
+}

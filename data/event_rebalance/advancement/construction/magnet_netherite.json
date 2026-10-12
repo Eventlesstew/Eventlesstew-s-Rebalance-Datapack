@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "item_gained": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "event_rebalance:construction/magnet_up",
+  "display": {
+    "title": {
+      "translate": "advancements.construction.magnet_netherite.title"
+    },
+    "description": {
+      "translate": "advancements.construction.magnet_netherite.description"
+    },
+    "icon": {
+        "id": "netherite_block"
+    }
+  },
+  "requirements": [
+    [
+      "item_gained"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

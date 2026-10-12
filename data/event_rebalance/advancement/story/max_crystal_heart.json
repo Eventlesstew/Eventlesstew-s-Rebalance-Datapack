@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "item_gained": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "event_rebalance:story/use_crystal_heart",
+  "display": {
+    "frame": "challenge",
+    "title": {
+      "translate": "advancements.story.max_crystal_heart.title"
+    },
+    "description": {
+      "translate": "advancements.story.max_crystal_heart.description"
+    },
+    "icon": {
+        "components": {
+            "item_model": "event:crystal_heart"
+        },
+        "id": "paper"
+    }
+  },
+  "requirements": [
+    [
+      "item_gained"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

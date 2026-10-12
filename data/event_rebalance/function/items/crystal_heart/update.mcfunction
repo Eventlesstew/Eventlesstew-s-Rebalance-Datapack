@@ -12,3 +12,4 @@ execute if score @s extra_hearts = 7 static run attribute @s max_health modifier
 execute if score @s extra_hearts = 8 static run attribute @s max_health modifier add event.extra_hearts 16 add_value
 execute if score @s extra_hearts = 9 static run attribute @s max_health modifier add event.extra_hearts 18 add_value
 execute if score @s extra_hearts = 10 static run attribute @s max_health modifier add event.extra_hearts 20 add_value
+execute if score @s extra_hearts = 10 static run advancement grant @s only event_rebalance:story/max_crystal_heart

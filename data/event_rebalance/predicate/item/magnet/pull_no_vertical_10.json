@@ -1,0 +1,13 @@
+{
+    "type": "all_of",
+    "terms": [
+        {
+            "type": "inverted",
+            "term": "event_rebalance:item/magnet/pull_up_10"
+        },
+        {
+            "type": "inverted",
+            "term": "event_rebalance:item/magnet/pull_down_10"
+        }
+    ]
+}

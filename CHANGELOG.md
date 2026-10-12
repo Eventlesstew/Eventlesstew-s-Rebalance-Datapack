@@ -1,20 +1,19 @@
 Please note that not all of the changes have been listed. If I missed any, feel free to make an issue or pull request for them.
 
-# Primary Changes
-- Enchantments have been overhauled! Redundant and useless enchantments have been removed and replaced with more fun ones.
-- The entire advancement tree has been reworked entirely, with 3 new categories being added! (Combat, Construction and Food)
-
-Death is no longer as punishing. 
-- All dropped items are now bunched up into one spot instead of spreading out.
-- You keep the XP you collected when you die.
-- Items no longer despawn after a period of time.
-
 # Experimental Features Enabled
 - Minecart Improvements
 The datapack sets the max minecart speed to 1000, making them more viable.
 
 - Redstone Experiments
 This datapack is not meant to be used with pre-existing worlds anyway.
+
+# Primary Changes
+- Enchantments have been overhauled! Redundant and useless enchantments have been removed and replaced with more fun ones.
+- The entire advancement tree has been reworked entirely, with 3 new categories being added! (Combat, Construction and Food)
+
+Death is no longer as punishing. 
+- Keep inventory is enabled
+- TBA: Crystal hearts
 
 # Dynamic Lighting
 Entities can now emit light when in air or full water blocks, which happens with the following:
@@ -34,29 +33,50 @@ https://docs.google.com/spreadsheets/d/1JOV3jzUgcOdk2cNXv5mEQuyegpTAdHWbY9tlUcQd
 
 - The Handsaw has completely replaced Silk Touch, allowing certain blocks to become easier to obtain.
 
-# Gear
-- Durability has been readjusted for Wooden, Copper, Iron and Golden Tools.
-- Golden Gear has been rebalanced to have it's strength be inbetween Iron and Diamond, offering excellent speed at the cost of durability.
-- Weapons now display more information in their tooltips.
+# Tools, Weapons and Armor
+## Balance Changes
+All tools, weapons and armor have had their stats completely revised.
+- Each tier has been organised into two distinct groups. Stone, Iron, Diamond and Netherite provide larger damage output and high durability, with slower speed. Meanwhile Wooden, Copper and Gold provide speed, at the cost of damage and durability.
+    - Golden gear has gotten a significant buff in durability, allowing it's readjusted strength to serve as a viable alternative to Diamond. It's still rather fragile though, to keep on par with it's archetype.
+- Netherite Upgrade Smithing templates are now found at Nether Fortresses rather than Bastions.
+    - You may notice that the speedy tier of weapons (Wood/Copper/Golden) does not have a final equivalent to match Netherite. This change was made to ensure a sensible place for the upgrade template that allows you to upgrade your golden items to that final point, which you will see later on.
 
-## Stone Tools and Chainmail Armor
-- Stone tools have been completely removed. Wooden tools have been buffed accordingly and upgrade straight to Copper.
-- Additionally, Chainmail armor was also removed. It corresponded to Stone Tools originally, but has become an odd, rare armor set.
+### Mining
+TBA
+
+### Weapons
+TBA
+
+### Armor
+- Leather and Copper Armor grant a speed boost.
+- Diamond and Netherite Armor now slow you down, but have increased Armor Toughness as a result.
+- Golden and Rose Golden Armor now increase your visibility in favour of high armor and speed.
+
+TBA
+
+## New Tools and Tiers
+### The Hammer
+- Tired of a good chunk of inventory being taken by your tools? The Hammer solves that problem! It can mine just about anything, just a bit slower.
+    - It's also great at combat. It delivers the dense damage output of the axe, but onto a group of mobs rather than only one.
+
+### Daggers
+- The dagger has a high attack speed for rapid attacks, but has low damage and zero knockback to boot.
+    - The spammy nature of this weapon should allow for parity between the combat systems for Bedrock and Java.
+- Damaging enchantments however, have a short cooldown when used with the Dagger, to prevent it from being too OP.
 
 ## Rose Golden Gear
-- A new tier of tools, weapons and armor that serves as a formidable sidegrade to Netherite Armor. 
-- Rose Golden Gear offers faster gameplay at the cost of low durability, damage and stealth.
-- The Smithing Upgrades can be found at Bastion Remnants. (While the Netherite Upgrade is fortress exclusive)
+- A new tier that serves as a formidable alternative to Netherite Armor. 
+    - Like the Gold before it, Rose Gold Gear is faster at combat and mining. Though it's rather fragile and doesn't deliver in single-hit damage.
+- Rose Golden Ingots can be crafted using 4 Copper Ingots and 4 Golden Ingots. You'll be needing that for upgrading your Golden gear.
+- The Smithing Upgrades for Rose Gold can be found at Bastion Remnants.
 
-## Hammers
-- Tired of a good chunk of inventory being taken by your tools? The Hammer solves that problem! It can mine just about anything, just a bit slower.
+### Hyphae Tools and Hoglin Hide Armor
+An odd sidegrade, but you'll find it's a welcome one with it's rather unique stat spreads.
+
+TBA
 
 ## Hand Saw
 - The Hand Saw has replaced Silk Touch as a cheaper method to obtain certain blocks that usually don't drop themselves.
-
-## Daggers
-- You might like this Bedrock users! The dagger has a high attack speed for rapid attacks, but has low damage and zero knockback to boot.
-- Do note that damaging enchantments have a short cooldown when used with the Dagger, to prevent it from being too OP.
 
 ## The Staff
 A VERY WIP weapon whose secondary attack provides an area damage effect.
@@ -64,11 +84,6 @@ It can be crafted using Blaze Rods and a Ruby, which is obtainable from the Neth
 
 ## Auto Crossbow
 Also VERY WIP, a new ranged weapon that automatically fires arrows.
-
-## Armor
-- Leather and Copper Armor grant a speed boost.
-- Diamond and Netherite Armor now slow you down, but have increased Armor Toughness as a result.
-- Golden and Rose Golden Armor now increase your visibility in favour of high armor and speed.
 
 ## Shields
 5 new shield types have been added!

@@ -1,5 +1,6 @@
 tag @s add event.used_crystal_heart
 schedule function event_rebalance:items/crystal_heart/revoke_advancement 10 append
+advancement grant @s only event_rebalance:story/use_crystal_heart
 
 execute if score @s extra_hearts >= max_extra_hearts static run return fail
 scoreboard players add @s extra_hearts 1
