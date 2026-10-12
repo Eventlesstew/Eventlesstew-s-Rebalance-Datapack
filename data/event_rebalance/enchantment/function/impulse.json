@@ -1,0 +1,32 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": ""
+  },
+  "effects": {
+    "tick": [
+      {
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [0.0,0.0,1],
+          "coordinate_scale": [1,1,1],
+          "magnitude": 1
+        }
+      }
+    ]
+  },
+  "max_level": 1,
+  "max_cost": {
+    "base": 8,
+    "per_level_above_first": 8
+  },
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 8
+  },
+  "weight": 4,
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "barrier"
+}
