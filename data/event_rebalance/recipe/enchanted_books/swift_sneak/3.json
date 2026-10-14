@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_swift_sneak",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "#event_rebalance:custom_item/hoglin_hide",
+        "#event_rebalance:custom_item/hoglin_hide",
+        "#event_rebalance:custom_item/hoglin_hide"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "swift_sneak": 3
+            }
+        }
+    }
+}

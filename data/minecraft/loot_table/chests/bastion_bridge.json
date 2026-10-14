@@ -222,16 +222,20 @@
           "name": "minecraft:string"
         },
         {
-          "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:set_count",
-            "count": {
-              "type": "minecraft:uniform",
-              "max": 3,
-              "min": 1
+          "type": "minecraft:tag",
+          "items": "#event_rebalance:custom_item/hoglin_hide",
+          "expand": false,
+          "modifier": [
+            "event_rebalance:custom_item/hoglin_hide",
+              {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3,
+                "min": 1
+              }
             }
-          },
-          "name": "minecraft:leather"
+          ]
         },
         {
           "type": "minecraft:item",

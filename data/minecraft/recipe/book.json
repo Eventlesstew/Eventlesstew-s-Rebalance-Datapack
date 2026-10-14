@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:paper",
+    "minecraft:paper",
+    "minecraft:paper",
+    "#event_rebalance:leather"
+  ],
+  "result": {
+    "id": "minecraft:book"
+  }
+}

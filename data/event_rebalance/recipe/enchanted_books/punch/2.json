@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_punch",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "#event_rebalance:custom_item/scroll/punch",
+        "#event_rebalance:custom_item/scroll/punch"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "punch": 2
+            }
+        }
+    }
+}

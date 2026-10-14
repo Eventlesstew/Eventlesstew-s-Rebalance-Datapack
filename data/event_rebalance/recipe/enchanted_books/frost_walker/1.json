@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_frost_walker",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "blue_ice"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "frost_walker": 1
+            }
+        }
+    }
+}

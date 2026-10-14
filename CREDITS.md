@@ -2,7 +2,8 @@
 - Making the Datapack in it's entirety.
 
 # Slimester
-General
+
+## General
 - Main Inspiration
 - Feedback
 
@@ -12,32 +13,32 @@ General
 - Weapon stat rebalances
 - Food stat rebalances
 
-New Content
+## New Content
 - Hammers
 - Daggers (Was my idea, but he polished it)
 - Rose Golden Gear
 - Shields
 - Totem of Warping
 
-Textures
+## Textures
 - Pressure Plate Textures
 - Rose Golden Nuggets (Made specifically for this datapack)
 - Creakstep Music Disc
 
-Recipes
+## Recipes
 - Slab
 - Stairs
 - Signs
 - Hanging Sign (Modified)
 
-Item Reworks
+## Item Reworks
 - Fences (Modified)
 - Copper Compass
 - Copper Shears
 - Copper Powered Rail (Modified)
 - Copper Comparator
 
-Enchantments:
+## Enchantments
 - Acceleration
 - Bookworm Bait
 - Seine
@@ -59,8 +60,10 @@ Enchantments:
 - Rebound
 - Valor
 
-Food:
-- Much of the existing food rebalances or reworks were based on his ideas.
+## Food
+Much of the existing food rebalances or reworks were based on his ideas.
+
+However, he made the textures and initial ideas for these items:
 - Cooked Tropical Fish
 - Chocolate
 - Cheese
@@ -71,6 +74,13 @@ Food:
 - Beef Pie (Modified)
 - Salad
 - Sea Salad
+
+## Biomes
+- Swamp Rework
+
+## Structures
+- Axolotls spawning in Ocean Monuments
+- Helped with Nether Fortress rework
 
 # Sturbo
 - Insightful Feedback

@@ -1,7 +1,7 @@
 {
   "type": "minecraft:brewing",
   "input": {
-    "item": "minecraft:potion",
+    "item": "minecraft:splash_potion",
     "potion_contents": {
       "potions": "minecraft:long_strength"
     }
@@ -15,6 +15,6 @@
     "id": "minecraft:lingering_potion"
   },
   "reagent": {
-    "item": "minecraft:dragon_breath"
+    "item": "minecraft:gunpowder"
   }
 }

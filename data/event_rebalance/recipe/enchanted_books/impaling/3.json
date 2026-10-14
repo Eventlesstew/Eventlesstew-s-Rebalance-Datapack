@@ -4,9 +4,9 @@
     "ingredients": [
         "book",
         "lapis_lazuli",
-        "prismarine_shard",
-        "prismarine_shard",
-        "prismarine_shard"
+        "glass",
+        "glass",
+        "glass"
     ],
     "result": {
         "id": "enchanted_book",

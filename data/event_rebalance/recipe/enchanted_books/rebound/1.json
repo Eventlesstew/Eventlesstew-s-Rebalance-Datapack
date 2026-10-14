@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_rebound",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "#wool"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "event_rebalance:rebound": 1
+            }
+        }
+    }
+}

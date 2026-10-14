@@ -1,8 +1,9 @@
 {
     "type": "crafting_shaped",
+    "group": "crystal_heart",
     "key": {
         "D":"diamond",
-        "S":"nether_star"
+        "S":"heart_of_the_sea"
     },
     "pattern": [
         "D D",
@@ -18,6 +19,6 @@
                 "translate": "item.event.crystal_heart"
             }
         },
-        "count": 3
+        "count": 1
     }
 }

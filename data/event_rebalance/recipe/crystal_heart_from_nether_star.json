@@ -1,0 +1,24 @@
+{
+    "type": "crafting_shaped",
+    "group": "crystal_heart",
+    "key": {
+        "D":"diamond",
+        "S":"nether_star"
+    },
+    "pattern": [
+        "D D",
+        "DSD",
+        " D "
+    ],
+    "result": {
+        "id": "music_disc_13",
+        "components": {
+            "max_stack_size":64,
+            "item_model": "event:crystal_heart",
+            "item_name": {
+                "translate": "item.event.crystal_heart"
+            }
+        },
+        "count": 3
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "group": "scroll_punch",
+    "key": {
+        "S":"stick",
+        "P":"paper",
+        "M":"goat_horn"
+    },
+    "pattern": [
+        "SPS",
+        "SMS",
+        "SPS"
+    ],
+    "result": {
+        "id": "goat_spawn_egg",
+        "components": {
+            "rarity":"uncommon"
+        }
+    }
+}

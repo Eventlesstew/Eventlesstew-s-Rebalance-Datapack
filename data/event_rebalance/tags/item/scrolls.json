@@ -5,6 +5,10 @@
         "#event_rebalance:custom_item/scroll/fire_aspect",
         "#event_rebalance:custom_item/scroll/piercing",
         "#event_rebalance:custom_item/scroll/lunge",
-        "#event_rebalance:custom_item/scroll/infinity"
+        "#event_rebalance:custom_item/scroll/infinity",
+        "#event_rebalance:custom_item/scroll/respiration",
+        "#event_rebalance:custom_item/scroll/riptide",
+        "#event_rebalance:custom_item/scroll/punch",
+        "#event_rebalance:custom_item/scroll/sweeping_edge"
     ]
 }

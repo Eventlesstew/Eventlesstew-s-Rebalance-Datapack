@@ -4,7 +4,7 @@
     "ingredients": [
         "book",
         "lapis_lazuli",
-        "sponge"
+        "#event_rebalance:custom_item/scroll/respiration"
     ],
     "result": {
         "id": "enchanted_book",

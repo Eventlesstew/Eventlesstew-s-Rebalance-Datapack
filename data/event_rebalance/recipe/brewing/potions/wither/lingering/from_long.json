@@ -1,10 +1,10 @@
 {
     "type": "brewing",
     "reagent": {
-        "item": "dragon_breath"
+        "item": "gunpowder"
     },
     "input": {
-        "item": "potion",
+        "item": "splash_potion",
         "potion_contents": {
             "effects": {
                 "contains": [

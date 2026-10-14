@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "group": "scroll_riptide",
+    "key": {
+        "S":"#event_rebalance:custom_item/scroll/riptide",
+        "L":"lapis_lazuli",
+        "M":"prismarine_shard"
+    },
+    "pattern": [
+        "LML",
+        "MSM",
+        "LML"
+    ],
+    "result": {
+        "id": "guardian_spawn_egg",
+        "components": {
+            "rarity":"uncommon"
+        },
+        "count": 2
+    }
+}

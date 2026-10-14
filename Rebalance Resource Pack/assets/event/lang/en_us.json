@@ -118,6 +118,10 @@
     "item.minecraft.pillager_spawn_egg": "Scroll of Piercing",
     "item.minecraft.strider_spawn_egg": "Scroll of Fire Aspect",
     "item.minecraft.bogged_spawn_egg": "Scroll of Infinity",
+    "item.minecraft.guardian_spawn_egg": "Scroll of Riptide",
+    "item.minecraft.squid_spawn_egg": "Scroll of Respiration",
+    "item.minecraft.goat_spawn_egg": "Scroll of Punch",
+    "item.minecraft.zombie_spawn_egg": "Scroll of Sweeping Edge",
 
     "item.event.music_disc_13": "Music Disc",
     "item.event.music_disc_cat": "Music Disc",

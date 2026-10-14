@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "group": "scroll_punch",
+    "key": {
+        "S":"#event_rebalance:custom_item/scroll/punch",
+        "L":"lapis_lazuli",
+        "M":"snow_block"
+    },
+    "pattern": [
+        "LML",
+        "MSM",
+        "LML"
+    ],
+    "result": {
+        "id": "goat_spawn_egg",
+        "components": {
+            "rarity":"uncommon"
+        },
+        "count": 2
+    }
+}

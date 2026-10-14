@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_depth_strider",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "kelp",
+        "kelp"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "depth_strider": 2
+            }
+        }
+    }
+}

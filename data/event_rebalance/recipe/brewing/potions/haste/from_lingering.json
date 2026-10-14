@@ -1,7 +1,7 @@
 {
     "type": "brewing",
     "reagent": {
-        "item": "crimson_fungus"
+        "item": "prismarine_crystals"
     },
     "input": {
         "item": "lingering_potion",

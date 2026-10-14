@@ -4,10 +4,10 @@
     "ingredients": [
         "book",
         "lapis_lazuli",
-        "prismarine_crystals",
-        "prismarine_crystals",
-        "prismarine_crystals",
-        "prismarine_crystals"
+        "prismarine_shard",
+        "prismarine_shard",
+        "prismarine_shard",
+        "prismarine_shard"
     ],
     "result": {
         "id": "enchanted_book",
