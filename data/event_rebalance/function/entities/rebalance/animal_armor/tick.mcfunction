@@ -1,0 +1,2 @@
+execute if predicate event_rebalance:mobs/animal_armor_enchantment_check run function event_rebalance:entities/rebalance/animal_armor/modify
+execute if predicate event_rebalance:mobs/animal_armor_remove_check run function event_rebalance:entities/rebalance/animal_armor/remove

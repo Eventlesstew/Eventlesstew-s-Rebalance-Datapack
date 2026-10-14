@@ -1,0 +1,1 @@
+function event_rebalance:entities/rebalance/illusioner/bossbar_health

@@ -1,0 +1,41 @@
+{
+    "type": "any_of",
+    "terms": [
+        {
+            "type": "location_check",
+            "offsetX":1,
+            "predicate": {
+                "block": {
+                    "blocks": "#event_rebalance:magnetic"
+                }
+            }
+        },
+        {
+            "type": "location_check",
+            "offsetX":-1,
+            "predicate": {
+                "block": {
+                    "blocks": "#event_rebalance:magnetic"
+                }
+            }
+        },
+        {
+            "type": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "#event_rebalance:magnetic"
+                }
+            },
+            "offsetZ":1
+        },
+        {
+            "type": "location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "#event_rebalance:magnetic"
+                }
+            },
+            "offsetZ":-1
+        }
+    ]
+}

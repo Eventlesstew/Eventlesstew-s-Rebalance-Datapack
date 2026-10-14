@@ -1,1 +1,0 @@
-attribute @s max_health modifier add event_rebalance -0.2 add_multiplied_base

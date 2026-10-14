@@ -1,0 +1,1 @@
+execute store result bossbar event_rebalance:wildfire value run data get entity @s Health 1

@@ -51,3 +51,8 @@ gamerule keep_inventory true
 gamerule max_minecart_speed 1000
 
 execute as @a run function event_rebalance:items/crystal_heart/update
+
+bossbar add event_rebalance:illusioner {translate:entity.minecraft.illusioner}
+bossbar set event_rebalance:illusioner color blue
+bossbar add event_rebalance:wildfire {translate:entity.event.wildfire}
+bossbar set event_rebalance:wildfire color yellow

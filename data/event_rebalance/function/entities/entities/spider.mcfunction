@@ -1,1 +1,0 @@
-execute if predicate event_rebalance:mobs/spider_web run function event_rebalance:entities/entities/spider/web_place

@@ -1,1 +1,0 @@
-bossbar set structure_rework:illusioner players
