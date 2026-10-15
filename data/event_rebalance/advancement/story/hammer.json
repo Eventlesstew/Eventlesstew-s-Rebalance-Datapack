@@ -11,7 +11,7 @@
       "trigger": "minecraft:inventory_changed"
     }
   },
-  "parent": "story/root",
+  "parent": "event_rebalance:story/moar_tools",
   "display": {
     "title": {
       "translate": "advancements.story.hammer.title"

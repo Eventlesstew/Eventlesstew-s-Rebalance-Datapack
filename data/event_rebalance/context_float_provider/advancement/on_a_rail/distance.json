@@ -1,0 +1,23 @@
+{
+    "type": "sqrt",
+    "input": {
+        "type": "add",
+        "inputs": [
+            {
+                "type": "pow",
+                "base": "event_rebalance:advancement/on_a_rail/x",
+                "exponent": 2
+            },
+            {
+                "type": "pow",
+                "base": "event_rebalance:advancement/on_a_rail/y",
+                "exponent": 2
+            },
+            {
+                "type": "pow",
+                "base": "event_rebalance:advancement/on_a_rail/z",
+                "exponent": 2
+            }
+        ]
+    }
+}

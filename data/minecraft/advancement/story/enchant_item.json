@@ -1,5 +1,5 @@
 {
-  "parent": "story/iron_tools",
+  "parent": "story/smelt_iron",
   "criteria": {
     "enchanted_item": {
       "trigger": "minecraft:enchanted_item"

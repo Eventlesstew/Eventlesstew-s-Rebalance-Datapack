@@ -19,6 +19,7 @@
 - Rose Golden Gear
 - Shields
 - Totem of Warping
+- Magnets
 
 ## Textures
 - Pressure Plate Textures
@@ -76,7 +77,7 @@ However, he made the textures and initial ideas for these items:
 - Sea Salad
 
 ## Biomes
-- Swamp Rework
+- Biome Overhaul
 
 ## Structures
 - Axolotls spawning in Ocean Monuments
@@ -142,6 +143,9 @@ Inspirations
 - Lucky Break (Modified)
 - Dripstone Drip
 
+- On a Rail
+- Face Reveal
+
 # Antimo and Welles
 Made the MCSM OST that has been featured in this datapack:
 - Ivor Theme (Ivor)
@@ -149,3 +153,6 @@ Made the MCSM OST that has been featured in this datapack:
 - 104 Credits (Far Lands)
 
 All of the MCSM OST is free to download on Bandcamp: https://antimo.bandcamp.com/album/minecraft-story-mode-original-soundtrack 
+
+# Mielon
+- Placeholder Textures for the Sift Advancement Placeholder (Siftslate Growth)

@@ -6,7 +6,7 @@
             "offsetY":-1,
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             }
         },
@@ -15,7 +15,7 @@
             "offsetY":-2,
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             }
         },
@@ -23,7 +23,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetY":-3
@@ -32,7 +32,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetY":-4
@@ -41,7 +41,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetY":-5
@@ -50,7 +50,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetY":-6
@@ -59,7 +59,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetY":-7
@@ -68,7 +68,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetY":-8
@@ -77,7 +77,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetY":-9
@@ -86,7 +86,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetY":-10
@@ -96,7 +96,7 @@
             "offsetX": 1,
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             }
         },
@@ -105,7 +105,7 @@
             "offsetX": 2,
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             }
         },
@@ -113,7 +113,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetX": 3
@@ -122,7 +122,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetX": 4
@@ -131,7 +131,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetX": 5
@@ -140,7 +140,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetX": 6
@@ -149,7 +149,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetX": 7
@@ -158,7 +158,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetX": 8
@@ -167,7 +167,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetX": 9
@@ -176,7 +176,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetX": 10
@@ -186,7 +186,7 @@
             "offsetZ":-1,
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             }
         },
@@ -195,7 +195,7 @@
             "offsetZ":-2,
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             }
         },
@@ -203,7 +203,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetZ":-3
@@ -212,7 +212,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetZ":-4
@@ -221,7 +221,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetZ":-5
@@ -230,7 +230,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetZ":-6
@@ -239,7 +239,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetZ":-7
@@ -248,7 +248,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetZ":-8
@@ -257,7 +257,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetZ":-9
@@ -266,7 +266,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetZ":-10
@@ -276,7 +276,7 @@
             "offsetZ": 1,
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             }
         },
@@ -285,7 +285,7 @@
             "offsetZ": 2,
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             }
         },
@@ -293,7 +293,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetZ": 3
@@ -302,7 +302,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetZ": 4
@@ -311,7 +311,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetZ": 5
@@ -320,7 +320,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetZ": 6
@@ -329,7 +329,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetZ": 7
@@ -338,7 +338,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetZ": 8
@@ -347,7 +347,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetZ": 9
@@ -356,7 +356,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetZ": 10
@@ -366,7 +366,7 @@
             "offsetY": 1,
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             }
         },
@@ -375,7 +375,7 @@
             "offsetY": 2,
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             }
         },
@@ -383,7 +383,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetY": 3
@@ -392,7 +392,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetY": 4
@@ -401,7 +401,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetY": 5
@@ -410,7 +410,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetY": 6
@@ -419,7 +419,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetY": 7
@@ -428,7 +428,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetY": 8
@@ -437,7 +437,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetY": 9
@@ -446,7 +446,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetY": 10
@@ -456,7 +456,7 @@
             "offsetX":-1,
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             }
         },
@@ -465,7 +465,7 @@
             "offsetX":-2,
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             }
         },
@@ -473,7 +473,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetX":-3
@@ -482,7 +482,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetX":-4
@@ -491,7 +491,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetX":-5
@@ -500,7 +500,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetX":-6
@@ -509,7 +509,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetX":-7
@@ -518,7 +518,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetX":-8
@@ -527,7 +527,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetX":-9
@@ -536,7 +536,7 @@
             "type": "location_check",
             "predicate": {
                 "block": {
-                    "blocks": "#event_rebalance:magnetic"
+                    "blocks": "ancient_debris"
                 }
             },
             "offsetX":-10

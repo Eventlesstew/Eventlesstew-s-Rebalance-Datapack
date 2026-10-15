@@ -1,0 +1,21 @@
+{
+    "criteria": {
+		"on_a_rail": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+    "parent": "event_rebalance:construction/root",
+	"display": {
+		"icon": {
+			"id": "minecraft:rail"
+		},
+		"title": {
+            "translate": "advancements.construction.on_a_rail.title"
+        },
+		"description": {
+            "translate": "advancements.construction.on_a_rail.description"
+        },
+		"announce_to_chat": true,
+		"frame": "challenge"
+	}
+}

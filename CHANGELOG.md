@@ -29,8 +29,10 @@ https://docs.google.com/spreadsheets/d/1JOV3jzUgcOdk2cNXv5mEQuyegpTAdHWbY9tlUcQd
 # Items
 ## New Items
 - Withered Chunks: Obtainable by killing Withered Skeletons, replacing their coal drop and being used to make Soul Torches.
-- Hoglin Hide: Obtainable by killing Hoglins, replacing their Leather drop and being used to make some new gear.
+- Raw Hoglin Hide: Obtainable by killing Hoglins, replacing their Leather drop.
+- Hoglin Hide: Smeltable from Hoglin Hide, it can be used to make some new gear.
 - Breeze Powder: 2 can be crafted from a single Breeze Rod, 4 of them can be made into 8 Wind Charges.
+- Lodes: Craft out of Iron and Redstone and you can use it to repair any tool or to make Lodestones.
 
 ## Removed
 - Rabbit Hide: Whole point of it was to make Leather and it's not a good way to make it more scarce. All drops henceforth have been replaced with Leather.

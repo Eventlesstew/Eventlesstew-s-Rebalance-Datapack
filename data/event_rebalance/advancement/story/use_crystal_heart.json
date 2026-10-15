@@ -4,7 +4,7 @@
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "story/iron_tools",
+  "parent": "story/smelt_iron",
   "display": {
     "title": {
       "translate": "advancements.story.use_crystal_heart.title"

@@ -1,34 +1,53 @@
 {
   "values": [
-    "minecraft:protection",
-    "minecraft:feather_falling",
-    "minecraft:respiration",
-    "minecraft:aqua_affinity",
-    "minecraft:thorns",
-    "minecraft:depth_strider",
-    "minecraft:smite",
-    "minecraft:knockback",
-    "event_rebalance:launching",
-    "event_rebalance:harpoon",
-    "minecraft:fire_aspect",
-    "minecraft:sweeping_edge",
     "minecraft:efficiency",
-    "minecraft:unbreaking",
-    "minecraft:fortune",
-    "minecraft:power",
-    "minecraft:punch",
-    "minecraft:infinity",
+    "event_rebalance:focusing",
+    "event_rebalance:felling",
+
+    "minecraft:aqua_affinity",
+    "event_rebalance:melting",
+
+    "fortune",
+    "lure",
+
     "minecraft:luck_of_the_sea",
-    "minecraft:lure",
-    "minecraft:loyalty",
+
+    "minecraft:power",
+    "event_rebalance:frenzy",
+    "minecraft:smite",
     "minecraft:impaling",
-    "minecraft:riptide",
-    "minecraft:channeling",
-    "minecraft:multishot",
-    "minecraft:quick_charge",
-    "minecraft:piercing",
-    "minecraft:density",
+    "event_rebalance:puncture",
+    "event_rebalance:valor",
+    "event_rebalance:combo",
     "minecraft:breach",
-    "minecraft:lunge"
+    "event_rebalance:fowling",
+    "minecraft:density",
+    "minecraft:quick_charge",
+
+    "minecraft:knockback",
+    "minecraft:punch",
+    "event_rebalance:launching",
+    "sweeping_edge",
+    "event_rebalance:rebound",
+
+    "minecraft:protection",
+    "event_rebalance:regrow",
+    "event_rebalance:lightweight",
+    "minecraft:feather_falling",
+    
+    "event_rebalance:bulwark",
+    "event_rebalance:aerodynamic",
+    "minecraft:thorns",
+
+    "event_rebalance:acceleration",
+    "swift_sneak",
+
+    "frost_walker",
+    "minecraft:depth_strider",
+    
+    "minecraft:unbreaking",
+    "mending",
+    "event_rebalance:crystallization",
+    "event_rebalance:conserve"
   ]
 }

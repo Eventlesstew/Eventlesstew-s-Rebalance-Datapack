@@ -20,7 +20,12 @@
           "minecraft:water_breathing": {},
           "minecraft:weakness": {},
           "minecraft:weaving": {},
-          "minecraft:wind_charged": {}
+          "minecraft:wind_charged": {},
+          "minecraft:glowing": {},
+          "minecraft:haste": {},
+          "minecraft:mining_fatigue": {},
+          "minecraft:levitation": {},
+          "minecraft:wither": {}
         }
       },
       "trigger": "minecraft:effects_changed"

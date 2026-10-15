@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "item_gained": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "background": "event:block/siftslate_growth_top",
+    "title": {
+      "translate": "advancements.sift.heads_up.title"
+    },
+    "description": {
+      "translate": "advancements.sift.heads_up.description"
+    },
+    "icon": {
+        "id": "paper",
+        "components": {
+            "item_model": "event:siftslate_growth"
+        }
+    },
+    "announce_to_chat": false,
+    "show_toast": false,
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "item_gained"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

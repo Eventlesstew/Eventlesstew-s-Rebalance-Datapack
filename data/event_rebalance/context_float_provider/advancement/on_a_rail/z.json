@@ -1,0 +1,13 @@
+{
+    "type": "sub",
+    "left": {
+        "type": "storage",
+        "storage": "event_rebalance:advancement",
+        "path": "on_a_rail.current.z"
+    },
+    "right": {
+        "type": "storage",
+        "storage": "event_rebalance:advancement",
+        "path": "on_a_rail.starting.z"
+    }
+}

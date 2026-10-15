@@ -1,14 +1,23 @@
 {
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
   "attributes": {
+    "minecraft:visual/sky_color": "#859DFF",
+    "minecraft:visual/fog_color": "#C0D8FF",
+    "minecraft:visual/water_fog_color": "#050533",
     "minecraft:audio/background_music": {
       "default": {
         "max_delay": 24000,
         "min_delay": 12000,
+        "replace_current_music": false,
         "sound": "minecraft:music.overworld.jagged_peaks"
       }
     },
-    "minecraft:gameplay/increased_fire_burnout": true,
     "minecraft:gameplay/natural_mob_spawns": {
+      "modifier": "overlay",
       "argument": {
         "spawn_costs": {},
         "spawns_by_category": {
@@ -19,6 +28,7 @@
               "weight": 10
             }
           ],
+          "axolotls": [],
           "creature": [
             {
               "type": "minecraft:goat",
@@ -30,6 +40,7 @@
               "weight": 5
             }
           ],
+          "misc": [],
           "monster": [
             {
               "type": "minecraft:spider",
@@ -47,6 +58,11 @@
               "weight": 5
             },
             {
+              "type": "minecraft:phantom",
+              "count": 2,
+              "weight": 100
+            },
+            {
               "type": "minecraft:skeleton",
               "count": 4,
               "weight": 100
@@ -54,11 +70,6 @@
             {
               "type": "minecraft:creeper",
               "count": 4,
-              "weight": 100
-            },
-            {
-              "type": "minecraft:phantom",
-              "count": 2,
               "weight": 100
             },
             {
@@ -91,21 +102,16 @@
               },
               "weight": 10
             }
-          ]
+          ],
+          "water_ambient": [],
+          "water_creature": []
         }
-      },
-      "modifier": "overlay"
-    },
-    "minecraft:visual/sky_color": "#859dff"
+      }
+    }
   },
-  "carvers": [
-    "minecraft:cave",
-    "minecraft:cave_extra_underground",
-    "minecraft:canyon"
-  ],
   "downfall": 0.9,
   "effects": {
-    "water_color": "#3f76e4"
+    "water_color": 4159204
   },
   "features": [
     [],
@@ -148,14 +154,12 @@
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
+      "minecraft:ore_infested",
       "minecraft:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
       "minecraft:ore_emerald"
-    ],
-    [
-      "minecraft:ore_infested"
     ],
     [
       "minecraft:spring_water",

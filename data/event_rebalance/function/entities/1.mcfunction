@@ -4,7 +4,7 @@ execute if entity @s[type=arrow] run function event_rebalance:entities/rebalance
 execute if entity @s[type=player] run function event_rebalance:entities/rebalance/player/tick
 
 execute if entity @s[type=wolf] run function event_rebalance:entities/rebalance/wolf/tick
-execute if entity @s[type=#event_rebalance:can_wear_animal_armor] run function event_rebalance:entities/rebalance/animal_armor/check
+execute if entity @s[type=#event_rebalance:can_wear_animal_armor] run function event_rebalance:entities/rebalance/animal_armor/tick
 
 #execute if entity @s[type=husk] run function event_rebalance:entities/rebalance/husk/fire
 execute if entity @s[type=spider] run function event_rebalance:entities/rebalance/spider/tick

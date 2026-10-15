@@ -1,0 +1,34 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:shears"
+		},
+		"title": {
+            "translate":"advancements.construction.shear_snow_golem.title"
+        },
+		"description": {
+            "translate":"advancements.construction.shear_snow_golem.description"
+        },
+		"announce_to_chat": true
+	},
+	"parent": "event_rebalance:construction/summon_snow_golem",	
+	"criteria": {
+		"shears": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:shears"
+					]
+				},
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_type": "minecraft:snow_golem"
+					}
+				}
+			}
+		}
+	}
+}

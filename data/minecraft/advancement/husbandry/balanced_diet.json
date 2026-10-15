@@ -252,7 +252,10 @@
     "pumpkin_pie": {
       "conditions": {
         "item": {
-          "items": "minecraft:pumpkin_pie"
+          "items": "minecraft:pumpkin_pie",
+          "components": {
+            "item_model": "pumpkin_pie"
+          }
         }
       },
       "trigger": "minecraft:consume_item"
@@ -317,6 +320,109 @@
       "conditions": {
         "item": {
           "items": "minecraft:tropical_fish"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+
+    "red_mushroom": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:red_mushroom"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "popped_chorus_fruit": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:popped_chorus_fruit"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "brown_mushroom": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:brown_mushroom"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "shelf_mushroom": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:shelf_mushroom"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "warped_fungus": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:warped_fungus"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "crimson_fungus": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:crimson_fungus"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "nether_wart": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:nether_wart"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "glistering_melon_slice": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:glistering_melon_slice"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "fermented_spider_eye": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:fermented_spider_eye"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "chocolate": {
+      "conditions": {
+        "item": {
+          "components": {
+            "item_model": "event:chocolate"
+          }
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "apple_pie": {
+      "conditions": {
+        "item": {
+          "components": {
+            "item_model": "event:apple_pie"
+          }
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "cooked_tropical_fish": {
+      "conditions": {
+        "item": {
+          "components": {
+            "item_model": "event:cooked_tropical_fish"
+          }
         }
       },
       "trigger": "minecraft:consume_item"
@@ -457,6 +563,42 @@
     ],
     [
       "glow_berries"
+    ],
+    [
+      "popped_chorus_fruit"
+    ],
+    [
+      "red_mushroom"
+    ],
+    [
+      "brown_mushroom"
+    ],
+    [
+      "shelf_mushroom"
+    ],
+    [
+      "warped_fungus"
+    ],
+    [
+      "crimson_fungus"
+    ],
+    [
+      "glistering_melon_slice"
+    ],
+    [
+      "fermented_spider_eye"
+    ],
+    [
+      "nether_wart"
+    ],
+    [
+      "chocolate"
+    ],
+    [
+      "apple_pie"
+    ],
+    [
+      "cooked_tropical_fish"
     ]
   ],
   "rewards": {

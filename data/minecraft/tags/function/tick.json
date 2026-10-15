@@ -1,6 +1,5 @@
 {
     "values": [
-        "ranged_weapons:on_tick",
         "event_rebalance:on_tick"
     ]
 }

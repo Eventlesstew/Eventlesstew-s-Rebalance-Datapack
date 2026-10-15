@@ -1,0 +1,27 @@
+{
+  "values": [
+    "event_rebalance:bookworm_bait",
+    "event_rebalance:hot_rod",
+
+    "event_rebalance:brutality",
+    "channeling",
+
+    "lunge",
+    "multishot",
+    "riptide",
+    "minecraft:loyalty",
+
+    "minecraft:wind_burst",
+
+    "fire_aspect",
+
+    "minecraft:soul_speed",
+
+    "respiration",
+    
+    "event_rebalance:eternity",
+    "infinity",
+
+    "#curse"
+  ]
+}
