@@ -36,12 +36,6 @@ https://docs.google.com/spreadsheets/d/1JOV3jzUgcOdk2cNXv5mEQuyegpTAdHWbY9tlUcQd
 - Rabbit Hide: Whole point of it was to make Leather and it's not a good way to make it more scarce. All drops henceforth have been replaced with Leather.
 - Charcoal: Replaced with Coal as it is not very different from it.
 
-### Speed Meter
-This should be a useful way to calculate how fast you are going.
-- Displays horizontal and vertical speed.
-
-Perhaps I could make a toggle to change between Vertical speed or blocks fallen, for Mace users.
-
 ## Changes
 - Short and Tall Grass can now be smelted into their Dry Variants.
 - Tall Grass, Dry Grass and Large Fern can now be decrafted into their shorter versions, and vice versa.
