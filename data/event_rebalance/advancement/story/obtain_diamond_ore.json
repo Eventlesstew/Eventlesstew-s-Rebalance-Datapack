@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "item_gained": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:diamond_ores"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "parent": "story/mine_diamond",
+  "display": {
+    "title": {
+      "translate": "advancements.story.obtain_diamond_ore.title"
+    },
+    "description": {
+      "translate": "advancements.story.obtain_diamond_ore.description"
+    },
+    "icon": {
+        "id": "deepslate_diamond_ore"
+    }
+  },
+  "requirements": [
+    [
+      "item_gained"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

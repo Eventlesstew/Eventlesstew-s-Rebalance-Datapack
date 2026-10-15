@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:story/obtain_armor",
+  "parent": "event_rebalance:combat/golden_armor",
   "criteria": {
     "netherite_armor": {
       "conditions": {

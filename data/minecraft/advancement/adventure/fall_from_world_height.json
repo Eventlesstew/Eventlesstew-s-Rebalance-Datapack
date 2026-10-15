@@ -1,5 +1,5 @@
 {
-  "parent": "event_rebalance:adventure/discover_all_caves",
+  "parent": "adventure/root",
   "criteria": {
     "fall_from_world_height": {
       "conditions": {

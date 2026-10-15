@@ -11,7 +11,7 @@
       "trigger": "minecraft:inventory_changed"
     }
   },
-  "parent": "nether/loot_bastion",
+  "parent": "event_rebalance:story/obtain_gold_ingot",
   "display": {
     "title": {
       "translate": "advancements.nether.obtain_rose_gold_upgrade.title"

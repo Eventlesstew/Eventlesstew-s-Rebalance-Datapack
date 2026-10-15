@@ -5,7 +5,7 @@
       "conditions": {
         "damage": {
           "dealt": {
-            "min": 40.0
+            "min": 30.0
           }
         }
       },

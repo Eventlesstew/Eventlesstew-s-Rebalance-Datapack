@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "item_gained": {
+      "conditions": {
+        "items": [
+          {
+            "items": "gold_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "parent": "story/iron_tools",
+  "display": {
+    "title": {
+      "translate": "advancements.story.obtain_gold_ingot.title"
+    },
+    "description": {
+      "translate": "advancements.story.obtain_gold_ingot.description"
+    },
+    "icon": {
+        "id": "gold_ingot"
+    }
+  },
+  "requirements": [
+    [
+      "item_gained"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
