@@ -203,6 +203,24 @@
     "item.minecraft.lingering_potion.effect.mining_fatigue": "Lingering Potion of Fatigue",
 
     "item.modifiers.use": "When used:",
+
+    "item.event.speed_meter": "Speed Meter",
+    "item.event.speed_meter.x": "Horizontal:",
+    "item.event.speed_meter.y": "Vertical:",
+    "item.event.speed_meter.measure": "b/s",
+
+    "item.event.compass.x": "X:",
+    "item.event.compass.y": "Y:",
+    "item.event.compass.z": "Z:",
+    "item.event.compass.facing": "Facing:",
+    "item.event.compass.facing.n": "N",
+    "item.event.compass.facing.ne": "NE",
+    "item.event.compass.facing.e": "E",
+    "item.event.compass.facing.se": "SE",
+    "item.event.compass.facing.s": "S",
+    "item.event.compass.facing.sw": "SW",
+    "item.event.compass.facing.w": "W",
+    "item.event.compass.facing.nw": "NW",
     
     "enchantment.event.bookworm_bait": "Bookworm Bait",
     "enchantment.event.live_catch": "Live Catch",

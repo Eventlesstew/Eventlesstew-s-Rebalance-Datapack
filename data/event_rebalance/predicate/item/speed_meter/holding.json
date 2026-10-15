@@ -1,0 +1,31 @@
+{
+    "type": "any_of",
+    "terms": [
+        {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "components": {
+                            "item_model": "event:speed_meter"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "offhand": {
+                        "components": {
+                            "item_model": "event:speed_meter"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

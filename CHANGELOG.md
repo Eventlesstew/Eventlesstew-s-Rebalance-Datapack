@@ -26,12 +26,56 @@ Entities can now emit light when in air or full water blocks, which happens with
 The link below will provide a list of enchantments and advancements, along with planned weapon stats.
 https://docs.google.com/spreadsheets/d/1JOV3jzUgcOdk2cNXv5mEQuyegpTAdHWbY9tlUcQd-fU/edit?gid=258838270#gid=258838270 
 
-# Gear Changes
-- Mining Speed and Power is now displayed on all tools.
-- Added Rose Golden Tools, a fragile, yet fast sidegrade of Gold that you can find in Bastion Remnants
-- Netherite Upgrades can now be found in Nether Fortresses, along with a lot of Netherite.
+# Items
+## New Items
+- Withered Chunks: Obtainable by killing Withered Skeletons, replacing their coal drop and being used to make Soul Torches.
+- Hoglin Hide: Obtainable by killing Hoglins, replacing their Leather drop and being used to make some new gear.
+- Breeze Powder: 2 can be crafted from a single Breeze Rod, 4 of them can be made into 8 Wind Charges.
 
-- The Handsaw has completely replaced Silk Touch, allowing certain blocks to become easier to obtain.
+## Removed
+- Rabbit Hide: Whole point of it was to make Leather and it's not a good way to make it more scarce. All drops henceforth have been replaced with Leather.
+- Charcoal: Replaced with Coal as it is not very different from it.
+
+### Speed Meter
+This should be a useful way to calculate how fast you are going.
+- Displays horizontal and vertical speed.
+
+Perhaps I could make a toggle to change between Vertical speed or blocks fallen, for Mace users.
+
+## Changes
+- Short and Tall Grass can now be smelted into their Dry Variants.
+- Tall Grass, Dry Grass and Large Fern can now be decrafted into their shorter versions, and vice versa.
+- Bushes no longer require Shears to obtain, for consistency.
+- Shears can now collect the tall versions of grass and fern themselves instead of 2 of their smaller counterparts.
+
+### Fire Charge
+- 8 Fire Charges are now crafted from 4 Blaze powder.
+- I plan to make it so you can throw them.
+
+### Wind Charge
+- 8 Wind Charges are now crafted from 8 Breeze Powder
+
+### Heart of the Sea
+No longer found in Buried Treasure
+- Buried Treasure instead gives Scrolls of Respiration, a Heart Crystal and greater loot
+- Now found by killing Elder Guardians
+
+Heart Crystals have also been given a lot of other uses on top of the Conduit.
+- Crafting Tridents
+- Crafting the Tide Armor Trim
+- Crafting a Heart Crystal
+- Crafting Riptide Scrolls
+
+### Spectral Arrow
+TBA
+
+Will be overhauled due to Glowing Arrows being a thing.
+
+### Compass
+Now displays coordinates and direction
+
+### Clock
+Changes for the clock are currently planned.
 
 # Tools, Weapons and Armor
 ## New Additions
@@ -172,32 +216,6 @@ Golden and Rose Golden Armor grant a speed boost and max armor, at the cost of n
 - Coal, Quartz and Emerald Ore now drop multiple of their minerals instead of one.
 - Deepslate Coal Ore was replaced with Withered Remains, which can be mined into Withered Chunks
 - Gilded Blackstone now drops Raw Gold instead of Gold Nuggets, and no longer drops itself unless sawed off.
-
-# Item Changes
-
-## General Changes
-- 8 Fire Charges are now crafted from 4 Blaze powder. I plan to make it so you can throw them.
-
-- Short and Tall Grass can now be smelted into their Dry Variants.
-- Tall Grass, Dry Grass and Large Fern can now be decrafted into their shorter versions, and vice versa.
-- Bushes no longer require Shears to obtain, for consistency.
-- Shears can now collect the tall versions of grass and fern themselves instead of 2 of their smaller counterparts.
-
-
-### Heart of the Sea
-No longer found in Buried Treasure
-- Buried Treasure instead gives Scrolls of Respiration, a Heart Crystal and greater loot
-- Now found by killing Elder Guardians
-
-Heart Crystals have also been given a lot of other uses on top of the Conduit.
-- Crafting Tridents
-- Crafting the Tide Armor Trim
-- Crafting a Heart Crystal
-- Crafting Riptide Scrolls
-
-## New Items
-- Withered Chunks: Obtainable by killing Withered Skeletons, replacing their coal drop and being used to make Soul Torches.
-- Breeze Powder: Crafted from a single Breeze Rod, 4 of them can be made into 8 Wind Charges.
 
 ## Food
 Food has been completely overhauled.

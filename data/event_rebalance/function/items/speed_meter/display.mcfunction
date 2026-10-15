@@ -1,0 +1,1 @@
+$title @s actionbar {text:"",extra:[{"translate":"item.event.speed_meter.x","color":"#fed0be"}," ","$(x)",{"translate":"item.event.speed_meter.measure"}," ",{"translate":"item.event.speed_meter.y","color":"#fed0be"}," ","$(y)",{"translate":"item.event.speed_meter.measure"}]}

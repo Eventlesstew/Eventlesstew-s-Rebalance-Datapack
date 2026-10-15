@@ -13,6 +13,10 @@ scoreboard objectives add extra_hearts dummy
 
 # Add values if they don't exist
 scoreboard players add armor_stand_eye_height static 0
+scoreboard players add -1575 static 0
+scoreboard players add -1125 static 0
+scoreboard players add -675 static 0
+scoreboard players add -225 static 0
 scoreboard players add 0 static 0
 scoreboard players add 1 static 0
 scoreboard players add 2 static 0
@@ -25,12 +29,20 @@ scoreboard players add 8 static 0
 scoreboard players add 9 static 0
 scoreboard players add 10 static 0
 scoreboard players add 20 static 0
+scoreboard players add 225 static 0
+scoreboard players add 675 static 0
+scoreboard players add 1125 static 0
+scoreboard players add 1575 static 0
 scoreboard players add 180_arrow static 0
 scoreboard players add max_extra_hearts static 0
 execute as @a run scoreboard players add @s extra_hearts 0
 
 # Set values
 scoreboard players set armor_stand_eye_height static 15415
+scoreboard players add -1575 static 1575
+scoreboard players add -1125 static 1125
+scoreboard players add -675 static 675
+scoreboard players add -225 static 225
 scoreboard players set 0 static 0
 scoreboard players set 1 static 1
 scoreboard players set 2 static 2
@@ -43,6 +55,10 @@ scoreboard players set 8 static 8
 scoreboard players set 9 static 9
 scoreboard players set 10 static 10
 scoreboard players set 20 static 20
+scoreboard players add 225 static 225
+scoreboard players add 675 static 675
+scoreboard players add 1125 static 1125
+scoreboard players add 1575 static 1575
 scoreboard players set max_extra_hearts static 10
 scoreboard players set 180_arrow static 1800000
 

@@ -1,0 +1,6 @@
+{
+    "type": "storage",
+    "storage": "event_rebalance:speed_meter",
+    "path": "y",
+    "fallback": 0
+}
