@@ -1,0 +1,8 @@
+{
+    "type": "round",
+    "input": {
+        "type": "storage",
+        "storage": "event_rebalance:compass",
+        "path": "y"
+    }
+}

@@ -1,0 +1,19 @@
+{
+            "type": "pow",
+            "base": {
+                "type": "add",
+                "inputs": [
+                    {
+                        "type": "pow",
+                        "base": "event_rebalance:speed_meter/x",
+                        "exponent": 2
+                    },
+                    {
+                        "type": "pow",
+                        "base": "event_rebalance:speed_meter/z",
+                        "exponent": 2
+                    }
+                ]
+            },
+            "exponent": 0.5
+        }

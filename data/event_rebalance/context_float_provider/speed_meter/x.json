@@ -1,0 +1,21 @@
+{
+    "type": "mul",
+    "inputs": [
+        {
+            "type": "sub",
+            "left": {
+                "type": "storage",
+                "storage": "event_rebalance:speed_meter",
+                "path": "x",
+                "fallback": 0
+            },
+            "right": {
+                "type": "storage",
+                "storage": "event_rebalance:speed_meter",
+                "path": "x_prev",
+                "fallback": 0
+            }
+        },
+        0.01
+    ]
+}

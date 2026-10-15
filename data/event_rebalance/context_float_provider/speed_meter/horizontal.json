@@ -1,0 +1,14 @@
+{
+    "type": "div",
+    "left": {
+            "type": "round",
+            "input": {
+                "type": "mul",
+                "inputs": [
+                    20,
+                    "event_rebalance:speed_meter/horizontal_raw"
+                ]
+            }
+        },
+        "right": 100
+}

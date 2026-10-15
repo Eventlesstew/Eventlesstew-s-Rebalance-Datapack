@@ -1,0 +1,1 @@
+tag @s remove event.speed_meter
