@@ -423,7 +423,7 @@
         "golden":{
             "max_damage":128,
             "mining_speed":16,
-            "mining_power":2,
+            "mining_power":3,
             "tools":{
                 "sword": {
                     "attack_damage": 6,
@@ -544,7 +544,7 @@
         "rose_golden":{
             "max_damage":128,
             "mining_speed":24,
-            "mining_power":2,
+            "mining_power":3,
             "custom_tier":true,
             "tools":{
                 "sword": {

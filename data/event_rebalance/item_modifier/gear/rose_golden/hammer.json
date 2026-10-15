@@ -49,7 +49,7 @@
                     "tool": {
                         "rules": [
                             {
-                                "blocks": "#event_rebalance:pickaxe_power_3",
+                                "blocks": "#event_rebalance:pickaxe_power_4",
                                 "speed": 4.5,
                                 "correct_for_drops": false
                             },
@@ -110,7 +110,7 @@
                         "color": "#1aa819"
                     },
                     {
-                        "text": " 2 ",
+                        "text": " 3 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.mining_power"

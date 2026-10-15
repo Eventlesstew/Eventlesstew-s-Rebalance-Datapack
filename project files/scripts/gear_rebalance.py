@@ -2,8 +2,8 @@ import json
 import copy
 import pathlib
 
-template_path = "scripts/template.json"
-data_path = "scripts/gear_rebalance_data.json"
+template_path = "project files/scripts/template.json"
+data_path = "project files/scripts/gear_rebalance_data.json"
 modifier_folder_path = "data/event_rebalance/item_modifier/gear"
 
 lore_base = {
