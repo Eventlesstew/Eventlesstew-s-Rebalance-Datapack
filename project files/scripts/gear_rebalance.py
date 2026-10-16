@@ -280,7 +280,7 @@ for tier_i, tier in enumerate(data_file["tiers"]):
         # Spear Data
         if tool == "spear":
             charge_delay_seconds = get_tool_value(tier, tool, "charge_delay")
-            charge_delay_ticks = charge_delay_seconds * 20
+            charge_delay_ticks = int(charge_delay_seconds * 20)
             charge_duration_seconds = get_tool_value(tier, tool, "charge_duration")
             charge_duration_ticks = charge_duration_seconds * 20
             sound_id = get_tool_value(tier, tool, "spear_sound_id")
@@ -289,7 +289,7 @@ for tier_i, tier in enumerate(data_file["tiers"]):
                 "hit_sound": "item." + sound_id + ".hit",
             }
             components["kinetic_weapon"] = {
-                "delay_ticks": get_tool_value(tier, tool, "charge_delay") * 20,
+                "delay_ticks": charge_delay_ticks,
                 "dismount_conditions": {
                     "max_duration_ticks": int(charge_duration_ticks / 3),
                     "min_speed": 8,

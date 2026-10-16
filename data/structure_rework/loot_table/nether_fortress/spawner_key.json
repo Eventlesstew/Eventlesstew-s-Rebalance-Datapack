@@ -6,7 +6,7 @@
         {
           "type": "minecraft:tag",
           "items":"#structure_rework:custom_item/fortress_key",
-          "modifier": "event_rebalance:custom_item/fortress_key",
+          "modifier": "structure_rework:custom_item/fortress_key",
           "expand": false,
           "weight": 10
         }

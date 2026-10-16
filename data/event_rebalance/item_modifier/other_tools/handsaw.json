@@ -44,8 +44,8 @@
                     "tool": {
                         "rules": [
                             {
-                                "blocks": "#event_rebalance:pickaxe_power_4",
-                                "speed": 3,
+                                "blocks": "#event_rebalance:pickaxe_power_3",
+                                "speed": 1.5,
                                 "correct_for_drops": false
                             },
                             {
@@ -94,7 +94,7 @@
                         "italic": false
                     },
                     {
-                        "translate": " 3 ",
+                        "translate": " 2 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.mining_power"

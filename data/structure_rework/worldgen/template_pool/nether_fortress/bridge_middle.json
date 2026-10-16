@@ -98,6 +98,33 @@
                 "processors": "structure_rework:nether_fortress/age",
                 "projection": "rigid"
             }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/bridge_middle/9_5",
+                "processors": "structure_rework:nether_fortress/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/bridge_middle/9_6",
+                "processors": "structure_rework:nether_fortress/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:nether_fortress/bridge_middle/9_7",
+                "processors": "structure_rework:nether_fortress/age",
+                "projection": "rigid"
+            }
         }
     ],
     "fallback": "structure_rework:nether_fortress/bridge_middle_end"

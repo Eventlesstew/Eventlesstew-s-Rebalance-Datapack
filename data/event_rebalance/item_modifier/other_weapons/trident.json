@@ -13,6 +13,18 @@
                     "minecraft:max_damage": 256,
                     "repairable": {
                         "items": "#event_rebalance:tool_repair/trident"
+                    },
+                    "weapon": {
+                        "item_damage_per_attack": 1,
+                        "disable_blocking_for_seconds": 1
+                    },
+                    "attack_animation": {
+                        "type": "stab",
+                        "duration": 4
+                    },
+                    "piercing_weapon": {
+                        "sound": "item.spear.attack",
+                        "hit_sound": "item.spear.hit"
                     }
                 }
             }

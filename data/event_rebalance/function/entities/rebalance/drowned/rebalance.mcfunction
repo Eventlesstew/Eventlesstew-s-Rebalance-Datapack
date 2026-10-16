@@ -1,0 +1,1 @@
+execute if items entity @s weapon.mainhand trident run item replace entity @s weapon.mainhand with copper_sword

@@ -4,6 +4,10 @@ tag @s add rebalanced
 execute if entity @s[type=item] run function event_rebalance:entities/rebalance/item/rebalance
 execute if entity @s[type=arrow] run function event_rebalance:entities/rebalance/arrow/rebalance
 
+# Overworld Animals
+execute if entity @s[type=horse] run function event_rebalance:entities/rebalance/horse/rebalance
+execute if entity @s[type=goat] run function event_rebalance:entities/rebalance/goat/rebalance
+
 # Overworld
 execute if entity @s[type=zombie] run function event_rebalance:entities/rebalance/zombie/rebalance
 execute if entity @s[type=skeleton] run function event_rebalance:entities/rebalance/skeleton/rebalance
@@ -11,8 +15,10 @@ execute if entity @s[type=husk] run function event_rebalance:entities/rebalance/
 execute if entity @s[type=spider] run function event_rebalance:entities/rebalance/spider/rebalance
 execute if entity @s[type=cave_spider] run function event_rebalance:entities/rebalance/cave_spider/rebalance
 execute if entity @s[type=zombie_villager] run function event_rebalance:entities/rebalance/zombie_villager/rebalance
+execute if entity @s[type=drowned] run function event_rebalance:entities/rebalance/drowned/rebalance
 execute if entity @s[type=creeper] run function event_rebalance:entities/rebalance/creeper/rebalance
-execute if entity @s[type=horse] run function event_rebalance:entities/rebalance/horse/rebalance
+
+# Nether
 execute if entity @s[type=blaze] run function event_rebalance:entities/rebalance/blaze/rebalance
 
 # Nether

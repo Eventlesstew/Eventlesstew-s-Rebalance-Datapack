@@ -9,8 +9,9 @@
         "S "
     ],
     "result": {
-        "id": "music_disc_mall",
+        "id": "music_disc_pigstep",
         "components": {
+            "!jukebox_playable":{},
             "item_model": "event:gear/golden/dagger",
             "item_name": {
                 "translate": "item.event.golden_dagger"

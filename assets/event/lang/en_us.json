@@ -160,8 +160,6 @@
     "item.minecraft.hoglin_spawn_egg": "Rose Golden Upgrade",
     "item.minecraft.breeze_spawn_egg": "Breeze Powder",
     "item.minecraft.wither_skeleton_spawn_egg": "Withered Chunks",
-    "item.minecraft.ghast_spawn_egg": "Ominous Fortress Key",
-    "item.minecraft.happy_ghast_spawn_egg": "Fortress Key",
 
     "item.event.wooden_shield": "Wooden Shield",
     "item.event.cluster_shield": "Cluster Shield",
@@ -423,7 +421,7 @@
     "advancements.story.anvil.description": "Craft an Anvil",
     "advancements.story.enchant_item.description":"Find or create an enchanted item",
     "advancements.story.disenchant_item.title": "Disenchanter",
-    "advancements.story.disenchant_item.description": "Interact with a Grindstone.",
+    "advancements.story.disenchant_item.description": "Interact with a Grindstone",
     "advancements.story.obtain_item_with_5_enchants.title": "Family Favourite",
     "advancements.story.obtain_item_with_5_enchants.description": "Have 5 enchantments applied to a single item",
     "advancements.story.craft_weapon.description": "Craft a weapon",
@@ -583,7 +581,7 @@
     "advancements.end.use_totem_of_warping_in_end.title": "It's NOT the end!",
     "advancements.end.use_totem_of_warping_in_end.description": "Save yourself from the Void with a Totem of Warping",
     
-    "advancements.sift.heads_up.title": "The Sift",
+    "advancements.sift.heads_up.title": "Sift",
     "advancements.sift.heads_up.description": "HEADS UP! This advancement is purely meant to ensure that a spot is left vacant for the upcoming Sift Dimension.",
 
     "container.stonecutter": "Sawmill",

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "event:item/ominous_fortress_key"
+    "model": "structure_rework:item/fortress_key"
   }
 }

@@ -51,7 +51,7 @@
                         "hit_sound": "item.spear.hit"
                     },
                     "kinetic_weapon": {
-                        "delay_ticks": 6.0,
+                        "delay_ticks": 6,
                         "dismount_conditions": {
                             "max_duration_ticks": 80,
                             "min_speed": 8

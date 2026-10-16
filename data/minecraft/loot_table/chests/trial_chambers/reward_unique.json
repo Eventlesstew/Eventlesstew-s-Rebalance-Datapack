@@ -23,10 +23,6 @@
           "name": "minecraft:music_disc_13",
           "modifier": "event_rebalance:music_disc/precipice",
           "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:trident"
         }
       ],
       "rolls": 1
