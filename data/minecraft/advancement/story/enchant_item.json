@@ -2,7 +2,23 @@
   "parent": "story/smelt_iron",
   "criteria": {
     "enchanted_item": {
-      "trigger": "minecraft:enchanted_item"
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "#event_rebalance:all",
+                  "levels": {
+                    "min": 1
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
     }
   },
   "display": {

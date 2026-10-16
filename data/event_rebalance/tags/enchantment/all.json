@@ -1,0 +1,74 @@
+{
+    "values": [
+        "efficiency",
+        "event_rebalance:focusing",
+        "event_rebalance:felling",
+
+        "aqua_affinity",
+        "event_rebalance:melting",
+
+        "fortune",
+        "lure",
+
+        "luck_of_the_sea",
+        "event_rebalance:bookworm_bait",
+        "event_rebalance:hot_rod",
+
+        "power",
+        "smite",
+        "event_rebalance:fowling",
+        "event_rebalance:valor",
+        "event_rebalance:puncture",
+        "event_rebalance:brutality",
+        "event_rebalance:combo",
+        "breach",
+        "impaling",
+        "channeling",
+        "event_rebalance:frenzy",
+        "quick_charge",
+
+        "lunge",
+        "multishot",
+        "piercing",
+        "loyalty",
+        "riptide",
+
+        "knockback",
+        "punch",
+        "event_rebalance:launching",
+        "sweeping_edge",
+        "event_rebalance:rebound",
+        "wind_burst",
+
+        "fire_aspect",
+
+        "protection",
+        "event_rebalance:regrow",
+        "event_rebalance:lightweight",
+
+        "respiration",
+
+        "event_rebalance:bulwark",
+        "event_rebalance:aerodynamic",
+        "thorns",
+
+        "event_rebalance:acceleration",
+        "swift_sneak",
+
+        "frost_walker",
+        "depth_strider",
+        "soul_speed",
+
+        "unbreaking",
+        "mending",
+        "event_rebalance:crystallization",
+        "event_rebalance:eternity",
+        "infinity",
+        "event_rebalance:conserve",
+
+        "binding_curse",
+        "vanishing_curse",
+        "event_rebalance:avarice_curse",
+        "event_rebalance:fragility_curse"
+    ]
+}

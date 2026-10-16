@@ -10,7 +10,8 @@
             {
                 "type": "minecraft:set_components",
                 "components": {
-                    "rarity":"uncommon"
+                    "rarity":"uncommon",
+                    "enchantment_glint_override": true
                 }
             }
         ]
