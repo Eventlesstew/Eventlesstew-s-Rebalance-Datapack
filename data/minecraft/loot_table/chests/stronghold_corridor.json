@@ -172,11 +172,26 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 9
+          "weight": 7
+        },
+        {
+          "type": "minecraft:tag",
+          "items": "#event_rebalance:custom_item/crystal_heart",
+          "modifier": [
+            "event_rebalance:custom_item/crystal_heart_apply"
+          ],
+          "expand": false,
+          "weight": 2
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:eye_armor_trim_smithing_template"
+          "name": "minecraft:eye_armor_trim_smithing_template",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 2
+            }
+          ]
         }
       ],
       "rolls": 1

@@ -72,84 +72,147 @@
         },
         {
           "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:enchant_randomly",
-            "options": "#minecraft:on_random_loot"
-          },
+          "modifier": [
+            "event_rebalance:gear/golden/sword",
+            {
+              "type": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
           "name": "minecraft:golden_sword",
-          "weight": 15
+          "weight": 5
         },
         {
           "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:enchant_randomly",
-            "options": "#minecraft:on_random_loot"
-          },
+          "modifier": [
+            "event_rebalance:gear/golden/spear",
+            {
+              "type": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:golden_spear",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:tag",
+          "items":"#event_rebalance:custom_item/gear/golden/dagger",
+          "modifier": [
+            "event_rebalance:gear/golden/dagger",
+            {
+              "type": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "minecraft:tag",
+          "items":"#event_rebalance:custom_item/gear/golden/hammer",
+          "modifier": [
+            "event_rebalance:gear/golden/hammer",
+            {
+              "type": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": [
+            "event_rebalance:gear/golden/axe",
+            {
+              "type": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
           "name": "minecraft:golden_axe",
-          "weight": 15
+          "weight": 5
         },
         {
           "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:enchant_randomly",
-            "options": "#minecraft:on_random_loot"
-          },
+          "modifier": [
+            "event_rebalance:gear/golden/hoe",
+            {
+              "type": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
           "name": "minecraft:golden_hoe",
-          "weight": 15
+          "weight": 5
         },
         {
           "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:enchant_randomly",
-            "options": "#minecraft:on_random_loot"
-          },
+          "modifier": [
+            "event_rebalance:gear/golden/shovel",
+            {
+              "type": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
           "name": "minecraft:golden_shovel",
-          "weight": 15
+          "weight": 5
         },
         {
           "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:enchant_randomly",
-            "options": "#minecraft:on_random_loot"
-          },
+          "modifier": [
+            "event_rebalance:gear/golden/pickaxe",
+            {
+              "type": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
           "name": "minecraft:golden_pickaxe",
-          "weight": 15
+          "weight": 5
         },
         {
           "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:enchant_randomly",
-            "options": "#minecraft:on_random_loot"
-          },
+          "modifier": [
+            "event_rebalance:gear/golden/boots",
+            {
+              "type": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
           "name": "minecraft:golden_boots",
-          "weight": 15
+          "weight": 5
         },
         {
           "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:enchant_randomly",
-            "options": "#minecraft:on_random_loot"
-          },
+          "modifier": [
+            "event_rebalance:gear/golden/chestplate",
+            {
+              "type": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
           "name": "minecraft:golden_chestplate",
-          "weight": 15
+          "weight": 5
         },
         {
           "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:enchant_randomly",
-            "options": "#minecraft:on_random_loot"
-          },
+          "modifier": [
+            "event_rebalance:gear/golden/helmet",
+            {
+              "type": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
           "name": "minecraft:golden_helmet",
-          "weight": 15
+          "weight": 5
         },
         {
           "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:enchant_randomly",
-            "options": "#minecraft:on_random_loot"
-          },
+          "modifier": [
+            "event_rebalance:gear/golden/leggings",
+            {
+              "type": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
           "name": "minecraft:golden_leggings",
-          "weight": 15
+          "weight": 5
         },
         {
           "type": "minecraft:item",
@@ -162,11 +225,6 @@
             }
           },
           "name": "minecraft:glistering_melon_slice",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_horse_armor",
           "weight": 5
         },
         {
