@@ -1,0 +1,1 @@
+$execute positioned $(old_x) $(old_y) $(old_z) facing entity @s eyes run rotate @n[tag=homing_marker] ~ ~

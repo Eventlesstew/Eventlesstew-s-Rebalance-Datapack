@@ -1,0 +1,33 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "enchantment.balance.ricochet",
+    "color": "#c3ff7e",
+    "shadow_color": -869230800
+  },
+  "effects": {
+    "minecraft:projectile_spawned": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "event_rebalance:enchantments/ricochet/start"
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#event_rebalance:exclusive_set/range",
+  "max_level": 5,
+  "max_cost": {
+    "base": 8,
+    "per_level_above_first": 8
+  },
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 8
+  },
+  "weight": 2,
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#event_rebalance:enchantable/ranged_weapon"
+}

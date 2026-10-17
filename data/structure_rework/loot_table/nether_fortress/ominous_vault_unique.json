@@ -21,12 +21,7 @@
             }
           ],
           "name": "minecraft:netherite_upgrade_smithing_template",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:skull_banner_pattern",
-          "weight": 3
+          "weight": 5
         },
         {
           "type": "minecraft:item",

@@ -266,10 +266,30 @@
         {"name":"event:enchant/swirling/swirling2"},
         {"name":"event:enchant/swirling/swirling3"}
     ]},
-    "enchant.ricochet":{"sounds":[ 
-        {"name":"event:enchant/ricochet/ricochet1"},
-        {"name":"event:enchant/ricochet/ricochet2"}
-    ]},
+    "enchant.echo.destroy_bow":{
+        "sounds":[ 
+            {"name":"block/fungus/break1"},
+            {"name":"block/fungus/break2"},
+            {"name":"block/fungus/break3"},
+            {"name":"block/fungus/break4"},
+            {"name":"block/fungus/break5"}
+        ],
+        "subtitle": "subtitles.echo.destroy.bow"
+    },
+    "enchant.common.destroy":{
+        "sounds":[ 
+            {"name":"mob/pufferfish/blow_out1"},
+            {"name":"mob/pufferfish/blow_out2"}
+        ],
+        "subtitle": "subtitles.common.destroy"
+    },
+    "enchant.ricochet":{
+        "sounds":[ 
+            {"name":"event:enchant/ricochet/ricochet1"},
+            {"name":"event:enchant/ricochet/ricochet2"}
+        ],
+        "subtitle": "subtitles.enchant.ricochet"
+    },
     "enchant.fast_forward.wood":{"sounds":[ 
         {"name":"event:enchant/fast_forward/wood/use1"}
     ]},

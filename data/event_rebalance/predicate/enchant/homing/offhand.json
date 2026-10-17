@@ -1,0 +1,22 @@
+{
+  "type": "all_of",
+  "terms": [
+    {
+      "type": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "offhand": {
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "event_rebalance:homing"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

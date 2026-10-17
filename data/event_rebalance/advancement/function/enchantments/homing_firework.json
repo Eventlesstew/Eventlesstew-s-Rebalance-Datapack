@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "shot": {
+      "trigger": "minecraft:shot_crossbow",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "enchantments": [
+              {
+                "enchantments": "event_rebalance:homing"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "shot"
+    ]
+  ],
+	"rewards": {
+		"function": "event_rebalance:enchantments/homing/start_firework"
+	},
+  "sends_telemetry_event": true
+}

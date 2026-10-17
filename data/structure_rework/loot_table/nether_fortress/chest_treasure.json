@@ -142,6 +142,21 @@
         },
         {
           "type": "item",
+          "weight": 1,
+          "name": "crying_obsidian",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+                "type": "uniform",
+                "max": 6,
+                "min": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
           "weight": 2,
           "name": "flint_and_steel",
           "modifier": [
@@ -190,79 +205,8 @@
     {
       "entries": [
         {
-          "type": "item",
-          "weight": 10,
-          "name": "diamond",
-          "modifier": [
-            {
-              "type": "set_count",
-              "count": {
-                "type": "uniform",
-                "max": 6,
-                "min": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 10,
-          "name": "crying_obsidian",
-          "modifier": [
-            {
-              "type": "set_count",
-              "count": {
-                "type": "uniform",
-                "max": 6,
-                "min": 3
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 2,
-          "name": "wither_skeleton_skull"
-        },
-        {
-          "type": "item",
-          "weight": 2,
-          "name": "ancient_debris"
-        },
-        {
-          "type": "item",
-          "weight": 2,
-          "name": "netherite_scrap"
-        },
-        {
-          "type": "item",
-          "weight": 5,
-          "name": "golden_apple"
-        },
-        {
-          "type": "item",
-          "weight": 2,
-          "name": "wither_skeleton_skull"
-        }
-      ],
-      "rolls": 1
-    },
-    {
-      "entries": [
-        {
           "type": "empty",
-          "weight": 10
-        },
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "rib_armor_trim_smithing_template",
-          "modifier": [
-            {
-              "type": "set_count",
-              "count": 2
-            }
-          ]
+          "weight": 14
         },
         {
           "type": "item",

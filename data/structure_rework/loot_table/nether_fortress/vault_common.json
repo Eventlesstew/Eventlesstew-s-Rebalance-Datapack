@@ -56,11 +56,7 @@
           "weight": 3
         }
       ],
-      "rolls": {
-        "type": "uniform",
-        "max": 3,
-        "min": 1
-      }
+      "rolls": 1
     }
   ],
   "random_sequence": "event_rebalance:nether_fortress/vault/common"

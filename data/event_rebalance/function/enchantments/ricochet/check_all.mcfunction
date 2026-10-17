@@ -1,0 +1,2 @@
+execute as @e[tag=ricochet_arrow] at @s run function event_rebalance:enchantments/ricochet/check_one
+execute if entity @e[tag=ricochet_arrow] run schedule function event_rebalance:enchantments/ricochet/check_all 1t append

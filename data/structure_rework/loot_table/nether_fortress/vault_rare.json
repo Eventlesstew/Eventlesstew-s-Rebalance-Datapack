@@ -17,32 +17,12 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:ancient_debris",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:netherite_scrap",
           "weight": 2
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:wither_skeleton_skull",
+          "name": "minecraft:netherite_scrap",
           "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "modifier": {
-            "type": "set_enchantments",
-            "enchantments": {
-                "soul_speed": {
-                    "type": "uniform",
-                    "max": 3,
-                    "min": 1
-                }
-            }
-          },
-          "name": "minecraft:enchanted_book",
-          "weight": 3
         },
         {
           "type": "tag",
@@ -52,6 +32,92 @@
             "event_rebalance:custom_item/totem_of_warping"
           ],
           "weight": 9
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_sword",
+          "modifier": [
+            "event_rebalance:gear/golden/sword"
+          ],
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_axe",
+          "modifier": [
+            "event_rebalance:gear/golden/axe"
+          ],
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_spear",
+          "modifier": [
+            "event_rebalance:gear/golden/spear"
+          ],
+          "weight": 1
+        },
+        {
+          "type": "tag",
+          "items": "#event_rebalance:custom_item/gear/golden/dagger",
+          "expand":false,
+          "modifier": [
+            {
+              "type": "set_components",
+              "components": {
+                "item_model": "event:gear/golden/dagger"
+              }
+            },
+            "event_rebalance:gear/golden/dagger"
+          ],
+          "weight": 1
+        },
+        {
+          "type": "tag",
+          "items": "#event_rebalance:custom_item/gear/golden/hammer",
+          "expand":false,
+          "modifier": [
+            {
+              "type": "set_components",
+              "components": {
+                "item_model": "event:gear/golden/hammer"
+              }
+            },
+            "event_rebalance:gear/golden/hammer"
+          ],
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_helmet",
+          "modifier": [
+            "event_rebalance:gear/golden/helmet"
+          ],
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_chestplate",
+          "modifier": [
+            "event_rebalance:gear/golden/chestplate"
+          ],
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_leggings",
+          "modifier": [
+            "event_rebalance:gear/golden/leggings"
+          ],
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_boots",
+          "modifier": [
+            "event_rebalance:gear/golden/boots"
+          ],
+          "weight": 1
         }
       ],
       "rolls": 1

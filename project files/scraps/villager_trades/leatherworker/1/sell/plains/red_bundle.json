@@ -7,15 +7,15 @@
         "id": "red_bundle"
     },
     "max_uses": {
-        "type": "add",
-        "inputs": ["event_rebalance:villager/stock/low"]
+        "type": "abs",
+        "input": "event_rebalance:villager/stock/low"
     },
     "xp": {
-        "type": "add",
-        "inputs": ["event_rebalance:villager/xp/1/medium"]
+        "type": "abs",
+        "input": "event_rebalance:villager/xp/1/medium"
     },
     "reputation_discount": {
-        "type": "add",
-        "inputs": ["event_rebalance:villager/reputation_discount/selling"]
+        "type": "abs",
+        "input": "event_rebalance:villager/reputation_discount/selling"
     }
 }

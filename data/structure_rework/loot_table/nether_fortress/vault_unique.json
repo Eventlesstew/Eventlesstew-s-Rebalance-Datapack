@@ -4,10 +4,6 @@
     {
       "entries": [
         {
-          "type": "minecraft:empty",
-          "weight": 9
-        },
-        {
           "type": "minecraft:item",
           "modifier": [
             {
@@ -21,13 +17,28 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:skull_banner_pattern",
-          "weight": 9
+          "weight": 5
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_13",
           "modifier": "event_rebalance:music_disc/far_lands",
-          "weight": 9
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": {
+            "type": "set_enchantments",
+            "enchantments": {
+                "soul_speed": {
+                    "type": "uniform",
+                    "max": 3,
+                    "min": 1
+                }
+            }
+          },
+          "name": "minecraft:enchanted_book",
+          "weight": 5
         }
       ],
       "rolls": 1

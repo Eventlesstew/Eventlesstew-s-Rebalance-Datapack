@@ -1447,6 +1447,24 @@
             },
             {
                 "when": {
+                    "event_rebalance:guiding": 1
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/guiding"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
                     "event_rebalance:harpoon": 1
                 },
                 "model": {
@@ -1473,6 +1491,42 @@
                         {
                             "type": "model",
                             "model": "event:item/enchanted_book/harpoon"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:homing": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/homing"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:homing": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/homing"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:homing": 3
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/homing"
                         },
                         {
                             "type": "model",
@@ -2265,6 +2319,60 @@
                         {
                             "type": "model",
                             "model": "event:item/enchanted_book/respiration"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:ricochet": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/ricochet"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:ricochet": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/ricochet"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:ricochet": 3
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/ricochet"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:ricochet": 4
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/ricochet"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:ricochet": 5
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/ricochet"
                         },
                         {
                             "type": "model",

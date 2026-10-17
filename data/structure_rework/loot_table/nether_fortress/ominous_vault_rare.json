@@ -49,14 +49,10 @@
             "event_rebalance:gear/diamond/sword",
             {
                 "type": "enchant_with_levels",
-                "levels": {
-                    "type": "uniform",
-                    "max": 20,
-                    "min": 10
-                }
+                "levels": 30
             }
           ],
-          "name": "minecraft:diamond_sword",
+          "name": "minecraft:enchanted_book",
           "weight": 5
         },
         {
@@ -114,6 +110,77 @@
           ],
           "expand": false,
           "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_sword",
+          "modifier": [
+            "event_rebalance:gear/golden/sword",
+            {
+              "type": "enchant_with_levels",
+              "levels": {
+                "type": "uniform",
+                "max": 30,
+                "min": 22
+              }
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_axe",
+          "modifier": [
+            "event_rebalance:gear/golden/axe",
+            {
+              "type": "enchant_with_levels",
+              "levels": {
+                "type": "uniform",
+                "max": 30,
+                "min": 22
+              }
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_spear",
+          "modifier": [
+            "event_rebalance:gear/golden/spear",
+            {
+              "type": "enchant_with_levels",
+              "levels": {
+                "type": "uniform",
+                "max": 30,
+                "min": 22
+              }
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "tag",
+          "items": "#event_rebalance:custom_item/gear/golden/dagger",
+          "expand":false,
+          "modifier": [
+            {
+              "type": "set_components",
+              "components": {
+                "item_model": "event:gear/golden/dagger"
+              }
+            },
+            "event_rebalance:gear/golden/dagger",
+            {
+              "type": "enchant_with_levels",
+              "levels": {
+                "type": "uniform",
+                "max": 30,
+                "min": 22
+              }
+            }
+          ],
+          "weight": 1
         }
       ],
       "rolls": 1
