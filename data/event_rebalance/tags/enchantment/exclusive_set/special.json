@@ -4,6 +4,9 @@
         "loyalty",
         "multishot",
         "piercing",
-        "riptide"
+        "riptide",
+        "event_rebalance:rampage",
+        "event_rebalance:crackle",
+        "event_rebalance:feasting"
     ]
 }

@@ -24,6 +24,10 @@
     "minecraft:density",
     "minecraft:quick_charge",
 
+    "event_rebalance:crackle",
+    "event_rebalance:feasting",
+    "event_rebalance:rampage",
+
     "minecraft:knockback",
     "minecraft:punch",
     "event_rebalance:launching",

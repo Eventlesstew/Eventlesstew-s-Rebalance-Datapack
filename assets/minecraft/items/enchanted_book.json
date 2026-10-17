@@ -790,6 +790,42 @@
             },
             {
                 "when": {
+                    "event_rebalance:crackle": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/crackle"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:crackle": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/crackle"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:crackle": 3
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/crackle"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
                     "event_rebalance:crystallization": 1
                 },
                 "model": {
@@ -978,6 +1014,42 @@
                         {
                             "type": "model",
                             "model": "event:item/enchanted_book/eternity"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:feasting": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/feasting"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:feasting": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/feasting"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:feasting": 3
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/feasting"
                         },
                         {
                             "type": "model",
@@ -2013,6 +2085,42 @@
                         {
                             "type": "model",
                             "model": "event:item/enchanted_book/quick_charge"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:rampage": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/rampage"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:rampage": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/rampage"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:rampage": 3
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/rampage"
                         },
                         {
                             "type": "model",

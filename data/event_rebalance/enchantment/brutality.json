@@ -66,5 +66,5 @@
   "slots": [
     "mainhand"
   ],
-  "supported_items": "#event_rebalance:enchantable/brute"
+  "supported_items": "#event_rebalance:enchantable/brute_wolf"
 }

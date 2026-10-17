@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_feasting",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "cooked_beef",
+        "cooked_beef"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "event_rebalance:feasting": 2
+            }
+        }
+    }
+}

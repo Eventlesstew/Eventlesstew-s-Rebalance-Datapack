@@ -46,9 +46,11 @@
 - Breach (Rework + Texture)
 - Bulwark (Function + Texture)
 - Combo
+- Crackle
 - Density (Texture Only)
 - Efficiency (Texture Only)
 - Eternity
+- Feasting
 - Feather Falling (Texture Only)
 - Focusing
 - Fowling
@@ -58,6 +60,7 @@
 - Mending (Rework)
 - Protection (Texture Only)
 - Punch (Rework)
+- Rampage
 - Rebound
 - Valor
 

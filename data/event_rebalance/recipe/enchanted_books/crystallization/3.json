@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_crystallization",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "amethyst_shard",
+        "amethyst_shard",
+        "amethyst_shard"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "event_rebalance:crystallization": 3
+            }
+        }
+    }
+}

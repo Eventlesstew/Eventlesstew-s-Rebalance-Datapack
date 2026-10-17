@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_crackle",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "bone"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "event_rebalance:crackle": 1
+            }
+        }
+    }
+}
