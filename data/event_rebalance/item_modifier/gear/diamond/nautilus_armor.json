@@ -34,14 +34,14 @@
                         "id": "balance_nautilus_armor",
                         "operation": "add_multiplied_base",
                         "attribute": "movement_speed",
-                        "amount": -0.05,
+                        "amount": -0.12,
                         "slot": "body"
                     },
                     {
                         "id": "balance_nautilus_armor",
                         "operation": "add_multiplied_base",
                         "attribute": "air_drag_modifier",
-                        "amount": 0.1,
+                        "amount": 0.24,
                         "slot": "body"
                     }
                 ]
@@ -80,7 +80,7 @@
                         "color": "#1aa819"
                     },
                     {
-                        "text": " -5% ",
+                        "text": " -12% ",
                         "extra": [
                             {
                                 "translate": "attribute.name.movement_speed"

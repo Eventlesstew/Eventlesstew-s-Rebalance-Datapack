@@ -27,14 +27,14 @@
                         "id": "balance_horse_armor",
                         "operation": "add_multiplied_base",
                         "attribute": "movement_speed",
-                        "amount": 0.02,
+                        "amount": 0.2,
                         "slot": "body"
                     },
                     {
                         "id": "balance_horse_armor",
                         "operation": "add_multiplied_base",
                         "attribute": "air_drag_modifier",
-                        "amount": -0.02,
+                        "amount": -0.2,
                         "slot": "body"
                     }
                 ]
@@ -63,7 +63,7 @@
                         "color": "#1aa819"
                     },
                     {
-                        "text": " 2% ",
+                        "text": " 20% ",
                         "extra": [
                             {
                                 "translate": "attribute.name.movement_speed"

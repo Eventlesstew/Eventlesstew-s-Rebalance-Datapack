@@ -200,8 +200,8 @@
                 },
                 "horse_armor": {
                     "armor": 8,
-                    "movement_speed": 2,
-                    "air_drag_modifier": -2
+                    "movement_speed": 20,
+                    "air_drag_modifier": -20
                 },
                 "nautilus_armor": {
                     "custom_tool": true
@@ -258,8 +258,8 @@
                 },
                 "horse_armor": {
                     "armor": 10,
-                    "movement_speed": 6,
-                    "air_drag_modifier": -8,
+                    "movement_speed": 16,
+                    "air_drag_modifier": -16,
                     "jump_strength":5,
                     "custom_tool": true
                 },
@@ -475,8 +475,8 @@
                 },
                 "horse_armor": {
                     "armor": 18,
-                    "movement_speed":5,
-                    "air_drag_modifier":-5
+                    "movement_speed":6,
+                    "air_drag_modifier":-6
                 },
                 "nautilus_armor": {
                     
@@ -533,8 +533,8 @@
                 "horse_armor": {
                     "armor": 20,
                     "armor_toughness": 8,
-                    "movement_speed":-5,
-                    "air_drag_modifier":10
+                    "movement_speed":-12,
+                    "air_drag_modifier":24
                 },
                 "nautilus_armor": {
                     
@@ -597,8 +597,8 @@
                 },
                 "horse_armor": {
                     "armor": 18,
-                    "movement_speed":5,
-                    "air_drag_modifier":-5
+                    "movement_speed":12,
+                    "air_drag_modifier":-12
                 },
                 "nautilus_armor": {
                     

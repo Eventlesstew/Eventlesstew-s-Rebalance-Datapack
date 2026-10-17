@@ -1,1 +1,0 @@
-attribute @s movement_speed modifier add event_rebalance 4 add_multiplied_base

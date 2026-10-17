@@ -35,12 +35,25 @@
             ]
         },
         {
-            "type": "minecraft:location_check",
-            "predicate": {
-            "block": {
-                "blocks": "minecraft:water"
-            }
-            }
+            "type": "any_of",
+            "terms": [
+                {
+                    "type": "minecraft:location_check",
+                    "predicate": {
+                    "block": {
+                        "blocks": "minecraft:water"
+                    }
+                    }
+                },
+                {
+                    "type": "minecraft:location_check",
+                    "predicate": {
+                        "fluid": {
+                            "fluids": "#water"
+                        }
+                    }
+                }
+            ]
         }
     ]
 }

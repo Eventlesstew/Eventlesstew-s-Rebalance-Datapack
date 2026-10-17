@@ -39,6 +39,7 @@ scoreboard players add 675 static 0
 scoreboard players add 1000 static 0
 scoreboard players add 1125 static 0
 scoreboard players add 1575 static 0
+scoreboard players add 6000 static 0
 scoreboard players add 180_arrow static 0
 scoreboard players add max_extra_hearts static 0
 execute as @a run scoreboard players add @s extra_hearts 0
@@ -67,6 +68,7 @@ scoreboard players set 675 static 675
 scoreboard players set 1000 static 1000
 scoreboard players set 1125 static 1125
 scoreboard players set 1575 static 1575
+scoreboard players set 6000 static 6000
 scoreboard players set max_extra_hearts static 10
 scoreboard players set 180_arrow static 1800000
 

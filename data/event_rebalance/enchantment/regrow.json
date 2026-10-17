@@ -23,22 +23,45 @@
               "type": "minecraft:all_of",
               "terms": [
                 {
-                  "type": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "periodic_tick": 250,
-                    "equipment": {
-                      "head": {
-                        "predicates": {
-                          "enchantments": [
-                            {
-                              "enchantments": "event_rebalance:regrow"
+                  "type": "any_of",
+                  "terms": [
+                    {
+                      "type": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "periodic_tick": 250,
+                        "equipment": {
+                          "head": {
+                            "predicates": {
+                              "enchantments": [
+                                {
+                                  "enchantments": "event_rebalance:regrow"
+                                }
+                              ]
                             }
-                          ]
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "periodic_tick": 250,
+                        "equipment": {
+                          "body": {
+                            "predicates": {
+                              "enchantments": [
+                                {
+                                  "enchantments": "event_rebalance:regrow"
+                                }
+                              ]
+                            }
+                          }
                         }
                       }
                     }
-                  }
+                  ]
                 },
                 {
                   "type": "minecraft:float_value_check",
@@ -58,22 +81,45 @@
               "type": "minecraft:all_of",
               "terms": [
                 {
-                  "type": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "periodic_tick": 200,
-                    "equipment": {
-                      "head": {
-                        "predicates": {
-                          "enchantments": [
-                            {
-                              "enchantments": "event_rebalance:regrow"
+                  "type": "any_of",
+                  "terms": [
+                    {
+                      "type": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "periodic_tick": 200,
+                        "equipment": {
+                          "head": {
+                            "predicates": {
+                              "enchantments": [
+                                {
+                                  "enchantments": "event_rebalance:regrow"
+                                }
+                              ]
                             }
-                          ]
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "periodic_tick": 200,
+                        "equipment": {
+                          "body": {
+                            "predicates": {
+                              "enchantments": [
+                                {
+                                  "enchantments": "event_rebalance:regrow"
+                                }
+                              ]
+                            }
+                          }
                         }
                       }
                     }
-                  }
+                  ]
                 },
                 {
                   "type": "minecraft:float_value_check",
@@ -93,22 +139,45 @@
               "type": "minecraft:all_of",
               "terms": [
                 {
-                  "type": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "periodic_tick": 150,
-                    "equipment": {
-                      "head": {
-                        "predicates": {
-                          "enchantments": [
-                            {
-                              "enchantments": "event_rebalance:regrow"
+                  "type": "any_of",
+                  "terms": [
+                    {
+                      "type": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "periodic_tick": 150,
+                        "equipment": {
+                          "head": {
+                            "predicates": {
+                              "enchantments": [
+                                {
+                                  "enchantments": "event_rebalance:regrow"
+                                }
+                              ]
                             }
-                          ]
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "periodic_tick": 150,
+                        "equipment": {
+                          "body": {
+                            "predicates": {
+                              "enchantments": [
+                                {
+                                  "enchantments": "event_rebalance:regrow"
+                                }
+                              ]
+                            }
+                          }
                         }
                       }
                     }
-                  }
+                  ]
                 },
                 {
                   "type": "minecraft:float_value_check",
@@ -128,22 +197,45 @@
               "type": "minecraft:all_of",
               "terms": [
                 {
-                  "type": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "periodic_tick": 100,
-                    "equipment": {
-                      "head": {
-                        "predicates": {
-                          "enchantments": [
-                            {
-                              "enchantments": "event_rebalance:regrow"
+                  "type": "any_of",
+                  "terms": [
+                    {
+                      "type": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "periodic_tick": 100,
+                        "equipment": {
+                          "head": {
+                            "predicates": {
+                              "enchantments": [
+                                {
+                                  "enchantments": "event_rebalance:regrow"
+                                }
+                              ]
                             }
-                          ]
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "periodic_tick": 100,
+                        "equipment": {
+                          "body": {
+                            "predicates": {
+                              "enchantments": [
+                                {
+                                  "enchantments": "event_rebalance:regrow"
+                                }
+                              ]
+                            }
+                          }
                         }
                       }
                     }
-                  }
+                  ]
                 },
                 {
                   "type": "minecraft:float_value_check",
@@ -178,22 +270,45 @@
               "type": "minecraft:all_of",
               "terms": [
                 {
-                  "type": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "periodic_tick": 248,
-                    "equipment": {
-                      "chest": {
-                        "predicates": {
-                          "enchantments": [
-                            {
-                              "enchantments": "event_rebalance:regrow"
+                  "type": "any_of",
+                  "terms": [
+                    {
+                      "type": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "periodic_tick": 248,
+                        "equipment": {
+                          "chest": {
+                            "predicates": {
+                              "enchantments": [
+                                {
+                                  "enchantments": "event_rebalance:regrow"
+                                }
+                              ]
                             }
-                          ]
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "periodic_tick": 248,
+                        "equipment": {
+                          "body": {
+                            "predicates": {
+                              "enchantments": [
+                                {
+                                  "enchantments": "event_rebalance:regrow"
+                                }
+                              ]
+                            }
+                          }
                         }
                       }
                     }
-                  }
+                  ]
                 },
                 {
                   "type": "minecraft:float_value_check",
@@ -213,22 +328,45 @@
               "type": "minecraft:all_of",
               "terms": [
                 {
-                  "type": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "periodic_tick": 198,
-                    "equipment": {
-                      "chest": {
-                        "predicates": {
-                          "enchantments": [
-                            {
-                              "enchantments": "event_rebalance:regrow"
+                  "type": "any_of",
+                  "terms": [
+                    {
+                      "type": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "periodic_tick": 198,
+                        "equipment": {
+                          "chest": {
+                            "predicates": {
+                              "enchantments": [
+                                {
+                                  "enchantments": "event_rebalance:regrow"
+                                }
+                              ]
                             }
-                          ]
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "periodic_tick": 198,
+                        "equipment": {
+                          "body": {
+                            "predicates": {
+                              "enchantments": [
+                                {
+                                  "enchantments": "event_rebalance:regrow"
+                                }
+                              ]
+                            }
+                          }
                         }
                       }
                     }
-                  }
+                  ]
                 },
                 {
                   "type": "minecraft:float_value_check",
@@ -248,22 +386,45 @@
               "type": "minecraft:all_of",
               "terms": [
                 {
-                  "type": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "periodic_tick": 148,
-                    "equipment": {
-                      "chest": {
-                        "predicates": {
-                          "enchantments": [
-                            {
-                              "enchantments": "event_rebalance:regrow"
+                  "type": "any_of",
+                  "terms": [
+                    {
+                      "type": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "periodic_tick": 148,
+                        "equipment": {
+                          "chest": {
+                            "predicates": {
+                              "enchantments": [
+                                {
+                                  "enchantments": "event_rebalance:regrow"
+                                }
+                              ]
                             }
-                          ]
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "periodic_tick": 148,
+                        "equipment": {
+                          "body": {
+                            "predicates": {
+                              "enchantments": [
+                                {
+                                  "enchantments": "event_rebalance:regrow"
+                                }
+                              ]
+                            }
+                          }
                         }
                       }
                     }
-                  }
+                  ]
                 },
                 {
                   "type": "minecraft:float_value_check",
@@ -283,22 +444,45 @@
               "type": "minecraft:all_of",
               "terms": [
                 {
-                  "type": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "periodic_tick": 98,
-                    "equipment": {
-                      "chest": {
-                        "predicates": {
-                          "enchantments": [
-                            {
-                              "enchantments": "event_rebalance:regrow"
+                  "type": "any_of",
+                  "terms": [
+                    {
+                      "type": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "periodic_tick": 98,
+                        "equipment": {
+                          "chest": {
+                            "predicates": {
+                              "enchantments": [
+                                {
+                                  "enchantments": "event_rebalance:regrow"
+                                }
+                              ]
                             }
-                          ]
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "periodic_tick": 98,
+                        "equipment": {
+                          "body": {
+                            "predicates": {
+                              "enchantments": [
+                                {
+                                  "enchantments": "event_rebalance:regrow"
+                                }
+                              ]
+                            }
+                          }
                         }
                       }
                     }
-                  }
+                  ]
                 },
                 {
                   "type": "minecraft:float_value_check",
@@ -368,22 +552,45 @@
               "type": "minecraft:all_of",
               "terms": [
                 {
-                  "type": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "periodic_tick": 199,
-                    "equipment": {
-                      "legs": {
-                        "predicates": {
-                          "enchantments": [
-                            {
-                              "enchantments": "event_rebalance:regrow"
+                  "type": "any_of",
+                  "terms": [
+                    {
+                      "type": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "periodic_tick": 199,
+                        "equipment": {
+                          "legs": {
+                            "predicates": {
+                              "enchantments": [
+                                {
+                                  "enchantments": "event_rebalance:regrow"
+                                }
+                              ]
                             }
-                          ]
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "periodic_tick": 199,
+                        "equipment": {
+                          "body": {
+                            "predicates": {
+                              "enchantments": [
+                                {
+                                  "enchantments": "event_rebalance:regrow"
+                                }
+                              ]
+                            }
+                          }
                         }
                       }
                     }
-                  }
+                  ]
                 },
                 {
                   "type": "minecraft:float_value_check",
@@ -403,22 +610,45 @@
               "type": "minecraft:all_of",
               "terms": [
                 {
-                  "type": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "periodic_tick": 149,
-                    "equipment": {
-                      "legs": {
-                        "predicates": {
-                          "enchantments": [
-                            {
-                              "enchantments": "event_rebalance:regrow"
+                  "type": "any_of",
+                  "terms": [
+                    {
+                      "type": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "periodic_tick": 149,
+                        "equipment": {
+                          "legs": {
+                            "predicates": {
+                              "enchantments": [
+                                {
+                                  "enchantments": "event_rebalance:regrow"
+                                }
+                              ]
                             }
-                          ]
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "periodic_tick": 149,
+                        "equipment": {
+                          "body": {
+                            "predicates": {
+                              "enchantments": [
+                                {
+                                  "enchantments": "event_rebalance:regrow"
+                                }
+                              ]
+                            }
+                          }
                         }
                       }
                     }
-                  }
+                  ]
                 },
                 {
                   "type": "minecraft:float_value_check",
@@ -438,22 +668,45 @@
               "type": "minecraft:all_of",
               "terms": [
                 {
-                  "type": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "periodic_tick": 99,
-                    "equipment": {
-                      "legs": {
-                        "predicates": {
-                          "enchantments": [
-                            {
-                              "enchantments": "event_rebalance:regrow"
+                  "type": "any_of",
+                  "terms": [
+                    {
+                      "type": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "periodic_tick": 99,
+                        "equipment": {
+                          "legs": {
+                            "predicates": {
+                              "enchantments": [
+                                {
+                                  "enchantments": "event_rebalance:regrow"
+                                }
+                              ]
                             }
-                          ]
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "periodic_tick": 99,
+                        "equipment": {
+                          "body": {
+                            "predicates": {
+                              "enchantments": [
+                                {
+                                  "enchantments": "event_rebalance:regrow"
+                                }
+                              ]
+                            }
+                          }
                         }
                       }
                     }
-                  }
+                  ]
                 },
                 {
                   "type": "minecraft:float_value_check",
@@ -488,22 +741,45 @@
               "type": "minecraft:all_of",
               "terms": [
                 {
-                  "type": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "periodic_tick": 251,
-                    "equipment": {
-                      "feet": {
-                        "predicates": {
-                          "enchantments": [
-                            {
-                              "enchantments": "event_rebalance:regrow"
+                  "type": "any_of",
+                  "terms": [
+                    {
+                      "type": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "periodic_tick": 251,
+                        "equipment": {
+                          "feet": {
+                            "predicates": {
+                              "enchantments": [
+                                {
+                                  "enchantments": "event_rebalance:regrow"
+                                }
+                              ]
                             }
-                          ]
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "periodic_tick": 251,
+                        "equipment": {
+                          "body": {
+                            "predicates": {
+                              "enchantments": [
+                                {
+                                  "enchantments": "event_rebalance:regrow"
+                                }
+                              ]
+                            }
+                          }
                         }
                       }
                     }
-                  }
+                  ]
                 },
                 {
                   "type": "minecraft:float_value_check",
@@ -523,22 +799,45 @@
               "type": "minecraft:all_of",
               "terms": [
                 {
-                  "type": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "periodic_tick": 201,
-                    "equipment": {
-                      "feet": {
-                        "predicates": {
-                          "enchantments": [
-                            {
-                              "enchantments": "event_rebalance:regrow"
+                  "type": "any_of",
+                  "terms": [
+                    {
+                      "type": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "periodic_tick": 201,
+                        "equipment": {
+                          "feet": {
+                            "predicates": {
+                              "enchantments": [
+                                {
+                                  "enchantments": "event_rebalance:regrow"
+                                }
+                              ]
                             }
-                          ]
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "periodic_tick": 201,
+                        "equipment": {
+                          "body": {
+                            "predicates": {
+                              "enchantments": [
+                                {
+                                  "enchantments": "event_rebalance:regrow"
+                                }
+                              ]
+                            }
+                          }
                         }
                       }
                     }
-                  }
+                  ]
                 },
                 {
                   "type": "minecraft:float_value_check",
@@ -558,22 +857,45 @@
               "type": "minecraft:all_of",
               "terms": [
                 {
-                  "type": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "periodic_tick": 151,
-                    "equipment": {
-                      "feet": {
-                        "predicates": {
-                          "enchantments": [
-                            {
-                              "enchantments": "event_rebalance:regrow"
+                  "type": "any_of",
+                  "terms": [
+                    {
+                      "type": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "periodic_tick": 151,
+                        "equipment": {
+                          "feet": {
+                            "predicates": {
+                              "enchantments": [
+                                {
+                                  "enchantments": "event_rebalance:regrow"
+                                }
+                              ]
                             }
-                          ]
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "periodic_tick": 151,
+                        "equipment": {
+                          "body": {
+                            "predicates": {
+                              "enchantments": [
+                                {
+                                  "enchantments": "event_rebalance:regrow"
+                                }
+                              ]
+                            }
+                          }
                         }
                       }
                     }
-                  }
+                  ]
                 },
                 {
                   "type": "minecraft:float_value_check",
@@ -593,177 +915,45 @@
               "type": "minecraft:all_of",
               "terms": [
                 {
-                  "type": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "periodic_tick": 101,
-                    "equipment": {
-                      "feet": {
-                        "predicates": {
-                          "enchantments": [
-                            {
-                              "enchantments": "event_rebalance:regrow"
+                  "type": "any_of",
+                  "terms": [
+                    {
+                      "type": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "periodic_tick": 101,
+                        "equipment": {
+                          "feet": {
+                            "predicates": {
+                              "enchantments": [
+                                {
+                                  "enchantments": "event_rebalance:regrow"
+                                }
+                              ]
                             }
-                          ]
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "periodic_tick": 101,
+                        "equipment": {
+                          "body": {
+                            "predicates": {
+                              "enchantments": [
+                                {
+                                  "enchantments": "event_rebalance:regrow"
+                                }
+                              ]
+                            }
+                          }
                         }
                       }
                     }
-                  }
-                },
-                {
-                  "type": "minecraft:float_value_check",
-                  "value": {
-                    "type": "minecraft:enchantment_level",
-                    "amount": {
-                      "type": "minecraft:linear",
-                      "base": 0,
-                      "per_level_above_first": 1
-                    }
-                  },
-                  "test": 3
-                }
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "effect": {
-          "type": "apply_mob_effect",
-          "to_apply": "regeneration",
-          "min_duration": 0.05,
-          "max_duration": 0.05,
-          "min_amplifier": 7,
-          "max_amplifier": 7
-        },
-        "requirements": {
-          "type": "minecraft:any_of",
-          "terms": [
-            {
-              "type": "minecraft:all_of",
-              "terms": [
-                {
-                  "type": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "periodic_tick": 250,
-                    "equipment": {
-                      "body": {
-                        "predicates": {
-                          "enchantments": [
-                            {
-                              "enchantments": "event_rebalance:regrow"
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  }
-                },
-                {
-                  "type": "minecraft:float_value_check",
-                  "value": {
-                    "type": "minecraft:enchantment_level",
-                    "amount": {
-                      "type": "minecraft:linear",
-                      "base": 0,
-                      "per_level_above_first": 1
-                    }
-                  },
-                  "test": 0
-                }
-              ]
-            },
-            {
-              "type": "minecraft:all_of",
-              "terms": [
-                {
-                  "type": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "periodic_tick": 200,
-                    "equipment": {
-                      "body": {
-                        "predicates": {
-                          "enchantments": [
-                            {
-                              "enchantments": "event_rebalance:regrow"
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  }
-                },
-                {
-                  "type": "minecraft:float_value_check",
-                  "value": {
-                    "type": "minecraft:enchantment_level",
-                    "amount": {
-                      "type": "minecraft:linear",
-                      "base": 0,
-                      "per_level_above_first": 1
-                    }
-                  },
-                  "test": 1
-                }
-              ]
-            },
-            {
-              "type": "minecraft:all_of",
-              "terms": [
-                {
-                  "type": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "periodic_tick": 150,
-                    "equipment": {
-                      "body": {
-                        "predicates": {
-                          "enchantments": [
-                            {
-                              "enchantments": "event_rebalance:regrow"
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  }
-                },
-                {
-                  "type": "minecraft:float_value_check",
-                  "value": {
-                    "type": "minecraft:enchantment_level",
-                    "amount": {
-                      "type": "minecraft:linear",
-                      "base": 0,
-                      "per_level_above_first": 1
-                    }
-                  },
-                  "test": 2
-                }
-              ]
-            },
-            {
-              "type": "minecraft:all_of",
-              "terms": [
-                {
-                  "type": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "periodic_tick": 100,
-                    "equipment": {
-                      "body": {
-                        "predicates": {
-                          "enchantments": [
-                            {
-                              "enchantments": "event_rebalance:regrow"
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  }
+                  ]
                 },
                 {
                   "type": "minecraft:float_value_check",

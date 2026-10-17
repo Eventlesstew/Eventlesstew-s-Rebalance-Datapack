@@ -1,0 +1,1 @@
+$execute as @e[distance=..10,type=#event_rebalance:mobs,tag=!event.channeling_owner] at @s if predicate event_rebalance:mobs/in_water run damage @s $(damage) event_rebalance:electricity at ~ ~ ~

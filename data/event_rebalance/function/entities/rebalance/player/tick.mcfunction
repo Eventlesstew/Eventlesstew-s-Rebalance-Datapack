@@ -1,5 +1,7 @@
 xp set @s 40 levels
 
+function event_rebalance:entities/rebalance/player/bossbar_tags
+
 execute if entity @a[advancements={event_rebalance:husbandry/castaway=false}] run function event_rebalance:advancements/castaway/timer_tick
 execute if entity @a[advancements={event_rebalance:construction/on_a_rail=false}] run function event_rebalance:advancements/on_a_rail/tick
 

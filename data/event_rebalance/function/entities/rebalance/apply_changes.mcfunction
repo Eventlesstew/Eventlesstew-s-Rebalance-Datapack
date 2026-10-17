@@ -5,8 +5,8 @@ execute if entity @s[type=item] run function event_rebalance:entities/rebalance/
 execute if entity @s[type=arrow] run function event_rebalance:entities/rebalance/arrow/rebalance
 
 # Overworld Animals
-execute if entity @s[type=horse] run function event_rebalance:entities/rebalance/horse/rebalance
 execute if entity @s[type=goat] run function event_rebalance:entities/rebalance/goat/rebalance
+execute if entity @s[type=turtle] run function event_rebalance:entities/rebalance/turtle/rebalance
 
 # Overworld
 execute if entity @s[type=zombie] run function event_rebalance:entities/rebalance/zombie/rebalance

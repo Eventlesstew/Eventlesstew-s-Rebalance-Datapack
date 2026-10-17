@@ -1,25 +1,9 @@
 {
-    "type": "sequence",
-    "functions": [
-        "event_rebalance:custom_item/music_disc",
-        {
-            "type": "minecraft:set_components",
-            "components": {
-                "rarity":"uncommon",
-                "max_stack_size":64,
-                "item_name": {
-                    "translate": "item.event.crystal_heart"
-                },
-                "item_model": "event:crystal_heart",
-                "blocks_attacks": {
-
-                    "damage_reductions": []
-                },
-                "use_effects": {
-                    "can_sprint": true,
-                    "speed_multiplier": 1
-                }
-            }
+    "type": "filtered",
+    "item_filter": {
+        "components": {
+            "item_model": "event:crystal_heart"
         }
-    ]
+    },
+    "on_pass": "event_rebalance:custom_item/crystal_heart_apply"
 }

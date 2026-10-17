@@ -228,14 +228,16 @@
         {"name":"event:enchant/absorb/absorb_max2"},
         {"name":"event:enchant/absorb/absorb_max3"}
     ]},
-    "enchant.static_shock":{"sounds":[ 
-        {"name":"event:enchant/static_shock/static_shock1"},
-        {"name":"event:enchant/static_shock/static_shock2"},
-        {"name":"event:enchant/static_shock/static_shock3"},
-        {"name":"event:enchant/static_shock/static_shock4"},
-        {"name":"event:enchant/static_shock/static_shock5"},
-        {"name":"event:enchant/static_shock/static_shock6"}
-    ]},
+    "enchant.static_shock":{
+        "sounds":[ 
+            {"name":"event:enchant/static_shock/static_shock1"},
+            {"name":"event:enchant/static_shock/static_shock2"},
+            {"name":"event:enchant/static_shock/static_shock3"},
+            {"name":"event:enchant/static_shock/static_shock4"},
+            {"name":"event:enchant/static_shock/static_shock5"},
+            {"name":"event:enchant/static_shock/static_shock6"}
+        ]
+    },
     "enchant.magnetic":{"sounds":[ 
         {"name":"event:enchant/magnetic/magnetic1"},
         {"name":"event:enchant/magnetic/magnetic2"},

@@ -1,6 +1,16 @@
+
 {
-  "model": {
-    "type": "minecraft:model",
-    "model": "event:item/magnet"
-  }
+    "model": {
+        "type": "condition",
+        "property": "using_item",
+        "on_false": {
+            "type": "model",
+            "model": "event:item/magnet"
+        },
+        "on_true": {
+            "type": "model",
+            "model": "event:item/magnet_use"
+        }
+    }
 }
+

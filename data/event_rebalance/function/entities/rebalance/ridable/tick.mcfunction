@@ -1,0 +1,2 @@
+execute if predicate event_rebalance:mobs/ridden_by_player run function event_rebalance:entities/rebalance/ridable/mounted
+execute unless predicate event_rebalance:mobs/ridden_by_player run function event_rebalance:entities/rebalance/ridable/dismounted

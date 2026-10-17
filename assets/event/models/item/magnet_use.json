@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:item/generated",
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [ -20, -30, -40],
+      "translation": [ 1.13, 1.2, 2.13],
+      "scale": [ 0.68, 0.68, 0.68]
+    },
+    "firstperson_lefthand": {
+      "rotation": [ -20, -30, -130],
+      "translation": [ 1.13, 1.2, 2.13],
+      "scale": [ 0.68, 0.68, 0.68]
+    },
+    "thirdperson_righthand": {
+      "rotation": [ -60, 0, 45 ],
+      "translation": [ -0.5, -1, -1.5 ],
+      "scale": [ 0.55, 0.55, 0.55 ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [ -60, 0, -45 ],
+      "translation": [ -0.5, -1, -1.5 ],
+      "scale": [ 0.55, 0.55, 0.55 ]
+    }
+  },
+  "textures": {
+    "layer0": "event:item/magnet"
+  }
+}
