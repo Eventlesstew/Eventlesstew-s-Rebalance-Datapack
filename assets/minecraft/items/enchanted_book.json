@@ -952,6 +952,33 @@
             },
             {
                 "when": {
+                    "event_rebalance:echo": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/echo"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:echo": 2
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/echo"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
                     "efficiency": 1
                 },
                 "model": {

@@ -1,0 +1,1 @@
+execute as @s[tag=!ricochet_arrow,tag=!balance.fuse,type=#minecraft:arrows,nbt={pickup:0b}] run function event_rebalance:enchantments/common/destroy

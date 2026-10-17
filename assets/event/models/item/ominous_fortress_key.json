@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  
+  "textures": {
+    "layer0": "event:item/ominous_fortress_key"
+  }
+}

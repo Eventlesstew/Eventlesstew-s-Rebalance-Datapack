@@ -1,0 +1,60 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "translate": "enchantment.event.echo",
+    "color": "#fdcfff",
+    "shadow_color": -4909878
+  },
+  "supported_items": ["minecraft:bow"],
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "item_damage": [
+      {
+        "effect": {
+          "type": "add",
+          "value": {
+            "type": "linear",
+            "base": 1,
+            "per_level_above_first": 1
+          }
+        }
+      }
+    ],
+    "minecraft:projectile_spawned": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "event_rebalance:enchantments/echo/start"
+        }
+      }
+    ],
+    "minecraft:hit_block": [
+      {
+        "effect": {
+            "type": "minecraft:run_function",
+            "function": "event_rebalance:enchantments/echo/destroy"
+          },
+          "requirements": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "#minecraft:arrows"
+            }
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#event_rebalance:exclusive_set/special",
+  "max_level": 2,
+  "max_cost": {
+    "base": 30,
+    "per_level_above_first": 10
+  },
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 10
+  },
+  "weight": 1
+}

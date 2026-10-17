@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_echo",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "echo_shard",
+        "echo_shard"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "event_rebalance:echo": 2
+            }
+        }
+    }
+}
