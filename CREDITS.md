@@ -46,22 +46,26 @@
 - Breach (Rework + Texture)
 - Bulwark (Function + Texture)
 - Combo
-- Crackle
+- Crackle (Function + Texture)
 - Density (Texture Only)
+- Echo (Function + Texture)
 - Efficiency (Texture Only)
 - Eternity
 - Feasting
 - Feather Falling (Texture Only)
 - Focusing
 - Fowling
+- Guiding
+- Homing
 - Impaling (Texture Only)
 - Live Catch
 - Melting
 - Mending (Rework)
 - Protection (Texture Only)
 - Punch (Rework)
-- Rampage
+- Rampage (Function + Texture)
 - Rebound
+- Ricochet
 - Valor
 
 ## Food

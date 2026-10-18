@@ -1,3 +1,4 @@
+execute if predicate event_rebalance:mobs/is_baby run return fail
 execute store result score game_time temp run time query gametime
 execute store result score turtle_time_threshold temp run data get entity @s data.ticks_since_last_shed
 execute if score game_time temp < turtle_time_threshold temp run return fail

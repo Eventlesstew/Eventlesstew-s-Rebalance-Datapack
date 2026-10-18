@@ -1,8 +1,13 @@
 {
     "default":{
+        "custom_item":false,
         "food":0,
         "saturation":0,
+        "healing":0,
         "eat_time":2,
+        "eat_speed":0.2,
+        "always_edible":true,
+        "cure_effects":[],
         "effects":[]
     },
 
@@ -11,8 +16,41 @@
         "saturation":2
     },
     "baked_potato":{
-        "food":6,
-        "saturation":6
+        "food":8,
+        "saturation":8,
+        "eat_speed":0.5
+    },
+    "poisonous_potato":{
+        "saturation":2,
+        "always_edible":true,
+        "effects":[
+            {
+                "effect":"poison",
+                "level":1,
+                "time_seconds":10,
+                "probability":1
+            }
+        ]
+    },
+    "carrot":{
+        "food":4,
+        "saturation":4,
+        "move_speed":0.5,
+        "always_edible":true,
+        "cure_effects":[
+            "blindness",
+            "darkness"
+        ]
+    },
+    "golden_carrot":{
+        "food":4,
+        "saturation":16,
+        "move_speed":0.5,
+        "always_edible":true,
+        "cure_effects":[
+            "blindness",
+            "darkness"
+        ]
     },
     "apple":{
 
