@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": "minecraft:diamond",
-    "C": "#event_rebalance:custom_item/withered_chunks",
+    "C": "blaze_powder",
     "S": "minecraft:ward_armor_trim_smithing_template"
   },
   "pattern": [
