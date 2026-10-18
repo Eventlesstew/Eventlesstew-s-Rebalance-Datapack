@@ -273,12 +273,13 @@
       "entries": [
         {
           "type": "empty",
-          "weight": 1
+          "weight": 3
         },
         {
-          "type": "item",
-          "name": "minecraft:silverfish_spawn_egg",
-          "weight": 2,
+          "type": "tag",
+          "items": "#event_rebalance:custom_item/disc_fragment_13",
+          "expand":false,
+          "weight": 6,
           "modifier": [
             "event_rebalance:music_disc/13_fragment",
             {
@@ -290,6 +291,11 @@
               }
             }
           ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:creeper_banner_pattern",
+          "weight": 1
         }
       ],
       "rolls": 1

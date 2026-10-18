@@ -152,7 +152,20 @@
       "entries": [
         {
           "type": "empty",
-          "weight": 14
+          "weight": 9
+        },
+        {
+          "type": "tag",
+          "items": "#event_rebalance:custom_item/chainmail_upgrade_smithing_template",
+          "weight": 5,
+          "expand": false,
+          "modifier": [
+            "event_rebalance:trims/chainmail_upgrade",
+            {
+              "type": "set_count",
+              "count": 2
+            }
+          ]
         },
         {
           "type": "item",

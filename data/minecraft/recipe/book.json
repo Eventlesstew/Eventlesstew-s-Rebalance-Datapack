@@ -1,12 +1,15 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    "minecraft:paper",
-    "minecraft:paper",
-    "minecraft:paper",
-    "#event_rebalance:leather"
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "P":"paper",
+    "L":"#event_rebalance:leather"
+  },
+  "pattern":[
+    "LP",
+    "PP"
   ],
   "result": {
-    "id": "minecraft:book"
+    "id": "minecraft:book",
+    "count": 3
   }
 }

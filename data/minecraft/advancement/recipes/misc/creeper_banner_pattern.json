@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_creeper_head": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "minecraft:creeper_banner_pattern"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_creeper_head"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:creeper_banner_pattern"
+    ]
+  }
+}

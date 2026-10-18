@@ -58,7 +58,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:eye_armor_trim_smithing_template"
+          "name": "minecraft:eye_armor_trim_smithing_template",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 2
+            }
+          ]
         }
       ],
       "rolls": 1

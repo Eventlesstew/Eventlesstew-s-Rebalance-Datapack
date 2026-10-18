@@ -45,14 +45,11 @@
         },
         {
           "type": "minecraft:item",
-          "modifier": [
-            "event_rebalance:gear/diamond/sword",
-            {
-                "type": "enchant_with_levels",
-                "levels": 30
-            }
-          ],
-          "name": "minecraft:enchanted_book",
+          "modifier": {
+            "type": "minecraft:enchant_randomly",
+            "options": "#minecraft:on_random_loot"
+          },
+          "name": "minecraft:book",
           "weight": 5
         },
         {

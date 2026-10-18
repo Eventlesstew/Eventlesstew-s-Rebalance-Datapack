@@ -57,7 +57,7 @@
                 }
               },
               {
-                "type": "minecraft:blindness",
+                "type": "minecraft:darkness",
                 "duration": {
                   "type": "minecraft:uniform",
                   "max": 7,

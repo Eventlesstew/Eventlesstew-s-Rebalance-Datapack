@@ -11,7 +11,13 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bolt_armor_trim_smithing_template",
-          "weight": 3
+          "weight": 3,
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 2
+            }
+          ]
         },
         {
           "type": "minecraft:item",
