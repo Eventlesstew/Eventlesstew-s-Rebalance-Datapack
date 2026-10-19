@@ -33,7 +33,7 @@
     },
     "frame": "challenge",
     "icon": {
-      "id": "minecraft:arrow"
+      "id": "minecraft:spectral_arrow"
     },
     "title": {
       "translate": "advancements.adventure.sniper_duel.title"

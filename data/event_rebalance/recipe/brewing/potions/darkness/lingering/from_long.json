@@ -1,0 +1,37 @@
+{
+    "type": "brewing",
+    "reagent": {
+        "item": "gunpowder"
+    },
+    "input": {
+        "item": "splash_potion",
+        "potion_contents": {
+            "effects": {
+                "contains": [
+                    {
+                        "darkness": {
+                            "amplifier": 0,
+                            "duration": 1800
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "output": {
+        "id": "lingering_potion",
+        "components": {
+            "potion_contents": {
+                "custom_name": "darkness",
+                "custom_color": 2696993,
+                "custom_effects": [
+                    {
+                        "id": "darkness",
+                        "amplifier": 0,
+                        "duration": 440
+                    }
+                ]
+            }
+        }
+    }
+}

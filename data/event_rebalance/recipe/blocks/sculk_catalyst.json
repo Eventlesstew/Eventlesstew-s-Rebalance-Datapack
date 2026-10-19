@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category": "redstone",
+    "key": {
+        "E":"echo_shard",
+        "B":"bone_block"
+    },
+    "pattern": [
+        "E",
+        "B"
+    ],
+    "result": {
+        "id": "sculk_catalyst"
+    }
+}

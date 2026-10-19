@@ -283,7 +283,7 @@
     "attribute.name.consumable.food.unknown_effect": " Unknown Effect",
 
     "attribute.name.consumable.food.effect.poisonous_potato": " Poison (00:10)",
-    "attribute.name.consumable.food.effect.carrot": " Cures Blindness and Darkness",
+    "attribute.name.consumable.food.effect.carrot": " Cures Darkness",
     "attribute.name.consumable.food.effect.golden_carrot": " Night Vision (01:00)",
     "attribute.name.consumable.food.effect.apple": " Cures Hunger",
     "attribute.name.consumable.food.effect.apple_juice": " Regeneration II (00:10)",

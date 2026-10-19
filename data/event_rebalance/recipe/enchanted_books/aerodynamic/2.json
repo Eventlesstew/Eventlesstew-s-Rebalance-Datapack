@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_aerodynamic",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "potent_sulfur",
+        "potent_sulfur"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "event_rebalance:aerodynamic": 2
+            }
+        }
+    }
+}

@@ -18,15 +18,6 @@
             "type": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-                "flags": {
-                    "is_on_fire": true
-                }
-            }
-        },
-        {
-            "type": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
                 "slots": {
                     "armor.*":{
                         "items": "#event_rebalance:light_level/15"

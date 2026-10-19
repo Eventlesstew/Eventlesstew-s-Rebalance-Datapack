@@ -1,0 +1,28 @@
+{
+    "type": "brewing",
+    "reagent": {
+        "item": "echo_shard"
+    },
+    "input": {
+        "item": "potion",
+        "potion_contents": {
+            "potions": "minecraft:awkward"
+        }
+    },
+    "output": {
+        "id": "potion",
+        "components": {
+            "potion_contents": {
+                "custom_name": "darkness",
+                "custom_color": 2696993,
+                "custom_effects": [
+                    {
+                        "id": "darkness",
+                        "amplifier": 0,
+                        "duration": 900
+                    }
+                ]
+            }
+        }
+    }
+}

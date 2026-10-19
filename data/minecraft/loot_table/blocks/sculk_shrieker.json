@@ -4,8 +4,27 @@
     {
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:sculk_shrieker"
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "condition": "tool/can_silk_touch",
+              "name": "minecraft:sculk_shrieker"
+            },
+            {
+              "type": "minecraft:item",
+              "modifier":[
+                {
+                  "type": "set_count",
+                  "count": 2
+                },
+                {
+                  "type": "explosion_decay"
+                }
+              ],
+              "name": "minecraft:echo_shard"
+            }
+          ]
         }
       ],
       "rolls": 1

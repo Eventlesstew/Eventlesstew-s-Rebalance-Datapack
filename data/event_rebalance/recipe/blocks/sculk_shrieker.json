@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category": "redstone",
+    "key": {
+        "E":"echo_shard",
+        "B":"bone"
+    },
+    "pattern": [
+        "B B",
+        "BEB",
+        "BEB"
+    ],
+    "result": {
+        "id": "sculk_shrieker"
+    }
+}
