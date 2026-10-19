@@ -6,14 +6,9 @@
       "bounding_box": "piece",
       "spawns": [
         {
-          "type": "minecraft:blaze",
-          "count": 3,
-          "weight": 10
-        },
-        {
           "type": "minecraft:enderman",
           "count": 2,
-          "weight": 5
+          "weight": 3
         },
         {
           "type": "minecraft:wither_skeleton",
@@ -26,7 +21,7 @@
           "weight": 2
         },
         {
-          "type": "minecraft:magma_cube",
+          "type": "minecraft:zombified_piglin",
           "count": 4,
           "weight": 3
         }

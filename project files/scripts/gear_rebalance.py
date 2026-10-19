@@ -78,9 +78,9 @@ def add_tool_attribute(
     data: dict,
     tier: str,
     tool: str,
-    type: str,
+    tier_type: str,
     id: str,
-    base: float = 0,
+    base: float | str = 0,
     display_attribute: bool = True,
 ):
     value = get_tool_value(tier, tool, id)
@@ -92,13 +92,24 @@ def add_tool_attribute(
         slot = "mainhand"
 
     display_value = str(value)
-    value -= base
-    if type == "add_multiplied_base":
+    if base == "add":
+        if value > 0:
+            display_value = "+" + display_value
+    else:
+        try:
+            value -= base
+        except TypeError:
+            pass
+
+    if value == 0:
+        return
+
+    if tier_type == "add_multiplied_base":
         value *= 0.01
         display_value += "%"
     attribute = {
         "id": "balance_" + tool,
-        "operation": type,
+        "operation": tier_type,
         "attribute": id,
         "amount": value,
         "slot": slot,
@@ -146,7 +157,7 @@ for tier_i, tier in enumerate(data_file["tiers"]):
 
         def add_attribute(
             id: str,
-            base: float = 0.0,
+            base: float | str = 0.0,
             operator: str = "add_value",
             show_attribute: bool = True,
         ):
@@ -170,6 +181,7 @@ for tier_i, tier in enumerate(data_file["tiers"]):
 
         is_weapon = add_attribute("attack_damage", 1)
         add_attribute("attack_speed", 4)
+        add_attribute("block_interaction_range", "add")
         add_attribute("armor")
         add_attribute("armor_toughness")
         add_attribute("movement_speed", operator="add_multiplied_base")

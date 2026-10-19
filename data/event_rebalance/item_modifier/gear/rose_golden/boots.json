@@ -45,7 +45,7 @@
             {
                 "type": "minecraft:set_components",
                 "components": {
-                    "max_damage": 128,
+                    "max_damage": 512,
                     "repairable": {
                         "items": "#event_rebalance:tool_repair/rose_golden"
                     },

@@ -32,13 +32,20 @@
                         "attribute": "attack_speed",
                         "amount": -2.6,
                         "slot": "mainhand"
+                    },
+                    {
+                        "id": "balance_shovel",
+                        "operation": "add_value",
+                        "attribute": "block_interaction_range",
+                        "amount": -1,
+                        "slot": "mainhand"
                     }
                 ]
             },
             {
                 "type": "minecraft:set_components",
                 "components": {
-                    "max_damage": 128,
+                    "max_damage": 512,
                     "repairable": {
                         "items": "#event_rebalance:tool_repair/rose_golden"
                     },
@@ -89,6 +96,16 @@
                         "extra": [
                             {
                                 "translate": "attribute.name.attack_speed"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
+                    },
+                    {
+                        "text": " -1 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.block_interaction_range"
                             }
                         ],
                         "italic": false,

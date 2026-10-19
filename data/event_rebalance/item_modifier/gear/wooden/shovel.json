@@ -29,6 +29,13 @@
                         "attribute": "attack_speed",
                         "amount": -2.8,
                         "slot": "mainhand"
+                    },
+                    {
+                        "id": "balance_shovel",
+                        "operation": "add_value",
+                        "attribute": "block_interaction_range",
+                        "amount": 1,
+                        "slot": "mainhand"
                     }
                 ]
             },
@@ -47,7 +54,7 @@
                         "rules": [
                             {
                                 "blocks": "#mineable/shovel",
-                                "speed": 4,
+                                "speed": 3,
                                 "correct_for_drops": true
                             }
                         ]
@@ -84,7 +91,17 @@
                         "color": "#1aa819"
                     },
                     {
-                        "text": " 4 ",
+                        "text": " +1 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.block_interaction_range"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
+                    },
+                    {
+                        "text": " 3 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.shovel_mining_speed"

@@ -50,12 +50,12 @@
                         "rules": [
                             {
                                 "blocks": "#event_rebalance:pickaxe_power_2",
-                                "speed": 0.9375,
+                                "speed": 0.75,
                                 "correct_for_drops": false
                             },
                             {
                                 "blocks": "#mineable/hammer",
-                                "speed": 3.75,
+                                "speed": 3.0,
                                 "correct_for_drops": true
                             }
                         ]
@@ -100,7 +100,7 @@
                         "color": "#1aa819"
                     },
                     {
-                        "text": " 3.75 ",
+                        "text": " 3.0 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.hammer_mining_speed"

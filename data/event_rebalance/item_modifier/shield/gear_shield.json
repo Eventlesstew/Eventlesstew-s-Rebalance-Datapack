@@ -13,7 +13,7 @@
             {
                 "type": "set_components",
                 "components": {
-                    "item_model": "event:shield/shell_shield",
+                    "item_model": "event:shield/gear_shield",
                     "blocks_attacks": {
                         "block_delay_seconds": 0,
                         "block_sound": "minecraft:block.copper.break",

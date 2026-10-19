@@ -19,15 +19,15 @@
                     {
                         "id": "balance_hoe",
                         "operation": "add_value",
-                        "attribute": "attack_damage",
-                        "amount": 0,
+                        "attribute": "attack_speed",
+                        "amount": -2.8,
                         "slot": "mainhand"
                     },
                     {
                         "id": "balance_hoe",
                         "operation": "add_value",
-                        "attribute": "attack_speed",
-                        "amount": -2.8,
+                        "attribute": "block_interaction_range",
+                        "amount": 1,
                         "slot": "mainhand"
                     }
                 ]
@@ -39,15 +39,11 @@
                     "repairable": {
                         "items": "#event_rebalance:tool_repair/wooden"
                     },
-                    "weapon": {
-                        "item_damage_per_attack": 1,
-                        "disable_blocking_for_seconds": 0
-                    },
                     "tool": {
                         "rules": [
                             {
                                 "blocks": "#mineable/hoe",
-                                "speed": 4,
+                                "speed": 3,
                                 "correct_for_drops": true
                             }
                         ]
@@ -64,16 +60,6 @@
                         "italic": false
                     },
                     {
-                        "text": " 1 ",
-                        "extra": [
-                            {
-                                "translate": "attribute.name.attack_damage"
-                            }
-                        ],
-                        "italic": false,
-                        "color": "#1aa819"
-                    },
-                    {
                         "text": " 1.2 ",
                         "extra": [
                             {
@@ -84,7 +70,17 @@
                         "color": "#1aa819"
                     },
                     {
-                        "text": " 4 ",
+                        "text": " +1 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.block_interaction_range"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
+                    },
+                    {
+                        "text": " 3 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.hoe_mining_speed"

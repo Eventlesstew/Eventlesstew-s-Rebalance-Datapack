@@ -32,6 +32,13 @@
                         "attribute": "attack_speed",
                         "amount": -2.8,
                         "slot": "mainhand"
+                    },
+                    {
+                        "id": "balance_hammer",
+                        "operation": "add_value",
+                        "attribute": "block_interaction_range",
+                        "amount": 1,
+                        "slot": "mainhand"
                     }
                 ]
             },
@@ -50,12 +57,12 @@
                         "rules": [
                             {
                                 "blocks": "#event_rebalance:pickaxe_power_2",
-                                "speed": 0.75,
+                                "speed": 0.5625,
                                 "correct_for_drops": false
                             },
                             {
                                 "blocks": "#mineable/hammer",
-                                "speed": 3.0,
+                                "speed": 2.25,
                                 "correct_for_drops": true
                             }
                         ]
@@ -100,7 +107,17 @@
                         "color": "#1aa819"
                     },
                     {
-                        "text": " 3.0 ",
+                        "text": " +1 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.block_interaction_range"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
+                    },
+                    {
+                        "text": " 2.25 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.hammer_mining_speed"

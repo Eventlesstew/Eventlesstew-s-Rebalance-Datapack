@@ -47,7 +47,7 @@
                         "rules": [
                             {
                                 "blocks": "#mineable/hoe",
-                                "speed": 5,
+                                "speed": 4,
                                 "correct_for_drops": true
                             }
                         ]
@@ -84,7 +84,7 @@
                         "color": "#1aa819"
                     },
                     {
-                        "text": " 5 ",
+                        "text": " 4 ",
                         "extra": [
                             {
                                 "translate": "attribute.name.hoe_mining_speed"

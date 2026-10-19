@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": "minecraft:diamond",
-    "C": "blaze_powder",
+    "C": "blaze_rod",
     "S": "minecraft:ward_armor_trim_smithing_template"
   },
   "pattern": [
