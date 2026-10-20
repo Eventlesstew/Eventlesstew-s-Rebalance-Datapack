@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "group": "rose_gold_ingot",
+    "ingredients": [
+        "#event_rebalance:custom_item/rose_golden_block"
+    ],
+    "result": {
+        "count": 9,
+        "id": "minecraft:piglin_brute_spawn_egg",
+        "components": {
+            "!entity_data": {},
+            "max_stack_size": 64
+        }
+    }
+}
