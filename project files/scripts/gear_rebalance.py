@@ -95,14 +95,14 @@ def add_tool_attribute(
     if base == "add":
         if value > 0:
             display_value = "+" + display_value
+
+        elif value == 0:
+            return
     else:
         try:
             value -= base
         except TypeError:
             pass
-
-    if value == 0:
-        return
 
     if tier_type == "add_multiplied_base":
         value *= 0.01

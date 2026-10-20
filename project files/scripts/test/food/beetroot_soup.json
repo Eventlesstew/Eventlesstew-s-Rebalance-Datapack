@@ -1,0 +1,78 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "beetroot_soup"
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "set_components",
+                "components": {
+                    "food": {
+                        "nutrition": 8,
+                        "saturation": 8,
+                        "can_always_eat": true
+                    },
+                    "consumable": {
+                        "consume_seconds": 2,
+                        "on_consume_effects": []
+                    },
+                    "minecraft:use_effects": {
+                        "speed_multiplier": 0.1,
+                        "can_sprint": false
+                    }
+                }
+            },
+            {
+                "type": "set_lore",
+                "mode": "replace_all",
+                "lore": [
+                    {
+                        "text": "attribute.name.consumable.food.nutrition.8",
+                        "extra": [],
+                        "italic": false,
+                        "color": "#f5ce0c"
+                    },
+                    {
+                        "text": "attribute.name.consumable.food.saturation.8",
+                        "extra": [],
+                        "italic": false,
+                        "color": "#f5ce0c"
+                    },
+                    {
+                        "text": "attribute.name.consumable.food.health.8",
+                        "extra": [],
+                        "italic": false,
+                        "color": "#f545ac"
+                    },
+                    {
+                        "text": "attribute.name.consumable.food.eat_time.2",
+                        "extra": [],
+                        "italic": false,
+                        "color": "#5555ff"
+                    },
+                    {
+                        "text": "attribute.name.consumable.food.eat_speed.0.1",
+                        "extra": [],
+                        "italic": false,
+                        "color": "#7a58f1"
+                    },
+                    {
+                        "text": "attribute.name.consumable.food.always_edible",
+                        "extra": [],
+                        "italic": false,
+                        "color": "#f78324"
+                    }
+                ]
+            }
+        ]
+    }
+}

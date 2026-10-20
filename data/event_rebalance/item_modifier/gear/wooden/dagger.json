@@ -18,7 +18,22 @@
             },
             {
                 "type": "minecraft:set_attributes",
-                "modifiers": []
+                "modifiers": [
+                    {
+                        "id": "balance_dagger",
+                        "operation": "add_value",
+                        "attribute": "attack_damage",
+                        "amount": 0,
+                        "slot": "mainhand"
+                    },
+                    {
+                        "id": "balance_dagger",
+                        "operation": "add_value",
+                        "attribute": "attack_speed",
+                        "amount": 0,
+                        "slot": "mainhand"
+                    }
+                ]
             },
             {
                 "type": "minecraft:set_components",
@@ -26,6 +41,10 @@
                     "max_damage": 128,
                     "repairable": {
                         "items": "#event_rebalance:tool_repair/wooden"
+                    },
+                    "weapon": {
+                        "item_damage_per_attack": 1,
+                        "disable_blocking_for_seconds": 0
                     },
                     "damage_type": "event_rebalance:dagger",
                     "attack_animation": {
@@ -50,6 +69,26 @@
                         "text": " ",
                         "color": "#AAAAAA",
                         "italic": false
+                    },
+                    {
+                        "text": " 1 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.attack_damage"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
+                    },
+                    {
+                        "text": " 4 ",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.attack_speed"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#1aa819"
                     }
                 ]
             }

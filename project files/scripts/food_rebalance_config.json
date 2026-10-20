@@ -1,0 +1,14 @@
+{
+    "eat_time":{
+        "default":2,
+        "colour_if_lesser":"#24f7ed",
+        "colour_if_equal":"#5555ff",
+        "colour_if_greater":"#7a58f1"
+    },
+    "eat_speed":{
+        "default":0.2,
+        "colour_if_lesser":"#7a58f1",
+        "colour_if_equal":"#5555ff",
+        "colour_if_greater":"#24f7ed"
+    }
+}

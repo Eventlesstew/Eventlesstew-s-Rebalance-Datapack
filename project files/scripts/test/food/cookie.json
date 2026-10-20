@@ -1,0 +1,60 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "cookie"
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "set_components",
+                "components": {
+                    "food": {
+                        "nutrition": 6,
+                        "saturation": 6,
+                        "can_always_eat": false
+                    },
+                    "consumable": {
+                        "consume_seconds": 2,
+                        "on_consume_effects": []
+                    },
+                    "minecraft:use_effects": {
+                        "speed_multiplier": 0.2,
+                        "can_sprint": false
+                    }
+                }
+            },
+            {
+                "type": "set_lore",
+                "mode": "replace_all",
+                "lore": [
+                    {
+                        "text": "attribute.name.consumable.food.nutrition.6",
+                        "extra": [],
+                        "italic": false,
+                        "color": "#f5ce0c"
+                    },
+                    {
+                        "text": "attribute.name.consumable.food.saturation.6",
+                        "extra": [],
+                        "italic": false,
+                        "color": "#f5ce0c"
+                    },
+                    {
+                        "text": "attribute.name.consumable.food.eat_time.2",
+                        "extra": [],
+                        "italic": false,
+                        "color": "#5555ff"
+                    }
+                ]
+            }
+        ]
+    }
+}

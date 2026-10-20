@@ -18,19 +18,19 @@
         "eat_time":3,
         "effects":[
             {
-                "type":"apply_effect",
+                "effect_type":"apply_effect",
                 "effect":"hunger",
                 "level":3,
                 "duration_seconds":30
             },
             {
-                "type":"apply_effect",
+                "effect_type":"apply_effect",
                 "effect":"poison",
                 "level":2,
                 "duration_seconds":60
             },
             {
-                "type":"apply_effect",
+                "effect_type":"apply_effect",
                 "effect":"nausea",
                 "level":1,
                 "duration_seconds":30
@@ -46,7 +46,7 @@
         "always_edible":true,
         "effects":[
             {
-                "type":"apply_effect",
+                "effect_type":"apply_effect",
                 "effect":"weakness",
                 "level":1,
                 "duration_seconds":10
@@ -63,7 +63,7 @@
         "always_edible":true,
         "effects":[
             {
-                "type":"apply_effect",
+                "effect_type":"apply_effect",
                 "effect":"strength",
                 "level":1,
                 "duration_seconds":10
@@ -76,7 +76,7 @@
         "always_edible":true,
         "effects":[
             {
-                "type":"apply_effect",
+                "effect_type":"apply_effect",
                 "effect":"hunger",
                 "duration_seconds":20,
                 "probability":0.5
@@ -89,7 +89,7 @@
         "food":4,
         "effects":[
             {
-                "type":"apply_effect",
+                "effect_type":"apply_effect",
                 "effect":"wither",
                 "level":1,
                 "duration_seconds":10,
@@ -105,7 +105,7 @@
         "saturation":4,
         "effects":[
             {
-                "type":"apply_effect",
+                "effect_type":"apply_effect",
                 "effect":"poison",
                 "level":3,
                 "duration_seconds":10,
@@ -121,7 +121,7 @@
         "saturation":4,
         "effects":[
             {
-                "type":"apply_effect",
+                "effect_type":"apply_effect",
                 "effect":"poison",
                 "level":1,
                 "duration_seconds":20
@@ -137,7 +137,7 @@
         "eat_time":3,
         "effects":[
             {
-                "type":"apply_effect",
+                "effect_type":"apply_effect",
                 "effect":"slowness",
                 "level":4,
                 "duration_seconds":10,
@@ -155,13 +155,13 @@
         "always_edible":true,
         "effects":[
             {
-                "type":"apply_effect",
+                "effect_type":"apply_effect",
                 "effect":"darkness",
                 "level":1,
                 "duration_seconds":30
             },
             {
-                "type":"apply_effect",
+                "effect_type":"apply_effect",
                 "effect":"strength",
                 "level":2,
                 "duration_seconds":30
@@ -177,13 +177,13 @@
         "always_edible":true,
         "effects":[
             {
-                "type":"apply_effect",
+                "effect_type":"apply_effect",
                 "effect":"nausea",
                 "level":1,
                 "duration_seconds":30
             },
             {
-                "type":"apply_effect",
+                "effect_type":"apply_effect",
                 "effect":"speed",
                 "level":2,
                 "duration_seconds":30
@@ -197,7 +197,7 @@
         "eat_speed":0.1,
         "effects":[
             {
-                "type":"apply_effect",
+                "effect_type":"apply_effect",
                 "effect":"weakness",
                 "level":1,
                 "duration_seconds":30,
@@ -217,7 +217,7 @@
         "eat_time":3,
         "effects":[
             {
-                "type":"apply_effect",
+                "effect_type":"apply_effect",
                 "effect":"nausea",
                 "level":1,
                 "duration_seconds":30,
@@ -236,7 +236,7 @@
         "saturation":4,
         "effects":[
             {
-                "type":"apply_effect",
+                "effect_type":"apply_effect",
                 "effect":"slowness",
                 "level":1,
                 "duration_seconds":30,
@@ -254,7 +254,7 @@
         "saturation":4,
         "effects":[
             {
-                "type":"apply_effect",
+                "effect_type":"apply_effect",
                 "effect":"hunger",
                 "level":1,
                 "duration_seconds":30,
@@ -273,7 +273,7 @@
         "eat_speed":0.5,
         "effects":[
             {
-                "type":"apply_effect",
+                "effect_type":"apply_effect",
                 "effect":"poison",
                 "level":1,
                 "duration_seconds":30,
@@ -293,7 +293,7 @@
         "eat_time":1,
         "effects":[
             {
-                "type":"apply_effect",
+                "effect_type":"apply_effect",
                 "effect":"hunger",
                 "level":2,
                 "duration_seconds":20,
@@ -314,7 +314,7 @@
         "eat_speed":0.0,
         "effects":[
             {
-                "type":"apply_effect",
+                "effect_type":"apply_effect",
                 "effect":"hunger",
                 "level":2,
                 "duration_seconds":20,
@@ -335,7 +335,7 @@
         "eat_speed":0.5,
         "effects":[
             {
-                "type":"apply_effect",
+                "effect_type":"apply_effect",
                 "effect":"poison",
                 "level":1,
                 "duration_seconds":10,
@@ -352,7 +352,7 @@
         "eat_speed":0.5,
         "effects":[
             {
-                "type":"apply_effect",
+                "effect_type":"apply_effect",
                 "effect":"poison",
                 "level":1,
                 "duration_seconds":10,
@@ -380,7 +380,7 @@
         "always_edible":true,
         "effects":[
             {
-                "type":"apply_effect",
+                "effect_type":"apply_effect",
                 "effect":"poison",
                 "level":1,
                 "time_seconds":10
@@ -395,7 +395,7 @@
         "eat_sound":"apple",
         "effects":[
             {
-                "type":"cure_effect",
+                "effect_type":"cure_effect",
                 "effect":"darkness"
             }
         ]
@@ -409,11 +409,11 @@
         "eat_sound_finish":"golden",
         "effects":[
             {
-                "type":"cure_effect",
+                "effect_type":"cure_effect",
                 "effect":"darkness"
             },
             {
-                "type":"apply_effect",
+                "effect_type":"apply_effect",
                 "effect":"night_vision",
                 "duration_seconds":60
             }
@@ -618,7 +618,7 @@
         "eat_sound":"chorus",
         "effects":[
             {
-                "type":"teleport_randomly"
+                "effect_type":"teleport_randomly"
             }
         ]
     },
@@ -630,7 +630,7 @@
         "eat_sound":"chorus",
         "effects":[
             {
-                "type":"teleport_forward"
+                "effect_type":"teleport_forward"
             }
         ]
     },
@@ -660,7 +660,7 @@
         "saturation":12,
         "healing":6,
         "eat_time":3,
-        "eat_sound":"drink",
+        "eat_sound":"honey",
         "always_edible":true,
         "effects":[
             {
@@ -674,7 +674,7 @@
         "is_drink":true,
         "saturation":5,
         "healing":5,
-        "eat_sound":"drink",
+        "eat_sound":"honey",
         "eat_sound_finish":"golden",
         "always_edible":true,
         "effects":[
@@ -713,6 +713,109 @@
             {
                 "effect_type":"cure_effect",
                 "effect":"poison"
+            }
+        ]
+    },
+    "mushroom_stew":{
+        "food":12,
+        "saturation":12,
+        "eat_speed":0,
+        "eat_sound":"soup",
+        "effects":[
+            {
+                "effect_type":"apply_effect",
+                "effect":"poison",
+                "level":3,
+                "duration_seconds":30,
+                "probability":0.3
+            }
+        ]
+    },
+    "beetroot_soup":{
+        "food":8,
+        "saturation":8,
+        "healing":8,
+        "eat_speed":0.1,
+        "eat_sound":"soup",
+        "always_edible":true
+    },
+    "fungal_soup":{
+        "item_type":"custom",
+        "food":16,
+        "saturation":16,
+        "eat_speed":0.1,
+        "eat_time":3,
+        "eat_sound":"soup",
+        "always_edible":true,
+        "effects":[
+            {
+                "effect_type":"apply_effect",
+                "effect":"nausea",
+                "level":1,
+                "duration_seconds":30
+            },
+            {
+                "effect_type":"apply_effect",
+                "effect":"darkness",
+                "level":2,
+                "duration_seconds":30
+            },
+            {
+                "effect_type":"apply_effect",
+                "effect":"strength",
+                "level":2,
+                "duration_seconds":30
+            },
+            {
+                "effect_type":"apply_effect",
+                "effect":"haste",
+                "level":1,
+                "duration_seconds":30
+            }
+        ]
+    },
+    "sea_salad":{
+        "item_type":"custom",
+        "food":12,
+        "saturation":12,
+        "healing":3,
+        "eat_speed":0.1,
+        "eat_sound":"soup"
+    },
+    "rabbit_stew":{
+        "food":12,
+        "saturation":12,
+        "eat_sound":"soup"
+    },
+    "apple_pie":{
+        "item_type":"custom",
+        "food":10,
+        "saturation":10,
+        "healing":10,
+        "eat_time":4,
+        "effects":[
+            {
+                "effect_type":"cure_effect",
+                "effect":"hunger"
+            }
+        ]
+    },
+    "beef_pie":{
+        "item_type":"custom",
+        "food":12,
+        "saturation":16,
+        "eat_time":4,
+        "eat_speed":0
+    },
+    "pumpkin_pie":{
+        "food":10,
+        "saturation":10,
+        "healing":10,
+        "eat_time":3,
+        "effects":[
+            {
+                "effect_type":"cure_effect",
+                "effect":"mining_fatigue"
             }
         ]
     }

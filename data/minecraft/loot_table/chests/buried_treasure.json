@@ -31,7 +31,25 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "ocean_monument_map"
+          "name": "ocean_monument_map",
+          "modifier": [
+            {
+              "type": "minecraft:exploration_map",
+              "decoration": "minecraft:monument",
+              "destination": "#minecraft:on_ocean_monument_maps"
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:map_id": {}
+                }
+              },
+              "on_fail": {
+                "type": "minecraft:discard"
+              }
+            }
+          ]
         }
       ],
       "rolls": 1
@@ -40,7 +58,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "enchanted_book",
+          "name": "book",
           "modifier": {
             "type": "enchant_with_levels",
             "levels": {
@@ -80,7 +98,7 @@
             "type": "minecraft:set_count",
             "count": {
               "type": "minecraft:uniform",
-              "max": 4,
+              "max": 2,
               "min": 1
             }
           }

@@ -4,6 +4,7 @@ import pathlib
 
 template_path = "project files/scripts/template.json"
 data_path = "project files/scripts/food_rebalance_data.json"
+config_path = "project files/scripts/food_rebalance_config.json"
 modifier_folder_path = (
     "project files/scripts/test/food"  # "data/event_rebalance/item_modifier/food"
 )
@@ -20,358 +21,149 @@ with open(template_path, "r") as file:
 with open(data_path, "r") as file:
     data_file = json.loads(file.read())
 
+with open(config_path, "r") as file:
+    config = json.loads(file.read())
 
-def get_tooltip(text, extra):
+
+def get_tooltip(text, color):
     lore = copy.deepcopy(lore_base)
     lore["text"] = text
-    lore["extra"] = extra
+    lore["color"] = color
     return lore
 
 
-def get_tier_value(tier: str, id: str):
-    value = None
-    try:
-        value = data_file["tiers"][tier][id]
-    except KeyError:
-        try:
-            value = data_file["default"][id]
-        except KeyError:
-            pass
-    return value
+def get_tooltip_from_config(text, key, value):
+    config_value = config[key]
+    tooltip_colour = "#ffffff"
 
-
-def get_tool_value(tier: str, tool: str, id: str):
-    value_data = None
-    value = None
-    try:
-        value_data = data_file["tiers"][tier]["tools"][tool][id]
-    except KeyError:
-        try:
-            value_data = data_file["default"][tool][id]
-        except KeyError:
-            pass
-
-    if value_data == None:
-        value_data = get_tier_value(tier, id)
-
-    if value_data == None:
-        return None
-    elif type(value_data) is dict:
-        value = get_tool_value(tier, value_data["reference"], id)
-
-        if value == None:
-            return None
-
-        try:
-            value *= value_data["mult"]
-        except KeyError:
-            pass
-        try:
-            value += value_data["mod"]
-        except KeyError:
-            pass
+    default_value = config_value["default"]
+    if value == default_value:
+        tooltip_colour = config_value["colour_if_equal"]
+    elif value > default_value:
+        tooltip_colour = config_value["colour_if_greater"]
     else:
-        value = value_data
+        tooltip_colour = config_value["colour_if_lesser"]
 
-    return value
+    return get_tooltip(text + "." + str(value), tooltip_colour)
 
 
-def add_tool_attribute(
-    data: dict,
-    tier: str,
-    tool: str,
-    type: str,
-    id: str,
-    base: float = 0,
-    display_attribute: bool = True,
-):
-    value = get_tool_value(tier, tool, id)
-    if value == None:
-        return
+def get_modifier_template() -> dict:
+    modifier_template_base = copy.deepcopy(modifier_template)
+    return modifier_template_base
 
-    slot = get_tool_value(tier, tool, "slot")
-    if slot == None:
-        slot = "mainhand"
 
-    display_value = str(value)
-    value -= base
-    if type == "add_multiplied_base":
-        value *= 0.01
-        display_value += "%"
-    attribute = {
-        "id": "balance",
-        "operation": type,
-        "attribute": id,
-        "amount": value,
-        "slot": slot,
+default_food_data = data_file["default"]
+
+pathlib.Path(modifier_folder_path).mkdir(parents=True, exist_ok=True)
+
+food_keys = data_file.keys()
+
+
+def add_food_item(food_key: str):
+    food = data_file[food_key]  # The food data
+    food_modifier = get_modifier_template()  # The modifier itself
+    food_modifier_functions = food_modifier["on_pass"][
+        "functions"
+    ]  # All of the functions for the food
+
+    def get_food_value(target_key: str):
+        if target_key in food:
+            return food[target_key]
+        elif target_key in default_food_data:
+            return default_food_data[target_key]
+
+    item_type = get_food_value("item_type")
+    nutrition = get_food_value("food")
+    saturation = get_food_value("saturation")
+    healing = get_food_value("healing")
+    always_edible = get_food_value("always_edible")
+    eat_time = get_food_value("eat_time")
+    eat_speed = get_food_value("eat_speed")
+
+    if item_type == "custom":
+        food_modifier["item_filter"] = {
+            "components": {"item_model": "event:" + food_key}
+        }
+    else:
+        food_modifier["item_filter"] = {"items": food_key}
+
+    food_effects = []
+
+    for effect in get_food_value("effects"):
+        effect_type = effect["effect_type"]
+
+        if effect_type == "cure_effect":
+            pass
+        print(effect["effect_type"])
+    food_components = {  # The components to apply for the food
+        "food": {
+            "nutrition": nutrition,
+            "saturation": saturation,
+            "can_always_eat": always_edible,
+        },
+        "consumable": {
+            "consume_seconds": eat_time,
+            "on_consume_effects": food_effects,
+        },
+        "minecraft:use_effects": {
+            "speed_multiplier": eat_speed,
+            "can_sprint": eat_speed >= 0.5,
+        },
     }
 
-    data["attributes"].append(attribute)
+    food_lore = []
 
-    if display_attribute:
-        lore = copy.deepcopy(lore_base)
-        lore["text"] = " " + display_value + " "
-        lore["extra"] = [{"translate": "attribute.name." + id}]
-
-        data["lore"].append(lore)
-
-    return attribute
-
-
-def is_custom(tier: str, tool: str) -> bool:
-    try:
-        if data_file["tiers"][tier]["custom_tier"]:
-            return True
-    except KeyError:
-        pass
-
-    if get_tool_value(tier, tool, "custom_tool"):
-        return True
-
-    return False
-
-
-for tier_i, tier in enumerate(data_file["tiers"]):
-    tier_data = data_file["tiers"][tier]
-    tier_tool_data = tier_data["tools"]
-    # print(tier_data["tools"])
-
-    for tool_i, tool in enumerate(data_file["config"]["tool_list"]):
-        modifier = copy.deepcopy(modifier_template)
-
-        tool_data = {
-            "attributes": [],
-            "components": {},
-            "lore": [{"text": " ", "color": "#AAAAAA", "italic": False}],
-        }
-        components = tool_data["components"]
-
-        def add_attribute(
-            id: str,
-            base: float = 0.0,
-            operator: str = "add_value",
-            show_attribute: bool = True,
-        ):
-            add_tool_attribute(
-                tool_data, tier, tool, operator, id, base, show_attribute
+    if nutrition > 0:
+        food_lore.append(
+            get_tooltip(
+                "attribute.name.consumable.food.nutrition." + str(nutrition), "#f5ce0c"
             )
-
-        modifier["on_pass"]["functions"].append(
-            {"type": "minecraft:set_attributes", "modifiers": tool_data["attributes"]}
         )
-        modifier["on_pass"]["functions"].append(
-            {"type": "minecraft:set_components", "components": components}
+    if saturation > 0:
+        food_lore.append(
+            get_tooltip(
+                "attribute.name.consumable.food.saturation." + str(saturation),
+                "#f5ce0c",
+            )
         )
-        modifier["on_pass"]["functions"].append(
-            {
-                "type": "minecraft:set_lore",
-                "mode": "replace_all",
-                "lore": tool_data["lore"],
-            }
+    if healing > 0:
+        food_lore.append(
+            get_tooltip(
+                "attribute.name.consumable.food.health." + str(healing), "#f545ac"
+            )
         )
 
-        add_attribute("attack_damage", 1)
-        add_attribute("attack_speed", 4)
-        add_attribute("armor")
-        add_attribute("armor_toughness")
-        add_attribute("movement_speed", operator="add_multiplied_base")
-        add_attribute(
-            "air_drag_modifier", operator="add_multiplied_base", show_attribute=False
+    food_lore.append(
+        get_tooltip_from_config(
+            "attribute.name.consumable.food.eat_time", "eat_time", eat_time
         )
-        add_attribute("sweeping_damage_ratio", show_attribute=False)
-        add_attribute("burning_time", operator="add_multiplied_base")
-
-        # Item Filter
-        display_tier = tier
-
-        if get_tool_value(tier, tool, "uses_armor_tier"):
-            armor_tier = get_tier_value(tier, "armor_name")
-            if armor_tier:
-                display_tier = armor_tier
-
-        if not get_tool_value(tier, tool, "unbreakable"):
-            components["max_damage"] = get_tool_value(tier, tool, "max_damage")
-            components["repairable"] = {
-                "items": "#event_rebalance:tool_repair/" + display_tier
-            }
-
-        # Stealth
-        stealth = get_tool_value(tier, tool, "stealth")
-        if stealth:
-            components["mob_visibility"] = {
-                "targeting_entity_types": "#event_rebalance:mobs",
-                "visibility": 1 / stealth,
-            }
-            tool_data["lore"].append(
-                get_tooltip(
-                    text=" " + str(stealth) + "x ",
-                    extra=[{"translate": "attribute.name.stealth"}],
-                )
+    )
+    if eat_speed != config["eat_speed"]["default"]:
+        food_lore.append(
+            get_tooltip_from_config(
+                "attribute.name.consumable.food.eat_speed", "eat_speed", eat_speed
             )
+        )
+    if always_edible:
+        food_lore.append(
+            get_tooltip("attribute.name.consumable.food.always_edible", "#f78324")
+        )
 
-        # Durability and Shield Break Handling
-        components["weapon"] = {
-            "item_damage_per_attack": 1,
-            "disable_blocking_for_seconds": get_tool_value(
-                tier, tool, "shield_disable_time"
-            ),
-        }
+    food_modifier_functions.append(
+        {"type": "set_components", "components": food_components}
+    )
+    food_modifier_functions.append(
+        {"type": "set_lore", "mode": "replace_all", "lore": food_lore}
+    )
+    modifier_file_path = (
+        modifier_folder_path + "/" + food_key + ".json"
+    )  # The file path to write the json file to
 
-        # Mining Components
-        mineable = get_tool_value(tier, tool, "mineable")
-        if mineable:
-            # Mining Speed
-            mining_speed = get_tool_value(tier, tool, "mining_speed")
-            tool_rules = []
-            components["tool"] = {"rules": tool_rules}
+    with open(modifier_file_path, "w") as file:
+        file.write(json.dumps(food_modifier, indent=4))
+    print("Creating " + food_key)
 
-            tool_rules.append(
-                {
-                    "blocks": "#mineable/" + mineable,
-                    "speed": mining_speed,
-                    "correct_for_drops": True,
-                }
-            )
 
-            # Mining Speed tooltip
-            tool_data["lore"].append(
-                get_tooltip(
-                    text=" " + str(mining_speed) + " ",
-                    extra=[
-                        {"translate": "attribute.name." + mineable + "_mining_speed"}
-                    ],
-                )
-            )
-
-            if get_tool_value(tier, tool, "uses_pickaxe_mining_power"):
-                mining_power = get_tool_value(tier, tool, "mining_power")
-
-                if mineable == "pickaxe" and mining_power >= 3:
-                    tool_rules.insert(
-                        0,
-                        {
-                            "blocks": "#event_rebalance:obsidian",
-                            "speed": mining_speed * 2,
-                            "correct_for_drops": True,
-                        },
-                    )
-
-                tool_rules.insert(
-                    0,
-                    {
-                        "blocks": "#event_rebalance:pickaxe_power_"
-                        + str(mining_power + 1),
-                        "speed": mining_speed / 4,
-                        "correct_for_drops": False,
-                    },
-                )
-
-                tool_data["lore"].append(
-                    get_tooltip(
-                        text=" " + str(mining_power) + " ",
-                        extra=[{"translate": "attribute.name.mining_power"}],
-                    )
-                )
-
-        # Dagger Animation
-        if tool == "dagger":
-            components["damage_type"] = "event_rebalance:dagger"
-            components["attack_animation"] = {"type": "stab", "duration": 4}
-
-        # Spear Data
-        if tool == "spear":
-            charge_delay_seconds = get_tool_value(tier, tool, "charge_delay")
-            charge_delay_ticks = charge_delay_seconds * 20
-            charge_duration_seconds = get_tool_value(tier, tool, "charge_duration")
-            charge_duration_ticks = charge_duration_seconds * 20
-            sound_id = get_tool_value(tier, tool, "spear_sound_id")
-            components["piercing_weapon"] = {
-                "sound": "item." + sound_id + ".attack",
-                "hit_sound": "item." + sound_id + ".hit",
-            }
-            components["kinetic_weapon"] = {
-                "delay_ticks": get_tool_value(tier, tool, "charge_delay") * 20,
-                "dismount_conditions": {
-                    "max_duration_ticks": int(charge_duration_ticks / 3),
-                    "min_speed": 8,
-                },
-                "knockback_conditions": {
-                    "max_duration_ticks": int(charge_duration_ticks * 2 / 3),
-                    "min_speed": 4,
-                },
-                "damage_conditions": {
-                    "max_duration_ticks": int(charge_duration_ticks),
-                    "min_speed": 4,
-                },
-                "damage_multiplier": get_tool_value(
-                    tier, tool, "spear_damage_multiplier"
-                ),
-                "contact_cooldown_ticks": 10,
-                "sound": "item." + sound_id + ".use",
-                "hit_sound": "item." + sound_id + ".hit",
-                "forward_movement": 0.4,
-            }
-            components["attack_range"] = {
-                "min_reach": 2,
-                "max_reach": 4.5,
-                "mob_factor": 0.5,
-            }
-            components["minimum_attack_charge"] = 1
-
-            # Charge Delay Tooltip
-            tool_data["lore"].append(
-                get_tooltip(
-                    text=" " + str(charge_delay_seconds) + "s ",
-                    extra=[{"translate": "attribute.name.charge_delay"}],
-                )
-            )
-
-            # Charge Duration Tooltip
-            tool_data["lore"].append(
-                get_tooltip(
-                    text=" " + str(charge_duration_seconds) + "s ",
-                    extra=[{"translate": "attribute.name.charge_duration"}],
-                )
-            )
-
-        if is_custom(tier, tool):
-            slot = get_tool_value(tier, tool, "slot")
-            if slot and slot != "mainhand":
-                components["equippable"] = {"slot": slot, "asset_id": "event:" + tier}
-                if slot == "body":
-                    if tool == "horse_armor":
-                        components["equippable"][
-                            "allowed_entities"
-                        ] = "#can_wear_horse_armor"
-                    elif tool == "nautilus_armor":
-                        components["equippable"][
-                            "allowed_entities"
-                        ] = "#can_wear_nautilus_armor"
-                        components["equippable"]["can_be_sheared"] = True
-                else:
-                    components["equippable"]["equip_on_interact"] = True
-            modifier["item_filter"]["items"] = (
-                "#event_rebalance:custom_item/gear/" + display_tier + "/" + tool
-            )
-            modifier["item_filter"]["components"] = {
-                "item_model": "event:gear/" + display_tier + "/" + tool
-            }
-            components["item_name"] = {
-                "translate": "item.event." + display_tier + "_" + tool
-            }
-            components["damage"] = 0
-            components["!jukebox_playable"] = {}
-            components["!provides_pottery_pattern"] = {}
-            components["max_stack_size"] = 1
-            components["rarity"] = "common"
-        else:
-            modifier["item_filter"]["items"] = display_tier + "_" + tool
-
-        # Saving the Modifier
-        modifier_directory = modifier_folder_path + "/" + display_tier + "/"
-        pathlib.Path(modifier_directory).mkdir(parents=True, exist_ok=True)
-
-        modifier_path = modifier_directory + tool + ".json"
-        with open(modifier_path, "w") as file:
-            file.write(json.dumps(modifier, indent=4))
-        print("Creating " + display_tier + "_" + tool)
+for food_i, food_key in enumerate(food_keys):
+    if food_key != "default":
+        add_food_item(food_key)
