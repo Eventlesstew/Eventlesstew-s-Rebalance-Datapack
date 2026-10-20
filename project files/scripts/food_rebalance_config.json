@@ -10,5 +10,23 @@
         "colour_if_lesser":"#7a58f1",
         "colour_if_equal":"#5555ff",
         "colour_if_greater":"#24f7ed"
+    },
+    "effect_sets":{
+        "negative":[
+            "blindness",
+            "darkness",
+            "hunger",
+            "infested",
+            "levitation",
+            "mining_fatigue",
+            "nausea",
+            "oozing",
+            "poison",
+            "slowness",
+            "weakness",
+            "weaving",
+            "wind_charged",
+            "wither"
+        ]
     }
 }

@@ -8,7 +8,13 @@
         "functions": [
             "event_rebalance:modified",
             {
-                "type": "minecraft:set_components",
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "set_components",
                 "components": {
                     "food": {
                         "nutrition": 2,
@@ -17,20 +23,11 @@
                     },
                     "consumable": {
                         "consume_seconds": 1,
-                        "sound": {
-                            "sound_id": "item.chocolate.eat"
-                        },
                         "on_consume_effects": [
                             {
                                 "type": "apply_effects",
+                                "probability": 1,
                                 "effects": [
-                                    {
-                                        "id": "regeneration",
-                                        "amplifier": 2,
-                                        "duration": 24,
-                                        "show_icon": false,
-                                        "show_particles": false
-                                    },
                                     {
                                         "id": "glowing",
                                         "amplifier": 1,
@@ -39,12 +36,25 @@
                                 ]
                             },
                             {
-                                "type": "play_sound",
-                                "sound": {
-                                    "sound_id": "item.glow_berries.consume"
-                                }
+                                "type": "apply_effects",
+                                "effects": [
+                                    {
+                                        "id": "regeneration",
+                                        "amplifier": 3,
+                                        "duration": 12,
+                                        "show_icon": false,
+                                        "show_particles": false
+                                    }
+                                ]
                             }
-                        ]
+                        ],
+                        "sound": {
+                            "sound_id": "item.soft.eat"
+                        }
+                    },
+                    "minecraft:use_effects": {
+                        "speed_multiplier": 1,
+                        "can_sprint": true
                     }
                 }
             },
@@ -53,46 +63,39 @@
                 "mode": "replace_all",
                 "lore": [
                     {
-                        "translate": "attribute.name.consumable.food.nutrition.2",
+                        "italic": false,
                         "color": "#f5ce0c",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.nutrition.2"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.saturation.2",
+                        "italic": false,
                         "color": "#f5ce0c",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.saturation.2"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.health.2",
+                        "italic": false,
                         "color": "#f545ac",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.health.2"
                     },
                     {
-                        "translate": " 1s ",
-                        "extra": [
-                            {
-                                "translate": "attribute.name.consumable.food.eating_time"
-                            }
-                        ],
+                        "italic": false,
                         "color": "#24f7ed",
-                        "italic": false
-                    }
-                ]
-            },
-            "event_rebalance:food/stats/slowing/less",
-            {
-                "type": "set_lore",
-                "mode": "append",
-                "lore": [
-                    {
-                        "translate": "attribute.name.consumable.food.always_edible",
-                        "color": "#f78324",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.eat_time.1"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.effect.glow_berries",
+                        "italic": false,
+                        "color": "#24f7ed",
+                        "translate": "attribute.name.consumable.food.eat_speed.1"
+                    },
+                    {
+                        "italic": false,
+                        "color": "#f78324",
+                        "translate": "attribute.name.consumable.food.always_edible"
+                    },
+                    {
+                        "italic": false,
                         "color": "#5555ff",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.apply_effect.glowing.2.10s"
                     }
                 ]
             }

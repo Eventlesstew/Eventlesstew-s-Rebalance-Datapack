@@ -23,7 +23,22 @@
                     },
                     "consumable": {
                         "consume_seconds": 2,
-                        "on_consume_effects": []
+                        "on_consume_effects": [
+                            {
+                                "type": "apply_effects",
+                                "probability": 0.3,
+                                "effects": [
+                                    {
+                                        "id": "wither",
+                                        "amplifier": 0,
+                                        "duration": 200
+                                    }
+                                ]
+                            }
+                        ],
+                        "sound": {
+                            "sound_id": "item.soft.eat"
+                        }
                     },
                     "minecraft:use_effects": {
                         "speed_multiplier": 0.2,
@@ -46,6 +61,12 @@
                         "extra": [],
                         "italic": false,
                         "color": "#5555ff"
+                    },
+                    {
+                        "text": "attribute.name.consumable.food.apply_effect.wither.1.10s.30%",
+                        "extra": [],
+                        "italic": false,
+                        "color": "#ff5555"
                     }
                 ]
             }

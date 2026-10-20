@@ -23,7 +23,29 @@
                     },
                     "consumable": {
                         "consume_seconds": 2,
-                        "on_consume_effects": []
+                        "on_consume_effects": [
+                            {
+                                "type": "remove_effects",
+                                "effects": [
+                                    "poison"
+                                ]
+                            },
+                            {
+                                "type": "apply_effects",
+                                "effects": [
+                                    {
+                                        "id": "regeneration",
+                                        "amplifier": 2,
+                                        "duration": 24,
+                                        "show_icon": false,
+                                        "show_particles": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "sound": {
+                            "sound_id": "item.honey.eat"
+                        }
                     },
                     "minecraft:use_effects": {
                         "speed_multiplier": 0.1,
@@ -70,6 +92,12 @@
                         "extra": [],
                         "italic": false,
                         "color": "#f78324"
+                    },
+                    {
+                        "text": "attribute.name.consumable.food.cure_effect.poison",
+                        "extra": [],
+                        "italic": false,
+                        "color": "#5555ff"
                     }
                 ]
             }

@@ -23,7 +23,44 @@
                     },
                     "consumable": {
                         "consume_seconds": 3,
-                        "on_consume_effects": []
+                        "on_consume_effects": [
+                            {
+                                "type": "apply_effects",
+                                "probability": 1,
+                                "effects": [
+                                    {
+                                        "id": "hunger",
+                                        "amplifier": 2,
+                                        "duration": 600
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "apply_effects",
+                                "probability": 1,
+                                "effects": [
+                                    {
+                                        "id": "poison",
+                                        "amplifier": 1,
+                                        "duration": 1200
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "apply_effects",
+                                "probability": 1,
+                                "effects": [
+                                    {
+                                        "id": "nausea",
+                                        "amplifier": 0,
+                                        "duration": 600
+                                    }
+                                ]
+                            }
+                        ],
+                        "sound": {
+                            "sound_id": "item.fish.eat"
+                        }
                     },
                     "minecraft:use_effects": {
                         "speed_multiplier": 0.2,
@@ -46,6 +83,24 @@
                         "extra": [],
                         "italic": false,
                         "color": "#7a58f1"
+                    },
+                    {
+                        "text": "attribute.name.consumable.food.apply_effect.hunger.3.30s",
+                        "extra": [],
+                        "italic": false,
+                        "color": "#ff5555"
+                    },
+                    {
+                        "text": "attribute.name.consumable.food.apply_effect.poison.2.60s",
+                        "extra": [],
+                        "italic": false,
+                        "color": "#ff5555"
+                    },
+                    {
+                        "text": "attribute.name.consumable.food.apply_effect.nausea.1.30s",
+                        "extra": [],
+                        "italic": false,
+                        "color": "#ff5555"
                     }
                 ]
             }

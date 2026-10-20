@@ -426,6 +426,14 @@
         }
       },
       "trigger": "minecraft:consume_item"
+    },
+    "honeycomb": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:honeycomb"
+        }
+      },
+      "trigger": "minecraft:consume_item"
     }
   },
   "display": {
@@ -599,6 +607,9 @@
     ],
     [
       "cooked_tropical_fish"
+    ],
+    [
+      "honeycomb"
     ]
   ],
   "rewards": {

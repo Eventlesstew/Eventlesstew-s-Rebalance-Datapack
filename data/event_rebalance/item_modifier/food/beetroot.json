@@ -8,30 +8,42 @@
         "functions": [
             "event_rebalance:modified",
             {
-                "type": "minecraft:set_components",
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "set_components",
                 "components": {
                     "food": {
-                        "nutrition": 2,
-                        "saturation": 6,
-                        "can_always_eat": true
+                        "nutrition": 5,
+                        "saturation": 5,
+                        "can_always_eat": false
                     },
                     "consumable": {
                         "consume_seconds": 2,
-                        "sound": {
-                            "sound_id": "item.chocolate.eat"
-                        },
                         "on_consume_effects": [
                             {
                                 "type": "apply_effects",
                                 "effects": [
                                     {
                                         "id": "regeneration",
-                                        "amplifier": 1,
-                                        "duration": 50
+                                        "amplifier": 3,
+                                        "duration": 30,
+                                        "show_icon": false,
+                                        "show_particles": false
                                     }
                                 ]
                             }
-                        ]
+                        ],
+                        "sound": {
+                            "sound_id": "item.soft.eat"
+                        }
+                    },
+                    "minecraft:use_effects": {
+                        "speed_multiplier": 0.1,
+                        "can_sprint": false
                     }
                 }
             },
@@ -39,43 +51,30 @@
                 "type": "set_lore",
                 "mode": "replace_all",
                 "lore": [
-                    
                     {
-                        "translate": "attribute.name.consumable.food.nutrition.2",
+                        "italic": false,
                         "color": "#f5ce0c",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.nutrition.5"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.saturation.6",
+                        "italic": false,
                         "color": "#f5ce0c",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.saturation.5"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.health.2",
+                        "italic": false,
                         "color": "#f545ac",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.health.5"
                     },
                     {
-                        "translate": " 2s ",
-                        "extra": [
-                            {
-                                "translate": "attribute.name.consumable.food.eating_time"
-                            }
-                        ],
+                        "italic": false,
                         "color": "#5555ff",
-                        "italic": false
-                    }
-                ]
-            },
-            "event_rebalance:food/stats/slowing/more",
-            {
-                "type": "set_lore",
-                "mode": "append",
-                "lore": [
+                        "translate": "attribute.name.consumable.food.eat_time.2"
+                    },
                     {
-                        "translate": "attribute.name.consumable.food.always_edible",
-                        "color": "#f78324",
-                        "italic": false
+                        "italic": false,
+                        "color": "#7a58f1",
+                        "translate": "attribute.name.consumable.food.eat_speed.0.1"
                     }
                 ]
             }

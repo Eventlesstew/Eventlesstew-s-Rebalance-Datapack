@@ -8,21 +8,25 @@
         "functions": [
             "event_rebalance:modified",
             {
-                "type": "minecraft:set_components",
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "set_components",
                 "components": {
                     "food": {
                         "nutrition": 4,
-                        "saturation": 8,
+                        "saturation": 5,
                         "can_always_eat": true
                     },
                     "consumable": {
-                        "consume_seconds": 1,
-                        "sound": {
-                            "sound_id": "item.chocolate.eat"
-                        },
+                        "consume_seconds": 3,
                         "on_consume_effects": [
                             {
                                 "type": "apply_effects",
+                                "probability": 1,
                                 "effects": [
                                     {
                                         "id": "nausea",
@@ -32,12 +36,24 @@
                                 ]
                             },
                             {
-                                "type": "play_sound",
-                                "sound": {
-                                    "sound_id": "item.bad_food.consume"
-                                }
+                                "type": "apply_effects",
+                                "probability": 1,
+                                "effects": [
+                                    {
+                                        "id": "speed",
+                                        "amplifier": 1,
+                                        "duration": 600
+                                    }
+                                ]
                             }
-                        ]
+                        ],
+                        "sound": {
+                            "sound_id": "item.soft.eat"
+                        }
+                    },
+                    "minecraft:use_effects": {
+                        "speed_multiplier": 0.2,
+                        "can_sprint": false
                     }
                 }
             },
@@ -46,34 +62,34 @@
                 "mode": "replace_all",
                 "lore": [
                     {
-                        "translate": "attribute.name.consumable.food.nutrition.4",
+                        "italic": false,
                         "color": "#f5ce0c",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.nutrition.4"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.saturation.8",
+                        "italic": false,
                         "color": "#f5ce0c",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.saturation.5"
                     },
                     {
-                        "translate": " 1s ",
-                        "extra": [
-                            {
-                                "translate": "attribute.name.consumable.food.eating_time"
-                            }
-                        ],
-                        "color": "#24f7ed",
-                        "italic": false
+                        "italic": false,
+                        "color": "#7a58f1",
+                        "translate": "attribute.name.consumable.food.eat_time.3"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.always_edible",
+                        "italic": false,
                         "color": "#f78324",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.always_edible"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.effect.warped_fungus",
+                        "italic": false,
                         "color": "#ff5555",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.apply_effect.nausea.1.30s"
+                    },
+                    {
+                        "italic": false,
+                        "color": "#5555ff",
+                        "translate": "attribute.name.consumable.food.apply_effect.speed.2.30s"
                     }
                 ]
             }

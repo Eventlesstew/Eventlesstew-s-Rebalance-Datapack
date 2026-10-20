@@ -8,7 +8,13 @@
         "functions": [
             "event_rebalance:modified",
             {
-                "type": "minecraft:set_components",
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "set_components",
                 "components": {
                     "food": {
                         "nutrition": 4,
@@ -17,24 +23,21 @@
                     },
                     "consumable": {
                         "consume_seconds": 2,
-                        "sound": {
-                            "sound_id": "item.apple.eat"
-                        },
                         "on_consume_effects": [
                             {
-                                "type": "minecraft:remove_effects",
+                                "type": "remove_effects",
                                 "effects": [
-                                    "darkness",
-                                    "blindness"
+                                    "darkness"
                                 ]
-                            },
-                            {
-                                "type": "play_sound",
-                                "sound": {
-                                    "sound_id": "item.carrot.consume"
-                                }
                             }
-                        ]
+                        ],
+                        "sound": {
+                            "sound_id": "item.apple.eat"
+                        }
+                    },
+                    "minecraft:use_effects": {
+                        "speed_multiplier": 0.2,
+                        "can_sprint": false
                     }
                 }
             },
@@ -42,43 +45,30 @@
                 "type": "set_lore",
                 "mode": "replace_all",
                 "lore": [
-                    
                     {
-                        "translate": "attribute.name.consumable.food.nutrition.4",
+                        "italic": false,
                         "color": "#f5ce0c",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.nutrition.4"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.saturation.4",
+                        "italic": false,
                         "color": "#f5ce0c",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.saturation.4"
                     },
                     {
-                        "translate": " 2s ",
-                        "extra": [
-                            {
-                                "translate": "attribute.name.consumable.food.eating_time"
-                            }
-                        ],
+                        "italic": false,
                         "color": "#5555ff",
-                        "italic": false
-                    }
-                ]
-            },
-            "event_rebalance:food/stats/slowing/less",
-            {
-                "type": "set_lore",
-                "mode": "append",
-                "lore": [
+                        "translate": "attribute.name.consumable.food.eat_time.2"
+                    },
                     {
-                        "translate": "attribute.name.consumable.food.always_edible",
+                        "italic": false,
                         "color": "#f78324",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.always_edible"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.effect.carrot",
+                        "italic": false,
                         "color": "#5555ff",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.cure_effect.darkness"
                     }
                 ]
             }

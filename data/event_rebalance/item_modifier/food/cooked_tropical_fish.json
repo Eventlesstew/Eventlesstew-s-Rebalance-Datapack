@@ -1,7 +1,6 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "#event_rebalance:custom_item/food/cooked_tropical_fish",
         "components": {
             "item_model": "event:cooked_tropical_fish"
         }
@@ -10,30 +9,39 @@
         "type": "sequence",
         "functions": [
             "event_rebalance:modified",
-            "event_rebalance:custom_item/music_disc",
             {
-                "type": "minecraft:set_components",
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "set_components",
                 "components": {
-                    "rarity":"common",
                     "food": {
                         "nutrition": 8,
-                        "saturation": 8
+                        "saturation": 2,
+                        "can_always_eat": false
                     },
                     "consumable": {
                         "consume_seconds": 2,
                         "on_consume_effects": [
                             {
-                                "type": "minecraft:apply_effects",
+                                "type": "apply_effects",
                                 "probability": 0.05,
                                 "effects": [
                                     {
-                                    "id": "minecraft:poison",
-                                    "amplifier": 0,
-                                    "duration": 200
+                                        "id": "poison",
+                                        "amplifier": 0,
+                                        "duration": 200
                                     }
                                 ]
                             }
                         ]
+                    },
+                    "minecraft:use_effects": {
+                        "speed_multiplier": 0.5,
+                        "can_sprint": true
                     }
                 }
             },
@@ -41,38 +49,30 @@
                 "type": "set_lore",
                 "mode": "replace_all",
                 "lore": [
-                    
                     {
-                        "translate": "attribute.name.consumable.food.nutrition.8",
+                        "italic": false,
                         "color": "#f5ce0c",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.nutrition.8"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.saturation.8",
+                        "italic": false,
                         "color": "#f5ce0c",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.saturation.2"
                     },
                     {
-                        "translate": " 2s ",
-                        "extra": [
-                            {
-                                "translate": "attribute.name.consumable.food.eating_time"
-                            }
-                        ],
+                        "italic": false,
                         "color": "#5555ff",
-                        "italic": false
-                    }
-                ]
-            },
-            "event_rebalance:food/stats/slowing/less",
-            {
-                "type": "set_lore",
-                "mode": "append",
-                "lore": [
+                        "translate": "attribute.name.consumable.food.eat_time.2"
+                    },
                     {
-                        "translate": "attribute.name.consumable.food.effect.cooked_tropical_fish",
+                        "italic": false,
+                        "color": "#24f7ed",
+                        "translate": "attribute.name.consumable.food.eat_speed.0.5"
+                    },
+                    {
+                        "italic": false,
                         "color": "#ff5555",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.apply_effect.poison.1.10s.5%"
                     }
                 ]
             }

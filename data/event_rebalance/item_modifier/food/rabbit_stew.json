@@ -7,16 +7,30 @@
         "type": "sequence",
         "functions": [
             "event_rebalance:modified",
-            "event_rebalance:make_stackable",
             {
-                "type": "minecraft:set_components",
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "set_components",
                 "components": {
                     "food": {
-                        "nutrition": 20,
-                        "saturation": 6
+                        "nutrition": 12,
+                        "saturation": 12,
+                        "can_always_eat": false
                     },
                     "consumable": {
-                        "consume_seconds": 4
+                        "consume_seconds": 2,
+                        "on_consume_effects": [],
+                        "sound": {
+                            "sound_id": "item.soup.eat"
+                        }
+                    },
+                    "minecraft:use_effects": {
+                        "speed_multiplier": 0.2,
+                        "can_sprint": false
                     }
                 }
             },
@@ -25,28 +39,22 @@
                 "mode": "replace_all",
                 "lore": [
                     {
-                        "translate": "attribute.name.consumable.food.nutrition.20",
+                        "italic": false,
                         "color": "#f5ce0c",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.nutrition.12"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.saturation.6",
+                        "italic": false,
                         "color": "#f5ce0c",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.saturation.12"
                     },
                     {
-                        "translate": " 4s ",
-                        "extra": [
-                            {
-                                "translate": "attribute.name.consumable.food.eating_time"
-                            }
-                        ],
-                        "color": "#7a58f1",
-                        "italic": false
+                        "italic": false,
+                        "color": "#5555ff",
+                        "translate": "attribute.name.consumable.food.eat_time.2"
                     }
                 ]
-            },
-            "event_rebalance:food/stats/slowing/stop"
+            }
         ]
     }
 }

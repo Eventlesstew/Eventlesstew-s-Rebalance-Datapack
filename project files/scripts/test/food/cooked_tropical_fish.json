@@ -25,7 +25,19 @@
                     },
                     "consumable": {
                         "consume_seconds": 2,
-                        "on_consume_effects": []
+                        "on_consume_effects": [
+                            {
+                                "type": "apply_effects",
+                                "probability": 0.05,
+                                "effects": [
+                                    {
+                                        "id": "poison",
+                                        "amplifier": 0,
+                                        "duration": 200
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     "minecraft:use_effects": {
                         "speed_multiplier": 0.5,
@@ -60,6 +72,12 @@
                         "extra": [],
                         "italic": false,
                         "color": "#24f7ed"
+                    },
+                    {
+                        "text": "attribute.name.consumable.food.apply_effect.poison.1.10s.5%",
+                        "extra": [],
+                        "italic": false,
+                        "color": "#ff5555"
                     }
                 ]
             }

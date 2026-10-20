@@ -1,0 +1,82 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "salmon"
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "set_components",
+                "components": {
+                    "food": {
+                        "nutrition": 6,
+                        "saturation": 2,
+                        "can_always_eat": false
+                    },
+                    "consumable": {
+                        "consume_seconds": 2,
+                        "on_consume_effects": [
+                            {
+                                "type": "apply_effects",
+                                "probability": 0.3,
+                                "effects": [
+                                    {
+                                        "id": "hunger",
+                                        "amplifier": 1,
+                                        "duration": 400
+                                    }
+                                ]
+                            }
+                        ],
+                        "sound": {
+                            "sound_id": "item.fish.eat"
+                        }
+                    },
+                    "minecraft:use_effects": {
+                        "speed_multiplier": 0.0,
+                        "can_sprint": false
+                    }
+                }
+            },
+            {
+                "type": "set_lore",
+                "mode": "replace_all",
+                "lore": [
+                    {
+                        "italic": false,
+                        "color": "#f5ce0c",
+                        "translate": "attribute.name.consumable.food.nutrition.6"
+                    },
+                    {
+                        "italic": false,
+                        "color": "#f5ce0c",
+                        "translate": "attribute.name.consumable.food.saturation.2"
+                    },
+                    {
+                        "italic": false,
+                        "color": "#5555ff",
+                        "translate": "attribute.name.consumable.food.eat_time.2"
+                    },
+                    {
+                        "italic": false,
+                        "color": "#7a58f1",
+                        "translate": "attribute.name.consumable.food.eat_speed.0.0"
+                    },
+                    {
+                        "italic": false,
+                        "color": "#ff5555",
+                        "translate": "attribute.name.consumable.food.apply_effect.hunger.2.20s.30%"
+                    }
+                ]
+            }
+        ]
+    }
+}

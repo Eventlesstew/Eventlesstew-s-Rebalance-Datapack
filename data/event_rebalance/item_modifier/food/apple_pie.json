@@ -1,7 +1,6 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "#event_rebalance:custom_item/food/apple_pie",
         "components": {
             "item_model": "event:apple_pie"
         }
@@ -10,14 +9,19 @@
         "type": "sequence",
         "functions": [
             "event_rebalance:modified",
-            "event_rebalance:custom_item/music_disc",
             {
-                "type": "minecraft:set_components",
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "set_components",
                 "components": {
-                    "rarity": "common",
                     "food": {
-                        "nutrition": 16,
-                        "saturation": 8
+                        "nutrition": 10,
+                        "saturation": 10,
+                        "can_always_eat": false
                     },
                     "consumable": {
                         "consume_seconds": 4,
@@ -33,19 +37,18 @@
                                 "effects": [
                                     {
                                         "id": "regeneration",
-                                        "amplifier": 4,
-                                        "duration": 36,
+                                        "amplifier": 3,
+                                        "duration": 60,
                                         "show_icon": false,
                                         "show_particles": false
-                                    },
-                                    {
-                                        "id": "regeneration",
-                                        "amplifier": 0,
-                                        "duration": 600
                                     }
                                 ]
                             }
                         ]
+                    },
+                    "minecraft:use_effects": {
+                        "speed_multiplier": 0.2,
+                        "can_sprint": false
                     }
                 }
             },
@@ -54,51 +57,29 @@
                 "mode": "replace_all",
                 "lore": [
                     {
-                        "translate": "attribute.name.consumable.food.nutrition.16",
+                        "italic": false,
                         "color": "#f5ce0c",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.nutrition.10"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.saturation.8",
+                        "italic": false,
                         "color": "#f5ce0c",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.saturation.10"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.health.12",
+                        "italic": false,
                         "color": "#f545ac",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.health.10"
                     },
                     {
-                        "translate": " 4s ",
-                        "extra": [
-                            {
-                                "translate": "attribute.name.consumable.food.eating_time"
-                            }
-                        ],
+                        "italic": false,
                         "color": "#7a58f1",
-                        "italic": false
-                    }
-                ]
-            },
-            "event_rebalance:food/stats/slowing/less",
-            {
-                "type": "set_lore",
-                "mode": "append",
-                "lore": [
-                    {
-                        "translate": "attribute.name.consumable.food.always_edible",
-                        "color": "#f78324",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.eat_time.4"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.effect.apple",
+                        "italic": false,
                         "color": "#5555ff",
-                        "italic": false
-                    },
-                    {
-                        "translate": "attribute.name.consumable.food.effect.apple_pie",
-                        "color": "#5555ff",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.cure_effect.hunger"
                     }
                 ]
             }

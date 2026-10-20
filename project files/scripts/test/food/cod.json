@@ -23,7 +23,22 @@
                     },
                     "consumable": {
                         "consume_seconds": 1,
-                        "on_consume_effects": []
+                        "on_consume_effects": [
+                            {
+                                "type": "apply_effects",
+                                "probability": 0.3,
+                                "effects": [
+                                    {
+                                        "id": "hunger",
+                                        "amplifier": 1,
+                                        "duration": 400
+                                    }
+                                ]
+                            }
+                        ],
+                        "sound": {
+                            "sound_id": "item.fish.eat"
+                        }
                     },
                     "minecraft:use_effects": {
                         "speed_multiplier": 0.2,
@@ -52,6 +67,12 @@
                         "extra": [],
                         "italic": false,
                         "color": "#24f7ed"
+                    },
+                    {
+                        "text": "attribute.name.consumable.food.apply_effect.hunger.2.20s.30%",
+                        "extra": [],
+                        "italic": false,
+                        "color": "#ff5555"
                     }
                 ]
             }

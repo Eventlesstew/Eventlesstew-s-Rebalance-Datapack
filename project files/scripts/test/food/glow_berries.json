@@ -23,7 +23,34 @@
                     },
                     "consumable": {
                         "consume_seconds": 1,
-                        "on_consume_effects": []
+                        "on_consume_effects": [
+                            {
+                                "type": "apply_effects",
+                                "probability": 1,
+                                "effects": [
+                                    {
+                                        "id": "glowing",
+                                        "amplifier": 1,
+                                        "duration": 200
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "apply_effects",
+                                "effects": [
+                                    {
+                                        "id": "regeneration",
+                                        "amplifier": 3,
+                                        "duration": 12,
+                                        "show_icon": false,
+                                        "show_particles": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "sound": {
+                            "sound_id": "item.soft.eat"
+                        }
                     },
                     "minecraft:use_effects": {
                         "speed_multiplier": 1,
@@ -70,6 +97,12 @@
                         "extra": [],
                         "italic": false,
                         "color": "#f78324"
+                    },
+                    {
+                        "text": "attribute.name.consumable.food.apply_effect.glowing.2.10s",
+                        "extra": [],
+                        "italic": false,
+                        "color": "#ff5555"
                     }
                 ]
             }

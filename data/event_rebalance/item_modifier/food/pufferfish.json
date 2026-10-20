@@ -8,46 +8,63 @@
         "functions": [
             "event_rebalance:modified",
             {
-                "type": "minecraft:set_components",
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "set_components",
                 "components": {
                     "food": {
                         "nutrition": 4,
                         "saturation": 0,
-                        "can_always_eat": true
+                        "can_always_eat": false
                     },
                     "consumable": {
                         "consume_seconds": 3,
-                        "sound": {
-                            "sound_id": "item.fish.eat"
-                        },
                         "on_consume_effects": [
                             {
-                                "type": "minecraft:apply_effects",
+                                "type": "apply_effects",
+                                "probability": 1,
                                 "effects": [
                                     {
-                                    "id": "minecraft:hunger",
-                                    "amplifier": 2,
-                                    "duration": 600
-                                    },
-                                    {
-                                    "id": "minecraft:poison",
-                                    "amplifier": 1,
-                                    "duration": 1200
-                                    },
-                                    {
-                                    "id": "minecraft:nausea",
-                                    "amplifier": 0,
-                                    "duration": 600
+                                        "id": "hunger",
+                                        "amplifier": 2,
+                                        "duration": 600
                                     }
                                 ]
                             },
                             {
-                                "type": "play_sound",
-                                "sound": {
-                                    "sound_id": "item.bad_food.consume"
-                                }
+                                "type": "apply_effects",
+                                "probability": 1,
+                                "effects": [
+                                    {
+                                        "id": "poison",
+                                        "amplifier": 1,
+                                        "duration": 1200
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "apply_effects",
+                                "probability": 1,
+                                "effects": [
+                                    {
+                                        "id": "nausea",
+                                        "amplifier": 0,
+                                        "duration": 600
+                                    }
+                                ]
                             }
-                        ]
+                        ],
+                        "sound": {
+                            "sound_id": "item.fish.eat"
+                        }
+                    },
+                    "minecraft:use_effects": {
+                        "speed_multiplier": 0.2,
+                        "can_sprint": false
                     }
                 }
             },
@@ -56,39 +73,29 @@
                 "mode": "replace_all",
                 "lore": [
                     {
-                        "translate": "attribute.name.consumable.food.nutrition.4",
+                        "italic": false,
                         "color": "#f5ce0c",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.nutrition.4"
                     },
                     {
-                        "translate": " 3s ",
-                        "extra": [
-                            {
-                                "translate": "attribute.name.consumable.food.eating_time"
-                            }
-                        ],
+                        "italic": false,
                         "color": "#7a58f1",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.eat_time.3"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.always_edible",
-                        "color": "#f78324",
-                        "italic": false
-                    },
-                    {
-                        "translate": "attribute.name.consumable.food.effect.pufferfish.hunger",
+                        "italic": false,
                         "color": "#ff5555",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.apply_effect.hunger.3.30s"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.effect.pufferfish.poison",
+                        "italic": false,
                         "color": "#ff5555",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.apply_effect.poison.2.60s"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.effect.pufferfish.nausea",
+                        "italic": false,
                         "color": "#ff5555",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.apply_effect.nausea.1.30s"
                     }
                 ]
             }

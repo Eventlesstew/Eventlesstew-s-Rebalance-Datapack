@@ -8,7 +8,13 @@
         "functions": [
             "event_rebalance:modified",
             {
-                "type": "minecraft:set_components",
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "set_components",
                 "components": {
                     "food": {
                         "nutrition": 8,
@@ -19,23 +25,21 @@
                         "consume_seconds": 2,
                         "on_consume_effects": [
                             {
-                                "type": "minecraft:apply_effects",
+                                "type": "apply_effects",
                                 "probability": 0.5,
                                 "effects": [
                                     {
-                                    "id": "minecraft:hunger",
-                                    "amplifier": 0,
-                                    "duration": 400
+                                        "id": "hunger",
+                                        "amplifier": 1,
+                                        "duration": 400
                                     }
                                 ]
-                            },
-                            {
-                                "type": "play_sound",
-                                "sound": {
-                                    "sound_id": "item.bad_food.consume"
-                                }
                             }
                         ]
+                    },
+                    "minecraft:use_effects": {
+                        "speed_multiplier": 0.2,
+                        "can_sprint": false
                     }
                 }
             },
@@ -44,46 +48,24 @@
                 "mode": "replace_all",
                 "lore": [
                     {
-                        "translate": " 2s ",
-                        "extra": [
-                            {
-                                "translate": "attribute.name.consumable.food.eating_time"
-                            }
-                        ],
+                        "italic": false,
                         "color": "#f5ce0c",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.nutrition.8"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.nutrition.8",
-                        "color": "#f5ce0c",
-                        "italic": false
-                    },
-                    {
-                        "translate": " 2s ",
-                        "extra": [
-                            {
-                                "translate": "attribute.name.consumable.food.eating_time"
-                            }
-                        ],
+                        "italic": false,
                         "color": "#5555ff",
-                        "italic": false
-                    }
-                ]
-            },
-            "event_rebalance:food/stats/slowing/more",
-            {
-                "type": "set_lore",
-                "mode": "append",
-                "lore": [
-                    {
-                        "translate": "attribute.name.consumable.food.always_edible",
-                        "color": "#f78324",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.eat_time.2"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.effect.rotten_flesh",
+                        "italic": false,
+                        "color": "#f78324",
+                        "translate": "attribute.name.consumable.food.always_edible"
+                    },
+                    {
+                        "italic": false,
                         "color": "#ff5555",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.apply_effect.hunger.2.20s.50%"
                     }
                 ]
             }

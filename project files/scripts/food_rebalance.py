@@ -5,16 +5,15 @@ import pathlib
 template_path = "project files/scripts/template.json"
 data_path = "project files/scripts/food_rebalance_data.json"
 config_path = "project files/scripts/food_rebalance_config.json"
-modifier_folder_path = (
-    "project files/scripts/test/food"  # "data/event_rebalance/item_modifier/food"
-)
+modifier_folder_path = "data/event_rebalance/item_modifier/food"
 
 lore_base = {
-    "text": "",
-    "extra": [],
     "italic": False,
     "color": "#1aa819",
 }
+
+regeneration_values = [50, 25, 12, 6, 3, 1]
+
 with open(template_path, "r") as file:
     modifier_template = json.loads(file.read())
 
@@ -27,7 +26,7 @@ with open(config_path, "r") as file:
 
 def get_tooltip(text, color):
     lore = copy.deepcopy(lore_base)
-    lore["text"] = text
+    lore["translate"] = text
     lore["color"] = color
     return lore
 
@@ -45,6 +44,19 @@ def get_tooltip_from_config(text, key, value):
         tooltip_colour = config_value["colour_if_lesser"]
 
     return get_tooltip(text + "." + str(value), tooltip_colour)
+
+
+def get_tooltip_effect_colour(effect, inverted=False):
+    if effect in config["effect_sets"]["negative"]:
+        if inverted:
+            return "#5555ff"
+        else:
+            return "#ff5555"
+    else:
+        if inverted:
+            return "#ff5555"
+        else:
+            return "#5555ff"
 
 
 def get_modifier_template() -> dict:
@@ -79,6 +91,7 @@ def add_food_item(food_key: str):
     always_edible = get_food_value("always_edible")
     eat_time = get_food_value("eat_time")
     eat_speed = get_food_value("eat_speed")
+    eat_sound = get_food_value("eat_sound")
 
     if item_type == "custom":
         food_modifier["item_filter"] = {
@@ -88,13 +101,119 @@ def add_food_item(food_key: str):
         food_modifier["item_filter"] = {"items": food_key}
 
     food_effects = []
+    food_effect_lore = []
 
     for effect in get_food_value("effects"):
         effect_type = effect["effect_type"]
-
         if effect_type == "cure_effect":
-            pass
-        print(effect["effect_type"])
+            effect_id = effect["effect"]
+            food_effects.append({"type": "remove_effects", "effects": [effect_id]})
+            food_effect_lore.append(
+                get_tooltip(
+                    "attribute.name.consumable.food." + effect_type + "." + effect_id,
+                    get_tooltip_effect_colour(effect_id, True),
+                )
+            )
+
+        elif effect_type == "cure_effect_set":
+            effect_set_id = effect["effect_set"]
+            food_effects.append(
+                {
+                    "type": "remove_effects",
+                    "effects": config["effect_sets"][effect_set_id],
+                }
+            )
+
+            food_effect_lore.append(
+                get_tooltip(
+                    "attribute.name.consumable.food."
+                    + effect_type
+                    + "."
+                    + effect_set_id,
+                    "#5555ff",
+                )
+            )
+        elif effect_type == "apply_effect":
+            effect_id = effect["effect"]
+            effect_duration = 0
+            effect_level = 1
+            effect_probability = 1
+            if "level" in effect:
+                effect_level = effect["level"] - 1
+            if "duration_seconds" in effect:
+                effect_duration += effect["duration_seconds"] * 20
+            if "duration_ticks" in effect:
+                effect_duration += effect["duration_ticks"]
+            if "probability" in effect:
+                effect_probability = effect["probability"]
+
+            effect_data = {
+                "type": "apply_effects",
+                "probability": effect_probability,
+                "effects": [
+                    {
+                        "id": effect_id,
+                        "amplifier": effect_level,
+                        "duration": effect_duration,
+                    }
+                ],
+            }
+
+            food_effects.append(effect_data)
+
+            effect_duration_seconds = int(effect_duration / 20)
+
+            translation_key = (
+                "attribute.name.consumable.food."
+                + effect_type
+                + "."
+                + effect_id
+                + "."
+                + str(effect_level + 1)
+                + "."
+                + str(effect_duration_seconds)
+                + "s"
+            )
+            if effect_probability < 1:
+                effect_probability_percent = str(int(effect_probability * 100)) + "%"
+                translation_key += "." + effect_probability_percent
+            food_effect_lore.append(
+                get_tooltip(
+                    translation_key,
+                    get_tooltip_effect_colour(effect_id),
+                )
+            )
+        elif effect_type == "teleport_randomly":
+            food_effects.append({"type": "teleport_randomly"})
+            food_effect_lore.append(
+                get_tooltip(
+                    "attribute.name.consumable.food.teleport_randomly",
+                    "#5555ff",
+                )
+            )
+        elif effect_type == "teleport_forward":
+            food_effect_lore.append(
+                get_tooltip(
+                    "attribute.name.consumable.food.teleport_forward",
+                    "#5555ff",
+                )
+            )
+        elif effect_type == "unknown_effect":
+            food_effect_lore.append(
+                get_tooltip(
+                    "attribute.name.consumable.food.unknown_effect",
+                    "#5555ff",
+                )
+            )
+        elif effect_type == "clear_all_effects":
+            food_effects.append({"type": "clear_all_effects"})
+            food_effect_lore.append(
+                get_tooltip(
+                    "attribute.name.consumable.food.cure_all_effects",
+                    "#5555ff",
+                )
+            )
+
     food_components = {  # The components to apply for the food
         "food": {
             "nutrition": nutrition,
@@ -127,6 +246,30 @@ def add_food_item(food_key: str):
             )
         )
     if healing > 0:
+        target_level = 5
+        target_level_result = 99999
+        for i, v in enumerate(regeneration_values):
+            result = (eat_time * 20 / v) - healing
+
+            if 0 <= result <= target_level_result:
+                target_level = i
+                target_level_result = result
+
+        target_duration = healing * regeneration_values[target_level]
+        food_effects.append(
+            {
+                "type": "apply_effects",
+                "effects": [
+                    {
+                        "id": "regeneration",
+                        "amplifier": target_level,
+                        "duration": target_duration,
+                        "show_icon": False,
+                        "show_particles": False,
+                    }
+                ],
+            }
+        )
         food_lore.append(
             get_tooltip(
                 "attribute.name.consumable.food.health." + str(healing), "#f545ac"
@@ -148,6 +291,14 @@ def add_food_item(food_key: str):
         food_lore.append(
             get_tooltip("attribute.name.consumable.food.always_edible", "#f78324")
         )
+
+    for food_effect_lore_item in food_effect_lore:
+        food_lore.append(food_effect_lore_item)
+
+    if eat_sound != "default":
+        food_components["consumable"]["sound"] = {
+            "sound_id": "item." + eat_sound + ".eat"
+        }
 
     food_modifier_functions.append(
         {"type": "set_components", "components": food_components}

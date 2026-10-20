@@ -23,7 +23,19 @@
                     },
                     "consumable": {
                         "consume_seconds": 2,
-                        "on_consume_effects": []
+                        "on_consume_effects": [
+                            {
+                                "type": "apply_effects",
+                                "probability": 0.5,
+                                "effects": [
+                                    {
+                                        "id": "weakness",
+                                        "amplifier": 0,
+                                        "duration": 600
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     "minecraft:use_effects": {
                         "speed_multiplier": 0.1,
@@ -58,6 +70,12 @@
                         "extra": [],
                         "italic": false,
                         "color": "#7a58f1"
+                    },
+                    {
+                        "text": "attribute.name.consumable.food.apply_effect.weakness.1.30s.50%",
+                        "extra": [],
+                        "italic": false,
+                        "color": "#ff5555"
                     }
                 ]
             }

@@ -383,7 +383,7 @@
                 "effect_type":"apply_effect",
                 "effect":"poison",
                 "level":1,
-                "time_seconds":10
+                "duration_seconds":10
             }
         ]
     },
@@ -415,6 +415,7 @@
             {
                 "effect_type":"apply_effect",
                 "effect":"night_vision",
+                "level":1,
                 "duration_seconds":60
             }
         ]
@@ -598,6 +599,7 @@
         "eat_sound":"bread"
     },
     "cupcake":{
+        "item_type":"custom",
         "food":6,
         "saturation":6,
         "eat_speed":0.0,

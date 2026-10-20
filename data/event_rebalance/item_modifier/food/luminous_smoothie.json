@@ -1,0 +1,96 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "components": {
+            "item_model": "event:luminous_smoothie"
+        }
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "set_components",
+                "components": {
+                    "food": {
+                        "nutrition": 0,
+                        "saturation": 5,
+                        "can_always_eat": true
+                    },
+                    "consumable": {
+                        "consume_seconds": 2,
+                        "on_consume_effects": [
+                            {
+                                "type": "apply_effects",
+                                "probability": 1,
+                                "effects": [
+                                    {
+                                        "id": "glowing",
+                                        "amplifier": 2,
+                                        "duration": 600
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "apply_effects",
+                                "effects": [
+                                    {
+                                        "id": "regeneration",
+                                        "amplifier": 3,
+                                        "duration": 30,
+                                        "show_icon": false,
+                                        "show_particles": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "sound": {
+                            "sound_id": "item.honey.eat"
+                        }
+                    },
+                    "minecraft:use_effects": {
+                        "speed_multiplier": 0.2,
+                        "can_sprint": false
+                    }
+                }
+            },
+            {
+                "type": "set_lore",
+                "mode": "replace_all",
+                "lore": [
+                    {
+                        "italic": false,
+                        "color": "#f5ce0c",
+                        "translate": "attribute.name.consumable.food.saturation.5"
+                    },
+                    {
+                        "italic": false,
+                        "color": "#f545ac",
+                        "translate": "attribute.name.consumable.food.health.5"
+                    },
+                    {
+                        "italic": false,
+                        "color": "#5555ff",
+                        "translate": "attribute.name.consumable.food.eat_time.2"
+                    },
+                    {
+                        "italic": false,
+                        "color": "#f78324",
+                        "translate": "attribute.name.consumable.food.always_edible"
+                    },
+                    {
+                        "italic": false,
+                        "color": "#5555ff",
+                        "translate": "attribute.name.consumable.food.apply_effect.glowing.3.30s"
+                    }
+                ]
+            }
+        ]
+    }
+}

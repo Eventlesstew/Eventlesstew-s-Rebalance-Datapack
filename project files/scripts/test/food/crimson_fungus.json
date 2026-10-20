@@ -23,7 +23,33 @@
                     },
                     "consumable": {
                         "consume_seconds": 3,
-                        "on_consume_effects": []
+                        "on_consume_effects": [
+                            {
+                                "type": "apply_effects",
+                                "probability": 1,
+                                "effects": [
+                                    {
+                                        "id": "darkness",
+                                        "amplifier": 0,
+                                        "duration": 600
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "apply_effects",
+                                "probability": 1,
+                                "effects": [
+                                    {
+                                        "id": "strength",
+                                        "amplifier": 1,
+                                        "duration": 600
+                                    }
+                                ]
+                            }
+                        ],
+                        "sound": {
+                            "sound_id": "item.soft.eat"
+                        }
                     },
                     "minecraft:use_effects": {
                         "speed_multiplier": 0.2,
@@ -58,6 +84,18 @@
                         "extra": [],
                         "italic": false,
                         "color": "#f78324"
+                    },
+                    {
+                        "text": "attribute.name.consumable.food.apply_effect.darkness.1.30s",
+                        "extra": [],
+                        "italic": false,
+                        "color": "#ff5555"
+                    },
+                    {
+                        "text": "attribute.name.consumable.food.apply_effect.strength.2.30s",
+                        "extra": [],
+                        "italic": false,
+                        "color": "#5555ff"
                     }
                 ]
             }

@@ -25,7 +25,23 @@
                     },
                     "consumable": {
                         "consume_seconds": 4,
-                        "on_consume_effects": []
+                        "on_consume_effects": [
+                            {
+                                "type": "apply_effects",
+                                "effects": [
+                                    {
+                                        "id": "regeneration",
+                                        "amplifier": 2,
+                                        "duration": 60,
+                                        "show_icon": false,
+                                        "show_particles": false
+                                    }
+                                ]
+                            }
+                        ],
+                        "sound": {
+                            "sound_id": "item.apple.eat"
+                        }
                     },
                     "minecraft:use_effects": {
                         "speed_multiplier": 0.2,

@@ -1,0 +1,137 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "components": {
+            "item_model": "event:fungal_soup"
+        }
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "set_components",
+                "components": {
+                    "food": {
+                        "nutrition": 16,
+                        "saturation": 16,
+                        "can_always_eat": true
+                    },
+                    "consumable": {
+                        "consume_seconds": 3,
+                        "on_consume_effects": [
+                            {
+                                "type": "apply_effects",
+                                "probability": 1,
+                                "effects": [
+                                    {
+                                        "id": "nausea",
+                                        "amplifier": 0,
+                                        "duration": 600
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "apply_effects",
+                                "probability": 1,
+                                "effects": [
+                                    {
+                                        "id": "darkness",
+                                        "amplifier": 1,
+                                        "duration": 600
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "apply_effects",
+                                "probability": 1,
+                                "effects": [
+                                    {
+                                        "id": "strength",
+                                        "amplifier": 1,
+                                        "duration": 600
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "apply_effects",
+                                "probability": 1,
+                                "effects": [
+                                    {
+                                        "id": "haste",
+                                        "amplifier": 0,
+                                        "duration": 600
+                                    }
+                                ]
+                            }
+                        ],
+                        "sound": {
+                            "sound_id": "item.soup.eat"
+                        }
+                    },
+                    "minecraft:use_effects": {
+                        "speed_multiplier": 0.1,
+                        "can_sprint": false
+                    }
+                }
+            },
+            {
+                "type": "set_lore",
+                "mode": "replace_all",
+                "lore": [
+                    {
+                        "italic": false,
+                        "color": "#f5ce0c",
+                        "translate": "attribute.name.consumable.food.nutrition.16"
+                    },
+                    {
+                        "italic": false,
+                        "color": "#f5ce0c",
+                        "translate": "attribute.name.consumable.food.saturation.16"
+                    },
+                    {
+                        "italic": false,
+                        "color": "#7a58f1",
+                        "translate": "attribute.name.consumable.food.eat_time.3"
+                    },
+                    {
+                        "italic": false,
+                        "color": "#7a58f1",
+                        "translate": "attribute.name.consumable.food.eat_speed.0.1"
+                    },
+                    {
+                        "italic": false,
+                        "color": "#f78324",
+                        "translate": "attribute.name.consumable.food.always_edible"
+                    },
+                    {
+                        "italic": false,
+                        "color": "#ff5555",
+                        "translate": "attribute.name.consumable.food.apply_effect.nausea.1.30s"
+                    },
+                    {
+                        "italic": false,
+                        "color": "#ff5555",
+                        "translate": "attribute.name.consumable.food.apply_effect.darkness.2.30s"
+                    },
+                    {
+                        "italic": false,
+                        "color": "#5555ff",
+                        "translate": "attribute.name.consumable.food.apply_effect.strength.2.30s"
+                    },
+                    {
+                        "italic": false,
+                        "color": "#5555ff",
+                        "translate": "attribute.name.consumable.food.apply_effect.haste.1.30s"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -83,3 +83,5 @@ bossbar add event_rebalance:illusioner {translate:entity.minecraft.illusioner}
 bossbar set event_rebalance:illusioner color blue
 bossbar add event_rebalance:wildfire {translate:entity.event.wildfire}
 bossbar set event_rebalance:wildfire color yellow
+
+function event_rebalance:reset_items
