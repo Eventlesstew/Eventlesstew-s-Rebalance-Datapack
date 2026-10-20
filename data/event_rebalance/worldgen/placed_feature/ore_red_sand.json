@@ -2,8 +2,8 @@
   "feature": "event_rebalance:ore_red_sand",
   "placement": [
     {
-      "type": "minecraft:rarity_filter",
-      "chance": 24
+      "type": "minecraft:count",
+      "count": 8
     },
     {
       "type": "minecraft:in_square"
@@ -13,10 +13,10 @@
       "height": {
         "type": "minecraft:uniform",
         "max_inclusive": {
-          "absolute": 128
+          "absolute": 32
         },
         "min_inclusive": {
-          "absolute": 64
+          "absolute": 0
         }
       }
     },

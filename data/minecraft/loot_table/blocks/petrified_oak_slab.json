@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "modifier": [
+            "event_rebalance:custom_item/rose_golden_block"
+          ],
+          "items": "#event_rebalance:custom_item/rose_golden_block",
+          "expand":false
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:blocks/petrified_oak_slab"
+}

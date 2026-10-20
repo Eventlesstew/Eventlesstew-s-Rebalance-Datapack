@@ -5,7 +5,7 @@
   "targets": [
     {
       "state": {
-        "id": "minecraft:red_sandstone"
+        "id": "minecraft:smooth_red_sandstone"
       },
       "target": {
         "predicate_type": "minecraft:tag_match",
