@@ -239,6 +239,7 @@
             "event_rebalance:custom_item/raw_hoglin_hide",
             "event_rebalance:custom_item/hoglin_hide",
             "event_rebalance:custom_item/rose_golden_ingot",
+            "event_rebalance:custom_item/rose_golden_block",
             "event_rebalance:custom_item/rose_golden_nugget",
             
             "event_rebalance:trims/chainmail_upgrade",
