@@ -22,7 +22,9 @@
       "event_rebalance:smelting/rose_golden_nugget",
       "event_rebalance:smelting/blasting/rose_golden_nugget",
       "recovery_compass",
-      "event_rebalance:rose_golden_nugget"
+      "event_rebalance:rose_golden_nugget",
+      "event_rebalance:rose_golden_block",
+      "event_rebalance:rose_golden_ingot_from_block"
     ]
   }
 }
