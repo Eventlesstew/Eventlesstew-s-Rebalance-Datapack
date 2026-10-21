@@ -390,6 +390,7 @@
     "carrot":{
         "food":4,
         "saturation":4,
+        "healing":2,
         "move_speed":0.5,
         "always_edible":true,
         "eat_sound":"apple",
@@ -403,6 +404,7 @@
     "golden_carrot":{
         "food":4,
         "saturation":8,
+        "healing":4,
         "move_speed":0.5,
         "always_edible":true,
         "eat_sound":"apple",
@@ -443,9 +445,9 @@
         ]
     },
     "melon_slice":{
-        "food":3,
-        "saturation":3,
-        "healing":3,
+        "food":2,
+        "saturation":2,
+        "healing":2,
         "eat_time":1,
         "always_edible":true,
         "eat_sound":"apple",
@@ -487,9 +489,9 @@
         "eat_sound":"soft"
     },
     "glow_berries":{
-        "food":2,
-        "saturation":2,
-        "healing":2,
+        "food":1,
+        "saturation":1,
+        "healing":1,
         "eat_time":1,
         "eat_speed":1,
         "eat_sound":"soft",
@@ -692,8 +694,8 @@
         "is_drink":true,
         "food":6,
         "saturation":6,
-        "healing":2,
-        "eat_speed":0.1,
+        "healing":6,
+        "eat_time":3,
         "eat_sound":"honey",
         "always_edible":true,
         "effects":[
@@ -707,9 +709,9 @@
         "item_type":"from_inedible",
         "food":6,
         "saturation":4,
-        "healing":6,
-        "eat_time":3,
-        "eat_sound":"apple",
+        "healing":4,
+        "eat_speed":0.1,
+        "eat_sound":"bread",
         "always_edible":true,
         "effects":[
             {
@@ -719,25 +721,25 @@
         ]
     },
     "mushroom_stew":{
-        "food":12,
-        "saturation":12,
+        "food":15,
+        "saturation":15,
         "eat_speed":0,
         "eat_sound":"soup",
         "effects":[
             {
                 "effect_type":"apply_effect",
                 "effect":"poison",
-                "level":3,
+                "level":1,
                 "duration_seconds":30,
-                "probability":0.3
+                "probability":0.1
             }
         ]
     },
     "beetroot_soup":{
-        "food":8,
-        "saturation":8,
-        "healing":8,
-        "eat_speed":0.1,
+        "food":7,
+        "saturation":7,
+        "healing":7,
+        "eat_speed":0,
         "eat_sound":"soup",
         "always_edible":true
     },

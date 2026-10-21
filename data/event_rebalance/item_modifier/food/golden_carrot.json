@@ -40,6 +40,18 @@
                                         "duration": 1200
                                     }
                                 ]
+                            },
+                            {
+                                "type": "apply_effects",
+                                "effects": [
+                                    {
+                                        "id": "regeneration",
+                                        "amplifier": 3,
+                                        "duration": 24,
+                                        "show_icon": false,
+                                        "show_particles": false
+                                    }
+                                ]
                             }
                         ],
                         "sound": {
@@ -65,6 +77,11 @@
                         "italic": false,
                         "color": "#f5ce0c",
                         "translate": "attribute.name.consumable.food.saturation.8"
+                    },
+                    {
+                        "italic": false,
+                        "color": "#f545ac",
+                        "translate": "attribute.name.consumable.food.health.4"
                     },
                     {
                         "italic": false,

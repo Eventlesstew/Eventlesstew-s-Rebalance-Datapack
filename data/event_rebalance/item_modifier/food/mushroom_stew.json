@@ -17,8 +17,8 @@
                 "type": "set_components",
                 "components": {
                     "food": {
-                        "nutrition": 12,
-                        "saturation": 12,
+                        "nutrition": 15,
+                        "saturation": 15,
                         "can_always_eat": false
                     },
                     "consumable": {
@@ -26,11 +26,11 @@
                         "on_consume_effects": [
                             {
                                 "type": "apply_effects",
-                                "probability": 0.3,
+                                "probability": 0.1,
                                 "effects": [
                                     {
                                         "id": "poison",
-                                        "amplifier": 2,
+                                        "amplifier": 0,
                                         "duration": 600
                                     }
                                 ]
@@ -53,12 +53,12 @@
                     {
                         "italic": false,
                         "color": "#f5ce0c",
-                        "translate": "attribute.name.consumable.food.nutrition.12"
+                        "translate": "attribute.name.consumable.food.nutrition.15"
                     },
                     {
                         "italic": false,
                         "color": "#f5ce0c",
-                        "translate": "attribute.name.consumable.food.saturation.12"
+                        "translate": "attribute.name.consumable.food.saturation.15"
                     },
                     {
                         "italic": false,
@@ -73,7 +73,7 @@
                     {
                         "italic": false,
                         "color": "#ff5555",
-                        "translate": "attribute.name.consumable.food.apply_effect.poison.3.30s.30%"
+                        "translate": "attribute.name.consumable.food.apply_effect.poison.1.30s.10%"
                     }
                 ]
             }

@@ -17,8 +17,8 @@
                 "type": "set_components",
                 "components": {
                     "food": {
-                        "nutrition": 3,
-                        "saturation": 3,
+                        "nutrition": 2,
+                        "saturation": 2,
                         "can_always_eat": true
                     },
                     "consumable": {
@@ -36,7 +36,7 @@
                                     {
                                         "id": "regeneration",
                                         "amplifier": 3,
-                                        "duration": 18,
+                                        "duration": 12,
                                         "show_icon": false,
                                         "show_particles": false
                                     }
@@ -60,17 +60,17 @@
                     {
                         "italic": false,
                         "color": "#f5ce0c",
-                        "translate": "attribute.name.consumable.food.nutrition.3"
+                        "translate": "attribute.name.consumable.food.nutrition.2"
                     },
                     {
                         "italic": false,
                         "color": "#f5ce0c",
-                        "translate": "attribute.name.consumable.food.saturation.3"
+                        "translate": "attribute.name.consumable.food.saturation.2"
                     },
                     {
                         "italic": false,
                         "color": "#f545ac",
-                        "translate": "attribute.name.consumable.food.health.3"
+                        "translate": "attribute.name.consumable.food.health.2"
                     },
                     {
                         "italic": false,

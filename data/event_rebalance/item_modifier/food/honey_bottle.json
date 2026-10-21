@@ -22,7 +22,7 @@
                         "can_always_eat": true
                     },
                     "consumable": {
-                        "consume_seconds": 2,
+                        "consume_seconds": 3,
                         "on_consume_effects": [
                             {
                                 "type": "remove_effects",
@@ -35,8 +35,8 @@
                                 "effects": [
                                     {
                                         "id": "regeneration",
-                                        "amplifier": 2,
-                                        "duration": 24,
+                                        "amplifier": 3,
+                                        "duration": 36,
                                         "show_icon": false,
                                         "show_particles": false
                                     }
@@ -48,7 +48,7 @@
                         }
                     },
                     "minecraft:use_effects": {
-                        "speed_multiplier": 0.1,
+                        "speed_multiplier": 0.2,
                         "can_sprint": false
                     }
                 }
@@ -70,17 +70,12 @@
                     {
                         "italic": false,
                         "color": "#f545ac",
-                        "translate": "attribute.name.consumable.food.health.2"
-                    },
-                    {
-                        "italic": false,
-                        "color": "#5555ff",
-                        "translate": "attribute.name.consumable.food.eat_time.2"
+                        "translate": "attribute.name.consumable.food.health.6"
                     },
                     {
                         "italic": false,
                         "color": "#7a58f1",
-                        "translate": "attribute.name.consumable.food.eat_speed.0.1"
+                        "translate": "attribute.name.consumable.food.eat_time.3"
                     },
                     {
                         "italic": false,

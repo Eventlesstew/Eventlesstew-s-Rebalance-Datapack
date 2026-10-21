@@ -29,6 +29,18 @@
                                 "effects": [
                                     "darkness"
                                 ]
+                            },
+                            {
+                                "type": "apply_effects",
+                                "effects": [
+                                    {
+                                        "id": "regeneration",
+                                        "amplifier": 2,
+                                        "duration": 24,
+                                        "show_icon": false,
+                                        "show_particles": false
+                                    }
+                                ]
                             }
                         ],
                         "sound": {
@@ -54,6 +66,11 @@
                         "italic": false,
                         "color": "#f5ce0c",
                         "translate": "attribute.name.consumable.food.saturation.4"
+                    },
+                    {
+                        "italic": false,
+                        "color": "#f545ac",
+                        "translate": "attribute.name.consumable.food.health.2"
                     },
                     {
                         "italic": false,
