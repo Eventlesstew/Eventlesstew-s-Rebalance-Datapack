@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_ricochet",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "slime_block",
+        "slime_block",
+        "slime_block",
+        "slime_block",
+        "slime_block"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "event_rebalance:ricochet": 5
+            }
+        }
+    }
+}

@@ -78,15 +78,6 @@
           "type": "minecraft:item",
           "modifier": {
             "type": "minecraft:set_count",
-            "count": 1
-          },
-          "name": "minecraft:diamond_horse_armor",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:set_count",
             "count": {
               "type": "minecraft:uniform",
               "max": 5,
@@ -113,11 +104,13 @@
         {
           "type": "minecraft:item",
           "modifier": {
-            "type": "minecraft:enchant_randomly",
-            "options": "minecraft:swift_sneak"
+            "type": "minecraft:set_enchantments",
+            "enchantments": {
+              "event_rebalance:echo": 1
+            }
           },
           "name": "minecraft:book",
-          "weight": 3
+          "weight": 5
         },
         {
           "type": "minecraft:item",

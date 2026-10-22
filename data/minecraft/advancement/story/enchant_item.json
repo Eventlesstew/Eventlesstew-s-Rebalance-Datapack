@@ -3,22 +3,9 @@
   "criteria": {
     "enchanted_item": {
       "conditions": {
-        "items": [
-          {
-            "predicates": {
-              "enchantments": [
-                {
-                  "enchantments": "#event_rebalance:all",
-                  "levels": {
-                    "min": 1
-                  }
-                }
-              ]
-            }
-          }
-        ]
+        "recipes": "#event_rebalance:enchanted_books"
       },
-      "trigger": "minecraft:inventory_changed"
+      "trigger": "minecraft:recipe_crafted"
     }
   },
   "display": {

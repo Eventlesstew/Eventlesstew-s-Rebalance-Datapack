@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#event_rebalance:copper/chain"
+            "items": "copper_ingot"
           }
         ]
       },

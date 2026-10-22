@@ -34,7 +34,10 @@
       "translate": "advancements.nether.open_fortress_vault.description"
     },
     "icon": {
-      "id": "minecraft:happy_ghast_spawn_egg"
+      "id": "minecraft:happy_ghast_spawn_egg",
+      "components": {
+        "item_model": "event:fortress_key"
+      }
     },
     "title": {
       "translate": "advancements.nether.open_fortress_vault.title"

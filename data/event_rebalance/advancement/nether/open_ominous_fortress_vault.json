@@ -35,7 +35,10 @@
       "translate": "advancements.nether.open_ominous_fortress_vault.description"
     },
     "icon": {
-      "id": "minecraft:ghast_spawn_egg"
+      "id": "minecraft:ghast_spawn_egg",
+      "components": {
+        "item_model": "event:ominous_fortress_key"
+      }
     },
     "title": {
       "translate": "advancements.nether.open_ominous_fortress_vault.title"

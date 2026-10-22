@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_guiding",
+    "ingredients": [
+        "book",
+        "ender_eye",
+        "powered_rail"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "event_rebalance:guiding": 1
+            }
+        }
+    }
+}

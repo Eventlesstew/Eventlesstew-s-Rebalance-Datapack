@@ -1,0 +1,437 @@
+{
+  "criteria": {
+    "13": {
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_13",
+            "components": {
+                "jukebox_playable": "13"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "cat": {
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_13",
+            "components": {
+                "jukebox_playable": "cat"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "blocks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_13",
+            "components": {
+                "jukebox_playable": "blocks"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "chirp": {
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_13",
+            "components": {
+                "jukebox_playable": "chirp"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "far": {
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_13",
+            "components": {
+                "jukebox_playable": "far"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mall": {
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_13",
+            "components": {
+                "jukebox_playable": "mall"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mellohi": {
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_13",
+            "components": {
+                "jukebox_playable": "mellohi"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "stal": {
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_13",
+            "components": {
+                "jukebox_playable": "stal"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "strad": {
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_13",
+            "components": {
+                "jukebox_playable": "strad"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "ward": {
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_13",
+            "components": {
+                "jukebox_playable": "ward"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "11": {
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_13",
+            "components": {
+                "jukebox_playable": "11"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "wait": {
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_13",
+            "components": {
+                "jukebox_playable": "wait"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "otherside": {
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_13",
+            "components": {
+                "jukebox_playable": "otherside"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "pigstep": {
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_13",
+            "components": {
+                "jukebox_playable": "pigstep"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "5": {
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_13",
+            "components": {
+                "jukebox_playable": "5"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "relic": {
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_13",
+            "components": {
+                "jukebox_playable": "relic"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "precipice": {
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_13",
+            "components": {
+                "jukebox_playable": "precipice"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "creator": {
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_13",
+            "components": {
+                "jukebox_playable": "creator"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "creator_music_box": {
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_13",
+            "components": {
+                "jukebox_playable": "creator_music_box"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "tears": {
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_13",
+            "components": {
+                "jukebox_playable": "tears"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "lava_chicken": {
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_13",
+            "components": {
+                "jukebox_playable": "lava_chicken"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "bounce": {
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_13",
+            "components": {
+                "jukebox_playable": "bounce"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "ivor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_13",
+            "components": {
+                "jukebox_playable": "event_rebalance:ivor"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "far_lands": {
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_13",
+            "components": {
+                "jukebox_playable": "event_rebalance:far_lands"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mob_grinder": {
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_13",
+            "components": {
+                "jukebox_playable": "event_rebalance:mob_grinder"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "creakstep": {
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_13",
+            "components": {
+                "jukebox_playable": "event_rebalance:creakstep"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "parent": "event_rebalance:construction/root",
+  "display": {
+    "frame": "challenge",
+    "hidden": true,
+    "title": {
+      "translate": "advancements.adventure.all_music_discs.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.all_music_discs.description"
+    },
+    "icon": {
+      "id": "minecraft:music_disc_cat"
+    }
+  },
+  "requirements": [
+    [
+      "13"
+    ],
+    [
+      "cat"
+    ],
+    [
+      "blocks"
+    ],
+    [
+      "chirp"
+    ],
+    [
+      "far"
+    ],
+    [
+      "mall"
+    ],
+    [
+      "mellohi"
+    ],
+    [
+      "stal"
+    ],
+    [
+      "strad"
+    ],
+    [
+      "ward"
+    ],
+    [
+      "11"
+    ],
+    [
+      "wait"
+    ],
+    [
+      "otherside"
+    ],
+    [
+      "pigstep"
+    ],
+    [
+      "5"
+    ],
+    [
+      "relic"
+    ],
+    [
+      "precipice"
+    ],
+    [
+      "creator"
+    ],
+    [
+      "creator_music_box"
+    ],
+    [
+      "tears"
+    ],
+    [
+      "lava_chicken"
+    ],
+    [
+      "bounce"
+    ],
+    [
+      "ivor"
+    ],
+    [
+      "far_lands"
+    ],
+    [
+      "mob_grinder"
+    ],
+    [
+      "creakstep"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

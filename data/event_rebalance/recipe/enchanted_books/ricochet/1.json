@@ -1,16 +1,16 @@
 {
     "type": "crafting_shapeless",
-    "group": "enchanting_book_echo",
+    "group": "enchanting_book_ricochet",
     "ingredients": [
         "book",
         "lapis_lazuli",
-        "echo_shard"
+        "slime_block"
     ],
     "result": {
         "id": "enchanted_book",
         "components": {
             "stored_enchantments": {
-                "event_rebalance:echo": 1
+                "event_rebalance:ricochet": 1
             }
         }
     }

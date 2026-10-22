@@ -161,7 +161,7 @@
       "trigger": "minecraft:inventory_changed"
     }
   },
-  "parent": "adventure/sleep_in_bed",
+  "parent": "event_rebalance:construction/root",
   "display": {
     "frame": "goal",
     "title": {
