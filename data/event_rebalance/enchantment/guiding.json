@@ -1,7 +1,7 @@
 {
   "anvil_cost": 5,
   "description": {
-    "translate": "enchantment.balance.guiding",
+    "translate": "enchantment.event.guiding",
     "color": "#fdcfff",
     "shadow_color": -4909878
   },
