@@ -87,13 +87,19 @@
                                         "show_particles": false
                                     }
                                 ]
+                            },
+                            {
+                                "type": "play_sound",
+                                "sound": {
+                                    "sound_id": "item.golden.consume"
+                                }
                             }
                         ],
                         "sound": {
                             "sound_id": "item.apple.eat"
                         }
                     },
-                    "minecraft:use_effects": {
+                    "use_effects": {
                         "speed_multiplier": 0.2,
                         "can_sprint": false
                     }
@@ -104,49 +110,49 @@
                 "mode": "replace_all",
                 "lore": [
                     {
+                        "translate": "attribute.name.consumable.food.nutrition.20",
                         "italic": false,
-                        "color": "#f5ce0c",
-                        "translate": "attribute.name.consumable.food.nutrition.20"
+                        "color": "#f5ce0c"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.saturation.20",
                         "italic": false,
-                        "color": "#f5ce0c",
-                        "translate": "attribute.name.consumable.food.saturation.20"
+                        "color": "#f5ce0c"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.health.20",
                         "italic": false,
-                        "color": "#f545ac",
-                        "translate": "attribute.name.consumable.food.health.20"
+                        "color": "#f545ac"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.eat_time.2",
                         "italic": false,
-                        "color": "#5555ff",
-                        "translate": "attribute.name.consumable.food.eat_time.2"
+                        "color": "#5555ff"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.always_edible",
                         "italic": false,
-                        "color": "#f78324",
-                        "translate": "attribute.name.consumable.food.always_edible"
+                        "color": "#f78324"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.cure_effect_set.negative",
                         "italic": false,
-                        "color": "#5555ff",
-                        "translate": "attribute.name.consumable.food.cure_effect_set.negative"
+                        "color": "#5555ff"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.apply_effect.absorption.4.6s",
                         "italic": false,
-                        "color": "#5555ff",
-                        "translate": "attribute.name.consumable.food.apply_effect.absorption.4.120s"
+                        "color": "#5555ff"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.apply_effect.resistance.1.6s",
                         "italic": false,
-                        "color": "#5555ff",
-                        "translate": "attribute.name.consumable.food.apply_effect.resistance.1.120s"
+                        "color": "#5555ff"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.apply_effect.fire_resistance.1.6s",
                         "italic": false,
-                        "color": "#5555ff",
-                        "translate": "attribute.name.consumable.food.apply_effect.fire_resistance.1.120s"
+                        "color": "#5555ff"
                     }
                 ]
             }

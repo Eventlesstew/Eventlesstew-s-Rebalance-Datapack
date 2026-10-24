@@ -8,18 +8,32 @@
         "functions": [
             "event_rebalance:modified",
             {
-                "type": "minecraft:set_components",
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "set_components",
                 "components": {
+                    "compostable": {
+                        "layers": "compostable/medium_high"
+                    },
                     "food": {
-                        "nutrition": 12,
-                        "saturation": 5,
-                        "can_always_eat": true
+                        "nutrition": 15,
+                        "saturation": 15,
+                        "can_always_eat": false
                     },
                     "consumable": {
                         "consume_seconds": 2,
+                        "on_consume_effects": [],
                         "sound": {
-                            "sound_id": "entity.generic.drink"
+                            "sound_id": "item.soup.eat"
                         }
+                    },
+                    "use_effects": {
+                        "speed_multiplier": 0,
+                        "can_sprint": false
                     }
                 }
             },
@@ -28,41 +42,34 @@
                 "mode": "replace_all",
                 "lore": [
                     {
-                        "translate": "attribute.name.consumable.food.nutrition.12",
-                        "color": "#f5ce0c",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.nutrition.15",
+                        "italic": false,
+                        "color": "#f5ce0c"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.saturation.5",
-                        "color": "#f5ce0c",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.saturation.15",
+                        "italic": false,
+                        "color": "#f5ce0c"
                     },
                     {
-                        "translate": " 2s ",
-                        "extra": [
-                            {
-                                "translate": "attribute.name.consumable.food.eating_time"
-                            }
-                        ],
-                        "color": "#5555ff",
-                        "italic": false
-                    }
-                ]
-            },
-            "event_rebalance:food/stats/slowing/more",
-            {
-                "type": "set_lore",
-                "mode": "append",
-                "lore": [
-                    {
-                        "translate": "attribute.name.consumable.food.always_edible",
-                        "color": "#f78324",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.eat_time.2",
+                        "italic": false,
+                        "color": "#5555ff"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.effect.suspicious_stew",
-                        "color": "#7a58f1",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.eat_speed.0",
+                        "italic": false,
+                        "color": "#7a58f1"
+                    },
+                    {
+                        "translate": "attribute.name.consumable.food.unknown_effect",
+                        "italic": false,
+                        "color": "#5555ff"
+                    },
+                    {
+                        "translate": "attribute.name.compostable.compostable/medium_high",
+                        "italic": false,
+                        "color": "#AAAAAA"
                     }
                 ]
             }

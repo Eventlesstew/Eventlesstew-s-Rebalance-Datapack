@@ -419,6 +419,14 @@
     "attribute.name.consumable.food.teleport_forward": " Teleport Forward",
     "attribute.name.consumable.food.effect.unknown_effect": " Unknown Effect",
 
+    "attribute.name.furnace_fuel":" Cooking Fuel Efficiency",
+    "attribute.name.brewing_fuel":" Brewing Fuel Efficiency",
+    "attribute.name.compostable.compostable/low":"Low Compostability",
+    "attribute.name.compostable.compostable/low_medium":"Less Compostability",
+    "attribute.name.compostable.compostable/medium":"Moderate Compostability",
+    "attribute.name.compostable.compostable/medium_high":"More Compostability",
+    "attribute.name.compostable.compostable/always_add_one":"High Compostability",
+
     "effect.minecraft.wither": "Decay",
     "effect.minecraft.mining_fatigue": "Fatigue",
 

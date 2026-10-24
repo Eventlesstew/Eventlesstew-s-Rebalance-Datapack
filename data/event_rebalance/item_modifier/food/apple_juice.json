@@ -18,6 +18,10 @@
             {
                 "type": "set_components",
                 "components": {
+                    "item_model": "event:apple_juice",
+                    "item_name": {
+                        "translate": "item.event.apple_juice"
+                    },
                     "food": {
                         "nutrition": 0,
                         "saturation": 0,
@@ -57,10 +61,10 @@
                             }
                         ],
                         "sound": {
-                            "sound_id": "item.drink.eat"
+                            "sound_id": "item.drink.drink"
                         }
                     },
-                    "minecraft:use_effects": {
+                    "use_effects": {
                         "speed_multiplier": 0.5,
                         "can_sprint": true
                     }
@@ -71,34 +75,34 @@
                 "mode": "replace_all",
                 "lore": [
                     {
+                        "translate": "attribute.name.consumable.food.health.8",
                         "italic": false,
-                        "color": "#f545ac",
-                        "translate": "attribute.name.consumable.food.health.8"
+                        "color": "#f545ac"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.drink_time.2",
                         "italic": false,
-                        "color": "#5555ff",
-                        "translate": "attribute.name.consumable.food.eat_time.2"
+                        "color": "#5555ff"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.drink_speed.0.5",
                         "italic": false,
-                        "color": "#24f7ed",
-                        "translate": "attribute.name.consumable.food.eat_speed.0.5"
+                        "color": "#24f7ed"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.always_drinkable",
                         "italic": false,
-                        "color": "#f78324",
-                        "translate": "attribute.name.consumable.food.always_edible"
+                        "color": "#f78324"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.cure_effect.hunger",
                         "italic": false,
-                        "color": "#5555ff",
-                        "translate": "attribute.name.consumable.food.cure_effect.hunger"
+                        "color": "#5555ff"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.apply_effect.regeneration.2.0s",
                         "italic": false,
-                        "color": "#5555ff",
-                        "translate": "attribute.name.consumable.food.apply_effect.regeneration.2.10s"
+                        "color": "#5555ff"
                     }
                 ]
             }

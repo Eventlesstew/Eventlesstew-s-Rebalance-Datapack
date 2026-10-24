@@ -52,13 +52,19 @@
                                         "show_particles": false
                                     }
                                 ]
+                            },
+                            {
+                                "type": "play_sound",
+                                "sound": {
+                                    "sound_id": "item.golden.consume"
+                                }
                             }
                         ],
                         "sound": {
                             "sound_id": "item.apple.eat"
                         }
                     },
-                    "minecraft:use_effects": {
+                    "use_effects": {
                         "speed_multiplier": 0.2,
                         "can_sprint": false
                     }
@@ -69,39 +75,39 @@
                 "mode": "replace_all",
                 "lore": [
                     {
+                        "translate": "attribute.name.consumable.food.nutrition.4",
                         "italic": false,
-                        "color": "#f5ce0c",
-                        "translate": "attribute.name.consumable.food.nutrition.4"
+                        "color": "#f5ce0c"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.saturation.8",
                         "italic": false,
-                        "color": "#f5ce0c",
-                        "translate": "attribute.name.consumable.food.saturation.8"
+                        "color": "#f5ce0c"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.health.4",
                         "italic": false,
-                        "color": "#f545ac",
-                        "translate": "attribute.name.consumable.food.health.4"
+                        "color": "#f545ac"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.eat_time.2",
                         "italic": false,
-                        "color": "#5555ff",
-                        "translate": "attribute.name.consumable.food.eat_time.2"
+                        "color": "#5555ff"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.always_edible",
                         "italic": false,
-                        "color": "#f78324",
-                        "translate": "attribute.name.consumable.food.always_edible"
+                        "color": "#f78324"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.cure_effect.darkness",
                         "italic": false,
-                        "color": "#5555ff",
-                        "translate": "attribute.name.consumable.food.cure_effect.darkness"
+                        "color": "#5555ff"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.apply_effect.night_vision.1.3s",
                         "italic": false,
-                        "color": "#5555ff",
-                        "translate": "attribute.name.consumable.food.apply_effect.night_vision.1.60s"
+                        "color": "#5555ff"
                     }
                 ]
             }

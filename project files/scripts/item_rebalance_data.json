@@ -1,6 +1,7 @@
 {
     "default":{
         "item_type":"default",
+        "item_class":"base",
         "eat_sound":"default",
         "eat_sound_finish":"default",
         "food":0,
@@ -10,10 +11,197 @@
         "eat_speed":0.2,
         "always_edible":false,
         "effects":[],
-        "is_drink":false
+        "is_drink":false,
+        "compost_value":0
+    },
+
+    "wither_rose":{
+        "compost_value":0
+    },
+    "bush":{
+        "compost_value":"compostable/low"
+    },
+    "kelp":{
+        "compost_value":"compostable/low"
+    },
+    "firefly_bush":{
+        "compost_value":"compostable/low"
+    },
+    "hanging_roots":{
+        "compost_value":"compostable/low"
+    },
+    "leaves":{
+        "item_type":"vanilla_tag",
+        "compost_value":"compostable/low"
+    },
+    "leaf_litter":{
+        "compost_value":"compostable/low"
+    },
+    "saplings":{
+        "item_type":"vanilla_tag",
+        "compost_value":"compostable/low"
+    },
+    "mangrove_roots":{
+        "compost_value":"compostable/low"
+    },
+    "melon_seeds":{
+        "compost_value":"compostable/low"
+    },
+    "moss_carpet":{
+        "compost_value":"compostable/low"
+    },
+    "pale_moss_carpet":{
+        "compost_value":"compostable/low"
+    },
+    "pale_hanging_moss":{
+        "compost_value":"compostable/low"
+    },
+    "pink_petals":{
+        "compost_value":"compostable/low"
+    },
+    "pumpkin_seeds":{
+        "compost_value":"compostable/low"
+    },
+    "red_shrub":{
+        "compost_value":"compostable/low"
+    },
+    "seagrass":{
+        "compost_value":"compostable/low"
+    },
+    "short_grass":{
+        "compost_value":"compostable/low"
+    },
+    "fern":{
+        "compost_value":"compostable/low"
+    },
+    "small_dripleaf":{
+        "compost_value":"compostable/low"
+    },
+    "wheat_seeds":{
+        "compost_value":"compostable/low"
+    },
+    "wildflowers":{
+        "compost_value":"compostable/low"
+    },
+    "cactus":{
+        "compost_value":"compostable/low_medium"
+    },
+    "flowering_azalea":{
+        "compost_value":"compostable/low_medium"
+    },
+    "flowering_azalea_leaves":{
+        "compost_value":"compostable/low_medium"
+    },
+    "glow_lichen":{
+        "compost_value":"compostable/low_medium"
+    },
+    "nether_sprouts":{
+        "compost_value":"compostable/low_medium"
+    },
+    "sugar_cane":{
+        "compost_value":"compostable/low_medium"
+    },
+    "tall_grass":{
+        "compost_value":"compostable/low_medium"
+    },
+    "twisting_vines":{
+        "compost_value":"compostable/low_medium"
+    },
+    "vines":{
+        "compost_value":"compostable/low_medium"
+    },
+    "weeping_vines":{
+        "compost_value":"compostable/low_medium"
+    },
+    "pitcher_pod":{
+        "compost_value":"compostable/low_medium"
+    },
+    "short_dry_grass":{
+        "compost_value":"compostable/low_medium"
+    },
+    "large_fern":{
+        "compost_value":"compostable/low_medium"
+    },
+    "torchflower_seeds":{
+        "compost_value":"compostable/low_medium"
+    },
+    "warped_wart_block":{
+        "compost_value":"compostable/low_medium"
+    },
+    "nether_wart_block":{
+        "compost_value":"compostable/low_medium"
+    },
+    "big_dripleaf":{
+        "compost_value":"compostable/medium"
+    },
+    "cocoa_beans":{
+        "compost_value":"compostable/medium"
+    },
+    "warped_roots":{
+        "compost_value":"compostable/medium"
+    },
+    "crimson_roots":{
+        "compost_value":"compostable/medium"
+    },
+    "flowers":{
+        "item_type":"vanilla_tag",
+        "compost_value":"compostable/medium"
+    },
+    "moss_blocks":{
+        "item_type":"vanilla_tag",
+        "compost_value":"compostable/medium"
+    },
+    "sea_pickle":{
+        "compost_value":"compostable/medium"
+    },
+    "shroomlight":{
+        "compost_value":"compostable/medium"
+    },
+    "spore_blossom":{
+        "compost_value":"compostable/medium"
+    },
+    "wheat":{
+        "compost_value":"compostable/medium"
+    },
+    "tall_dry_grass":{
+        "compost_value":"compostable/medium_high"
+    },
+    "straw_bed":{
+        "compost_value":"compostable/medium_high"
+    },
+    "red_mushroom_block":{
+        "compost_value":"compostable/medium_high"
+    },
+    "brown_mushroom_block":{
+        "compost_value":"compostable/medium_high"
+    },
+    "mushroom_stem":{
+        "compost_value":"compostable/medium_high"
+    },
+    "lily_pad":{
+        "compost_value":"compostable/medium"
+    },
+    "melon":{
+        "compost_value":"compostable/medium_high"
+    },
+    "pumpkin":{
+        "compost_value":"compostable/medium_high"
+    },
+    "carved_pumpkin":{
+        "compost_value":"compostable/medium_high"
+    },
+    "hay_bale":{
+        "compost_value":"compostable/medium_high"
+    },
+    "pitcher_plant":{
+        "compost_value":"compostable/medium_high"
+    },
+    "torchflower":{
+        "compost_value":"compostable/medium_high"
     },
 
     "pufferfish":{
+        "item_class":"food",
         "food":4,
         "eat_time":3,
         "effects":[
@@ -40,6 +228,7 @@
         "eat_sound_finish":"bad"
     },
     "spider_eye":{
+        "item_class":"food",
         "food":2,
         "saturation":6,
         "eat_speed":0.1,
@@ -56,6 +245,7 @@
         "eat_sound_finish":"bad"
     },
     "fermented_spider_eye":{
+        "item_class":"food",
         "item_type":"from_inedible",
         "food":6,
         "saturation":6,
@@ -72,6 +262,7 @@
         "eat_sound":"soft"
     },
     "rotten_flesh":{
+        "item_class":"food",
         "food":8,
         "always_edible":true,
         "effects":[
@@ -85,6 +276,7 @@
         "eat_sound_finish":"bad"
     },
     "brown_mushroom":{
+        "item_class":"food",
         "item_type":"from_inedible",
         "food":4,
         "effects":[
@@ -97,9 +289,11 @@
             }
         ],
         "eat_sound":"soft",
-        "eat_sound_finish":"bad"
+        "eat_sound_finish":"bad",
+        "compost_value":"compostable/medium"
     },
     "red_mushroom":{
+        "item_class":"food",
         "item_type":"from_inedible",
         "food":4,
         "saturation":4,
@@ -113,9 +307,11 @@
             }
         ],
         "eat_sound":"soft",
-        "eat_sound_finish":"bad"
+        "eat_sound_finish":"bad",
+        "compost_value":"compostable/medium"
     },
     "shelf_mushroom":{
+        "item_class":"food",
         "item_type":"from_inedible",
         "food":4,
         "saturation":4,
@@ -128,9 +324,11 @@
             }
         ],
         "eat_sound":"soft",
-        "eat_sound_finish":"bad"
+        "eat_sound_finish":"bad",
+        "compost_value":"compostable/medium"
     },
     "nether_wart":{
+        "item_class":"food",
         "item_type":"from_inedible",
         "food":8,
         "saturation":8,
@@ -145,9 +343,11 @@
             }
         ],
         "eat_sound":"soft",
-        "eat_sound_finish":"bad"
+        "eat_sound_finish":"bad",
+        "compost_value":"compostable/low_medium"
     },
     "crimson_fungus":{
+        "item_class":"food",
         "item_type":"from_inedible",
         "food":4,
         "saturation":5,
@@ -167,9 +367,11 @@
                 "duration_seconds":30
             }
         ],
-        "eat_sound":"soft"
+        "eat_sound":"soft",
+        "compost_value":"compostable/low_medium"
     },
     "warped_fungus":{
+        "item_class":"food",
         "item_type":"from_inedible",
         "food":4,
         "saturation":5,
@@ -189,9 +391,11 @@
                 "duration_seconds":30
             }
         ],
-        "eat_sound":"soft"
+        "eat_sound":"soft",
+        "compost_value":"compostable/low_medium"
     },
     "beef":{
+        "item_class":"food",
         "food":8,
         "saturation":2,
         "eat_speed":0.1,
@@ -207,11 +411,13 @@
         "eat_sound_finish":"bad"
     },
     "cooked_beef":{
+        "item_class":"food",
         "food":8,
         "saturation":10,
         "eat_speed":0.1
     },
     "porkchop":{
+        "item_class":"food",
         "food":8,
         "saturation":2,
         "eat_time":3,
@@ -227,11 +433,13 @@
         "eat_sound_finish":"bad"
     },
     "cooked_porkchop":{
+        "item_class":"food",
         "food":8,
         "saturation":10,
         "eat_time":3
     },
     "mutton":{
+        "item_class":"food",
         "food":6,
         "saturation":4,
         "effects":[
@@ -246,10 +454,12 @@
         "eat_sound_finish":"bad"
     },
     "cooked_mutton":{
+        "item_class":"food",
         "food":8,
         "saturation":6
     },
     "chicken":{
+        "item_class":"food",
         "food":6,
         "saturation":4,
         "effects":[
@@ -264,10 +474,12 @@
         "eat_sound_finish":"bad"
     },
     "cooked_chicken":{
+        "item_class":"food",
         "food":6,
         "saturation":8
     },
     "rabbit":{
+        "item_class":"food",
         "food":6,
         "saturation":4,
         "eat_speed":0.5,
@@ -283,11 +495,13 @@
         "eat_sound_finish":"bad"
     },
     "cooked_rabbit":{
+        "item_class":"food",
         "food":6,
         "saturation":6,
         "eat_speed":0.5
     },
     "cod":{
+        "item_class":"food",
         "food":4,
         "saturation":2,
         "eat_time":1,
@@ -304,11 +518,13 @@
         "eat_sound_finish":"bad"
     },
     "cooked_cod":{
+        "item_class":"food",
         "food":4,
         "saturation":4,
         "eat_time":1
     },
     "salmon":{
+        "item_class":"food",
         "food":6,
         "saturation":2,
         "eat_speed":0.0,
@@ -325,11 +541,13 @@
         "eat_sound_finish":"bad"
     },
     "cooked_salmon":{
+        "item_class":"food",
         "food":6,
         "saturation":4,
         "eat_speed":0.0
     },
     "tropical_fish":{
+        "item_class":"food",
         "food":8,
         "saturation":2,
         "eat_speed":0.5,
@@ -346,6 +564,7 @@
         "eat_sound_finish":"bad"
     },
     "cooked_tropical_fish":{
+        "item_class":"food",
         "item_type":"custom",
         "food":8,
         "saturation":2,
@@ -360,22 +579,29 @@
             }
         ]
     },
-    "beetroot":{
+    "beetroot_seeds":{
+        "item_class":"food",
         "food":5,
         "saturation":5,
         "healing":5,
         "eat_speed":0.1,
-        "eat_sound":"soft"
+        "eat_sound":"soft",
+        "compost_value":"compostable/medium"
     },
     "potato":{
+        "item_class":"food",
         "food":2,
-        "saturation":2
+        "saturation":2,
+        "compost_value":"compostable/medium"
     },
     "baked_potato":{
+        "item_class":"food",
         "food":8,
-        "saturation":8
+        "saturation":8,
+        "compost_value":"compostable/medium_high"
     },
     "poisonous_potato":{
+        "item_class":"food",
         "saturation":2,
         "always_edible":true,
         "effects":[
@@ -385,9 +611,11 @@
                 "level":1,
                 "duration_seconds":10
             }
-        ]
+        ],
+        "compost_value":"compostable/always_add_one"
     },
     "carrot":{
+        "item_class":"food",
         "food":4,
         "saturation":4,
         "healing":2,
@@ -399,9 +627,11 @@
                 "effect_type":"cure_effect",
                 "effect":"darkness"
             }
-        ]
+        ],
+        "compost_value":"compostable/medium"
     },
     "golden_carrot":{
+        "item_class":"food",
         "food":4,
         "saturation":8,
         "healing":4,
@@ -423,14 +653,17 @@
         ]
     },
     "pumpkin_slice":{
+        "item_class":"food",
         "item_type":"custom",
         "food":5,
         "saturation":5,
         "healing":5,
         "eat_time":4,
-        "eat_sound":"apple"
+        "eat_sound":"apple",
+        "compost_value":"compostable/medium"
     },
     "cooked_pumpkin_slice":{
+        "item_class":"food",
         "item_type":"custom",
         "food":5,
         "saturation":5,
@@ -442,9 +675,11 @@
                 "effect_type":"cure_effect",
                 "effect":"mining_fatigue"
             }
-        ]
+        ],
+        "compost_value":"compostable/medium_high"
     },
     "melon_slice":{
+        "item_class":"food",
         "food":2,
         "saturation":2,
         "healing":2,
@@ -456,9 +691,11 @@
                 "effect_type":"cure_effect",
                 "effect":"wither"
             }
-        ]
+        ],
+        "compost_value":"compostable/medium"
     },
     "glistering_melon_slice":{
+        "item_class":"food",
         "item_type":"from_inedible",
         "food":6,
         "saturation":16,
@@ -480,15 +717,18 @@
         "eat_sound_finish":"golden"
     },
     "sweet_berries":{
+        "item_class":"food",
         "food":2,
         "saturation":2,
         "healing":2,
         "eat_time":1,
         "eat_speed":1,
         "always_edible":true,
-        "eat_sound":"soft"
+        "eat_sound":"soft",
+        "compost_value":"compostable/low_medium"
     },
     "glow_berries":{
+        "item_class":"food",
         "food":1,
         "saturation":1,
         "healing":1,
@@ -504,9 +744,11 @@
                 "level":2,
                 "duration_seconds":10
             }
-        ]
+        ],
+        "compost_value":"compostable/low_medium"
     },
     "apple": {
+        "item_class":"food",
         "food":4,
         "saturation":4,
         "healing":4,
@@ -517,9 +759,11 @@
                 "effect_type":"cure_effect",
                 "effect":"hunger"
             }
-        ]
+        ],
+        "compost_value":"compostable/medium"
     },
     "golden_apple": {
+        "item_class":"food",
         "food":6,
         "saturation":8,
         "healing":6,
@@ -546,6 +790,7 @@
         ]
     },
     "enchanted_golden_apple": {
+        "item_class":"food",
         "food":20,
         "saturation":20,
         "healing":20,
@@ -578,44 +823,60 @@
         ]
     },
     "chocolate":{
+        "item_class":"food",
         "item_type":"custom",
         "food":2,
         "saturation":4,
         "eat_time":1,
-        "eat_sound":"soft"
+        "eat_sound":"soft",
+        "compost_value":"compostable/low_medium"
     },
     "biscuit":{
+        "item_class":"food",
         "item_type":"custom",
         "food":6,
-        "saturation":2
+        "saturation":2,
+        "compost_value":"compostable/low_medium"
     },
     "cookie":{
+        "item_class":"food",
         "food":6,
-        "saturation":6
+        "saturation":6,
+        "compost_value":"compostable/medium_high"
     },
     "dried_kelp":{
+        "item_class":"food",
         "food":4,
         "saturation":2,
         "eat_speed":0.5,
         "eat_time":1,
-        "eat_sound":"bread"
+        "eat_sound":"bread",
+        "compost_value":"compostable/low_medium"
     },
     "cupcake":{
+        "item_class":"food",
         "item_type":"custom",
         "food":6,
         "saturation":6,
         "eat_speed":0.0,
-        "eat_time":1
+        "eat_time":1,
+        "compost_value":"compostable/low_medium"
+    },
+    "cake":{
+        "compost_value":"compostable/always_add_one"
     },
     "bread":{
+        "item_class":"food",
         "food":2,
         "saturation":16,
         "eat_speed":0.1,
         "eat_time":3,
         "eat_sound":"bread",
-        "always_edible":true
+        "always_edible":true,
+        "compost_value":"compostable/medium_high"
     },
     "chorus_fruit":{
+        "item_class":"food",
         "food":8,
         "saturation":2,
         "always_edible":true,
@@ -624,9 +885,11 @@
             {
                 "effect_type":"teleport_randomly"
             }
-        ]
+        ],
+        "compost_value":"compostable/medium_high"
     },
     "popped_chorus_fruit":{
+        "item_class":"food",
         "item_type":"from_inedible",
         "food":8,
         "saturation":4,
@@ -636,9 +899,11 @@
             {
                 "effect_type":"teleport_forward"
             }
-        ]
+        ],
+        "compost_value":"compostable/always_add_one"
     },
     "apple_juice":{
+        "item_class":"food",
         "item_type":"custom",
         "is_drink":true,
         "healing":8,
@@ -659,12 +924,13 @@
         ]
     },
     "melon_smoothie":{
+        "item_class":"food",
         "item_type":"custom",
         "is_drink":true,
         "saturation":12,
         "healing":6,
         "eat_time":3,
-        "eat_sound":"honey",
+        "eat_sound":"honey_bottle",
         "always_edible":true,
         "effects":[
             {
@@ -674,11 +940,12 @@
         ]
     },
     "luminous_smoothie":{
+        "item_class":"food",
         "item_type":"custom",
         "is_drink":true,
         "saturation":5,
         "healing":5,
-        "eat_sound":"honey",
+        "eat_sound":"honey_bottle",
         "eat_sound_finish":"golden",
         "always_edible":true,
         "effects":[
@@ -691,21 +958,24 @@
         ]
     },
     "honey_bottle":{
+        "item_class":"food",
         "is_drink":true,
         "food":6,
         "saturation":6,
         "healing":6,
         "eat_time":3,
-        "eat_sound":"honey",
+        "eat_sound":"honey_bottle",
         "always_edible":true,
         "effects":[
             {
                 "effect_type":"cure_effect",
                 "effect":"poison"
             }
-        ]
+        ],
+        "compost_value":"compostable/medium"
     },
     "honeycomb":{
+        "item_class":"food",
         "item_type":"from_inedible",
         "food":6,
         "saturation":4,
@@ -718,9 +988,11 @@
                 "effect_type":"cure_effect",
                 "effect":"poison"
             }
-        ]
+        ],
+        "compost_value":"compostable/low_medium"
     },
     "mushroom_stew":{
+        "item_class":"food",
         "food":15,
         "saturation":15,
         "eat_speed":0,
@@ -733,17 +1005,34 @@
                 "duration_seconds":30,
                 "probability":0.1
             }
-        ]
+        ],
+        "compost_value":"compostable/medium_high"
+    },
+    "suspicious_stew":{
+        "item_class":"food",
+        "food":15,
+        "saturation":15,
+        "eat_speed":0,
+        "eat_sound":"soup",
+        "effects":[
+            {
+                "effect_type":"unknown_effect"
+            }
+        ],
+        "compost_value":"compostable/medium_high"
     },
     "beetroot_soup":{
+        "item_class":"food",
         "food":7,
         "saturation":7,
         "healing":7,
         "eat_speed":0,
         "eat_sound":"soup",
-        "always_edible":true
+        "always_edible":true,
+        "compost_value":"compostable/medium_high"
     },
     "fungal_soup":{
+        "item_class":"food",
         "item_type":"custom",
         "food":16,
         "saturation":16,
@@ -776,22 +1065,28 @@
                 "level":1,
                 "duration_seconds":30
             }
-        ]
+        ],
+        "compost_value":"compostable/always_add_one"
     },
     "sea_salad":{
+        "item_class":"food",
         "item_type":"custom",
         "food":12,
         "saturation":12,
         "healing":3,
         "eat_speed":0.1,
-        "eat_sound":"soup"
+        "eat_sound":"soup",
+        "compost_value":"compostable/always_add_one"
     },
     "rabbit_stew":{
+        "item_class":"food",
         "food":12,
         "saturation":12,
-        "eat_sound":"soup"
+        "eat_sound":"soup",
+        "compost_value":"compostable/medium"
     },
     "apple_pie":{
+        "item_class":"food",
         "item_type":"custom",
         "food":10,
         "saturation":10,
@@ -802,16 +1097,20 @@
                 "effect_type":"cure_effect",
                 "effect":"hunger"
             }
-        ]
+        ],
+        "compost_value":"compostable/always_add_one"
     },
     "beef_pie":{
+        "item_class":"food",
         "item_type":"custom",
         "food":12,
         "saturation":16,
         "eat_time":4,
-        "eat_speed":0
+        "eat_speed":0,
+        "compost_value":"compostable/medium_high"
     },
     "pumpkin_pie":{
+        "item_class":"food",
         "food":10,
         "saturation":10,
         "healing":10,
@@ -821,6 +1120,7 @@
                 "effect_type":"cure_effect",
                 "effect":"mining_fatigue"
             }
-        ]
+        ],
+        "compost_value":"compostable/always_add_one"
     }
 }

@@ -25,7 +25,7 @@
                         "consume_seconds": 2,
                         "on_consume_effects": []
                     },
-                    "minecraft:use_effects": {
+                    "use_effects": {
                         "speed_multiplier": 0.0,
                         "can_sprint": false
                     }
@@ -36,24 +36,24 @@
                 "mode": "replace_all",
                 "lore": [
                     {
+                        "translate": "attribute.name.consumable.food.nutrition.6",
                         "italic": false,
-                        "color": "#f5ce0c",
-                        "translate": "attribute.name.consumable.food.nutrition.6"
+                        "color": "#f5ce0c"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.saturation.4",
                         "italic": false,
-                        "color": "#f5ce0c",
-                        "translate": "attribute.name.consumable.food.saturation.4"
+                        "color": "#f5ce0c"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.eat_time.2",
                         "italic": false,
-                        "color": "#5555ff",
-                        "translate": "attribute.name.consumable.food.eat_time.2"
+                        "color": "#5555ff"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.eat_speed.0.0",
                         "italic": false,
-                        "color": "#7a58f1",
-                        "translate": "attribute.name.consumable.food.eat_speed.0.0"
+                        "color": "#7a58f1"
                     }
                 ]
             }

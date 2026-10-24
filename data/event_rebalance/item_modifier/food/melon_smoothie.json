@@ -18,6 +18,10 @@
             {
                 "type": "set_components",
                 "components": {
+                    "item_model": "event:melon_smoothie",
+                    "item_name": {
+                        "translate": "item.event.melon_smoothie"
+                    },
                     "food": {
                         "nutrition": 0,
                         "saturation": 12,
@@ -46,10 +50,10 @@
                             }
                         ],
                         "sound": {
-                            "sound_id": "item.honey.eat"
+                            "sound_id": "item.honey_bottle.drink"
                         }
                     },
-                    "minecraft:use_effects": {
+                    "use_effects": {
                         "speed_multiplier": 0.2,
                         "can_sprint": false
                     }
@@ -60,29 +64,29 @@
                 "mode": "replace_all",
                 "lore": [
                     {
+                        "translate": "attribute.name.consumable.food.saturation.12",
                         "italic": false,
-                        "color": "#f5ce0c",
-                        "translate": "attribute.name.consumable.food.saturation.12"
+                        "color": "#f5ce0c"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.health.6",
                         "italic": false,
-                        "color": "#f545ac",
-                        "translate": "attribute.name.consumable.food.health.6"
+                        "color": "#f545ac"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.drink_time.3",
                         "italic": false,
-                        "color": "#7a58f1",
-                        "translate": "attribute.name.consumable.food.eat_time.3"
+                        "color": "#7a58f1"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.always_drinkable",
                         "italic": false,
-                        "color": "#f78324",
-                        "translate": "attribute.name.consumable.food.always_edible"
+                        "color": "#f78324"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.cure_effect.wither",
                         "italic": false,
-                        "color": "#5555ff",
-                        "translate": "attribute.name.consumable.food.cure_effect.wither"
+                        "color": "#5555ff"
                     }
                 ]
             }

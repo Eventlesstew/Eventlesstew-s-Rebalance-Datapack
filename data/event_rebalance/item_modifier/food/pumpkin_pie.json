@@ -16,6 +16,9 @@
             {
                 "type": "set_components",
                 "components": {
+                    "compostable": {
+                        "layers": "compostable/always_add_one"
+                    },
                     "food": {
                         "nutrition": 10,
                         "saturation": 10,
@@ -44,7 +47,7 @@
                             }
                         ]
                     },
-                    "minecraft:use_effects": {
+                    "use_effects": {
                         "speed_multiplier": 0.2,
                         "can_sprint": false
                     }
@@ -55,29 +58,34 @@
                 "mode": "replace_all",
                 "lore": [
                     {
+                        "translate": "attribute.name.consumable.food.nutrition.10",
                         "italic": false,
-                        "color": "#f5ce0c",
-                        "translate": "attribute.name.consumable.food.nutrition.10"
+                        "color": "#f5ce0c"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.saturation.10",
                         "italic": false,
-                        "color": "#f5ce0c",
-                        "translate": "attribute.name.consumable.food.saturation.10"
+                        "color": "#f5ce0c"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.health.10",
                         "italic": false,
-                        "color": "#f545ac",
-                        "translate": "attribute.name.consumable.food.health.10"
+                        "color": "#f545ac"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.eat_time.3",
                         "italic": false,
-                        "color": "#7a58f1",
-                        "translate": "attribute.name.consumable.food.eat_time.3"
+                        "color": "#7a58f1"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.cure_effect.mining_fatigue",
                         "italic": false,
-                        "color": "#5555ff",
-                        "translate": "attribute.name.consumable.food.cure_effect.mining_fatigue"
+                        "color": "#5555ff"
+                    },
+                    {
+                        "translate": "attribute.name.compostable.compostable/always_add_one",
+                        "italic": false,
+                        "color": "#AAAAAA"
                     }
                 ]
             }

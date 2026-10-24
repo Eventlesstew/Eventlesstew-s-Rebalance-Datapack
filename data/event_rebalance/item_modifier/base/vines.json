@@ -1,0 +1,37 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "vines"
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "set_components",
+                "components": {
+                    "compostable": {
+                        "layers": "compostable/low_medium"
+                    }
+                }
+            },
+            {
+                "type": "set_lore",
+                "mode": "replace_all",
+                "lore": [
+                    {
+                        "translate": "attribute.name.compostable.compostable/low_medium",
+                        "italic": false,
+                        "color": "#AAAAAA"
+                    }
+                ]
+            }
+        ]
+    }
+}

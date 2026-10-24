@@ -18,6 +18,13 @@
             {
                 "type": "set_components",
                 "components": {
+                    "item_model": "event:cupcake",
+                    "item_name": {
+                        "translate": "item.event.cupcake"
+                    },
+                    "compostable": {
+                        "layers": "compostable/low_medium"
+                    },
                     "food": {
                         "nutrition": 6,
                         "saturation": 6,
@@ -27,7 +34,7 @@
                         "consume_seconds": 1,
                         "on_consume_effects": []
                     },
-                    "minecraft:use_effects": {
+                    "use_effects": {
                         "speed_multiplier": 0.0,
                         "can_sprint": false
                     }
@@ -38,24 +45,29 @@
                 "mode": "replace_all",
                 "lore": [
                     {
+                        "translate": "attribute.name.consumable.food.nutrition.6",
                         "italic": false,
-                        "color": "#f5ce0c",
-                        "translate": "attribute.name.consumable.food.nutrition.6"
+                        "color": "#f5ce0c"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.saturation.6",
                         "italic": false,
-                        "color": "#f5ce0c",
-                        "translate": "attribute.name.consumable.food.saturation.6"
+                        "color": "#f5ce0c"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.eat_time.1",
                         "italic": false,
-                        "color": "#24f7ed",
-                        "translate": "attribute.name.consumable.food.eat_time.1"
+                        "color": "#24f7ed"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.eat_speed.0.0",
                         "italic": false,
-                        "color": "#7a58f1",
-                        "translate": "attribute.name.consumable.food.eat_speed.0.0"
+                        "color": "#7a58f1"
+                    },
+                    {
+                        "translate": "attribute.name.compostable.compostable/low_medium",
+                        "italic": false,
+                        "color": "#AAAAAA"
                     }
                 ]
             }

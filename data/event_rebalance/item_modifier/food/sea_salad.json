@@ -18,6 +18,13 @@
             {
                 "type": "set_components",
                 "components": {
+                    "item_model": "event:sea_salad",
+                    "item_name": {
+                        "translate": "item.event.sea_salad"
+                    },
+                    "compostable": {
+                        "layers": "compostable/always_add_one"
+                    },
                     "food": {
                         "nutrition": 12,
                         "saturation": 12,
@@ -43,7 +50,7 @@
                             "sound_id": "item.soup.eat"
                         }
                     },
-                    "minecraft:use_effects": {
+                    "use_effects": {
                         "speed_multiplier": 0.1,
                         "can_sprint": false
                     }
@@ -54,29 +61,34 @@
                 "mode": "replace_all",
                 "lore": [
                     {
+                        "translate": "attribute.name.consumable.food.nutrition.12",
                         "italic": false,
-                        "color": "#f5ce0c",
-                        "translate": "attribute.name.consumable.food.nutrition.12"
+                        "color": "#f5ce0c"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.saturation.12",
                         "italic": false,
-                        "color": "#f5ce0c",
-                        "translate": "attribute.name.consumable.food.saturation.12"
+                        "color": "#f5ce0c"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.health.3",
                         "italic": false,
-                        "color": "#f545ac",
-                        "translate": "attribute.name.consumable.food.health.3"
+                        "color": "#f545ac"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.eat_time.2",
                         "italic": false,
-                        "color": "#5555ff",
-                        "translate": "attribute.name.consumable.food.eat_time.2"
+                        "color": "#5555ff"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.eat_speed.0.1",
                         "italic": false,
-                        "color": "#7a58f1",
-                        "translate": "attribute.name.consumable.food.eat_speed.0.1"
+                        "color": "#7a58f1"
+                    },
+                    {
+                        "translate": "attribute.name.compostable.compostable/always_add_one",
+                        "italic": false,
+                        "color": "#AAAAAA"
                     }
                 ]
             }

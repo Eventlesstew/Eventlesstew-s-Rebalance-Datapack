@@ -34,10 +34,16 @@
                                         "duration": 600
                                     }
                                 ]
+                            },
+                            {
+                                "type": "play_sound",
+                                "sound": {
+                                    "sound_id": "item.bad.consume"
+                                }
                             }
                         ]
                     },
-                    "minecraft:use_effects": {
+                    "use_effects": {
                         "speed_multiplier": 0.5,
                         "can_sprint": true
                     }
@@ -48,29 +54,29 @@
                 "mode": "replace_all",
                 "lore": [
                     {
+                        "translate": "attribute.name.consumable.food.nutrition.6",
                         "italic": false,
-                        "color": "#f5ce0c",
-                        "translate": "attribute.name.consumable.food.nutrition.6"
+                        "color": "#f5ce0c"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.saturation.4",
                         "italic": false,
-                        "color": "#f5ce0c",
-                        "translate": "attribute.name.consumable.food.saturation.4"
+                        "color": "#f5ce0c"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.eat_time.2",
                         "italic": false,
-                        "color": "#5555ff",
-                        "translate": "attribute.name.consumable.food.eat_time.2"
+                        "color": "#5555ff"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.eat_speed.0.5",
                         "italic": false,
-                        "color": "#24f7ed",
-                        "translate": "attribute.name.consumable.food.eat_speed.0.5"
+                        "color": "#24f7ed"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.apply_effect.poison.1.1s.50%",
                         "italic": false,
-                        "color": "#ff5555",
-                        "translate": "attribute.name.consumable.food.apply_effect.poison.1.30s.50%"
+                        "color": "#ff5555"
                     }
                 ]
             }

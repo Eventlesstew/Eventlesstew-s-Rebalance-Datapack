@@ -16,6 +16,9 @@
             {
                 "type": "set_components",
                 "components": {
+                    "compostable": {
+                        "layers": "compostable/medium_high"
+                    },
                     "food": {
                         "nutrition": 2,
                         "saturation": 16,
@@ -28,7 +31,7 @@
                             "sound_id": "item.bread.eat"
                         }
                     },
-                    "minecraft:use_effects": {
+                    "use_effects": {
                         "speed_multiplier": 0.1,
                         "can_sprint": false
                     }
@@ -39,29 +42,34 @@
                 "mode": "replace_all",
                 "lore": [
                     {
+                        "translate": "attribute.name.consumable.food.nutrition.2",
                         "italic": false,
-                        "color": "#f5ce0c",
-                        "translate": "attribute.name.consumable.food.nutrition.2"
+                        "color": "#f5ce0c"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.saturation.16",
                         "italic": false,
-                        "color": "#f5ce0c",
-                        "translate": "attribute.name.consumable.food.saturation.16"
+                        "color": "#f5ce0c"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.eat_time.3",
                         "italic": false,
-                        "color": "#7a58f1",
-                        "translate": "attribute.name.consumable.food.eat_time.3"
+                        "color": "#7a58f1"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.eat_speed.0.1",
                         "italic": false,
-                        "color": "#7a58f1",
-                        "translate": "attribute.name.consumable.food.eat_speed.0.1"
+                        "color": "#7a58f1"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.always_edible",
                         "italic": false,
-                        "color": "#f78324",
-                        "translate": "attribute.name.consumable.food.always_edible"
+                        "color": "#f78324"
+                    },
+                    {
+                        "translate": "attribute.name.compostable.compostable/medium_high",
+                        "italic": false,
+                        "color": "#AAAAAA"
                     }
                 ]
             }

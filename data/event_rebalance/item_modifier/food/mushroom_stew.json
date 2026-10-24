@@ -16,6 +16,9 @@
             {
                 "type": "set_components",
                 "components": {
+                    "compostable": {
+                        "layers": "compostable/medium_high"
+                    },
                     "food": {
                         "nutrition": 15,
                         "saturation": 15,
@@ -40,7 +43,7 @@
                             "sound_id": "item.soup.eat"
                         }
                     },
-                    "minecraft:use_effects": {
+                    "use_effects": {
                         "speed_multiplier": 0,
                         "can_sprint": false
                     }
@@ -51,29 +54,34 @@
                 "mode": "replace_all",
                 "lore": [
                     {
+                        "translate": "attribute.name.consumable.food.nutrition.15",
                         "italic": false,
-                        "color": "#f5ce0c",
-                        "translate": "attribute.name.consumable.food.nutrition.15"
+                        "color": "#f5ce0c"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.saturation.15",
                         "italic": false,
-                        "color": "#f5ce0c",
-                        "translate": "attribute.name.consumable.food.saturation.15"
+                        "color": "#f5ce0c"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.eat_time.2",
                         "italic": false,
-                        "color": "#5555ff",
-                        "translate": "attribute.name.consumable.food.eat_time.2"
+                        "color": "#5555ff"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.eat_speed.0",
                         "italic": false,
-                        "color": "#7a58f1",
-                        "translate": "attribute.name.consumable.food.eat_speed.0"
+                        "color": "#7a58f1"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.apply_effect.poison.1.1s.10%",
                         "italic": false,
-                        "color": "#ff5555",
-                        "translate": "attribute.name.consumable.food.apply_effect.poison.1.30s.10%"
+                        "color": "#ff5555"
+                    },
+                    {
+                        "translate": "attribute.name.compostable.compostable/medium_high",
+                        "italic": false,
+                        "color": "#AAAAAA"
                     }
                 ]
             }

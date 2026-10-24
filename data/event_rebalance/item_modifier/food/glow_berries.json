@@ -16,6 +16,9 @@
             {
                 "type": "set_components",
                 "components": {
+                    "compostable": {
+                        "layers": "compostable/low_medium"
+                    },
                     "food": {
                         "nutrition": 1,
                         "saturation": 1,
@@ -46,13 +49,19 @@
                                         "show_particles": false
                                     }
                                 ]
+                            },
+                            {
+                                "type": "play_sound",
+                                "sound": {
+                                    "sound_id": "item.golden.consume"
+                                }
                             }
                         ],
                         "sound": {
                             "sound_id": "item.soft.eat"
                         }
                     },
-                    "minecraft:use_effects": {
+                    "use_effects": {
                         "speed_multiplier": 1,
                         "can_sprint": true
                     }
@@ -63,39 +72,44 @@
                 "mode": "replace_all",
                 "lore": [
                     {
+                        "translate": "attribute.name.consumable.food.nutrition.1",
                         "italic": false,
-                        "color": "#f5ce0c",
-                        "translate": "attribute.name.consumable.food.nutrition.1"
+                        "color": "#f5ce0c"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.saturation.1",
                         "italic": false,
-                        "color": "#f5ce0c",
-                        "translate": "attribute.name.consumable.food.saturation.1"
+                        "color": "#f5ce0c"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.health.1",
                         "italic": false,
-                        "color": "#f545ac",
-                        "translate": "attribute.name.consumable.food.health.1"
+                        "color": "#f545ac"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.eat_time.1",
                         "italic": false,
-                        "color": "#24f7ed",
-                        "translate": "attribute.name.consumable.food.eat_time.1"
+                        "color": "#24f7ed"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.eat_speed.1",
                         "italic": false,
-                        "color": "#24f7ed",
-                        "translate": "attribute.name.consumable.food.eat_speed.1"
+                        "color": "#24f7ed"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.always_edible",
                         "italic": false,
-                        "color": "#f78324",
-                        "translate": "attribute.name.consumable.food.always_edible"
+                        "color": "#f78324"
                     },
                     {
+                        "translate": "attribute.name.consumable.food.apply_effect.glowing.2.0s",
                         "italic": false,
-                        "color": "#5555ff",
-                        "translate": "attribute.name.consumable.food.apply_effect.glowing.2.10s"
+                        "color": "#5555ff"
+                    },
+                    {
+                        "translate": "attribute.name.compostable.compostable/low_medium",
+                        "italic": false,
+                        "color": "#AAAAAA"
                     }
                 ]
             }
