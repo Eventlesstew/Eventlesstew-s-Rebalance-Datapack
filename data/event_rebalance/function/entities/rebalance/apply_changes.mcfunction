@@ -1,6 +1,9 @@
 tag @s add rebalanced
 
-item modify entity @s event_rebalance:all event_rebalance:apply_rebalance
+function event_rebalance:entities/rebalance/common/inventory
+execute if entity @s[tag=sits_on_cushion] run function event_rebalance:entities/rebalance/common/sit_on_cushion
+
+
 # General
 execute if entity @s[type=item] run function event_rebalance:entities/rebalance/item/rebalance
 execute if entity @s[type=arrow] run function event_rebalance:entities/rebalance/arrow/rebalance

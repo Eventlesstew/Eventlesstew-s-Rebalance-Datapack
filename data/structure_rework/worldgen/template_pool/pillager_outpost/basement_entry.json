@@ -1,0 +1,16 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "structure_rework:pillager_outpost/basement/entry",
+        "processors": {
+          "processors": []
+        },
+        "projection": "rigid"
+      },
+      "weight": 9
+    }
+  ],
+  "fallback": "structure_rework:pillager_outpost/basement_entry"
+}

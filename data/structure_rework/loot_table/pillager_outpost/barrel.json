@@ -1,0 +1,90 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3,
+                "min": 1
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bread",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6,
+                "min": 3
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:potato",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4,
+                "min": 2
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:baked_potato",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6,
+                "min": 2
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:carrot",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": [
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6,
+                "min": 2
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:beetroot_seeds",
+          "weight": 5
+        }
+      ],
+      "rolls": {
+        "type": "uniform",
+        "max": 6,
+        "min": 3
+      }
+    }
+  ],
+  "random_sequence": "event_rebalance:nether_fortress/chest_treasure"
+}

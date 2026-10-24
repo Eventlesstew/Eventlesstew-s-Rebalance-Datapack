@@ -1,5 +1,5 @@
 {
-  "parent": "story/mine_diamond",
+  "parent": "event_rebalance:nether/open_ominous_fortress_vault",
   "criteria": {
     "ancient_debris": {
       "conditions": {

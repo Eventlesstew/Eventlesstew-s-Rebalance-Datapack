@@ -1,0 +1,1 @@
+item modify entity @s event_rebalance:all event_rebalance:apply_rebalance
