@@ -291,9 +291,9 @@
     "attribute.name.armor_toughness": "Toughness",
     "attribute.name.stealth": "Stealth",
 
-    "attribute.name.consumable.food.always_edible": " Always Edible",
-    "attribute.name.consumable.food.always_drinkable": " Always Drinkable",
-    "attribute.name.consumable.food.unknown_effect": " Unknown Effect",
+    "attribute.name.consumable.food.always_edible": "Always Edible",
+    "attribute.name.consumable.food.always_drinkable": "Always Drinkable",
+    "attribute.name.consumable.food.unknown_effect": "Unknown Effect",
 
     "attribute.name.consumable.food.eat_speed.1": "No Slowing when Eating",
     "attribute.name.consumable.food.eat_speed.0.5": "Less Slowing when Eating",
