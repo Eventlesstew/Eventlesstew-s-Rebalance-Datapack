@@ -1,7 +1,7 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "vines"
+        "items": "vine"
     },
     "on_pass": {
         "type": "sequence",

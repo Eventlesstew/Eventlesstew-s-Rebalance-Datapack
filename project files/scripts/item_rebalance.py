@@ -17,18 +17,21 @@ with open(data_path, "r") as file:
 with open(config_path, "r") as file:
     config = json.loads(file.read())
 
+
 def get_modifier_template() -> dict:
     modifier_template_base = copy.deepcopy(modifier_template)
     return modifier_template_base
 
+
 default_item_data = data_file["default"]
 
-class item():
+
+class item:
     _PATH = "data/event_rebalance/item_modifier/"
-    
+
     def __init__(self, key):
         self.item_id = key
-        print("Getting "+self.item_id)
+        print("Getting " + self.item_id)
         # The Data
         self.data = data_file[key]
         # The modifier itself
@@ -46,19 +49,16 @@ class item():
                 "components": {"item_model": "event:" + self.item_id}
             }
         elif item_type == "vanilla_tag":
-            self.modifier["item_filter"] = {"items": "#"+self.item_id}
+            self.modifier["item_filter"] = {"items": "#" + self.item_id}
         else:
             self.modifier["item_filter"] = {"items": self.item_id}
 
-        self.modifier_functions.append({
-            "type":"set_components",
-            "components":self.get_components()
-        })
-        self.modifier_functions.append({
-            "type":"set_lore",
-            "mode":"replace_all",
-            "lore":self.get_lore()
-        })
+        self.modifier_functions.append(
+            {"type": "set_components", "components": self.get_components()}
+        )
+        self.modifier_functions.append(
+            {"type": "set_lore", "mode": "replace_all", "lore": self.get_lore()}
+        )
 
     def get_item_value(self, target_key: str):
         if target_key in self.data:
@@ -67,10 +67,10 @@ class item():
             return default_item_data[target_key]
         else:
             return None
-        
+
     def get_lore_base(self, text, extra=[], color="#1aa819"):
         lore = {
-            "translate":text,
+            "translate": text,
             "italic": False,
             "color": color,
         }
@@ -90,28 +90,30 @@ class item():
         else:
             tooltip_colour = config_value["colour_if_lesser"]
 
-        return self.get_lore_base(text=text + "." + str(value), extra=extra, color=tooltip_colour)
+        return self.get_lore_base(
+            text=text + "." + str(value), extra=extra, color=tooltip_colour
+        )
 
     def get_components(self):
         components = {}
         item_type = self.get_item_value("item_type")
         if item_type == "custom":
-            components["item_model"] = "event:"+self.item_id
-            components["item_name"] = {
-                "translate": "item.event." + self.item_id
-            }
+            components["item_model"] = "event:" + self.item_id
+            components["item_name"] = {"translate": "item.event." + self.item_id}
 
         compost_value = self.get_item_value("compost_value")
         if compost_value:
-            components["compostable"] = {"layers":compost_value}
+            components["compostable"] = {"layers": compost_value}
         return components
-    
+
     def get_lore(self):
         lore = []
         compost_value = self.get_item_value("compost_value")
         if compost_value and compost_value != 0:
             lore.append(
-                self.get_lore_base("attribute.name.compostable."+str(compost_value),[],"#AAAAAA")
+                self.get_lore_base(
+                    "attribute.name.compostable." + str(compost_value), [], "#AAAAAA"
+                )
             )
         return lore
 
@@ -121,10 +123,11 @@ class item():
         pathlib.Path(folder_path).mkdir(parents=True, exist_ok=True)
 
         file_path = folder_path + self.item_id + ".json"
-    
+
         with open(file_path, "w") as file:
             file.write(json.dumps(self.modifier, indent=4))
         print("Created " + self.item_id)
+
 
 class food_item(item):
     def get_components(self):
@@ -143,15 +146,15 @@ class food_item(item):
         components["food"] = {
             "nutrition": nutrition,
             "saturation": saturation,
-            "can_always_eat": always_edible
+            "can_always_eat": always_edible,
         }
         components["consumable"] = {
             "consume_seconds": eat_time,
-            "on_consume_effects": food_effects
+            "on_consume_effects": food_effects,
         }
         components["use_effects"] = {
             "speed_multiplier": eat_speed,
-            "can_sprint": eat_speed >= 0.5
+            "can_sprint": eat_speed >= 0.5,
         }
 
         if eat_sound != "default":
@@ -161,9 +164,7 @@ class food_item(item):
             else:
                 sound_id += ".eat"
 
-            components["consumable"]["sound"] = {
-                "sound_id": sound_id
-            }
+            components["consumable"]["sound"] = {"sound_id": sound_id}
 
         return components
 
@@ -180,7 +181,8 @@ class food_item(item):
         if nutrition > 0:
             item_lore.append(
                 self.get_lore_base(
-                    "attribute.name.consumable.food.nutrition." + str(nutrition), color= "#f5ce0c"
+                    "attribute.name.consumable.food.nutrition." + str(nutrition),
+                    color="#f5ce0c",
                 )
             )
         if saturation > 0:
@@ -193,7 +195,8 @@ class food_item(item):
         if healing > 0:
             item_lore.append(
                 self.get_lore_base(
-                    "attribute.name.consumable.food.health." + str(healing), color="#f545ac"
+                    "attribute.name.consumable.food.health." + str(healing),
+                    color="#f545ac",
                 )
             )
 
@@ -206,12 +209,17 @@ class food_item(item):
             if eat_speed != config["eat_speed"]["default"]:
                 item_lore.append(
                     self.get_lore_from_config(
-                        eat_speed, "eat_speed", "attribute.name.consumable.food.drink_speed"
+                        eat_speed,
+                        "eat_speed",
+                        "attribute.name.consumable.food.drink_speed",
                     )
                 )
             if always_edible:
                 item_lore.append(
-                    self.get_lore_base("attribute.name.consumable.food.always_drinkable", color="#f78324")
+                    self.get_lore_base(
+                        "attribute.name.consumable.food.always_drinkable",
+                        color="#f78324",
+                    )
                 )
         else:
             item_lore.append(
@@ -222,14 +230,18 @@ class food_item(item):
             if eat_speed != config["eat_speed"]["default"]:
                 item_lore.append(
                     self.get_lore_from_config(
-                        eat_speed, "eat_speed", "attribute.name.consumable.food.eat_speed"
+                        eat_speed,
+                        "eat_speed",
+                        "attribute.name.consumable.food.eat_speed",
                     )
                 )
             if always_edible:
                 item_lore.append(
-                    self.get_lore_base("attribute.name.consumable.food.always_edible", color="#f78324")
+                    self.get_lore_base(
+                        "attribute.name.consumable.food.always_edible", color="#f78324"
+                    )
                 )
-    
+
         for food_effect_lore_item in self.get_food_effects_lore():
             item_lore.append(food_effect_lore_item)
 
@@ -246,7 +258,7 @@ class food_item(item):
             if effect_type == "cure_effect":
                 effect_id = effect["effect"]
                 food_effects.append({"type": "remove_effects", "effects": [effect_id]})
-    
+
             elif effect_type == "cure_effect_set":
                 effect_set_id = effect["effect_set"]
                 food_effects.append(
@@ -269,7 +281,7 @@ class food_item(item):
                     effect_duration += effect["duration_ticks"]
                 if "probability" in effect:
                     effect_probability = effect["probability"]
-    
+
                 effect_data = {
                     "type": "apply_effects",
                     "probability": effect_probability,
@@ -281,7 +293,7 @@ class food_item(item):
                         }
                     ],
                 }
-    
+
                 food_effects.append(effect_data)
 
             elif effect_type == "teleport_randomly":
@@ -324,37 +336,38 @@ class food_item(item):
             food_effects.append(
                 {
                     "type": "play_sound",
-                    "sound":{
-                        "sound_id":"item."+eat_sound_finish+".consume"
-                    }
+                    "sound": {"sound_id": "item." + eat_sound_finish + ".consume"},
                 }
             )
-        
+
         return food_effects
 
     def get_food_effects_lore(self):
         food_effect_lore = []
-        
+
         for effect in self.get_item_value("effects"):
             effect_type = effect["effect_type"]
             if effect_type == "cure_effect":
                 effect_id = effect["effect"]
                 food_effect_lore.append(
                     self.get_lore_base(
-                        "attribute.name.consumable.food." + effect_type + "." + effect_id,
+                        "attribute.name.consumable.food."
+                        + effect_type
+                        + "."
+                        + effect_id,
                         color=self.get_effect_color(effect_id, True),
                     )
                 )
             elif effect_type == "cure_effect_set":
                 effect_set_id = effect["effect_set"]
-    
+
                 food_effect_lore.append(
                     self.get_lore_base(
                         "attribute.name.consumable.food."
                         + effect_type
                         + "."
                         + effect_set_id,
-                        color="#5555ff"
+                        color="#5555ff",
                     )
                 )
 
@@ -371,7 +384,7 @@ class food_item(item):
                     effect_duration += effect["duration_ticks"]
                 if "probability" in effect:
                     effect_probability = effect["probability"]
-    
+
                 translation_key = (
                     "attribute.name.consumable.food."
                     + effect_type
@@ -384,9 +397,11 @@ class food_item(item):
                     + "s"
                 )
                 if effect_probability < 1:
-                    effect_probability_percent = str(int(effect_probability * 100)) + "%"
+                    effect_probability_percent = (
+                        str(int(effect_probability * 100)) + "%"
+                    )
                     translation_key += "." + effect_probability_percent
-                
+
                 food_effect_lore.append(
                     self.get_lore_base(
                         translation_key,
@@ -424,6 +439,7 @@ class food_item(item):
                     )
                 )
         return food_effect_lore
+
     def get_effect_color(self, effect, inverted=False):
         if effect in config["effect_sets"]["negative"]:
             if inverted:
@@ -436,6 +452,7 @@ class food_item(item):
             else:
                 return "#5555ff"
 
+
 def add_food_item(item_key: str):
     item_class = "default"
     if "item_class" in data_file[item_key]:
@@ -444,10 +461,14 @@ def add_food_item(item_key: str):
     item_object = None
     if item_class == "food":
         item_object = food_item(item_key)
+    elif item_class == "tiered":
+        pass
     else:
         item_object = item(item_key)
 
-    item_object.save()
+    if item_object:
+        item_object.save()
+
 
 item_keys = data_file.keys()
 

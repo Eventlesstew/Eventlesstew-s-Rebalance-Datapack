@@ -119,9 +119,9 @@
                 },
                 {
                     "type": "item",
-                    "name": "beetroot",
+                    "name": "beetroot_seeds",
                     "weight": 3,
-                    "modifier": "event_rebalance:food/beetroot"
+                    "modifier": "event_rebalance:food/beetroot_seeds"
                 },
                 {
                     "type": "item",

@@ -7,20 +7,27 @@
         "type": "sequence",
         "functions": [
             "event_rebalance:modified",
-            "event_rebalance:make_stackable",
             {
-                "type": "minecraft:set_components",
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "set_components",
                 "components": {
+                    "food": {
+                        "nutrition": 0,
+                        "saturation": 0,
+                        "can_always_eat": true
+                    },
                     "consumable": {
                         "consume_seconds": 2,
-                        "sound": {
-                            "sound_id": "entity.generic.drink"
-                        },
-                        "on_consume_effects": [
-                            {
-                                "type": "clear_all_effects"
-                            }
-                        ]
+                        "on_consume_effects": []
+                    },
+                    "use_effects": {
+                        "speed_multiplier": 0.2,
+                        "can_sprint": false
                     }
                 }
             },
@@ -29,19 +36,14 @@
                 "mode": "replace_all",
                 "lore": [
                     {
-                        "translate": " 2s ",
-                        "extra": [
-                            {
-                                "translate": "attribute.name.consumable.food.eating_time"
-                            }
-                        ],
-                        "color": "#5555ff",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.drink_time.2",
+                        "italic": false,
+                        "color": "#5555ff"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.effect.milk_bucket",
-                        "color": "#5555ff",
-                        "italic": false
+                        "translate": "attribute.name.consumable.food.always_drinkable",
+                        "italic": false,
+                        "color": "#f78324"
                     }
                 ]
             }

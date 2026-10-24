@@ -1,7 +1,7 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "hay_bale"
+        "items": "hay_block"
     },
     "on_pass": {
         "type": "sequence",

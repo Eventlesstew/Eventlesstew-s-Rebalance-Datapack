@@ -12,7 +12,262 @@
         "always_edible":false,
         "effects":[],
         "is_drink":false,
-        "compost_value":0
+        "compost_value":0,
+
+        "max_damage":{
+            "_type":"tiered",
+            "wooden":128,
+            "leather":128,
+            "stone":256,
+            "chainmail":256,
+            "copper":192,
+            "iron":512,
+            "hyphae":128,
+            "hoglin_hide":128,
+            "golden":256,
+            "diamond":1024,
+            "rose_golden":512,
+            "netherite":2048
+        }
+    },
+
+    "sword":{
+        "item_class":"tiered",
+        "attack_damage":{
+            "_type":"tiered",
+            "wooden":4,
+            "stone":5,
+            "copper":5,
+            "iron":6,
+            "hyphae":5,
+            "golden":6,
+            "diamond":8,
+            "rose_golden":7,
+            "netherite":10
+        },
+        "attack_speed":{
+            "_type":"tiered",
+            "wooden":1.8,
+            "stone":1.6,
+            "copper":1.8,
+            "iron":1.6,
+            "hyphae":2,
+            "golden":1.9,
+            "diamond":1.5,
+            "rose_golden":2,
+            "netherite":1.4
+        }
+    },
+    "pickaxe":{
+        "item_class":"tiered",
+        "mining_speed":{
+            "_type":"tiered",
+            "wooden":3,
+            "stone":4,
+            "copper":6,
+            "iron":8,
+            "hyphae":12,
+            "golden":16,
+            "diamond":12,
+            "rose_golden":24,
+            "netherite":16
+        },
+        "mining_category":{
+            "_type":"tiered",
+            "wooden":"pickaxe_power_1",
+            "stone":"pickaxe_power_1",
+            "copper":"pickaxe_power_2",
+            "iron":"pickaxe_power_2",
+            "hyphae":"pickaxe_power_2",
+            "golden":"pickaxe_power_3",
+            "diamond":"pickaxe_power_3",
+            "rose_golden":"pickaxe_power_3",
+            "netherite":"pickaxe_power_3"
+        },
+        "attack_damage":{
+            "_type":"reference",
+            "reference":"sword",
+            "add":-1
+        },
+        "attack_speed":{
+            "_type":"reference",
+            "reference":"axe"
+        }
+    },
+    "axe":{
+        "item_class":"tiered",
+        "attack_damage":{
+            "_type":"tiered",
+            "wooden":8,
+            "stone":10,
+            "copper":9,
+            "iron":12,
+            "hyphae":9,
+            "golden":10,
+            "diamond":14,
+            "rose_golden":11,
+            "netherite":16
+        },
+        "attack_speed":{
+            "_type":"tiered",
+            "wooden":1.2,
+            "stone":1,
+            "copper":1.2,
+            "iron":1,
+            "hyphae":1.6,
+            "golden":1.3,
+            "diamond":1,
+            "rose_golden":1.4,
+            "netherite":1
+        },
+        "mining_speed":{
+            "_type":"reference",
+            "reference":"pickaxe"
+        },
+        "mining_category":"axe"
+    },
+    "dagger":{
+        "item_class":"tiered",
+        "damage_type":"dagger",
+        "attack_damage":{
+            "_type":"tiered",
+            "wooden":1,
+            "stone":1.5,
+            "copper":1.5,
+            "iron":2,
+            "hyphae":1.5,
+            "golden":2,
+            "diamond":4,
+            "rose_golden":3,
+            "netherite":5
+        },
+        "attack_speed":{
+            "_type":"tiered",
+            "wooden":4,
+            "stone":3.5,
+            "copper":4.25,
+            "iron":3.5,
+            "hyphae":5,
+            "golden":5,
+            "diamond":3,
+            "rose_golden":5,
+            "netherite":3
+        }
+    },
+    "shovel":{
+        "item_class":"tiered",
+        "mining_speed":{
+            "_type":"reference",
+            "reference":"pickaxe"
+        },
+        "mining_category":"shovel",
+        "attack_damage":{
+            "_type":"reference",
+            "reference":"sword",
+            "add":-2
+        },
+        "attack_speed":{
+            "_type":"reference",
+            "reference":"axe"
+        }
+    },
+    "hoe":{
+        "item_class":"tiered",
+        "mining_speed":{
+            "_type":"reference",
+            "reference":"pickaxe"
+        },
+        "mining_category":"hoe",
+        "attack_damage":{
+            "_type":"reference",
+            "reference":"sword",
+            "add":-3
+        },
+        "attack_speed":{
+            "_type":"reference",
+            "reference":"axe"
+        }
+    },
+    "hammer":{
+        "item_class":"tiered",
+        "mining_speed":{
+            "_type":"reference",
+            "reference":"pickaxe",
+            "mult":0.75
+        },
+        "mining_category":{
+            "_type":"tiered",
+            "wooden":"hammer_power_1",
+            "stone":"hammer_power_1",
+            "copper":"hammer_power_2",
+            "iron":"hammer_power_2",
+            "hyphae":"hammer_power_2",
+            "golden":"hammer_power_3",
+            "diamond":"hammer_power_3",
+            "rose_golden":"hammer_power_3",
+            "netherite":"hammer_power_3"
+        },
+        "attack_damage":{
+            "_type":"reference",
+            "reference":"axe",
+            "add":-2
+        },
+        "attack_speed":{
+            "_type":"reference",
+            "reference":"axe"
+        }
+    },
+    "spear":{
+        "item_class":"tiered",
+        "attack_damage":{
+            "_type":"tiered",
+            "wooden":2,
+            "stone":3,
+            "copper":3,
+            "iron":4,
+            "hyphae":4,
+            "golden":4,
+            "diamond":5,
+            "rose_golden":4,
+            "netherite":6
+        },
+        "attack_speed":{
+            "_type":"tiered",
+            "wooden":1.1,
+            "stone":1,
+            "copper":1.2,
+            "iron":1,
+            "hyphae":1.1,
+            "golden":1.3,
+            "diamond":0.9,
+            "rose_golden":1.4,
+            "netherite":0.8
+        },
+        "is_spear":true,
+        "charge_delay":{
+            "_type":"tiered",
+            "wooden":0.3,
+            "stone":0.4,
+            "copper":0.4,
+            "iron":0.5,
+            "hyphae":1,
+            "golden":0.4,
+            "diamond":0.6,
+            "rose_golden":0.3,
+            "netherite":0.7
+        },
+        "charge_duration":{
+            "_type":"tiered",
+            "wooden":9,
+            "stone":9.5,
+            "copper":10,
+            "iron":8,
+            "hyphae":15,
+            "golden":11,
+            "diamond":7,
+            "rose_golden":12,
+            "netherite":6
+        }
     },
 
     "wither_rose":{
@@ -107,7 +362,7 @@
     "twisting_vines":{
         "compost_value":"compostable/low_medium"
     },
-    "vines":{
+    "vine":{
         "compost_value":"compostable/low_medium"
     },
     "weeping_vines":{
@@ -190,7 +445,7 @@
     "carved_pumpkin":{
         "compost_value":"compostable/medium_high"
     },
-    "hay_bale":{
+    "hay_block":{
         "compost_value":"compostable/medium_high"
     },
     "pitcher_plant":{
@@ -1020,6 +1275,17 @@
             }
         ],
         "compost_value":"compostable/medium_high"
+    },
+    "milk_bucket":{
+        "item_class":"food",
+        "is_drink":true,
+        "eat_time":2,
+        "always_edible":true,
+        "effects":[
+            {
+                "effect_type":"cure_all_effects"
+            }
+        ]
     },
     "beetroot_soup":{
         "item_class":"food",

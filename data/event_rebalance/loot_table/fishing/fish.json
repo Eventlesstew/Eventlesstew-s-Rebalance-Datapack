@@ -31,7 +31,7 @@
                             "type": "item",
                             "name": "cod",
                             "weight": 20,
-                            "modifier": "event_rebalance:food/raw_cod"
+                            "modifier": "event_rebalance:food/cod"
                         }
                     ],
                     "condition": {
@@ -82,7 +82,7 @@
                             "type": "item",
                             "name": "salmon",
                             "weight": 20,
-                            "modifier": "event_rebalance:food/raw_salmon"
+                            "modifier": "event_rebalance:food/salmon"
                         }
                     ],
                     "condition": {
@@ -138,7 +138,7 @@
                             "type": "item",
                             "name": "tropical_fish",
                             "weight": 20,
-                            "modifier": "event_rebalance:food/raw_tropical_fish"
+                            "modifier": "event_rebalance:food/tropical_fish"
                         }
                     ],
                     "condition": {
