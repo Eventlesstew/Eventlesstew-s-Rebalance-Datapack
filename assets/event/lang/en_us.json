@@ -428,7 +428,9 @@
     "attribute.name.consumable.food.effect.unknown_effect": "Unknown Effect",
 
     "attribute.name.furnace_fuel":"Cooking Fuel",
+    "attribute.name.furnace_fuel_speed":"Cooking Speed",
     "attribute.name.brewing_fuel":"Brewing Fuel",
+    "attribute.name.brewing_speed":"Brewing Speed",
     "attribute.name.compostable.compostable/low":"0.3 Compost",
     "attribute.name.compostable.compostable/low_medium":"0.5 Compost",
     "attribute.name.compostable.compostable/medium":"0.65 Compost",
