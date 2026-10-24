@@ -26,7 +26,7 @@
                         "layers": "compostable/medium_high"
                     },
                     "food": {
-                        "nutrition": 12,
+                        "nutrition": 16,
                         "saturation": 16,
                         "can_always_eat": false
                     },
@@ -45,7 +45,7 @@
                 "mode": "replace_all",
                 "lore": [
                     {
-                        "translate": "attribute.name.consumable.food.nutrition.12",
+                        "translate": "attribute.name.consumable.food.nutrition.16",
                         "italic": false,
                         "color": "#f5ce0c"
                     },

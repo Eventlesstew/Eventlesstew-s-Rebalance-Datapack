@@ -1,0 +1,43 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "bookshelf"
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "set_components",
+                "components": {
+                    "cooking_fuel": {
+                        "burn_time": 1700,
+                        "speed_multiplier": 1
+                    }
+                }
+            },
+            {
+                "type": "set_lore",
+                "mode": "replace_all",
+                "lore": [
+                    {
+                        "translate": "8.5 ",
+                        "italic": false,
+                        "color": "#AAAAAA",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.furnace_fuel"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

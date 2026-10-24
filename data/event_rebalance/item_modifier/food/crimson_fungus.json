@@ -48,6 +48,12 @@
                                         "duration": 600
                                     }
                                 ]
+                            },
+                            {
+                                "type": "play_sound",
+                                "sound": {
+                                    "sound_id": "item.bad.consume"
+                                }
                             }
                         ],
                         "sound": {

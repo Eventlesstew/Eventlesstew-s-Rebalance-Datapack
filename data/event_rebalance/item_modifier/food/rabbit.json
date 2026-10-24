@@ -17,8 +17,8 @@
                 "type": "set_components",
                 "components": {
                     "food": {
-                        "nutrition": 6,
-                        "saturation": 4,
+                        "nutrition": 5,
+                        "saturation": 2,
                         "can_always_eat": false
                     },
                     "consumable": {
@@ -54,12 +54,12 @@
                 "mode": "replace_all",
                 "lore": [
                     {
-                        "translate": "attribute.name.consumable.food.nutrition.6",
+                        "translate": "attribute.name.consumable.food.nutrition.5",
                         "italic": false,
                         "color": "#f5ce0c"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.saturation.4",
+                        "translate": "attribute.name.consumable.food.saturation.2",
                         "italic": false,
                         "color": "#f5ce0c"
                     },

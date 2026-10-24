@@ -1,0 +1,49 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "components": {
+            "item_model": "event:withered_chunk_block"
+        }
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "set_components",
+                "components": {
+                    "item_model": "event:withered_chunk_block",
+                    "item_name": {
+                        "translate": "item.event.withered_chunk_block"
+                    },
+                    "cooking_fuel": {
+                        "burn_time": 20000,
+                        "speed_multiplier": 1
+                    }
+                }
+            },
+            {
+                "type": "set_lore",
+                "mode": "replace_all",
+                "lore": [
+                    {
+                        "translate": "100 ",
+                        "italic": false,
+                        "color": "#AAAAAA",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.furnace_fuel"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -12,8 +12,21 @@
         "always_edible":false,
         "effects":[],
         "is_drink":false,
-        "compost_value":0,
-
+        "compost_value":0
+    },
+    "template_tool":{
+        "item_class":"template",
+        "tiers":[
+            "wooden",
+            "stone",
+            "copper",
+            "iron",
+            "hyphae",
+            "golden",
+            "diamond",
+            "rose_golden",
+            "netherite"
+        ],
         "max_damage":{
             "_type":"tiered",
             "wooden":128,
@@ -30,9 +43,34 @@
             "netherite":2048
         }
     },
-
+    "template_armor":{
+        "item_class":"template",
+        "tiers":[
+            "leather",
+            "chainmail",
+            "copper",
+            "iron",
+            "hoglin_hide",
+            "golden",
+            "diamond",
+            "rose_golden",
+            "netherite"
+        ],
+        "max_damage":{
+            "_type":"reference",
+            "reference":"template_tool"
+        }
+    },
     "sword":{
         "item_class":"tiered",
+        "tiers":{
+            "_type":"reference",
+            "reference":"template_tool"
+        },
+        "max_damage":{
+            "_type":"reference",
+            "reference":"template_tool"
+        },
         "attack_damage":{
             "_type":"tiered",
             "wooden":4,
@@ -56,10 +94,23 @@
             "diamond":1.5,
             "rose_golden":2,
             "netherite":1.4
+        },
+        "furnace_fuel":{
+            "_type":"tiered",
+            "other":0,
+            "wooden":2.5
         }
     },
     "pickaxe":{
         "item_class":"tiered",
+        "tiers":{
+            "_type":"reference",
+            "reference":"template_tool"
+        },
+        "max_damage":{
+            "_type":"reference",
+            "reference":"template_tool"
+        },
         "mining_speed":{
             "_type":"tiered",
             "wooden":3,
@@ -92,10 +143,23 @@
         "attack_speed":{
             "_type":"reference",
             "reference":"axe"
+        },
+        "furnace_fuel":{
+            "_type":"tiered",
+            "other":0,
+            "wooden":4
         }
     },
     "axe":{
         "item_class":"tiered",
+        "tiers":{
+            "_type":"reference",
+            "reference":"template_tool"
+        },
+        "max_damage":{
+            "_type":"reference",
+            "reference":"template_tool"
+        },
         "attack_damage":{
             "_type":"tiered",
             "wooden":8,
@@ -124,10 +188,23 @@
             "_type":"reference",
             "reference":"pickaxe"
         },
-        "mining_category":"axe"
+        "mining_category":"axe",
+        "furnace_fuel":{
+            "_type":"tiered",
+            "other":0,
+            "wooden":4
+        }
     },
     "dagger":{
         "item_class":"tiered",
+        "tiers":{
+            "_type":"reference",
+            "reference":"template_tool"
+        },
+        "max_damage":{
+            "_type":"reference",
+            "reference":"template_tool"
+        },
         "damage_type":"dagger",
         "attack_damage":{
             "_type":"tiered",
@@ -152,10 +229,23 @@
             "diamond":3,
             "rose_golden":5,
             "netherite":3
+        },
+        "furnace_fuel":{
+            "_type":"tiered",
+            "other":0,
+            "wooden":1.5
         }
     },
     "shovel":{
         "item_class":"tiered",
+        "tiers":{
+            "_type":"reference",
+            "reference":"template_tool"
+        },
+        "max_damage":{
+            "_type":"reference",
+            "reference":"template_tool"
+        },
         "mining_speed":{
             "_type":"reference",
             "reference":"pickaxe"
@@ -169,10 +259,23 @@
         "attack_speed":{
             "_type":"reference",
             "reference":"axe"
+        },
+        "furnace_fuel":{
+            "_type":"tiered",
+            "other":0,
+            "wooden":2
         }
     },
     "hoe":{
         "item_class":"tiered",
+        "tiers":{
+            "_type":"reference",
+            "reference":"template_tool"
+        },
+        "max_damage":{
+            "_type":"reference",
+            "reference":"template_tool"
+        },
         "mining_speed":{
             "_type":"reference",
             "reference":"pickaxe"
@@ -186,10 +289,23 @@
         "attack_speed":{
             "_type":"reference",
             "reference":"axe"
+        },
+        "furnace_fuel":{
+            "_type":"tiered",
+            "other":0,
+            "wooden":3
         }
     },
     "hammer":{
         "item_class":"tiered",
+        "tiers":{
+            "_type":"reference",
+            "reference":"template_tool"
+        },
+        "max_damage":{
+            "_type":"reference",
+            "reference":"template_tool"
+        },
         "mining_speed":{
             "_type":"reference",
             "reference":"pickaxe",
@@ -215,10 +331,23 @@
         "attack_speed":{
             "_type":"reference",
             "reference":"axe"
+        },
+        "furnace_fuel":{
+            "_type":"tiered",
+            "other":0,
+            "wooden":6.5
         }
     },
     "spear":{
         "item_class":"tiered",
+        "tiers":{
+            "_type":"reference",
+            "reference":"template_tool"
+        },
+        "max_damage":{
+            "_type":"reference",
+            "reference":"template_tool"
+        },
         "attack_damage":{
             "_type":"tiered",
             "wooden":2,
@@ -267,7 +396,235 @@
             "diamond":7,
             "rose_golden":12,
             "netherite":6
+        },
+        "furnace_fuel":{
+            "_type":"tiered",
+            "other":0,
+            "wooden":2
         }
+    },
+
+    "lava_bucket":{
+        "furnace_fuel":100,
+        "brewing_fuel":100
+    },
+    "coal_block":{
+        "furnace_fuel":72
+    },
+    "withered_chunk_block":{
+        "item_type":"custom",
+        "furnace_fuel":100
+    },
+
+    "dried_kelp_block":{
+        "furnace_fuel":20
+    },
+
+    "chest_boats":{
+        "item_type":"vanilla_tag",
+        "furnace_fuel":13
+    },
+
+    "lectern":{
+        "furnace_fuel":12.5
+    },
+
+    "blaze_rod":{
+        "furnace_fuel":12
+    },
+    "note_block":{
+        "furnace_fuel":12
+    },
+    "trapped_chest":{
+        "furnace_fuel":8.75
+    },
+    "chiseled_bookshelf":{
+        "furnace_fuel":8.5
+    },
+    "bookshelf":{
+        "furnace_fuel":8.5
+    },
+
+    "chest":{
+        "furnace_fuel":8
+    },
+    "coal":{
+        "furnace_fuel":8,
+        "brewing_fuel":1
+    },
+    "wooden_pressure_plates":{
+        "item_type":"vanilla_tag",
+        "furnace_fuel":6
+    },
+    "wooden_shelves":{
+        "item_type":"custom_tag",
+        "furnace_fuel":6
+    },
+    "blaze_powder":{
+        "furnace_fuel":6,
+        "brewing_fuel":20
+    },
+    "withered_chunks":{
+        "item_type":"custom",
+        "furnace_fuel":6,
+        "brewing_fuel":2
+    },
+    "jukebox":{
+        "furnace_fuel":8
+    },
+    "composter":{
+        "furnace_fuel":7
+    },
+    "barrel":{
+        "furnace_fuel":7
+    },
+    "wooden_buttons":{
+        "item_type":"vanilla_tag",
+        "furnace_fuel":5
+    },
+    "boats":{
+        "item_type":"vanilla_tag",
+        "furnace_fuel":5
+    },
+    "painting":{
+        "furnace_fuel":5
+    },
+    "cartography_table":{
+        "furnace_fuel":5
+    },
+
+    "signs":{
+        "item_type":"vanilla_tag",
+        "furnace_fuel":4.5
+    },
+    "hanging_signs":{
+        "item_type":"vanilla_tag",
+        "furnace_fuel":4
+    },
+    "logs_that_burn":{
+        "item_type":"vanilla_tag",
+        "furnace_fuel":4
+    },
+    "crafting_table":{
+        "furnace_fuel":4
+    },
+    "item_frame":{
+        "furnace_fuel":4
+    },
+    "smithing_table":{
+        "furnace_fuel":4
+    },
+    "fletching_table":{
+        "furnace_fuel":4
+    },
+
+    "redstone_block":{
+        "furnace_fuel":36,
+        "furnace_fuel_speed":4
+    },
+    "redstone_torch":{
+        "furnace_fuel":5,
+        "furnace_fuel_speed":1.5
+    },
+    "redstone":{
+        "furnace_fuel":4,
+        "furnace_fuel_speed":2
+    },
+
+    "ladder":{
+        "furnace_fuel":3
+    },
+    "wooden_doors":{
+        "item_type":"vanilla_tag",
+        "furnace_fuel":3
+    },
+    "wooden_trapdoors":{
+        "item_type":"vanilla_tag",
+        "furnace_fuel":3
+    },
+    "scaffolding":{
+        "furnace_fuel":3
+    },
+    "fire_charge":{
+        "furnace_fuel":3
+    },
+    "loom":{
+        "furnace_fuel":2.5
+    },
+    "banners":{
+        "item_type":"vanilla_tag",
+        "furnace_fuel":2.5
+    },
+    "fence_gates":{
+        "item_type":"vanilla_tag",
+        "furnace_fuel":2
+    },
+    "daylight_detector":{
+        "furnace_fuel":1.5
+    },
+    "planks":{
+        "item_type":"vanilla_tag",
+        "furnace_fuel":1
+    },
+    "wooden_stairs":{
+        "item_type":"vanilla_tag",
+        "furnace_fuel":1
+    },
+    "wooden_slabs":{
+        "item_type":"vanilla_tag",
+        "furnace_fuel":0.5
+    },
+    "wool":{
+        "item_type":"vanilla_tag",
+        "furnace_fuel":1
+    },
+    "wool_stairs":{
+        "item_type":"vanilla_tag",
+        "furnace_fuel":1
+    },
+    "wool_carpets":{
+        "item_type":"vanilla_tag",
+        "furnace_fuel":0.3
+    },
+    "cushions":{
+        "item_type":"vanilla_tag",
+        "furnace_fuel":1
+    },
+    "wool_slabs":{
+        "item_type":"vanilla_tag",
+        "furnace_fuel":0.5
+    },
+    "wooden_fences":{
+        "item_type":"vanilla_tag",
+        "furnace_fuel":1
+    },
+    "bowl":{
+        "furnace_fuel":1
+    },
+    "tripwire_hook":{
+        "furnace_fuel":0.75
+    },
+    "stick":{
+        "furnace_fuel":0.5
+    },
+    "bamboo":{
+        "furnace_fuel":0.5
+    },
+    "paper":{
+        "furnace_fuel":0.5
+    },
+    "glowstone_dust":{
+        "brewing_fuel":3,
+        "brewing_fuel_speed":1.5
+    },
+    "glowstone":{
+        "brewing_fuel":10,
+        "brewing_fuel_speed":2
+    },
+    "breeze_powder":{
+        "item_type":"custom",
+        "brewing_fuel":10,
+        "brewing_fuel_speed":2
     },
 
     "wither_rose":{
@@ -290,14 +647,21 @@
         "compost_value":"compostable/low"
     },
     "leaf_litter":{
-        "compost_value":"compostable/low"
+        "compost_value":"compostable/low",
+        "furnace_fuel":0.5
     },
     "saplings":{
         "item_type":"vanilla_tag",
-        "compost_value":"compostable/low"
+        "compost_value":"compostable/low",
+        "furnace_fuel":1
+    },
+    "dead_bush":{
+        "compost_value":"compostable/low_medium",
+        "furnace_fuel":2
     },
     "mangrove_roots":{
-        "compost_value":"compostable/low"
+        "compost_value":"compostable/low",
+        "furnace_fuel":1
     },
     "melon_seeds":{
         "compost_value":"compostable/low"
@@ -372,7 +736,8 @@
         "compost_value":"compostable/low_medium"
     },
     "short_dry_grass":{
-        "compost_value":"compostable/low_medium"
+        "compost_value":"compostable/low_medium",
+        "furnace_fuel":1
     },
     "large_fern":{
         "compost_value":"compostable/low_medium"
@@ -406,9 +771,6 @@
         "item_type":"vanilla_tag",
         "compost_value":"compostable/medium"
     },
-    "sea_pickle":{
-        "compost_value":"compostable/medium"
-    },
     "shroomlight":{
         "compost_value":"compostable/medium"
     },
@@ -419,7 +781,8 @@
         "compost_value":"compostable/medium"
     },
     "tall_dry_grass":{
-        "compost_value":"compostable/medium_high"
+        "compost_value":"compostable/medium_high",
+        "furnace_fuel":2
     },
     "straw_bed":{
         "compost_value":"compostable/medium_high"
@@ -623,6 +986,7 @@
             }
         ],
         "eat_sound":"soft",
+        "eat_sound_finish":"bad",
         "compost_value":"compostable/low_medium"
     },
     "warped_fungus":{
@@ -647,12 +1011,21 @@
             }
         ],
         "eat_sound":"soft",
+        "eat_sound_finish":"bad",
         "compost_value":"compostable/low_medium"
+    },
+    "sea_pickle":{
+        "item_class":"food",
+        "food":4,
+        "saturation":4,
+        "eat_time":1,
+        "eat_speed":0.5,
+        "compost_value":"compostable/medium"
     },
     "beef":{
         "item_class":"food",
         "food":8,
-        "saturation":2,
+        "saturation":3,
         "eat_speed":0.1,
         "effects":[
             {
@@ -668,13 +1041,13 @@
     "cooked_beef":{
         "item_class":"food",
         "food":8,
-        "saturation":10,
+        "saturation":6,
         "eat_speed":0.1
     },
     "porkchop":{
         "item_class":"food",
         "food":8,
-        "saturation":2,
+        "saturation":3,
         "eat_time":3,
         "effects":[
             {
@@ -690,13 +1063,13 @@
     "cooked_porkchop":{
         "item_class":"food",
         "food":8,
-        "saturation":10,
+        "saturation":6,
         "eat_time":3
     },
     "mutton":{
         "item_class":"food",
         "food":6,
-        "saturation":4,
+        "saturation":2,
         "effects":[
             {
                 "effect_type":"apply_effect",
@@ -711,12 +1084,12 @@
     "cooked_mutton":{
         "item_class":"food",
         "food":8,
-        "saturation":6
+        "saturation":4
     },
     "chicken":{
         "item_class":"food",
         "food":6,
-        "saturation":4,
+        "saturation":3,
         "effects":[
             {
                 "effect_type":"apply_effect",
@@ -731,12 +1104,12 @@
     "cooked_chicken":{
         "item_class":"food",
         "food":6,
-        "saturation":8
+        "saturation":6
     },
     "rabbit":{
         "item_class":"food",
-        "food":6,
-        "saturation":4,
+        "food":5,
+        "saturation":2,
         "eat_speed":0.5,
         "effects":[
             {
@@ -751,8 +1124,8 @@
     },
     "cooked_rabbit":{
         "item_class":"food",
-        "food":6,
-        "saturation":6,
+        "food":5,
+        "saturation":4,
         "eat_speed":0.5
     },
     "cod":{
@@ -1122,7 +1495,7 @@
     },
     "bread":{
         "item_class":"food",
-        "food":2,
+        "food":4,
         "saturation":16,
         "eat_speed":0.1,
         "eat_time":3,
@@ -1369,7 +1742,7 @@
     "beef_pie":{
         "item_class":"food",
         "item_type":"custom",
-        "food":12,
+        "food":16,
         "saturation":16,
         "eat_time":4,
         "eat_speed":0,

@@ -18,6 +18,10 @@
                 "components": {
                     "compostable": {
                         "layers": "compostable/low"
+                    },
+                    "cooking_fuel": {
+                        "burn_time": 100,
+                        "speed_multiplier": 1
                     }
                 }
             },
@@ -29,6 +33,16 @@
                         "translate": "attribute.name.compostable.compostable/low",
                         "italic": false,
                         "color": "#AAAAAA"
+                    },
+                    {
+                        "translate": "0.5 ",
+                        "italic": false,
+                        "color": "#AAAAAA",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.furnace_fuel"
+                            }
+                        ]
                     }
                 ]
             }

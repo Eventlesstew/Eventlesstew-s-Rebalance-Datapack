@@ -429,11 +429,11 @@
 
     "attribute.name.furnace_fuel":"Cooking Fuel Efficiency",
     "attribute.name.brewing_fuel":"Brewing Fuel Efficiency",
-    "attribute.name.compostable.compostable/low":"Low Compostability",
-    "attribute.name.compostable.compostable/low_medium":"Less Compostability",
-    "attribute.name.compostable.compostable/medium":"Moderate Compostability",
-    "attribute.name.compostable.compostable/medium_high":"More Compostability",
-    "attribute.name.compostable.compostable/always_add_one":"High Compostability",
+    "attribute.name.compostable.compostable/low":"30%% Compost Efficiency",
+    "attribute.name.compostable.compostable/low_medium":"50%% Compost Efficiency",
+    "attribute.name.compostable.compostable/medium":"65%% Compost Efficiency",
+    "attribute.name.compostable.compostable/medium_high":"85%% Compost Efficiency",
+    "attribute.name.compostable.compostable/always_add_one":"100%% Compost Efficiency",
 
     "effect.minecraft.wither": "Decay",
     "effect.minecraft.mining_fatigue": "Fatigue",
