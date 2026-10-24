@@ -47,6 +47,7 @@
             "type": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
+                "entity_type":"item",
                 "slots": {
                     "contents":{
                         "items": "#event_rebalance:can_emit_light"

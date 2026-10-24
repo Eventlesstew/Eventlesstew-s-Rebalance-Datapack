@@ -294,6 +294,9 @@
             "event_rebalance:base/wool_stairs",
             "event_rebalance:base/withered_chunks",
             "event_rebalance:base/withered_chunk_block",
+            "event_rebalance:base/chorus_plant",
+            "event_rebalance:base/chorus_flower",
+            "event_rebalance:base/dried_kelp_block",
 
             "event_rebalance:food/potato",
             "event_rebalance:food/baked_potato",

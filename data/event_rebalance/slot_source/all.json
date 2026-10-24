@@ -1,0 +1,30 @@
+{
+  "type": "group",
+  "terms": [
+    {
+      "type": "slot_range",
+      "source": "this",
+      "slots": "armor.*"
+    },
+    {
+      "type": "slot_range",
+      "source": "this",
+      "slots": "inventory.*"
+    },
+    {
+      "type": "slot_range",
+      "source": "this",
+      "slots": "enderchest.*"
+    },
+    {
+      "type": "slot_range",
+      "source": "this",
+      "slots": "contents"
+    },
+    {
+      "type": "slot_range",
+      "source": "this",
+      "slots": "weapon.*"
+    }
+  ]
+}

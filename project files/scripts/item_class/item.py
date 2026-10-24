@@ -69,7 +69,7 @@ class item:
             {"type": "set_components", "components": self.get_components()}
         )
         self.modifier_functions.append(
-            {"type": "set_lore", "mode": "replace_all", "lore": self.get_lore()}
+            {"type": "set_lore", "mode": "append", "lore": self.get_lore()}
         )
 
     def get_lore_base(self, text, extra=[], color="#1aa819"):

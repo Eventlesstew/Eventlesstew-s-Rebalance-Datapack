@@ -19,12 +19,16 @@
                     "cooking_fuel": {
                         "burn_time": 14400,
                         "speed_multiplier": 1
+                    },
+                    "brewing_fuel": {
+                        "uses": 9,
+                        "speed_multiplier": 1
                     }
                 }
             },
             {
                 "type": "set_lore",
-                "mode": "replace_all",
+                "mode": "append",
                 "lore": [
                     {
                         "translate": "72 ",
@@ -33,6 +37,16 @@
                         "extra": [
                             {
                                 "translate": "attribute.name.furnace_fuel"
+                            }
+                        ]
+                    },
+                    {
+                        "translate": "9 ",
+                        "italic": false,
+                        "color": "#AAAAAA",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.brewing_fuel"
                             }
                         ]
                     }

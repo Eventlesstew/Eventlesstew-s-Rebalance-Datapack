@@ -24,7 +24,7 @@
             },
             {
                 "type": "set_lore",
-                "mode": "replace_all",
+                "mode": "append",
                 "lore": [
                     {
                         "translate": "8.5 ",

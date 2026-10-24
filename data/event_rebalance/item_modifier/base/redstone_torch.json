@@ -17,17 +17,17 @@
                 "type": "set_components",
                 "components": {
                     "cooking_fuel": {
-                        "burn_time": 1000,
+                        "burn_time": 200,
                         "speed_multiplier": 1
                     }
                 }
             },
             {
                 "type": "set_lore",
-                "mode": "replace_all",
+                "mode": "append",
                 "lore": [
                     {
-                        "translate": "5 ",
+                        "translate": "1 ",
                         "italic": false,
                         "color": "#AAAAAA",
                         "extra": [
@@ -37,7 +37,7 @@
                         ]
                     },
                     {
-                        "translate": "1.5X ",
+                        "translate": "2X ",
                         "italic": false,
                         "color": "#AAAAAA",
                         "extra": [

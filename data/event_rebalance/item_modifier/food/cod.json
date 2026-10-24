@@ -54,7 +54,7 @@
             },
             {
                 "type": "set_lore",
-                "mode": "replace_all",
+                "mode": "append",
                 "lore": [
                     {
                         "translate": "attribute.name.consumable.food.nutrition.4",

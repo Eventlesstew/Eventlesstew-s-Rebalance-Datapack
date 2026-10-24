@@ -406,10 +406,11 @@
 
     "lava_bucket":{
         "furnace_fuel":100,
-        "brewing_fuel":100
+        "brewing_fuel":40
     },
     "coal_block":{
-        "furnace_fuel":72
+        "furnace_fuel":72,
+        "brewing_fuel":9
     },
     "withered_chunk_block":{
         "item_type":"custom",
@@ -417,7 +418,8 @@
     },
 
     "dried_kelp_block":{
-        "furnace_fuel":20
+        "furnace_fuel":18,
+        "compost_value":"compostable/always_add_one"
     },
 
     "chest_boats":{
@@ -523,8 +525,17 @@
         "furnace_fuel_speed":4
     },
     "redstone_torch":{
-        "furnace_fuel":5,
-        "furnace_fuel_speed":1.5
+        "furnace_fuel":1,
+        "furnace_fuel_speed":2
+    },
+    "torch":{
+        "furnace_fuel":2
+    },
+    "copper_torch":{
+        "furnace_fuel":2
+    },
+    "soul_torch":{
+        "furnace_fuel":1.5
     },
     "redstone":{
         "furnace_fuel":4,
@@ -763,9 +774,15 @@
     "crimson_roots":{
         "compost_value":"compostable/medium"
     },
+    "chorus_plant":{
+        "compost_value":"compostable/medium_high"
+    },
     "flowers":{
         "item_type":"vanilla_tag",
         "compost_value":"compostable/medium"
+    },
+    "chorus_flower":{
+        "compost_value":"compostable/always_add_one"
     },
     "moss_blocks":{
         "item_type":"vanilla_tag",
@@ -1479,7 +1496,8 @@
         "eat_speed":0.5,
         "eat_time":1,
         "eat_sound":"bread",
-        "compost_value":"compostable/low_medium"
+        "compost_value":"compostable/low_medium",
+        "furnace_fuel":2
     },
     "cupcake":{
         "item_class":"food",

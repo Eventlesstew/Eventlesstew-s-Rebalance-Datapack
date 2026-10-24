@@ -19,6 +19,10 @@
                     "compostable": {
                         "layers": "compostable/low_medium"
                     },
+                    "cooking_fuel": {
+                        "burn_time": 400,
+                        "speed_multiplier": 1
+                    },
                     "food": {
                         "nutrition": 4,
                         "saturation": 2,
@@ -39,7 +43,7 @@
             },
             {
                 "type": "set_lore",
-                "mode": "replace_all",
+                "mode": "append",
                 "lore": [
                     {
                         "translate": "attribute.name.consumable.food.nutrition.4",
@@ -65,6 +69,16 @@
                         "translate": "attribute.name.compostable.compostable/low_medium",
                         "italic": false,
                         "color": "#AAAAAA"
+                    },
+                    {
+                        "translate": "2 ",
+                        "italic": false,
+                        "color": "#AAAAAA",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.furnace_fuel"
+                            }
+                        ]
                     }
                 ]
             }

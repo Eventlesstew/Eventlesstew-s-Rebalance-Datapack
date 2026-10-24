@@ -21,14 +21,14 @@
                         "speed_multiplier": 1
                     },
                     "brewing_fuel": {
-                        "uses": 100,
+                        "uses": 40,
                         "speed_multiplier": 1
                     }
                 }
             },
             {
                 "type": "set_lore",
-                "mode": "replace_all",
+                "mode": "append",
                 "lore": [
                     {
                         "translate": "100 ",
@@ -41,7 +41,7 @@
                         ]
                     },
                     {
-                        "translate": "100 ",
+                        "translate": "40 ",
                         "italic": false,
                         "color": "#AAAAAA",
                         "extra": [
