@@ -14,7 +14,7 @@
     ],
     "result": {
         "count": 1,
-        "id": "minecraft:petrified_oak_slab",
+        "id": "minecraft:deepslate_copper_ore",
         "components": {
             "max_stack_size": 64
         }

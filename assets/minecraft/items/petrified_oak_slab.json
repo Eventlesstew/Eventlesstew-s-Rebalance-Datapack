@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "event:block/rose_golden_block"
+    "model": "event:block/petrified_oak_slab"
   }
 }

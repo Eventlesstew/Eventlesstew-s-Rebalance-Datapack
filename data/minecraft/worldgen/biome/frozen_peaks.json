@@ -145,6 +145,7 @@
       "minecraft:ore_iron_upper",
       "minecraft:ore_iron_middle",
       "minecraft:ore_iron_small",
+      "event_rebalance:ore_iron_large",
       "minecraft:ore_gold",
       "minecraft:ore_gold_lower",
       "minecraft:ore_redstone",
@@ -162,7 +163,7 @@
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
       "minecraft:ore_emerald",
-      "event_rebalance:ore_diamond_peaks"
+      "event_rebalance:ore_coal_all"
     ],
     [
       "minecraft:spring_water",

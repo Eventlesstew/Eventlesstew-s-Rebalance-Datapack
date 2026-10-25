@@ -1,7 +1,7 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "#event_rebalance:custom_item/rose_golden_block"
+        "items": "#event_rebalance:custom_item/withered_chunk_block"
     },
     "on_pass": {
         "type": "set_components",

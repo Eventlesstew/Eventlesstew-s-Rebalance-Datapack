@@ -4,7 +4,7 @@
       "model": "minecraft:block/petrified_oak_slab"
     },
     "type=double": {
-      "model": "event:block/rose_golden_block"
+      "model": "event:block/withered_chunk_block"
     },
     "type=top": {
       "model": "minecraft:block/petrified_oak_slab_top"

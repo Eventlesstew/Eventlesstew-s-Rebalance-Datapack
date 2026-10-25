@@ -1,9 +1,9 @@
 {
-  "feature": "minecraft:ore_iron",
+  "feature": "minecraft:ore_redstone",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 15
+      "count": 6
     },
     {
       "type": "minecraft:in_square"
@@ -11,12 +11,12 @@
     {
       "type": "minecraft:height_range",
       "height": {
-        "type": "minecraft:trapezoid",
+        "type": "minecraft:uniform",
         "max_inclusive": {
-          "absolute": 56
+          "absolute": 160
         },
         "min_inclusive": {
-          "absolute": -24
+          "above_bottom": -64
         }
       }
     },

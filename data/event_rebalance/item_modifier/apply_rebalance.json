@@ -364,14 +364,13 @@
             "event_rebalance:food/pumpkin_slice",
             "event_rebalance:food/cooked_pumpkin_slice",
             
-            "event_rebalance:fuel_furnace/withered_chunks",
-            "event_rebalance:fuel_furnace/packed_withered_chunks",
+            "event_rebalance:base/withered_chunks",
+            "event_rebalance:base/withered_chunk_block",
 
             "event_rebalance:custom_item/totem_of_warping",
             "event_rebalance:custom_item/raw_hoglin_hide",
             "event_rebalance:custom_item/hoglin_hide",
             "event_rebalance:custom_item/rose_golden_ingot",
-            "event_rebalance:custom_item/rose_golden_block",
             "event_rebalance:custom_item/rose_golden_nugget",
             
             "event_rebalance:trims/chainmail_upgrade",

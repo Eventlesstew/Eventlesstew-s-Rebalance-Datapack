@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shapeless",
     "category": "misc",
     "ingredients": [
-        "#event_rebalance:custom_item/packed_withered_chunks"
+        "#event_rebalance:custom_item/withered_chunk_block"
     ],
     "result": {
         "count": 9,

@@ -165,6 +165,8 @@
       "minecraft:ore_tuff",
       "minecraft:ore_coal_upper",
       "minecraft:ore_coal_lower",
+      "event_rebalance:ore_coal_lower_extra",
+      "event_rebalance:ore_coal_upper_extra",
       "minecraft:ore_iron_upper",
       "minecraft:ore_iron_middle",
       "minecraft:ore_iron_small",

@@ -6,9 +6,9 @@
         {
           "type": "minecraft:tag",
           "modifier": [
-            "event_rebalance:custom_item/rose_golden_block"
+            "event_rebalance:custom_item/withered_chunk_block"
           ],
-          "items": "#event_rebalance:custom_item/rose_golden_block",
+          "items": "#event_rebalance:custom_item/withered_chunk_block",
           "expand":false
         }
       ],

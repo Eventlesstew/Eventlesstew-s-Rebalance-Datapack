@@ -2,8 +2,8 @@
   "type": "minecraft:smelting",
   "experience": 7,
   "cookingtime": 50,
-  "group": "copper_ingot",
-  "ingredient": "minecraft:deepslate_copper_ore",
+  "group": "removed_items",
+  "ingredient": "minecraft:barrier",
   "result": {
     "id": "minecraft:copper_ingot"
   }

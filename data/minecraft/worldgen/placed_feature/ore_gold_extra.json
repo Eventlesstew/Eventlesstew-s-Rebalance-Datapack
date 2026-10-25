@@ -1,0 +1,31 @@
+{
+  "feature": "minecraft:ore_gold",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 4,
+        "min_inclusive": 2
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:trapezoid",
+        "max_inclusive": {
+          "absolute": -16
+        },
+        "min_inclusive": {
+          "absolute": -112
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
