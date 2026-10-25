@@ -293,6 +293,7 @@
             "event_rebalance:base/wool_slabs",
             "event_rebalance:base/wool_stairs",
             "event_rebalance:base/withered_chunks",
+            "event_rebalance:custom_item/withered_chunk_block",
             "event_rebalance:base/withered_chunk_block",
             "event_rebalance:base/chorus_plant",
             "event_rebalance:base/chorus_flower",
