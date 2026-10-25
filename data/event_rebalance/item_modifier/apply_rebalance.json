@@ -363,9 +363,6 @@
             "event_rebalance:food/beef_pie",
             "event_rebalance:food/pumpkin_slice",
             "event_rebalance:food/cooked_pumpkin_slice",
-            
-            "event_rebalance:base/withered_chunks",
-            "event_rebalance:base/withered_chunk_block",
 
             "event_rebalance:custom_item/totem_of_warping",
             "event_rebalance:custom_item/raw_hoglin_hide",

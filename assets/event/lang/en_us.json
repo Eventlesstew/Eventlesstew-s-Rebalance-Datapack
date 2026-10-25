@@ -49,7 +49,8 @@
     "block.minecraft.gray_shulker_box": "Gray Portal Box",
     "block.minecraft.black_shulker_box": "Black Portal Box",
     
-    "block.minecraft.petrified_oak_slab":"Block of Rose Gold",
+    "block.minecraft.deepslate_copper_ore":"Block of Rose Gold",
+    "block.minecraft.petrified_oak_slab":"Block of Withered Chunks",
 
     "item.event.wooden_dagger": "Wooden Dagger",
     "item.event.wooden_hammer": "Wooden Hammer",

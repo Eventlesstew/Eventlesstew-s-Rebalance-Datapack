@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "event:block/petrified_oak_slab"
+    "model": "event:block/withered_chunk_block"
   }
 }
