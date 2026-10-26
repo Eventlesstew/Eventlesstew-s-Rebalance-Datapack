@@ -5,6 +5,8 @@
         "#event_rebalance:copper_blocks",
         "#event_rebalance:iron_blocks",
         "#event_rebalance:lapis_blocks",
-        "#event_rebalance:quartz_blocks"
+        "#event_rebalance:quartz_blocks",
+        "#event_rebalance:custom_block/withered_remains",
+        "#event_rebalance:custom_block/withered_chunk_block"
     ]
 }
