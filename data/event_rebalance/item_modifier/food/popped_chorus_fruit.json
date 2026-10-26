@@ -16,9 +16,6 @@
             {
                 "type": "set_components",
                 "components": {
-                    "compostable": {
-                        "layers": "compostable/always_add_one"
-                    },
                     "food": {
                         "nutrition": 8,
                         "saturation": 4,
@@ -65,11 +62,6 @@
                         "translate": "attribute.name.consumable.food.teleport_forward",
                         "italic": false,
                         "color": "#5555ff"
-                    },
-                    {
-                        "translate": "attribute.name.compostable.compostable/always_add_one",
-                        "italic": false,
-                        "color": "#AAAAAA"
                     }
                 ]
             }

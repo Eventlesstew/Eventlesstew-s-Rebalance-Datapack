@@ -16,9 +16,6 @@
             {
                 "type": "set_components",
                 "components": {
-                    "compostable": {
-                        "layers": "compostable/medium_high"
-                    },
                     "food": {
                         "nutrition": 4,
                         "saturation": 16,
@@ -65,11 +62,6 @@
                         "translate": "attribute.name.consumable.food.always_edible",
                         "italic": false,
                         "color": "#f78324"
-                    },
-                    {
-                        "translate": "attribute.name.compostable.compostable/medium_high",
-                        "italic": false,
-                        "color": "#AAAAAA"
                     }
                 ]
             }

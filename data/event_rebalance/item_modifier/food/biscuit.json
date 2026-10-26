@@ -18,13 +18,6 @@
             {
                 "type": "set_components",
                 "components": {
-                    "item_model": "event:biscuit",
-                    "item_name": {
-                        "translate": "item.event.biscuit"
-                    },
-                    "compostable": {
-                        "layers": "compostable/low_medium"
-                    },
                     "food": {
                         "nutrition": 6,
                         "saturation": 2,
@@ -58,11 +51,6 @@
                         "translate": "attribute.name.consumable.food.eat_time.2",
                         "italic": false,
                         "color": "#5555ff"
-                    },
-                    {
-                        "translate": "attribute.name.compostable.compostable/low_medium",
-                        "italic": false,
-                        "color": "#AAAAAA"
                     }
                 ]
             }

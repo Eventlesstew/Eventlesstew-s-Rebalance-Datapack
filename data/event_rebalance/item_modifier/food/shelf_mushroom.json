@@ -16,9 +16,6 @@
             {
                 "type": "set_components",
                 "components": {
-                    "compostable": {
-                        "layers": "compostable/medium"
-                    },
                     "food": {
                         "nutrition": 4,
                         "saturation": 4,
@@ -78,11 +75,6 @@
                         "translate": "attribute.name.consumable.food.apply_effect.poison.1.1s",
                         "italic": false,
                         "color": "#ff5555"
-                    },
-                    {
-                        "translate": "attribute.name.compostable.compostable/medium",
-                        "italic": false,
-                        "color": "#AAAAAA"
                     }
                 ]
             }

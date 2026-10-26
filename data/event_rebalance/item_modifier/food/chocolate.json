@@ -1,9 +1,7 @@
 {
     "type": "filtered",
     "item_filter": {
-        "components": {
-            "item_model": "event:chocolate"
-        }
+        "items": "#event_rebalance:custom_item/chocolate"
     },
     "on_pass": {
         "type": "sequence",
@@ -18,13 +16,6 @@
             {
                 "type": "set_components",
                 "components": {
-                    "item_model": "event:chocolate",
-                    "item_name": {
-                        "translate": "item.event.chocolate"
-                    },
-                    "compostable": {
-                        "layers": "compostable/low_medium"
-                    },
                     "food": {
                         "nutrition": 2,
                         "saturation": 4,
@@ -61,11 +52,6 @@
                         "translate": "attribute.name.consumable.food.eat_time.1",
                         "italic": false,
                         "color": "#24f7ed"
-                    },
-                    {
-                        "translate": "attribute.name.compostable.compostable/low_medium",
-                        "italic": false,
-                        "color": "#AAAAAA"
                     }
                 ]
             }

@@ -16,9 +16,6 @@
             {
                 "type": "set_components",
                 "components": {
-                    "compostable": {
-                        "layers": "compostable/low_medium"
-                    },
                     "food": {
                         "nutrition": 1,
                         "saturation": 1,
@@ -105,11 +102,6 @@
                         "translate": "attribute.name.consumable.food.apply_effect.glowing.2.0s",
                         "italic": false,
                         "color": "#5555ff"
-                    },
-                    {
-                        "translate": "attribute.name.compostable.compostable/low_medium",
-                        "italic": false,
-                        "color": "#AAAAAA"
                     }
                 ]
             }

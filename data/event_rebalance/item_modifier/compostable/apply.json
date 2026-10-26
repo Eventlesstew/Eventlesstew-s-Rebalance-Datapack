@@ -1,0 +1,724 @@
+{
+    "type": "sequence",
+    "functions": [
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "dried_kelp_block"
+            },
+            "on_pass": "event_rebalance:compostable/100"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "bush"
+            },
+            "on_pass": "event_rebalance:compostable/30"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "kelp"
+            },
+            "on_pass": "event_rebalance:compostable/30"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "firefly_bush"
+            },
+            "on_pass": "event_rebalance:compostable/30"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "hanging_roots"
+            },
+            "on_pass": "event_rebalance:compostable/30"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "#leaves"
+            },
+            "on_pass": "event_rebalance:compostable/30"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "leaf_litter"
+            },
+            "on_pass": "event_rebalance:compostable/30"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "#saplings"
+            },
+            "on_pass": "event_rebalance:compostable/30"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "dead_bush"
+            },
+            "on_pass": "event_rebalance:compostable/50"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "mangrove_roots"
+            },
+            "on_pass": "event_rebalance:compostable/30"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "melon_seeds"
+            },
+            "on_pass": "event_rebalance:compostable/30"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "moss_carpet"
+            },
+            "on_pass": "event_rebalance:compostable/30"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "pale_moss_carpet"
+            },
+            "on_pass": "event_rebalance:compostable/30"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "pale_hanging_moss"
+            },
+            "on_pass": "event_rebalance:compostable/30"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "pink_petals"
+            },
+            "on_pass": "event_rebalance:compostable/30"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "pumpkin_seeds"
+            },
+            "on_pass": "event_rebalance:compostable/30"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "red_shrub"
+            },
+            "on_pass": "event_rebalance:compostable/30"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "seagrass"
+            },
+            "on_pass": "event_rebalance:compostable/30"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "short_grass"
+            },
+            "on_pass": "event_rebalance:compostable/30"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "fern"
+            },
+            "on_pass": "event_rebalance:compostable/30"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "small_dripleaf"
+            },
+            "on_pass": "event_rebalance:compostable/30"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "wheat_seeds"
+            },
+            "on_pass": "event_rebalance:compostable/30"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "wildflowers"
+            },
+            "on_pass": "event_rebalance:compostable/30"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "cactus"
+            },
+            "on_pass": "event_rebalance:compostable/50"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "flowering_azalea"
+            },
+            "on_pass": "event_rebalance:compostable/50"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "flowering_azalea_leaves"
+            },
+            "on_pass": "event_rebalance:compostable/50"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "glow_lichen"
+            },
+            "on_pass": "event_rebalance:compostable/50"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "nether_sprouts"
+            },
+            "on_pass": "event_rebalance:compostable/50"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "sugar_cane"
+            },
+            "on_pass": "event_rebalance:compostable/50"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "tall_grass"
+            },
+            "on_pass": "event_rebalance:compostable/50"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "twisting_vines"
+            },
+            "on_pass": "event_rebalance:compostable/50"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "vine"
+            },
+            "on_pass": "event_rebalance:compostable/50"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "weeping_vines"
+            },
+            "on_pass": "event_rebalance:compostable/50"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "pitcher_pod"
+            },
+            "on_pass": "event_rebalance:compostable/50"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "short_dry_grass"
+            },
+            "on_pass": "event_rebalance:compostable/50"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "large_fern"
+            },
+            "on_pass": "event_rebalance:compostable/50"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "torchflower_seeds"
+            },
+            "on_pass": "event_rebalance:compostable/50"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "warped_wart_block"
+            },
+            "on_pass": "event_rebalance:compostable/50"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "nether_wart_block"
+            },
+            "on_pass": "event_rebalance:compostable/50"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "big_dripleaf"
+            },
+            "on_pass": "event_rebalance:compostable/65"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "cocoa_beans"
+            },
+            "on_pass": "event_rebalance:compostable/65"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "warped_roots"
+            },
+            "on_pass": "event_rebalance:compostable/65"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "crimson_roots"
+            },
+            "on_pass": "event_rebalance:compostable/65"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "chorus_plant"
+            },
+            "on_pass": "event_rebalance:compostable/85"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "#flowers"
+            },
+            "on_pass": "event_rebalance:compostable/65"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "chorus_flower"
+            },
+            "on_pass": "event_rebalance:compostable/100"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "#moss_blocks"
+            },
+            "on_pass": "event_rebalance:compostable/65"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "shroomlight"
+            },
+            "on_pass": "event_rebalance:compostable/65"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "spore_blossom"
+            },
+            "on_pass": "event_rebalance:compostable/65"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "wheat"
+            },
+            "on_pass": "event_rebalance:compostable/65"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "tall_dry_grass"
+            },
+            "on_pass": "event_rebalance:compostable/85"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "straw_bed"
+            },
+            "on_pass": "event_rebalance:compostable/85"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "red_mushroom_block"
+            },
+            "on_pass": "event_rebalance:compostable/85"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "brown_mushroom_block"
+            },
+            "on_pass": "event_rebalance:compostable/85"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "mushroom_stem"
+            },
+            "on_pass": "event_rebalance:compostable/85"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "lily_pad"
+            },
+            "on_pass": "event_rebalance:compostable/65"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "melon"
+            },
+            "on_pass": "event_rebalance:compostable/85"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "pumpkin"
+            },
+            "on_pass": "event_rebalance:compostable/85"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "carved_pumpkin"
+            },
+            "on_pass": "event_rebalance:compostable/85"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "hay_block"
+            },
+            "on_pass": "event_rebalance:compostable/85"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "pitcher_plant"
+            },
+            "on_pass": "event_rebalance:compostable/85"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "torchflower"
+            },
+            "on_pass": "event_rebalance:compostable/85"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "brown_mushroom"
+            },
+            "on_pass": "event_rebalance:compostable/65"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "red_mushroom"
+            },
+            "on_pass": "event_rebalance:compostable/65"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "shelf_mushroom"
+            },
+            "on_pass": "event_rebalance:compostable/65"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "nether_wart"
+            },
+            "on_pass": "event_rebalance:compostable/50"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "crimson_fungus"
+            },
+            "on_pass": "event_rebalance:compostable/50"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "warped_fungus"
+            },
+            "on_pass": "event_rebalance:compostable/50"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "sea_pickle"
+            },
+            "on_pass": "event_rebalance:compostable/65"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "beetroot_seeds"
+            },
+            "on_pass": "event_rebalance:compostable/65"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "potato"
+            },
+            "on_pass": "event_rebalance:compostable/65"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "baked_potato"
+            },
+            "on_pass": "event_rebalance:compostable/85"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "poisonous_potato"
+            },
+            "on_pass": "event_rebalance:compostable/100"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "carrot"
+            },
+            "on_pass": "event_rebalance:compostable/65"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "components": {
+                    "item_model": "event:pumpkin_slice"
+                }
+            },
+            "on_pass": "event_rebalance:compostable/65"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "components": {
+                    "item_model": "event:cooked_pumpkin_slice"
+                }
+            },
+            "on_pass": "event_rebalance:compostable/85"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "melon_slice"
+            },
+            "on_pass": "event_rebalance:compostable/65"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "sweet_berries"
+            },
+            "on_pass": "event_rebalance:compostable/50"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "glow_berries"
+            },
+            "on_pass": "event_rebalance:compostable/50"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "apple"
+            },
+            "on_pass": "event_rebalance:compostable/65"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "#event_rebalance:custom_item/chocolate"
+            },
+            "on_pass": "event_rebalance:compostable/50"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "components": {
+                    "item_model": "event:biscuit"
+                }
+            },
+            "on_pass": "event_rebalance:compostable/50"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "cookie"
+            },
+            "on_pass": "event_rebalance:compostable/85"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "dried_kelp"
+            },
+            "on_pass": "event_rebalance:compostable/50"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "components": {
+                    "item_model": "event:cupcake"
+                }
+            },
+            "on_pass": "event_rebalance:compostable/50"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "cake"
+            },
+            "on_pass": "event_rebalance:compostable/100"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "bread"
+            },
+            "on_pass": "event_rebalance:compostable/85"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "chorus_fruit"
+            },
+            "on_pass": "event_rebalance:compostable/85"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "popped_chorus_fruit"
+            },
+            "on_pass": "event_rebalance:compostable/100"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "honey_bottle"
+            },
+            "on_pass": "event_rebalance:compostable/65"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "honeycomb"
+            },
+            "on_pass": "event_rebalance:compostable/50"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "mushroom_stew"
+            },
+            "on_pass": "event_rebalance:compostable/85"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "suspicious_stew"
+            },
+            "on_pass": "event_rebalance:compostable/85"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "beetroot_soup"
+            },
+            "on_pass": "event_rebalance:compostable/85"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "components": {
+                    "item_model": "event:fungal_soup"
+                }
+            },
+            "on_pass": "event_rebalance:compostable/100"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "components": {
+                    "item_model": "event:sea_salad"
+                }
+            },
+            "on_pass": "event_rebalance:compostable/100"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "rabbit_stew"
+            },
+            "on_pass": "event_rebalance:compostable/65"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "components": {
+                    "item_model": "event:apple_pie"
+                }
+            },
+            "on_pass": "event_rebalance:compostable/100"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "components": {
+                    "item_model": "event:beef_pie"
+                }
+            },
+            "on_pass": "event_rebalance:compostable/85"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "pumpkin_pie",
+                "components": {
+                    "item_model": "minecraft:pumpkin_pie"
+                }
+            },
+            "on_pass": "event_rebalance:compostable/100"
+        }
+    ]
+}

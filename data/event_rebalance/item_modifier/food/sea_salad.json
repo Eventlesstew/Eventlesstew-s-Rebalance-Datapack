@@ -18,13 +18,6 @@
             {
                 "type": "set_components",
                 "components": {
-                    "item_model": "event:sea_salad",
-                    "item_name": {
-                        "translate": "item.event.sea_salad"
-                    },
-                    "compostable": {
-                        "layers": "compostable/always_add_one"
-                    },
                     "food": {
                         "nutrition": 12,
                         "saturation": 12,
@@ -84,11 +77,6 @@
                         "translate": "attribute.name.consumable.food.eat_speed.0.1",
                         "italic": false,
                         "color": "#7a58f1"
-                    },
-                    {
-                        "translate": "attribute.name.compostable.compostable/always_add_one",
-                        "italic": false,
-                        "color": "#AAAAAA"
                     }
                 ]
             }

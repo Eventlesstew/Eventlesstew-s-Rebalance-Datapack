@@ -18,13 +18,6 @@
             {
                 "type": "set_components",
                 "components": {
-                    "item_model": "event:pumpkin_slice",
-                    "item_name": {
-                        "translate": "item.event.pumpkin_slice"
-                    },
-                    "compostable": {
-                        "layers": "compostable/medium"
-                    },
                     "food": {
                         "nutrition": 5,
                         "saturation": 5,
@@ -79,11 +72,6 @@
                         "translate": "attribute.name.consumable.food.eat_time.4",
                         "italic": false,
                         "color": "#7a58f1"
-                    },
-                    {
-                        "translate": "attribute.name.compostable.compostable/medium",
-                        "italic": false,
-                        "color": "#AAAAAA"
                     }
                 ]
             }

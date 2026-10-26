@@ -1,0 +1,30 @@
+{
+    "type": "sequence",
+    "functions": [
+        {
+            "type": "set_components",
+            "components": {
+                "compostable": {
+                    "layers": "compostable/medium"
+                }
+            }
+        },
+        {
+            "type": "set_lore",
+            "mode": "append",
+            "lore": [
+                {
+                    "text": "0.65",
+                    "extra": [
+                        " ",
+                        {
+                             "translate": "attribute.name.compostable"
+                        }
+                    ],
+                    "italic": false,
+                    "color": "#AAAAAA"
+                }
+            ]
+        }
+    ]
+}

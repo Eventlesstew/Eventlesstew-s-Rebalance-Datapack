@@ -1,7 +1,10 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "pumpkin_pie"
+        "items": "pumpkin_pie",
+        "components": {
+            "item_model": "minecraft:pumpkin_pie"
+        }
     },
     "on_pass": {
         "type": "sequence",
@@ -16,9 +19,6 @@
             {
                 "type": "set_components",
                 "components": {
-                    "compostable": {
-                        "layers": "compostable/always_add_one"
-                    },
                     "food": {
                         "nutrition": 10,
                         "saturation": 10,
@@ -81,11 +81,6 @@
                         "translate": "attribute.name.consumable.food.cure_effect.mining_fatigue",
                         "italic": false,
                         "color": "#5555ff"
-                    },
-                    {
-                        "translate": "attribute.name.compostable.compostable/always_add_one",
-                        "italic": false,
-                        "color": "#AAAAAA"
                     }
                 ]
             }

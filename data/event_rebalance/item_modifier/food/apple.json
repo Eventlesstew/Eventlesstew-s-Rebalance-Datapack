@@ -16,9 +16,6 @@
             {
                 "type": "set_components",
                 "components": {
-                    "compostable": {
-                        "layers": "compostable/medium"
-                    },
                     "food": {
                         "nutrition": 4,
                         "saturation": 4,
@@ -89,11 +86,6 @@
                         "translate": "attribute.name.consumable.food.cure_effect.hunger",
                         "italic": false,
                         "color": "#5555ff"
-                    },
-                    {
-                        "translate": "attribute.name.compostable.compostable/medium",
-                        "italic": false,
-                        "color": "#AAAAAA"
                     }
                 ]
             }

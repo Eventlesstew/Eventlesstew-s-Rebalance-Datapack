@@ -18,13 +18,6 @@
             {
                 "type": "set_components",
                 "components": {
-                    "item_model": "event:apple_pie",
-                    "item_name": {
-                        "translate": "item.event.apple_pie"
-                    },
-                    "compostable": {
-                        "layers": "compostable/always_add_one"
-                    },
                     "food": {
                         "nutrition": 10,
                         "saturation": 10,
@@ -87,11 +80,6 @@
                         "translate": "attribute.name.consumable.food.cure_effect.hunger",
                         "italic": false,
                         "color": "#5555ff"
-                    },
-                    {
-                        "translate": "attribute.name.compostable.compostable/always_add_one",
-                        "italic": false,
-                        "color": "#AAAAAA"
                     }
                 ]
             }

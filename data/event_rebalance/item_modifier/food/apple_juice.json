@@ -18,10 +18,6 @@
             {
                 "type": "set_components",
                 "components": {
-                    "item_model": "event:apple_juice",
-                    "item_name": {
-                        "translate": "item.event.apple_juice"
-                    },
                     "food": {
                         "nutrition": 0,
                         "saturation": 0,

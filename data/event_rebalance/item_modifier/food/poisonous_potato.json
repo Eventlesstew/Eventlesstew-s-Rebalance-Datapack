@@ -16,9 +16,6 @@
             {
                 "type": "set_components",
                 "components": {
-                    "compostable": {
-                        "layers": "compostable/always_add_one"
-                    },
                     "food": {
                         "nutrition": 0,
                         "saturation": 2,
@@ -69,11 +66,6 @@
                         "translate": "attribute.name.consumable.food.apply_effect.poison.1.0s",
                         "italic": false,
                         "color": "#ff5555"
-                    },
-                    {
-                        "translate": "attribute.name.compostable.compostable/always_add_one",
-                        "italic": false,
-                        "color": "#AAAAAA"
                     }
                 ]
             }

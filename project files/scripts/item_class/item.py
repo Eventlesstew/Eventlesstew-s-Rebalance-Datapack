@@ -52,18 +52,8 @@ class item:
         self.initialise_modifier()
 
     def initialise_modifier(self):
-        item_type = get_item_value(self.item_id, "item_type")
 
-        if item_type == "custom":
-            self.modifier["item_filter"] = {
-                "components": {"item_model": "event:" + self.item_id}
-            }
-        elif item_type == "vanilla_tag":
-            self.modifier["item_filter"] = {"items": "#" + self.item_id}
-        elif item_type == "custom_tag":
-            self.modifier["item_filter"] = {"items": "#event_rebalance:" + self.item_id}
-        else:
-            self.modifier["item_filter"] = {"items": self.item_id}
+        self.modifier["item_filter"] = self.get_item_filter()
 
         self.modifier_functions.append(
             {"type": "set_components", "components": self.get_components()}
@@ -72,6 +62,27 @@ class item:
             {"type": "set_lore", "mode": "append", "lore": self.get_lore()}
         )
 
+    def get_item_filter(self):
+        result = {}
+        item_type = get_item_value(self.item_id, "item_type")
+        
+        if item_type == "custom_item_model":
+            result = {
+                "components": {"item_model": "event:" + self.item_id}
+            }
+        elif item_type == "custom_item_tag":
+            result = {"items": "#event_rebalance:custom_item/" + self.item_id}
+        elif item_type == "vanilla_tag":
+            result = {"items": "#" + self.item_id}
+        elif item_type == "custom_tag":
+            result = {"items": "#event_rebalance:" + self.item_id}
+        else:
+            result = {"items": self.item_id}
+            if item_type == "vanilla_model_sensitive":
+                result["components"] = {"item_model": "minecraft:" + self.item_id}
+
+        return result
+    
     def get_lore_base(self, text, extra=[], color="#1aa819"):
         lore = {
             "translate": text,
@@ -105,10 +116,12 @@ class item:
             components["item_model"] = "event:" + self.item_id
             components["item_name"] = {"translate": "item.event." + self.item_id}
 
+        return components
+    
         compost_value = get_item_value(self.item_id, "compost_value")
         if compost_value:
             components["compostable"] = {"layers": compost_value}
-
+        
         furnace_fuel = get_item_value(self.item_id, "furnace_fuel")
         if furnace_fuel:
             furnace_fuel_speed = get_item_value(self.item_id, "furnace_fuel_speed")
@@ -134,6 +147,8 @@ class item:
 
     def get_lore(self):
         lore = []
+
+        return lore
         compost_value = get_item_value(self.item_id, "compost_value")
         if compost_value and compost_value != 0:
             lore.append(
@@ -180,6 +195,36 @@ class item:
                     )
                 )
         return lore
+
+    def get_compost_value(self):
+        return get_item_value(self.item_id, "compost_value")
+
+    def _get_fuel(self, value):
+        result = {}
+        fuel = get_item_value(self.item_id, value)
+
+        if fuel:
+            result["fuel"] = fuel
+            fuel_speed = get_item_value(self.item_id, value+"_speed")
+
+            if fuel_speed:
+                result["fuel_speed"] = fuel_speed
+
+        return result
+
+    def get_furnace_fuel(self):
+        return self._get_fuel("furnace_fuel")
+
+    def get_brewing_fuel(self):
+        return self._get_fuel("brewing_fuel")
+    def has_changes(self):
+
+        if len(self.get_components()) == 0:
+            return False
+
+        if len(self.get_lore()) == 0:
+            return False
+        return True
 
     def save(self):
         folder_path = self._PATH + get_item_value(self.item_id, "item_class") + "/"
