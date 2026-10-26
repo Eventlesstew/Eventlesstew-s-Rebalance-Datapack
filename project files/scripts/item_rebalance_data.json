@@ -409,8 +409,7 @@
         "brewing_fuel":40
     },
     "coal_block":{
-        "furnace_fuel":72,
-        "brewing_fuel":9
+        "furnace_fuel":72
     },
     "withered_chunk_block":{
         "item_type":"custom_item_tag",
@@ -522,10 +521,10 @@
 
     "redstone_block":{
         "furnace_fuel":36,
-        "furnace_fuel_speed":4
+        "furnace_fuel_speed":2
     },
     "redstone_torch":{
-        "furnace_fuel":1,
+        "furnace_fuel":1.25,
         "furnace_fuel_speed":2
     },
     "torch":{
@@ -539,7 +538,9 @@
     },
     "redstone":{
         "furnace_fuel":4,
-        "furnace_fuel_speed":2
+        "furnace_fuel_speed":2,
+        "brewing_fuel":1,
+        "brewing_fuel_speed":2
     },
 
     "ladder":{
@@ -625,11 +626,7 @@
         "furnace_fuel":0.5
     },
     "glowstone_dust":{
-        "brewing_fuel":3,
-        "brewing_fuel_speed":1.5
-    },
-    "glowstone":{
-        "brewing_fuel":10,
+        "brewing_fuel":5,
         "brewing_fuel_speed":2
     },
     "breeze_powder":{

@@ -1,0 +1,42 @@
+{
+    "type": "sequence",
+    "functions": [
+        {
+            "type": "set_components",
+            "components": {
+                "cooking_fuel": {
+                    "burn_time": 7200,
+                    "speed_multiplier": 4
+                }
+            }
+        },
+        {
+            "type": "set_lore",
+            "mode": "append",
+            "lore": [
+                {
+                    "text": "36",
+                    "extra": [
+                        " ",
+                        {
+                            "translate": "attribute.name.furnace_fuel"
+                        }
+                    ],
+                    "italic": false,
+                    "color": "#AAAAAA"
+                },
+                {
+                    "text": "4",
+                    "extra": [
+                        " ",
+                        {
+                            "translate": "attribute.name.furnace_fuel_speed"
+                        }
+                    ],
+                    "italic": false,
+                    "color": "#AAAAAA"
+                }
+            ]
+        }
+    ]
+}

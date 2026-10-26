@@ -432,11 +432,7 @@
     "attribute.name.furnace_fuel_speed":"Cooking Speed",
     "attribute.name.brewing_fuel":"Brewing Fuel",
     "attribute.name.brewing_speed":"Brewing Speed",
-    "attribute.name.compostable.compostable/low":"0.3 Compost",
-    "attribute.name.compostable.compostable/low_medium":"0.5 Compost",
-    "attribute.name.compostable.compostable/medium":"0.65 Compost",
-    "attribute.name.compostable.compostable/medium_high":"0.85 Compost",
-    "attribute.name.compostable.compostable/always_add_one":"1 Compost",
+    "attribute.name.compostable":"Compost",
 
     "effect.minecraft.wither": "Decay",
     "effect.minecraft.mining_fatigue": "Fatigue",

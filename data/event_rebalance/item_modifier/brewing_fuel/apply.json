@@ -1,0 +1,54 @@
+{
+    "type": "sequence",
+    "functions": [
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "lava_bucket"
+            },
+            "on_pass": "event_rebalance:brewing_fuel/40"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "coal"
+            },
+            "on_pass": "event_rebalance:brewing_fuel/1"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "blaze_powder"
+            },
+            "on_pass": "event_rebalance:brewing_fuel/20"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "#event_rebalance:custom_item/withered_chunks"
+            },
+            "on_pass": "event_rebalance:brewing_fuel/2"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "redstone"
+            },
+            "on_pass": "event_rebalance:brewing_fuel/1x2"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "glowstone_dust"
+            },
+            "on_pass": "event_rebalance:brewing_fuel/5x2"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "#event_rebalance:custom_item/breeze_powder"
+            },
+            "on_pass": "event_rebalance:brewing_fuel/10x2"
+        }
+    ]
+}

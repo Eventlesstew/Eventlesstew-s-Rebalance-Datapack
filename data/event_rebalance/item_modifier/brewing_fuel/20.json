@@ -1,0 +1,31 @@
+{
+    "type": "sequence",
+    "functions": [
+        {
+            "type": "set_components",
+            "components": {
+                "brewing_fuel": {
+                    "uses": 20,
+                    "speed_multiplier": 1
+                }
+            }
+        },
+        {
+            "type": "set_lore",
+            "mode": "append",
+            "lore": [
+                {
+                    "text": "20",
+                    "extra": [
+                        " ",
+                        {
+                            "translate": "attribute.name.brewing_fuel"
+                        }
+                    ],
+                    "italic": false,
+                    "color": "#AAAAAA"
+                }
+            ]
+        }
+    ]
+}

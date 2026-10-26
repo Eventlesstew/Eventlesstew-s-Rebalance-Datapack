@@ -1,0 +1,474 @@
+{
+    "type": "sequence",
+    "functions": [
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "lava_bucket"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/100"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "coal_block"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/72"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "#event_rebalance:custom_item/withered_chunk_block"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/100"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "dried_kelp_block"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/18"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "#chest_boats"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/13"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "lectern"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/12.5"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "blaze_rod"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/12"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "note_block"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/12"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "trapped_chest"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/8.75"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "chiseled_bookshelf"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/8.5"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "bookshelf"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/8.5"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "chest"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/8"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "coal"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/8"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "#wooden_pressure_plates"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/6"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "#event_rebalance:wooden_shelves"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/6"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "blaze_powder"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/6"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "#event_rebalance:custom_item/withered_chunks"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/6"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "jukebox"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/8"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "composter"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/7"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "barrel"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/7"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "#wooden_buttons"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/5"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "#boats"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/5"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "painting"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/5"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "cartography_table"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/5"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "#signs"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/4.5"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "#hanging_signs"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/4"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "#logs_that_burn"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/4"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "crafting_table"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/4"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "item_frame"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/4"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "smithing_table"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/4"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "fletching_table"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/4"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "redstone_block"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/36x2"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "redstone_torch"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/1.25x2"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "torch"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/2"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "copper_torch"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/2"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "soul_torch"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/1.5"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "redstone"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/4x2"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "ladder"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/3"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "#wooden_doors"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/3"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "#wooden_trapdoors"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/3"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "scaffolding"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/3"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "fire_charge"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/3"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "loom"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/2.5"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "#banners"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/2.5"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "#fence_gates"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/2"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "daylight_detector"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/1.5"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "#planks"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/1"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "#wooden_stairs"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/1"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "#wooden_slabs"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/0.5"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "#wool"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/1"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "#wool_stairs"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/1"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "#wool_carpets"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/0.3"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "#cushions"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/1"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "#wool_slabs"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/0.5"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "#wooden_fences"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/1"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "bowl"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/1"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "tripwire_hook"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/0.75"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "stick"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/0.5"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "bamboo"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/0.5"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "paper"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/0.5"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "leaf_litter"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/0.5"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "#saplings"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/1"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "dead_bush"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/2"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "mangrove_roots"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/1"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "short_dry_grass"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/1"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "tall_dry_grass"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/2"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "dried_kelp"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/2"
+        }
+    ]
+}
