@@ -253,7 +253,11 @@
             "event_rebalance:custom_item/magnet_apply",
             "event_rebalance:music_disc/11_fragment",
             "event_rebalance:music_disc/13_fragment",
-            "event_rebalance:music_disc/apply"
+            "event_rebalance:music_disc/apply",
+            
+            "event_rebalance:furnace_fuel/apply",
+            "event_rebalance:brewing_fuel/apply",
+            "event_rebalance:compostable/apply"
         ]
     }
 }
