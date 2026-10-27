@@ -100,15 +100,6 @@
           "weight": 1
         },
         {
-          "type": "minecraft:tag",
-          "items": "#event_rebalance:custom_item/crystal_heart",
-          "modifier": [
-            "event_rebalance:custom_item/crystal_heart_apply"
-          ],
-          "expand": false,
-          "weight": 5
-        },
-        {
           "type": "minecraft:item",
           "name": "minecraft:golden_sword",
           "modifier": [

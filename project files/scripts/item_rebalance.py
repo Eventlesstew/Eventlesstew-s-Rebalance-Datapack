@@ -11,10 +11,11 @@ compost_path = "data/event_rebalance/item_modifier/compostable"
 furnace_fuel_path = "data/event_rebalance/item_modifier/furnace_fuel"
 brewing_fuel_path = "data/event_rebalance/item_modifier/brewing_fuel"
 
+
 def add_food_item(item_key: str):
     if item_key == "default":
-        return 
-    
+        return
+
     item_class = "default"
     if "item_class" in data_file[item_key]:
         item_class = data_file[item_key]["item_class"]
@@ -29,7 +30,6 @@ def add_food_item(item_key: str):
     else:
         item_object = item(item_key)
 
-
     if item_object:
         if item_object.has_changes():
             item_object.save()
@@ -38,11 +38,12 @@ def add_food_item(item_key: str):
 
 
 item_keys = data_file.keys()
-compost_values = []
-furnace_fuel_values = []
-brewing_fuel_values = []
+compost_values = ["event_rebalance:modified"]
+furnace_fuel_values = ["event_rebalance:modified"]
+brewing_fuel_values = ["event_rebalance:modified"]
 
-def create_fuel_data(fuel_type:str):
+
+def create_fuel_data(fuel_type: str):
     fuel = {}
     if fuel_type == "furnace":
         fuel = item_object.get_furnace_fuel()
@@ -60,14 +61,18 @@ def create_fuel_data(fuel_type:str):
         fuel_speed = fuel["fuel_speed"]
         fuel_modifier_path += "x" + str(fuel_speed)
 
-    with open("data/event_rebalance/item_modifier/" + fuel_type + "_fuel/" + fuel_modifier_path + ".json", "w") as file:
+    with open(
+        "data/event_rebalance/item_modifier/"
+        + fuel_type
+        + "_fuel/"
+        + fuel_modifier_path
+        + ".json",
+        "w",
+    ) as file:
         data = {
             "type": "sequence",
             "functions": [
-                {
-                    "type": "set_components",
-                    "components": {}
-                },
+                {"type": "set_components", "components": {}},
                 {
                     "type": "set_lore",
                     "mode": "append",
@@ -76,47 +81,45 @@ def create_fuel_data(fuel_type:str):
                             "text": str(fuel_value),
                             "extra": [
                                 " ",
-                                {
-                                    "translate": "attribute.name."+fuel_type+"_fuel"
-                                }
+                                {"translate": "attribute.name." + fuel_type + "_fuel"},
                             ],
                             "italic": False,
-                            "color": "#AAAAAA"
+                            "color": "#AAAAAA",
                         }
-                    ]
-                }
-            ]
+                    ],
+                },
+            ],
         }
 
         if fuel_type == "furnace":
             data["functions"][0]["components"]["cooking_fuel"] = {
                 "burn_time": int(fuel_value * 200),
-                "speed_multiplier":fuel_speed
+                "speed_multiplier": fuel_speed,
             }
         elif fuel_type == "brewing":
             data["functions"][0]["components"]["brewing_fuel"] = {
                 "uses": fuel_value,
-                "speed_multiplier":fuel_speed
+                "speed_multiplier": fuel_speed,
             }
-        
+
         if fuel_speed > 1:
-            data["functions"][1]["lore"].append({
-                "text": str(fuel_speed),
-                "extra": [
-                    " ",
-                    {
-                        "translate": "attribute.name."+fuel_type+"_fuel_speed"
-                    }
-                ],
-                "italic": False,
-                "color": "#AAAAAA"
-            })
+            data["functions"][1]["lore"].append(
+                {
+                    "text": str(fuel_speed),
+                    "extra": [
+                        " ",
+                        {"translate": "attribute.name." + fuel_type + "_fuel_speed"},
+                    ],
+                    "italic": False,
+                    "color": "#AAAAAA",
+                }
+            )
+
+        file.write(json.dumps(data, indent=4))
+
+    return "event_rebalance:" + fuel_type + "_fuel/" + fuel_modifier_path
 
 
-        file.write(json.dumps(data,indent=4))
-
-    return "event_rebalance:"+fuel_type+"_fuel/" + fuel_modifier_path
-    
 for item_key in item_keys:
     item_object = add_food_item(item_key)
 
@@ -126,51 +129,49 @@ for item_key in item_keys:
             compost = item_object.get_compost_value()
 
             if compost:
-                compost_values.append({
-                    "type": "filtered",
-                    "item_filter": item_filter,
-                    "on_pass": "event_rebalance:compostable/" + str(int(compost * 100))
-                })
+                compost_values.append(
+                    {
+                        "type": "filtered",
+                        "item_filter": item_filter,
+                        "on_pass": "event_rebalance:compostable/"
+                        + str(int(compost * 100)),
+                    }
+                )
 
         if create_furnace_fuel:
             item_furnace_fuel_path = create_fuel_data("furnace")
             if item_furnace_fuel_path:
-                furnace_fuel_values.append({
-                    "type": "filtered",
-                    "item_filter": item_filter,
-                    "on_pass": item_furnace_fuel_path
-                })
+                furnace_fuel_values.append(
+                    {
+                        "type": "filtered",
+                        "item_filter": item_filter,
+                        "on_pass": item_furnace_fuel_path,
+                    }
+                )
 
         if create_brewing_fuel:
             item_brewing_fuel_path = create_fuel_data("brewing")
             if item_brewing_fuel_path:
-                brewing_fuel_values.append({
-                    "type": "filtered",
-                    "item_filter": item_filter,
-                    "on_pass": item_brewing_fuel_path
-                })
-        
+                brewing_fuel_values.append(
+                    {
+                        "type": "filtered",
+                        "item_filter": item_filter,
+                        "on_pass": item_brewing_fuel_path,
+                    }
+                )
+
 
 if create_compost:
-    compost_file = {
-        "type":"sequence",
-        "functions":compost_values
-    }
-    with open(compost_path+"/apply.json", "w") as file:
-        file.write(json.dumps(compost_file,indent=4))
+    compost_file = {"type": "sequence", "functions": compost_values}
+    with open(compost_path + "/apply.json", "w") as file:
+        file.write(json.dumps(compost_file, indent=4))
 
 if create_furnace_fuel:
-    furnace_fuel_file = {
-        "type":"sequence",
-        "functions":furnace_fuel_values
-    }
-    with open(furnace_fuel_path+"/apply.json", "w") as file:
-        file.write(json.dumps(furnace_fuel_file,indent=4))
+    furnace_fuel_file = {"type": "sequence", "functions": furnace_fuel_values}
+    with open(furnace_fuel_path + "/apply.json", "w") as file:
+        file.write(json.dumps(furnace_fuel_file, indent=4))
 
 if create_brewing_fuel:
-    brewing_fuel_file = {
-        "type":"sequence",
-        "functions":brewing_fuel_values
-    }
-    with open(brewing_fuel_path+"/apply.json", "w") as file:
-        file.write(json.dumps(brewing_fuel_file,indent=4))
+    brewing_fuel_file = {"type": "sequence", "functions": brewing_fuel_values}
+    with open(brewing_fuel_path + "/apply.json", "w") as file:
+        file.write(json.dumps(brewing_fuel_file, indent=4))

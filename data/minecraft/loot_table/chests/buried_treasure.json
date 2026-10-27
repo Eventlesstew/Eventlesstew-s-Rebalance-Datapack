@@ -5,17 +5,6 @@
       "entries": [
         {
           "type": "minecraft:tag",
-          "items": "#event_rebalance:custom_item/crystal_heart",
-          "expand": false,
-          "modifier": "event_rebalance:custom_item/crystal_heart_apply"
-        }
-      ],
-      "rolls": 1
-    },
-    {
-      "entries": [
-        {
-          "type": "minecraft:tag",
           "items": "#event_rebalance:custom_item/scroll/respiration",
           "expand": false,
           "modifier": "event_rebalance:custom_item/scroll"

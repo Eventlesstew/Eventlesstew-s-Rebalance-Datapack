@@ -313,15 +313,6 @@
           "weight": 10
         },
         {
-          "type": "minecraft:tag",
-          "items": "#event_rebalance:custom_item/crystal_heart",
-          "modifier": [
-            "event_rebalance:custom_item/crystal_heart_apply"
-          ],
-          "expand": false,
-          "weight": 2
-        },
-        {
           "type": "minecraft:item",
           "name": "minecraft:spire_armor_trim_smithing_template",
           "modifier": [
@@ -330,7 +321,7 @@
               "count": 2
             }
           ],
-          "weight": 3
+          "weight": 5
         }
       ],
       "rolls": 1

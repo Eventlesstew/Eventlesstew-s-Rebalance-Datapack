@@ -3,7 +3,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "structure_rework:pillager_outpost/basement/chamber",
+        "location": "structure_rework:pillager_outpost/basement/chamber_villager",
         "processors": {
           "processors": []
         },

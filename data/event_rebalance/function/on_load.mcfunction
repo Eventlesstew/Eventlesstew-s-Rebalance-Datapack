@@ -15,35 +15,6 @@ scoreboard objectives add on_a_rail.start.y dummy
 scoreboard objectives add on_a_rail.start.z dummy
 scoreboard objectives add on_a_rail.start.dist dummy
 
-# Add values if they don't exist
-scoreboard players add armor_stand_eye_height static 0
-scoreboard players add -1575 static 0
-scoreboard players add -1125 static 0
-scoreboard players add -675 static 0
-scoreboard players add -225 static 0
-scoreboard players add 0 static 0
-scoreboard players add 1 static 0
-scoreboard players add 2 static 0
-scoreboard players add 3 static 0
-scoreboard players add 4 static 0
-scoreboard players add 5 static 0
-scoreboard players add 6 static 0
-scoreboard players add 7 static 0
-scoreboard players add 8 static 0
-scoreboard players add 9 static 0
-scoreboard players add 10 static 0
-scoreboard players add 20 static 0
-scoreboard players add 225 static 0
-scoreboard players add 500 static 0
-scoreboard players add 675 static 0
-scoreboard players add 1000 static 0
-scoreboard players add 1125 static 0
-scoreboard players add 1575 static 0
-scoreboard players add 6000 static 0
-scoreboard players add 180_arrow static 0
-scoreboard players add max_extra_hearts static 0
-execute as @a run scoreboard players add @s extra_hearts 0
-
 # Set values
 scoreboard players set armor_stand_eye_height static 15415
 scoreboard players set -1575 static -1575
@@ -62,6 +33,8 @@ scoreboard players set 8 static 8
 scoreboard players set 9 static 9
 scoreboard players set 10 static 10
 scoreboard players set 20 static 20
+scoreboard players set 60 static 60
+scoreboard players set 64 static 64
 scoreboard players set 225 static 225
 scoreboard players set 500 static 500
 scoreboard players set 675 static 675
@@ -76,7 +49,6 @@ gamerule spawn_phantoms false
 gamerule keep_inventory true
 gamerule max_minecart_speed 1000
 
-execute as @a run function event_rebalance:items/crystal_heart/update
 function event_rebalance:enchantments/common/restart_all
 
 bossbar add event_rebalance:illusioner {translate:entity.minecraft.illusioner}

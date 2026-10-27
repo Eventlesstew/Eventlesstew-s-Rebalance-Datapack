@@ -25,7 +25,7 @@
     {
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "location": "minecraft:pillager_outpost/feature_cage_with_allays",
+        "location": "structure_rework:pillager_outpost/feature_cage_villager",
         "processors": {
           "processors": []
         },

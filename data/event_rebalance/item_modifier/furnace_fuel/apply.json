@@ -1,6 +1,7 @@
 {
     "type": "sequence",
     "functions": [
+        "event_rebalance:modified",
         {
             "type": "filtered",
             "item_filter": {

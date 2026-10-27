@@ -68,24 +68,6 @@
         }
       ],
       "rolls": 1
-    },
-    {
-      "entries": [
-        {
-          "type": "minecraft:tag",
-          "items": "#event_rebalance:custom_item/crystal_heart",
-          "modifier": [
-            "event_rebalance:custom_item/crystal_heart_apply"
-          ],
-          "expand": false,
-          "weight": 2
-        }
-      ],
-      "rolls": {
-        "type": "uniform",
-        "max": 1,
-        "min": 0
-      }
     }
   ],
   "random_sequence": "minecraft:chests/stronghold_library"

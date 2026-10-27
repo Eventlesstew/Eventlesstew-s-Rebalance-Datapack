@@ -5,8 +5,13 @@
       "entries": [
         {
           "type": "tag",
-          "items": "music_disc_13",
-          "modifier": "event_rebalance:custom_item/crystal_heart"
+          "items": "diamond",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 3
+            }
+          ]
         }
       ],
       "rolls": 1

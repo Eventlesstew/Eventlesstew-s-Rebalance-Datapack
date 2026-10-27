@@ -431,7 +431,7 @@
     "attribute.name.furnace_fuel":"Cooking Fuel",
     "attribute.name.furnace_fuel_speed":"Cooking Speed",
     "attribute.name.brewing_fuel":"Brewing Fuel",
-    "attribute.name.brewing_speed":"Brewing Speed",
+    "attribute.name.brewing_fuel_speed":"Brewing Speed",
     "attribute.name.compostable":"Compost",
 
     "effect.minecraft.wither": "Decay",

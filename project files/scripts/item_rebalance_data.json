@@ -1207,7 +1207,7 @@
     },
     "cooked_tropical_fish":{
         "item_class":"food",
-        "item_type":"custom_item_tag",
+        "item_type":"custom_item_model",
         "food":8,
         "saturation":2,
         "eat_speed":0.5,

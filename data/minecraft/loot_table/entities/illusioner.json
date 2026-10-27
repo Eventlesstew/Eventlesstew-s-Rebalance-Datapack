@@ -1,22 +1,6 @@
 {
   "type": "minecraft:entity",
   "pools": [
-    {
-      "condition": {
-        "type": "minecraft:killed_by_player"
-      },
-      "entries": [
-        {
-          "type": "minecraft:tag",
-          "items": "#event_rebalance:custom_item/crystal_heart",
-          "expand": false,
-          "modifier": [
-            "event_rebalance:custom_item/crystal_heart_apply"
-          ]
-        }
-      ],
-      "rolls": 1
-    }
   ],
   "random_sequence": "minecraft:entities/illusioner"
 }
