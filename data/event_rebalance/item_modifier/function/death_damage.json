@@ -1,0 +1,13 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "predicates": {
+            "max_damage": {}
+        }
+    },
+    "on_pass": {
+        "type": "minecraft:set_damage",
+        "damage": -0.1,
+        "add": true
+    }
+}

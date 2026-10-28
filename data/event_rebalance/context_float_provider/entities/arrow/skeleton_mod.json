@@ -1,0 +1,12 @@
+{
+    "type": "mul",
+    "inputs": [
+        {
+            "type": "storage",
+            "storage": "temp",
+            "path": "arrow_damage",
+            "fallback": 2
+        },
+        0.9
+    ]
+}

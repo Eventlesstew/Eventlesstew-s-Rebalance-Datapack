@@ -1,0 +1,8 @@
+{
+    "type":"match_tool",
+    "predicate": {
+        "predicates": {
+            "max_damage":{}
+        }
+    }
+}

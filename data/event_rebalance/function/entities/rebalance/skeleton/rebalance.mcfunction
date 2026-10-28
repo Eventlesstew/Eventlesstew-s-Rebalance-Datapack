@@ -1,0 +1,1 @@
+attribute @s max_health modifier add balance -0.5 add_multiplied_base
