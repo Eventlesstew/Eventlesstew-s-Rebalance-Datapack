@@ -1,0 +1,89 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "pumpkin_pie",
+        "components": {
+            "item_model": "minecraft:pumpkin_pie"
+        }
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "set_components",
+                "components": {
+                    "food": {
+                        "nutrition": 10,
+                        "saturation": 10,
+                        "can_always_eat": false
+                    },
+                    "consumable": {
+                        "consume_seconds": 3,
+                        "on_consume_effects": [
+                            {
+                                "type": "remove_effects",
+                                "effects": [
+                                    "mining_fatigue"
+                                ]
+                            },
+                            {
+                                "type": "apply_effects",
+                                "effects": [
+                                    {
+                                        "id": "regeneration",
+                                        "amplifier": 3,
+                                        "duration": 60,
+                                        "show_icon": false,
+                                        "show_particles": false
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "use_effects": {
+                        "speed_multiplier": 0.2,
+                        "can_sprint": false
+                    }
+                }
+            },
+            {
+                "type": "set_lore",
+                "mode": "append",
+                "lore": [
+                    {
+                        "translate": "attribute.name.consumable.food.nutrition.10",
+                        "italic": false,
+                        "color": "#f5ce0c"
+                    },
+                    {
+                        "translate": "attribute.name.consumable.food.saturation.10",
+                        "italic": false,
+                        "color": "#f5ce0c"
+                    },
+                    {
+                        "translate": "attribute.name.consumable.food.health.10",
+                        "italic": false,
+                        "color": "#f545ac"
+                    },
+                    {
+                        "translate": "attribute.name.consumable.food.eat_time.3",
+                        "italic": false,
+                        "color": "#7a58f1"
+                    },
+                    {
+                        "translate": "attribute.name.consumable.food.cure_effect.mining_fatigue",
+                        "italic": false,
+                        "color": "#5555ff"
+                    }
+                ]
+            }
+        ]
+    }
+}

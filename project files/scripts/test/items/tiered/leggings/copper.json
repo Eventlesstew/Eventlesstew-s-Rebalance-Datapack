@@ -1,0 +1,81 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "copper_leggings"
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "set_attributes",
+                "modifiers": [
+                    {
+                        "slot": "legs",
+                        "id": "balance_legs",
+                        "attribute": "armor",
+                        "amount": 4,
+                        "operation": "add_value"
+                    },
+                    {
+                        "slot": "legs",
+                        "id": "balance_legs",
+                        "attribute": "movement_speed",
+                        "amount": 0.04,
+                        "operation": "add_multiplied_base"
+                    },
+                    {
+                        "slot": "legs",
+                        "id": "balance_legs",
+                        "attribute": "air_drag_modifier",
+                        "amount": -0.04,
+                        "operation": "add_multiplied_base"
+                    }
+                ]
+            },
+            {
+                "type": "set_components",
+                "components": {
+                    "max_damage": 192,
+                    "damage": 0,
+                    "max_stack_size": 1,
+                    "repairable": {
+                        "items": "#event_rebalance:tool_repair/copper"
+                    }
+                }
+            },
+            {
+                "type": "set_lore",
+                "mode": "append",
+                "lore": [
+                    {
+                        "translate": 4,
+                        "italic": false,
+                        "color": "#1aa819",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.armor"
+                            }
+                        ]
+                    },
+                    {
+                        "translate": "4%",
+                        "italic": false,
+                        "color": "#1aa819",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.movement_speed"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

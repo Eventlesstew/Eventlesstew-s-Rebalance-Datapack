@@ -1,0 +1,74 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "iron_axe"
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "set_attributes",
+                "modifiers": [
+                    {
+                        "slot": "mainhand",
+                        "id": "balance",
+                        "attribute": "attack_damage",
+                        "amount": 11,
+                        "operation": "add_value"
+                    },
+                    {
+                        "slot": "mainhand",
+                        "id": "balance",
+                        "attribute": "attack_speed",
+                        "amount": -3,
+                        "operation": "add_value"
+                    }
+                ]
+            },
+            {
+                "type": "set_components",
+                "components": {
+                    "max_damage": 512,
+                    "damage": 0,
+                    "max_stack_size": 1,
+                    "repairable": {
+                        "items": "#event_rebalance:tool_repair/iron"
+                    }
+                }
+            },
+            {
+                "type": "set_lore",
+                "mode": "append",
+                "lore": [
+                    {
+                        "translate": 12,
+                        "italic": false,
+                        "color": "#1aa819",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.attack_damage"
+                            }
+                        ]
+                    },
+                    {
+                        "translate": 1,
+                        "italic": false,
+                        "color": "#1aa819",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.attack_speed"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -12,18 +12,18 @@ def is_effect_negative(effect_id: str):
 
 
 class food_item(item):
-    def get_components(self):
-        components = super().get_components()
+    def get_components(self,tier):
+        components = super().get_components(tier)
 
-        nutrition = get_item_value(self.item_id, "food")
-        saturation = get_item_value(self.item_id, "saturation")
-        always_edible = get_item_value(self.item_id, "always_edible")
-        eat_time = get_item_value(self.item_id, "eat_time")
-        eat_speed = get_item_value(self.item_id, "eat_speed")
-        eat_sound = get_item_value(self.item_id, "eat_sound")
-        is_drink = get_item_value(self.item_id, "is_drink")
+        nutrition = get_item_value(self.item_id, "food",tier)
+        saturation = get_item_value(self.item_id, "saturation",tier)
+        always_edible = get_item_value(self.item_id, "always_edible",tier)
+        eat_time = get_item_value(self.item_id, "eat_time",tier)
+        eat_speed = get_item_value(self.item_id, "eat_speed",tier)
+        eat_sound = get_item_value(self.item_id, "eat_sound",tier)
+        is_drink = get_item_value(self.item_id, "is_drink",tier)
 
-        food_effects = self.get_food_effects()
+        food_effects = self.get_food_effects(tier)
 
         components["food"] = {
             "nutrition": nutrition,
@@ -50,14 +50,14 @@ class food_item(item):
 
         return components
 
-    def get_lore(self):
-        nutrition = get_item_value(self.item_id, "food")
-        saturation = get_item_value(self.item_id, "saturation")
-        healing = get_item_value(self.item_id, "healing")
-        always_edible = get_item_value(self.item_id, "always_edible")
-        eat_time = get_item_value(self.item_id, "eat_time")
-        eat_speed = get_item_value(self.item_id, "eat_speed")
-        is_drink = get_item_value(self.item_id, "is_drink")
+    def get_lore(self, tier=""):
+        nutrition = get_item_value(self.item_id, "food",tier)
+        saturation = get_item_value(self.item_id, "saturation",tier)
+        healing = get_item_value(self.item_id, "healing",tier)
+        always_edible = get_item_value(self.item_id, "always_edible",tier)
+        eat_time = get_item_value(self.item_id, "eat_time",tier)
+        eat_speed = get_item_value(self.item_id, "eat_speed",tier)
+        is_drink = get_item_value(self.item_id, "is_drink",tier)
 
         item_lore = []
         if nutrition > 0:
@@ -124,7 +124,7 @@ class food_item(item):
                     )
                 )
 
-        for food_effect_lore_item in self.get_food_effects_lore():
+        for food_effect_lore_item in self.get_food_effects_lore(tier):
             item_lore.append(food_effect_lore_item)
 
         for lore_item in super().get_lore():
@@ -132,10 +132,10 @@ class food_item(item):
 
         return item_lore
 
-    def get_food_effects(self):
+    def get_food_effects(self,tier=""):
         food_effects = []
 
-        for effect in get_item_value(self.item_id, "effects"):
+        for effect in get_item_value(self.item_id, "effects",tier):
             effect_type = effect["effect_type"]
             if effect_type == "cure_effect":
                 effect_id = effect["effect"]
@@ -183,8 +183,8 @@ class food_item(item):
             elif effect_type == "clear_all_effects":
                 food_effects.append({"type": "clear_all_effects"})
 
-        healing = get_item_value(self.item_id, "healing")
-        eat_time = get_item_value(self.item_id, "eat_time")
+        healing = get_item_value(self.item_id, "healing",tier)
+        eat_time = get_item_value(self.item_id, "eat_time",tier)
 
         if healing > 0:
             target_level = 5
@@ -212,7 +212,7 @@ class food_item(item):
                 }
             )
 
-        eat_sound_finish = get_item_value(self.item_id, "eat_sound_finish")
+        eat_sound_finish = get_item_value(self.item_id, "eat_sound_finish",tier)
 
         if eat_sound_finish != default_item_data["eat_sound_finish"]:
             food_effects.append(
@@ -224,10 +224,10 @@ class food_item(item):
 
         return food_effects
 
-    def get_food_effects_lore(self):
+    def get_food_effects_lore(self,tier=""):
         food_effect_lore = []
 
-        for effect in get_item_value(self.item_id, "effects"):
+        for effect in get_item_value(self.item_id, "effects",tier):
             effect_type = effect["effect_type"]
             if effect_type == "cure_effect":
                 effect_id = effect["effect"]

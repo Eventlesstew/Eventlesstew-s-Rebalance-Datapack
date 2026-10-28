@@ -23,16 +23,13 @@ def add_food_item(item_key: str):
     item_object = None
     if item_class == "food":
         item_object = food_item(item_key)
-    elif item_class == "tiered":
-        pass
     elif item_class == "template":
         pass
     else:
         item_object = item(item_key)
 
     if item_object:
-        if item_object.has_changes():
-            item_object.save()
+        item_object.save()
 
     return item_object
 
@@ -43,12 +40,12 @@ furnace_fuel_values = ["event_rebalance:modified"]
 brewing_fuel_values = ["event_rebalance:modified"]
 
 
-def create_fuel_data(fuel_type: str):
+def create_fuel_data(fuel_type: str, tier:str=""):
     fuel = {}
     if fuel_type == "furnace":
-        fuel = item_object.get_furnace_fuel()
+        fuel = item_object.get_furnace_fuel(tier)
     elif fuel_type == "brewing":
-        fuel = item_object.get_brewing_fuel()
+        fuel = item_object.get_brewing_fuel(tier)
 
     if not "fuel" in fuel:
         return None
@@ -124,41 +121,46 @@ for item_key in item_keys:
     item_object = add_food_item(item_key)
 
     if item_object:
-        item_filter = item_object.get_item_filter()
-        if create_compost:
-            compost = item_object.get_compost_value()
+        item_tiers = [""]
+        if item_object.uses_tiers():
+            item_tiers = get_item_value(item_object.item_id, "tiers")
 
-            if compost:
-                compost_values.append(
-                    {
-                        "type": "filtered",
-                        "item_filter": item_filter,
-                        "on_pass": "event_rebalance:compostable/"
-                        + str(int(compost * 100)),
-                    }
-                )
+        for tier in item_tiers:
+            item_filter = item_object.get_item_filter(tier)
+            if create_compost:
+                compost = item_object.get_compost_value(tier)
 
-        if create_furnace_fuel:
-            item_furnace_fuel_path = create_fuel_data("furnace")
-            if item_furnace_fuel_path:
-                furnace_fuel_values.append(
-                    {
-                        "type": "filtered",
-                        "item_filter": item_filter,
-                        "on_pass": item_furnace_fuel_path,
-                    }
-                )
+                if compost:
+                    compost_values.append(
+                        {
+                            "type": "filtered",
+                            "item_filter": item_filter,
+                            "on_pass": "event_rebalance:compostable/"
+                            + str(int(compost * 100)),
+                        }
+                    )
 
-        if create_brewing_fuel:
-            item_brewing_fuel_path = create_fuel_data("brewing")
-            if item_brewing_fuel_path:
-                brewing_fuel_values.append(
-                    {
-                        "type": "filtered",
-                        "item_filter": item_filter,
-                        "on_pass": item_brewing_fuel_path,
-                    }
-                )
+            if create_furnace_fuel:
+                item_furnace_fuel_path = create_fuel_data("furnace", tier)
+                if item_furnace_fuel_path:
+                    furnace_fuel_values.append(
+                        {
+                            "type": "filtered",
+                            "item_filter": item_filter,
+                            "on_pass": item_furnace_fuel_path,
+                        }
+                    )
+
+            if create_brewing_fuel:
+                item_brewing_fuel_path = create_fuel_data("brewing", tier)
+                if item_brewing_fuel_path:
+                    brewing_fuel_values.append(
+                        {
+                            "type": "filtered",
+                            "item_filter": item_filter,
+                            "on_pass": item_brewing_fuel_path,
+                        }
+                    )
 
 
 if create_compost:

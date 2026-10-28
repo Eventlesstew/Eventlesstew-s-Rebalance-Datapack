@@ -1,0 +1,63 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "turtle_helmet"
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "set_attributes",
+                "modifiers": [
+                    {
+                        "slot": "head",
+                        "id": "balance_head",
+                        "attribute": "armor",
+                        "amount": 2,
+                        "operation": "add_value"
+                    },
+                    {
+                        "slot": "head",
+                        "id": "balance_head",
+                        "attribute": "armor_toughness",
+                        "amount": 4,
+                        "operation": "add_value"
+                    }
+                ]
+            },
+            {
+                "type": "set_lore",
+                "mode": "append",
+                "lore": [
+                    {
+                        "translate": 2,
+                        "italic": false,
+                        "color": "#1aa819",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.armor"
+                            }
+                        ]
+                    },
+                    {
+                        "translate": 4,
+                        "italic": false,
+                        "color": "#1aa819",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.armor_toughness"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

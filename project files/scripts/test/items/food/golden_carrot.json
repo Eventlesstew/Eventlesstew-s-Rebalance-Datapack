@@ -1,0 +1,116 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "golden_carrot"
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "set_components",
+                "components": {
+                    "food": {
+                        "nutrition": 4,
+                        "saturation": 8,
+                        "can_always_eat": true
+                    },
+                    "consumable": {
+                        "consume_seconds": 2,
+                        "on_consume_effects": [
+                            {
+                                "type": "remove_effects",
+                                "effects": [
+                                    "darkness"
+                                ]
+                            },
+                            {
+                                "type": "apply_effects",
+                                "probability": 1,
+                                "effects": [
+                                    {
+                                        "id": "night_vision",
+                                        "amplifier": 0,
+                                        "duration": 1200
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "apply_effects",
+                                "effects": [
+                                    {
+                                        "id": "regeneration",
+                                        "amplifier": 3,
+                                        "duration": 24,
+                                        "show_icon": false,
+                                        "show_particles": false
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "play_sound",
+                                "sound": {
+                                    "sound_id": "item.golden.consume"
+                                }
+                            }
+                        ],
+                        "sound": {
+                            "sound_id": "item.apple.eat"
+                        }
+                    },
+                    "use_effects": {
+                        "speed_multiplier": 0.2,
+                        "can_sprint": false
+                    }
+                }
+            },
+            {
+                "type": "set_lore",
+                "mode": "append",
+                "lore": [
+                    {
+                        "translate": "attribute.name.consumable.food.nutrition.4",
+                        "italic": false,
+                        "color": "#f5ce0c"
+                    },
+                    {
+                        "translate": "attribute.name.consumable.food.saturation.8",
+                        "italic": false,
+                        "color": "#f5ce0c"
+                    },
+                    {
+                        "translate": "attribute.name.consumable.food.health.4",
+                        "italic": false,
+                        "color": "#f545ac"
+                    },
+                    {
+                        "translate": "attribute.name.consumable.food.eat_time.2",
+                        "italic": false,
+                        "color": "#5555ff"
+                    },
+                    {
+                        "translate": "attribute.name.consumable.food.always_edible",
+                        "italic": false,
+                        "color": "#f78324"
+                    },
+                    {
+                        "translate": "attribute.name.consumable.food.cure_effect.darkness",
+                        "italic": false,
+                        "color": "#5555ff"
+                    },
+                    {
+                        "translate": "attribute.name.consumable.food.apply_effect.night_vision.1.3s",
+                        "italic": false,
+                        "color": "#5555ff"
+                    }
+                ]
+            }
+        ]
+    }
+}

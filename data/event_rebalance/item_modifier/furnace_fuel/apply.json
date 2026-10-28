@@ -5,6 +5,48 @@
         {
             "type": "filtered",
             "item_filter": {
+                "items": "wooden_sword"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/2.5"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "wooden_pickaxe"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/4"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "wooden_axe"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/4"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "wooden_shovel"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/2"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "wooden_hoe"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/3"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "wooden_spear"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/2"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
                 "items": "lava_bucket"
             },
             "on_pass": "event_rebalance:furnace_fuel/100"

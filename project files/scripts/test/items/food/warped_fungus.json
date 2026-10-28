@@ -1,0 +1,104 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "warped_fungus"
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "set_components",
+                "components": {
+                    "food": {
+                        "nutrition": 4,
+                        "saturation": 5,
+                        "can_always_eat": true
+                    },
+                    "consumable": {
+                        "consume_seconds": 3,
+                        "on_consume_effects": [
+                            {
+                                "type": "apply_effects",
+                                "probability": 1,
+                                "effects": [
+                                    {
+                                        "id": "nausea",
+                                        "amplifier": 0,
+                                        "duration": 600
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "apply_effects",
+                                "probability": 1,
+                                "effects": [
+                                    {
+                                        "id": "speed",
+                                        "amplifier": 1,
+                                        "duration": 600
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "play_sound",
+                                "sound": {
+                                    "sound_id": "item.bad.consume"
+                                }
+                            }
+                        ],
+                        "sound": {
+                            "sound_id": "item.soft.eat"
+                        }
+                    },
+                    "use_effects": {
+                        "speed_multiplier": 0.2,
+                        "can_sprint": false
+                    }
+                }
+            },
+            {
+                "type": "set_lore",
+                "mode": "append",
+                "lore": [
+                    {
+                        "translate": "attribute.name.consumable.food.nutrition.4",
+                        "italic": false,
+                        "color": "#f5ce0c"
+                    },
+                    {
+                        "translate": "attribute.name.consumable.food.saturation.5",
+                        "italic": false,
+                        "color": "#f5ce0c"
+                    },
+                    {
+                        "translate": "attribute.name.consumable.food.eat_time.3",
+                        "italic": false,
+                        "color": "#7a58f1"
+                    },
+                    {
+                        "translate": "attribute.name.consumable.food.always_edible",
+                        "italic": false,
+                        "color": "#f78324"
+                    },
+                    {
+                        "translate": "attribute.name.consumable.food.apply_effect.nausea.1.1s",
+                        "italic": false,
+                        "color": "#ff5555"
+                    },
+                    {
+                        "translate": "attribute.name.consumable.food.apply_effect.speed.2.1s",
+                        "italic": false,
+                        "color": "#5555ff"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -16,6 +16,12 @@
     },
     "template_tool":{
         "item_class":"template",
+        "item_type":{
+            "_type":"tiered",
+            "other":"default",
+            "hyphae":"custom_item_tag",
+            "rose_golden":"custom_item_tag"
+        },
         "tiers":[
             "wooden",
             "stone",
@@ -45,6 +51,12 @@
     },
     "template_armor":{
         "item_class":"template",
+        "item_type":{
+            "_type":"tiered",
+            "other":"default",
+            "hoglin_hide":"custom_item_tag",
+            "rose_golden":"custom_item_tag"
+        },
         "tiers":[
             "leather",
             "chainmail",
@@ -63,6 +75,10 @@
     },
     "sword":{
         "item_class":"tiered",
+        "item_type":{
+            "_type":"reference",
+            "reference":"template_tool"
+        },
         "tiers":{
             "_type":"reference",
             "reference":"template_tool"
@@ -97,12 +113,15 @@
         },
         "furnace_fuel":{
             "_type":"tiered",
-            "other":0,
             "wooden":2.5
         }
     },
     "pickaxe":{
         "item_class":"tiered",
+        "item_type":{
+            "_type":"reference",
+            "reference":"template_tool"
+        },
         "tiers":{
             "_type":"reference",
             "reference":"template_tool"
@@ -135,6 +154,14 @@
             "rose_golden":"pickaxe_power_3",
             "netherite":"pickaxe_power_3"
         },
+        "block_interaction_range":{
+            "_type":"tiered",
+            "wooden":1,
+            "copper":1,
+            "hyphae":1,
+            "golden":-1,
+            "rose_golden":-1
+        },
         "attack_damage":{
             "_type":"reference",
             "reference":"sword",
@@ -146,12 +173,15 @@
         },
         "furnace_fuel":{
             "_type":"tiered",
-            "other":0,
             "wooden":4
         }
     },
     "axe":{
         "item_class":"tiered",
+        "item_type":{
+            "_type":"reference",
+            "reference":"template_tool"
+        },
         "tiers":{
             "_type":"reference",
             "reference":"template_tool"
@@ -189,14 +219,18 @@
             "reference":"pickaxe"
         },
         "mining_category":"axe",
+        "block_interaction_range":{
+            "_type":"reference",
+            "reference":"pickaxe"
+        },
         "furnace_fuel":{
             "_type":"tiered",
-            "other":0,
             "wooden":4
         }
     },
     "dagger":{
         "item_class":"tiered",
+        "item_type":"custom_item_tag",
         "tiers":{
             "_type":"reference",
             "reference":"template_tool"
@@ -232,12 +266,15 @@
         },
         "furnace_fuel":{
             "_type":"tiered",
-            "other":0,
             "wooden":1.5
         }
     },
     "shovel":{
         "item_class":"tiered",
+        "item_type":{
+            "_type":"reference",
+            "reference":"template_tool"
+        },
         "tiers":{
             "_type":"reference",
             "reference":"template_tool"
@@ -251,6 +288,10 @@
             "reference":"pickaxe"
         },
         "mining_category":"shovel",
+        "block_interaction_range":{
+            "_type":"reference",
+            "reference":"pickaxe"
+        },
         "attack_damage":{
             "_type":"reference",
             "reference":"sword",
@@ -262,12 +303,15 @@
         },
         "furnace_fuel":{
             "_type":"tiered",
-            "other":0,
             "wooden":2
         }
     },
     "hoe":{
         "item_class":"tiered",
+        "item_type":{
+            "_type":"reference",
+            "reference":"template_tool"
+        },
         "tiers":{
             "_type":"reference",
             "reference":"template_tool"
@@ -281,6 +325,10 @@
             "reference":"pickaxe"
         },
         "mining_category":"hoe",
+        "block_interaction_range":{
+            "_type":"reference",
+            "reference":"pickaxe"
+        },
         "attack_damage":{
             "_type":"reference",
             "reference":"sword",
@@ -292,12 +340,12 @@
         },
         "furnace_fuel":{
             "_type":"tiered",
-            "other":0,
             "wooden":3
         }
     },
     "hammer":{
         "item_class":"tiered",
+        "item_type":"custom_item_tag",
         "tiers":{
             "_type":"reference",
             "reference":"template_tool"
@@ -323,6 +371,10 @@
             "rose_golden":"hammer_power_3",
             "netherite":"hammer_power_3"
         },
+        "block_interaction_range":{
+            "_type":"reference",
+            "reference":"pickaxe"
+        },
         "attack_damage":{
             "_type":"reference",
             "reference":"axe",
@@ -334,12 +386,15 @@
         },
         "furnace_fuel":{
             "_type":"tiered",
-            "other":0,
             "wooden":6.5
         }
     },
     "spear":{
         "item_class":"tiered",
+        "item_type":{
+            "_type":"reference",
+            "reference":"template_tool"
+        },
         "tiers":{
             "_type":"reference",
             "reference":"template_tool"
@@ -399,8 +454,223 @@
         },
         "furnace_fuel":{
             "_type":"tiered",
-            "other":0,
             "wooden":2
+        }
+    },
+    "helmet":{
+        "item_type":{
+            "_type":"reference",
+            "reference":"template_armor"
+        },
+        "tiers": [
+            "leather",
+            "chainmail",
+            "copper",
+            "iron",
+            "golden",
+            "diamond",
+            "hoglin_hide",
+            "rose_golden",
+            "netherite",
+            "turtle"
+        ],
+        "max_damage":{
+            "_type":"reference",
+            "reference":"template_armor"
+        },
+        "slot":"head",
+        "armor": {
+            "_type":"tiered",
+            "leather":2,
+            "chainmail":3,
+            "copper": 2,
+            "iron":3,
+            "hoglin_hide":3,
+            "golden":4,
+            "diamond":4,
+            "rose_golden":4,
+            "netherite":4,
+            "turtle":2
+        },
+        "armor_toughness":{
+            "_type":"tiered",
+            "chainmail":2,
+            "diamond":2,
+            "netherite":4,
+            "turtle":4
+        },
+        "movement_speed": {
+            "_type":"tiered",
+            "leather":4,
+            "chainmail":3,
+            "copper":2,
+            "golden":1,
+            "diamond":-2,
+            "rose_golden":2,
+            "netherite":-3
+        },
+        "stealth": {
+            "_type":"tiered",
+            "hoglin_hide":1.2,
+            "golden":0.8,
+            "rose_golden":0.7
+        },
+        "burn_time":{
+            "_type":"tiered",
+            "netherite":-0.25
+        }
+    },
+    "chestplate":{
+        "item_type":{
+            "_type":"reference",
+            "reference":"template_armor"
+        },
+        "tiers": {
+            "_type":"reference",
+            "reference":"template_armor"
+        },
+        "slot":"chest",
+        "max_damage":{
+            "_type":"reference",
+            "reference":"template_armor"
+        },
+        "armor": {
+            "_type":"tiered",
+            "leather":3,
+            "chainmail":4,
+            "copper": 5,
+            "iron":6,
+            "hoglin_hide":4,
+            "golden":8,
+            "diamond":8,
+            "rose_golden":8,
+            "netherite":8
+        },
+        "armor_toughness":{
+            "_type":"tiered",
+            "chainmail":2,
+            "diamond":2,
+            "netherite":8
+        },
+        "movement_speed": {
+            "_type":"tiered",
+            "leather":4,
+            "chainmail":3,
+            "copper":2,
+            "golden":1,
+            "diamond":-4,
+            "rose_golden":2,
+            "netherite":-8
+        },
+        "stealth": {
+            "_type":"reference",
+            "reference":"helmet"
+        },
+        "burn_time":{
+            "_type":"reference",
+            "reference":"helmet"
+        }
+    },
+    "leggings":{
+        "item_type":{
+            "_type":"reference",
+            "reference":"template_armor"
+        },
+        "tiers": {
+            "_type":"reference",
+            "reference":"template_armor"
+        },
+        "slot":"legs",
+        "max_damage":{
+            "_type":"reference",
+            "reference":"template_armor"
+        },
+        "armor": {
+            "_type":"tiered",
+            "leather":2,
+            "chainmail":3,
+            "copper": 4,
+            "iron":5,
+            "hoglin_hide":4,
+            "golden":5,
+            "diamond":5,
+            "rose_golden":5,
+            "netherite":5
+        },
+        "armor_toughness":{
+            "_type":"tiered",
+            "chainmail":1,
+            "diamond":2,
+            "netherite":8
+        },
+        "movement_speed": {
+            "_type":"tiered",
+            "leather":6,
+            "chainmail":5,
+            "copper":4,
+            "golden":2,
+            "diamond":-4,
+            "rose_golden":4,
+            "netherite":-6
+        },
+        "stealth": {
+            "_type":"reference",
+            "reference":"helmet"
+        },
+        "burn_time":{
+            "_type":"reference",
+            "reference":"helmet"
+        }
+    },
+    "boots":{
+        "item_type":{
+            "_type":"reference",
+            "reference":"template_armor"
+        },
+        "tiers": {
+            "_type":"reference",
+            "reference":"template_armor"
+        },
+        "slot":"feet",
+        "max_damage":{
+            "_type":"reference",
+            "reference":"template_armor"
+        },
+        "armor": {
+            "_type":"tiered",
+            "leather":1,
+            "chainmail":2,
+            "copper": 1,
+            "iron":2,
+            "hoglin_hide":1,
+            "golden":3,
+            "diamond":3,
+            "rose_golden":3,
+            "netherite":3
+        },
+        "armor_toughness":{
+            "_type":"tiered",
+            "chainmail":1,
+            "diamond":1,
+            "netherite":3
+        },
+        "movement_speed": {
+            "_type":"tiered",
+            "leather":6,
+            "chainmail":5,
+            "copper":4,
+            "golden":2,
+            "diamond":-2,
+            "rose_golden":4,
+            "netherite":-3
+        },
+        "stealth": {
+            "_type":"reference",
+            "reference":"helmet"
+        },
+        "burn_time":{
+            "_type":"reference",
+            "reference":"helmet"
         }
     },
 
