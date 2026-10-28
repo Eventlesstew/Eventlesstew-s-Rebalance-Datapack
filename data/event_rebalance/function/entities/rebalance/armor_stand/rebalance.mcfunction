@@ -1,0 +1,1 @@
+execute if entity @s[tag=chiseled_bookshelf] run function event_rebalance:entities/rebalance/armor_stand/bookshelf_loot

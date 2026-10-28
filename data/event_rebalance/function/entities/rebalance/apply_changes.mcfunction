@@ -5,7 +5,7 @@ execute if entity @s[tag=sits_on_cushion] run function event_rebalance:entities/
 
 
 # General
-execute if entity @s[type=marker] run function event_rebalance:entities/rebalance/marker/rebalance
+execute if entity @s[type=armor_stand] run function event_rebalance:entities/rebalance/armor_stand/rebalance
 execute if entity @s[type=item] run function event_rebalance:entities/rebalance/item/rebalance
 execute if entity @s[type=arrow] run function event_rebalance:entities/rebalance/arrow/rebalance
 
