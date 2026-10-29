@@ -78,5 +78,6 @@
     "event_rebalance:fragility_curse",
 
     "silk_touch"
-  ]
+  ],
+  "replace": true
 }

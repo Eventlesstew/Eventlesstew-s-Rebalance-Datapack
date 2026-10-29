@@ -46,7 +46,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:wooden_hoe",
-          "modifier": "event_rebalance:gear/wooden/hoe",
+          "modifier": "event_rebalance:tiered/hoe/wooden",
           "weight": 4
         },
         {

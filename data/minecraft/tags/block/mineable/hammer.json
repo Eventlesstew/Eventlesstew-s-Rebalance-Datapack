@@ -3,6 +3,7 @@
         "#mineable/axe",
         "#mineable/hoe",
         "#mineable/pickaxe",
-        "#mineable/shovel"
+        "#mineable/shovel",
+        "#mineable/sword"
     ]
 }

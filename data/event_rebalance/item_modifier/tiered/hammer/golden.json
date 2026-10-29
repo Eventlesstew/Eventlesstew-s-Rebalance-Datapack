@@ -1,0 +1,139 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "#event_rebalance:custom_item/tiered/hammer/golden"
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "set_attributes",
+                "modifiers": [
+                    {
+                        "slot": "mainhand",
+                        "id": "balance",
+                        "attribute": "attack_damage",
+                        "amount": 7,
+                        "operation": "add_value"
+                    },
+                    {
+                        "slot": "mainhand",
+                        "id": "balance",
+                        "attribute": "attack_speed",
+                        "amount": -2.7,
+                        "operation": "add_value"
+                    },
+                    {
+                        "slot": "mainhand",
+                        "id": "balance",
+                        "attribute": "block_interaction_range",
+                        "amount": -1,
+                        "operation": "add_value"
+                    }
+                ]
+            },
+            {
+                "type": "set_components",
+                "components": {
+                    "max_damage": 256,
+                    "damage": 0,
+                    "max_stack_size": 1,
+                    "repairable": {
+                        "items": "#event_rebalance:tool_repair/golden"
+                    },
+                    "weapon": {
+                        "item_damage_per_attack": 1,
+                        "disable_blocking_for_seconds": 1
+                    },
+                    "tool": {
+                        "rules": [
+                            {
+                                "blocks": "cobweb",
+                                "speed": 24.0,
+                                "correct_for_drops": true
+                            },
+                            {
+                                "blocks": "#event_rebalance:pickaxe_power_4",
+                                "speed": 3.0,
+                                "correct_for_drops": false
+                            },
+                            {
+                                "blocks": "#event_rebalance:obsidian",
+                                "speed": 24.0,
+                                "correct_for_drops": true
+                            },
+                            {
+                                "blocks": "#mineable/hammer",
+                                "speed": 12.0,
+                                "correct_for_drops": true
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "set_lore",
+                "mode": "append",
+                "lore": [
+                    {
+                        "translate": "8 ",
+                        "italic": false,
+                        "color": "#1aa819",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.attack_damage"
+                            }
+                        ]
+                    },
+                    {
+                        "translate": "1.3 ",
+                        "italic": false,
+                        "color": "#1aa819",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.attack_speed"
+                            }
+                        ]
+                    },
+                    {
+                        "translate": "12.0 ",
+                        "italic": false,
+                        "color": "#1aa819",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.mining_speed.hammer"
+                            }
+                        ]
+                    },
+                    {
+                        "translate": "3 ",
+                        "italic": false,
+                        "color": "#1aa819",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.mining_power.hammer"
+                            }
+                        ]
+                    },
+                    {
+                        "translate": "-1 ",
+                        "italic": false,
+                        "color": "#1aa819",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.block_interaction_range"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

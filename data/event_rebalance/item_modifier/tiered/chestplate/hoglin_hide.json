@@ -1,0 +1,66 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "#event_rebalance:custom_item/tiered/chestplate/hoglin_hide"
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "set_attributes",
+                "modifiers": [
+                    {
+                        "slot": "chest",
+                        "id": "balance_chest",
+                        "attribute": "armor",
+                        "amount": 4,
+                        "operation": "add_value"
+                    }
+                ]
+            },
+            {
+                "type": "set_components",
+                "components": {
+                    "max_damage": 128,
+                    "damage": 0,
+                    "max_stack_size": 1,
+                    "repairable": {
+                        "items": "#event_rebalance:tool_repair/hoglin_hide"
+                    },
+                    "mob_visibility": {
+                        "targeting_entity_types": "#event_rebalance:mobs",
+                        "visibility": 0.8333333333333334
+                    },
+                    "equippable": {
+                        "slot": "chest",
+                        "equip_on_interact": true,
+                        "asset_id": "event:hoglin_hide"
+                    }
+                }
+            },
+            {
+                "type": "set_lore",
+                "mode": "append",
+                "lore": [
+                    {
+                        "translate": "4 ",
+                        "italic": false,
+                        "color": "#1aa819",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.armor"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

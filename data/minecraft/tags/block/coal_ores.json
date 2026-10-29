@@ -1,5 +1,6 @@
 {
   "values": [
     "minecraft:coal_ore"
-  ]
+  ],
+  "replace": true
 }

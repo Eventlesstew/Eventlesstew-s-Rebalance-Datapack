@@ -37,7 +37,7 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_sword",
           "modifier": [
-            "event_rebalance:gear/golden/sword"
+            "event_rebalance:tiered/sword/golden"
           ],
           "weight": 1
         },
@@ -45,7 +45,7 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_axe",
           "modifier": [
-            "event_rebalance:gear/golden/axe"
+            "event_rebalance:tiered/axe/golden"
           ],
           "weight": 1
         },
@@ -53,13 +53,13 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_spear",
           "modifier": [
-            "event_rebalance:gear/golden/spear"
+            "event_rebalance:tiered/spear/golden"
           ],
           "weight": 1
         },
         {
           "type": "tag",
-          "items": "#event_rebalance:custom_item/gear/golden/dagger",
+          "items": "#event_rebalance:custom_item/tiered/dagger/golden",
           "expand":false,
           "modifier": [
             {
@@ -68,13 +68,13 @@
                 "item_model": "event:gear/golden/dagger"
               }
             },
-            "event_rebalance:gear/golden/dagger"
+            "event_rebalance:tiered/dagger/golden"
           ],
           "weight": 1
         },
         {
           "type": "tag",
-          "items": "#event_rebalance:custom_item/gear/golden/hammer",
+          "items": "#event_rebalance:custom_item/tiered/hammer/golden",
           "expand":false,
           "modifier": [
             {
@@ -83,7 +83,7 @@
                 "item_model": "event:gear/golden/hammer"
               }
             },
-            "event_rebalance:gear/golden/hammer"
+            "event_rebalance:tiered/hammer/golden"
           ],
           "weight": 1
         },
@@ -91,7 +91,7 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_helmet",
           "modifier": [
-            "event_rebalance:gear/golden/helmet"
+            "event_rebalance:tiered/helmet/golden"
           ],
           "weight": 1
         },
@@ -99,7 +99,7 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_chestplate",
           "modifier": [
-            "event_rebalance:gear/golden/chestplate"
+            "event_rebalance:tiered/chestplate/golden"
           ],
           "weight": 1
         },
@@ -107,7 +107,7 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_leggings",
           "modifier": [
-            "event_rebalance:gear/golden/leggings"
+            "event_rebalance:tiered/leggings/golden"
           ],
           "weight": 1
         },
@@ -115,7 +115,7 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_boots",
           "modifier": [
-            "event_rebalance:gear/golden/boots"
+            "event_rebalance:tiered/boots/golden"
           ],
           "weight": 1
         }

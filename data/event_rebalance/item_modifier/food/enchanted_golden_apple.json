@@ -91,7 +91,7 @@
                             {
                                 "type": "play_sound",
                                 "sound": {
-                                    "sound_id": "item.godly.consume"
+                                    "sound_id": "item.golden.consume"
                                 }
                             }
                         ],

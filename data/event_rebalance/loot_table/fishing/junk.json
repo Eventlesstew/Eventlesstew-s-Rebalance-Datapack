@@ -38,7 +38,7 @@
                     "name": "leather_boots",
                     "weight": 10,
                     "modifier": [
-                        "event_rebalance:gear/leather/boots",
+                        "event_rebalance:tiered/boots/leather",
                         {
                             "type": "set_damage",
                             "damage": {

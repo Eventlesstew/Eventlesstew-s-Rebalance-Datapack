@@ -1,13 +1,7 @@
 {
   "values": [
-    "minecraft:diamond_axe",
-    "minecraft:stone_axe",
-    "minecraft:golden_axe",
-    "minecraft:netherite_axe",
-    "minecraft:wooden_axe",
-    "minecraft:iron_axe",
-    "minecraft:copper_axe",
-    "#event_rebalance:custom_item/gear/hyphae/axe",
-    "#event_rebalance:custom_item/gear/rose_golden/axe"
-  ]
+    "#event_rebalance:custom_item/tiered/axe/hyphae",
+    "#event_rebalance:custom_item/tiered/axe/rose_golden"
+  ],
+  "replace": false
 }

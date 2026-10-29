@@ -1,0 +1,14 @@
+{
+  "values": [
+    "beacon",
+    "#event_rebalance:glass",
+    "#event_rebalance:glass_panes",
+    "tinted_glass",
+    "glowstone",
+    "redstone_lamp",
+    "sea_lantern",
+    "lever",
+    "frosted_ice"
+  ],
+  "replace": false
+}

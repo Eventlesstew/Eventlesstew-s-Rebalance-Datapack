@@ -4,5 +4,6 @@
     "event_rebalance:regrow",
     "event_rebalance:lightweight",
     "feather_falling"
-  ]
+  ],
+  "replace": true
 }

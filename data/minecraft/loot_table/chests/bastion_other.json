@@ -145,7 +145,7 @@
         {
           "type": "minecraft:item",
           "modifier": [
-            "event_rebalance:gear/golden/axe",
+            "event_rebalance:tiered/axe/golden",
             {
               "type": "minecraft:enchant_randomly",
               "options": "event_rebalance:brutality"

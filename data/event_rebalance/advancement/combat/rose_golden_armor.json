@@ -5,16 +5,16 @@
       "conditions": {
         "items": [
           {
-            "items": "#event_rebalance:custom_item/gear/rose_golden/helmet"
+            "items": "#event_rebalance:custom_item/tiered/helmet/rose_golden"
           },
           {
-            "items": "#event_rebalance:custom_item/gear/rose_golden/chestplate"
+            "items": "#event_rebalance:custom_item/tiered/chestplate/rose_golden"
           },
           {
-            "items": "#event_rebalance:custom_item/gear/rose_golden/leggings"
+            "items": "#event_rebalance:custom_item/tiered/leggings/rose_golden"
           },
           {
-            "items": "#event_rebalance:custom_item/gear/rose_golden/boots"
+            "items": "#event_rebalance:custom_item/tiered/boots/rose_golden"
           }
         ]
       },

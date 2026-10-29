@@ -168,7 +168,7 @@
           "weight": 1,
           "name": "golden_sword",
           "modifier": [
-            "event_rebalance:gear/golden/sword"
+            "event_rebalance:tiered/sword/golden"
           ]
         },
         {
@@ -176,7 +176,7 @@
           "weight": 1,
           "name": "iron_sword",
           "modifier": [
-            "event_rebalance:gear/iron/sword"
+            "event_rebalance:tiered/sword/iron"
           ]
         },
         {
@@ -192,7 +192,7 @@
           "weight": 1,
           "name": "golden_chestplate",
           "modifier": [
-            "event_rebalance:gear/golden/chestplate"
+            "event_rebalance:tiered/chestplate/golden"
           ]
         }
       ],

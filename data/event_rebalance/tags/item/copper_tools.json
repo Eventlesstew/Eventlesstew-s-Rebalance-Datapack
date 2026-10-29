@@ -12,7 +12,7 @@
         "minecraft:copper_boots",
         "minecraft:copper_horse_armor",
         "minecraft:copper_nautilus_armor",
-        "#event_rebalance:custom_item/gear/copper/dagger",
-        "#event_rebalance:custom_item/gear/copper/hammer"
+        "#event_rebalance:custom_item/tiered/dagger/copper",
+        "#event_rebalance:custom_item/tiered/hammer/copper"
     ]
 }

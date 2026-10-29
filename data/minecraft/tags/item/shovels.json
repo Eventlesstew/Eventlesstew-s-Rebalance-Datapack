@@ -1,13 +1,7 @@
 {
   "values": [
-    "minecraft:diamond_shovel",
-    "minecraft:stone_shovel",
-    "minecraft:golden_shovel",
-    "minecraft:netherite_shovel",
-    "minecraft:wooden_shovel",
-    "minecraft:iron_shovel",
-    "minecraft:copper_shovel",
-    "#event_rebalance:custom_item/gear/hyphae/shovel",
-    "#event_rebalance:custom_item/gear/rose_golden/shovel"
-  ]
+    "#event_rebalance:custom_item/tiered/shovel/hyphae",
+    "#event_rebalance:custom_item/tiered/shovel/rose_golden"
+  ],
+  "replace": false
 }

@@ -1,6 +1,6 @@
 {
     "type": "smithing_transform",
-    "base": "#event_rebalance:custom_item/gear/diamond/dagger",
+    "base": "#event_rebalance:custom_item/tiered/dagger/diamond",
     "addition": "#minecraft:netherite_tool_materials",
     "template": "netherite_upgrade_smithing_template",
     "result": {

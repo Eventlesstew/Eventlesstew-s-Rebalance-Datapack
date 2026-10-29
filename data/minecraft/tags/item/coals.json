@@ -2,5 +2,6 @@
     "values": [
         "coal",
         "#event_rebalance:custom_item/withered_chunks"
-    ]
+    ],
+    "replace": true
 }

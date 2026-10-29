@@ -44,16 +44,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:flint_and_steel",
-          "weight": 40
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:fire_charge",
-          "weight": 40
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:golden_apple",
           "weight": 15
         },
@@ -73,7 +63,7 @@
         {
           "type": "minecraft:item",
           "modifier": [
-            "event_rebalance:gear/golden/sword",
+            "event_rebalance:tiered/sword/golden",
             {
               "type": "minecraft:enchant_randomly",
               "options": "#minecraft:on_random_loot"
@@ -85,7 +75,7 @@
         {
           "type": "minecraft:item",
           "modifier": [
-            "event_rebalance:gear/golden/spear",
+            "event_rebalance:tiered/spear/golden",
             {
               "type": "minecraft:enchant_randomly",
               "options": "#minecraft:on_random_loot"
@@ -96,9 +86,9 @@
         },
         {
           "type": "minecraft:tag",
-          "items":"#event_rebalance:custom_item/gear/golden/dagger",
+          "items":"#event_rebalance:custom_item/tiered/dagger/golden",
           "modifier": [
-            "event_rebalance:gear/golden/dagger",
+            "event_rebalance:tiered/dagger/golden",
             {
               "type": "minecraft:enchant_randomly",
               "options": "#minecraft:on_random_loot"
@@ -108,9 +98,9 @@
         },
         {
           "type": "minecraft:tag",
-          "items":"#event_rebalance:custom_item/gear/golden/hammer",
+          "items":"#event_rebalance:custom_item/tiered/hammer/golden",
           "modifier": [
-            "event_rebalance:gear/golden/hammer",
+            "event_rebalance:tiered/hammer/golden",
             {
               "type": "minecraft:enchant_randomly",
               "options": "#minecraft:on_random_loot"
@@ -121,7 +111,7 @@
         {
           "type": "minecraft:item",
           "modifier": [
-            "event_rebalance:gear/golden/axe",
+            "event_rebalance:tiered/axe/golden",
             {
               "type": "minecraft:enchant_randomly",
               "options": "#minecraft:on_random_loot"
@@ -133,7 +123,7 @@
         {
           "type": "minecraft:item",
           "modifier": [
-            "event_rebalance:gear/golden/hoe",
+            "event_rebalance:tiered/hoe/golden",
             {
               "type": "minecraft:enchant_randomly",
               "options": "#minecraft:on_random_loot"
@@ -145,7 +135,7 @@
         {
           "type": "minecraft:item",
           "modifier": [
-            "event_rebalance:gear/golden/shovel",
+            "event_rebalance:tiered/shovel/golden",
             {
               "type": "minecraft:enchant_randomly",
               "options": "#minecraft:on_random_loot"
@@ -157,7 +147,7 @@
         {
           "type": "minecraft:item",
           "modifier": [
-            "event_rebalance:gear/golden/pickaxe",
+            "event_rebalance:tiered/pickaxe/golden",
             {
               "type": "minecraft:enchant_randomly",
               "options": "#minecraft:on_random_loot"
@@ -169,7 +159,7 @@
         {
           "type": "minecraft:item",
           "modifier": [
-            "event_rebalance:gear/golden/boots",
+            "event_rebalance:tiered/boots/golden",
             {
               "type": "minecraft:enchant_randomly",
               "options": "#minecraft:on_random_loot"
@@ -181,7 +171,7 @@
         {
           "type": "minecraft:item",
           "modifier": [
-            "event_rebalance:gear/golden/chestplate",
+            "event_rebalance:tiered/chestplate/golden",
             {
               "type": "minecraft:enchant_randomly",
               "options": "#minecraft:on_random_loot"
@@ -193,7 +183,7 @@
         {
           "type": "minecraft:item",
           "modifier": [
-            "event_rebalance:gear/golden/helmet",
+            "event_rebalance:tiered/helmet/golden",
             {
               "type": "minecraft:enchant_randomly",
               "options": "#minecraft:on_random_loot"
@@ -205,7 +195,7 @@
         {
           "type": "minecraft:item",
           "modifier": [
-            "event_rebalance:gear/golden/leggings",
+            "event_rebalance:tiered/leggings/golden",
             {
               "type": "minecraft:enchant_randomly",
               "options": "#minecraft:on_random_loot"
@@ -252,36 +242,11 @@
         },
         {
           "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:set_count",
-            "count": {
-              "type": "minecraft:uniform",
-              "max": 8,
-              "min": 2
-            }
-          },
-          "name": "minecraft:gold_ingot",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:bell"
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:mojang_banner_pattern"
-        },
-        {
-          "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:set_count",
-            "count": {
-              "type": "minecraft:uniform",
-              "max": 2,
-              "min": 1
-            }
-          },
-          "name": "minecraft:gold_block"
         }
       ],
       "rolls": {
@@ -292,9 +257,6 @@
     },
     {
       "entries": [
-        {
-          "type": "minecraft:empty"
-        },
         {
           "type": "minecraft:item",
           "modifier": {
@@ -307,6 +269,35 @@
           },
           "name": "minecraft:lodestone",
           "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 1
+        }
+      ],
+      "rolls": {
+        "type": "uniform",
+        "max": 2,
+        "min": 1
+      }
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flint_and_steel",
+          "weight": 1
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shulker_box",
+          "weight": 1
         }
       ],
       "rolls": 1

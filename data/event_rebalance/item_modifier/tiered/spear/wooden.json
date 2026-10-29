@@ -1,0 +1,135 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "wooden_spear"
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "set_attributes",
+                "modifiers": [
+                    {
+                        "slot": "mainhand",
+                        "id": "balance",
+                        "attribute": "attack_damage",
+                        "amount": 1,
+                        "operation": "add_value"
+                    },
+                    {
+                        "slot": "mainhand",
+                        "id": "balance",
+                        "attribute": "attack_speed",
+                        "amount": -2.9,
+                        "operation": "add_value"
+                    }
+                ]
+            },
+            {
+                "type": "set_components",
+                "components": {
+                    "max_damage": 128,
+                    "damage": 0,
+                    "max_stack_size": 1,
+                    "repairable": {
+                        "items": "#event_rebalance:tool_repair/wooden"
+                    },
+                    "weapon": {
+                        "item_damage_per_attack": 1,
+                        "disable_blocking_for_seconds": 1
+                    },
+                    "minimum_attack_charge": 1,
+                    "piercing_weapon": {
+                        "sound": {
+                            "sound_id": "item.spear_wood.attack"
+                        },
+                        "hit_sound": {
+                            "sound_id": "item.spear_wood.hit"
+                        }
+                    },
+                    "attack_range": {
+                        "min_reach": 2,
+                        "max_reach": 4.5,
+                        "mob_factor": 0.5
+                    },
+                    "kinetic_weapon": {
+                        "delay_ticks": 6,
+                        "dismount_conditions": {
+                            "max_duration_ticks": 60,
+                            "min_speed": 8
+                        },
+                        "knockback_conditions": {
+                            "max_duration_ticks": 120,
+                            "min_speed": 4
+                        },
+                        "damage_conditions": {
+                            "max_duration_ticks": 180,
+                            "min_speed": 4
+                        },
+                        "damage_multiplier": 1,
+                        "contact_cooldown_ticks": 10,
+                        "sound": {
+                            "sound_id": "item.spear_wood.use"
+                        },
+                        "hit_sound": {
+                            "sound_id": "item.spear_wood.hit"
+                        }
+                    }
+                }
+            },
+            {
+                "type": "set_lore",
+                "mode": "append",
+                "lore": [
+                    {
+                        "translate": "2 ",
+                        "italic": false,
+                        "color": "#1aa819",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.attack_damage"
+                            }
+                        ]
+                    },
+                    {
+                        "translate": "1.1 ",
+                        "italic": false,
+                        "color": "#1aa819",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.attack_speed"
+                            }
+                        ]
+                    },
+                    {
+                        "translate": "0.3s ",
+                        "italic": false,
+                        "color": "#1aa819",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.charge_delay"
+                            }
+                        ]
+                    },
+                    {
+                        "translate": "9s ",
+                        "italic": false,
+                        "color": "#1aa819",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.charge_duration"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

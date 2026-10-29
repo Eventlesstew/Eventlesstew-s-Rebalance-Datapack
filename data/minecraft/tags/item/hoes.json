@@ -1,13 +1,7 @@
 {
   "values": [
-    "minecraft:diamond_hoe",
-    "minecraft:stone_hoe",
-    "minecraft:golden_hoe",
-    "minecraft:netherite_hoe",
-    "minecraft:wooden_hoe",
-    "minecraft:iron_hoe",
-    "minecraft:copper_hoe",
-    "#event_rebalance:custom_item/gear/hyphae/hoe",
-    "#event_rebalance:custom_item/gear/rose_golden/hoe"
-  ]
+    "#event_rebalance:custom_item/tiered/hoe/hyphae",
+    "#event_rebalance:custom_item/tiered/hoe/rose_golden"
+  ],
+  "replace": false
 }

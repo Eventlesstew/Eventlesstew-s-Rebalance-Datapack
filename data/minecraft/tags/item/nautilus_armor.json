@@ -1,13 +1,9 @@
 {
     "values": [
-        "#event_rebalance:custom_item/gear/leather/nautilus_armor",
-        "#event_rebalance:custom_item/gear/chainmail/nautilus_armor",
-        "copper_nautilus_armor",
-        "iron_nautilus_armor",
-        "#event_rebalance:custom_item/gear/hoglin_hide/nautilus_armor",
-        "golden_nautilus_armor",
-        "diamond_nautilus_armor",
-        "#event_rebalance:custom_item/gear/rose_golden/nautilus_armor",
-        "netherite_nautilus_armor"
-    ]
+        "#event_rebalance:custom_item/tiered/nautilus_armor/leather",
+        "#event_rebalance:custom_item/tiered/nautilus_armor/chainmail",
+        "#event_rebalance:custom_item/tiered/nautilus_armor/hoglin_hide",
+        "#event_rebalance:custom_item/tiered/nautilus_armor/rose_golden"
+    ],
+    "replace": false
 }

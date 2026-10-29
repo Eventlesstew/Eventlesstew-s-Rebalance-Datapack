@@ -28,7 +28,7 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_chestplate",
           "modifier": [
-            "event_rebalance:gear/iron/chestplate",
+            "event_rebalance:tiered/chestplate/iron",
             {
               "type": "minecraft:enchant_randomly",
               "options": "#minecraft:on_random_loot"
@@ -40,7 +40,7 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond_hoe",
           "modifier": [
-            "event_rebalance:gear/diamond/hoe"
+            "event_rebalance:tiered/hoe/diamond"
           ],
           "weight": 15
         },
@@ -48,7 +48,7 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond_chestplate",
           "modifier": [
-            "event_rebalance:gear/diamond/chestplate"
+            "event_rebalance:tiered/chestplate/diamond"
           ],
           "weight": 5
         },

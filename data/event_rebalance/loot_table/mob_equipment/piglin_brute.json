@@ -6,8 +6,8 @@
                 {
                     "type": "tag",
                     "expand": false,
-                    "items": "#event_rebalance:custom_item/gear/rose_golden/axe",
-                    "modifier": "event_rebalance:gear/rose_golden/axe"
+                    "items": "#event_rebalance:custom_item/tiered/axe/rose_golden",
+                    "modifier": "event_rebalance:tiered/axe/rose_golden"
                 }
             ],
             "rolls": 1

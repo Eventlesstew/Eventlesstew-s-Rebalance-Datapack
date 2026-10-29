@@ -1,6 +1,29 @@
 {
-    "type": "set_custom_data",
-    "tag": {
-        "modified":true
-    }
+    "type": "sequence",
+    "functions": [
+        {
+            "type": "set_custom_data",
+            "tag": {
+                "modified":true
+            }
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "#event_rebalance:dummy_items"
+            },
+            "on_pass": {
+                "type": "set_components",
+                "components": {
+                    "!jukebox_playable": {},
+                    "!provides_pottery_pattern": {},
+                    "max_stack_size": 64,
+                    "rarity":"common",
+                    "!brewing_fuel": {},
+                    "!cooking_fuel": {},
+                    "!compostable": {}
+                }
+            }
+        }
+    ]
 }

@@ -1,0 +1,89 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "golden_helmet"
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "set_attributes",
+                "modifiers": [
+                    {
+                        "slot": "head",
+                        "id": "balance_head",
+                        "attribute": "armor",
+                        "amount": 4,
+                        "operation": "add_value"
+                    },
+                    {
+                        "slot": "head",
+                        "id": "balance_head",
+                        "attribute": "movement_speed",
+                        "amount": 0.01,
+                        "operation": "add_multiplied_base"
+                    },
+                    {
+                        "slot": "head",
+                        "id": "balance_head",
+                        "attribute": "air_drag_modifier",
+                        "amount": -0.01,
+                        "operation": "add_multiplied_base"
+                    }
+                ]
+            },
+            {
+                "type": "set_components",
+                "components": {
+                    "max_damage": 256,
+                    "damage": 0,
+                    "max_stack_size": 1,
+                    "repairable": {
+                        "items": "#event_rebalance:tool_repair/golden"
+                    },
+                    "mob_visibility": {
+                        "targeting_entity_types": "#event_rebalance:mobs",
+                        "visibility": 1.25
+                    },
+                    "equippable": {
+                        "slot": "head",
+                        "equip_on_interact": true
+                    }
+                }
+            },
+            {
+                "type": "set_lore",
+                "mode": "append",
+                "lore": [
+                    {
+                        "translate": "4 ",
+                        "italic": false,
+                        "color": "#1aa819",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.armor"
+                            }
+                        ]
+                    },
+                    {
+                        "translate": "1% ",
+                        "italic": false,
+                        "color": "#1aa819",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.movement_speed"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

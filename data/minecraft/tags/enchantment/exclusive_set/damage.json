@@ -13,5 +13,6 @@
     "event_rebalance:brutality",
     "event_rebalance:puncture",
     "quick_charge"
-  ]
+  ],
+  "replace": true
 }

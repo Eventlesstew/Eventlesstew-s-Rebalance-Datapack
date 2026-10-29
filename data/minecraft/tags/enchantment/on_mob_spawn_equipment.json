@@ -1,5 +1,6 @@
 {
   "values": [
     "#minecraft:non_treasure"
-  ]
+  ],
+  "replace": true
 }

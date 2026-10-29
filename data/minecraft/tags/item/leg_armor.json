@@ -1,13 +1,7 @@
 {
   "values": [
-    "minecraft:leather_leggings",
-    "minecraft:copper_leggings",
-    "minecraft:chainmail_leggings",
-    "minecraft:golden_leggings",
-    "minecraft:iron_leggings",
-    "minecraft:diamond_leggings",
-    "minecraft:netherite_leggings",
-    "#event_rebalance:custom_item/gear/hoglin_hide/leggings",
-    "#event_rebalance:custom_item/gear/rose_golden/leggings"
-  ]
+    "#event_rebalance:custom_item/tiered/leggings/hoglin_hide",
+    "#event_rebalance:custom_item/tiered/leggings/rose_golden"
+  ],
+  "replace": false
 }

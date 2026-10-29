@@ -3,5 +3,6 @@
     "unbreaking",
     "mending",
     "event_rebalance:crystallization"
-  ]
+  ],
+    "replace": true
 }

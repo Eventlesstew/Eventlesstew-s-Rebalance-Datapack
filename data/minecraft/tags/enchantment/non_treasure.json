@@ -53,5 +53,6 @@
     "mending",
     "event_rebalance:crystallization",
     "event_rebalance:conserve"
-  ]
+  ],
+  "replace": true
 }

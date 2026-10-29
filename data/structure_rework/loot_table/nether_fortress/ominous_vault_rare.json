@@ -55,7 +55,7 @@
         {
           "type": "minecraft:item",
           "modifier": [
-            "event_rebalance:gear/netherite/hoe"
+            "event_rebalance:tiered/hoe/netherite"
           ],
           "name": "minecraft:netherite_hoe",
           "weight": 1
@@ -103,7 +103,7 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_sword",
           "modifier": [
-            "event_rebalance:gear/golden/sword",
+            "event_rebalance:tiered/sword/golden",
             {
               "type": "enchant_with_levels",
               "levels": {
@@ -119,7 +119,7 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_axe",
           "modifier": [
-            "event_rebalance:gear/golden/axe",
+            "event_rebalance:tiered/axe/golden",
             {
               "type": "enchant_with_levels",
               "levels": {
@@ -135,7 +135,7 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_spear",
           "modifier": [
-            "event_rebalance:gear/golden/spear",
+            "event_rebalance:tiered/spear/golden",
             {
               "type": "enchant_with_levels",
               "levels": {
@@ -149,7 +149,7 @@
         },
         {
           "type": "tag",
-          "items": "#event_rebalance:custom_item/gear/golden/dagger",
+          "items": "#event_rebalance:custom_item/tiered/dagger/golden",
           "expand":false,
           "modifier": [
             {
@@ -158,7 +158,7 @@
                 "item_model": "event:gear/golden/dagger"
               }
             },
-            "event_rebalance:gear/golden/dagger",
+            "event_rebalance:tiered/dagger/golden",
             {
               "type": "enchant_with_levels",
               "levels": {

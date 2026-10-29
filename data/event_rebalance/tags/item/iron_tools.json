@@ -12,7 +12,7 @@
         "minecraft:iron_boots",
         "minecraft:iron_horse_armor",
         "minecraft:iron_nautilus_armor",
-        "#event_rebalance:custom_item/gear/iron/dagger",
-        "#event_rebalance:custom_item/gear/iron/hammer"
+        "#event_rebalance:custom_item/tiered/dagger/iron",
+        "#event_rebalance:custom_item/tiered/hammer/iron"
     ]
 }

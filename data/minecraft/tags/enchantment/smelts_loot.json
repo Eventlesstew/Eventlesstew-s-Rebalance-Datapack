@@ -3,5 +3,6 @@
     "minecraft:fire_aspect",
     "event_rebalance:melting",
     "event_rebalance:hot_rod"
-  ]
+  ],
+  "replace": true
 }

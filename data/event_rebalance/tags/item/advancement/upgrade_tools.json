@@ -4,17 +4,17 @@
         "iron_axe",
         "iron_shovel",
         "iron_hoe",
-        "#event_rebalance:custom_item/gear/iron/hammer",
+        "#event_rebalance:custom_item/tiered/hammer/iron",
         "iron_sword",
-        "#event_rebalance:custom_item/gear/iron/dagger",
+        "#event_rebalance:custom_item/tiered/dagger/iron",
         "iron_spear",
         "copper_pickaxe",
         "copper_axe",
         "copper_shovel",
         "copper_hoe",
-        "#event_rebalance:custom_item/gear/copper/hammer",
+        "#event_rebalance:custom_item/tiered/hammer/copper",
         "copper_sword",
-        "#event_rebalance:custom_item/gear/copper/dagger",
+        "#event_rebalance:custom_item/tiered/dagger/copper",
         "copper_spear"
     ]
 }

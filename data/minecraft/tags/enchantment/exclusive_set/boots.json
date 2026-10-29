@@ -3,5 +3,6 @@
     "minecraft:frost_walker",
     "minecraft:depth_strider",
     "soul_speed"
-  ]
+  ],
+  "replace": true
 }

@@ -25,7 +25,7 @@
           "type": "minecraft:item",
           "name": "minecraft:wooden_hoe",
           "modifier": [
-            "event_rebalance:gear/wooden/hoe",
+            "event_rebalance:tiered/hoe/wooden",
             {
               "type": "set_enchantments",
               "enchantments": {
@@ -39,7 +39,7 @@
           "type": "minecraft:item",
           "name": "minecraft:wooden_spear",
           "modifier": [
-            "event_rebalance:gear/wooden/spear",
+            "event_rebalance:tiered/spear/wooden",
             {
               "type": "set_enchantments",
               "enchantments": {

@@ -1,0 +1,86 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "leather_horse_armor"
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "set_attributes",
+                "modifiers": [
+                    {
+                        "slot": "body",
+                        "id": "balance_body",
+                        "attribute": "armor",
+                        "amount": 8,
+                        "operation": "add_value"
+                    },
+                    {
+                        "slot": "body",
+                        "id": "balance_body",
+                        "attribute": "movement_speed",
+                        "amount": 0.1,
+                        "operation": "add_multiplied_base"
+                    },
+                    {
+                        "slot": "body",
+                        "id": "balance_body",
+                        "attribute": "air_drag_modifier",
+                        "amount": -0.1,
+                        "operation": "add_multiplied_base"
+                    }
+                ]
+            },
+            {
+                "type": "set_components",
+                "components": {
+                    "max_damage": 128,
+                    "damage": 0,
+                    "max_stack_size": 1,
+                    "repairable": {
+                        "items": "#event_rebalance:tool_repair/leather"
+                    },
+                    "equippable": {
+                        "slot": "body",
+                        "allowed_entities": "#can_wear_horse_armor",
+                        "can_be_sheared": true
+                    }
+                }
+            },
+            {
+                "type": "set_lore",
+                "mode": "append",
+                "lore": [
+                    {
+                        "translate": "8 ",
+                        "italic": false,
+                        "color": "#1aa819",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.armor"
+                            }
+                        ]
+                    },
+                    {
+                        "translate": "10% ",
+                        "italic": false,
+                        "color": "#1aa819",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.movement_speed"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

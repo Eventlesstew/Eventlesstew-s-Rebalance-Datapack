@@ -420,10 +420,10 @@
             "weight": 1
             },
             {
-            "type": "minecraft:item",
-            "name": "minecraft:music_disc_far",
+            "type": "minecraft:tag",
+            "items": "#event_rebalance:custom_item/tiered/dagger/golden",
             "modifier": [
-                "event_rebalance:gear/golden/dagger",
+                "event_rebalance:tiered/dagger/golden",
                 {
                 "type": "minecraft:enchant_randomly",
                 "options": "#minecraft:on_random_loot"

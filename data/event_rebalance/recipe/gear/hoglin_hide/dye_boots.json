@@ -1,7 +1,7 @@
 {
     "type": "crafting_dye",
     "dye": "#dyes",
-    "target": "#event_rebalance:custom_item/gear/hoglin_hide/boots",
+    "target": "#event_rebalance:custom_item/tiered/boots/hoglin_hide",
     "result": {
         "id": "skull_pottery_sherd"
     }

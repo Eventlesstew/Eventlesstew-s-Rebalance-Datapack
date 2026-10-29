@@ -1,13 +1,13 @@
 {
   "values": [
-    "#event_rebalance:custom_item/gear/wooden/dagger",
-    "#event_rebalance:custom_item/gear/stone/dagger",
-    "#event_rebalance:custom_item/gear/copper/dagger",
-    "#event_rebalance:custom_item/gear/iron/dagger",
-    "#event_rebalance:custom_item/gear/hyphae/dagger",
-    "#event_rebalance:custom_item/gear/golden/dagger",
-    "#event_rebalance:custom_item/gear/diamond/dagger",
-    "#event_rebalance:custom_item/gear/rose_golden/dagger",
-    "#event_rebalance:custom_item/gear/netherite/dagger"
+    "#event_rebalance:custom_item/tiered/dagger/wooden",
+    "#event_rebalance:custom_item/tiered/dagger/stone",
+    "#event_rebalance:custom_item/tiered/dagger/copper",
+    "#event_rebalance:custom_item/tiered/dagger/iron",
+    "#event_rebalance:custom_item/tiered/dagger/hyphae",
+    "#event_rebalance:custom_item/tiered/dagger/golden",
+    "#event_rebalance:custom_item/tiered/dagger/diamond",
+    "#event_rebalance:custom_item/tiered/dagger/rose_golden",
+    "#event_rebalance:custom_item/tiered/dagger/netherite"
   ]
 }

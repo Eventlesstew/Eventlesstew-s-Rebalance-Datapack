@@ -26,6 +26,13 @@
         {
             "type": "filtered",
             "item_filter": {
+                "items": "#event_rebalance:custom_item/tiered/dagger/wooden"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/1.5"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
                 "items": "wooden_shovel"
             },
             "on_pass": "event_rebalance:furnace_fuel/2"
@@ -36,6 +43,13 @@
                 "items": "wooden_hoe"
             },
             "on_pass": "event_rebalance:furnace_fuel/3"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
+                "items": "#event_rebalance:custom_item/tiered/hammer/wooden"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/6.5"
         },
         {
             "type": "filtered",

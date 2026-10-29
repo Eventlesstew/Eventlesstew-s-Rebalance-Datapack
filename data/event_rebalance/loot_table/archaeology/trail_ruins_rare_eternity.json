@@ -7,7 +7,7 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_helmet",
           "modifier": [
-            "event_rebalance:gear/iron/helmet",
+            "event_rebalance:tiered/helmet/iron",
             {
               "type": "set_enchantments",
               "enchantments": {
@@ -20,7 +20,7 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_chestplate",
           "modifier": [
-            "event_rebalance:gear/iron/chestplate",
+            "event_rebalance:tiered/chestplate/iron",
             {
               "type": "set_enchantments",
               "enchantments": {
@@ -33,7 +33,7 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_leggings",
           "modifier": [
-            "event_rebalance:gear/iron/leggings",
+            "event_rebalance:tiered/leggings/iron",
             {
               "type": "set_enchantments",
               "enchantments": {
@@ -46,7 +46,7 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_boots",
           "modifier": [
-            "event_rebalance:gear/iron/boots",
+            "event_rebalance:tiered/boots/iron",
             {
               "type": "set_enchantments",
               "enchantments": {
@@ -59,7 +59,7 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_sword",
           "modifier": [
-            "event_rebalance:gear/iron/sword",
+            "event_rebalance:tiered/sword/iron",
             {
               "type": "set_enchantments",
               "enchantments": {
@@ -72,7 +72,7 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_pickaxe",
           "modifier": [
-            "event_rebalance:gear/iron/pickaxe",
+            "event_rebalance:tiered/pickaxe/iron",
             {
               "type": "set_enchantments",
               "enchantments": {
@@ -85,7 +85,7 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_axe",
           "modifier": [
-            "event_rebalance:gear/iron/axe",
+            "event_rebalance:tiered/axe/iron",
             {
               "type": "set_enchantments",
               "enchantments": {
@@ -96,10 +96,10 @@
         },
         {
           "type": "minecraft:tag",
-          "items":"#event_rebalance:custom_item/gear/iron/hammer",
+          "items":"#event_rebalance:custom_item/tiered/hammer/iron",
           "expand": false,
           "modifier": [
-            "event_rebalance:gear/iron/hammer",
+            "event_rebalance:tiered/hammer/iron",
             {
               "type": "set_enchantments",
               "enchantments": {
@@ -112,7 +112,7 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_spear",
           "modifier": [
-            "event_rebalance:gear/iron/spear",
+            "event_rebalance:tiered/spear/iron",
             {
               "type": "set_enchantments",
               "enchantments": {
@@ -125,7 +125,7 @@
           "type": "minecraft:item",
           "name": "minecraft:leather_helmet",
           "modifier": [
-            "event_rebalance:gear/leather/helmet",
+            "event_rebalance:tiered/helmet/iron",
             {
               "type": "set_enchantments",
               "enchantments": {
@@ -138,7 +138,7 @@
           "type": "minecraft:item",
           "name": "minecraft:leather_chestplate",
           "modifier": [
-            "event_rebalance:gear/leather/chestplate",
+            "event_rebalance:tiered/chestplate/iron",
             {
               "type": "set_enchantments",
               "enchantments": {
@@ -151,7 +151,7 @@
           "type": "minecraft:item",
           "name": "minecraft:leather_leggings",
           "modifier": [
-            "event_rebalance:gear/leather/leggings",
+            "event_rebalance:tiered/leggings/iron",
             {
               "type": "set_enchantments",
               "enchantments": {
@@ -164,7 +164,7 @@
           "type": "minecraft:item",
           "name": "minecraft:leather_boots",
           "modifier": [
-            "event_rebalance:gear/leather/boots",
+            "event_rebalance:tiered/boots/iron",
             {
               "type": "set_enchantments",
               "enchantments": {
@@ -177,7 +177,7 @@
           "type": "minecraft:item",
           "name": "minecraft:copper_sword",
           "modifier": [
-            "event_rebalance:gear/copper/sword",
+            "event_rebalance:tiered/sword/iron",
             {
               "type": "set_enchantments",
               "enchantments": {
@@ -190,7 +190,7 @@
           "type": "minecraft:item",
           "name": "minecraft:copper_pickaxe",
           "modifier": [
-            "event_rebalance:gear/copper/pickaxe",
+            "event_rebalance:tiered/pickaxe/copper",
             {
               "type": "set_enchantments",
               "enchantments": {
@@ -203,7 +203,7 @@
           "type": "minecraft:item",
           "name": "minecraft:copper_axe",
           "modifier": [
-            "event_rebalance:gear/copper/axe",
+            "event_rebalance:tiered/axe/copper",
             {
               "type": "set_enchantments",
               "enchantments": {
@@ -214,10 +214,10 @@
         },
         {
           "type": "minecraft:tag",
-          "items":"#event_rebalance:custom_item/gear/copper/hammer",
+          "items":"#event_rebalance:custom_item/tiered/hammer/copper",
           "expand": false,
           "modifier": [
-            "event_rebalance:gear/copper/hammer",
+            "event_rebalance:tiered/hammer/copper",
             {
               "type": "set_enchantments",
               "enchantments": {
@@ -230,7 +230,7 @@
           "type": "minecraft:item",
           "name": "minecraft:copper_spear",
           "modifier": [
-            "event_rebalance:gear/copper/spear",
+            "event_rebalance:tiered/spear/copper",
             {
               "type": "set_enchantments",
               "enchantments": {

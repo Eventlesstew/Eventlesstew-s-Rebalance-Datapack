@@ -16,8 +16,7 @@
                 "state": {
                     "id": "deepslate_coal_ore"
                 }
-            },
-            "prioritize_tip":false
+            }
         }
     ],
     "prioritize_tip": false,

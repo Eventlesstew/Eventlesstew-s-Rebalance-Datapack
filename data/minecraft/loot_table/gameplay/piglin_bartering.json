@@ -15,7 +15,7 @@
         {
           "type": "minecraft:item",
           "modifier": [
-            "event_rebalance:gear/iron/sword",
+            "event_rebalance:tiered/sword/iron",
             {
               "type": "minecraft:enchant_randomly",
               "options": "minecraft:fire_aspect"

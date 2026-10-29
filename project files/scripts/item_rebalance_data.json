@@ -114,7 +114,13 @@
         "furnace_fuel":{
             "_type":"tiered",
             "wooden":2.5
-        }
+        },
+        "mining_speed":{
+            "_type":"reference",
+            "reference":"pickaxe"
+        },
+        "mining_category":"sword",
+        "hide_mining_tooltips":true
     },
     "pickaxe":{
         "item_class":"tiered",
@@ -142,18 +148,18 @@
             "rose_golden":24,
             "netherite":16
         },
-        "mining_category":{
+        "mining_power": {
             "_type":"tiered",
-            "wooden":"pickaxe_power_1",
-            "stone":"pickaxe_power_1",
-            "copper":"pickaxe_power_2",
-            "iron":"pickaxe_power_2",
-            "hyphae":"pickaxe_power_2",
-            "golden":"pickaxe_power_3",
-            "diamond":"pickaxe_power_3",
-            "rose_golden":"pickaxe_power_3",
-            "netherite":"pickaxe_power_3"
+            "wooden":1,
+            "stone":1,
+            "copper":2,
+            "iron":2,
+            "golden":3,
+            "diamond":3,
+            "rose_golden":3,
+            "netherite":3
         },
+        "mining_category": "pickaxe",
         "block_interaction_range":{
             "_type":"tiered",
             "wooden":1,
@@ -226,7 +232,8 @@
         "furnace_fuel":{
             "_type":"tiered",
             "wooden":4
-        }
+        },
+        "shield_disable_time":5
     },
     "dagger":{
         "item_class":"tiered",
@@ -267,6 +274,17 @@
         "furnace_fuel":{
             "_type":"tiered",
             "wooden":1.5
+        },
+        "shield_disable_time":0.5,
+        "mining_speed":{
+            "_type":"reference",
+            "reference":"pickaxe"
+        },
+        "mining_category":"sword",
+        "hide_mining_tooltips":true,
+        "attack_animation": {
+            "type":"stab",
+            "duration":4
         }
     },
     "shovel":{
@@ -359,18 +377,18 @@
             "reference":"pickaxe",
             "mult":0.75
         },
-        "mining_category":{
+        "mining_power": {
             "_type":"tiered",
-            "wooden":"hammer_power_1",
-            "stone":"hammer_power_1",
-            "copper":"hammer_power_2",
-            "iron":"hammer_power_2",
-            "hyphae":"hammer_power_2",
-            "golden":"hammer_power_3",
-            "diamond":"hammer_power_3",
-            "rose_golden":"hammer_power_3",
-            "netherite":"hammer_power_3"
+            "wooden":1,
+            "stone":1,
+            "copper":2,
+            "iron":2,
+            "golden":3,
+            "diamond":3,
+            "rose_golden":3,
+            "netherite":3
         },
+        "mining_category": "hammer",
         "block_interaction_range":{
             "_type":"reference",
             "reference":"pickaxe"
@@ -455,7 +473,14 @@
         "furnace_fuel":{
             "_type":"tiered",
             "wooden":2
-        }
+        },
+        "piercing_weapon": {
+            "_type":"tiered",
+            "other":"spear",
+            "wooden":"spear_wood",
+            "hyphae":"spear_wood"
+        },
+        "minimum_attack_charge":1
     },
     "helmet":{
         "item_type":{
@@ -673,7 +698,93 @@
             "reference":"helmet"
         }
     },
-
+    "horse_armor":{
+        "item_type":{
+            "_type":"tiered",
+            "other":"default",
+            "chainmail":"custom_item_tag",
+            "hoglin_hide":"custom_item_tag",
+            "rose_golden":"custom_item_tag"
+        },
+        "tiers": {
+            "_type":"reference",
+            "reference":"template_armor"
+        },
+        "slot":"body",
+        "equippable":"horse",
+        "max_damage":{
+            "_type":"reference",
+            "reference":"template_armor"
+        },
+        "armor": {
+            "_type":"tiered",
+            "leather":8,
+            "chainmail":10,
+            "copper": 12,
+            "iron":16,
+            "hoglin_hide":12,
+            "golden":18,
+            "diamond":20,
+            "rose_golden":20,
+            "netherite":20
+        },
+        "armor_toughness":{
+            "_type":"tiered",
+            "chainmail":6,
+            "diamond":8,
+            "netherite":20
+        },
+        "movement_speed": {
+            "_type":"tiered",
+            "leather":10,
+            "chainmail":8,
+            "copper":10,
+            "golden":5,
+            "diamond":-5,
+            "rose_golden":10,
+            "netherite":-10
+        },
+        "burn_time":{
+            "_type":"tiered",
+            "netherite":-1
+        }
+    },
+    "nautilus_armor":{
+        "item_type":{
+            "_type":"tiered",
+            "other":"default",
+            "leather":"custom_item_tag",
+            "chainmail":"custom_item_tag",
+            "hoglin_hide":"custom_item_tag",
+            "rose_golden":"custom_item_tag"
+        },
+        "tiers": {
+            "_type":"reference",
+            "reference":"template_armor"
+        },
+        "slot":"body",
+        "equippable":"nautilus",
+        "max_damage":{
+            "_type":"reference",
+            "reference":"template_armor"
+        },
+        "armor": {
+            "_type":"reference",
+            "reference":"horse_armor"
+        },
+        "armor_toughness":{
+            "_type":"reference",
+            "reference":"horse_armor"
+        },
+        "movement_speed": {
+            "_type":"reference",
+            "reference":"horse_armor"
+        },
+        "burn_time":{
+            "_type":"reference",
+            "reference":"horse_armor"
+        }
+    },
     "lava_bucket":{
         "furnace_fuel":100,
         "brewing_fuel":40

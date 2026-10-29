@@ -12,7 +12,7 @@
         "minecraft:golden_boots",
         "minecraft:golden_horse_armor",
         "minecraft:golden_nautilus_armor",
-        "#event_rebalance:custom_item/gear/golden/dagger",
-        "#event_rebalance:custom_item/gear/golden/hammer"
+        "#event_rebalance:custom_item/tiered/dagger/golden",
+        "#event_rebalance:custom_item/tiered/hammer/golden"
     ]
 }

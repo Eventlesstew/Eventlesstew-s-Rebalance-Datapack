@@ -1,0 +1,114 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "#event_rebalance:custom_item/tiered/axe/rose_golden"
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "set_attributes",
+                "modifiers": [
+                    {
+                        "slot": "mainhand",
+                        "id": "balance",
+                        "attribute": "attack_damage",
+                        "amount": 10,
+                        "operation": "add_value"
+                    },
+                    {
+                        "slot": "mainhand",
+                        "id": "balance",
+                        "attribute": "attack_speed",
+                        "amount": -2.6,
+                        "operation": "add_value"
+                    },
+                    {
+                        "slot": "mainhand",
+                        "id": "balance",
+                        "attribute": "block_interaction_range",
+                        "amount": -1,
+                        "operation": "add_value"
+                    }
+                ]
+            },
+            {
+                "type": "set_components",
+                "components": {
+                    "max_damage": 512,
+                    "damage": 0,
+                    "max_stack_size": 1,
+                    "repairable": {
+                        "items": "#event_rebalance:tool_repair/rose_golden"
+                    },
+                    "weapon": {
+                        "item_damage_per_attack": 1,
+                        "disable_blocking_for_seconds": 5
+                    },
+                    "tool": {
+                        "rules": [
+                            {
+                                "blocks": "#mineable/axe",
+                                "speed": 24,
+                                "correct_for_drops": true
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "set_lore",
+                "mode": "append",
+                "lore": [
+                    {
+                        "translate": "11 ",
+                        "italic": false,
+                        "color": "#1aa819",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.attack_damage"
+                            }
+                        ]
+                    },
+                    {
+                        "translate": "1.4 ",
+                        "italic": false,
+                        "color": "#1aa819",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.attack_speed"
+                            }
+                        ]
+                    },
+                    {
+                        "translate": "24 ",
+                        "italic": false,
+                        "color": "#1aa819",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.mining_speed.axe"
+                            }
+                        ]
+                    },
+                    {
+                        "translate": "-1 ",
+                        "italic": false,
+                        "color": "#1aa819",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.block_interaction_range"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
