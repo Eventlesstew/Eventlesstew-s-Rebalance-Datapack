@@ -5,12 +5,6 @@
     "category": "food",
     "ingredient": "cocoa_beans",
     "result": {
-        "id": "charcoal",
-        "components": {
-            "item_model": "event:chocolate",
-            "item_name": {
-                "translate": "item.event.chocolate"
-            }
-        }
+        "id": "charcoal"
     }
 }

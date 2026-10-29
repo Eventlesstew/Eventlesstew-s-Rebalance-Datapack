@@ -119,6 +119,7 @@
     "item.minecraft.zoglin_spawn_egg": "Hoglin Hide",
     "item.minecraft.music_disc_relic": "Staff",
     "item.minecraft.music_disc_bounce": "Totem of Warping",
+    "item.minecraft.beetroot_seeds":"Beetroot",
     
     "item.minecraft.wandering_trader_spawn_egg": "Scroll of Fortune",
     "item.minecraft.pig_spawn_egg": "Scroll of Brutality",
@@ -177,7 +178,7 @@
     "item.event.shell_shield": "Shell Shield",
 
     "item.event.apple_pie": "Apple Pie",
-    "item.event.chocolate": "Chocolate",
+    "item.minecraft.charcoal": "Chocolate",
     "item.minecraft.tropical_fish": "Raw Tropical Fish",
     "item.event.cooked_tropical_fish": "Cooked Tropical Fish",
     

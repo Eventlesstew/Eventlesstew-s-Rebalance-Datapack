@@ -63,8 +63,8 @@ Magma Cube Spawn Egg: Disc Fragment 11
 
 Vex Spawn Egg: Lode
 Breeze Spawn Egg: Breeze Powder
-Ghast Spawn Egg: Ominous Fortress Key
-Happy Ghast Spawn Egg: Fortress Key
+Trial Key: Ominous Fortress Key
+Trial Key: Fortress Key
 
 Piglin Spawn Egg: Rose Golden Nugget
 Piglin Brute Spawn Egg: Rose Golden Ingot

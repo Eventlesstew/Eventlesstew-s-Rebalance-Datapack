@@ -1741,7 +1741,8 @@
         "saturation":4,
         "eat_time":1,
         "eat_sound":"soft",
-        "compost_value":0.5
+        "compost_value":0.5,
+        "furnace_fuel":0
     },
     "biscuit":{
         "item_class":"food",
