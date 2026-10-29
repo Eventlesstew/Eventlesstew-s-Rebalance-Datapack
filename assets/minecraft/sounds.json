@@ -72,7 +72,7 @@
         ],
         "subtitle": "subtitles.entity.generic.eat"
     },
-    "item.chocolate.eat":{
+    "item.soft.eat":{
         "sounds":[ 
             {"name":"mob/frog/eat1"},
             {"name":"mob/frog/eat2"},
