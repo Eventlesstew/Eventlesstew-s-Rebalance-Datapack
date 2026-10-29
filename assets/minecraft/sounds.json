@@ -117,7 +117,7 @@
         ],
         "subtitle": "subtitles.entity.player.burp"
     },
-    "item.bad_food.consume":{
+    "item.bad.consume":{
         "sounds":[ 
             {"name":"event:item/bad_food/consume/1"},
             {"name":"event:item/bad_food/consume/2"},
@@ -125,14 +125,14 @@
         ],
         "subtitle": "subtitles.entity.player.burp.bad_food"
     },
-    "item.golden_food.consume":{
+    "item.golden.consume":{
         "sounds":[ 
             {"name":"event:item/golden_food/consume"}
             
         ],
         "subtitle": "subtitles.entity.player.burp.golden_food"
     },
-    "item.enchanted_golden_food.consume":{
+    "item.godly.consume":{
         "sounds":[ 
             {"name":"event:item/enchanted_golden_apple/consume/1"},
             {"name":"event:item/enchanted_golden_apple/consume/2"},
