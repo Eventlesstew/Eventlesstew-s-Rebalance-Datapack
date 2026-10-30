@@ -8,6 +8,7 @@ execute if entity @s[tag=sits_on_cushion] run function event_rebalance:entities/
 execute if entity @s[type=armor_stand] run function event_rebalance:entities/rebalance/armor_stand/rebalance
 execute if entity @s[type=item] run function event_rebalance:entities/rebalance/item/rebalance
 execute if entity @s[type=arrow] run function event_rebalance:entities/rebalance/arrow/rebalance
+execute if entity @s[type=spectral_arrow] run function event_rebalance:entities/rebalance/spectral_arrow/rebalance
 
 # Overworld Animals
 execute if entity @s[type=goat] run function event_rebalance:entities/rebalance/goat/rebalance
