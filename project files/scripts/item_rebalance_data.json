@@ -153,11 +153,12 @@
             "wooden":1,
             "stone":1,
             "copper":2,
-            "iron":2,
+            "iron":3,
+            "hyphae":3,
             "golden":3,
-            "diamond":3,
-            "rose_golden":3,
-            "netherite":3
+            "diamond":4,
+            "rose_golden":4,
+            "netherite":4
         },
         "mining_category": "pickaxe",
         "block_interaction_range":{
@@ -783,6 +784,65 @@
         "burn_time":{
             "_type":"reference",
             "reference":"horse_armor"
+        }
+    },
+    "handsaw":{
+        "item_type":"custom_item_tag",
+        "max_damage": 512,
+        "mining_speed": 8,
+        "mining_power": 3,
+        "mining_category": "hammer",
+        "block_interaction_range": 1,
+        "attack_damage": 6,
+        "attack_speed": 1
+    },
+    "shears":{
+        "max_damage": 192,
+        "mining_speed": 6,
+        "mining_category": "shears",
+        "attack_damage": 2,
+        "attack_speed": 2
+    },
+    "brush":{
+        "max_damage": 128
+    },
+    "fishing_rod":{
+        "max_damage": 365,
+        "furnace_fuel":1.5
+    },
+    "carrot_on_a_stick":{
+        "max_damage": 128,
+        "furnace_fuel":1.5
+    },
+    "warped_fungus_on_a_stick":{
+        "max_damage": 128,
+        "furnace_fuel":1.5
+    },
+    "flint_and_steel":{
+        "max_damage": 128
+    },
+    "mace":{
+        "max_damage": 1024,
+        "attack_damage":6,
+        "attack_speed":1,
+        "shield_disable_time":5
+    },
+    "bow":{
+        "max_damage": 384,
+        "furnace_fuel":1.5
+    },
+    "crossbow":{
+        "max_damage": 465,
+        "furnace_fuel":2.25
+    },
+    "trident":{
+        "max_damage": 1024,
+        "attack_damage":8,
+        "attack_speed":1,
+        "piercing_weapon": "spear",
+        "attack_animation": {
+            "type":"stab",
+            "duration":4
         }
     },
     "lava_bucket":{

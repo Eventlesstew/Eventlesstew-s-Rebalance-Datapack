@@ -8,7 +8,7 @@
           "name": "minecraft:bow",
           "weight": 5,
           "modifier": [
-            "event_rebalance:other_weapons/bow",
+            "event_rebalance:base/bow",
             {
               "type": "minecraft:set_damage",
               "damage": {
@@ -33,7 +33,7 @@
           "name": "minecraft:fishing_rod",
           "weight": 5,
           "modifier": [
-            "event_rebalance:other_tools/fishing_rod",
+            "event_rebalance:base/fishing_rod",
             {
               "type": "minecraft:set_damage",
               "damage": {

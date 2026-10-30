@@ -54,7 +54,7 @@
                     "name": "fishing_rod",
                     "weight": 2,
                     "modifier": [
-                        "event_rebalance:other_tools/fishing_rod",
+                        "event_rebalance:base/fishing_rod",
                         {
                             "type": "set_damage",
                             "damage": {

@@ -12,7 +12,7 @@
         "netherite_axe_smithing",
         "netherite_sword_smithing",
         "netherite_spear_smithing",
-        "event_rebalance:gear/netherite/dagger",
-        "event_rebalance:gear/netherite/hammer"
+        "event_rebalance:tiered/dagger/netherite",
+        "event_rebalance:tiered/hammer/netherite"
     ]
 }

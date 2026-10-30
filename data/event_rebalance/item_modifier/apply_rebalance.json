@@ -99,6 +99,7 @@
             "event_rebalance:tiered/helmet/diamond",
             "event_rebalance:tiered/helmet/rose_golden",
             "event_rebalance:tiered/helmet/netherite",
+            "event_rebalance:tiered/helmet/turtle",
             
             "event_rebalance:tiered/chestplate/leather",
             "event_rebalance:tiered/chestplate/chainmail",
@@ -167,19 +168,17 @@
             "event_rebalance:shield/mini_shield",
             "event_rebalance:shield/shell_shield",
 
-            "event_rebalance:other_tools/brush",
-            "event_rebalance:other_tools/carrot_on_a_stick",
-            "event_rebalance:other_tools/warped_fungus_on_a_stick",
-            "event_rebalance:other_tools/fishing_rod",
-            "event_rebalance:other_tools/flint_and_steel",
-            "event_rebalance:other_tools/handsaw",
-            "event_rebalance:other_tools/shears",
-
-            "event_rebalance:other_weapons/bow",
-            "event_rebalance:other_weapons/crossbow",
-            "event_rebalance:other_weapons/trident",
-            "event_rebalance:other_weapons/mace",
-            "event_rebalance:other_weapons/staff",
+            "event_rebalance:base/brush",
+            "event_rebalance:base/carrot_on_a_stick",
+            "event_rebalance:base/fishing_rod",
+            "event_rebalance:base/flint_and_steel",
+            "event_rebalance:base/handsaw",
+            "event_rebalance:base/mace",
+            "event_rebalance:base/shears",
+            "event_rebalance:base/trident",
+            "event_rebalance:base/warped_fungus_on_a_stick",
+            "event_rebalance:base/bow",
+            "event_rebalance:base/crossbow",
 
             "event_rebalance:food/sea_pickle",
 

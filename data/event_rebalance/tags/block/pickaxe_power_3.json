@@ -1,7 +1,7 @@
 {
     "values": [
-        "#event_rebalance:obsidian",
-        "#event_rebalance:netherite_blocks",
+        "#event_rebalance:diamond_blocks",
+        "#event_rebalance:gold_blocks",
         "#event_rebalance:custom_block/rose_golden_block"
     ]
 }

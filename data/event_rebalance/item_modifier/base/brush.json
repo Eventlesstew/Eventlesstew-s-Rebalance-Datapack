@@ -8,9 +8,17 @@
         "functions": [
             "event_rebalance:modified",
             {
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
                 "type": "set_components",
                 "components": {
-                    "minecraft:max_damage": 128,
+                    "max_damage": 128,
+                    "damage": 0,
+                    "max_stack_size": 1,
                     "repairable": {
                         "items": "#event_rebalance:tool_repair/brush"
                     }

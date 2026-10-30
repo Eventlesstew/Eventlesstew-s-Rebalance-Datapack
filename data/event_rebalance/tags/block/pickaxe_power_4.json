@@ -1,4 +1,6 @@
 {
     "values": [
+        "#event_rebalance:obsidian",
+        "#event_rebalance:netherite_blocks"
     ]
 }

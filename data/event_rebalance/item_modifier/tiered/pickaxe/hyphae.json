@@ -57,6 +57,16 @@
                     "tool": {
                         "rules": [
                             {
+                                "blocks": "#event_rebalance:pickaxe_power_4",
+                                "speed": 3.0,
+                                "correct_for_drops": false
+                            },
+                            {
+                                "blocks": "#event_rebalance:obsidian",
+                                "speed": 24,
+                                "correct_for_drops": true
+                            },
+                            {
                                 "blocks": "#mineable/pickaxe",
                                 "speed": 12,
                                 "correct_for_drops": true
@@ -96,6 +106,16 @@
                         "extra": [
                             {
                                 "translate": "attribute.name.mining_speed.pickaxe"
+                            }
+                        ]
+                    },
+                    {
+                        "translate": "3 ",
+                        "italic": false,
+                        "color": "#1aa819",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.mining_power.pickaxe"
                             }
                         ]
                     },

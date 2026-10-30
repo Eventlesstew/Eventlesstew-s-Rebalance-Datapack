@@ -57,7 +57,7 @@
                     "tool": {
                         "rules": [
                             {
-                                "blocks": "#event_rebalance:pickaxe_power_4",
+                                "blocks": "#event_rebalance:pickaxe_power_5",
                                 "speed": 6.0,
                                 "correct_for_drops": false
                             },
@@ -110,7 +110,7 @@
                         ]
                     },
                     {
-                        "translate": "3 ",
+                        "translate": "4 ",
                         "italic": false,
                         "color": "#1aa819",
                         "extra": [

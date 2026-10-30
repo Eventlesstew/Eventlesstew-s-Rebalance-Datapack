@@ -1,18 +1,18 @@
 {
     "values": [
-        "event_rebalance:gear/rose_golden/helmet",
-        "event_rebalance:gear/rose_golden/chestplate",
-        "event_rebalance:gear/rose_golden/leggings",
-        "event_rebalance:gear/rose_golden/boots",
-        "event_rebalance:gear/rose_golden/horse_armor",
-        "event_rebalance:gear/rose_golden/nautilus_armor",
-        "event_rebalance:gear/rose_golden/sword",
-        "event_rebalance:gear/rose_golden/dagger",
-        "event_rebalance:gear/rose_golden/spear",
-        "event_rebalance:gear/rose_golden/hammer",
-        "event_rebalance:gear/rose_golden/axe",
-        "event_rebalance:gear/rose_golden/pickaxe",
-        "event_rebalance:gear/rose_golden/shovel",
-        "event_rebalance:gear/rose_golden/hoe"
+        "event_rebalance:tiered/helmet/rose_golden",
+        "event_rebalance:tiered/chestplate/rose_golden",
+        "event_rebalance:tiered/leggings/rose_golden",
+        "event_rebalance:tiered/boots/rose_golden",
+        "event_rebalance:tiered/horse_armor/rose_golden",
+        "event_rebalance:tiered/nautilus_armor/rose_golden",
+        "event_rebalance:tiered/sword/rose_golden",
+        "event_rebalance:tiered/dagger/rose_golden",
+        "event_rebalance:tiered/spear/rose_golden",
+        "event_rebalance:tiered/hammer/rose_golden",
+        "event_rebalance:tiered/axe/rose_golden",
+        "event_rebalance:tiered/pickaxe/rose_golden",
+        "event_rebalance:tiered/shovel/rose_golden",
+        "event_rebalance:tiered/hoe/rose_golden"
     ]
 }
