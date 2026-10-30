@@ -45,6 +45,14 @@
         {"name":"event:item/cluster_shield/block/block3"},
         {"name":"event:item/cluster_shield/block/block4"}
     ]},
+    "item.hammer.swing":{
+        "sounds":[ 
+            {"name":"event:item/hammer/swing/swing1"},
+            {"name":"event:item/hammer/swing/swing2"},
+            {"name":"event:item/hammer/swing/swing3"}
+        ],
+        "subtitle": "subtitles.item.hammer.swing"
+    },
 
     "item.milk_bucket.drink":{
         "sounds":[ 

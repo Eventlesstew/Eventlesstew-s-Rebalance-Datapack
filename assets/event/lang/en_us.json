@@ -655,6 +655,8 @@
     "subtitles.entity.player.burp.enchanted_golden_food": "Enchanted Golden Item Consumed",
     "subtitles.entity.player.burp.glow_berries": "Glow Berries Consumed",
 
+    "subtitles.item.hammer.swing": "Hammer Swings",
+    
     "subtitles.enchant.brutality": "Brutal Attack",
     "subtitles.enchant.power.melee": "Powered Attack",
     "subtitles.enchant.power.ranged": "Powered Shot",
