@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "#":"#event_rebalance:hyphae_tool_materials",
+        "S":"stick"
+    },
+    "pattern": [
+        "##",
+        "#S",
+        " S"
+    ],
+    "result": {
+        "id": "music_disc_ward",
+        "components": {
+            "!jukebox_playable":{},
+            "item_model": "event:tiered/axe/hyphae",
+            "item_name": "item.event.hyphae_axe"
+        }
+    }
+}

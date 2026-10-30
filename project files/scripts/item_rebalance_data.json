@@ -19,8 +19,8 @@
         "item_type":{
             "_type":"tiered",
             "other":"default",
-            "hyphae":"custom_item_tag",
-            "rose_golden":"custom_item_tag"
+            "hyphae":"custom_item_model",
+            "rose_golden":"custom_item_model"
         },
         "tiers":[
             "wooden",
@@ -237,7 +237,7 @@
     },
     "dagger":{
         "item_class":"tiered",
-        "item_type":"custom_item_tag",
+        "item_type":"custom_item_model",
         "tiers":{
             "_type":"reference",
             "reference":"template_tool"
@@ -363,7 +363,7 @@
     },
     "hammer":{
         "item_class":"tiered",
-        "item_type":"custom_item_tag",
+        "item_type":"custom_item_model",
         "tiers":{
             "_type":"reference",
             "reference":"template_tool"
@@ -702,9 +702,9 @@
         "item_type":{
             "_type":"tiered",
             "other":"default",
-            "chainmail":"custom_item_tag",
-            "hoglin_hide":"custom_item_tag",
-            "rose_golden":"custom_item_tag"
+            "chainmail":"custom_item_model",
+            "hoglin_hide":"custom_item_model",
+            "rose_golden":"custom_item_model"
         },
         "tiers": {
             "_type":"reference",
@@ -753,10 +753,10 @@
         "item_type":{
             "_type":"tiered",
             "other":"default",
-            "leather":"custom_item_tag",
-            "chainmail":"custom_item_tag",
-            "hoglin_hide":"custom_item_tag",
-            "rose_golden":"custom_item_tag"
+            "leather":"custom_item_model",
+            "chainmail":"custom_item_model",
+            "hoglin_hide":"custom_item_model",
+            "rose_golden":"custom_item_model"
         },
         "tiers": {
             "_type":"reference",

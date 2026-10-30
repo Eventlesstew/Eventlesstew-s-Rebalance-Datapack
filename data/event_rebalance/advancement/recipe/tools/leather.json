@@ -19,7 +19,7 @@
   ],
   "rewards": {
     "recipes": [
-      "event_rebalance:gear/leather/nautilus_armor"
+      "event_rebalance:tiered/nautilus_armor/leather"
     ]
   }
 }

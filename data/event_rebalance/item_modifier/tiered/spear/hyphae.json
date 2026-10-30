@@ -1,7 +1,9 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "#event_rebalance:custom_item/tiered/spear/hyphae"
+        "components": {
+            "item_model": "event:spear/hyphae"
+        }
     },
     "on_pass": {
         "type": "sequence",

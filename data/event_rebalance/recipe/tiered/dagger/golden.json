@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "#": "#gold_tool_materials",
+        "S": "stick"
+    },
+    "pattern": [
+        " #",
+        "S "
+    ],
+    "result": {
+        "id": "music_disc_pigstep",
+        "components": {
+            "!jukebox_playable":{},
+            "item_model": "event:tiered/dagger/golden",
+            "item_name": {
+                "translate": "item.event.golden_dagger"
+            }
+        }
+    }
+}

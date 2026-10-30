@@ -19,14 +19,14 @@
   ],
   "rewards": {
     "recipes": [
-      "event_rebalance:gear/hyphae/sword",
-      "event_rebalance:gear/hyphae/spear",
-      "event_rebalance:gear/hyphae/dagger",
-      "event_rebalance:gear/hyphae/hammer",
-      "event_rebalance:gear/hyphae/pickaxe",
-      "event_rebalance:gear/hyphae/axe",
-      "event_rebalance:gear/hyphae/shovel",
-      "event_rebalance:gear/hyphae/hoe"
+      "event_rebalance:tiered/sword/hyphae",
+      "event_rebalance:tiered/spear/hyphae",
+      "event_rebalance:tiered/dagger/hyphae",
+      "event_rebalance:tiered/hammer/hyphae",
+      "event_rebalance:tiered/pickaxe/hyphae",
+      "event_rebalance:tiered/axe/hyphae",
+      "event_rebalance:tiered/shovel/hyphae",
+      "event_rebalance:tiered/hoe/hyphae"
     ]
   }
 }

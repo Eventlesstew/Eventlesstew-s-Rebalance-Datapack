@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "#": "#diamond_tool_materials",
+        "S": "stick"
+    },
+    "pattern": [
+        " #",
+        "S "
+    ],
+    "result": {
+        "id": "music_disc_cat",
+        "components": {
+            "!jukebox_playable":{},
+            "item_model": "event:tiered/dagger/diamond",
+            "item_name": {
+                "translate": "item.event.diamond_dagger"
+            }
+        }
+    }
+}

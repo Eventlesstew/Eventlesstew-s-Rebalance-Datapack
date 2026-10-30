@@ -19,8 +19,8 @@
   ],
   "rewards": {
     "recipes": [
-      "event_rebalance:gear/wooden/dagger",
-      "event_rebalance:gear/wooden/hammer"
+      "event_rebalance:tiered/dagger/wooden",
+      "event_rebalance:tiered/hammer/wooden"
     ]
   }
 }

@@ -1,7 +1,9 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "#event_rebalance:custom_item/tiered/horse_armor/chainmail"
+        "components": {
+            "item_model": "event:horse_armor/chainmail"
+        }
     },
     "on_pass": {
         "type": "sequence",

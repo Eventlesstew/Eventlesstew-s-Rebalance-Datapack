@@ -315,7 +315,7 @@ class item:
                         "min_speed": 4,
                     },
                     "damage_conditions": {
-                        "max_duration_ticks": charge_duration * 20,
+                        "max_duration_ticks": int(charge_duration * 20),
                         "min_speed": 4,
                     },
                     "damage_multiplier": 1,

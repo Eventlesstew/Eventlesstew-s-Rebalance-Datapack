@@ -1,7 +1,9 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "#event_rebalance:custom_item/tiered/hammer/golden"
+        "components": {
+            "item_model": "event:hammer/golden"
+        }
     },
     "on_pass": {
         "type": "sequence",

@@ -1,7 +1,9 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "#event_rebalance:custom_item/tiered/hoe/hyphae"
+        "components": {
+            "item_model": "event:hoe/hyphae"
+        }
     },
     "on_pass": {
         "type": "sequence",

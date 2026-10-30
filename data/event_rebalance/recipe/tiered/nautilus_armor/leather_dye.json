@@ -1,0 +1,8 @@
+{
+    "type": "crafting_dye",
+    "dye": "#dyes",
+    "target": "#event_rebalance:custom_item/tiered/nautilus_armor/leather",
+    "result": {
+        "id": "mourner_pottery_sherd"
+    }
+}

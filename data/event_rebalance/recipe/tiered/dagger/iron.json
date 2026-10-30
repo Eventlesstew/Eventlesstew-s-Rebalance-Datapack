@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "#": "#iron_tool_materials",
+        "S": "stick"
+    },
+    "pattern": [
+        " #",
+        "S "
+    ],
+    "result": {
+        "id": "music_disc_blocks",
+        "components": {
+            "!jukebox_playable":{},
+            "item_model": "event:tiered/dagger/iron",
+            "item_name": {
+                "translate": "item.event.iron_dagger"
+            }
+        }
+    }
+}

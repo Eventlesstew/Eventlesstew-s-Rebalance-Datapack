@@ -1,0 +1,22 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "#":"#stone_tool_materials",
+        "S":"stick"
+    },
+    "pattern": [
+        "###",
+        "###",
+        " S "
+    ],
+    "result": {
+        "id": "music_disc_blocks",
+        "components": {
+            "!jukebox_playable":{},
+            "item_model": "event:tiered/hammer/stone",
+            "item_name": {
+                "translate": "item.event.stone_hammer"
+            }
+        }
+    }
+}

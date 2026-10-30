@@ -1,7 +1,9 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "#event_rebalance:custom_item/tiered/dagger/copper"
+        "components": {
+            "item_model": "event:dagger/copper"
+        }
     },
     "on_pass": {
         "type": "sequence",

@@ -19,12 +19,12 @@
   ],
   "rewards": {
     "recipes": [
-      "event_rebalance:gear/hoglin_hide/helmet",
-      "event_rebalance:gear/hoglin_hide/chestplate",
-      "event_rebalance:gear/hoglin_hide/leggings",
-      "event_rebalance:gear/hoglin_hide/boots",
-      "event_rebalance:gear/hoglin_hide/horse_armor",
-      "event_rebalance:gear/hoglin_hide/nautilus_armor"
+      "event_rebalance:tiered/helmet/hoglin_hide",
+      "event_rebalance:tiered/chestplate/hoglin_hide",
+      "event_rebalance:tiered/leggings/hoglin_hide",
+      "event_rebalance:tiered/boots/hoglin_hide",
+      "event_rebalance:tiered/horse_armor/hoglin_hide",
+      "event_rebalance:tiered/nautilus_armor/hoglin_hide"
     ]
   }
 }

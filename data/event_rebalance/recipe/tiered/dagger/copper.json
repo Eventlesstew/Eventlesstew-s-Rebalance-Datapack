@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "#": "#copper_tool_materials",
+        "S": "stick"
+    },
+    "pattern": [
+        " #",
+        "S "
+    ],
+    "result": {
+        "id": "music_disc_chirp",
+        "components": {
+            "!jukebox_playable":{},
+            "item_model": "event:tiered/dagger/copper",
+            "item_name": {
+                "translate": "item.event.copper_dagger"
+            }
+        }
+    }
+}

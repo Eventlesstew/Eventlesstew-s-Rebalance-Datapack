@@ -26,7 +26,9 @@
         {
             "type": "filtered",
             "item_filter": {
-                "items": "#event_rebalance:custom_item/tiered/dagger/wooden"
+                "components": {
+                    "item_model": "event:dagger/wooden"
+                }
             },
             "on_pass": "event_rebalance:furnace_fuel/1.5"
         },
@@ -47,7 +49,9 @@
         {
             "type": "filtered",
             "item_filter": {
-                "items": "#event_rebalance:custom_item/tiered/hammer/wooden"
+                "components": {
+                    "item_model": "event:hammer/wooden"
+                }
             },
             "on_pass": "event_rebalance:furnace_fuel/6.5"
         },

@@ -1,0 +1,20 @@
+{
+    "type": "smithing_transform",
+    "base": "#event_rebalance:custom_item/tiered/hammer/diamond",
+    "addition": "#minecraft:netherite_tool_materials",
+    "template": "netherite_upgrade_smithing_template",
+    "result": {
+        "id": "music_disc_blocks",
+        "components": {
+            "!jukebox_playable":{},
+            "item_model": "event:tiered/hammer/netherite",
+            "item_name": {
+                "translate": "item.event.netherite_hammer"
+            },
+            "max_stack_size": 1,
+            "custom_data": {
+                "modified":false
+            }
+        }
+    }
+}

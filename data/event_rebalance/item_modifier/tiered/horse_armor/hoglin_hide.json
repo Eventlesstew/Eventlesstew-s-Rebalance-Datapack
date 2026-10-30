@@ -1,7 +1,9 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "#event_rebalance:custom_item/tiered/horse_armor/hoglin_hide"
+        "components": {
+            "item_model": "event:horse_armor/hoglin_hide"
+        }
     },
     "on_pass": {
         "type": "sequence",

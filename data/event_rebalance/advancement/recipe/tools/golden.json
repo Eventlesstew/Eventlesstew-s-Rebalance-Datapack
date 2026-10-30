@@ -19,10 +19,10 @@
   ],
   "rewards": {
     "recipes": [
-      "event_rebalance:gear/golden/dagger",
-      "event_rebalance:gear/golden/hammer",
-      "event_rebalance:gear/golden/horse_armor",
-      "event_rebalance:gear/golden/nautilus_armor"
+      "event_rebalance:tiered/dagger/golden",
+      "event_rebalance:tiered/hammer/golden",
+      "event_rebalance:tiered/horse_armor/golden",
+      "event_rebalance:tiered/nautilus_armor/golden"
     ]
   }
 }

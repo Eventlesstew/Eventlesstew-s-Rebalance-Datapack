@@ -2,9 +2,9 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     "minecraft:bowl",
-    "minecraft:beetroot",
-    "minecraft:beetroot",
-    "minecraft:beetroot"
+    "minecraft:beetroot_seeds",
+    "minecraft:beetroot_seeds",
+    "minecraft:beetroot_seeds"
   ],
   "result": {
     "id": "minecraft:beetroot_soup"

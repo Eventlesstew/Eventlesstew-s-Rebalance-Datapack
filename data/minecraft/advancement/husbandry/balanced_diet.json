@@ -28,7 +28,7 @@
     "beetroot": {
       "conditions": {
         "item": {
-          "items": "minecraft:beetroot"
+          "items": "minecraft:beetroot_seeds"
         }
       },
       "trigger": "minecraft:consume_item"
