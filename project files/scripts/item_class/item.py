@@ -135,8 +135,7 @@ class item:
         if item_type == "custom_item_model":
             result = {
                 "components": {
-                    "item_model": "event:"
-                    + self.get_item_id(tier, tier_id_type.DIRECTORY)
+                    "item_model": "event:" + self.get_item_id(tier, tier_id_type.TAG)
                 }
             }
         elif item_type == "custom_item_tag":
@@ -264,6 +263,10 @@ class item:
                 "targeting_entity_types": "#event_rebalance:mobs",
                 "visibility": 1 / stealth,
             }
+
+        damage_type = get_item_value(self.item_id, "damage_type", tier)
+        if damage_type:
+            components["damage_type"] = "event_rebalance:" + damage_type
 
         shield_disable_time = get_item_value(self.item_id, "shield_disable_time", tier)
         if shield_disable_time:

@@ -2,7 +2,7 @@
     "type": "filtered",
     "item_filter": {
         "components": {
-            "item_model": "event:axe/hyphae"
+            "item_model": "event:tiered/axe/hyphae"
         }
     },
     "on_pass": {

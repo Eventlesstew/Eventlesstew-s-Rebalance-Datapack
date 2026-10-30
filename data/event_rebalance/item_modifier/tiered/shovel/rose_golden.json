@@ -2,7 +2,7 @@
     "type": "filtered",
     "item_filter": {
         "components": {
-            "item_model": "event:shovel/rose_golden"
+            "item_model": "event:tiered/shovel/rose_golden"
         }
     },
     "on_pass": {

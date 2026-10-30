@@ -9,7 +9,7 @@
         "S "
     ],
     "result": {
-        "id": "music_disc_blocks",
+        "id": "music_disc_mall",
         "components": {
             "!jukebox_playable":{},
             "item_model": "event:tiered/dagger/iron",

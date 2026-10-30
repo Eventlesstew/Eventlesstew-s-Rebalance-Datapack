@@ -2,7 +2,7 @@
     "type": "filtered",
     "item_filter": {
         "components": {
-            "item_model": "event:pickaxe/rose_golden"
+            "item_model": "event:tiered/pickaxe/rose_golden"
         }
     },
     "on_pass": {

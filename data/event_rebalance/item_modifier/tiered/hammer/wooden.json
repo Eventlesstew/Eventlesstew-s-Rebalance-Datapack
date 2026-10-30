@@ -2,7 +2,7 @@
     "type": "filtered",
     "item_filter": {
         "components": {
-            "item_model": "event:hammer/wooden"
+            "item_model": "event:tiered/hammer/wooden"
         }
     },
     "on_pass": {

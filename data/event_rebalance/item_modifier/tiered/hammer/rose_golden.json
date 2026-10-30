@@ -2,7 +2,7 @@
     "type": "filtered",
     "item_filter": {
         "components": {
-            "item_model": "event:hammer/rose_golden"
+            "item_model": "event:tiered/hammer/rose_golden"
         }
     },
     "on_pass": {

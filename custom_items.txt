@@ -35,7 +35,7 @@ Music Disc Pigstep: Golden Dagger
 Music Disc 5: Golden Hammer
 
 Music Disc Cat: Diamond Dagger
-Music Disc Blocks: Diamond Hammer
+Music Disc Lava Chicken: Diamond Hammer
 
 Pottery Sherd Archer: Rose Golden Sword
 Pottery Sherd Arms Up: Rose Golden Spear
@@ -95,4 +95,3 @@ Music Disc Creator (Music Box): Cooked Tropical Fish
 Petrified Oak Slab: Rose Golden Block
 
 FREE ITEMS:
-Music Disc Lava Chicken

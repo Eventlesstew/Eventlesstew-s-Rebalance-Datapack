@@ -2,7 +2,7 @@
     "type": "filtered",
     "item_filter": {
         "components": {
-            "item_model": "event:hoe/rose_golden"
+            "item_model": "event:tiered/hoe/rose_golden"
         }
     },
     "on_pass": {

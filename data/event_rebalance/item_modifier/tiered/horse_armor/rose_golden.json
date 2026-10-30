@@ -2,7 +2,7 @@
     "type": "filtered",
     "item_filter": {
         "components": {
-            "item_model": "event:horse_armor/rose_golden"
+            "item_model": "event:tiered/horse_armor/rose_golden"
         }
     },
     "on_pass": {

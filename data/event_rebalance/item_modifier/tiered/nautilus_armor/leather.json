@@ -2,7 +2,7 @@
     "type": "filtered",
     "item_filter": {
         "components": {
-            "item_model": "event:nautilus_armor/leather"
+            "item_model": "event:tiered/nautilus_armor/leather"
         }
     },
     "on_pass": {
