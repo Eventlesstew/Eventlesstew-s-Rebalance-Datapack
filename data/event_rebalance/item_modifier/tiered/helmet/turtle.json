@@ -33,15 +33,6 @@
                 ]
             },
             {
-                "type": "set_components",
-                "components": {
-                    "equippable": {
-                        "slot": "head",
-                        "equip_on_interact": true
-                    }
-                }
-            },
-            {
                 "type": "set_lore",
                 "mode": "append",
                 "lore": [

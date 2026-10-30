@@ -33,10 +33,6 @@
                     "max_stack_size": 1,
                     "repairable": {
                         "items": "#event_rebalance:tool_repair/iron"
-                    },
-                    "equippable": {
-                        "slot": "chest",
-                        "equip_on_interact": true
                     }
                 }
             },

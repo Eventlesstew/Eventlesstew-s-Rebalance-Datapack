@@ -54,10 +54,6 @@
                     "max_stack_size": 1,
                     "repairable": {
                         "items": "#event_rebalance:tool_repair/chainmail"
-                    },
-                    "equippable": {
-                        "slot": "head",
-                        "equip_on_interact": true
                     }
                 }
             },

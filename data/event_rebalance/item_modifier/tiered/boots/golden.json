@@ -51,10 +51,6 @@
                     "mob_visibility": {
                         "targeting_entity_types": "#event_rebalance:mobs",
                         "visibility": 1.25
-                    },
-                    "equippable": {
-                        "slot": "feet",
-                        "equip_on_interact": true
                     }
                 }
             },

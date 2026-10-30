@@ -54,11 +54,6 @@
                     "max_stack_size": 1,
                     "repairable": {
                         "items": "#event_rebalance:tool_repair/netherite"
-                    },
-                    "equippable": {
-                        "slot": "body",
-                        "allowed_entities": "#can_wear_horse_armor",
-                        "can_be_sheared": true
                     }
                 }
             },

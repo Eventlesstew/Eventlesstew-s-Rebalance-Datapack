@@ -395,7 +395,7 @@ class item:
             if self.is_custom(tier) and self.uses_tiers():
                 equippable["asset_id"] = "event:" + tier
 
-            components["equippable"] = equippable
+                components["equippable"] = equippable
 
         return components
 
