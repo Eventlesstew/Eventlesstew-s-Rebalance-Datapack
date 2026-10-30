@@ -3,7 +3,7 @@
     "horse_body": [
       {
         "dyeable": {
-          "color_when_undyed": [0.15, 0.58, 0.04]
+          "color_when_undyed": [1, 0.55, 0.36]
         },
         "texture": "event:hoglin_hide"
       },
