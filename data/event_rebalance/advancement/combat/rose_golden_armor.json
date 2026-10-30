@@ -29,7 +29,7 @@
     "icon": {
       "id": "minecraft:chainmail_chestplate",
       "components": {
-        "item_model": "event:gear/rose_golden/chestplate"
+        "item_model": "event:tiered/chestplate/rose_golden"
       }
     },
     "title": {

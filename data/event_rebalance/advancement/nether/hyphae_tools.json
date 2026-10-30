@@ -1,0 +1,128 @@
+{
+  "parent": "nether/root",
+  "criteria": {
+    "axe": {
+      "conditions": {
+        "items": [
+          {
+            "components": {
+                "item_model": "event:tiered/axe/hyphae"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "components": {
+                "item_model": "event:tiered/pickaxe/hyphae"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "shovel": {
+      "conditions": {
+        "items": [
+          {
+            "components": {
+                "item_model": "event:tiered/shovel/hyphae"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "hoe": {
+      "conditions": {
+        "items": [
+          {
+            "components": {
+                "item_model": "event:tiered/hoe/hyphae"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "hammer": {
+      "conditions": {
+        "items": [
+          {
+            "components": {
+                "item_model": "event:tiered/hammer/hyphae"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "sword": {
+      "conditions": {
+        "items": [
+          {
+            "components": {
+                "item_model": "event:tiered/sword/hyphae"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "spear": {
+      "conditions": {
+        "items": [
+          {
+            "components": {
+                "item_model": "event:tiered/spear/hyphae"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "dagger": {
+      "conditions": {
+        "items": [
+          {
+            "components": {
+                "item_model": "event:tiered/dagger/hyphae"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.nether.hyphae_tools.description"
+    },
+    "icon": {
+      "id": "minecraft:copper_ingot",
+      "components": {
+        "item_model": "event:tiered/pickaxe/hyphae"
+      }
+    },
+    "title": {
+      "translate": "advancements.nether.hyphae_tools.title"
+    }
+  },
+  "requirements": [
+    [
+      "axe",
+      "dagger",
+      "hammer",
+      "hoe",
+      "pickaxe",
+      "shovel",
+      "spear",
+      "sword"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

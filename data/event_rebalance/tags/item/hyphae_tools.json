@@ -1,0 +1,12 @@
+{
+    "values": [
+        "#event_rebalance:custom_item/tiered/axe/hyphae",
+        "#event_rebalance:custom_item/tiered/sword/hyphae",
+        "#event_rebalance:custom_item/tiered/spear/hyphae",
+        "#event_rebalance:custom_item/tiered/dagger/hyphae",
+        "#event_rebalance:custom_item/tiered/hammer/hyphae",
+        "#event_rebalance:custom_item/tiered/pickaxe/hyphae",
+        "#event_rebalance:custom_item/tiered/shovel/hyphae",
+        "#event_rebalance:custom_item/tiered/hoe/hyphae"
+    ]
+}

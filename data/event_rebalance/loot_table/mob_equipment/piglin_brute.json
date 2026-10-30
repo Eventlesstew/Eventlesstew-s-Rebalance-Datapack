@@ -7,7 +7,15 @@
                     "type": "tag",
                     "expand": false,
                     "items": "#event_rebalance:custom_item/tiered/axe/rose_golden",
-                    "modifier": "event_rebalance:tiered/axe/rose_golden"
+                    "modifier": [
+                        {
+                            "type": "set_components",
+                            "components": {
+                                "item_model": "event:tiered/axe/rose_golden"
+                            }
+                        },
+                        "event_rebalance:tiered/axe/rose_golden"
+                    ]
                 }
             ],
             "rolls": 1

@@ -72,7 +72,7 @@
     },
     "frame": "challenge",
     "icon": {
-      "id": "minecraft:iron_boots"
+      "id": "minecraft:diamond_boots"
     },
     "title": {
       "translate": "advancements.adventure.discover_all_caves.title"

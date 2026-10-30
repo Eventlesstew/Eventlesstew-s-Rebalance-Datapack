@@ -1,0 +1,225 @@
+{
+  "parent": "event_rebalance:adventure/use_map_on_banner",
+  "criteria": {
+    "minecraft:ocean": {
+      "conditions": {
+        "player": 
+          {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "biomes": "minecraft:ocean"
+              }
+            }
+          }
+        
+      },
+      "trigger": "minecraft:location"
+    },
+    "minecraft:deep_ocean": {
+      "conditions": {
+        "player": 
+          {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "biomes": "minecraft:deep_ocean"
+              }
+            }
+          }
+        
+      },
+      "trigger": "minecraft:location"
+    },
+    "minecraft:warm_ocean": {
+      "conditions": {
+        "player": 
+          {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "biomes": "minecraft:warm_ocean"
+              }
+            }
+          }
+        
+      },
+      "trigger": "minecraft:location"
+    },
+    "minecraft:lukewarm_ocean": {
+      "conditions": {
+        "player": 
+          {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "biomes": "minecraft:lukewarm_ocean"
+              }
+            }
+          }
+        
+      },
+      "trigger": "minecraft:location"
+    },
+    "minecraft:deep_lukewarm_ocean": {
+      "conditions": {
+        "player": 
+          {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "biomes": "minecraft:deep_lukewarm_ocean"
+              }
+            }
+          }
+      },
+      "trigger": "minecraft:location"
+    },
+    "minecraft:cold_ocean": {
+      "conditions": {
+        "player": 
+          {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "biomes": "minecraft:cold_ocean"
+              }
+            }
+          }
+      },
+      "trigger": "minecraft:location"
+    },
+    "minecraft:deep_cold_ocean": {
+      "conditions": {
+        "player": 
+          {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "biomes": "minecraft:deep_cold_ocean"
+              }
+            }
+          }
+      },
+      "trigger": "minecraft:location"
+    },
+    "minecraft:frozen_ocean": {
+      "conditions": {
+        "player": 
+          {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "biomes": "minecraft:frozen_ocean"
+              }
+            }
+          }
+      },
+      "trigger": "minecraft:location"
+    },
+    "minecraft:deep_frozen_ocean": {
+      "conditions": {
+        "player": 
+          {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "biomes": "minecraft:deep_frozen_ocean"
+              }
+            }
+          }
+      },
+      "trigger": "minecraft:location"
+    },
+    "minecraft:river": {
+      "conditions": {
+        "player": 
+          {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "biomes": "minecraft:river"
+              }
+            }
+          }
+      },
+      "trigger": "minecraft:location"
+    },
+    "minecraft:frozen_river": {
+      "conditions": {
+        "player": 
+          {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "biomes": "minecraft:frozen_river"
+              }
+            }
+          }
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.discover_all_oceans.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "id": "minecraft:diamond_nautilus_armor"
+    },
+    "title": {
+      "translate": "advancements.adventure.discover_all_oceans.title"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:ocean"
+    ],
+    [
+      "minecraft:deep_ocean"
+    ],
+    [
+      "minecraft:warm_ocean"
+    ],
+    [
+      "minecraft:lukewarm_ocean"
+    ],
+    [
+      "minecraft:deep_lukewarm_ocean"
+    ],
+    [
+      "minecraft:cold_ocean"
+    ],
+    [
+      "minecraft:deep_cold_ocean"
+    ],
+    [
+      "minecraft:frozen_ocean"
+    ],
+    [
+      "minecraft:deep_frozen_ocean"
+    ],
+    [
+      "minecraft:river"
+    ],
+    [
+      "minecraft:frozen_river"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  },
+  "sends_telemetry_event": true
+}

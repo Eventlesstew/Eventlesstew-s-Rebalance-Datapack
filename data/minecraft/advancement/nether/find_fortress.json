@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:nether/ride_strider",
+  "parent": "minecraft:nether/root",
   "criteria": {
     "fortress": {
       "conditions": {

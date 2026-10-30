@@ -12,6 +12,7 @@
     "description": {
       "translate": "advancements.construction.magnet_netherite.description"
     },
+    "frame": "goal",
     "icon": {
         "id": "netherite_block"
     }

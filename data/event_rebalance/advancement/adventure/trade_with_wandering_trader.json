@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:adventure/trade",
+  "criteria": {
+    "traded": {
+      "conditions": {
+        "villager": {
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "wandering_trader"
+          }
+        }
+      },
+      "trigger": "minecraft:villager_trade"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.trade_with_wandering_trader.description"
+    },
+    "icon": {
+      "id": "minecraft:blue_dye"
+    },
+    "title": {
+      "translate": "advancements.adventure.trade_with_wandering_trader.title"
+    }
+  },
+  "requirements": [
+    [
+      "traded"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

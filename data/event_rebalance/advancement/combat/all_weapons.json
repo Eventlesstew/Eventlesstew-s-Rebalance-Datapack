@@ -103,7 +103,7 @@
     "icon": {
       "id": "minecraft:wooden_axe",
       "components": {
-        "item_model": "event:gear/golden/hammer"
+        "item_model": "event:tiered/hammer/netherite"
       }
     }
   },

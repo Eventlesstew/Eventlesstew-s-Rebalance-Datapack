@@ -5,10 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:iron_pickaxe",
-              "copper_pickaxe"
-            ]
+            "items": "#event_rebalance:advancement/iron_tools"
           }
         ]
       },
