@@ -14,6 +14,11 @@
             "event:music/mob_grinder"
         ]
     },
+    "music_disc.creakstep":{
+        "sounds": [
+            "event:music/creakstep"
+        ]
+    },
     "ambient.end.loop":{"sounds":["ambient/end/loop"]},
     "ambient.end.shadow_loop":{"sounds":["ambient/end/shadow_loop"]},
     "ambient.end.additions":{"sounds":[ 
