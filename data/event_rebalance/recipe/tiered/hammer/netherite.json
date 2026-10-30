@@ -7,6 +7,7 @@
         "id": "music_disc_blocks",
         "components": {
             "!jukebox_playable":{},
+            "rarity":"common",
             "item_model": "event:tiered/hammer/netherite",
             "item_name": {
                 "translate": "item.event.netherite_hammer"

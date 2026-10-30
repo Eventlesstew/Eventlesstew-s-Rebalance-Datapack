@@ -12,6 +12,7 @@
         "id": "music_disc_mall",
         "components": {
             "!jukebox_playable":{},
+            "rarity":"common",
             "item_model": "event:tiered/dagger/iron",
             "item_name": {
                 "translate": "item.event.iron_dagger"

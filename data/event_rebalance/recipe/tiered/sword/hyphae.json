@@ -13,8 +13,11 @@
         "id": "music_disc_stal",
         "components": {
             "!jukebox_playable":{},
+            "rarity":"common",
             "item_model": "event:tiered/sword/hyphae",
-            "item_name": "item.event.hyphae_sword"
+            "item_name": {
+                "translate": "item.event.hyphae_sword"
+            }
         }
     }
 }

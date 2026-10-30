@@ -11,8 +11,11 @@
         "id": "music_disc_precipice",
         "components": {
             "!jukebox_playable":{},
+            "rarity":"common",
             "item_model": "event:tiered/nautilus_armor/hoglin_hide",
-            "item_name": "item.event.hoglin_hide_nautilus_armor"
+            "item_name": {
+                "translate": "item.event.hoglin_hide_nautilus_armor"
+            }
         }
     }
 }

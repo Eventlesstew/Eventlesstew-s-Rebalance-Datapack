@@ -12,7 +12,9 @@
         "components": {
             "rarity":"common",
             "item_model": "event:tiered/helmet/hoglin_hide",
-            "item_name": "item.event.hoglin_hide_helmet"
+            "item_name": {
+                "translate": "item.event.hoglin_hide_helmet"
+            }
         }
     }
 }

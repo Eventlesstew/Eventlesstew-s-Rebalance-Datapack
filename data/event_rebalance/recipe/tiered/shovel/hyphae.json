@@ -13,8 +13,11 @@
         "id": "music_disc_wait",
         "components": {
             "!jukebox_playable":{},
+            "rarity":"common",
             "item_model": "event:tiered/shovel/hyphae",
-            "item_name": "item.event.hyphae_shovel"
+            "item_name": {
+                "translate": "item.event.hyphae_shovel"
+            }
         }
     }
 }

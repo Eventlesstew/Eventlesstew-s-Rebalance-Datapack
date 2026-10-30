@@ -13,8 +13,11 @@
         "id": "music_disc_strad",
         "components": {
             "!jukebox_playable":{},
+            "rarity":"common",
             "item_model": "event:tiered/spear/hyphae",
-            "item_name": "item.event.hyphae_spear"
+            "item_name": {
+                "translate": "item.event.hyphae_spear"
+            }
         }
     }
 }

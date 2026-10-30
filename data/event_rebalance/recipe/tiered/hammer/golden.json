@@ -12,6 +12,8 @@
     "result": {
         "id": "music_disc_chirp",
         "components": {
+            "!jukebox_playable":{},
+            "rarity":"common",
             "item_model": "event:tiered/hammer/golden",
             "item_name": {
                 "translate": "item.event.golden_hammer"

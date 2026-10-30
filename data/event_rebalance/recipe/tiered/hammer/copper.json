@@ -13,6 +13,7 @@
         "id": "music_disc_far",
         "components": {
             "!jukebox_playable":{},
+            "rarity":"common",
             "item_model": "event:tiered/hammer/copper",
             "item_name": {
                 "translate": "item.event.copper_hammer"

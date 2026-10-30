@@ -12,6 +12,7 @@
         "id": "music_disc_pigstep",
         "components": {
             "!jukebox_playable":{},
+            "rarity":"common",
             "item_model": "event:tiered/dagger/golden",
             "item_name": {
                 "translate": "item.event.golden_dagger"

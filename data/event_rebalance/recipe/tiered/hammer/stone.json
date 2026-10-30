@@ -13,6 +13,7 @@
         "id": "music_disc_blocks",
         "components": {
             "!jukebox_playable":{},
+            "rarity":"common",
             "item_model": "event:tiered/hammer/stone",
             "item_name": {
                 "translate": "item.event.stone_hammer"

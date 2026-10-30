@@ -5,12 +5,12 @@
     },
     "pattern": [
         " ##",
-        " ##",
         "###"
     ],
     "result": {
         "id": "mourner_pottery_sherd",
         "components": {
+            "rarity":"common",
             "item_model": "event:tiered/nautilus_armor/leather",
             "item_name": {
                 "translate": "item.event.leather_nautilus_armor"

@@ -13,6 +13,7 @@
         "id": "music_disc_mellohi",
         "components": {
             "!jukebox_playable":{},
+            "rarity":"common",
             "item_model": "event:tiered/hammer/iron",
             "item_name": {
                 "translate": "item.event.iron_hammer"

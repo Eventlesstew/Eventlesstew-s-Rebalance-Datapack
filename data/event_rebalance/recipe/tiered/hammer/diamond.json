@@ -13,7 +13,8 @@
         "id": "music_disc_lava_chicken",
         "components": {
             "!jukebox_playable":{},
-            "item_model": "event:gear/diamond/hammer",
+            "rarity":"common",
+            "item_model": "event:tiered/hammer/diamond",
             "item_name": {
                 "translate": "item.event.diamond_hammer"
             }
