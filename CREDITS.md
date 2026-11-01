@@ -163,3 +163,6 @@ All of the MCSM OST is free to download on Bandcamp: https://antimo.bandcamp.com
 
 # Mielon
 - Placeholder Textures for the Sift Advancement Placeholder (Siftslate Growth)
+
+# ChasePixel_
+- Adding the Enchanting Table's Book in the Inventory Model
