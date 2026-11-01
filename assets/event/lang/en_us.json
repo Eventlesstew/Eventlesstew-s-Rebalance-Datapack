@@ -651,6 +651,8 @@
 
     "container.stonecutter": "Sawmill",
     "container.shulkerBox": "Portal Box",
+    "container.repair.cost": "",
+    "gui.experience.level": "",
 
     "stat.minecraft.interact_with_stonecutter": "Interactions with Sawmill",
     "stat.minecraft.clean_shulker_box": "Portal Boxes Cleaned",
@@ -661,6 +663,7 @@
     "subtitles.entity.player.burp.golden_food": "Golden Item Consumed",
     "subtitles.entity.player.burp.enchanted_golden_food": "Enchanted Golden Item Consumed",
     "subtitles.entity.player.burp.glow_berries": "Glow Berries Consumed",
+    "subtitles.entity.experience_orb.pickup": "Mending Orb gained",
 
     "subtitles.item.hammer.swing": "Hammer Swings",
     
