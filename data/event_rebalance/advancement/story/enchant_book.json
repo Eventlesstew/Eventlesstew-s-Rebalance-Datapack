@@ -1,0 +1,33 @@
+{
+  "parent": "event_rebalance:story/obtain_lapis",
+  "criteria": {
+    "enchanted_item": {
+      "conditions": {
+        "recipes": "#event_rebalance:enchanted_books"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.story.enchant_book.description"
+    },
+    "icon": {
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "stored_enchantments": {
+          "efficiency": 1
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.story.enchant_book.title"
+    }
+  },
+  "requirements": [
+    [
+      "enchanted_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

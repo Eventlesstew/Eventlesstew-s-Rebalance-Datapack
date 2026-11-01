@@ -1,11 +1,8 @@
 {
-  "parent": "story/smelt_iron",
+  "parent": "event_rebalance:story/obtain_lapis",
   "criteria": {
     "enchanted_item": {
-      "conditions": {
-        "recipes": "#event_rebalance:enchanted_books"
-      },
-      "trigger": "minecraft:recipe_crafted"
+      "trigger": "minecraft:enchanted_item"
     }
   },
   "display": {
@@ -13,7 +10,7 @@
       "translate": "advancements.story.enchant_item.description"
     },
     "icon": {
-      "id": "minecraft:enchanted_book"
+      "id": "minecraft:enchanting_table"
     },
     "title": {
       "translate": "advancements.story.enchant_item.title"

@@ -247,6 +247,36 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:mojang_banner_pattern"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "modifier":[
+            {
+              "type": "set_count",
+              "count": {
+                "type": "uniform",
+                "max": 8,
+                "min": 2
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_block",
+          "modifier":[
+            {
+              "type": "set_count",
+              "count": {
+                "type": "uniform",
+                "max": 3,
+                "min": 1
+              }
+            }
+          ],
+          "weight": 2
         }
       ],
       "rolls": {
@@ -269,11 +299,6 @@
           },
           "name": "minecraft:lodestone",
           "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:gold_ingot",
-          "weight": 1
         }
       ],
       "rolls": {
