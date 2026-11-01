@@ -244,7 +244,10 @@ class item:
 
         enchantable = get_item_value(self.item_id, "enchantable", tier)
         if enchantable:
-            components["enchantable"] = {"value": enchantable}
+            if enchantable == 0:
+                components["!enchantable"] = {}
+            else:
+                components["enchantable"] = {"value": enchantable}
 
         durability = get_item_value(self.item_id, "max_damage", tier)
         if durability:

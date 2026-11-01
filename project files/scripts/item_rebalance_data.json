@@ -993,7 +993,7 @@
     },
     "book":{
         "furnace_fuel":0.5,
-        "enchantable":10
+        "enchantable":0
     },
 
     "chest":{

@@ -16,9 +16,7 @@
             {
                 "type": "set_components",
                 "components": {
-                    "enchantable": {
-                        "value": 10
-                    }
+                    "!enchantable": {}
                 }
             }
         ]
