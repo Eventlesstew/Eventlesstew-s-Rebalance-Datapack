@@ -652,6 +652,9 @@
     "container.stonecutter": "Sawmill",
     "container.shulkerBox": "Portal Box",
     "container.repair.cost": "",
+    "container.enchant.clue": "%s",
+    "container.enchant.level.one": "",
+    "container.enchant.level.many": "",
     "gui.experience.level": "",
 
     "stat.minecraft.interact_with_stonecutter": "Interactions with Sawmill",
