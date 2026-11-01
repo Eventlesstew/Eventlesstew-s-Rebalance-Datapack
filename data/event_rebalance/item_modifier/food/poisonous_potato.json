@@ -65,32 +65,22 @@
                     {
                         "translate": "potion.withProbability.negative.1",
                         "with": [
-                            "1",
                             {
                                 "translate": "potion.withDuration",
                                 "with": [
                                     {
-                                        "translate": "potion.withAmplifier",
-                                        "with": [
-                                            {
-                                                "translate": "effect.minecraft.poison",
-                                                "italic": false
-                                            },
-                                            {
-                                                "translate": "potion.potency.0",
-                                                "italic": false
-                                            }
-                                        ],
-                                        "italic": false
+                                        "translate": "effect.minecraft.poison"
                                     },
                                     {
-                                        "text": "(00:00)"
+                                        "text": "00:10"
                                     }
                                 ],
                                 "italic": false,
                                 "color": "#ff5555"
                             }
-                        ]
+                        ],
+                        "italic": false,
+                        "color": "#ff5555"
                     }
                 ]
             }

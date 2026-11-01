@@ -113,37 +113,26 @@
                     {
                         "translate": "potion.withProbability.negative.1",
                         "with": [
-                            "1",
                             {
                                 "translate": "potion.withDuration",
                                 "with": [
                                     {
-                                        "translate": "potion.withAmplifier",
-                                        "with": [
-                                            {
-                                                "translate": "effect.minecraft.nausea",
-                                                "italic": false
-                                            },
-                                            {
-                                                "translate": "potion.potency.0",
-                                                "italic": false
-                                            }
-                                        ],
-                                        "italic": false
+                                        "translate": "effect.minecraft.nausea"
                                     },
                                     {
-                                        "text": "(00:01)"
+                                        "text": "00:30"
                                     }
                                 ],
                                 "italic": false,
                                 "color": "#ff5555"
                             }
-                        ]
+                        ],
+                        "italic": false,
+                        "color": "#ff5555"
                     },
                     {
                         "translate": "potion.withProbability.negative.1",
                         "with": [
-                            "1",
                             {
                                 "translate": "potion.withDuration",
                                 "with": [
@@ -162,18 +151,19 @@
                                         "italic": false
                                     },
                                     {
-                                        "text": "(00:01)"
+                                        "text": "00:30"
                                     }
                                 ],
                                 "italic": false,
                                 "color": "#ff5555"
                             }
-                        ]
+                        ],
+                        "italic": false,
+                        "color": "#ff5555"
                     },
                     {
                         "translate": "potion.withProbability.1",
                         "with": [
-                            "1",
                             {
                                 "translate": "potion.withDuration",
                                 "with": [
@@ -192,43 +182,35 @@
                                         "italic": false
                                     },
                                     {
-                                        "text": "(00:01)"
+                                        "text": "00:30"
                                     }
                                 ],
                                 "italic": false,
                                 "color": "#5555ff"
                             }
-                        ]
+                        ],
+                        "italic": false,
+                        "color": "#5555ff"
                     },
                     {
                         "translate": "potion.withProbability.1",
                         "with": [
-                            "1",
                             {
                                 "translate": "potion.withDuration",
                                 "with": [
                                     {
-                                        "translate": "potion.withAmplifier",
-                                        "with": [
-                                            {
-                                                "translate": "effect.minecraft.haste",
-                                                "italic": false
-                                            },
-                                            {
-                                                "translate": "potion.potency.0",
-                                                "italic": false
-                                            }
-                                        ],
-                                        "italic": false
+                                        "translate": "effect.minecraft.haste"
                                     },
                                     {
-                                        "text": "(00:01)"
+                                        "text": "00:30"
                                     }
                                 ],
                                 "italic": false,
                                 "color": "#5555ff"
                             }
-                        ]
+                        ],
+                        "italic": false,
+                        "color": "#5555ff"
                     }
                 ]
             }

@@ -71,7 +71,6 @@
                     {
                         "translate": "potion.withProbability.negative.0.5",
                         "with": [
-                            "0.5",
                             {
                                 "translate": "potion.withDuration",
                                 "with": [
@@ -90,13 +89,15 @@
                                         "italic": false
                                     },
                                     {
-                                        "text": "(00:01)"
+                                        "text": "00:20"
                                     }
                                 ],
                                 "italic": false,
                                 "color": "#ff5555"
                             }
-                        ]
+                        ],
+                        "italic": false,
+                        "color": "#ff5555"
                     }
                 ]
             }

@@ -147,7 +147,6 @@
                     {
                         "translate": "potion.withProbability.1",
                         "with": [
-                            "1",
                             {
                                 "translate": "potion.withDuration",
                                 "with": [
@@ -166,73 +165,55 @@
                                         "italic": false
                                     },
                                     {
-                                        "text": "(00:06)"
+                                        "text": "02:00"
                                     }
                                 ],
                                 "italic": false,
                                 "color": "#5555ff"
                             }
-                        ]
+                        ],
+                        "italic": false,
+                        "color": "#5555ff"
                     },
                     {
                         "translate": "potion.withProbability.1",
                         "with": [
-                            "1",
                             {
                                 "translate": "potion.withDuration",
                                 "with": [
                                     {
-                                        "translate": "potion.withAmplifier",
-                                        "with": [
-                                            {
-                                                "translate": "effect.minecraft.resistance",
-                                                "italic": false
-                                            },
-                                            {
-                                                "translate": "potion.potency.0",
-                                                "italic": false
-                                            }
-                                        ],
-                                        "italic": false
+                                        "translate": "effect.minecraft.resistance"
                                     },
                                     {
-                                        "text": "(00:06)"
+                                        "text": "02:00"
                                     }
                                 ],
                                 "italic": false,
                                 "color": "#5555ff"
                             }
-                        ]
+                        ],
+                        "italic": false,
+                        "color": "#5555ff"
                     },
                     {
                         "translate": "potion.withProbability.1",
                         "with": [
-                            "1",
                             {
                                 "translate": "potion.withDuration",
                                 "with": [
                                     {
-                                        "translate": "potion.withAmplifier",
-                                        "with": [
-                                            {
-                                                "translate": "effect.minecraft.fire_resistance",
-                                                "italic": false
-                                            },
-                                            {
-                                                "translate": "potion.potency.0",
-                                                "italic": false
-                                            }
-                                        ],
-                                        "italic": false
+                                        "translate": "effect.minecraft.fire_resistance"
                                     },
                                     {
-                                        "text": "(00:06)"
+                                        "text": "02:00"
                                     }
                                 ],
                                 "italic": false,
                                 "color": "#5555ff"
                             }
-                        ]
+                        ],
+                        "italic": false,
+                        "color": "#5555ff"
                     }
                 ]
             }

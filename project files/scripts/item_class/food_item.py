@@ -261,10 +261,10 @@ class food_item(item):
                 effect_probability = 1
                 if "level" in effect:
                     effect_level = effect["level"] - 1
-                if "duration_seconds" in effect:
-                    effect_duration += int(effect["duration_seconds"] / 20)
                 if "duration_ticks" in effect:
-                    effect_duration += effect["duration_ticks"]
+                    effect_duration += int(effect["duration_ticks"] / 20)
+                if "duration_seconds" in effect:
+                    effect_duration += effect["duration_seconds"]
                 if "probability" in effect:
                     effect_probability = effect["probability"]
 
@@ -275,36 +275,41 @@ class food_item(item):
                 time_secs = str(effect_duration % 60)
                 if len(time_secs) < 2:
                     time_secs = "0" + time_secs
-                time_string = "(" + time_mins + ":" + time_secs + ")"
-
+                time_string = time_mins + ":" + time_secs
+                print(effect_id)
+                print(effect_duration)
+                print(time_string)
                 probability_key = ""
                 if is_effect_negative(effect_id):
                     probability_key = "negative."
+
+                amplifier_key = {}
+                if effect_level == 0:
+                    amplifier_key = {"translate": "effect.minecraft." + effect_id}
+                else:
+                    amplifier_key = {
+                        "translate": "potion.withAmplifier",
+                        "with": [
+                            {
+                                "translate": "effect.minecraft." + effect_id,
+                                "italic": False,
+                            },
+                            {
+                                "translate": "potion.potency." + str(effect_level),
+                                "italic": False,
+                            },
+                        ],
+                        "italic": False,
+                    }
                 translation_key = {
                     "translate": "potion.withProbability."
                     + probability_key
                     + str(effect_probability),
                     "with": [
-                        str(effect_probability),
                         {
                             "translate": "potion.withDuration",
                             "with": [
-                                {
-                                    "translate": "potion.withAmplifier",
-                                    "with": [
-                                        {
-                                            "translate": "effect.minecraft."
-                                            + effect_id,
-                                            "italic": False,
-                                        },
-                                        {
-                                            "translate": "potion.potency."
-                                            + str(effect_level),
-                                            "italic": False,
-                                        },
-                                    ],
-                                    "italic": False,
-                                },
+                                amplifier_key,
                                 {"text": time_string},
                             ],
                             "italic": False,

@@ -93,7 +93,6 @@
                     {
                         "translate": "potion.withProbability.1",
                         "with": [
-                            "1",
                             {
                                 "translate": "potion.withDuration",
                                 "with": [
@@ -112,13 +111,15 @@
                                         "italic": false
                                     },
                                     {
-                                        "text": "(00:01)"
+                                        "text": "00:30"
                                     }
                                 ],
                                 "italic": false,
                                 "color": "#5555ff"
                             }
-                        ]
+                        ],
+                        "italic": false,
+                        "color": "#5555ff"
                     }
                 ]
             }

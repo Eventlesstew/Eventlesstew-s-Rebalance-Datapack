@@ -95,32 +95,22 @@
                     {
                         "translate": "potion.withProbability.1",
                         "with": [
-                            "1",
                             {
                                 "translate": "potion.withDuration",
                                 "with": [
                                     {
-                                        "translate": "potion.withAmplifier",
-                                        "with": [
-                                            {
-                                                "translate": "effect.minecraft.instant_health",
-                                                "italic": false
-                                            },
-                                            {
-                                                "translate": "potion.potency.0",
-                                                "italic": false
-                                            }
-                                        ],
-                                        "italic": false
+                                        "translate": "effect.minecraft.instant_health"
                                     },
                                     {
-                                        "text": "(00:01)"
+                                        "text": "00:00"
                                     }
                                 ],
                                 "italic": false,
                                 "color": "#5555ff"
                             }
-                        ]
+                        ],
+                        "italic": false,
+                        "color": "#5555ff"
                     }
                 ]
             }
