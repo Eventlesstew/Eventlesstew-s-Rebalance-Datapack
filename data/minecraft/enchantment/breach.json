@@ -1,5 +1,5 @@
 {
-  "anvil_cost": 3,
+  "anvil_cost": 0,
   "description": {
     "translate": "enchantment.minecraft.breach",
     "color": "#ffac8e",
@@ -1264,5 +1264,6 @@
   "slots": [
     "mainhand"
   ],
+  "primary_items": "#event_rebalance:enchantable/primary/breach",
   "supported_items": "#event_rebalance:enchantable/heavy_weapon"
 }

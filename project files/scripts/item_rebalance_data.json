@@ -47,7 +47,8 @@
             "diamond":1024,
             "rose_golden":512,
             "netherite":2048
-        }
+        },
+        "enchantable":10
     },
     "template_armor":{
         "item_class":"template",
@@ -69,6 +70,10 @@
             "netherite"
         ],
         "max_damage":{
+            "_type":"reference",
+            "reference":"template_tool"
+        },
+        "enchantable":{
             "_type":"reference",
             "reference":"template_tool"
         }
@@ -120,7 +125,11 @@
             "reference":"pickaxe"
         },
         "mining_category":"sword",
-        "hide_mining_tooltips":true
+        "hide_mining_tooltips":true,
+        "enchantable":{
+            "_type":"reference",
+            "reference":"template_tool"
+        }
     },
     "pickaxe":{
         "item_class":"tiered",
@@ -181,6 +190,10 @@
         "furnace_fuel":{
             "_type":"tiered",
             "wooden":4
+        },
+        "enchantable":{
+            "_type":"reference",
+            "reference":"template_tool"
         }
     },
     "axe":{
@@ -234,7 +247,11 @@
             "_type":"tiered",
             "wooden":4
         },
-        "shield_disable_time":5
+        "shield_disable_time":5,
+        "enchantable":{
+            "_type":"reference",
+            "reference":"template_tool"
+        }
     },
     "dagger":{
         "item_class":"tiered",
@@ -286,6 +303,10 @@
         "attack_animation": {
             "type":"stab",
             "duration":4
+        },
+        "enchantable":{
+            "_type":"reference",
+            "reference":"template_tool"
         }
     },
     "shovel":{
@@ -323,6 +344,10 @@
         "furnace_fuel":{
             "_type":"tiered",
             "wooden":2
+        },
+        "enchantable":{
+            "_type":"reference",
+            "reference":"template_tool"
         }
     },
     "hoe":{
@@ -360,6 +385,10 @@
         "furnace_fuel":{
             "_type":"tiered",
             "wooden":3
+        },
+        "enchantable":{
+            "_type":"reference",
+            "reference":"template_tool"
         }
     },
     "hammer":{
@@ -406,6 +435,10 @@
         "furnace_fuel":{
             "_type":"tiered",
             "wooden":6.5
+        },
+        "enchantable":{
+            "_type":"reference",
+            "reference":"template_tool"
         }
     },
     "spear":{
@@ -481,7 +514,11 @@
             "wooden":"spear_wood",
             "hyphae":"spear_wood"
         },
-        "minimum_attack_charge":1
+        "minimum_attack_charge":1,
+        "enchantable":{
+            "_type":"reference",
+            "reference":"template_tool"
+        }
     },
     "helmet":{
         "item_type":{
@@ -544,6 +581,10 @@
         "burn_time":{
             "_type":"tiered",
             "netherite":-0.25
+        },
+        "enchantable":{
+            "_type":"reference",
+            "reference":"template_tool"
         }
     },
     "chestplate":{
@@ -595,6 +636,10 @@
         "burn_time":{
             "_type":"reference",
             "reference":"helmet"
+        },
+        "enchantable":{
+            "_type":"reference",
+            "reference":"template_tool"
         }
     },
     "leggings":{
@@ -646,6 +691,10 @@
         "burn_time":{
             "_type":"reference",
             "reference":"helmet"
+        },
+        "enchantable":{
+            "_type":"reference",
+            "reference":"template_tool"
         }
     },
     "boots":{
@@ -697,6 +746,10 @@
         "burn_time":{
             "_type":"reference",
             "reference":"helmet"
+        },
+        "enchantable":{
+            "_type":"reference",
+            "reference":"template_tool"
         }
     },
     "horse_armor":{
@@ -748,6 +801,10 @@
         "burn_time":{
             "_type":"tiered",
             "netherite":-1
+        },
+        "enchantable":{
+            "_type":"reference",
+            "reference":"template_tool"
         }
     },
     "nautilus_armor":{
@@ -784,6 +841,10 @@
         "burn_time":{
             "_type":"reference",
             "reference":"horse_armor"
+        },
+        "enchantable":{
+            "_type":"reference",
+            "reference":"template_tool"
         }
     },
     "handsaw":{
@@ -794,46 +855,86 @@
         "mining_category": "hammer",
         "block_interaction_range": 1,
         "attack_damage": 6,
-        "attack_speed": 1
+        "attack_speed": 1,
+        "enchantable":{
+            "_type":"reference",
+            "reference":"template_tool"
+        }
     },
     "shears":{
         "max_damage": 192,
         "mining_speed": 6,
         "mining_category": "shears",
         "attack_damage": 2,
-        "attack_speed": 2
+        "attack_speed": 2,
+        "enchantable":{
+            "_type":"reference",
+            "reference":"template_tool"
+        }
     },
     "brush":{
-        "max_damage": 128
+        "max_damage": 128,
+        "enchantable":{
+            "_type":"reference",
+            "reference":"template_tool"
+        }
     },
     "fishing_rod":{
         "max_damage": 365,
-        "furnace_fuel":1.5
+        "furnace_fuel":1.5,
+        "enchantable":{
+            "_type":"reference",
+            "reference":"template_tool"
+        }
     },
     "carrot_on_a_stick":{
         "max_damage": 128,
-        "furnace_fuel":1.5
+        "furnace_fuel":1.5,
+        "enchantable":{
+            "_type":"reference",
+            "reference":"template_tool"
+        }
     },
     "warped_fungus_on_a_stick":{
         "max_damage": 128,
-        "furnace_fuel":1.5
+        "furnace_fuel":1.5,
+        "enchantable":{
+            "_type":"reference",
+            "reference":"template_tool"
+        }
     },
     "flint_and_steel":{
-        "max_damage": 128
+        "max_damage": 128,
+        "enchantable":{
+            "_type":"reference",
+            "reference":"template_tool"
+        }
     },
     "mace":{
         "max_damage": 1024,
         "attack_damage":6,
         "attack_speed":1,
-        "shield_disable_time":5
+        "shield_disable_time":5,
+        "enchantable":{
+            "_type":"reference",
+            "reference":"template_tool"
+        }
     },
     "bow":{
         "max_damage": 384,
-        "furnace_fuel":1.5
+        "furnace_fuel":1.5,
+        "enchantable":{
+            "_type":"reference",
+            "reference":"template_tool"
+        }
     },
     "crossbow":{
         "max_damage": 465,
-        "furnace_fuel":2.25
+        "furnace_fuel":2.25,
+        "enchantable":{
+            "_type":"reference",
+            "reference":"template_tool"
+        }
     },
     "trident":{
         "max_damage": 1024,
@@ -843,6 +944,10 @@
         "attack_animation": {
             "type":"stab",
             "duration":4
+        },
+        "enchantable":{
+            "_type":"reference",
+            "reference":"template_tool"
         }
     },
     "lava_bucket":{
@@ -885,6 +990,10 @@
     },
     "bookshelf":{
         "furnace_fuel":8.5
+    },
+    "book":{
+        "furnace_fuel":0.5,
+        "enchantable":10
     },
 
     "chest":{

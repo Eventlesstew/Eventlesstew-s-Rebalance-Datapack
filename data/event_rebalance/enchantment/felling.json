@@ -29,5 +29,6 @@
   "slots": [
     "mainhand"
   ],
+  "primary_items": "#event_rebalance:enchantable/primary/felling",
   "supported_items": "#minecraft:enchantable/mining"
 }

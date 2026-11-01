@@ -9,7 +9,7 @@
         "###"
     ],
     "result": {
-        "id": "music_disc_ward",
+        "id": "snort_pottery_sherd",
         "components": {
             "!jukebox_playable":{},
             "rarity":"common",

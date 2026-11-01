@@ -117,5 +117,6 @@
   "slots": [
     "mainhand"
   ],
+  "primary_items": "#event_rebalance:enchantable/primary/puncture",
   "supported_items": "#event_rebalance:enchantable/hybrid"
 }

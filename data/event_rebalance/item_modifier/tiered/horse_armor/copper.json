@@ -42,6 +42,9 @@
             {
                 "type": "set_components",
                 "components": {
+                    "enchantable": {
+                        "value": 10
+                    },
                     "max_damage": 192,
                     "damage": 0,
                     "max_stack_size": 1,

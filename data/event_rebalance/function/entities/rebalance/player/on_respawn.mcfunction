@@ -1,1 +1,0 @@
-scoreboard players reset @s event.player_deaths

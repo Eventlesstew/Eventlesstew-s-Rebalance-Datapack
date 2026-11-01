@@ -242,6 +242,10 @@ class item:
             components["item_model"] = "event:" + self.item_id
             components["item_name"] = {"translate": "item.event." + self.item_id}
 
+        enchantable = get_item_value(self.item_id, "enchantable", tier)
+        if enchantable:
+            components["enchantable"] = {"value": enchantable}
+
         durability = get_item_value(self.item_id, "max_damage", tier)
         if durability:
             components["max_damage"] = durability

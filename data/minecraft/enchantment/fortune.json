@@ -1,19 +1,19 @@
 {
-  "anvil_cost": 4,
+  "anvil_cost": 0,
   "description": {
     "translate": "enchantment.minecraft.fortune",
     "color": "#fff281",
     "shadow_color": -2403049
   },
   "max_cost": {
-    "base": 65,
-    "per_level_above_first": 9
+    "base": 15,
+    "per_level_above_first": 15
+  },
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 15
   },
   "max_level": 3,
-  "min_cost": {
-    "base": 15,
-    "per_level_above_first": 9
-  },
   "slots": [
     "mainhand"
   ],
@@ -39,7 +39,7 @@
       }
     ]
   },
-
+  "primary_items": "#event_rebalance:enchantable/primary/fortune",
   "exclusive_set": "#event_rebalance:exclusive_set/loot",
   "supported_items": "#event_rebalance:enchantable/loot",
   "weight": 2

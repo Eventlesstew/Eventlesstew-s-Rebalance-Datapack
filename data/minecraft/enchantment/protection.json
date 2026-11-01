@@ -1,5 +1,5 @@
 {
-  "anvil_cost": 1,
+  "anvil_cost": 0,
   "description": {
     "translate": "enchantment.minecraft.protection",
     "color": "#b5c8d2",
@@ -110,17 +110,18 @@
   },
   "exclusive_set": "#minecraft:exclusive_set/armor",
   "max_cost": {
-    "base": 12,
-    "per_level_above_first": 11
+    "base": 10,
+    "per_level_above_first": 10
+  },
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 10
   },
   "max_level": 4,
-  "min_cost": {
-    "base": 1,
-    "per_level_above_first": 11
-  },
   "slots": [
     "armor"
   ],
+  "primary_items": "#event_rebalance:enchantable/primary/protection",
   "supported_items": "#event_rebalance:enchantable/any_armor",
   "weight": 10
 }

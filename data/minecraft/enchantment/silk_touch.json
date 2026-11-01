@@ -1,5 +1,5 @@
 {
-  "anvil_cost": 8,
+  "anvil_cost": 0,
   "description": "",
   "effects": {
     "minecraft:block_experience": [

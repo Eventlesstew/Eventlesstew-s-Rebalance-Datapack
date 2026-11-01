@@ -977,17 +977,18 @@
   "exclusive_set": "#minecraft:exclusive_set/armor",
   "max_level": 4,
   "max_cost": {
-    "base": 16,
-    "per_level_above_first": 8
+    "base": 10,
+    "per_level_above_first": 10
   },
   "min_cost": {
     "base": 0,
-    "per_level_above_first": 8
+    "per_level_above_first": 10
   },
   "weight": 8,
   "slots": [
     "armor",
     "body"
   ],
+  "primary_items": "#event_rebalance:enchantable/primary/regrow",
   "supported_items": "#event_rebalance:enchantable/any_armor"
 }

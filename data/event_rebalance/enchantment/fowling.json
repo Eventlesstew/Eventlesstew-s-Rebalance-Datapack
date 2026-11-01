@@ -60,18 +60,19 @@
     }]
   },
   "max_cost": {
-    "base": 16,
-    "per_level_above_first": 10
+    "base": 8,
+    "per_level_above_first": 8
   },
   "max_level": 5,
   "min_cost": {
-    "base": 1,
-    "per_level_above_first": 10
+    "base": 0,
+    "per_level_above_first": 8
   },
   "slots": [
     "mainhand"
   ],
   "exclusive_set": "#exclusive_set/damage",
+  "primary_items": "#event_rebalance:enchantable/primary/fowling",
   "supported_items": "#event_rebalance:enchantable/ranged_weapon",
   "weight": 10
 }

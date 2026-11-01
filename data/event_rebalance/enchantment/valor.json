@@ -172,7 +172,6 @@
     ]
   },
   "exclusive_set": "#minecraft:exclusive_set/damage",
-  "max_level": 5,
   "max_cost": {
     "base": 8,
     "per_level_above_first": 8
@@ -181,9 +180,11 @@
     "base": 0,
     "per_level_above_first": 8
   },
+  "max_level": 5,
   "weight": 8,
   "slots": [
     "mainhand"
   ],
+  "primary_items": "#event_rebalance:enchantable/primary/valor",
   "supported_items": "#event_rebalance:enchantable/knife_weapon"
 }

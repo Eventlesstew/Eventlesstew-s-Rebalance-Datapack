@@ -58,5 +58,6 @@
   "slots": [
     "any"
   ],
+  "primary_items": "#event_rebalance:enchantable/primary/crystallization",
   "supported_items": "#enchantable/durability"
 }

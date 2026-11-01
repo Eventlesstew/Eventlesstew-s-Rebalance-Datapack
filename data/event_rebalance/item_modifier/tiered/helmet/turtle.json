@@ -33,6 +33,14 @@
                 ]
             },
             {
+                "type": "set_components",
+                "components": {
+                    "enchantable": {
+                        "value": 10
+                    }
+                }
+            },
+            {
                 "type": "set_lore",
                 "mode": "append",
                 "lore": [

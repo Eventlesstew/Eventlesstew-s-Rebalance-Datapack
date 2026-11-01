@@ -1,5 +1,5 @@
 {
-  "anvil_cost": 4,
+  "anvil_cost": 0,
   "description": {
     "translate": "enchantment.minecraft.mending",
     "color": "#f993c8",
@@ -31,6 +31,7 @@
   "slots": [
     "any"
   ],
+  "primary_items": "#event_rebalance:enchantable/primary/mending",
   "supported_items": "#minecraft:enchantable/durability",
   "exclusive_set": "#event_rebalance:exclusive_set/durability",
   "weight": 2

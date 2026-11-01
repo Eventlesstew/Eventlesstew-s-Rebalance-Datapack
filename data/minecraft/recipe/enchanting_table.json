@@ -1,8 +1,13 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "group": "removed_items",
-  "ingredients": [
-    "barrier"
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "L": "minecraft:lapis_lazuli",
+    "O": "minecraft:obsidian",
+    "B": "minecraft:book"
+  },
+  "pattern": [
+    " B ",
+    "LOL"
   ],
   "result": {
     "id": "minecraft:enchanting_table"

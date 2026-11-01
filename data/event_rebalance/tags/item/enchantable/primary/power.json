@@ -1,0 +1,13 @@
+{
+    "values": [
+        "#swords",
+        "#daggers",
+        "#spears",
+        "#axes",
+        "#hammers",
+        "bow",
+        "crossbow",
+        "trident",
+        "wolf_armor"
+    ]
+}

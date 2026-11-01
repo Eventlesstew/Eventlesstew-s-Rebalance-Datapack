@@ -1,8 +1,26 @@
 {
   "values": [
+    "breach",
+    "event_rebalance:combo",
+    "density",
+    "efficiency",
+    "feather_falling",
+    "event_rebalance:felling",
+    "event_rebalance:focusing",
+    "fortune",
+    "event_rebalance:fowling",
+    "event_rebalance:frenzy",
+    "impaling",
+    "event_rebalance:lightweight",
+    "luck_of_the_sea",
+    "lure",
+    "power",
+    "protection",
+    "event_rebalance:puncture",
+    "event_rebalance:regrow",
+    "smite",
     "unbreaking",
-    "mending",
-    "event_rebalance:crystallization"
+    "event_rebalance:valor"
   ],
     "replace": true
 }

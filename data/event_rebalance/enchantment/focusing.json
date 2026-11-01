@@ -200,5 +200,6 @@
   "slots": [
     "mainhand"
   ],
+  "primary_items": "#event_rebalance:enchantable/primary/focusing",
   "supported_items": "#minecraft:enchantable/mining"
 }

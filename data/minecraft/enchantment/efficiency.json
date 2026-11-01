@@ -1,5 +1,5 @@
 {
-  "anvil_cost": 1,
+  "anvil_cost": 0,
   "description": {
     "translate": "enchantment.minecraft.efficiency",
     "color": "#c3ff7e",
@@ -19,17 +19,18 @@
     ]
   },
   "max_cost": {
-    "base": 51,
-    "per_level_above_first": 10
+    "base": 8,
+    "per_level_above_first": 8
+  },
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 8
   },
   "max_level": 5,
-  "min_cost": {
-    "base": 1,
-    "per_level_above_first": 10
-  },
   "slots": [
     "mainhand"
   ],
+  "primary_items": "#event_rebalance:enchantable/primary/efficiency",
   "supported_items": "#minecraft:enchantable/mining",
   "exclusive_set": "#event_rebalance:exclusive_set/mining_speed",
   "weight": 10

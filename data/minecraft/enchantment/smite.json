@@ -1,5 +1,5 @@
 {
-  "anvil_cost": 2,
+  "anvil_cost": 0,
   "description": {
     "translate": "enchantment.minecraft.smite",
     "color": "#ffac8e",
@@ -133,15 +133,15 @@
   },
   "exclusive_set": "#minecraft:exclusive_set/damage",
   "max_cost": {
-    "base": 25,
+    "base": 8,
+    "per_level_above_first": 8
+  },
+  "min_cost": {
+    "base": 0,
     "per_level_above_first": 8
   },
   "max_level": 5,
-  "min_cost": {
-    "base": 5,
-    "per_level_above_first": 8
-  },
-  "primary_items": "#enchantable/sharp_weapon",
+  "primary_items": "#event_rebalance:enchantable/primary/smite",
   "supported_items": "#event_rebalance:enchantable/any_weapon_or_wolf",
   "slots": [
     "mainhand"

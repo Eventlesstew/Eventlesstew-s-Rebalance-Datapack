@@ -33,5 +33,6 @@
   "slots": [
     "mainhand"
   ],
+  "primary_items": "#event_rebalance:enchantable/primary/frenzy",
   "supported_items": "#minecraft:enchantable/weapon"
 }

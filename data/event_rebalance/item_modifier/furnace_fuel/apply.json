@@ -177,6 +177,13 @@
         {
             "type": "filtered",
             "item_filter": {
+                "items": "book"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/0.5"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
                 "items": "chest"
             },
             "on_pass": "event_rebalance:furnace_fuel/8"

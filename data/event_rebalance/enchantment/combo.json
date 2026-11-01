@@ -477,5 +477,6 @@
   "slots": [
     "mainhand"
   ],
+  "primary_items": "#event_rebalance:enchantable/primary/combo",
   "supported_items": "#event_rebalance:enchantable/stab_weapon_or_wolf"
 }
