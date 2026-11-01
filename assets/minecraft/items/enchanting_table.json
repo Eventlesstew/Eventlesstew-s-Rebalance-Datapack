@@ -1,6 +1,34 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "event:block/enchanting_table_held"
+    "type": "minecraft:select",
+    "property": "display_context",
+    "cases": [
+      {
+        "when": [
+          "firstperson_righthand",
+          "firstperson_lefthand"
+        ],
+        "model": {
+          "type": "model",
+          "model": "event:block/enchanting_table_firstperson"
+        }
+      },
+      {
+        "when": [
+          "gui",
+          "thirdperson_lefthand",
+          "thirdperson_righthand",
+          "ground"
+        ],
+        "model": {
+          "type": "model",
+          "model": "event:block/enchanting_table_inventory"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "event:block/enchanting_table_held"
+    }
   }
 }
