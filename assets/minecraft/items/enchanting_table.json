@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "event:block/enchanting_table_held"
+  }
+}
