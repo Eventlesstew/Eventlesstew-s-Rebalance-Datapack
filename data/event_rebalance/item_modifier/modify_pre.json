@@ -1,0 +1,10 @@
+{
+    "type": "sequence",
+    "functions": [
+        {
+            "type": "set_lore",
+            "mode":"replace_all",
+            "lore": []
+        }
+    ]
+}

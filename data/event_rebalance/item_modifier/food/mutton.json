@@ -69,9 +69,34 @@
                         "color": "#5555ff"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.apply_effect.slowness.1.1s.50%",
-                        "italic": false,
-                        "color": "#ff5555"
+                        "translate": "potion.withProbability.negative.0.5",
+                        "with": [
+                            "0.5",
+                            {
+                                "translate": "potion.withDuration",
+                                "with": [
+                                    {
+                                        "translate": "potion.withAmplifier",
+                                        "with": [
+                                            {
+                                                "translate": "effect.minecraft.slowness",
+                                                "italic": false
+                                            },
+                                            {
+                                                "translate": "potion.potency.0",
+                                                "italic": false
+                                            }
+                                        ],
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "(00:01)"
+                                    }
+                                ],
+                                "italic": false,
+                                "color": "#ff5555"
+                            }
+                        ]
                     }
                 ]
             }

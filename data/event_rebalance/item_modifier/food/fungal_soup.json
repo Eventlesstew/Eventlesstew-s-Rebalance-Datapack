@@ -111,24 +111,124 @@
                         "color": "#f78324"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.apply_effect.nausea.1.1s",
-                        "italic": false,
-                        "color": "#ff5555"
+                        "translate": "potion.withProbability.negative.1",
+                        "with": [
+                            "1",
+                            {
+                                "translate": "potion.withDuration",
+                                "with": [
+                                    {
+                                        "translate": "potion.withAmplifier",
+                                        "with": [
+                                            {
+                                                "translate": "effect.minecraft.nausea",
+                                                "italic": false
+                                            },
+                                            {
+                                                "translate": "potion.potency.0",
+                                                "italic": false
+                                            }
+                                        ],
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "(00:01)"
+                                    }
+                                ],
+                                "italic": false,
+                                "color": "#ff5555"
+                            }
+                        ]
                     },
                     {
-                        "translate": "attribute.name.consumable.food.apply_effect.darkness.2.1s",
-                        "italic": false,
-                        "color": "#ff5555"
+                        "translate": "potion.withProbability.negative.1",
+                        "with": [
+                            "1",
+                            {
+                                "translate": "potion.withDuration",
+                                "with": [
+                                    {
+                                        "translate": "potion.withAmplifier",
+                                        "with": [
+                                            {
+                                                "translate": "effect.minecraft.darkness",
+                                                "italic": false
+                                            },
+                                            {
+                                                "translate": "potion.potency.1",
+                                                "italic": false
+                                            }
+                                        ],
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "(00:01)"
+                                    }
+                                ],
+                                "italic": false,
+                                "color": "#ff5555"
+                            }
+                        ]
                     },
                     {
-                        "translate": "attribute.name.consumable.food.apply_effect.strength.2.1s",
-                        "italic": false,
-                        "color": "#5555ff"
+                        "translate": "potion.withProbability.1",
+                        "with": [
+                            "1",
+                            {
+                                "translate": "potion.withDuration",
+                                "with": [
+                                    {
+                                        "translate": "potion.withAmplifier",
+                                        "with": [
+                                            {
+                                                "translate": "effect.minecraft.strength",
+                                                "italic": false
+                                            },
+                                            {
+                                                "translate": "potion.potency.1",
+                                                "italic": false
+                                            }
+                                        ],
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "(00:01)"
+                                    }
+                                ],
+                                "italic": false,
+                                "color": "#5555ff"
+                            }
+                        ]
                     },
                     {
-                        "translate": "attribute.name.consumable.food.apply_effect.haste.1.1s",
-                        "italic": false,
-                        "color": "#5555ff"
+                        "translate": "potion.withProbability.1",
+                        "with": [
+                            "1",
+                            {
+                                "translate": "potion.withDuration",
+                                "with": [
+                                    {
+                                        "translate": "potion.withAmplifier",
+                                        "with": [
+                                            {
+                                                "translate": "effect.minecraft.haste",
+                                                "italic": false
+                                            },
+                                            {
+                                                "translate": "potion.potency.0",
+                                                "italic": false
+                                            }
+                                        ],
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "(00:01)"
+                                    }
+                                ],
+                                "italic": false,
+                                "color": "#5555ff"
+                            }
+                        ]
                     }
                 ]
             }

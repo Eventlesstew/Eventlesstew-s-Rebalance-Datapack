@@ -91,14 +91,44 @@
                         "color": "#f78324"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.cure_effect.hunger",
+                        "translate": "potion.cure",
+                        "with": [
+                            {
+                                "translate": "effect.minecrafthunger"
+                            }
+                        ],
                         "italic": false,
                         "color": "#5555ff"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.apply_effect.regeneration.2.0s",
-                        "italic": false,
-                        "color": "#5555ff"
+                        "translate": "potion.withProbability.1",
+                        "with": [
+                            "1",
+                            {
+                                "translate": "potion.withDuration",
+                                "with": [
+                                    {
+                                        "translate": "potion.withAmplifier",
+                                        "with": [
+                                            {
+                                                "translate": "effect.minecraft.regeneration",
+                                                "italic": false
+                                            },
+                                            {
+                                                "translate": "potion.potency.1",
+                                                "italic": false
+                                            }
+                                        ],
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "(00:00)"
+                                    }
+                                ],
+                                "italic": false,
+                                "color": "#5555ff"
+                            }
+                        ]
                     }
                 ]
             }

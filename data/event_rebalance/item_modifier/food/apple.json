@@ -83,7 +83,12 @@
                         "color": "#f78324"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.cure_effect.hunger",
+                        "translate": "potion.cure",
+                        "with": [
+                            {
+                                "translate": "effect.minecrafthunger"
+                            }
+                        ],
                         "italic": false,
                         "color": "#5555ff"
                     }

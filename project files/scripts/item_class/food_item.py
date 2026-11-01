@@ -12,16 +12,16 @@ def is_effect_negative(effect_id: str):
 
 
 class food_item(item):
-    def get_components(self,tier):
+    def get_components(self, tier):
         components = super().get_components(tier)
 
-        nutrition = get_item_value(self.item_id, "food",tier)
-        saturation = get_item_value(self.item_id, "saturation",tier)
-        always_edible = get_item_value(self.item_id, "always_edible",tier)
-        eat_time = get_item_value(self.item_id, "eat_time",tier)
-        eat_speed = get_item_value(self.item_id, "eat_speed",tier)
-        eat_sound = get_item_value(self.item_id, "eat_sound",tier)
-        is_drink = get_item_value(self.item_id, "is_drink",tier)
+        nutrition = get_item_value(self.item_id, "food", tier)
+        saturation = get_item_value(self.item_id, "saturation", tier)
+        always_edible = get_item_value(self.item_id, "always_edible", tier)
+        eat_time = get_item_value(self.item_id, "eat_time", tier)
+        eat_speed = get_item_value(self.item_id, "eat_speed", tier)
+        eat_sound = get_item_value(self.item_id, "eat_sound", tier)
+        is_drink = get_item_value(self.item_id, "is_drink", tier)
 
         food_effects = self.get_food_effects(tier)
 
@@ -51,13 +51,13 @@ class food_item(item):
         return components
 
     def get_lore(self, tier=""):
-        nutrition = get_item_value(self.item_id, "food",tier)
-        saturation = get_item_value(self.item_id, "saturation",tier)
-        healing = get_item_value(self.item_id, "healing",tier)
-        always_edible = get_item_value(self.item_id, "always_edible",tier)
-        eat_time = get_item_value(self.item_id, "eat_time",tier)
-        eat_speed = get_item_value(self.item_id, "eat_speed",tier)
-        is_drink = get_item_value(self.item_id, "is_drink",tier)
+        nutrition = get_item_value(self.item_id, "food", tier)
+        saturation = get_item_value(self.item_id, "saturation", tier)
+        healing = get_item_value(self.item_id, "healing", tier)
+        always_edible = get_item_value(self.item_id, "always_edible", tier)
+        eat_time = get_item_value(self.item_id, "eat_time", tier)
+        eat_speed = get_item_value(self.item_id, "eat_speed", tier)
+        is_drink = get_item_value(self.item_id, "is_drink", tier)
 
         item_lore = []
         if nutrition > 0:
@@ -132,10 +132,10 @@ class food_item(item):
 
         return item_lore
 
-    def get_food_effects(self,tier=""):
+    def get_food_effects(self, tier=""):
         food_effects = []
 
-        for effect in get_item_value(self.item_id, "effects",tier):
+        for effect in get_item_value(self.item_id, "effects", tier):
             effect_type = effect["effect_type"]
             if effect_type == "cure_effect":
                 effect_id = effect["effect"]
@@ -183,8 +183,8 @@ class food_item(item):
             elif effect_type == "clear_all_effects":
                 food_effects.append({"type": "clear_all_effects"})
 
-        healing = get_item_value(self.item_id, "healing",tier)
-        eat_time = get_item_value(self.item_id, "eat_time",tier)
+        healing = get_item_value(self.item_id, "healing", tier)
+        eat_time = get_item_value(self.item_id, "eat_time", tier)
 
         if healing > 0:
             target_level = 5
@@ -212,7 +212,7 @@ class food_item(item):
                 }
             )
 
-        eat_sound_finish = get_item_value(self.item_id, "eat_sound_finish",tier)
+        eat_sound_finish = get_item_value(self.item_id, "eat_sound_finish", tier)
 
         if eat_sound_finish != default_item_data["eat_sound_finish"]:
             food_effects.append(
@@ -224,34 +224,35 @@ class food_item(item):
 
         return food_effects
 
-    def get_food_effects_lore(self,tier=""):
+    def get_food_effects_lore(self, tier=""):
         food_effect_lore = []
 
-        for effect in get_item_value(self.item_id, "effects",tier):
+        for effect in get_item_value(self.item_id, "effects", tier):
             effect_type = effect["effect_type"]
             if effect_type == "cure_effect":
                 effect_id = effect["effect"]
-                food_effect_lore.append(
-                    self.get_lore_base(
-                        "attribute.name.consumable.food."
-                        + effect_type
-                        + "."
-                        + effect_id,
-                        color=self.get_effect_color(effect_id, True),
-                    )
-                )
+                translation_key = {
+                    "translate": "potion.cure",
+                    "with": [
+                        {"translate": "effect.minecraft" + effect_id},
+                    ],
+                    "italic": False,
+                    "color": self.get_effect_color(effect_id, True),
+                }
+                food_effect_lore.append(translation_key)
+
             elif effect_type == "cure_effect_set":
                 effect_set_id = effect["effect_set"]
 
-                food_effect_lore.append(
-                    self.get_lore_base(
-                        "attribute.name.consumable.food."
-                        + effect_type
-                        + "."
-                        + effect_set_id,
-                        color="#5555ff",
-                    )
-                )
+                translation_key = {
+                    "translate": "potion.cure",
+                    "with": [
+                        {"translate": "effect.minecraft.set" + effect_set_id},
+                    ],
+                    "italic": False,
+                    "color": "#5555ff",
+                }
+                food_effect_lore.append(translation_key)
 
             elif effect_type == "apply_effect":
                 effect_id = effect["effect"]
@@ -267,29 +268,53 @@ class food_item(item):
                 if "probability" in effect:
                     effect_probability = effect["probability"]
 
-                translation_key = (
-                    "attribute.name.consumable.food."
-                    + effect_type
-                    + "."
-                    + effect_id
-                    + "."
-                    + str(effect_level + 1)
-                    + "."
-                    + str(effect_duration)
-                    + "s"
-                )
-                if effect_probability < 1:
-                    effect_probability_percent = (
-                        str(int(effect_probability * 100)) + "%"
-                    )
-                    translation_key += "." + effect_probability_percent
+                time_mins = str(effect_duration // 60)
+                if len(time_mins) < 2:
+                    time_mins = "0" + time_mins
 
-                food_effect_lore.append(
-                    self.get_lore_base(
-                        translation_key,
-                        color=self.get_effect_color(effect_id),
-                    )
-                )
+                time_secs = str(effect_duration % 60)
+                if len(time_secs) < 2:
+                    time_secs = "0" + time_secs
+                time_string = "(" + time_mins + ":" + time_secs + ")"
+
+                probability_key = ""
+                if is_effect_negative(effect_id):
+                    probability_key = "negative."
+                translation_key = {
+                    "translate": "potion.withProbability."
+                    + probability_key
+                    + str(effect_probability),
+                    "with": [
+                        str(effect_probability),
+                        {
+                            "translate": "potion.withDuration",
+                            "with": [
+                                {
+                                    "translate": "potion.withAmplifier",
+                                    "with": [
+                                        {
+                                            "translate": "effect.minecraft."
+                                            + effect_id,
+                                            "italic": False,
+                                        },
+                                        {
+                                            "translate": "potion.potency."
+                                            + str(effect_level),
+                                            "italic": False,
+                                        },
+                                    ],
+                                    "italic": False,
+                                },
+                                {"text": time_string},
+                            ],
+                            "italic": False,
+                            "color": self.get_effect_color(effect_id),
+                        },
+                    ],
+                    "italic": False,
+                    "color": self.get_effect_color(effect_id),
+                }
+                food_effect_lore.append(translation_key)
 
             elif effect_type == "teleport_randomly":
                 food_effect_lore.append(

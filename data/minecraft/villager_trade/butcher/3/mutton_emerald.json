@@ -1,0 +1,15 @@
+{
+  "gives": {
+    "id": "minecraft:pumpkin_pie",
+    "components": {
+      "item_model": "beef"
+    }
+  },
+  "max_uses": 16,
+  "reputation_discount": 0.05,
+  "wants": {
+    "count": 7,
+    "id": "minecraft:mutton"
+  },
+  "xp": 20
+}

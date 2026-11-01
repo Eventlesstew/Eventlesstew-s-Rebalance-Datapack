@@ -1,0 +1,27 @@
+{
+    "type": "sequence",
+    "functions": [
+        {
+            "type": "filtered",
+            "item_filter": {
+                "predicates": {
+                    "max_damage": {}
+                }
+            },
+            "on_pass": {
+                "type": "filtered",
+                "item_filter": {
+                    "predicates": {
+                        "damage":{}
+                    }
+                },
+                "on_fail": {
+                    "type": "set_components",
+                    "components": {
+                        "damage": 0
+                    }
+                }
+            }
+        }
+    ]
+}

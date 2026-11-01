@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:nether/distract_piglin",
+  "parent": "minecraft:story/form_obsidian",
   "criteria": {
     "crying_obsidian": {
       "conditions": {

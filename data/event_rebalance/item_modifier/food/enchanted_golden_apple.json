@@ -135,24 +135,104 @@
                         "color": "#f78324"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.cure_effect_set.negative",
+                        "translate": "potion.cure",
+                        "with": [
+                            {
+                                "translate": "effect.minecraft.setnegative"
+                            }
+                        ],
                         "italic": false,
                         "color": "#5555ff"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.apply_effect.absorption.4.6s",
-                        "italic": false,
-                        "color": "#5555ff"
+                        "translate": "potion.withProbability.1",
+                        "with": [
+                            "1",
+                            {
+                                "translate": "potion.withDuration",
+                                "with": [
+                                    {
+                                        "translate": "potion.withAmplifier",
+                                        "with": [
+                                            {
+                                                "translate": "effect.minecraft.absorption",
+                                                "italic": false
+                                            },
+                                            {
+                                                "translate": "potion.potency.3",
+                                                "italic": false
+                                            }
+                                        ],
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "(00:06)"
+                                    }
+                                ],
+                                "italic": false,
+                                "color": "#5555ff"
+                            }
+                        ]
                     },
                     {
-                        "translate": "attribute.name.consumable.food.apply_effect.resistance.1.6s",
-                        "italic": false,
-                        "color": "#5555ff"
+                        "translate": "potion.withProbability.1",
+                        "with": [
+                            "1",
+                            {
+                                "translate": "potion.withDuration",
+                                "with": [
+                                    {
+                                        "translate": "potion.withAmplifier",
+                                        "with": [
+                                            {
+                                                "translate": "effect.minecraft.resistance",
+                                                "italic": false
+                                            },
+                                            {
+                                                "translate": "potion.potency.0",
+                                                "italic": false
+                                            }
+                                        ],
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "(00:06)"
+                                    }
+                                ],
+                                "italic": false,
+                                "color": "#5555ff"
+                            }
+                        ]
                     },
                     {
-                        "translate": "attribute.name.consumable.food.apply_effect.fire_resistance.1.6s",
-                        "italic": false,
-                        "color": "#5555ff"
+                        "translate": "potion.withProbability.1",
+                        "with": [
+                            "1",
+                            {
+                                "translate": "potion.withDuration",
+                                "with": [
+                                    {
+                                        "translate": "potion.withAmplifier",
+                                        "with": [
+                                            {
+                                                "translate": "effect.minecraft.fire_resistance",
+                                                "italic": false
+                                            },
+                                            {
+                                                "translate": "potion.potency.0",
+                                                "italic": false
+                                            }
+                                        ],
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "(00:06)"
+                                    }
+                                ],
+                                "italic": false,
+                                "color": "#5555ff"
+                            }
+                        ]
                     }
                 ]
             }

@@ -1,5 +1,5 @@
 {
-  "parent": "event_rebalance:story/obtain_lapis",
+  "parent": "story/form_obsidian",
   "criteria": {
     "enchanted_item": {
       "trigger": "minecraft:enchanted_item"

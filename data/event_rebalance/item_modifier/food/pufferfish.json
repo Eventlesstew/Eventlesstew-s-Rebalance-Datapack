@@ -89,19 +89,94 @@
                         "color": "#7a58f1"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.apply_effect.hunger.3.1s",
-                        "italic": false,
-                        "color": "#ff5555"
+                        "translate": "potion.withProbability.negative.1",
+                        "with": [
+                            "1",
+                            {
+                                "translate": "potion.withDuration",
+                                "with": [
+                                    {
+                                        "translate": "potion.withAmplifier",
+                                        "with": [
+                                            {
+                                                "translate": "effect.minecraft.hunger",
+                                                "italic": false
+                                            },
+                                            {
+                                                "translate": "potion.potency.2",
+                                                "italic": false
+                                            }
+                                        ],
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "(00:01)"
+                                    }
+                                ],
+                                "italic": false,
+                                "color": "#ff5555"
+                            }
+                        ]
                     },
                     {
-                        "translate": "attribute.name.consumable.food.apply_effect.poison.2.3s",
-                        "italic": false,
-                        "color": "#ff5555"
+                        "translate": "potion.withProbability.negative.1",
+                        "with": [
+                            "1",
+                            {
+                                "translate": "potion.withDuration",
+                                "with": [
+                                    {
+                                        "translate": "potion.withAmplifier",
+                                        "with": [
+                                            {
+                                                "translate": "effect.minecraft.poison",
+                                                "italic": false
+                                            },
+                                            {
+                                                "translate": "potion.potency.1",
+                                                "italic": false
+                                            }
+                                        ],
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "(00:03)"
+                                    }
+                                ],
+                                "italic": false,
+                                "color": "#ff5555"
+                            }
+                        ]
                     },
                     {
-                        "translate": "attribute.name.consumable.food.apply_effect.nausea.1.1s",
-                        "italic": false,
-                        "color": "#ff5555"
+                        "translate": "potion.withProbability.negative.1",
+                        "with": [
+                            "1",
+                            {
+                                "translate": "potion.withDuration",
+                                "with": [
+                                    {
+                                        "translate": "potion.withAmplifier",
+                                        "with": [
+                                            {
+                                                "translate": "effect.minecraft.nausea",
+                                                "italic": false
+                                            },
+                                            {
+                                                "translate": "potion.potency.0",
+                                                "italic": false
+                                            }
+                                        ],
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "(00:01)"
+                                    }
+                                ],
+                                "italic": false,
+                                "color": "#ff5555"
+                            }
+                        ]
                     }
                 ]
             }

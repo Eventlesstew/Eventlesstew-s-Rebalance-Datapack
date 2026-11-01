@@ -427,6 +427,16 @@
       },
       "trigger": "minecraft:consume_item"
     },
+    "beef_pie": {
+      "conditions": {
+        "item": {
+          "components": {
+            "item_model": "event:beef_pie"
+          }
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
     "honeycomb": {
       "conditions": {
         "item": {
@@ -610,6 +620,9 @@
     ],
     [
       "honeycomb"
+    ],
+    [
+      "beef_pie"
     ]
   ],
   "rewards": {

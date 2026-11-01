@@ -69,9 +69,34 @@
                         "color": "#f78324"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.apply_effect.hunger.2.1s.50%",
-                        "italic": false,
-                        "color": "#ff5555"
+                        "translate": "potion.withProbability.negative.0.5",
+                        "with": [
+                            "0.5",
+                            {
+                                "translate": "potion.withDuration",
+                                "with": [
+                                    {
+                                        "translate": "potion.withAmplifier",
+                                        "with": [
+                                            {
+                                                "translate": "effect.minecraft.hunger",
+                                                "italic": false
+                                            },
+                                            {
+                                                "translate": "potion.potency.1",
+                                                "italic": false
+                                            }
+                                        ],
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "(00:01)"
+                                    }
+                                ],
+                                "italic": false,
+                                "color": "#ff5555"
+                            }
+                        ]
                     }
                 ]
             }

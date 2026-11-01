@@ -1,0 +1,15 @@
+{
+  "gives": {
+    "id": "minecraft:shield",
+    "components": {
+      "item_model": "event:shield/heavy_shield"
+    }
+  },
+  "max_uses": 12,
+  "reputation_discount": 0.2,
+  "wants": {
+    "count": 3,
+    "id": "minecraft:emerald"
+  },
+  "xp": 5
+}

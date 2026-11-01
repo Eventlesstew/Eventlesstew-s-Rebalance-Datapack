@@ -88,6 +88,7 @@ Squid Spawn Egg: Scroll of Respiration
 Goat Spawn Egg: Scroll of Punch
 Zombie Spawn Egg: Scroll of Sweeping Edge
 
+Pumpkin Pie: Beef Pie
 Charcoal: Chocolate
 Music Disc Creator: Apple Pie
 Music Disc Creator (Music Box): Cooked Tropical Fish
@@ -95,3 +96,5 @@ Music Disc Creator (Music Box): Cooked Tropical Fish
 Petrified Oak Slab: Rose Golden Block
 
 FREE ITEMS:
+Beetroot
+Rabbit Hide

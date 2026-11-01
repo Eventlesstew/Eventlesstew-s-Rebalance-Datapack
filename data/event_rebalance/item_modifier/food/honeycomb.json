@@ -88,7 +88,12 @@
                         "color": "#f78324"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.cure_effect.poison",
+                        "translate": "potion.cure",
+                        "with": [
+                            {
+                                "translate": "effect.minecraftpoison"
+                            }
+                        ],
                         "italic": false,
                         "color": "#5555ff"
                     }

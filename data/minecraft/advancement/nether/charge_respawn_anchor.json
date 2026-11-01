@@ -1,5 +1,5 @@
 {
-  "parent": "event_rebalance:nether/portal_box",
+  "parent": "minecraft:nether/root",
   "criteria": {
     "charge_respawn_anchor": {
       "conditions": {

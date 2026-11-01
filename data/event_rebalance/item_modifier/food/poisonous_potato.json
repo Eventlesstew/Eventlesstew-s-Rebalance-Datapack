@@ -63,9 +63,34 @@
                         "color": "#f78324"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.apply_effect.poison.1.0s",
-                        "italic": false,
-                        "color": "#ff5555"
+                        "translate": "potion.withProbability.negative.1",
+                        "with": [
+                            "1",
+                            {
+                                "translate": "potion.withDuration",
+                                "with": [
+                                    {
+                                        "translate": "potion.withAmplifier",
+                                        "with": [
+                                            {
+                                                "translate": "effect.minecraft.poison",
+                                                "italic": false
+                                            },
+                                            {
+                                                "translate": "potion.potency.0",
+                                                "italic": false
+                                            }
+                                        ],
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "(00:00)"
+                                    }
+                                ],
+                                "italic": false,
+                                "color": "#ff5555"
+                            }
+                        ]
                     }
                 ]
             }

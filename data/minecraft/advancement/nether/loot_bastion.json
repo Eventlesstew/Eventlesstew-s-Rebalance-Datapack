@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:nether/find_bastion",
+  "criteria": {
+    "kill_piglin_brute": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:piglin_brute"
+          }
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.nether.loot_bastion.description"
+    },
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "item_model": "event:tiered/axe/rose_golden"
+      }
+    },
+    "title": {
+      "translate": "advancements.nether.loot_bastion.title"
+    }
+  },
+  "requirements": [
+    [
+      "kill_piglin_brute"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

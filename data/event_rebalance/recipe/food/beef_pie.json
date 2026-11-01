@@ -1,0 +1,23 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "A":"cooked_beef",
+        "W":"wheat",
+        "E":"#eggs"
+    },
+    "pattern": [
+        "AAA",
+        "WEW"
+    ],
+    "result": {
+        "id": "pumpkin_pie",
+        "components": {
+            "!jukebox_playable":{},
+            "max_stack_size":64,
+            "item_model": "event:beef_pie",
+            "item_name": {
+                "translate": "item.event.beef_pie"
+            }
+        }
+    }
+}

@@ -1,5 +1,5 @@
 {
-  "parent": "event_rebalance:story/obtain_lapis",
+  "parent": "story/smelt_iron",
   "criteria": {
     "enchanted_item": {
       "conditions": {

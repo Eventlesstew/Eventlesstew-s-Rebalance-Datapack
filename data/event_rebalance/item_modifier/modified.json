@@ -12,18 +12,20 @@
             "item_filter": {
                 "items": "#event_rebalance:dummy_items"
             },
-            "on_pass": {
-                "type": "set_components",
-                "components": {
-                    "!jukebox_playable": {},
-                    "!provides_pottery_pattern": {},
-                    "max_stack_size": 64,
-                    "rarity":"common",
-                    "!brewing_fuel": {},
-                    "!cooking_fuel": {},
-                    "!compostable": {}
+            "on_pass": [
+                {
+                    "type": "set_components",
+                    "components": {
+                        "!jukebox_playable": {},
+                        "!provides_pottery_pattern": {},
+                        "max_stack_size": 64,
+                        "rarity":"common",
+                        "!brewing_fuel": {},
+                        "!cooking_fuel": {},
+                        "!compostable": {}
+                    }
                 }
-            }
+            ]
         }
     ]
 }

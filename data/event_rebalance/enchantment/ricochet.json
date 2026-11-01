@@ -1,7 +1,7 @@
 {
   "anvil_cost": 1,
   "description": {
-    "translate": "enchantment.balance.ricochet",
+    "translate": "enchantment.event.ricochet",
     "color": "#c3ff7e",
     "shadow_color": -869230800
   },
@@ -15,7 +15,6 @@
       }
     ]
   },
-  "exclusive_set": "#event_rebalance:exclusive_set/range",
   "max_level": 5,
   "max_cost": {
     "base": 8,

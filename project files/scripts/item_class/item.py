@@ -252,7 +252,6 @@ class item:
         durability = get_item_value(self.item_id, "max_damage", tier)
         if durability:
             components["max_damage"] = durability
-            components["damage"] = 0
             components["max_stack_size"] = 1
 
             if tier == "":
