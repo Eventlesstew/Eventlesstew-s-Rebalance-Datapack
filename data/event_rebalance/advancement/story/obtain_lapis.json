@@ -11,7 +11,7 @@
       "trigger": "minecraft:inventory_changed"
     }
   },
-  "parent": "story/iron_tools",
+  "parent": "story/smelt_iron",
   "display": {
     "title": {
       "translate": "advancements.story.obtain_lapis.title"

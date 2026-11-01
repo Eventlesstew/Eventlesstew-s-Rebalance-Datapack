@@ -9,7 +9,7 @@
 			}
 		},
 		"title": {
-			"translate":"advancements.story.obtain_all_enchantments.description"
+			"translate":"advancements.story.obtain_all_enchantments.title"
 		},
 		"description": {
             "translate": "advancements.story.obtain_all_enchantments.description"
@@ -17,7 +17,7 @@
 		"announce_to_chat": true,
 		"frame": "challenge"
 	},
-	"parent": "event_rebalance:story/enchant_book",	
+	"parent": "event_rebalance:story/obtain_scroll",	
 	"criteria": {
 		"protection": {
 			"trigger": "minecraft:inventory_changed",

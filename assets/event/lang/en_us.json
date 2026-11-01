@@ -487,6 +487,8 @@
     "advancements.story.disenchant_item.description": "Interact with a Grindstone",
     "advancements.story.obtain_item_with_5_enchants.title": "Family Favourite",
     "advancements.story.obtain_item_with_5_enchants.description": "Have 5 enchantments applied to a single item",
+    "advancements.story.obtain_scroll.title":"Scroll of Truth",
+    "advancements.story.obtain_scroll.description":"Find an Enchanted Scroll",
     "advancements.story.obtain_all_enchantments.title": "Total Bookworm",
     "advancements.story.obtain_all_enchantments.description": "Obtain every Enchantment",
     "advancements.story.craft_weapon.description": "Craft a weapon",

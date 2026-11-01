@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "item_gained": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#event_rebalance:scrolls"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "parent": "event_rebalance:story/enchant_book",
+  "display": {
+    "title": {
+      "translate": "advancements.story.obtain_scroll.title"
+    },
+    "description": {
+      "translate": "advancements.story.obtain_scroll.description"
+    },
+    "icon": {
+        "id": "strider_spawn_egg"
+    }
+  },
+  "requirements": [
+    [
+      "item_gained"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
