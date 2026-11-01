@@ -107,7 +107,7 @@
                     {
                         "translate": "8 ",
                         "italic": false,
-                        "color": "#1aa819",
+                        "color": "gold",
                         "extra": [
                             {
                                 "translate": "attribute.name.mining_speed.hammer"
@@ -117,7 +117,7 @@
                     {
                         "translate": "3 ",
                         "italic": false,
-                        "color": "#1aa819",
+                        "color": "gold",
                         "extra": [
                             {
                                 "translate": "attribute.name.mining_power.hammer"
@@ -127,7 +127,7 @@
                     {
                         "translate": "+1 ",
                         "italic": false,
-                        "color": "#1aa819",
+                        "color": "gold",
                         "extra": [
                             {
                                 "translate": "attribute.name.block_interaction_range"

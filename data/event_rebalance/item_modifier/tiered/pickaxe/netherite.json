@@ -95,7 +95,7 @@
                     {
                         "translate": "16 ",
                         "italic": false,
-                        "color": "#1aa819",
+                        "color": "gold",
                         "extra": [
                             {
                                 "translate": "attribute.name.mining_speed.pickaxe"
@@ -105,7 +105,7 @@
                     {
                         "translate": "4 ",
                         "italic": false,
-                        "color": "#1aa819",
+                        "color": "gold",
                         "extra": [
                             {
                                 "translate": "attribute.name.mining_power.pickaxe"

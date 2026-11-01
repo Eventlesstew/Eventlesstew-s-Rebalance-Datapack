@@ -408,12 +408,12 @@ class item:
     def get_lore(self, tier=""):
         lore = []
 
-        def add_lore(value, key: str):
+        def add_lore(value, key: str, color: str = "#1aa819"):
             lore.append(
                 self.get_lore_base(
                     str(value) + " ",
                     extra=[{"translate": "attribute.name." + key}],
-                    color="#1aa819",
+                    color=color,
                 )
             )
 
@@ -440,11 +440,15 @@ class item:
             if mining_category:
                 mining_speed = get_item_value(self.item_id, "mining_speed", tier)
                 if mining_speed:
-                    add_lore(str(mining_speed), "mining_speed." + mining_category)
+                    add_lore(
+                        str(mining_speed), "mining_speed." + mining_category, "gold"
+                    )
 
                 mining_power = get_item_value(self.item_id, "mining_power", tier)
                 if mining_power:
-                    add_lore(str(mining_power), "mining_power." + mining_category)
+                    add_lore(
+                        str(mining_power), "mining_power." + mining_category, "gold"
+                    )
 
             block_interaction_range = get_item_value(
                 self.item_id, "block_interaction_range", tier
@@ -452,7 +456,7 @@ class item:
             if block_interaction_range:
                 if block_interaction_range > 0:
                     block_interaction_range = "+" + str(block_interaction_range)
-                add_lore(block_interaction_range, "block_interaction_range")
+                add_lore(block_interaction_range, "block_interaction_range", "gold")
 
         armor = get_item_value(self.item_id, "armor", tier)
         if armor:

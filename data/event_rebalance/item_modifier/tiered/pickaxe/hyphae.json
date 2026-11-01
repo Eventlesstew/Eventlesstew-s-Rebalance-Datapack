@@ -104,7 +104,7 @@
                     {
                         "translate": "12 ",
                         "italic": false,
-                        "color": "#1aa819",
+                        "color": "gold",
                         "extra": [
                             {
                                 "translate": "attribute.name.mining_speed.pickaxe"
@@ -114,7 +114,7 @@
                     {
                         "translate": "3 ",
                         "italic": false,
-                        "color": "#1aa819",
+                        "color": "gold",
                         "extra": [
                             {
                                 "translate": "attribute.name.mining_power.pickaxe"
@@ -124,7 +124,7 @@
                     {
                         "translate": "+1 ",
                         "italic": false,
-                        "color": "#1aa819",
+                        "color": "gold",
                         "extra": [
                             {
                                 "translate": "attribute.name.block_interaction_range"

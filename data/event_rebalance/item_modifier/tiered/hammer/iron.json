@@ -97,7 +97,7 @@
                     {
                         "translate": "6.0 ",
                         "italic": false,
-                        "color": "#1aa819",
+                        "color": "gold",
                         "extra": [
                             {
                                 "translate": "attribute.name.mining_speed.hammer"
@@ -107,7 +107,7 @@
                     {
                         "translate": "2 ",
                         "italic": false,
-                        "color": "#1aa819",
+                        "color": "gold",
                         "extra": [
                             {
                                 "translate": "attribute.name.mining_power.hammer"

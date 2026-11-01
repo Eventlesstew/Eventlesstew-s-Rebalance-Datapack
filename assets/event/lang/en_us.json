@@ -411,7 +411,7 @@
     "stats.tool.moving_spd.-80P": "-80%% Speed",
     "stats.tool.moving_spd.-90P": "-90%% Speed",
     "stats.tool.moving_spd.-100P": "-100%% Speed",
-    "stats.shield.disabling_time": " Disable Time: ",
+    "stats.shield.disabling_time": "Disable Time: ",
 
     "death.attack.dagger": "%1$s was stabbed to death by %2$s",
     "death.attack.dagger.item": "%1$s was stabbed to death by %2$s using %3$s",
