@@ -103,7 +103,7 @@
                         "translate": "potion.cure",
                         "with": [
                             {
-                                "translate": "effect.minecraftdarkness"
+                                "translate": "effect.minecraft.darkness"
                             }
                         ],
                         "italic": false,

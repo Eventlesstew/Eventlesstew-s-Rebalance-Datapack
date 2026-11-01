@@ -83,7 +83,7 @@
                         "translate": "potion.cure",
                         "with": [
                             {
-                                "translate": "effect.minecraftmining_fatigue"
+                                "translate": "effect.minecraft.mining_fatigue"
                             }
                         ],
                         "italic": false,

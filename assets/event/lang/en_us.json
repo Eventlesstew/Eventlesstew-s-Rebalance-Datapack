@@ -398,6 +398,8 @@
     "entity.minecraft.experience_orb": "Mending Orb",
     "effect.minecraft.wither": "Decay",
     "effect.minecraft.mining_fatigue": "Fatigue",
+    "effect.set.negative":"All Negative Effects",
+    "effect.set.all": "All Effects",
 
     "stats.shield.block": "Damage Blocked: ",
     "stats.shield.absorb": "Damage Absorbed: ",

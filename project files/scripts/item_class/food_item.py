@@ -234,7 +234,7 @@ class food_item(item):
                 translation_key = {
                     "translate": "potion.cure",
                     "with": [
-                        {"translate": "effect.minecraft" + effect_id},
+                        {"translate": "effect.minecraft." + effect_id},
                     ],
                     "italic": False,
                     "color": self.get_effect_color(effect_id, True),
@@ -247,13 +247,24 @@ class food_item(item):
                 translation_key = {
                     "translate": "potion.cure",
                     "with": [
-                        {"translate": "effect.minecraft.set" + effect_set_id},
+                        {"translate": "effect.minecraft.set." + effect_set_id},
                     ],
                     "italic": False,
                     "color": "#5555ff",
                 }
                 food_effect_lore.append(translation_key)
 
+            elif effect_type == "cure_all_effects":
+
+                translation_key = {
+                    "translate": "potion.cure",
+                    "with": [
+                        {"translate": "effect.minecraft.set.all"},
+                    ],
+                    "italic": False,
+                    "color": "#5555ff",
+                }
+                food_effect_lore.append(translation_key)
             elif effect_type == "apply_effect":
                 effect_id = effect["effect"]
                 effect_duration = 0

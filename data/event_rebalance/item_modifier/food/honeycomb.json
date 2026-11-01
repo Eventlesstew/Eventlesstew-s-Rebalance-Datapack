@@ -91,7 +91,7 @@
                         "translate": "potion.cure",
                         "with": [
                             {
-                                "translate": "effect.minecraftpoison"
+                                "translate": "effect.minecraft.poison"
                             }
                         ],
                         "italic": false,

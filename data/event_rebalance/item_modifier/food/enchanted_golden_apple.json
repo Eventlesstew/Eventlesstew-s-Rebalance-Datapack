@@ -138,7 +138,7 @@
                         "translate": "potion.cure",
                         "with": [
                             {
-                                "translate": "effect.minecraft.setnegative"
+                                "translate": "effect.minecraft.set.negative"
                             }
                         ],
                         "italic": false,

@@ -114,7 +114,7 @@
                         "translate": "potion.cure",
                         "with": [
                             {
-                                "translate": "effect.minecrafthunger"
+                                "translate": "effect.minecraft.hunger"
                             }
                         ],
                         "italic": false,

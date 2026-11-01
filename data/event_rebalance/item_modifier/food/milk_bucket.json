@@ -44,6 +44,16 @@
                         "translate": "attribute.name.consumable.food.always_drinkable",
                         "italic": false,
                         "color": "#f78324"
+                    },
+                    {
+                        "translate": "potion.cure",
+                        "with": [
+                            {
+                                "translate": "effect.minecraft.set.all"
+                            }
+                        ],
+                        "italic": false,
+                        "color": "#5555ff"
                     }
                 ]
             }

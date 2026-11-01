@@ -86,7 +86,7 @@
                         "translate": "potion.cure",
                         "with": [
                             {
-                                "translate": "effect.minecraftwither"
+                                "translate": "effect.minecraft.wither"
                             }
                         ],
                         "italic": false,
