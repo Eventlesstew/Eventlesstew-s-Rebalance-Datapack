@@ -49,6 +49,8 @@
     "block.minecraft.gray_shulker_box": "Gray Portal Box",
     "block.minecraft.black_shulker_box": "Black Portal Box",
     
+    "item.minecraft.experience_bottle": "Potion of Mending",
+
     "block.minecraft.deepslate_copper_ore":"Block of Rose Gold",
     "block.minecraft.petrified_oak_slab":"Block of Withered Chunks",
 
@@ -432,6 +434,8 @@
     "attribute.name.brewing_fuel_speed":"Brewing Speed",
     "attribute.name.compostable":"Compost",
 
+    "entity.minecraft.experience_bottle": "Thrown Potion of Mending",
+    "entity.minecraft.experience_orb": "Mending Orb",
     "effect.minecraft.wither": "Decay",
     "effect.minecraft.mining_fatigue": "Fatigue",
 
@@ -655,6 +659,7 @@
     "container.enchant.clue": "%s",
     "container.enchant.level.one": "Click to Enchant",
     "container.enchant.level.many": "Click to Enchant",
+    
     "gui.experience.level": "",
 
     "stat.minecraft.interact_with_stonecutter": "Interactions with Sawmill",
@@ -701,5 +706,8 @@
     "jukebox_song.event.ivor": "Antimo and Welles - Ivor",
     "jukebox_song.event.far_lands": "Antimo and Welles - Far Lands",
     "jukebox_song.event.mob_grinder": "Antimo and Welles - Mob Grinder",
-    "jukebox_song.event.creakstep": "Camilo Forero - Creakstep"
+    "jukebox_song.event.creakstep": "Camilo Forero - Creakstep",
+    
+    "gamerule.doMobLoot.description": "Controls resource drops from mobs, including mending orbs.",
+    "gamerule.doTileDrops.description": "Controls resource drops from blocks, including mending orbs."
 }
