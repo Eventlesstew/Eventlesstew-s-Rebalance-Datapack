@@ -3,7 +3,10 @@
   "category": "redstone",
   "group": "stone_button",
   "key": {
-    "#": "smooth_stone",
+    "#": [
+      "stone",
+      "smooth_stone"
+    ],
     "R": "redstone"
   },
   "pattern": [
