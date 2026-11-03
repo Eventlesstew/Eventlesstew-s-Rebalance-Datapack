@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/button",
   "textures": {
-    "texture": "block/polished_stone_button"
+    "texture": "block/polished_stone_edgeless"
   }
 }

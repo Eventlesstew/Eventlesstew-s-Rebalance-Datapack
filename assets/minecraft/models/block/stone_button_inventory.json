@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/button_inventory",
   "textures": {
-    "texture": "minecraft:block/smooth_stone"
+    "texture": "minecraft:block/polished_stone_edgeless"
   }
 }
