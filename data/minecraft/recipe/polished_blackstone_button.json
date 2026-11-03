@@ -3,10 +3,7 @@
   "category": "redstone",
   "group": "wooden_button",
   "key": {
-    "#":[
-      "polished_blackstone",
-      "blackstone"
-    ],
+    "#":"polished_blackstone",
     "R":"redstone"
   },
   "pattern": [

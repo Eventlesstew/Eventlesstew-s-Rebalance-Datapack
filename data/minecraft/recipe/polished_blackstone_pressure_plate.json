@@ -2,10 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "#": [
-      "polished_blackstone",
-      "blackstone"
-    ],
+    "#": "minecraft:polished_blackstone",
     "R":"redstone"
   },
   "pattern": [
