@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/button_pressed",
   "textures": {
-    "texture": "minecraft:block/smooth_stone"
+    "texture": "block:block/smooth_stone"
   }
 }

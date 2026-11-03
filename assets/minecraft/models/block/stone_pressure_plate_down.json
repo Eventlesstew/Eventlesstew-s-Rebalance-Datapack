@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/pressure_plate_down",
   "textures": {
-    "texture": "misc/polished_stone_plate"
+    "texture": "block/polished_stone_plate"
   }
 }
