@@ -1,0 +1,22 @@
+{
+    "values": [
+        "chest",
+        "#copper_chests",
+        "hopper",
+        "barrel",
+        "furnace",
+        "smoker",
+        "blast_furnace",
+        "brewing_stand",
+        "campfire",
+        "soul_campfire",
+        "chiseled_bookshelf",
+        "crafter",
+        "decorated_pot",
+        "dispenser",
+        "dropper",
+        "#wooden_shelves",
+        "#shulker_boxes",
+        "trapped_chest"
+    ]
+}
