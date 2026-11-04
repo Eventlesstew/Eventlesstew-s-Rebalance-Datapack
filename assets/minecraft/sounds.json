@@ -20,9 +20,11 @@
         ]
     },
     "entity.experience_orb.pickup":{
+        "replace": true,
         "sounds": []
     },
     "entity.player.levelup":{
+        "replace": true,
         "sounds": []
     },
     "ambient.end.loop":{"sounds":["ambient/end/loop"]},
