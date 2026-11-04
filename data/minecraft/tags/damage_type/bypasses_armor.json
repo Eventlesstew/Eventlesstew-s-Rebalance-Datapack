@@ -1,5 +1,6 @@
 {
   "values": [
+    "#minecraft:bypasses_barrier",
     "minecraft:on_fire",
     "minecraft:cramming",
     "minecraft:drown",

@@ -457,6 +457,51 @@
             },
             {
                 "when": {
+                    "event_rebalance:barrier": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/barrier"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:barrier": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/barrier"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:barrier": 3
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/barrier"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:barrier":4
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/barrier"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
                     "binding_curse": 1
                 },
                 "model": {
@@ -1916,6 +1961,15 @@
             {
                 "when": {
                     "mending": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/mending"
+                }
+            },
+            {
+                "when": {
+                    "mending": 3
                 },
                 "model": {
                     "type": "composite",

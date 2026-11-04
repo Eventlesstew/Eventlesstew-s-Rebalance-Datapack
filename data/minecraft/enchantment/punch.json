@@ -1,9 +1,7 @@
 {
   "anvil_cost": 0,
   "description": {
-    "translate": "enchantment.minecraft.punch",
-    "color": "#c3ff7e",
-    "shadow_color": -869230800
+    "translate": "enchantment.minecraft.punch"
   },
   "effects": {
     "tick": [

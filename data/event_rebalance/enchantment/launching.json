@@ -1,9 +1,7 @@
 {
   "anvil_cost": 1,
   "description": {
-    "translate": "enchantment.event.launching",
-    "color": "#d0b2ff",
-    "shadow_color": -477808129
+    "translate": "enchantment.event.launching"
   },
   "effects": {
     "minecraft:post_attack": [

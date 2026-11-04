@@ -1,4 +1,5 @@
 xp set @s 40 levels
+tag @s remove event.welding_repair
 
 function event_rebalance:entities/rebalance/player/bossbar_tags
 

@@ -19,6 +19,8 @@
             "event:music/creakstep"
         ]
     },
+    "entity.experience_orb.pickup":{},
+    "entity.player.levelup":{},
     "ambient.end.loop":{"sounds":["ambient/end/loop"]},
     "ambient.end.shadow_loop":{"sounds":["ambient/end/shadow_loop"]},
     "ambient.end.additions":{"sounds":[ 

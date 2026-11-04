@@ -1,19 +1,36 @@
 {
   "anvil_cost": 0,
   "description": {
-    "translate": "enchantment.minecraft.mending",
-    "color": "#f993c8",
-    "shadow_color": [0.64, 0.08, 0.4, 1.00]
+    "translate": "enchantment.minecraft.mending"
   },
   "effects": {
-    "minecraft:repair_with_xp": [
+     "hit_block": [
+        {
+            "effect": {
+                "type": "run_function",
+                "function": "event_rebalance:enchantments/mending/block_hit"
+            }
+        }
+    ],
+    "tick": [
       {
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_tags": {
+              "any_of": [
+                "event.mending_repair"
+              ]
+            }
+          }
+        },
         "effect": {
-          "type": "minecraft:add",
-          "value": {
-            "type":"linear",
-            "base": 2,
-            "per_level_above_first": 2
+          "type": "change_item_damage",
+          "amount": {
+            "type": "linear",
+            "base": -3,
+            "per_level_above_first": -1
           }
         }
       }
@@ -23,7 +40,7 @@
     "base": 75,
     "per_level_above_first": 25
   },
-  "max_level": 2,
+  "max_level": 3,
   "min_cost": {
     "base": 25,
     "per_level_above_first": 25
@@ -31,7 +48,6 @@
   "slots": [
     "any"
   ],
-  "primary_items": "#event_rebalance:enchantable/primary/mending",
   "supported_items": "#minecraft:enchantable/durability",
   "exclusive_set": "#event_rebalance:exclusive_set/durability",
   "weight": 2

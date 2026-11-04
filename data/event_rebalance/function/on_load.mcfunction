@@ -40,6 +40,7 @@ scoreboard players set 500 static 500
 scoreboard players set 675 static 675
 scoreboard players set 1000 static 1000
 scoreboard players set 1125 static 1125
+scoreboard players set 1200 static 1200
 scoreboard players set 1575 static 1575
 scoreboard players set 6000 static 6000
 scoreboard players set max_extra_hearts static 10

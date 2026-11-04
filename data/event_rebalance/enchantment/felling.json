@@ -1,9 +1,7 @@
 {
   "anvil_cost": 1,
   "description": {
-    "translate": "enchantment.event.felling",
-    "color": "#abf2ff",
-    "shadow_color": 1883020435
+    "translate": "enchantment.event.felling"
   },
   "effects": {
     "tick": [

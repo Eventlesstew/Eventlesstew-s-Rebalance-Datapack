@@ -87,11 +87,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:experience_bottle",
-          "weight": 7
-        },
-        {
-          "type": "minecraft:item",
           "modifier": {
             "type": "minecraft:set_count",
             "count": {

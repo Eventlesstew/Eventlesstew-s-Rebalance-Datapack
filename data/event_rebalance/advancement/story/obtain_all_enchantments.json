@@ -2166,12 +2166,48 @@
 					}
 				]
 			}
+		},
+		"barrier": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantments": "event_rebalance:barrier"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"barrier_book": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"stored_enchantments": [
+								{
+									"enchantments": "event_rebalance:barrier"
+								}
+							]
+						}
+					}
+				]
+			}
 		}
 	},	
 	"requirements": [
 		[
 			"protection",
 			"protection_book"
+		],
+		[
+			"barrier",
+			"barrier_book"
 		],
 		[
 			"feather_falling",

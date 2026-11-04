@@ -1,9 +1,7 @@
 {
   "anvil_cost": 2,
   "description": {
-    "translate": "enchantment.event.rampage",
-    "color": "#fdcfff",
-    "shadow_color": -4909878
+    "translate": "enchantment.event.rampage"
   },
   "effects": {
     "post_attack": [

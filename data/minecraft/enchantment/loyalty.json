@@ -1,9 +1,7 @@
 {
   "anvil_cost": 0,
   "description": {
-    "translate": "enchantment.minecraft.loyalty",
-    "color": "#fdcfff",
-    "shadow_color": -4909878
+    "translate": "enchantment.minecraft.loyalty"
     
   },
   "effects": {

@@ -1,9 +1,7 @@
 {
   "anvil_cost": 1,
   "description": {
-    "translate": "enchantment.event.rebound",
-    "color": "#d0b2ff",
-    "shadow_color": -477808129
+    "translate": "enchantment.event.rebound"
   },
   "effects": {
     "minecraft:post_attack": [

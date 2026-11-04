@@ -1,0 +1,14 @@
+{
+  "values": [
+    "#is_fire",
+    "#minecraft:is_freezing",
+    "#minecraft:is_explosion",
+    "lightning_bolt",
+    "event_rebalance:electricity",
+    "magic",
+    "indirect_magic",
+    "dragon_breath",
+    "wind_charge",
+    "wither"
+  ]
+}

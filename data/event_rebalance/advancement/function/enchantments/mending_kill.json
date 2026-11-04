@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "minecraft:illusioner": {
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:illusioner"
+    ]
+  ],
+  "rewards": {
+    "function": "event_rebalance:enchantments/mending/kill"
+  },
+  "sends_telemetry_event": true
+}

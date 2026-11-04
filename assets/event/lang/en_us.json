@@ -263,6 +263,7 @@
     "enchantment.event.rebound": "Rebound",
     "enchantment.event.regrow": "Regrow",
     "enchantment.event.lightweight": "Lightweight",
+    "enchantment.event.barrier": "Barrier",
     "enchantment.event.bulwark": "Bulwark",
     "enchantment.event.aerodynamic": "Aerodynamic",
     "enchantment.event.acceleration": "Acceleration",

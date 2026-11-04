@@ -1,0 +1,16 @@
+{
+  "values": [
+    "minecraft:cramming",
+    "minecraft:drown",
+    "minecraft:fly_into_wall",
+    "minecraft:generic",
+    "minecraft:starve",
+    "minecraft:fall",
+    "minecraft:stalagmite",
+    "minecraft:out_of_world",
+    "minecraft:generic_kill",
+    "minecraft:sonic_boom",
+    "minecraft:outside_border",
+    "event_rebalance:brutality"
+  ]
+}

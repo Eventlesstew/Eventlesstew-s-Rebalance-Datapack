@@ -3,7 +3,8 @@
     "minecraft:protection",
     "event_rebalance:regrow",
     "event_rebalance:lightweight",
-    "feather_falling"
+    "feather_falling",
+    "event_rebalance:barrier"
   ],
   "replace": true
 }

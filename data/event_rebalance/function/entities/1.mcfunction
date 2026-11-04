@@ -1,6 +1,7 @@
 execute if entity @s[tag=!rebalanced] run function event_rebalance:entities/rebalance/apply_changes
 
 execute if entity @s[type=arrow] run function event_rebalance:entities/rebalance/arrow/tick
+execute if entity @s[type=marker] run function event_rebalance:entities/rebalance/marker/tick
 execute if entity @s[type=player] run function event_rebalance:entities/rebalance/player/tick
 execute if entity @s[type=#event_rebalance:rideable] run function event_rebalance:entities/rebalance/ridable/tick
 

@@ -1,9 +1,7 @@
 {
   "anvil_cost": 0,
   "description": {
-    "translate": "enchantment.minecraft.impaling",
-    "color": "#ffac8e",
-    "shadow_color": [0.6, 0.11, 0.11, 1.0]
+    "translate": "enchantment.minecraft.impaling"
   },
   "effects": {
     "tick": [

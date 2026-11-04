@@ -1,0 +1,154 @@
+{
+  "anvil_cost": 0,
+  "description": {
+    "translate": "enchantment.event.barrier"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -0.03,
+          "per_level_above_first": -0.03
+        },
+        "attribute": "minecraft:burning_time",
+        "id": "minecraft:enchantment.barrier",
+        "operation": "add_multiplied_base"
+      },
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.1,
+          "per_level_above_first": 0.1
+        },
+        "attribute": "minecraft:explosion_knockback_resistance",
+        "id": "minecraft:enchantment.barrier",
+        "operation": "add_value"
+      }
+    ],
+    "minecraft:damage_protection": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 1.875,
+            "per_level_above_first": 0.9375
+          }
+        },
+        "requirements": {
+          "type":"all_of",
+          "terms":[
+            {
+              "type": "inverted",
+              "term": {
+                "type": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "body": {
+                      "items": "#event_rebalance:animal_armor",
+                      "predicates": {
+                        "enchantments": [
+                          {
+                            "enchantments": "event_rebalance:barrier"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:damage_source_properties",
+              "predicate": {
+                "tags": [
+                  {
+                    "expected": false,
+                    "id": "#minecraft:bypasses_invulnerability"
+                  },
+                  {
+                    "expected": false,
+                    "id": "#minecraft:bypasses_barrier"
+                  },
+                  {
+                    "expected": true,
+                    "id": "#minecraft:barrier_protects"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 7.5,
+            "per_level_above_first": 3.75
+          }
+        },
+        "requirements": {
+          "type":"all_of",
+          "terms":[
+            {
+              "type": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "body": {
+                    "items": "#event_rebalance:animal_armor",
+                    "predicates": {
+                      "enchantments": [
+                        {
+                          "enchantments": "event_rebalance:barrier"
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:damage_source_properties",
+              "predicate": {
+                "tags": [
+                  {
+                    "expected": false,
+                    "id": "#minecraft:bypasses_invulnerability"
+                  },
+                  {
+                    "expected": false,
+                    "id": "#minecraft:bypasses_barrier"
+                  },
+                  {
+                    "expected": true,
+                    "id": "#minecraft:barrier_protects"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#minecraft:exclusive_set/armor",
+  "max_cost": {
+    "base": 10,
+    "per_level_above_first": 10
+  },
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 10
+  },
+  "max_level": 4,
+  "slots": [
+    "armor"
+  ],
+  "supported_items": "#event_rebalance:enchantable/any_armor",
+  "weight": 10
+}

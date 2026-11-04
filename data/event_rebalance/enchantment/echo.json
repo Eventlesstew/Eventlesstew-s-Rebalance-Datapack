@@ -1,9 +1,7 @@
 {
   "anvil_cost": 4,
   "description": {
-    "translate": "enchantment.event.echo",
-    "color": "#fdcfff",
-    "shadow_color": -4909878
+    "translate": "enchantment.event.echo"
   },
   "supported_items": ["minecraft:bow"],
   "slots": [

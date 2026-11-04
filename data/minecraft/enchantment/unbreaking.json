@@ -1,9 +1,7 @@
 {
   "anvil_cost": 0,
   "description": {
-    "translate": "enchantment.minecraft.unbreaking",
-    "color": "#f993c8",
-    "shadow_color": [0.64, 0.08, 0.4, 1.00]
+    "translate": "enchantment.minecraft.unbreaking"
   },
   "effects": {
     "minecraft:item_damage": [
@@ -28,14 +26,14 @@
     ]
   },
   "max_cost": {
-    "base": 8,
-    "per_level_above_first": 8
+    "base": 10,
+    "per_level_above_first": 10
   },
   "min_cost": {
     "base": 0,
-    "per_level_above_first": 8
+    "per_level_above_first": 10
   },
-  "max_level": 5,
+  "max_level": 4,
   "slots": [
     "any"
   ],

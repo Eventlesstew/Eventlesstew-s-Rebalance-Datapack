@@ -1,8 +1,6 @@
 {
     "description": {
-        "translate": "enchantment.event.melting",
-    "color": "#55cc9e",
-    "shadow_color": [0.1, 0.38, 0.27, 1.0]
+        "translate": "enchantment.event.melting"
     },
     "exclusive_set": "#event_rebalance:exclusive_set/mining_loot",
     "supported_items": "#minecraft:enchantable/mining",

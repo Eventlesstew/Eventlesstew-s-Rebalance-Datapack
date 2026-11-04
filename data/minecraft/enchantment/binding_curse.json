@@ -1,9 +1,7 @@
 {
   "anvil_cost": 0,
   "description": {
-    "translate": "enchantment.minecraft.binding_curse",
-    "color": "#d5c0be",
-    "shadow_color": [0.51, 0.32, 0.35, 1.0]
+    "translate": "enchantment.minecraft.binding_curse"
   },
   "effects": {
     "minecraft:prevent_armor_change": {}

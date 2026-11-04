@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_barrier",
+    "ingredients": [
+        "book",
+        "lapis_lazuli",
+        "quartz",
+        "quartz",
+        "quartz"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "event_rebalance:barrier": 3
+            }
+        }
+    }
+}

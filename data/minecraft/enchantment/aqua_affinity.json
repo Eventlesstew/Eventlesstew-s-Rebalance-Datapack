@@ -1,9 +1,7 @@
 {
   "anvil_cost": 0,
   "description": {
-    "translate": "enchantment.minecraft.aqua_affinity",
-    "color": "#55cc9e",
-    "shadow_color": [0.1, 0.38, 0.27, 1.0]
+    "translate": "enchantment.minecraft.aqua_affinity"
   },
   "effects": {
     "minecraft:attributes": [

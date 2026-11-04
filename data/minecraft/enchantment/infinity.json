@@ -1,9 +1,7 @@
 {
   "anvil_cost": 0,
   "description": {
-    "translate": "enchantment.minecraft.infinity",
-    "color": "#f993c8",
-    "shadow_color": [0.64, 0.08, 0.4, 1.00]
+    "translate": "enchantment.minecraft.infinity"
   },
   "effects": {
     "minecraft:ammo_use": [

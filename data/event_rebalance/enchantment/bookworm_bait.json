@@ -1,9 +1,7 @@
 {
   "anvil_cost": 5,
   "description": {
-    "translate": "enchantment.event.bookworm_bait",
-    "color": "#7fd7ff",
-    "shadow_color": [0.15, 0.3, 0.49, 1.0]
+    "translate": "enchantment.event.bookworm_bait"
   },
   "effects": {
   },

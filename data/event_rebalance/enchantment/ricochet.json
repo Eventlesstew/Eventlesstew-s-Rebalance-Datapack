@@ -1,9 +1,7 @@
 {
   "anvil_cost": 1,
   "description": {
-    "translate": "enchantment.event.ricochet",
-    "color": "#c3ff7e",
-    "shadow_color": -869230800
+    "translate": "enchantment.event.ricochet"
   },
   "effects": {
     "minecraft:projectile_spawned": [

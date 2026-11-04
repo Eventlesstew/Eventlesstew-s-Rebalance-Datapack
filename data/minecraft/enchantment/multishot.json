@@ -1,9 +1,7 @@
 {
   "anvil_cost": 0,
   "description": {
-    "translate": "enchantment.minecraft.multishot",
-    "color": "#fdcfff",
-    "shadow_color": -4909878
+    "translate": "enchantment.minecraft.multishot"
   },
   "effects": {
     "minecraft:projectile_count": [

@@ -1,8 +1,8 @@
 {
     "values": [
         "unbreaking",
-        "mending",
         "infinity",
+        "mending",
         "event_rebalance:eternity",
         "event_rebalance:conserve",
         "event_rebalance:crystallization"
