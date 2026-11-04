@@ -9,19 +9,6 @@
             "type": "minecraft:set_count",
             "count": {
               "type": "minecraft:uniform",
-              "max": 2,
-              "min": 1
-            }
-          },
-          "name": "minecraft:obsidian",
-          "weight": 40
-        },
-        {
-          "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:set_count",
-            "count": {
-              "type": "minecraft:uniform",
               "max": 4,
               "min": 1
             }
@@ -326,6 +313,41 @@
         }
       ],
       "rolls": 1
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:obsidian",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+                "type": "uniform",
+                "max": 2,
+                "min": 1
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crying_obsidian",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+                "type": "uniform",
+                "max": 2,
+                "min": 1
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 2
     }
   ],
   "random_sequence": "minecraft:chests/ruined_portal"

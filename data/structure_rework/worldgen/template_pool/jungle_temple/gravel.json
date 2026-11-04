@@ -4,7 +4,7 @@
             "weight": 1,
             "element": {
                 "element_type": "feature_pool_element",
-                "feature": "ore_gravel",
+                "feature": "structure_rework:jungle_temple/ore_gravel",
                 "projection": "rigid"
             }
         }

@@ -28,7 +28,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/corridor/intersection_1",
@@ -55,7 +55,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/corridor/lane_3",
@@ -64,7 +64,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/corridor/lane_4",
@@ -73,7 +73,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/corridor/t_way_1",
@@ -82,7 +82,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/corridor/t_way_2",
@@ -91,5 +91,5 @@
             }
         }
     ],
-    "fallback": "structure_rework:jungle_temple/corridor"
+    "fallback": "structure_rework:jungle_temple/corridor_end"
 }

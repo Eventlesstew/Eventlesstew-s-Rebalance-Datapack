@@ -1,0 +1,14 @@
+{
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/corridor/lane_1",
+                "processors": [],
+                "projection": "rigid"
+            }
+        }
+    ],
+    "fallback": "structure_rework:jungle_temple/corridor_end"
+}

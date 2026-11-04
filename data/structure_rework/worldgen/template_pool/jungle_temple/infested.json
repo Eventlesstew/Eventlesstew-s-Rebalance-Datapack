@@ -1,0 +1,13 @@
+{
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "feature_pool_element",
+                "feature": "structure_rework:jungle_temple/ore_infested",
+                "projection": "rigid"
+            }
+        }
+    ],
+    "fallback": "structure_rework:jungle_temple/gravel"
+}
