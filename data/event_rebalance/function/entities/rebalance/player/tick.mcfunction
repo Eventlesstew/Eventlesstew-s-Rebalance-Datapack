@@ -7,7 +7,6 @@ execute if entity @a[advancements={event_rebalance:husbandry/castaway=false}] ru
 execute if entity @a[advancements={event_rebalance:construction/on_a_rail=false}] run function event_rebalance:advancements/on_a_rail/tick
 
 execute unless score @s event.reset_items = 0 static as @a run function event_rebalance:reset_items
-execute unless score @s event.reset_items = 0 static run scoreboard players set @s event.reset_items 0
 
 execute unless entity @s[tag=event.using_magnet] run attribute @s gravity modifier remove event.magnet
 tag @s remove event.using_magnet
