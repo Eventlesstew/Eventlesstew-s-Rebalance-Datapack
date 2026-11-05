@@ -1,9 +1,7 @@
 {
     "type": "filtered",
     "item_filter": {
-        "components": {
-            "item_model": "event:tiered/hoe/rose_golden"
-        }
+        "items": "#event_rebalance:custom_item/tiered/hoe/rose_golden"
     },
     "on_pass": {
         "type": "sequence",

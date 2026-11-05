@@ -1,9 +1,7 @@
 {
     "type": "filtered",
     "item_filter": {
-        "components": {
-            "item_model": "event:tiered/dagger/diamond"
-        }
+        "items": "#event_rebalance:custom_item/tiered/dagger/diamond"
     },
     "on_pass": {
         "type": "sequence",

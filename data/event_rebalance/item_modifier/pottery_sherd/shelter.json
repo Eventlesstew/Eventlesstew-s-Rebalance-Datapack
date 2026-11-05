@@ -6,9 +6,9 @@
             "components": {
                 "provides_pottery_pattern":"shelter",
                 "item_name": {
-                    "translate": "item.minecraft.shelter_pottery_sherd"
+                    "translate": "item.event.shelter_pottery_sherd"
                 },
-                "item_model": "shelter_pottery_sherd"
+                "item_model": "event:pottery_sherd/shelter"
             }
         }
     ]

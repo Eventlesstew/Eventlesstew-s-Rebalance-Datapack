@@ -6,9 +6,9 @@
             "components": {
                 "provides_pottery_pattern":"blade",
                 "item_name": {
-                    "translate": "item.minecraft.blade_pottery_sherd"
+                    "translate": "item.event.blade_pottery_sherd"
                 },
-                "item_model": "blade_pottery_sherd"
+                "item_model": "event:pottery_sherd/blade"
             }
         }
     ]

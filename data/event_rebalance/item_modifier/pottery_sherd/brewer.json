@@ -6,9 +6,9 @@
             "components": {
                 "provides_pottery_pattern":"brewer",
                 "item_name": {
-                    "translate": "item.minecraft.brewer_pottery_sherd"
+                    "translate": "item.event.brewer_pottery_sherd"
                 },
-                "item_model": "brewer_pottery_sherd"
+                "item_model": "event:pottery_sherd/brewer"
             }
         }
     ]

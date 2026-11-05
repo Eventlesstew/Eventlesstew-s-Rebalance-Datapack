@@ -6,9 +6,9 @@
             "components": {
                 "provides_pottery_pattern":"guster",
                 "item_name": {
-                    "translate": "item.minecraft.guster_pottery_sherd"
+                    "translate": "item.event.guster_pottery_sherd"
                 },
-                "item_model": "guster_pottery_sherd"
+                "item_model": "event:pottery_sherd/guster"
             }
         }
     ]

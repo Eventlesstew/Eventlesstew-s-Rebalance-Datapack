@@ -6,9 +6,9 @@
             "components": {
                 "provides_pottery_pattern":"friend",
                 "item_name": {
-                    "translate": "item.minecraft.friend_pottery_sherd"
+                    "translate": "item.event.friend_pottery_sherd"
                 },
-                "item_model": "friend_pottery_sherd"
+                "item_model": "event:pottery_sherd/friend"
             }
         }
     ]

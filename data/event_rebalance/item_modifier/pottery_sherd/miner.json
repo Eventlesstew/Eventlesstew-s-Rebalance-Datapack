@@ -6,9 +6,9 @@
             "components": {
                 "provides_pottery_pattern":"miner",
                 "item_name": {
-                    "translate": "item.minecraft.miner_pottery_sherd"
+                    "translate": "item.event.miner_pottery_sherd"
                 },
-                "item_model": "miner_pottery_sherd"
+                "item_model": "event:pottery_sherd/miner"
             }
         }
     ]

@@ -99,6 +99,12 @@
           "items":"#event_rebalance:custom_item/tiered/hammer/iron",
           "expand": false,
           "modifier": [
+            {
+              "type": "set_components",
+              "components": {
+                "item_model": "event:tiered/hammer/iron"
+              }
+            },
             "event_rebalance:tiered/hammer/iron",
             {
               "type": "set_enchantments",
@@ -217,6 +223,12 @@
           "items":"#event_rebalance:custom_item/tiered/hammer/copper",
           "expand": false,
           "modifier": [
+            {
+              "type": "set_components",
+              "components": {
+                "item_model": "event:tiered/hammer/copper"
+              }
+            },
             "event_rebalance:tiered/hammer/copper",
             {
               "type": "set_enchantments",

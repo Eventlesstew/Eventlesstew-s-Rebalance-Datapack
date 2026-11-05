@@ -1,9 +1,7 @@
 {
     "type": "filtered",
     "item_filter": {
-        "components": {
-            "item_model": "event:tiered/hammer/iron"
-        }
+        "items": "#event_rebalance:custom_item/tiered/hammer/iron"
     },
     "on_pass": {
         "type": "sequence",

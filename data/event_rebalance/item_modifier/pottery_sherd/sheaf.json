@@ -6,9 +6,9 @@
             "components": {
                 "provides_pottery_pattern":"sheaf",
                 "item_name": {
-                    "translate": "item.minecraft.sheaf_pottery_sherd"
+                    "translate": "item.event.sheaf_pottery_sherd"
                 },
-                "item_model": "sheaf_pottery_sherd"
+                "item_model": "event:pottery_sherd/sheaf"
             }
         }
     ]

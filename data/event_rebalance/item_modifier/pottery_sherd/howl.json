@@ -6,9 +6,9 @@
             "components": {
                 "provides_pottery_pattern":"howl",
                 "item_name": {
-                    "translate": "item.minecraft.howl_pottery_sherd"
+                    "translate": "item.event.howl_pottery_sherd"
                 },
-                "item_model": "howl_pottery_sherd"
+                "item_model": "event:pottery_sherd/howl"
             }
         }
     ]

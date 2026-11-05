@@ -6,9 +6,9 @@
             "components": {
                 "provides_pottery_pattern":"danger",
                 "item_name": {
-                    "translate": "item.minecraft.danger_pottery_sherd"
+                    "translate": "item.event.danger_pottery_sherd"
                 },
-                "item_model": "danger_pottery_sherd"
+                "item_model": "event:pottery_sherd/danger"
             }
         }
     ]

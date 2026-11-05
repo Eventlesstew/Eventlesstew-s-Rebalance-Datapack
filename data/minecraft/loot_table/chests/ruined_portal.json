@@ -75,6 +75,12 @@
           "type": "minecraft:tag",
           "items":"#event_rebalance:custom_item/tiered/dagger/golden",
           "modifier": [
+            {
+              "type": "set_components",
+              "components": {
+                "item_model": "event:tiered/dagger/golden"
+              }
+            },
             "event_rebalance:tiered/dagger/golden",
             {
               "type": "minecraft:enchant_randomly",
@@ -87,6 +93,12 @@
           "type": "minecraft:tag",
           "items":"#event_rebalance:custom_item/tiered/hammer/golden",
           "modifier": [
+            {
+              "type": "set_components",
+              "components": {
+                "item_model": "event:tiered/hammer/golden"
+              }
+            },
             "event_rebalance:tiered/hammer/golden",
             {
               "type": "minecraft:enchant_randomly",

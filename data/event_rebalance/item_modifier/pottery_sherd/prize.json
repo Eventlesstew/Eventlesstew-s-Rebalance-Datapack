@@ -6,9 +6,9 @@
             "components": {
                 "provides_pottery_pattern":"prize",
                 "item_name": {
-                    "translate": "item.minecraft.prize_pottery_sherd"
+                    "translate": "item.event.prize_pottery_sherd"
                 },
-                "item_model": "prize_pottery_sherd"
+                "item_model": "event:pottery_sherd/prize"
             }
         }
     ]

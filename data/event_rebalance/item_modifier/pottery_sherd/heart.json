@@ -6,9 +6,9 @@
             "components": {
                 "provides_pottery_pattern":"heart",
                 "item_name": {
-                    "translate": "item.minecraft.heart_pottery_sherd"
+                    "translate": "item.event.heart_pottery_sherd"
                 },
-                "item_model": "heart_pottery_sherd"
+                "item_model": "event:pottery_sherd/heart"
             }
         }
     ]

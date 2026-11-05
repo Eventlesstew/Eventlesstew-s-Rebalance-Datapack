@@ -6,9 +6,9 @@
             "components": {
                 "provides_pottery_pattern":"angler",
                 "item_name": {
-                    "translate": "item.minecraft.angler_pottery_sherd"
+                    "translate": "item.event.angler_pottery_sherd"
                 },
-                "item_model": "angler_pottery_sherd"
+                "item_model": "event:pottery_sherd/angler"
             }
         }
     ]

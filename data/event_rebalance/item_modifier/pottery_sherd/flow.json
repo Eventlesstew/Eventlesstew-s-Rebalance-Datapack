@@ -6,9 +6,9 @@
             "components": {
                 "provides_pottery_pattern":"flow",
                 "item_name": {
-                    "translate": "item.minecraft.flow_pottery_sherd"
+                    "translate": "item.event.flow_pottery_sherd"
                 },
-                "item_model": "flow_pottery_sherd"
+                "item_model": "event:pottery_sherd/flow"
             }
         }
     ]

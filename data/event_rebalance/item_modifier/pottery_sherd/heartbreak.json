@@ -6,9 +6,9 @@
             "components": {
                 "provides_pottery_pattern":"heartbreak",
                 "item_name": {
-                    "translate": "item.minecraft.heartbreak_pottery_sherd"
+                    "translate": "item.event.heartbreak_pottery_sherd"
                 },
-                "item_model": "heartbreak_pottery_sherd"
+                "item_model": "event:pottery_sherd/heartbreak"
             }
         }
     ]

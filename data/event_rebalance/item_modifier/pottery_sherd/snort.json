@@ -6,9 +6,9 @@
             "components": {
                 "provides_pottery_pattern":"snort",
                 "item_name": {
-                    "translate": "item.minecraft.snort_pottery_sherd"
+                    "translate": "item.event.snort_pottery_sherd"
                 },
-                "item_model": "snort_pottery_sherd"
+                "item_model": "event:pottery_sherd/snort"
             }
         }
     ]

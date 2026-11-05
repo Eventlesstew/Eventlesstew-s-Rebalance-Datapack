@@ -20,7 +20,7 @@
             "_type":"tiered",
             "other":"default",
             "hyphae":"custom_item_model",
-            "rose_golden":"custom_item_model"
+            "rose_golden":"custom_item_tag"
         },
         "tiers":[
             "wooden",
@@ -255,7 +255,18 @@
     },
     "dagger":{
         "item_class":"tiered",
-        "item_type":"custom_item_model",
+        "item_type":{
+            "_type":"tiered",
+            "wooden":"custom_item_model",
+            "stone":"custom_item_model",
+            "copper":"custom_item_tag",
+            "iron":"custom_item_tag",
+            "hyphae":"custom_item_model",
+            "golden":"custom_item_tag",
+            "diamond":"custom_item_tag",
+            "rose_golden":"custom_item_tag",
+            "netherite":"custom_item_model"
+        },
         "tiers":{
             "_type":"reference",
             "reference":"template_tool"
@@ -393,7 +404,10 @@
     },
     "hammer":{
         "item_class":"tiered",
-        "item_type":"custom_item_model",
+        "item_type":{
+            "_type":"reference",
+            "reference":"dagger"
+        },
         "tiers":{
             "_type":"reference",
             "reference":"template_tool"
@@ -757,8 +771,8 @@
             "_type":"tiered",
             "other":"default",
             "chainmail":"custom_item_model",
-            "hoglin_hide":"custom_item_model",
-            "rose_golden":"custom_item_model"
+            "hoglin_hide":"custom_item_tag",
+            "rose_golden":"custom_item_tag"
         },
         "tiers": {
             "_type":"reference",
@@ -811,10 +825,10 @@
         "item_type":{
             "_type":"tiered",
             "other":"default",
-            "leather":"custom_item_model",
+            "leather":"custom_item_tag",
             "chainmail":"custom_item_model",
-            "hoglin_hide":"custom_item_model",
-            "rose_golden":"custom_item_model"
+            "hoglin_hide":"custom_item_tag",
+            "rose_golden":"custom_item_tag"
         },
         "tiers": {
             "_type":"reference",

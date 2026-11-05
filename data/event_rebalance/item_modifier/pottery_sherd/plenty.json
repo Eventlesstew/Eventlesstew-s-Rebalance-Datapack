@@ -6,9 +6,9 @@
             "components": {
                 "provides_pottery_pattern":"plenty",
                 "item_name": {
-                    "translate": "item.minecraft.plenty_pottery_sherd"
+                    "translate": "item.event.plenty_pottery_sherd"
                 },
-                "item_model": "plenty_pottery_sherd"
+                "item_model": "event:pottery_sherd/plenty"
             }
         }
     ]
