@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "#": "minecraft:copper_ingot",
-    "X": "minecraft:redstone"
+    "X": "minecraft:iron_nugget"
   },
   "pattern": [
     " # ",
