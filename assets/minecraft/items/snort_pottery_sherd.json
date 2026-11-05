@@ -1,6 +1,12 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "event:item/gear/hoglin_hide/horse_armor"
+    "model": "event:item/gear/hoglin_hide/horse_armor",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": [1, 0.55, 0.36]
+            }
+          ]
   }
 }
