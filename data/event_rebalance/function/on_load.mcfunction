@@ -14,6 +14,7 @@ scoreboard objectives add on_a_rail.start.x dummy
 scoreboard objectives add on_a_rail.start.y dummy
 scoreboard objectives add on_a_rail.start.z dummy
 scoreboard objectives add on_a_rail.start.dist dummy
+scoreboard objectives add event.reset_items trigger
 
 # Set values
 scoreboard players set armor_stand_eye_height static 15415

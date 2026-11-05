@@ -472,6 +472,9 @@
     "death.attack.wither.player": "%1$s decayed while fighting %2$s",
     "death.attack.magnet": "%1$s somehow managed to die to a magnet.",
 
+    "dialog.action.title": "Datapack Options",
+    "dialog.action.update_items": "Update Items",
+
     "advancements.story.root.title": "Progression",
     "advancements.story.getting_wood.title": "Getting Wood",
     "advancements.story.getting_wood.description": "Obtain some logs by punching a tree",

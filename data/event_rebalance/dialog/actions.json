@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:multi_action",
+    "title": {
+        "translate":"dialog.action.title"
+    },
+    "actions": [
+        {
+            "label": {
+                "translate": "dialog.action.update_items"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger event.reset_items add 1"
+            }
+        }
+    ]
+}
