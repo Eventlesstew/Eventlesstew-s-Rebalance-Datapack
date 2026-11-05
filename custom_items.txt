@@ -1,100 +1,163 @@
-Music Disc 13: Music Discs
-Angler Pottery Sherd: Pottery Sherds
+MUSIC DISCS:
+13:
+    Music Discs
 
-Music Disc Cat: Wooden Dagger
-Music Disc Blocks: Wooden Hammer
-Pottery Sherd Mourner: Leather Nautilus Armor
+Cat:
+    Wooden Dagger
+    Stone Dagger
+    Hyphae Dagger
+    Diamond Dagger
+    Netherite Dagger
 
-Music Disc Cat: Stone Dagger
-Music Disc Blocks: Stone Hammer
-Pottery Sherd Plenty: Chainmail Horse Armor
-Pottery Sherd Prize: Chainmail Nautilus Armor
+Blocks: 
+    Wooden Hammer
+    Stone Hammer
+    Hyphae Hammer
+    Netherite Hammer
 
-Music Disc Chirp: Copper Dagger
-Music Disc Far: Copper Hammer
+Chirp: Copper Dagger
+Far: Copper Hammer
+Mall: Iron Dagger
+Mellohi: Iron Hammer
+Stal: Hyphae Sword
+Strad: Hyphae Spear
+Ward: Hyphae Axe
+11: Hyphae Pickaxe
+Wait: Hyphae Shovel
+Otherside: Hyphae Hoe
+Pigstep: Golden Dagger
+5: Golden Hammer
+Relic: Diamond Dagger
+Precipice: Hoglin Hide Nautilus Armor
+Creator: Apple Pie
+Creator (Music Box): Cooked Tropical Fish
+Tears: Handsaw
+Lava Chicken: Diamond Hammer
+Bounce: Totem of Warping
 
-Music Disc Mall: Iron Dagger
-Music Disc Mellohi: Iron Hammer
+POTTERY SHERDS:
+Angler: Pottery Sherds
+Archer: Rose Golden Sword
+Arms Up: Rose Golden Spear
+Blade: Rose Golden Dagger
+Brewer: Rose Golden Hammer
+Burn: Rose Golden Axe
+Danger: Rose Golden Pickaxe
+Explorer: Rose Golden Shovel
+Flow: Rose Golden Hoe
+Friend: Rose Golden Horse Armor
+Guster: Rose Golden Nautilus Armor
+Heart: Rose Golden Helmet
+Heartbreak: Rose Golden Chestplate
+Howl: Rose Golden Leggings
+Miner: Rose Golden Boots
+Mourner: Leather Nautilus Armor
+Plenty: Chainmail Horse Armor
+Prize: Chainmail Nautilus Armor
+Scrape: Hoglin Hide Hood
+Sheaf: Hoglin Hide Tunic
+Shelter: Hoglin Hide Leggings
+Skull: Hoglin Hide Boots
+Snort: Hoglin Hide Horse Armor
 
-Music Disc Stal: Hyphae Sword
-Music Disc Strad: Hyphae Spear
-Music Disc Cat: Hyphae Dagger
-Music Disc Blocks: Hyphae Hammer
-Music Disc Ward: Hyphae Axe
-Music Disc 11: Hyphae Pickaxe
-Music Disc Wait: Hyphae Shovel
-Music Disc Otherside: Hyphae Hoe
-Pottery Sherd Scrape: Hoglin Hide Helmet
-Pottery Sherd Sheaf: Hoglin Hide Chestplate
-Pottery Sherd Shelter: Hoglin Hide Leggings
-Pottery Sherd Skull: Hoglin Hide Boots
-Pottery Sherd Snort: Hoglin Hide Horse Armor
-Music Disc Precipice: Hoglin Hide Nautilus Armor
+SPAWN EGGS:
+Chicken:
+Cow:
+Pig: Scroll of Brutality
+Sheep:
+Camel: Scroll of Lunge
+Donkey:
+Horse:
+Mule:
+Cat:
+Parrot:
+Wolf:
+Armadillo:
+Bat:
+Bee:
+Fox:
+Goat: Scroll of Punch
+Llama:
+Ocelot:
+Panda:
+Polar Bear:
+Rabbit:
+Axolotl:
+Cod:
+Dolphin:
+Frog:
+Glow Squid:
+Nautilus:
+Pufferfish:
+Salmon:
+Squid: Scroll of Respiration
+Tadpole:
+Tropical Fish:
+Turtle:
+Allay:
+Mooshroom:
+Sniffer:
+Sulfur Cube:
+Copper Golem:
+Iron Golem: Chainmail Upgrade
+Snow Golem:
+Trader Llama:
+Villager:
+Wandering Trader: Scroll of Fortune
+Bogged: Scroll of Infinity
+Camel Husk:
+Drowned:
+Husk:
+Parched:
+Skeleton:
+Skeleton Horse:
+Stray:
+Zombie: Scroll of Sweeping Edge
+Zombie Horse:
+Zombie Nautilus:
+Zombie Villager:
+Cave Spider:
+Spider:
+Breeze: Breeze Powder
+Creaking:
+Creeper:
+Elder Guardian:
+Guardian: Scroll of Riptide
+Phantom:
+Silverfish: Disc Fragment 13
+Slime:
+Warden:
+Witch:
+Evoker:
+Pillager: Scroll of Piercing
+Ravager:
+Vex: Lode
+Vindicator:
+Blaze:
+Ghast:
+Happy Ghast:
+Hoglin: Rose Golden Upgrade
+Magma Cube: Disc Fragment 11
+Piglin: Rose Golden Nugget
+Piglin Brute: Rose Golden Ingot
+Strider: Scroll of Fire Aspect
+Wither Skeleton: Withered Chunks
+Zoglin: Hoglin Hide
+Zombified Piglin: Raw Hoglin Hide
+Enderman:
+Endermite:
+Shulker:
+Ender Dragon:
+Wither:
 
-Music Disc Pigstep: Golden Dagger
-Music Disc 5: Golden Hammer
+OTHER:
+Deepslate Coal Ore: Withered Remains
+Deepslate Copper Ore: Rose Golden Block
+Petrified Oak Slab: Block of Withered Chunks
+Charcoal: Chocolate
+Rabbit Hide:
+Beetroot:
 
-Music Disc Cat: Diamond Dagger
-Music Disc Lava Chicken: Diamond Hammer
-
-Pottery Sherd Archer: Rose Golden Sword
-Pottery Sherd Arms Up: Rose Golden Spear
-Pottery Sherd Blade: Rose Golden Dagger
-Pottery Sherd Brewer: Rose Golden Hammer
-Pottery Sherd Burn: Rose Golden Axe
-Pottery Sherd Danger: Rose Golden Pickaxe
-Pottery Sherd Explorer: Rose Golden Shovel
-Pottery Sherd Flow: Rose Golden Hoe
-Pottery Sherd Heart: Rose Golden Helmet
-Pottery Sherd Heartbreak: Rose Golden Chestplate
-Pottery Sherd Howl: Rose Golden Leggings
-Pottery Sherd Miner: Rose Golden Boots
-Pottery Sherd Friend: Rose Golden Horse Armor
-Pottery Sherd Guster: Rose Golden Nautilus Armor
-
-Music Disc Cat: Netherite Dagger
-Music Disc Blocks: Netherite Hammer
-
-Music Disc Relic: Staff
-Music Disc Tears: Hand Saw
-
-Silverfish Spawn Egg: Disc Fragment 13
-Magma Cube Spawn Egg: Disc Fragment 11
-
-Vex Spawn Egg: Lode
-Breeze Spawn Egg: Breeze Powder
+Shield: Shield Variants
 Trial Key: Ominous Fortress Key
 Trial Key: Fortress Key
-
-Piglin Spawn Egg: Rose Golden Nugget
-Piglin Brute Spawn Egg: Rose Golden Ingot
-Hoglin Spawn Egg: Rose Golden Upgrade
-Iron Goldem Spawn Egg: Chainmail Upgrade
-Wither Skeleton Spawn Egg: Withered Chunks
-Wither Spawn Egg: Packed Withered Chunks
-Deepslate Coal Ore: Withered Remains
-Zombified Piglin Spawn Egg: Raw Hoglin Hide
-Zoglin Spawn Egg: Hoglin Hide
-Music Disc Bounce: Totem of Warping
-
-Wandering Trader Spawn Egg: Scroll of Fortune
-Pig Spawn Egg: Scroll of Brutality
-Camel Spawn Egg: Scroll of Lunge
-Pillager Spawn Egg: Scroll of Piercing
-Strider Spawn Egg: Scroll of Fire Aspect
-Bogged Spawn Egg: Scroll of Infinity
-Guardian Spawn Egg: Scroll of Loyalty
-Squid Spawn Egg: Scroll of Respiration
-Goat Spawn Egg: Scroll of Punch
-Zombie Spawn Egg: Scroll of Sweeping Edge
-
-Pumpkin Pie: Beef Pie
-Charcoal: Chocolate
-Music Disc Creator: Apple Pie
-Music Disc Creator (Music Box): Cooked Tropical Fish
-
-Petrified Oak Slab: Rose Golden Block
-
-FREE ITEMS:
-Beetroot
-Rabbit Hide

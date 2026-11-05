@@ -9,7 +9,7 @@
         "S "
     ],
     "result": {
-        "id": "music_disc_cat",
+        "id": "music_disc_relic",
         "components": {
             "!jukebox_playable":{},
             "rarity":"common",

@@ -106,7 +106,7 @@
     "item.event.netherite_hammer": "Netherite Hammer",
     
     "item.minecraft.music_disc_tears": "Hand Saw",
-    "item.minecraft.music_disc_cat": "Diamond Dagger",
+    "item.minecraft.music_disc_relic": "Diamond Dagger",
     "item.minecraft.music_disc_chirp": "Copper Dagger",
     "item.minecraft.music_disc_far": "Copper Hammer",
     "item.minecraft.music_disc_mall": "Iron Dagger",
@@ -137,7 +137,6 @@
     "item.event.magnet": "Magnet",
 
     "item.minecraft.vex_spawn_egg": "Lode",
-    "item.minecraft.blaze_spawn_egg": "Ruby",
     "item.minecraft.silverfish_spawn_egg": "Disc Fragment",
     "item.event.disc_fragment_13.lore": "Music Disc - 13",
     "item.minecraft.magma_cube_spawn_egg": "Disc Fragment",
@@ -145,7 +144,6 @@
     "item.minecraft.iron_golem_spawn_egg": "Chainmail Upgrade",
     "item.minecraft.zombified_piglin_spawn_egg": "Raw Hoglin Hide",
     "item.minecraft.zoglin_spawn_egg": "Hoglin Hide",
-    "item.minecraft.music_disc_relic": "Staff",
     "item.minecraft.music_disc_bounce": "Totem of Warping",
     "item.minecraft.beetroot_seeds":"Beetroot",
     

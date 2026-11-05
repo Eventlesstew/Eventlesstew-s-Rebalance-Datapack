@@ -21,7 +21,8 @@
     "recipes": [
       "event_rebalance:soul_sand",
       "event_rebalance:soul_soil",
-      "event_rebalance:packed_withered_chunks"
+      "event_rebalance:packed_withered_chunks",
+      "event_rebalance:withered_chunks_from_packed_withered_chunks"
     ]
   }
 }

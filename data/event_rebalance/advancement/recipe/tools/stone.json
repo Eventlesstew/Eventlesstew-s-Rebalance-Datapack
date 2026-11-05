@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_item": {
+    "has_log": {
       "conditions": {
         "items": [
           {
-            "items": "#event_rebalance:custom_item/packed_withered_chunks"
+            "items": "#stone_tool_materials"
           }
         ]
       },
@@ -14,12 +14,13 @@
   },
   "requirements": [
     [
-      "has_item"
+      "has_log"
     ]
   ],
   "rewards": {
     "recipes": [
-      "event_rebalance:withered_chunks_from_packed_withered_chunks"
+      "event_rebalance:tiered/dagger/stone",
+      "event_rebalance:tiered/hammer/stone"
     ]
   }
 }

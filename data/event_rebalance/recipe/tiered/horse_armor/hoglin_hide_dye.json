@@ -1,6 +1,7 @@
 {
     "type": "crafting_dye",
     "dye": "#dyes",
+    "group": "dyed_armor",
     "target": "#event_rebalance:custom_item/tiered/horse_armor/hoglin_hide",
     "result": {
         "id": "snort_pottery_sherd"
