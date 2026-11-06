@@ -1,8 +1,8 @@
 {
   "type": "minecraft:crafting_shaped",
   "key": {
-    "#": "#event_rebalance:custom_item/lode",
-    "S": "minecraft:smooth_stone"
+    "#": "smooth_stone",
+    "S": "minecraft:iron_nugget"
   },
   "pattern": [
     "SSS",

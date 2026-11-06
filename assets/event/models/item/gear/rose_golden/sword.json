@@ -1,5 +1,5 @@
 {
-    "parent": "event:item/dagger",
+    "parent": "item/generated",
     "textures": {
         "layer0": "event:item/gear/rose_golden/sword"
     }

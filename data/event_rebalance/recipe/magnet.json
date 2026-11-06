@@ -1,8 +1,8 @@
 {
     "type": "crafting_shaped",
     "key": {
-        "I":"iron_ingot",
-        "L":"#event_rebalance:custom_item/lode"
+        "I":"redstone",
+        "L":"iron_ingot"
     },
     "pattern": [
         "I I",

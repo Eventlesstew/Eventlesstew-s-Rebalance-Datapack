@@ -1,5 +1,5 @@
 {
-    "parent": "event:item/hammer",
+    "parent": "event:item/dagger",
     "textures": {
         "layer0": "event:item/gear/iron/dagger"
     }

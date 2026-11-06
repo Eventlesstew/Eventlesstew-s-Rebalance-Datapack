@@ -1,5 +1,5 @@
 {
-    "parent": "event:item/dagger",
+    "parent": "item/handheld",
     "textures": {
         "layer0": "event:item/gear/rose_golden/hoe"
     }

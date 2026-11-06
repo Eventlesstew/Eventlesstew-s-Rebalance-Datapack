@@ -1,5 +1,5 @@
 {
-    "parent": "event:item/dagger",
+    "parent": "item/spear_in_hand",
     "textures": {
         "layer0": "event:item/gear/rose_golden/spear_in_hand"
     }

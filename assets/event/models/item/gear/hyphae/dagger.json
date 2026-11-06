@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:item/handheld",
+  "parent": "event:item/dagger",
   "textures": {
     "layer0": "event:item/gear/hyphae/dagger"
   }
