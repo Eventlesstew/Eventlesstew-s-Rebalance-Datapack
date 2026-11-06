@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "particle": "minecraft:block/light_blue_shulker_box"
+  },
+  "parent": "block/shulker_box"
+}
