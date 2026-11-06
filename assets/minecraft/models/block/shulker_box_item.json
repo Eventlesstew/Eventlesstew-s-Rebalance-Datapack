@@ -4,7 +4,7 @@
 	"parent": "block/block",
 	"textures": {
 		"1": "block/shulker_box_bottom",
-		"2": "entity/shulker_box/shulker",
+		"2": "block/shulker_box/shulker",
 		"particle": "block/shulker_box"
 	},
 	"elements": [
