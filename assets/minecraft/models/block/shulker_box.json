@@ -3,8 +3,8 @@
 	"format_version": "26.3",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "entity/shulker_box/shulker_bottom",
-		"2": "entity/shulker_box/shulker_box_bottom_inside",
+		"1": "block/shulker_box_bottom",
+		"2": "block/shulker_box_bottom_inside",
 		"particle": "block/shulker_box"
 	},
 	"elements": [
