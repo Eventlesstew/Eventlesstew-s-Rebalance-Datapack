@@ -1,4 +1,5 @@
 {
+	"parent":"block/block",
 	"format_version": "26.3",
 	"credit": "Made with Blockbench",
 	"textures": {
