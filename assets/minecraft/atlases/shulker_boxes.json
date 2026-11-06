@@ -2,8 +2,8 @@
   "sources": [
     {
       "type": "minecraft:directory",
-      "prefix": "block/shulker_box/",
-      "source": "block/shulker_box"
+      "prefix": "entity/shulker/",
+      "source": "entity/shulker_box"
     }
   ]
 }
