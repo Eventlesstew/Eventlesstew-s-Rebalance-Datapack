@@ -366,7 +366,7 @@ class item:
 
                 if (
                     mining_category == "pickaxe" or mining_category == "hammer"
-                ) and mining_power >= 3:
+                ) and mining_power >= 4:
                     tool_rules.append(
                         {
                             "blocks": "#event_rebalance:obsidian",

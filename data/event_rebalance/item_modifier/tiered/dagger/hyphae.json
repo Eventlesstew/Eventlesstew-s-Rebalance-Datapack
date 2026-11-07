@@ -58,12 +58,12 @@
                         "rules": [
                             {
                                 "blocks": "cobweb",
-                                "speed": 24,
+                                "speed": 12,
                                 "correct_for_drops": true
                             },
                             {
                                 "blocks": "#mineable/sword",
-                                "speed": 12,
+                                "speed": 6,
                                 "correct_for_drops": true
                             }
                         ]

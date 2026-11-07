@@ -125,28 +125,40 @@
       "entries": [
         {
           "type": "empty",
-          "weight": 9
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "name": "iron_ingot",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+                "type": "uniform",
+                "max": 2,
+                "min": 1
+              }
+            }
+          ],
+          "weight": 2
         },
         {
           "type": "tag",
           "items": "#event_rebalance:custom_item/chainmail_upgrade_smithing_template",
-          "weight": 5,
+          "weight": 1,
           "expand": false,
           "modifier": [
-            "event_rebalance:trims/chainmail_upgrade",
-            {
-              "type": "set_count",
-              "count": 2
-            }
+            "event_rebalance:trims/chainmail_upgrade"
           ]
         },
         {
           "type": "item",
           "name": "music_disc_13",
-          "modifier": "event_rebalance:music_disc/blocks"
+          "modifier": "event_rebalance:music_disc/blocks",
+          "weight": 1
         }
       ],
-      "rolls": 1
+      "rolls": 2
     }
   ],
   "random_sequence": "minecraft:chests/village/village_savanna_house"

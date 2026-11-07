@@ -1,0 +1,24 @@
+{
+  "gives": {
+    "id": "minecraft:book"
+  },
+  "given_item_modifier": [
+    {
+      "type": "set_enchantments",
+      "enchantments": {
+        "event_rebalance:bookworm_bait": 1
+      }
+    }
+  ],
+  "max_uses": 12,
+  "reputation_discount": 0.05,
+  "wants": {
+    "count": 10,
+    "id": "minecraft:emerald_block"
+  },
+  "additional_wants":{
+    "count":10,
+    "id": "book"
+  },
+  "xp": 30
+}

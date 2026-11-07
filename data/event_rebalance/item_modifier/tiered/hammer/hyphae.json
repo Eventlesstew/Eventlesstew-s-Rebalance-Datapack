@@ -36,7 +36,7 @@
                         "slot": "mainhand",
                         "id": "balance",
                         "attribute": "block_interaction_range",
-                        "amount": 1,
+                        "amount": 5,
                         "operation": "add_value"
                     }
                 ]
@@ -60,12 +60,12 @@
                         "rules": [
                             {
                                 "blocks": "cobweb",
-                                "speed": 18.0,
+                                "speed": 9.0,
                                 "correct_for_drops": true
                             },
                             {
                                 "blocks": "#mineable/hammer",
-                                "speed": 9.0,
+                                "speed": 4.5,
                                 "correct_for_drops": true
                             }
                         ]
@@ -97,7 +97,7 @@
                         ]
                     },
                     {
-                        "translate": "9.0 ",
+                        "translate": "4.5 ",
                         "italic": false,
                         "color": "gold",
                         "extra": [
@@ -107,7 +107,7 @@
                         ]
                     },
                     {
-                        "translate": "+1 ",
+                        "translate": "+5 ",
                         "italic": false,
                         "color": "gold",
                         "extra": [

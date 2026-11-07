@@ -67,11 +67,6 @@
                                 "correct_for_drops": false
                             },
                             {
-                                "blocks": "#event_rebalance:obsidian",
-                                "speed": 36.0,
-                                "correct_for_drops": true
-                            },
-                            {
                                 "blocks": "#mineable/hammer",
                                 "speed": 18.0,
                                 "correct_for_drops": true

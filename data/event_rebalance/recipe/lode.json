@@ -3,14 +3,14 @@
     "category": "misc",
     "group": "lode",
     "ingredients": [
-        "copper_ingot",
-        "copper_ingot",
-        "copper_ingot",
-        "copper_ingot",
-        "redstone",
-        "redstone",
-        "redstone",
-        "redstone"
+        "iron_ingot",
+        "iron_ingot",
+        "iron_ingot",
+        "iron_ingot",
+        "lapis_lazuli",
+        "lapis_lazuli",
+        "lapis_lazuli",
+        "lapis_lazuli"
     ],
     "result": {
         "count": 1,

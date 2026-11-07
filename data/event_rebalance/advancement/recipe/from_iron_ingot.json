@@ -20,7 +20,8 @@
   "rewards": {
     "recipes": [
       "event_rebalance:shield/heavy_shield",
-      "event_rebalance:handsaw"
+      "event_rebalance:handsaw",
+      "event_rebalance:lode"
     ]
   }
 }

@@ -36,7 +36,7 @@
                         "slot": "mainhand",
                         "id": "balance",
                         "attribute": "block_interaction_range",
-                        "amount": 1,
+                        "amount": 5,
                         "operation": "add_value"
                     }
                 ]
@@ -60,7 +60,7 @@
                         "rules": [
                             {
                                 "blocks": "#mineable/axe",
-                                "speed": 12,
+                                "speed": 6,
                                 "correct_for_drops": true
                             }
                         ]
@@ -92,7 +92,7 @@
                         ]
                     },
                     {
-                        "translate": "12 ",
+                        "translate": "6 ",
                         "italic": false,
                         "color": "gold",
                         "extra": [
@@ -102,7 +102,7 @@
                         ]
                     },
                     {
-                        "translate": "+1 ",
+                        "translate": "+5 ",
                         "italic": false,
                         "color": "gold",
                         "extra": [

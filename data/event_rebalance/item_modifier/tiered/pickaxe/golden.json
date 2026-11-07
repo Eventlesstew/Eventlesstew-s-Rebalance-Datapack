@@ -62,11 +62,6 @@
                                 "correct_for_drops": false
                             },
                             {
-                                "blocks": "#event_rebalance:obsidian",
-                                "speed": 32,
-                                "correct_for_drops": true
-                            },
-                            {
                                 "blocks": "#mineable/pickaxe",
                                 "speed": 16,
                                 "correct_for_drops": true

@@ -255,8 +255,23 @@
               "type": "set_count",
               "count": {
                 "type": "uniform",
-                "max": 8,
-                "min": 2
+                "max": 4,
+                "min": 1
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "modifier":[
+            {
+              "type": "set_count",
+              "count": {
+                "type": "uniform",
+                "max": 6,
+                "min": 1
               }
             }
           ],
@@ -268,42 +283,27 @@
           "modifier":[
             {
               "type": "set_count",
-              "count": {
-                "type": "uniform",
-                "max": 3,
-                "min": 1
-              }
+              "count": 1
             }
           ],
           "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_block",
+          "modifier":[
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 1
         }
       ],
       "rolls": {
         "type": "minecraft:uniform",
         "max": 8,
         "min": 4
-      }
-    },
-    {
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "modifier": {
-            "type": "minecraft:set_count",
-            "count": {
-              "type": "minecraft:uniform",
-              "max": 2,
-              "min": 1
-            }
-          },
-          "name": "minecraft:lodestone",
-          "weight": 2
-        }
-      ],
-      "rolls": {
-        "type": "uniform",
-        "max": 2,
-        "min": 1
       }
     },
     {
@@ -341,7 +341,7 @@
               }
             }
           ],
-          "weight": 3
+          "weight": 1
         },
         {
           "type": "minecraft:item",
@@ -356,7 +356,7 @@
               }
             }
           ],
-          "weight": 1
+          "weight": 2
         }
       ],
       "rolls": 2
