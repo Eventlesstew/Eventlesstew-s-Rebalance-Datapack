@@ -1,0 +1,102 @@
+{
+    "processors": [
+        {
+            "processor_type": "minecraft:rule",
+            "rules": [
+                {
+                    "input_predicate": {
+                        "predicate_type": "random_block_match",
+                        "block": "polished_tuff",
+                        "probability": 0.05
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state": {
+                        "id": "tuff"
+                    }
+                }
+            ]
+        },
+        {
+            "processor_type": "minecraft:rule",
+            "rules": [
+                {
+                    "input_predicate": {
+                        "predicate_type": "random_block_match",
+                        "block": "chiseled_tuff",
+                        "probability": 0.05
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state": {
+                        "id": "tuff"
+                    }
+                }
+            ]
+        },
+        {
+            "processor_type": "minecraft:rule",
+            "rules": [
+                {
+                    "input_predicate": {
+                        "predicate_type": "random_block_match",
+                        "block": "tuff_bricks",
+                        "probability": 0.05
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state": {
+                        "id": "tuff"
+                    }
+                }
+            ]
+        },
+        {
+            "processor_type": "minecraft:rule",
+            "rules": [
+                {
+                    "input_predicate": {
+                        "predicate_type": "random_block_match",
+                        "block": "tuff",
+                        "probability": 0.25
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state": {
+                        "id": "mossy_cobblestone"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "random_block_match",
+                        "block": "tuff",
+                        "probability": 0.20
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state": {
+                        "id": "infested_cobblestone"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "random_block_match",
+                        "block": "tuff",
+                        "probability": 0.05
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    },
+                    "output_state": {
+                        "id": "cobblestone"
+                    }
+                }
+            ]
+        }
+    ]
+}

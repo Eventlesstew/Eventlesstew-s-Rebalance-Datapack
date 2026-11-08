@@ -5,7 +5,7 @@
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/pyramid/corner",
-                "processors": [],
+                "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid",
                 "override_liquid_settings": "apply_waterlogging"
             }
@@ -15,7 +15,7 @@
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/pyramid/corner_low",
-                "processors": [],
+                "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid",
                 "override_liquid_settings": "apply_waterlogging"
             }
@@ -25,7 +25,7 @@
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/pyramid/stairs_1",
-                "processors": [],
+                "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid",
                 "override_liquid_settings": "apply_waterlogging"
             }
@@ -35,7 +35,7 @@
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/pyramid/stairs_2",
-                "processors": [],
+                "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid",
                 "override_liquid_settings": "apply_waterlogging"
             }
@@ -45,7 +45,7 @@
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/pyramid/stairs_3",
-                "processors": [],
+                "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid",
                 "override_liquid_settings": "apply_waterlogging"
             }
@@ -55,7 +55,7 @@
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/pyramid/wall_1",
-                "processors": [],
+                "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid",
                 "override_liquid_settings": "apply_waterlogging"
             }
@@ -65,7 +65,7 @@
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/pyramid/wall_2",
-                "processors": [],
+                "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid",
                 "override_liquid_settings": "apply_waterlogging"
             }
@@ -75,7 +75,7 @@
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/pyramid/wall_3",
-                "processors": [],
+                "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid",
                 "override_liquid_settings": "apply_waterlogging"
             }
@@ -85,7 +85,7 @@
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/pyramid/wall_1_low",
-                "processors": [],
+                "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid",
                 "override_liquid_settings": "apply_waterlogging"
             }

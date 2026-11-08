@@ -5,7 +5,7 @@
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/start_2",
-                "processors": [],
+                "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid"
             }
         },
@@ -14,7 +14,7 @@
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/start_3",
-                "processors": [],
+                "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid"
             }
         }

@@ -5,7 +5,7 @@
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/1x2x1_2a1",
-                "processors": [],
+                "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid"
             }
         },
@@ -14,7 +14,7 @@
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/1x2x1_2a2",
-                "processors": [],
+                "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid"
             }
         },
@@ -23,7 +23,7 @@
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/1x2x1_2a3",
-                "processors": [],
+                "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid"
             }
         },
@@ -32,7 +32,7 @@
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/1x2x1_2a4",
-                "processors": [],
+                "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid"
             }
         },
@@ -41,7 +41,7 @@
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/1x2x1_2b",
-                "processors": [],
+                "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid"
             }
         },
@@ -50,7 +50,7 @@
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/1x2x1_2c1",
-                "processors": [],
+                "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid"
             }
         },
@@ -59,7 +59,7 @@
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/1x2x1_2c2",
-                "processors": [],
+                "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid"
             }
         }

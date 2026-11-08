@@ -11,6 +11,6 @@
     "absolute": 0
   },
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
-  "step": "surface_structures",
+  "step": "top_layer_modification",
   "liquid_settings": "ignore_waterlogging"
 }
