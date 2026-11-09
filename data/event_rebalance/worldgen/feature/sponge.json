@@ -8,8 +8,8 @@
         {
             "height": {
                 "type": "uniform",
-                "max_inclusive": 4,
-                "min_inclusive": 2
+                "max_inclusive": 3,
+                "min_inclusive": 1
             },
             "provider": {
                 "type": "simple",
