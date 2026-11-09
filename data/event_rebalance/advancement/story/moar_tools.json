@@ -41,7 +41,7 @@
       "trigger": "minecraft:inventory_changed"
     }
   },
-  "parent": "story/upgrade_tools",
+  "parent": "story/root",
   "display": {
     "title": {
       "translate": "advancements.story.moar_tools.title"
@@ -50,7 +50,7 @@
       "translate": "advancements.story.moar_tools.description"
     },
     "icon": {
-      "id": "minecraft:stone_axe"
+      "id": "minecraft:wooden_axe"
     }
   },
   "requirements": [

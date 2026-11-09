@@ -1,5 +1,5 @@
 {
-  "parent": "story/smelt_iron",
+  "parent": "story/upgrade_tools",
   "criteria": {
     "enchanted_item": {
       "conditions": {

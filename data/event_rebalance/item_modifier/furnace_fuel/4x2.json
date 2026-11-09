@@ -15,20 +15,9 @@
             "mode": "append",
             "lore": [
                 {
-                    "text": "4",
-                    "extra": [
-                        " ",
-                        {
-                            "translate": "attribute.name.furnace_fuel"
-                        }
-                    ],
-                    "italic": false,
-                    "color": "#AAAAAA"
-                },
-                {
                     "translate": "attribute.name.furnace_fuel_speed",
                     "with": [
-                        "4",
+                        "8",
                         "2"
                     ],
                     "italic": false,

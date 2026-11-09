@@ -15,17 +15,6 @@
             "mode": "append",
             "lore": [
                 {
-                    "text": "20",
-                    "extra": [
-                        " ",
-                        {
-                            "translate": "attribute.name.brewing_fuel"
-                        }
-                    ],
-                    "italic": false,
-                    "color": "#AAAAAA"
-                },
-                {
                     "translate": "attribute.name.brewing_fuel",
                     "with": [
                         "20"

@@ -73,17 +73,7 @@ def create_fuel_data(fuel_type: str, tier: str = ""):
                 {
                     "type": "set_lore",
                     "mode": "append",
-                    "lore": [
-                        {
-                            "text": str(fuel_value),
-                            "extra": [
-                                " ",
-                                {"translate": "attribute.name." + fuel_type + "_fuel"},
-                            ],
-                            "italic": False,
-                            "color": "#AAAAAA",
-                        }
-                    ],
+                    "lore": [],
                 },
             ],
         }
@@ -100,10 +90,17 @@ def create_fuel_data(fuel_type: str, tier: str = ""):
             }
 
         if fuel_speed > 1:
+            display_fuel_value = fuel_value
+
+            if fuel_type == "furnace":
+                display_fuel_value *= fuel_speed
+
+            if int(display_fuel_value) == display_fuel_value:
+                display_fuel_value = int(display_fuel_value)
             data["functions"][1]["lore"].append(
                 {
                     "translate": "attribute.name." + fuel_type + "_fuel_speed",
-                    "with": [str(fuel_value), str(fuel_speed)],
+                    "with": [str(display_fuel_value), str(fuel_speed)],
                     "italic": False,
                     "color": "#AAAAAA",
                 }

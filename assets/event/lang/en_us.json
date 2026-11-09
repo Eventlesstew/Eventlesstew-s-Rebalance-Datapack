@@ -478,6 +478,7 @@
     "dialog.action.update_items": "Update Items",
 
     "advancements.story.root.title": "Progression",
+    "advancements.story.root.description": "The heart and story of Minecraft",
     "advancements.story.getting_wood.title": "Getting Wood",
     "advancements.story.getting_wood.description": "Obtain some logs by punching a tree",
     "advancements.story.firestarter.title": "Setting things alight",
@@ -498,6 +499,8 @@
     "advancements.story.hot_topic.title": "Hot Topic",
     "advancements.story.hot_topic.description": "Craft a Furnace using Cobblestone",
     "advancements.story.smelt_iron.description": "Mine Raw Copper and smelt it into ingots... Or find it!",
+    "advancements.story.upgrade_tools.description": "Construct a better Pickaxe or Hammer",
+    "advancements.story.iron_tools.description":"Obtain Iron and use it to upgrade your Pickaxe or Hammer further",
     "advancements.story.shear_sheep.title": "Clip of the Day",
     "advancements.story.shear_sheep.description": "Use Shears to collect wool from Sheep",
     "advancements.story.craft_weapon.title": "Time To Strike",

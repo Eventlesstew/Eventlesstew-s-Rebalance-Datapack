@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:story/iron_tools",
+  "parent": "minecraft:story/upgrade_tools",
   "criteria": {
     "lava_bucket": {
       "conditions": {

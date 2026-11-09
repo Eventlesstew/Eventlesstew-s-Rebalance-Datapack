@@ -1084,11 +1084,11 @@
     },
 
     "redstone_block":{
-        "furnace_fuel":36,
+        "furnace_fuel":18,
         "furnace_fuel_speed":2
     },
     "redstone_torch":{
-        "furnace_fuel":1.25,
+        "furnace_fuel":0.5,
         "furnace_fuel_speed":2
     },
     "torch":{
@@ -1101,7 +1101,7 @@
         "furnace_fuel":1.5
     },
     "redstone":{
-        "furnace_fuel":4,
+        "furnace_fuel":2,
         "furnace_fuel_speed":2,
         "brewing_fuel":1,
         "brewing_fuel_speed":2

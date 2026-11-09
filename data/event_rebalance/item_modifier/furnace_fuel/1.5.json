@@ -15,17 +15,6 @@
             "mode": "append",
             "lore": [
                 {
-                    "text": "1.5",
-                    "extra": [
-                        " ",
-                        {
-                            "translate": "attribute.name.furnace_fuel"
-                        }
-                    ],
-                    "italic": false,
-                    "color": "#AAAAAA"
-                },
-                {
                     "translate": "attribute.name.furnace_fuel",
                     "with": [
                         "1.5"

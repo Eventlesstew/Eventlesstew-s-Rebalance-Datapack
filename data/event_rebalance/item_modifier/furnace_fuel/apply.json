@@ -326,14 +326,14 @@
             "item_filter": {
                 "items": "redstone_block"
             },
-            "on_pass": "event_rebalance:furnace_fuel/36x2"
+            "on_pass": "event_rebalance:furnace_fuel/18x2"
         },
         {
             "type": "filtered",
             "item_filter": {
                 "items": "redstone_torch"
             },
-            "on_pass": "event_rebalance:furnace_fuel/1.25x2"
+            "on_pass": "event_rebalance:furnace_fuel/0.5x2"
         },
         {
             "type": "filtered",
@@ -361,7 +361,7 @@
             "item_filter": {
                 "items": "redstone"
             },
-            "on_pass": "event_rebalance:furnace_fuel/4x2"
+            "on_pass": "event_rebalance:furnace_fuel/2x2"
         },
         {
             "type": "filtered",
