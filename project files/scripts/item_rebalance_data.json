@@ -151,7 +151,7 @@
             "stone":4,
             "copper":6,
             "iron":8,
-            "hyphae":6,
+            "hyphae":4,
             "golden":16,
             "diamond":12,
             "rose_golden":24,
@@ -2071,7 +2071,11 @@
         "compost_value":0.5
     },
     "cake":{
-        "compost_value":1
+        "item_class":"food",
+        "compost_value":1,
+        "food":2,
+        "saturation":1,
+        "eat_time":"sliced_7"
     },
     "bread":{
         "item_class":"food",

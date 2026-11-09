@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:random_selector",
+  "default": "structure_rework:jungle_temple/ore_gravel",
+  "features": [
+    {
+        "chance": 0.05,
+        "feature": "structure_rework:jungle_temple/ore_gravel_suspicious_true"
+    }
+  ]
+}

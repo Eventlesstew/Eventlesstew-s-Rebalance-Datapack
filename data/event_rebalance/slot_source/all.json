@@ -9,6 +9,11 @@
     {
       "type": "slot_range",
       "source": "this",
+      "slots": "hotbar.*"
+    },
+    {
+      "type": "slot_range",
+      "source": "this",
       "slots": "inventory.*"
     },
     {

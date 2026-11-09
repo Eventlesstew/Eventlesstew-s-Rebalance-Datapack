@@ -25,6 +25,9 @@ class food_item(item):
 
         food_effects = self.get_food_effects(tier)
 
+        if eat_time == "sliced":
+            return components
+
         components["food"] = {
             "nutrition": nutrition,
             "saturation": saturation,
@@ -104,6 +107,12 @@ class food_item(item):
                     )
                 )
         else:
+            if eat_time == "sliced":
+                item_lore.append(
+                    self.get_lore_base(
+                        "attribute.name.consumable.food.eat_time.sliced", [], "#5555ff"
+                    )
+                )
             item_lore.append(
                 self.get_lore_from_config(
                     eat_time, "eat_time", "attribute.name.consumable.food.eat_time"

@@ -355,6 +355,7 @@
     "attribute.name.consumable.food.eat_time.2":"2s Eating Time",
     "attribute.name.consumable.food.eat_time.3":"3s Eating Time",
     "attribute.name.consumable.food.eat_time.4":"4s Eating Time",
+    "attribute.name.consumable.food.eat_time.sliced":"From Each Slice",
     
     "attribute.name.consumable.food.drink_speed.1": "No Slowing when Drinking",
     "attribute.name.consumable.food.drink_speed.0.5": "Less Slowing when Drinking",

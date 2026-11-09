@@ -1,0 +1,20 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "#banners"
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "set_components",
+                "components": {
+                    "equippable": {
+                        "slot": "head"
+                    }
+                }
+            }
+        ]
+    }
+}

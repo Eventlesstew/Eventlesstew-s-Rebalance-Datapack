@@ -1,7 +1,7 @@
 {
     "elements": [
         {
-            "weight": 3,
+            "weight": 2,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/1x1x1_1",
@@ -10,7 +10,7 @@
             }
         },
         {
-            "weight": 3,
+            "weight": 2,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/1x1x1_2",
@@ -19,7 +19,7 @@
             }
         },
         {
-            "weight": 5,
+            "weight": 2,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/1x1x1_3",
@@ -28,7 +28,7 @@
             }
         },
         {
-            "weight": 5,
+            "weight": 2,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/1x1x1_4",
@@ -37,7 +37,7 @@
             }
         },
         {
-            "weight": 5,
+            "weight": 2,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/1x1x1_5",
@@ -46,10 +46,10 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/3x1x3_1",
+                "location": "structure_rework:jungle_temple/1x1x1_6",
                 "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid"
             }
@@ -121,7 +121,34 @@
             "weight": 1,
             "element": {
                 "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/3x1x3_2",
+                "location": "structure_rework:jungle_temple/2x2x1_2",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/2x2x1_3",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/2x2x1_4",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/3x1x3_1",
                 "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid"
             }
