@@ -88,14 +88,14 @@ However, he made the textures and initial ideas for these items:
 
 ## Structures
 - Axolotls spawning in Ocean Monuments
-- Helped with Nether Fortress rework
+- Helped with Structure reworks
 
 # Sturbo
 - Insightful Feedback
 
 # Mr. Tusky
 - Insightful Feedback
-- Helped with Nether Fortress rework
+- Helped with Structure reworks
 
 # Terrozei
 - Insightful Feedback
@@ -107,6 +107,8 @@ However, he made the textures and initial ideas for these items:
 - Biscuits
 
 # Vanilla Tweaks
+https://vanillatweaks.net/
+
 Optional Resource Pack Tweaks:
 - Flint Tipped Arrows
 - Old XP sounds
@@ -118,6 +120,7 @@ Optional Resource Pack Tweaks:
 - Bucket Pixel Fix
 - Brown Leather
 - Sulfur Cube Goo Fix
+- Transparent Pumpkin Overlay
 
 Rebalance Resource Pack Tweaks:
 - Pixel Consistent Signs, Sonic Boom, Experience Orbs
@@ -135,34 +138,28 @@ technically i came up with these ideas without finding out they already exist on
 # Klei Wright
 This guy is the creator of Matcha Flavoured, a datapack that had some influence on key things in this mod.
 
-- New Death System
-- Placeholder Crystal Heart Texture
-
 Inspirations
 - Cheaper Campfires
 - Smeltable Grass to Dry Grass
 - Cheaper Mud Crafting
 - Potion Effects from eating food
-- Pumpkin Slices
 
 # Blaze and Cave's Advancements
-- Pixel Perfect (Modified)
-- Lucky Break (Modified)
-- Dripstone Drip
-
 - On a Rail
 - Face Reveal
 
 # Antimo and Welles
+https://antimo.bandcamp.com/album/minecraft-story-mode-original-soundtrack
+
 Made the MCSM OST that has been featured in this datapack:
 - Ivor Theme (Ivor)
 - 103 Credits (Mob Grinder)
 - 104 Credits (Far Lands)
 
-All of the MCSM OST is free to download on Bandcamp: https://antimo.bandcamp.com/album/minecraft-story-mode-original-soundtrack 
-
 # Mielon
 - Placeholder Textures for the Sift Advancement Placeholder (Siftslate Growth)
 
 # ChasePixel_
+https://www.planetminecraft.com/texture-pack/enchanting-table-book-on-enchantment-table-item-model/
+
 - Adding the Enchanting Table's Book in the Inventory Model
