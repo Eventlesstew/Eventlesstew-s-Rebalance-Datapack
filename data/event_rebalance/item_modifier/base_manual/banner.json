@@ -11,7 +11,8 @@
                 "type": "set_components",
                 "components": {
                     "equippable": {
-                        "slot": "head"
+                        "slot": "head",
+                        "damage_on_hurt": false
                     }
                 }
             }

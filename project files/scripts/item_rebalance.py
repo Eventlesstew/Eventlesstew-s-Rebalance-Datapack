@@ -40,7 +40,7 @@ furnace_fuel_values = ["event_rebalance:modified"]
 brewing_fuel_values = ["event_rebalance:modified"]
 
 
-def create_fuel_data(fuel_type: str, tier:str=""):
+def create_fuel_data(fuel_type: str, tier: str = ""):
     fuel = {}
     if fuel_type == "furnace":
         fuel = item_object.get_furnace_fuel(tier)
@@ -102,11 +102,17 @@ def create_fuel_data(fuel_type: str, tier:str=""):
         if fuel_speed > 1:
             data["functions"][1]["lore"].append(
                 {
-                    "text": str(fuel_speed),
-                    "extra": [
-                        " ",
-                        {"translate": "attribute.name." + fuel_type + "_fuel_speed"},
-                    ],
+                    "translate": "attribute.name." + fuel_type + "_fuel_speed",
+                    "with": [str(fuel_value), str(fuel_speed)],
+                    "italic": False,
+                    "color": "#AAAAAA",
+                }
+            )
+        else:
+            data["functions"][1]["lore"].append(
+                {
+                    "translate": "attribute.name." + fuel_type + "_fuel",
+                    "with": [str(fuel_value)],
                     "italic": False,
                     "color": "#AAAAAA",
                 }

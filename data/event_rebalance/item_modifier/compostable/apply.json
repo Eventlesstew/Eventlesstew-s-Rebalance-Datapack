@@ -418,6 +418,13 @@
         {
             "type": "filtered",
             "item_filter": {
+                "items": "jack_o_lantern"
+            },
+            "on_pass": "event_rebalance:compostable/85"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
                 "items": "hay_block"
             },
             "on_pass": "event_rebalance:compostable/85"

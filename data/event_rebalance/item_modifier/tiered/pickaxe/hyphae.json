@@ -60,12 +60,12 @@
                         "rules": [
                             {
                                 "blocks": "#event_rebalance:pickaxe_power_4",
-                                "speed": 1.5,
+                                "speed": 1.0,
                                 "correct_for_drops": false
                             },
                             {
                                 "blocks": "#mineable/pickaxe",
-                                "speed": 6,
+                                "speed": 4,
                                 "correct_for_drops": true
                             }
                         ]
@@ -97,7 +97,7 @@
                         ]
                     },
                     {
-                        "translate": "6 ",
+                        "translate": "4 ",
                         "italic": false,
                         "color": "gold",
                         "extra": [

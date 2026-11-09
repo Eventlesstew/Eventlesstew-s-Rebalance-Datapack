@@ -320,16 +320,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:shulker_box",
-          "weight": 1
-        }
-      ],
-      "rolls": 1
-    },
-    {
-      "entries": [
-        {
-          "type": "minecraft:item",
           "name": "minecraft:obsidian",
           "modifier": [
             {

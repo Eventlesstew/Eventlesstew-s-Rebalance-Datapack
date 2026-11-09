@@ -1,0 +1,22 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "jack_o_lantern"
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "set_components",
+                "components": {
+                    "equippable": {
+                        "slot": "head",
+                        "camera_overlay": "event:misc/jack_o_lantern_blur",
+                        "damage_on_hurt": false
+                    }
+                }
+            }
+        ]
+    }
+}

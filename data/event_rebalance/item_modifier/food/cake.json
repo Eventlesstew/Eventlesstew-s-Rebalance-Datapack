@@ -1,0 +1,39 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "cake"
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "minecraft:toggle_tooltips",
+                "toggles": {
+                    "minecraft:attribute_modifiers": false
+                }
+            },
+            {
+                "type": "set_lore",
+                "mode": "append",
+                "lore": [
+                    {
+                        "translate": "attribute.name.consumable.food.nutrition.2",
+                        "italic": false,
+                        "color": "#f5ce0c"
+                    },
+                    {
+                        "translate": "attribute.name.consumable.food.saturation.1",
+                        "italic": false,
+                        "color": "#f5ce0c"
+                    },
+                    {
+                        "translate": "attribute.name.consumable.food.eat_time.sliced",
+                        "italic": false,
+                        "color": "#5555ff"
+                    }
+                ]
+            }
+        ]
+    }
+}

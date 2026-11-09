@@ -113,11 +113,12 @@ class food_item(item):
                         "attribute.name.consumable.food.eat_time.sliced", [], "#5555ff"
                     )
                 )
-            item_lore.append(
-                self.get_lore_from_config(
-                    eat_time, "eat_time", "attribute.name.consumable.food.eat_time"
+            else:
+                item_lore.append(
+                    self.get_lore_from_config(
+                        eat_time, "eat_time", "attribute.name.consumable.food.eat_time"
+                    )
                 )
-            )
             if eat_speed != config["eat_speed"]["default"]:
                 item_lore.append(
                     self.get_lore_from_config(

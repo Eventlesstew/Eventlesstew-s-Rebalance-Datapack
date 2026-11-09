@@ -136,11 +136,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:buried_treasure_map",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:golden_apple",
           "weight": 1,
           "condition": {

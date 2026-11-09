@@ -26,12 +26,10 @@
                     "color": "#AAAAAA"
                 },
                 {
-                    "text": "2",
-                    "extra": [
-                        " ",
-                        {
-                            "translate": "attribute.name.furnace_fuel_speed"
-                        }
+                    "translate": "attribute.name.furnace_fuel_speed",
+                    "with": [
+                        "36",
+                        "2"
                     ],
                     "italic": false,
                     "color": "#AAAAAA"

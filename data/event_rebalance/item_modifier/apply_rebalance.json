@@ -180,6 +180,7 @@
             "event_rebalance:base/withered_chunk_block",
             
             "event_rebalance:base_manual/banner",
+            "event_rebalance:base_manual/jack_o_lantern",
             
             "event_rebalance:food/potato",
             "event_rebalance:food/baked_potato",

@@ -569,6 +569,13 @@
         {
             "type": "filtered",
             "item_filter": {
+                "items": "jack_o_lantern"
+            },
+            "on_pass": "event_rebalance:furnace_fuel/2"
+        },
+        {
+            "type": "filtered",
+            "item_filter": {
                 "items": "dried_kelp"
             },
             "on_pass": "event_rebalance:furnace_fuel/2"

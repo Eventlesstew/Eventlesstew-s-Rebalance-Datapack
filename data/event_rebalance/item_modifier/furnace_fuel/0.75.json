@@ -24,6 +24,14 @@
                     ],
                     "italic": false,
                     "color": "#AAAAAA"
+                },
+                {
+                    "translate": "attribute.name.furnace_fuel",
+                    "with": [
+                        "0.75"
+                    ],
+                    "italic": false,
+                    "color": "#AAAAAA"
                 }
             ]
         }

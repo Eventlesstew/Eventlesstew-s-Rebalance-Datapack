@@ -26,12 +26,10 @@
                     "color": "#AAAAAA"
                 },
                 {
-                    "text": "2",
-                    "extra": [
-                        " ",
-                        {
-                            "translate": "attribute.name.brewing_fuel_speed"
-                        }
+                    "translate": "attribute.name.brewing_fuel_speed",
+                    "with": [
+                        "10",
+                        "2"
                     ],
                     "italic": false,
                     "color": "#AAAAAA"

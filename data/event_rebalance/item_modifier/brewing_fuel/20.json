@@ -24,6 +24,14 @@
                     ],
                     "italic": false,
                     "color": "#AAAAAA"
+                },
+                {
+                    "translate": "attribute.name.brewing_fuel",
+                    "with": [
+                        "20"
+                    ],
+                    "italic": false,
+                    "color": "#AAAAAA"
                 }
             ]
         }
