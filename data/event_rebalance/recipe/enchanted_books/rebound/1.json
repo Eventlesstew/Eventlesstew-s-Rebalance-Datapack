@@ -3,7 +3,7 @@
     "group": "enchanting_book_rebound",
     "ingredients": [
         "book",
-        "lapis_lazuli",
+        "#event_rebalance:custom_item/lode",
         "#wool"
     ],
     "result": {

@@ -3,7 +3,7 @@
     "group": "enchanting_book_ricochet",
     "ingredients": [
         "book",
-        "lapis_lazuli",
+        "#event_rebalance:custom_item/lode",
         "slime_block",
         "slime_block",
         "slime_block"

@@ -3,7 +3,7 @@
     "group": "scroll_punch",
     "key": {
         "S":"#event_rebalance:custom_item/scroll/punch",
-        "L":"lapis_lazuli",
+        "L":"#event_rebalance:custom_item/lode",
         "M":"snow_block"
     },
     "pattern": [

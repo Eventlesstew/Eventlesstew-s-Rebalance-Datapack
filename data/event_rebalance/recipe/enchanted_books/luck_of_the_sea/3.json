@@ -3,7 +3,7 @@
     "group": "enchanting_book_luck_of_the_sea",
     "ingredients": [
         "book",
-        "lapis_lazuli",
+        "#event_rebalance:custom_item/lode",
         "nautilus_shell",
         "nautilus_shell",
         "nautilus_shell"

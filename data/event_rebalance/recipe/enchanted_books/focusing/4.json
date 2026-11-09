@@ -3,7 +3,7 @@
     "group": "enchanting_book_focusing",
     "ingredients": [
         "book",
-        "lapis_lazuli",
+        "#event_rebalance:custom_item/lode",
         "stick",
         "stick",
         "stick",

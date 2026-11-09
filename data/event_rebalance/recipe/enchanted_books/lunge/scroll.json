@@ -2,7 +2,7 @@
     "type": "crafting_shaped",
     "key": {
         "S":"#event_rebalance:custom_item/scroll/lunge",
-        "L":"lapis_lazuli",
+        "L":"#event_rebalance:custom_item/lode",
         "M":"pointed_dripstone"
     },
     "pattern": [

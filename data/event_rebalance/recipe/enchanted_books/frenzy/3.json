@@ -3,7 +3,7 @@
     "group": "enchanting_book_frenzy",
     "ingredients": [
         "book",
-        "lapis_lazuli",
+        "#event_rebalance:custom_item/lode",
         "copper_ingot",
         "copper_ingot",
         "copper_ingot"

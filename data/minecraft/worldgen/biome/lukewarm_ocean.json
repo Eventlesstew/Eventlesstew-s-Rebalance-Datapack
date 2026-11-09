@@ -206,7 +206,8 @@
       "minecraft:patch_sugar_cane",
       "minecraft:patch_firefly_bush_near_water",
       "minecraft:seagrass_warm",
-      "minecraft:kelp_warm"
+      "minecraft:kelp_warm",
+      "event_rebalance:sponge"
     ],
     [
       "minecraft:freeze_top_layer"

@@ -3,7 +3,7 @@
     "group": "enchanting_book_piercing",
     "ingredients": [
         "book",
-        "lapis_lazuli",
+        "#event_rebalance:custom_item/lode",
         "#event_rebalance:custom_item/scroll/piercing",
         "#event_rebalance:custom_item/scroll/piercing",
         "#event_rebalance:custom_item/scroll/piercing",

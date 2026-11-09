@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "lapis_lazuli"
+            "items": "#event_rebalance:custom_item/lode"
           }
         ]
       },

@@ -3,7 +3,7 @@
     "group": "enchanting_book_mending",
     "ingredients": [
         "book",
-        "lapis_lazuli",
+        "#event_rebalance:custom_item/lode",
         "lapis_block"
     ],
     "result": {

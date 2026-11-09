@@ -193,7 +193,8 @@
       "minecraft:patch_sugar_cane",
       "minecraft:patch_firefly_bush_near_water",
       "minecraft:seagrass_deep",
-      "minecraft:kelp_cold"
+      "minecraft:kelp_cold",
+      "event_rebalance:sponge"
     ],
     [
       "minecraft:freeze_top_layer"

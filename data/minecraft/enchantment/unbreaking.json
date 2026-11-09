@@ -37,7 +37,6 @@
   "slots": [
     "any"
   ],
-  "primary_items": "#event_rebalance:enchantable/primary/unbreaking",
   "supported_items": "#minecraft:enchantable/durability",
   "exclusive_set": "#event_rebalance:exclusive_set/durability",
   "weight": 5

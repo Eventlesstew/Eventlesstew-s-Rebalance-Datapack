@@ -3,7 +3,7 @@
     "group": "enchanting_book_aerodynamic",
     "ingredients": [
         "book",
-        "lapis_lazuli",
+        "#event_rebalance:custom_item/lode",
         "potent_sulfur",
         "potent_sulfur",
         "potent_sulfur"

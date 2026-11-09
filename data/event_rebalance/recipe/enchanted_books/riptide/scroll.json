@@ -3,7 +3,7 @@
     "group": "scroll_riptide",
     "key": {
         "S":"#event_rebalance:custom_item/scroll/riptide",
-        "L":"lapis_lazuli",
+        "L":"#event_rebalance:custom_item/lode",
         "M":"prismarine_shard"
     },
     "pattern": [

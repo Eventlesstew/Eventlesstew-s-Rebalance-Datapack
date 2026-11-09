@@ -3,7 +3,7 @@
     "group": "enchanting_book_breach",
     "ingredients": [
         "book",
-        "lapis_lazuli",
+        "#event_rebalance:custom_item/lode",
         "#event_rebalance:custom_item/rose_golden_ingot"
     ],
     "result": {

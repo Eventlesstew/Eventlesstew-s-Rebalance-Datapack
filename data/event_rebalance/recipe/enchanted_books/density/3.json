@@ -3,7 +3,7 @@
     "group": "enchanting_book_density",
     "ingredients": [
         "book",
-        "lapis_lazuli",
+        "#event_rebalance:custom_item/lode",
         "polished_tuff",
         "polished_tuff",
         "polished_tuff"

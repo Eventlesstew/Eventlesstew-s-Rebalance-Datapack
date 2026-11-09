@@ -1,0 +1,6 @@
+{
+    "parent": "event:block/portal_box_inventory/base",
+    "textures": {
+        "2":"block/shulker_box/shulker_light_gray"
+    }
+}

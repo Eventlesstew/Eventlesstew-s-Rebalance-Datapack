@@ -3,7 +3,7 @@
     "group": "enchanting_book_respiration",
     "ingredients": [
         "book",
-        "lapis_lazuli",
+        "#event_rebalance:custom_item/lode",
         "#event_rebalance:custom_item/scroll/respiration",
         "#event_rebalance:custom_item/scroll/respiration"
     ],

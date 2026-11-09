@@ -149,6 +149,7 @@
   "slots": [
     "armor"
   ],
+  "primary_items":"#event_rebalance:enchantable/primary/barrier",
   "supported_items": "#event_rebalance:enchantable/any_armor",
   "weight": 10
 }

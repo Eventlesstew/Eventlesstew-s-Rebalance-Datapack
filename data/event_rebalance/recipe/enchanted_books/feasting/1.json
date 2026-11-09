@@ -3,7 +3,7 @@
     "group": "enchanting_book_feasting",
     "ingredients": [
         "book",
-        "lapis_lazuli",
+        "#event_rebalance:custom_item/lode",
         "cooked_beef"
     ],
     "result": {

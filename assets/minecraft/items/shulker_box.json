@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "block/shulker_box_item"
+    "model": "event:block/portal_box_inventory/base"
   }
 }

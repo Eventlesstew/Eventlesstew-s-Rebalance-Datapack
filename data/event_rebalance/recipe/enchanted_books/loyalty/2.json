@@ -3,7 +3,7 @@
     "group": "enchanting_book_loyalty",
     "ingredients": [
         "book",
-        "lapis_lazuli",
+        "#event_rebalance:custom_item/lode",
         "prismarine_crystals",
         "prismarine_crystals"
     ],

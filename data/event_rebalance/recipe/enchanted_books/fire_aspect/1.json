@@ -3,7 +3,7 @@
     "group": "enchanting_book_fire_aspect",
     "ingredients": [
         "book",
-        "lapis_lazuli",
+        "#event_rebalance:custom_item/lode",
         "#event_rebalance:custom_item/scroll/fire_aspect"
     ],
     "result": {

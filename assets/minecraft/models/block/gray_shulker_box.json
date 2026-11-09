@@ -1,6 +1,6 @@
 {
   "textures": {
-    "particle": "minecraft:block/gray_shulker_box"
+    "particle": "minecraft:block/crying_obsidian"
   },
   "parent": "block/shulker_box"
 }

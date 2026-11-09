@@ -3,7 +3,7 @@
     "group": "enchanting_book_frost_walker",
     "ingredients": [
         "book",
-        "lapis_lazuli",
+        "#event_rebalance:custom_item/lode",
         "blue_ice",
         "blue_ice"
     ],

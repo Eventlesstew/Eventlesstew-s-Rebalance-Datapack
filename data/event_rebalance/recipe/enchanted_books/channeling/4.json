@@ -3,7 +3,7 @@
     "group": "enchanting_book_channeling",
     "ingredients": [
         "book",
-        "lapis_lazuli",
+        "#event_rebalance:custom_item/lode",
         "prismarine_shard",
         "prismarine_shard",
         "prismarine_shard",

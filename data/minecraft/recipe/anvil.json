@@ -1,8 +1,8 @@
 {
   "type": "minecraft:crafting_shaped",
   "key": {
-    "I": "minecraft:iron_block",
-    "i": "#event_rebalance:custom_item/lode"
+    "I": "#event_rebalance:custom_item/lode",
+    "i": "iron_ingot"
   },
   "pattern": [
     "III",

@@ -3,7 +3,7 @@
     "group": "enchanting_book_protection",
     "ingredients": [
         "book",
-        "lapis_lazuli",
+        "#event_rebalance:custom_item/lode",
         "iron_ingot"
     ],
     "result": {
