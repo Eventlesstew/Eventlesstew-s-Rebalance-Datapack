@@ -10,8 +10,6 @@
     "on_fail": {
         "type": "sequence",
         "functions": [
-            "event_rebalance:modify_pre",
-            
             "event_rebalance:tiered/axe/wooden",
             "event_rebalance:tiered/axe/stone",
             "event_rebalance:tiered/axe/copper",

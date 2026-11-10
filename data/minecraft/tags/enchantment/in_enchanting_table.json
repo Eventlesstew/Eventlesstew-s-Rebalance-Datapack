@@ -21,6 +21,7 @@
     "event_rebalance:regrow",
     "smite",
     "unbreaking",
+    "event_rebalance:auto_repair",
     "event_rebalance:valor"
   ],
     "replace": true

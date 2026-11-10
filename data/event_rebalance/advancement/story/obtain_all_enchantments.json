@@ -19,6 +19,38 @@
 	},
 	"parent": "event_rebalance:story/obtain_scroll",	
 	"criteria": {
+		"auto_repair": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantments": "event_rebalance:auto_repair"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"auto_repair_book": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"stored_enchantments": [
+								{
+									"enchantments": "event_rebalance:auto_repair"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
 		"protection": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
@@ -2259,6 +2291,10 @@
 		[
 			"efficiency",
 			"efficiency_book"
+		],
+		[
+			"auto_repair",
+			"auto_repair_book"
 		],
 		[
 			"unbreaking",

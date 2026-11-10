@@ -156,9 +156,6 @@ Made the MCSM OST that has been featured in this datapack:
 - 103 Credits (Mob Grinder)
 - 104 Credits (Far Lands)
 
-# Mielon
-- Placeholder Textures for the Sift Advancement Placeholder (Siftslate Growth)
-
 # ChasePixel_
 https://www.planetminecraft.com/texture-pack/enchanting-table-book-on-enchantment-table-item-model/
 

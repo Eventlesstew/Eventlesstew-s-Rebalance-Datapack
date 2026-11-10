@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "minecraft:illusioner": {
+      "trigger": "minecraft:item_durability_changed"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:illusioner"
+    ]
+  ],
+  "rewards": {
+    "function": "event_rebalance:enchantments/auto_repair/trigger"
+  },
+  "sends_telemetry_event": true
+}

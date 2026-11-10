@@ -1,0 +1,11 @@
+{
+    "type": "crafting_shapeless",
+    "category": "building",
+    "ingredients": [
+        "gravel"
+    ],
+    "result": {
+        "id": "flint",
+        "count": 4
+    }
+}

@@ -5,7 +5,7 @@
     }
   },
   "display": {
-    "background": "event:block/siftslate_growth_top",
+    "background": "block/sculk",
     "title": {
       "translate": "advancements.sift.heads_up.title"
     },
@@ -13,10 +13,7 @@
       "translate": "advancements.sift.heads_up.description"
     },
     "icon": {
-        "id": "paper",
-        "components": {
-            "item_model": "event:siftslate_growth"
-        }
+        "id": "reinforced_deepslate"
     },
     "announce_to_chat": false,
     "show_toast": false,

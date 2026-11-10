@@ -1,1 +1,1 @@
-execute as @a[tag=event.proliferation_repair] run tag @s remove event.proliferation_repair
+execute as @a[tag=event.mending_repair] run tag @s remove event.mending_repair

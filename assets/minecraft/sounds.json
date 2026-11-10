@@ -630,5 +630,13 @@
             "item/spear/lunge3"
         ],
         "subtitle": "subtitles.enchant.harpoon"
+    },
+    "enchant.auto_repair":{
+        "sounds":[
+            "event:enchant/auto_repair/1",
+            "event:enchant/auto_repair/2",
+            "event:enchant/auto_repair/3"
+        ],
+        "subtitle": "subtitles.enchant.auto_repair"
     }
 }

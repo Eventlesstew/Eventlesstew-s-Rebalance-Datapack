@@ -4,8 +4,8 @@
     "ingredients": [
         "book",
         "#event_rebalance:custom_item/lode",
-        "lapis_block",
-        "lapis_block"
+        "lapis_lazuli",
+        "lapis_lazuli"
     ],
     "result": {
         "id": "enchanted_book",

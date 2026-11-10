@@ -2,6 +2,23 @@
     "type": "sequence",
     "functions": [
         {
+            "type": "filtered",
+            "item_filter": {
+                "predicates": {
+                    "custom_data": {
+                        "modified":true
+                    }
+                }
+            },
+            "on_fail": [
+                {
+                    "type": "set_lore",
+                    "mode":"replace_all",
+                    "lore": []
+                }
+            ]
+        },
+        {
             "type": "set_custom_data",
             "tag": {
                 "modified":true

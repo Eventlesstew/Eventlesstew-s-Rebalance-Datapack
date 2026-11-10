@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_auto_repair",
+    "ingredients": [
+        "book",
+        "#event_rebalance:custom_item/lode",
+        "redstone_block"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "event_rebalance:auto_repair": 1
+            }
+        }
+    }
+}

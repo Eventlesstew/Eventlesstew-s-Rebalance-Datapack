@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_mending",
+    "ingredients": [
+        "book",
+        "#event_rebalance:custom_item/lode",
+        "lapis_lazuli",
+        "lapis_lazuli",
+        "lapis_lazuli"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "mending": 2
+            }
+        }
+    }
+}

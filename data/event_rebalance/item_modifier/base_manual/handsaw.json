@@ -1,0 +1,18 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "#event_rebalance:custom_item/handsaw"
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "set_components",
+                "components": {
+                    "block_transformer": "event_rebalance:handsaw"
+                }
+            }
+        ]
+    }
+}

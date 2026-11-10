@@ -2096,7 +2096,7 @@
         "food":8,
         "saturation":2,
         "always_edible":true,
-        "eat_sound":"chorus",
+        "eat_sound":"chorus_fruit",
         "effects":[
             {
                 "effect_type":"teleport_randomly"
@@ -2110,7 +2110,7 @@
         "food":8,
         "saturation":4,
         "always_edible":true,
-        "eat_sound":"chorus",
+        "eat_sound":"chorus_fruit",
         "effects":[
             {
                 "effect_type":"teleport_forward"
@@ -2209,6 +2209,7 @@
     },
     "mushroom_stew":{
         "item_class":"food",
+        "is_drink":true,
         "food":15,
         "saturation":15,
         "eat_speed":0,
@@ -2226,10 +2227,12 @@
     },
     "suspicious_stew":{
         "item_class":"food",
+        "is_drink":true,
         "food":15,
         "saturation":15,
         "eat_speed":0,
         "eat_sound":"soup",
+        "always_edible":true,
         "effects":[
             {
                 "effect_type":"unknown_effect"
@@ -2250,6 +2253,7 @@
     },
     "beetroot_soup":{
         "item_class":"food",
+        "is_drink":true,
         "food":7,
         "saturation":7,
         "healing":7,
@@ -2261,6 +2265,7 @@
     "fungal_soup":{
         "item_class":"food",
         "item_type":"custom_item_model",
+        "is_drink":true,
         "food":16,
         "saturation":16,
         "eat_speed":0.1,

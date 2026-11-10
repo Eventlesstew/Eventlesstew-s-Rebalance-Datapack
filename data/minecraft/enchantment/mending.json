@@ -26,12 +26,25 @@
           }
         },
         "effect": {
-          "type": "change_item_damage",
-          "amount": {
-            "type": "linear",
-            "base": -3,
-            "per_level_above_first": -1
-          }
+          "type": "all_of",
+          "effects": [
+            {
+              "type": "change_item_damage",
+              "amount": {
+                "type": "linear",
+                "base": -3,
+                "per_level_above_first": -1
+              }
+            },
+            {
+              "type": "play_sound",
+              "sound": {
+                "sound_id": "enchant.mending"
+              },
+              "pitch": 1.0,
+              "volume": 1.0
+            }
+          ]
         }
       }
     ]
