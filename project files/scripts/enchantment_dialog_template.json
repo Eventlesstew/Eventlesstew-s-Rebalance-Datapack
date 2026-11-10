@@ -1,0 +1,47 @@
+{
+    "type": "multi_action",
+    "title": {
+        "translate": "dialog.description.title"
+    },
+    "external_title": {
+        "translate": "enchantment.event.acceleration"
+    },
+    "body": [
+        {
+            "type": "item",
+            "item": {
+                "id": "enchanted_book",
+                "components": {
+                    "stored_enchantments": {
+                        "event_rebalance:acceleration": 1
+                    }
+                }
+            },
+            "description": {
+                "translate": "enchantment.event.acceleration"
+            },
+            "width": 24
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "dialog.description.acceleration.1"
+            },
+            "width": 400
+        }
+    ],
+    "actions": [
+    ],
+    "columns": 1,
+    "pause": false,
+    "can_close_with_escape": true,
+    "exit_action": {
+        "action": {
+            "type": "show_dialog",
+            "dialog": "event_rebalance:enchantments"
+        },
+        "label": {
+            "translate": "gui.back"
+        }
+    }
+}

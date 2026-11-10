@@ -1,6 +1,16 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "lapis_lazuli"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_lapis": {
       "conditions": {
         "items": [
@@ -14,13 +24,17 @@
   },
   "requirements": [
     [
+      "has_item"
+    ],
+    [
         "has_lapis"
     ]
   ],
   "rewards": {
     "recipes": [
         "event_rebalance:enchanted_books/mending/1",
-        "event_rebalance:enchanted_books/mending/2"
+        "event_rebalance:enchanted_books/mending/2",
+        "event_rebalance:enchanted_books/mending/3"
     ]
   }
 }

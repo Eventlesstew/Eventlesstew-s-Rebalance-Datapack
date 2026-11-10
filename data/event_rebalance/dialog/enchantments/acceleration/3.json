@@ -1,0 +1,75 @@
+{
+    "type": "multi_action",
+    "title": {
+        "translate": "dialog.description.title"
+    },
+    "external_title": {
+        "translate": "enchantment.event.acceleration",
+        "extra": [
+            " ",
+            {
+                "translate": "enchantment.level.3"
+            }
+        ]
+    },
+    "body": [
+        {
+            "type": "item",
+            "item": {
+                "id": "enchanted_book",
+                "components": {
+                    "stored_enchantments": {
+                        "event_rebalance:acceleration": 3
+                    }
+                }
+            },
+            "description": {
+                "translate": "enchantment.event.acceleration",
+                "extra": [
+                    " ",
+                    {
+                        "translate": "enchantment.level.3"
+                    }
+                ]
+            },
+            "width": 24
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "dialog.enchant.acceleration.description.3"
+            },
+            "width": 400
+        }
+    ],
+    "actions": [
+        {
+            "label": {
+                "translate": "dialog.enchantment.level",
+                "extra": [
+                    " ",
+                    {
+                        "translate": "enchantment.level.2"
+                    }
+                ]
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "event_rebalance:enchantments/acceleration/2"
+            },
+            "width": 64
+        }
+    ],
+    "columns": 1,
+    "pause": false,
+    "can_close_with_escape": true,
+    "exit_action": {
+        "action": {
+            "type": "show_dialog",
+            "dialog": "event_rebalance:enchantments"
+        },
+        "label": {
+            "translate": "gui.back"
+        }
+    }
+}

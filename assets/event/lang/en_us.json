@@ -288,6 +288,13 @@
     "item.event.compass.facing.w": "W",
     "item.event.compass.facing.nw": "NW",
     
+    "dialog.enchantment.title":"Enchantments",
+    "dialog.enchantment.external_title": "View Enchantments",
+    "dialog.enchantment.level": "Level",
+    
+    "enchantment.event.acceleration": "Acceleration",
+    "dialog.enchant.acceleration.description.1":"",
+
     "enchantment.event.bookworm_bait": "Bookworm Bait",
     "enchantment.event.live_catch": "Live Catch",
     "enchantment.event.hot_rod": "Hot Rod",
@@ -317,7 +324,6 @@
     "enchantment.event.barrier": "Barrier",
     "enchantment.event.bulwark": "Bulwark",
     "enchantment.event.aerodynamic": "Aerodynamic",
-    "enchantment.event.acceleration": "Acceleration",
     "enchantment.event.conserve": "Conserve",
     "enchantment.event.crystallization": "Crystallization",
     "enchantment.event.auto_repair": "Auto-Repair",

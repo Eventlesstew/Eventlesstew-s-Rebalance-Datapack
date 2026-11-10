@@ -421,7 +421,7 @@
             },
             {
                 "when": {
-                    "event_rebalance:auto-repair": 1
+                    "event_rebalance:auto_repair": 1
                 },
                 "model": {
                     "type": "composite",

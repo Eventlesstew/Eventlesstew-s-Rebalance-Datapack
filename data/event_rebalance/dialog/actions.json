@@ -12,6 +12,20 @@
                 "type": "run_command",
                 "command": "trigger event.reset_items add 1"
             }
+        },
+        {
+            "label": {
+                "translate": "dialog.enchantment.external_title"
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "event_rebalance:enchantments"
+            }
         }
-    ]
+    ],
+    "exit_action": {
+        "label": {
+            "translate": "gui.back"
+        }
+    }
 }
