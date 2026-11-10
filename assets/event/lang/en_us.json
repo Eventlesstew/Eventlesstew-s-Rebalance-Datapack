@@ -433,7 +433,7 @@
 
     "attribute.name.furnace_fuel":"%s Cooking Fuel",
     "attribute.name.furnace_fuel_speed":"%s Cooking Fuel (X%s Speed)",
-    "attribute.name.brewing_fuel":"Brewing Fuel",
+    "attribute.name.brewing_fuel":"%s Brewing Fuel",
     "attribute.name.brewing_fuel_speed":"%s Brewing Fuel (X%s Speed)",
     "attribute.name.compostable":"Compost",
 
