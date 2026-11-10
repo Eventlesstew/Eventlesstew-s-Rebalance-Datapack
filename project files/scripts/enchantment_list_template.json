@@ -1,0 +1,22 @@
+{
+    "type": "dialog_list",
+    "title": {
+        "translate": "dialog.enchantment.title"
+    },
+    "external_title": {
+        "translate": "dialog.enchantment.external_title"
+    },
+    "dialogs": [
+    ],
+    "pause": false,
+    "can_close_with_escape": true,
+    "exit_action": {
+        "action": {
+            "type": "show_dialog",
+            "dialog": "event_rebalance:actions"
+        },
+        "label": {
+            "translate": "gui.back"
+        }
+    }
+}

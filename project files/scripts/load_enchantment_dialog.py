@@ -5,11 +5,15 @@ import copy
 
 enchant_dialog_path = "data/event_rebalance/dialog/enchantments"
 dialog_template_path = "project files/scripts/enchantment_dialog_template.json"
+list_template_path = "project files/scripts/enchantment_list_template.json"
 enchant_list = os.listdir(enchant_dialog_path)
 
 dialog_template = {}
+list_template = {}
 with open(dialog_template_path, "r") as f:
     dialog_template = json.loads(f.read())
+with open(list_template_path, "r") as f:
+    list_template = json.loads(f.read())
 print(enchant_list)
 
 
@@ -43,6 +47,8 @@ for enchant in enchant_list:
     translation_key = {"translate": data_file["description"]["translate"]}
     enchant_dialog["external_title"] = translation_key
     enchant_dialog["body"][0]["description"] = translation_key
+
+    list_template["dialogs"].append("event_rebalance:enchantments/" + enchant + "/1")
 
     for i in range(0, data_file["max_level"]):
         i += 1
@@ -118,3 +124,6 @@ for enchant in enchant_list:
             enchant_dialog_path + "/" + enchant + "/" + str(i) + ".json", "w"
         ) as f:
             f.write(json.dumps(enchant_dialog, indent=4))
+
+with open(enchant_dialog_path + ".json", "w") as f:
+    f.write(json.dumps(list_template, indent=4))

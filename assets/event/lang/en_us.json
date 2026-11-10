@@ -291,9 +291,11 @@
     "dialog.enchantment.title":"Enchantments",
     "dialog.enchantment.external_title": "View Enchantments",
     "dialog.enchantment.level": "Level",
-    
+
     "enchantment.event.acceleration": "Acceleration",
-    "dialog.enchant.acceleration.description.1":"",
+    "dialog.enchant.acceleration.description.1":"§e+2%%§r Speed per second during continuous sprinting. §c+25%%§r Hunger Loss during Sprinting",
+    "dialog.enchant.acceleration.description.2":"§e+4%%§r Speed per second during continuous sprinting. §c+50%%§r Hunger Loss during Sprinting",
+    "dialog.enchant.acceleration.description.3":"§e+6%%§r Speed per second during continuous sprinting. §c+75%%§r Hunger Loss during Sprinting",
 
     "enchantment.event.bookworm_bait": "Bookworm Bait",
     "enchantment.event.live_catch": "Live Catch",
