@@ -27,10 +27,20 @@
             "contents": {
                 "translate": "dialog.enchant.binding_curse.description.1"
             },
-            "width": 400
+            "width": 300
         }
     ],
     "actions": [
+        {
+            "label": {
+                "translate": "enchantment.minecraft.infinity"
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "event_rebalance:enchantments/infinity/1"
+            },
+            "width": 100
+        },
         {
             "label": {
                 "translate": "dialog.enchantment.level.none"
@@ -39,10 +49,20 @@
                 "type": "show_dialog",
                 "dialog": "event_rebalance:enchantments/binding_curse/1"
             },
-            "width": 64
+            "width": 100
+        },
+        {
+            "label": {
+                "translate": "enchantment.minecraft.vanishing_curse"
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "event_rebalance:enchantments/vanishing_curse/1"
+            },
+            "width": 100
         }
     ],
-    "columns": 1,
+    "columns": 3,
     "pause": false,
     "can_close_with_escape": true,
     "exit_action": {

@@ -37,12 +37,75 @@
         {
             "type": "minecraft:plain_message",
             "contents": {
-                "translate": "dialog.enchant.breach.description.5"
+                "translate": "dialog.enchant.breach.description.main"
             },
-            "width": 400
+            "width": 300
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "dialog.enchant.breach.description.5.a"
+            },
+            "width": 300
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "dialog.enchant.breach.description.5.b"
+            },
+            "width": 300
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "dialog.enchant.breach.description.5.c"
+            },
+            "width": 300
         }
     ],
     "actions": [
+        {
+            "label": {
+                "translate": "enchantment.event.combo",
+                "extra": [
+                    " ",
+                    {
+                        "translate": "enchantment.level.5"
+                    }
+                ]
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "event_rebalance:enchantments/combo/5"
+            },
+            "width": 100
+        },
+        {
+            "label": {
+                "translate": "dialog.enchantment.level.max"
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "event_rebalance:enchantments/breach/5"
+            },
+            "width": 100
+        },
+        {
+            "label": {
+                "translate": "enchantment.event.brutality",
+                "extra": [
+                    " ",
+                    {
+                        "translate": "enchantment.level.5"
+                    }
+                ]
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "event_rebalance:enchantments/brutality/5"
+            },
+            "width": 100
+        },
         {
             "label": {
                 "translate": "dialog.enchantment.level",
@@ -57,10 +120,10 @@
                 "type": "show_dialog",
                 "dialog": "event_rebalance:enchantments/breach/4"
             },
-            "width": 64
+            "width": 100
         }
     ],
-    "columns": 1,
+    "columns": 3,
     "pause": false,
     "can_close_with_escape": true,
     "exit_action": {

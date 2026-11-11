@@ -39,10 +39,52 @@
             "contents": {
                 "translate": "dialog.enchant.lure.description.3"
             },
-            "width": 400
+            "width": 300
         }
     ],
     "actions": [
+        {
+            "label": {
+                "translate": "enchantment.minecraft.soul_speed",
+                "extra": [
+                    " ",
+                    {
+                        "translate": "enchantment.level.3"
+                    }
+                ]
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "event_rebalance:enchantments/soul_speed/3"
+            },
+            "width": 100
+        },
+        {
+            "label": {
+                "translate": "dialog.enchantment.level.max"
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "event_rebalance:enchantments/lure/3"
+            },
+            "width": 100
+        },
+        {
+            "label": {
+                "translate": "enchantment.minecraft.luck_of_the_sea",
+                "extra": [
+                    " ",
+                    {
+                        "translate": "enchantment.level.3"
+                    }
+                ]
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "event_rebalance:enchantments/luck_of_the_sea/3"
+            },
+            "width": 100
+        },
         {
             "label": {
                 "translate": "dialog.enchantment.level",
@@ -57,10 +99,10 @@
                 "type": "show_dialog",
                 "dialog": "event_rebalance:enchantments/lure/2"
             },
-            "width": 64
+            "width": 100
         }
     ],
-    "columns": 1,
+    "columns": 3,
     "pause": false,
     "can_close_with_escape": true,
     "exit_action": {

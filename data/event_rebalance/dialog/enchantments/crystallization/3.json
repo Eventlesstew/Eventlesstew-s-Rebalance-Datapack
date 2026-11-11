@@ -39,10 +39,40 @@
             "contents": {
                 "translate": "dialog.enchant.crystallization.description.3"
             },
-            "width": 400
+            "width": 300
         }
     ],
     "actions": [
+        {
+            "label": {
+                "translate": "enchantment.event.auto_repair"
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "event_rebalance:enchantments/auto_repair/1"
+            },
+            "width": 100
+        },
+        {
+            "label": {
+                "translate": "dialog.enchantment.level.max"
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "event_rebalance:enchantments/crystallization/3"
+            },
+            "width": 100
+        },
+        {
+            "label": {
+                "translate": "enchantment.event.eternity"
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "event_rebalance:enchantments/eternity/1"
+            },
+            "width": 100
+        },
         {
             "label": {
                 "translate": "dialog.enchantment.level",
@@ -57,10 +87,10 @@
                 "type": "show_dialog",
                 "dialog": "event_rebalance:enchantments/crystallization/2"
             },
-            "width": 64
+            "width": 100
         }
     ],
-    "columns": 1,
+    "columns": 3,
     "pause": false,
     "can_close_with_escape": true,
     "exit_action": {

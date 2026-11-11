@@ -39,10 +39,26 @@
             "contents": {
                 "translate": "dialog.enchant.puncture.description.2"
             },
-            "width": 400
+            "width": 300
         }
     ],
     "actions": [
+        {
+            "label": {
+                "translate": "enchantment.event.valor",
+                "extra": [
+                    " ",
+                    {
+                        "translate": "enchantment.level.2"
+                    }
+                ]
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "event_rebalance:enchantments/valor/2"
+            },
+            "width": 100
+        },
         {
             "label": {
                 "translate": "dialog.enchantment.level",
@@ -57,7 +73,23 @@
                 "type": "show_dialog",
                 "dialog": "event_rebalance:enchantments/puncture/3"
             },
-            "width": 64
+            "width": 100
+        },
+        {
+            "label": {
+                "translate": "enchantment.event.combo",
+                "extra": [
+                    " ",
+                    {
+                        "translate": "enchantment.level.2"
+                    }
+                ]
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "event_rebalance:enchantments/combo/2"
+            },
+            "width": 100
         },
         {
             "label": {
@@ -73,10 +105,10 @@
                 "type": "show_dialog",
                 "dialog": "event_rebalance:enchantments/puncture/1"
             },
-            "width": 64
+            "width": 100
         }
     ],
-    "columns": 1,
+    "columns": 3,
     "pause": false,
     "can_close_with_escape": true,
     "exit_action": {

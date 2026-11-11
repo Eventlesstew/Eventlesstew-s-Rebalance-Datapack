@@ -39,10 +39,52 @@
             "contents": {
                 "translate": "dialog.enchant.launching.description.3"
             },
-            "width": 400
+            "width": 300
         }
     ],
     "actions": [
+        {
+            "label": {
+                "translate": "enchantment.minecraft.knockback",
+                "extra": [
+                    " ",
+                    {
+                        "translate": "enchantment.level.2"
+                    }
+                ]
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "event_rebalance:enchantments/knockback/2"
+            },
+            "width": 100
+        },
+        {
+            "label": {
+                "translate": "dialog.enchantment.level.max"
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "event_rebalance:enchantments/launching/3"
+            },
+            "width": 100
+        },
+        {
+            "label": {
+                "translate": "enchantment.minecraft.punch",
+                "extra": [
+                    " ",
+                    {
+                        "translate": "enchantment.level.3"
+                    }
+                ]
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "event_rebalance:enchantments/punch/3"
+            },
+            "width": 100
+        },
         {
             "label": {
                 "translate": "dialog.enchantment.level",
@@ -57,10 +99,10 @@
                 "type": "show_dialog",
                 "dialog": "event_rebalance:enchantments/launching/2"
             },
-            "width": 64
+            "width": 100
         }
     ],
-    "columns": 1,
+    "columns": 3,
     "pause": false,
     "can_close_with_escape": true,
     "exit_action": {

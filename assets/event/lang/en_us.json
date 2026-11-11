@@ -330,7 +330,7 @@
     "enchantment.event.bookworm_bait": "Bookworm Bait",
     "dialog.enchant.bookworm_bait.description.1": "Can only catch §eBooks§r or §eEnchanted Books§r",
 
-    "dialog.enchant.breach.description.title": "Damage §cincreases§r based on horizontal speed",
+    "dialog.enchant.breach.description.main": "Damage §cincreases§r based on horizontal speed",
     "dialog.enchant.breach.description.1.a": "§e+0.5§r damage within 5-7 Blocks",
     "dialog.enchant.breach.description.2.a": "§e+1§r damage within 5-7 Blocks",
     "dialog.enchant.breach.description.3.a": "§e+1.5§r damage within 5-7 Blocks",
@@ -439,9 +439,9 @@
     "dialog.enchant.focusing.description.4": "§e+40§r Mining Speed and §e+4§r Block Range when standing still",
     "dialog.enchant.focusing.description.5": "§e+50§r Mining Speed and §e+5§r Block Range when standing still",
 
-    "dialog.enchant.fortune.description.1": "Gives §eslightly increased§r Loot from Mining Ores, killing Mobs or Fishing",
-    "dialog.enchant.fortune.description.2": "Gives §increased§r Loot from Mining Ores, killing Mobs or Fishing",
-    "dialog.enchant.fortune.description.3": "Gives §egreatly increased§r loot from Mining Ores, killing Mobs or Fishing",
+    "dialog.enchant.fortune.description.1": "Gives §eSlightly Increased§r Loot from Mining Ores, Killing Mobs or Fishing",
+    "dialog.enchant.fortune.description.2": "Gives §eIncreased§r Loot from Mining Ores, Killing Mobs or Fishing",
+    "dialog.enchant.fortune.description.3": "Gives §eGreatly increased§r loot from Mining Ores, Killing Mobs or Fishing",
 
     "enchantment.event.fowling": "Fowling",
     "dialog.enchant.fowling.description.1": "§e+2§r Damage to targets in midair",

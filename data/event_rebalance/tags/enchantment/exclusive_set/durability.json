@@ -5,6 +5,7 @@
         "mending",
         "event_rebalance:eternity",
         "event_rebalance:conserve",
-        "event_rebalance:crystallization"
+        "event_rebalance:crystallization",
+        "event_rebalance:auto_repair"
     ]
 }

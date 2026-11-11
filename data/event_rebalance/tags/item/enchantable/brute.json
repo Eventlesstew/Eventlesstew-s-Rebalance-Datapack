@@ -2,7 +2,6 @@
     "values": [
         "#axes",
         "#minecraft:hammers",
-        "#event_rebalance:custom_item/staff",
         "mace"
     ]
 }

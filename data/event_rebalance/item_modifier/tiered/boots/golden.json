@@ -79,6 +79,16 @@
                                 "translate": "attribute.name.movement_speed"
                             }
                         ]
+                    },
+                    {
+                        "translate": "0.8x ",
+                        "italic": false,
+                        "color": "#1aa819",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.stealth"
+                            }
+                        ]
                     }
                 ]
             }

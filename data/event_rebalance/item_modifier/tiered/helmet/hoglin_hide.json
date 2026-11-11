@@ -60,6 +60,16 @@
                                 "translate": "attribute.name.armor"
                             }
                         ]
+                    },
+                    {
+                        "translate": "1.2x ",
+                        "italic": false,
+                        "color": "#1aa819",
+                        "extra": [
+                            {
+                                "translate": "attribute.name.stealth"
+                            }
+                        ]
                     }
                 ]
             }

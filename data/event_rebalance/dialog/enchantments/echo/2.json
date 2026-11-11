@@ -39,10 +39,46 @@
             "contents": {
                 "translate": "dialog.enchant.echo.description.2"
             },
-            "width": 400
+            "width": 300
         }
     ],
     "actions": [
+        {
+            "label": {
+                "translate": "enchantment.event.crackle",
+                "extra": [
+                    " ",
+                    {
+                        "translate": "enchantment.level.2"
+                    }
+                ]
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "event_rebalance:enchantments/crackle/2"
+            },
+            "width": 100
+        },
+        {
+            "label": {
+                "translate": "dialog.enchantment.level.max"
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "event_rebalance:enchantments/echo/2"
+            },
+            "width": 100
+        },
+        {
+            "label": {
+                "translate": "enchantment.minecraft.multishot"
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "event_rebalance:enchantments/multishot/1"
+            },
+            "width": 100
+        },
         {
             "label": {
                 "translate": "dialog.enchantment.level",
@@ -57,10 +93,10 @@
                 "type": "show_dialog",
                 "dialog": "event_rebalance:enchantments/echo/1"
             },
-            "width": 64
+            "width": 100
         }
     ],
-    "columns": 1,
+    "columns": 3,
     "pause": false,
     "can_close_with_escape": true,
     "exit_action": {

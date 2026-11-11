@@ -471,6 +471,11 @@ class item:
             movement_speed = str(movement_speed) + "%"
             add_lore(movement_speed, "movement_speed")
 
+        stealth = get_item_value(self.item_id, "stealth", tier)
+        if stealth:
+            stealth = str(stealth) + "x"
+            add_lore(stealth, "stealth")
+
         burn_time = get_item_value(self.item_id, "burn_time", tier)
         if burn_time:
             burn_time = str(int(burn_time * 100)) + "%"

@@ -9,6 +9,7 @@
         "iron_trapdoor",
         "lodestone",
         "ancient_debris",
-        "netherite_block"
+        "netherite_block",
+        "#event_rebalance:custom_block/magnium_block"
     ]
 }

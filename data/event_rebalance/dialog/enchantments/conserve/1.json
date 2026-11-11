@@ -39,10 +39,20 @@
             "contents": {
                 "translate": "dialog.enchant.conserve.description.1"
             },
-            "width": 400
+            "width": 300
         }
     ],
     "actions": [
+        {
+            "label": {
+                "translate": "enchantment.event.eternity"
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "event_rebalance:enchantments/eternity/1"
+            },
+            "width": 100
+        },
         {
             "label": {
                 "translate": "dialog.enchantment.level",
@@ -57,10 +67,30 @@
                 "type": "show_dialog",
                 "dialog": "event_rebalance:enchantments/conserve/2"
             },
-            "width": 64
+            "width": 100
+        },
+        {
+            "label": {
+                "translate": "enchantment.minecraft.infinity"
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "event_rebalance:enchantments/infinity/1"
+            },
+            "width": 100
+        },
+        {
+            "label": {
+                "translate": "dialog.enchantment.level.min"
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "event_rebalance:enchantments/conserve/1"
+            },
+            "width": 100
         }
     ],
-    "columns": 1,
+    "columns": 3,
     "pause": false,
     "can_close_with_escape": true,
     "exit_action": {

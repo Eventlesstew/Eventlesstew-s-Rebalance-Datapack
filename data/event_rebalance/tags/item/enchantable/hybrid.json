@@ -1,7 +1,6 @@
 {
     "values": [
         "#spears",
-        "trident",
-        "#event_rebalance:custom_item/staff"
+        "trident"
     ]
 }
