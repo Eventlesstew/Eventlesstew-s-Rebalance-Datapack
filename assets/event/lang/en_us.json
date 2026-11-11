@@ -137,7 +137,7 @@
     "item.minecraft.snort_pottery_sherd": "Hoglin Hide Horse Armor",
     "item.event.magnet": "Magnet",
 
-    "item.minecraft.vex_spawn_egg": "Iron-Lapis Alloy",
+    "item.minecraft.vex_spawn_egg": "Magnium Ingot",
     "item.minecraft.silverfish_spawn_egg": "Disc Fragment",
     "item.event.disc_fragment_13.lore": "Music Disc - 13",
     "item.minecraft.magma_cube_spawn_egg": "Disc Fragment",
@@ -291,37 +291,40 @@
     "dialog.enchantment.title":"Enchantments",
     "dialog.enchantment.external_title": "View Enchantments",
     "dialog.enchantment.level": "Level",
+    "dialog.enchantment.level.max": "Max Level",
+    "dialog.enchantment.level.min": "Minimum Level",
+    "dialog.enchantment.level.none": "No Levels",
     "dialog.enchant.full_armor": "On Full Armor or Animal Armor:",
 
     "enchantment.event.acceleration": "Acceleration",
-    "dialog.enchant.acceleration.description.1":"§e+2%%§r Speed per second during continuous sprinting. §c+25%%§r Hunger Loss during Sprinting",
-    "dialog.enchant.acceleration.description.2":"§e+4%%§r Speed per second during continuous sprinting. §c+50%%§r Hunger Loss during Sprinting",
-    "dialog.enchant.acceleration.description.3":"§e+6%%§r Speed per second during continuous sprinting. §c+75%%§r Hunger Loss during Sprinting",
+    "dialog.enchant.acceleration.description.1":"§e+2%§r Speed per second during continuous sprinting. §c+25%§r Hunger Loss during Sprinting",
+    "dialog.enchant.acceleration.description.2":"§e+4%§r Speed per second during continuous sprinting. §c+50%§r Hunger Loss during Sprinting",
+    "dialog.enchant.acceleration.description.3":"§e+6%§r Speed per second during continuous sprinting. §c+75%§r Hunger Loss during Sprinting",
 
     "enchantment.event.aerodynamic": "Aerodynamic",
-    "dialog.enchant.aerodynamic.description.1": "§e-40%%§r Knockback Resistance",
-    "dialog.enchant.aerodynamic.description.2": "§e-60%%§r Knockback Resistance",
-    "dialog.enchant.aerodynamic.description.3": "§e-80%%§r Knockback Resistance",
-    "dialog.enchant.aerodynamic.description.4": "§e-100%%§r Knockback Resistance",
+    "dialog.enchant.aerodynamic.description.1": "§e-40%§r Knockback Resistance",
+    "dialog.enchant.aerodynamic.description.2": "§e-60%§r Knockback Resistance",
+    "dialog.enchant.aerodynamic.description.3": "§e-80%§r Knockback Resistance",
+    "dialog.enchant.aerodynamic.description.4": "§e-100%§r Knockback Resistance",
 
-    "dialog.enchant.aqua_affinity.description.1": "§eRemoves§r Mining penalty in Water",
+    "dialog.enchant.aqua_affinity.description.1": "§eNo speed penalty§r when Mining in Water",
 
     "enchantment.event.auto_repair": "Auto-Repair",
-    "dialog.enchant.auto_repair.description.1": "When used under 10 Durability, uses 1 Iron-Lapis Alloy to restore §e25%%§r Durability",
+    "dialog.enchant.auto_repair.description.1": "When used under 10 Durability, uses 1 Magnium Ingot to restore §e25%§r Durability",
 
     "enchantment.event.avarice_curse": "Curse of Avarice",
-    "dialog.enchant.avarice_curse.description.1": "Arrows deal §cno Damage§r unless Spectral",
+    "dialog.enchant.avarice_curse.description.1": "Arrows deal §cNo Damage§r unless Spectral",
 
     "enchantment.event.barrier": "Barrier",
-    "dialog.enchant.barrier.description.1": "§e+7.5%%§r Damage Reduction against Fire, Lightning, Explosions and Magic",
-    "dialog.enchant.barrier.description.2": "§e+11.25%%§r Damage Reduction against Fire, Lightning, Explosions and Magic",
-    "dialog.enchant.barrier.description.3": "§e+15%%§r Damage Reduction against Fire, Lightning, Explosions and Magic",
-    "dialog.enchant.barrier.description.4": "§e+18.75%%§r Damage Reduction against Fire, Lightning, Explosions and Magic",
+    "dialog.enchant.barrier.description.1": "§e+7.5%§r Damage Reduction against Fire, Lightning, Explosions and Magic",
+    "dialog.enchant.barrier.description.2": "§e+11.25%§r Damage Reduction against Fire, Lightning, Explosions and Magic",
+    "dialog.enchant.barrier.description.3": "§e+15%§r Damage Reduction against Fire, Lightning, Explosions and Magic",
+    "dialog.enchant.barrier.description.4": "§e+18.75%§r Damage Reduction against Fire, Lightning, Explosions and Magic",
 
-    "dialog.enchant.barrier.description.full.1": "§e+30%%§r Damage Reduction against Fire, Lightning, Explosions and Magic",
-    "dialog.enchant.barrier.description.full.2": "§e+45%%§r Damage Reduction against Fire, Lightning, Explosions and Magic",
-    "dialog.enchant.barrier.description.full.3": "§e+60%%§r Damage Reduction against Fire, Lightning, Explosions and Magic",
-    "dialog.enchant.barrier.description.full.4": "§e+75%%§r Damage Reduction against Fire, Lightning, Explosions and Magic",
+    "dialog.enchant.barrier.description.full.1": "§e+30%§r Damage Reduction against Fire, Lightning, Explosions and Magic",
+    "dialog.enchant.barrier.description.full.2": "§e+45%§r Damage Reduction against Fire, Lightning, Explosions and Magic",
+    "dialog.enchant.barrier.description.full.3": "§e+60%§r Damage Reduction against Fire, Lightning, Explosions and Magic",
+    "dialog.enchant.barrier.description.full.4": "§e+75%§r Damage Reduction against Fire, Lightning, Explosions and Magic",
 
     "dialog.enchant.binding_curse.description.1": "§cCannot§r be unequipped when worn",
 
@@ -355,10 +358,10 @@
     "dialog.enchant.brutality.description.5": "§e+12§r Damage, but attacking inflicts §c+3§r magic self-damage",
 
     "enchantment.event.bulwark": "Bulwark",
-    "dialog.enchant.bulwark.description.1": "§e+40%%§r Knockback Resistance",
-    "dialog.enchant.bulwark.description.2": "§e+60%%§r Knockback Resistance",
-    "dialog.enchant.bulwark.description.3": "§e+80%%§r Knockback Resistance",
-    "dialog.enchant.bulwark.description.4": "§e+100%%§r Knockback Resistance",
+    "dialog.enchant.bulwark.description.1": "§e+40%§r Knockback Resistance",
+    "dialog.enchant.bulwark.description.2": "§e+60%§r Knockback Resistance",
+    "dialog.enchant.bulwark.description.3": "§e+80%§r Knockback Resistance",
+    "dialog.enchant.bulwark.description.4": "§e+100%§r Knockback Resistance",
 
     "dialog.enchant.channeling.description.1": "Thrown tridents deal §e+2§r Damage to mobs in water within 10 blocks. Summons §eLightning§r if it hits a mob or Lightning Rod in rain",
     "dialog.enchant.channeling.description.2": "Thrown tridents deal §e+3.5§r Damage to mobs in water within 10 blocks. Summons §eLightning§r if it hits a mob or Lightning Rod in rain",
@@ -374,9 +377,9 @@
     "dialog.enchant.combo.description.5": "§e+3§r Damage for each hit dealt within 1.5 seconds. Max §e+12§r Damage",
 
     "enchantment.event.conserve": "Conserve",
-    "dialog.enchant.conserve.description.1": "§e25%%§r chance to not consume Arrows or Tipped Arrows",
-    "dialog.enchant.conserve.description.2": "§e50%%§r chance to not consume Arrows or Tipped Arrows",
-    "dialog.enchant.conserve.description.3": "§e75%%§r chance to not consume Arrows or Tipped Arrows",
+    "dialog.enchant.conserve.description.1": "§e25%§r chance to not consume Arrows or Tipped Arrows",
+    "dialog.enchant.conserve.description.2": "§e50%§r chance to not consume Arrows or Tipped Arrows",
+    "dialog.enchant.conserve.description.3": "§e75%§r chance to not consume Arrows or Tipped Arrows",
 
     "enchantment.event.crackle": "Crackle",
     "dialog.enchant.crackle.description.1": "Critical Hits inflict §eSlowness II§r for 2 seconds",
@@ -394,9 +397,9 @@
     "dialog.enchant.density.description.4": "§e+1.25§r Damage per block of fall distance",
     "dialog.enchant.density.description.5": "§e+1.5§r Damage per block of fall distance",
     
-    "dialog.enchant.depth_strider.description.1": "§e+33%%§r Movement Speed in water",
-    "dialog.enchant.depth_strider.description.2": "§e+66%%§r Movement Speed in water",
-    "dialog.enchant.depth_strider.description.3": "§e+100%%§r Movement Speed in water",
+    "dialog.enchant.depth_strider.description.1": "§e+33%§r Movement Speed in water",
+    "dialog.enchant.depth_strider.description.2": "§e+66%§r Movement Speed in water",
+    "dialog.enchant.depth_strider.description.3": "§e+100%§r Movement Speed in water",
 
     "enchantment.event.echo": "Echo",
     "dialog.enchant.echo.description.1": "Bow shoots §e2§r Arrows successively",
@@ -416,10 +419,10 @@
     "dialog.enchant.feasting.description.2": "Critical Hits give you §e2§r Food and §e4§r Saturation",
     "dialog.enchant.feasting.description.3": "Critical Hits give you §e3§r Food and §e6§r Saturation",
 
-    "dialog.enchant.feather_falling.description.1": "§e-12%%§r Fall Damage",
-    "dialog.enchant.feather_falling.description.2": "§e-24%%§r Fall Damage",
-    "dialog.enchant.feather_falling.description.3": "§e-36%%§r Fall Damage",
-    "dialog.enchant.feather_falling.description.4": "§e-48%%§r Fall Damage",
+    "dialog.enchant.feather_falling.description.1": "§e-12%§r Fall Damage",
+    "dialog.enchant.feather_falling.description.2": "§e-24%§r Fall Damage",
+    "dialog.enchant.feather_falling.description.3": "§e-36%§r Fall Damage",
+    "dialog.enchant.feather_falling.description.4": "§e-48%§r Fall Damage",
 
     "enchantment.event.felling": "Felling",
     "dialog.enchant.felling.description.1": "§e+4§r Block Range when looking up or down",
@@ -452,11 +455,11 @@
     "dialog.enchant.fowling.fragility_curse.1": "§cx2§r Durability Loss",
     
     "enchantment.event.frenzy": "Frenzy",
-    "dialog.enchant.frenzy.description.1": "§e+10%%§r Attack Speed",
-    "dialog.enchant.frenzy.description.2": "§e+20%%§r Attack Speed",
-    "dialog.enchant.frenzy.description.3": "§e+30%%§r Attack Speed",
-    "dialog.enchant.frenzy.description.4": "§e+40%%§r Attack Speed",
-    "dialog.enchant.frenzy.description.5": "§e+50%%§r Attack Speed",
+    "dialog.enchant.frenzy.description.1": "§e+10%§r Attack Speed",
+    "dialog.enchant.frenzy.description.2": "§e+20%§r Attack Speed",
+    "dialog.enchant.frenzy.description.3": "§e+30%§r Attack Speed",
+    "dialog.enchant.frenzy.description.4": "§e+40%§r Attack Speed",
+    "dialog.enchant.frenzy.description.5": "§e+50%§r Attack Speed",
 
     "dialog.enchant.frost_walker.description.1": "When moving, water within a §e3§r block radius turns into Frosted Ice",
     "dialog.enchant.frost_walker.description.2": "When moving, water within a §e4§r block radius turns into Frosted Ice",
@@ -475,8 +478,8 @@
     
     "dialog.enchant.infinity.description.1": "Used arrows are §enot§r consumed",
 
-    "dialog.enchant.knockback.description.1": "§e+100%%§r Knockback",
-    "dialog.enchant.knockback.description.2": "§e+200%%§r Knockback",
+    "dialog.enchant.knockback.description.1": "§e+100%§r Knockback",
+    "dialog.enchant.knockback.description.2": "§e+200%§r Knockback",
     
     "dialog.enchant.launching.description.1": "§e+1.5 Blocks§r of Vertical Knockback",
     "dialog.enchant.launching.description.2": "§e+2 Blocks§r of Vertical Knockback",
