@@ -293,7 +293,7 @@
     "dialog.enchantment.level.max": "Max Level",
     "dialog.enchantment.level.min": "Minimum Level",
     "dialog.enchantment.level.none": "No Levels",
-    "dialog.enchant.full_armor": "On Full Armor or Animal Armor:",
+    "dialog.enchant.full_armor": "On §eFull Armor§r or §eAnimal Armor§r:",
 
     "enchantment.event.acceleration": "Acceleration",
     "dialog.enchant.acceleration.description.1":"§e+2%§r Speed per second during continuous sprinting. §c+25%§r Hunger Loss during Sprinting",
@@ -330,7 +330,7 @@
     "enchantment.event.bookworm_bait": "Bookworm Bait",
     "dialog.enchant.bookworm_bait.description.1": "Can only catch §eBooks§r or §eEnchanted Books§r",
 
-    "dialog.enchant.breach.description.main": "Damage §cincreases§r based on horizontal speed",
+    "dialog.enchant.breach.description.main": "Damage §eIncreases§r based on horizontal speed in blocks per second",
     "dialog.enchant.breach.description.1.a": "§e+0.5§r damage within 5-7 Blocks",
     "dialog.enchant.breach.description.2.a": "§e+1§r damage within 5-7 Blocks",
     "dialog.enchant.breach.description.3.a": "§e+1.5§r damage within 5-7 Blocks",
@@ -463,9 +463,9 @@
     "dialog.enchant.frost_walker.description.1": "When moving, water within a §e3§r block radius turns into Frosted Ice",
     "dialog.enchant.frost_walker.description.2": "When moving, water within a §e4§r block radius turns into Frosted Ice",
 
-    "dialog.enchant.guiding.description.5": "Projectiles §emove§r towards where you look",
+    "enchantment.event.guiding": "Guiding",
+    "dialog.enchant.guiding.description.1": "Projectiles §emove§r towards where you look",
 
-    "enchantment.event.live_catch": "Live Catch",
     "enchantment.event.hot_rod": "Hot Rod",
     "dialog.enchant.hot_rod.description.1": "Caught items are §esmelted§r if possible",
     
@@ -479,12 +479,54 @@
 
     "dialog.enchant.knockback.description.1": "§e+100%§r Knockback",
     "dialog.enchant.knockback.description.2": "§e+200%§r Knockback",
-    
-    "dialog.enchant.launching.description.1": "§e+1.5 Blocks§r of Vertical Knockback",
-    "dialog.enchant.launching.description.2": "§e+2 Blocks§r of Vertical Knockback",
 
-    "enchantment.event.prospector": "Prospector",
+    "enchantment.event.launching": "Uppercut",
+    "dialog.enchant.launching.description.1": "§eTBA§r",
+    "dialog.enchant.launching.description.2": "§eTBA§r",
+    "dialog.enchant.launching.description.3": "§eTBA§r",
+
+    "enchantment.event.lightweight": "Lightweight",
+    "dialog.enchant.lightweight.description.1": "§e+1%§r Movement Speed",
+    "dialog.enchant.lightweight.description.2": "§e+2%§r Movement Speed",
+    "dialog.enchant.lightweight.description.3": "§e+3%§r Movement Speed",
+    "dialog.enchant.lightweight.description.4": "§e+4%§r Movement Speed",
+
+    "dialog.enchant.lightweight.description.full.1": "§e+4%§r Movement Speed",
+    "dialog.enchant.lightweight.description.full.2": "§e+8%§r Movement Speed",
+    "dialog.enchant.lightweight.description.full.3": "§e+12%§r Movement Speed",
+    "dialog.enchant.lightweight.description.full.4": "§e+16%§r Movement Speed",
+
+    "dialog.enchant.loyalty.description.1": "Thrown Trident §eSlowly Returns§r to you after hitting something",
+    "dialog.enchant.loyalty.description.2": "Thrown Trident §eReturns§r to you after hitting something",
+    "dialog.enchant.loyalty.description.3": "Thrown Trident §eQuickly Returns§r to you after hitting something",
+    
+    "dialog.enchant.luck_of_the_sea.description.1": "§e+2%§r chance to get Treasure instead of Junk when fishing",
+    "dialog.enchant.luck_of_the_sea.description.2": "§e+4%§r chance to get Treasure instead of Junk when fishing",
+    "dialog.enchant.luck_of_the_sea.description.3": "§e+6%§r chance to get Treasure instead of Junk when fishing",
+
+    "dialog.enchant.lunge.description.1": "§eTBA§r",
+    "dialog.enchant.lunge.description.2": "§eTBA§r",
+    "dialog.enchant.lunge.description.3": "§eTBA§r",
+    
+    "dialog.enchant.lure.description.1": "Reduces time until the bobber gets a bite by §e5 Seconds§r",
+    "dialog.enchant.lure.description.2": "Reduces time until the bobber gets a bite by §e10 Seconds§r",
+    "dialog.enchant.lure.description.3": "Reduces time until the bobber gets a bite by §e15 Seconds§r",
+
     "enchantment.event.melting": "Melting",
+    "dialog.enchant.melting.description.1": "Mined blocks are §esmelted§r if possible",
+
+    "dialog.enchant.mending.description.1": "Restores §e3§r Durability when Mining Ores, Sculk or Killing Mobs",
+    "dialog.enchant.mending.description.2": "Restores §e3§r Durability when Mining Ores, Sculk or Killing Mobs",
+    "dialog.enchant.mending.description.3": "Restores §e3§r Durability when Mining Ores, Sculk or Killing Mobs",
+
+    "dialog.enchant.multishot.description.1": "Fires §e3§r Arrows at once",
+    "dialog.enchant.multishot.description.2": "Fires §e5§r Arrows at once",
+
+    "dialog.enchant.piercing.description.1": "§eTBA§r",
+    "dialog.enchant.piercing.description.2": "§eTBA§r",
+    "dialog.enchant.piercing.description.3": "§eTBA§r",
+    "dialog.enchant.piercing.description.4": "§eTBA§r",
+    
     "enchantment.event.valor": "Valor",
     
     
@@ -492,14 +534,13 @@
     "enchantment.event.rampage": "Rampage",
     
     "enchantment.event.charging": "Charging",
-    "enchantment.event.guiding": "Guiding",
     "enchantment.event.homing": "Homing",
     "enchantment.event.ricochet": "Ricochet",
-    "enchantment.event.launching": "Uppercut",
+    
     "enchantment.event.harpoon": "Harpoon",
     "enchantment.event.rebound": "Rebound",
     "enchantment.event.regrow": "Regrow",
-    "enchantment.event.lightweight": "Lightweight",
+    
     
     "enchantment.event.lasting": "Lasting",
     
