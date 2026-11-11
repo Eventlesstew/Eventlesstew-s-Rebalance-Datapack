@@ -26,13 +26,6 @@
         {
             "type": "filtered",
             "item_filter": {
-                "items": "#event_rebalance:custom_item/withered_chunks"
-            },
-            "on_pass": "event_rebalance:brewing_fuel/2"
-        },
-        {
-            "type": "filtered",
-            "item_filter": {
                 "items": "redstone"
             },
             "on_pass": "event_rebalance:brewing_fuel/1x2"

@@ -2,7 +2,10 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": "minecraft:stick",
-    "X": "#event_rebalance:custom_item/withered_chunks"
+    "X": [
+      "soul_sand",
+      "soul_soil"
+    ]
   },
   "pattern": [
     "X",

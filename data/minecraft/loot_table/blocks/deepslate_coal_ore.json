@@ -4,38 +4,12 @@
     {
       "entries": [
         {
-          "type": "minecraft:alternatives",
-          "children": [
-            {
-              "type": "minecraft:item",
-              "condition": "minecraft:tool/can_silk_touch",
-              "name": "minecraft:deepslate_coal_ore"
-            },
-            {
-              "type": "minecraft:tag",
-              "modifier": [
-                {
-                  "type": "set_count",
-                  "count": {
-                    "type": "uniform",
-                    "max": 3,
-                    "min": 1
-                  }
-                },
-                {
-                  "type": "minecraft:apply_bonus",
-                  "enchantment": "minecraft:fortune",
-                  "formula": "minecraft:ore_drops"
-                },
-                {
-                  "type": "minecraft:explosion_decay"
-                },
-                "event_rebalance:base/withered_chunks"
-              ],
-              "expand": false,
-              "items": "#event_rebalance:custom_item/withered_chunks"
-            }
-          ]
+          "type": "minecraft:tag",
+          "modifier": [
+            
+          ],
+          "items": "#event_rebalance:custom_item/magnium_block",
+          "expand":false
         }
       ],
       "rolls": 1

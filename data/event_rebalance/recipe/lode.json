@@ -1,7 +1,7 @@
 {
     "type": "minecraft:crafting_shapeless",
     "category": "misc",
-    "group": "lode",
+    "group": "magnium_ingot",
     "ingredients": [
         "iron_ingot",
         "iron_ingot",

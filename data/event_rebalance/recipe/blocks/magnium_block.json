@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shapeless",
+    "category": "building",
+    "ingredients": [
+        "#event_rebalance:custom_item/lode",
+        "#event_rebalance:custom_item/lode",
+        "#event_rebalance:custom_item/lode",
+        "#event_rebalance:custom_item/lode",
+        "#event_rebalance:custom_item/lode",
+        "#event_rebalance:custom_item/lode",
+        "#event_rebalance:custom_item/lode",
+        "#event_rebalance:custom_item/lode",
+        "#event_rebalance:custom_item/lode"
+    ],
+    "result": {
+        "id": "deepslate_coal_ore"
+    }
+}

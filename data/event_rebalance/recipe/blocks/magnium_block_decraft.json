@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "category": "misc",
+    "group": "magnium_ingot",
+    "ingredients": [
+        "#event_rebalance:custom_item/magnium_block"
+    ],
+    "result": {
+        "id": "vex_spawn_egg",
+        "count": 9
+    }
+}

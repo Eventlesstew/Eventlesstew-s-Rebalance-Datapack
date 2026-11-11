@@ -172,10 +172,6 @@
             "event_rebalance:base/book",
 
             "event_rebalance:food/sea_pickle",
-
-            "event_rebalance:base/withered_chunks",
-            "event_rebalance:custom_item/withered_chunk_block",
-            "event_rebalance:base/withered_chunk_block",
             
             "event_rebalance:base_manual/banner",
             "event_rebalance:base_manual/jack_o_lantern",

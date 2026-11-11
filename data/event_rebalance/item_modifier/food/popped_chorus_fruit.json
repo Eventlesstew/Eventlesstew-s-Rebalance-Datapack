@@ -25,7 +25,7 @@
                         "consume_seconds": 2,
                         "on_consume_effects": [],
                         "sound": {
-                            "sound_id": "item.chorus.eat"
+                            "sound_id": "item.chorus_fruit.eat"
                         }
                     },
                     "use_effects": {

@@ -114,13 +114,6 @@
         {
             "type": "filtered",
             "item_filter": {
-                "items": "#event_rebalance:custom_item/withered_chunk_block"
-            },
-            "on_pass": "event_rebalance:furnace_fuel/100"
-        },
-        {
-            "type": "filtered",
-            "item_filter": {
                 "items": "dried_kelp_block"
             },
             "on_pass": "event_rebalance:furnace_fuel/18"
@@ -213,13 +206,6 @@
             "type": "filtered",
             "item_filter": {
                 "items": "blaze_powder"
-            },
-            "on_pass": "event_rebalance:furnace_fuel/6"
-        },
-        {
-            "type": "filtered",
-            "item_filter": {
-                "items": "#event_rebalance:custom_item/withered_chunks"
             },
             "on_pass": "event_rebalance:furnace_fuel/6"
         },

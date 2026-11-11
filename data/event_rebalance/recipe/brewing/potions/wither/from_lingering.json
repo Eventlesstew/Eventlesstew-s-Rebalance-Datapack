@@ -1,7 +1,7 @@
 {
     "type": "brewing",
     "reagent": {
-        "item": "#event_rebalance:custom_item/withered_chunks"
+        "item": "soul_sand"
     },
     "input": {
         "item": "lingering_potion",

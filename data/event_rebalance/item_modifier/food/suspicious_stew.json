@@ -19,13 +19,13 @@
                     "food": {
                         "nutrition": 15,
                         "saturation": 15,
-                        "can_always_eat": false
+                        "can_always_eat": true
                     },
                     "consumable": {
                         "consume_seconds": 2,
                         "on_consume_effects": [],
                         "sound": {
-                            "sound_id": "item.soup.eat"
+                            "sound_id": "item.soup.drink"
                         }
                     },
                     "use_effects": {
@@ -49,14 +49,19 @@
                         "color": "#f5ce0c"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.eat_time.2",
+                        "translate": "attribute.name.consumable.food.drink_time.2",
                         "italic": false,
                         "color": "#5555ff"
                     },
                     {
-                        "translate": "attribute.name.consumable.food.eat_speed.0",
+                        "translate": "attribute.name.consumable.food.drink_speed.0",
                         "italic": false,
                         "color": "#7a58f1"
+                    },
+                    {
+                        "translate": "attribute.name.consumable.food.always_drinkable",
+                        "italic": false,
+                        "color": "#f78324"
                     },
                     {
                         "translate": "attribute.name.consumable.food.unknown_effect",

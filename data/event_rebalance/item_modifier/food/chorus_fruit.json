@@ -29,7 +29,7 @@
                             }
                         ],
                         "sound": {
-                            "sound_id": "item.chorus.eat"
+                            "sound_id": "item.chorus_fruit.eat"
                         }
                     },
                     "use_effects": {

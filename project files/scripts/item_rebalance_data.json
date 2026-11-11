@@ -971,10 +971,6 @@
     "coal_block":{
         "furnace_fuel":72
     },
-    "withered_chunk_block":{
-        "item_type":"custom_item_tag",
-        "furnace_fuel":100
-    },
 
     "dried_kelp_block":{
         "furnace_fuel":18,
@@ -1028,11 +1024,6 @@
     "blaze_powder":{
         "furnace_fuel":6,
         "brewing_fuel":20
-    },
-    "withered_chunks":{
-        "item_type":"custom_item_tag",
-        "furnace_fuel":6,
-        "brewing_fuel":2
     },
     "jukebox":{
         "furnace_fuel":8

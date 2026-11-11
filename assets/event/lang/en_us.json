@@ -28,7 +28,7 @@
     "block.minecraft.smooth_red_sandstone_slab": "Red Sandstone Slab",
     "block.minecraft.smooth_red_sandstone_stairs": "Red Sandstone Stairs",
     "block.minecraft.stonecutter": "Sawmill",
-    "block.minecraft.deepslate_coal_ore": "Withered Remains",
+    "block.minecraft.deepslate_coal_ore": "Block of Magnium",
     "block.minecraft.shulker_box": "Portal Box",
     "block.minecraft.red_shulker_box": "Red Portal Box",
     "block.minecraft.orange_shulker_box": "Orange Portal Box",
@@ -50,7 +50,7 @@
     "item.minecraft.experience_bottle": "Potion of Mending",
 
     "block.minecraft.deepslate_copper_ore":"Block of Rose Gold",
-    "block.minecraft.petrified_oak_slab":"Block of Withered Chunks",
+    "block.minecraft.petrified_oak_slab":"Dummy Block",
 
     "item.event.wooden_dagger": "Wooden Dagger",
     "item.event.wooden_hammer": "Wooden Hammer",
@@ -219,7 +219,6 @@
     "item.minecraft.piglin_brute_spawn_egg": "Rose Golden Ingot",
     "item.minecraft.hoglin_spawn_egg": "Rose Golden Upgrade",
     "item.minecraft.breeze_spawn_egg": "Breeze Powder",
-    "item.minecraft.wither_skeleton_spawn_egg": "Withered Chunks",
 
     "item.event.wooden_shield": "Wooden Shield",
     "item.event.cluster_shield": "Cluster Shield",

@@ -19,22 +19,6 @@
           ]
         },
         {
-          "type": "tag",
-          "weight": 5,
-          "items": "#event_rebalance:custom_item/withered_chunks",
-          "expand": false,
-          "modifier": [
-            {
-              "type": "set_count",
-              "count": {
-                "type": "uniform",
-                "max": 5,
-                "min": 2
-              }
-            }
-          ]
-        },
-        {
           "type": "item",
           "weight": 5,
           "name": "arrow",

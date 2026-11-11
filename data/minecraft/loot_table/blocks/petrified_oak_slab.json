@@ -6,9 +6,9 @@
         {
           "type": "minecraft:tag",
           "modifier": [
-            "event_rebalance:custom_item/withered_chunk_block"
+            
           ],
-          "items": "#event_rebalance:custom_item/withered_chunk_block",
+          "items": "petrified_oak_slab",
           "expand":false
         }
       ],

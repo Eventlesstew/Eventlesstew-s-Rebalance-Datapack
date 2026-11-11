@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "event:block/withered_remains_top",
-    "side": "event:block/withered_remains_side",
-    "particle": "event:block/withered_remains_side"
-  }
-}

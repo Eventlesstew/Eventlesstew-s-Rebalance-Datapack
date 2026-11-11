@@ -134,9 +134,7 @@
       "minecraft:ore_gold_nether",
       "minecraft:ore_quartz_nether",
       "minecraft:ore_ancient_debris_large",
-      "minecraft:ore_debris_small",
-      "event_rebalance:withered_remains_down",
-      "event_rebalance:withered_remains_up"
+      "minecraft:ore_debris_small"
     ],
     [],
     [
