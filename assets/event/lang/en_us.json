@@ -291,29 +291,204 @@
     "dialog.enchantment.title":"Enchantments",
     "dialog.enchantment.external_title": "View Enchantments",
     "dialog.enchantment.level": "Level",
+    "dialog.enchant.full_armor": "On Full Armor or Animal Armor:",
 
     "enchantment.event.acceleration": "Acceleration",
     "dialog.enchant.acceleration.description.1":"§e+2%%§r Speed per second during continuous sprinting. §c+25%%§r Hunger Loss during Sprinting",
     "dialog.enchant.acceleration.description.2":"§e+4%%§r Speed per second during continuous sprinting. §c+50%%§r Hunger Loss during Sprinting",
     "dialog.enchant.acceleration.description.3":"§e+6%%§r Speed per second during continuous sprinting. §c+75%%§r Hunger Loss during Sprinting",
 
+    "enchantment.event.aerodynamic": "Aerodynamic",
+    "dialog.enchant.aerodynamic.description.1": "§e-40%%§r Knockback Resistance",
+    "dialog.enchant.aerodynamic.description.2": "§e-60%%§r Knockback Resistance",
+    "dialog.enchant.aerodynamic.description.3": "§e-80%%§r Knockback Resistance",
+    "dialog.enchant.aerodynamic.description.4": "§e-100%%§r Knockback Resistance",
+
+    "dialog.enchant.aqua_affinity.description.1": "§eRemoves§r Mining penalty in Water",
+
+    "enchantment.event.auto_repair": "Auto-Repair",
+    "dialog.enchant.auto_repair.description.1": "When used under 10 Durability, uses 1 Iron-Lapis Alloy to restore §e25%%§r Durability",
+
+    "enchantment.event.avarice_curse": "Curse of Avarice",
+    "dialog.enchant.avarice_curse.description.1": "Arrows deal §cno Damage§r unless Spectral",
+
+    "enchantment.event.barrier": "Barrier",
+    "dialog.enchant.barrier.description.1": "§e+7.5%%§r Damage Reduction against Fire, Lightning, Explosions and Magic",
+    "dialog.enchant.barrier.description.2": "§e+11.25%%§r Damage Reduction against Fire, Lightning, Explosions and Magic",
+    "dialog.enchant.barrier.description.3": "§e+15%%§r Damage Reduction against Fire, Lightning, Explosions and Magic",
+    "dialog.enchant.barrier.description.4": "§e+18.75%%§r Damage Reduction against Fire, Lightning, Explosions and Magic",
+
+    "dialog.enchant.barrier.description.full.1": "§e+30%%§r Damage Reduction against Fire, Lightning, Explosions and Magic",
+    "dialog.enchant.barrier.description.full.2": "§e+45%%§r Damage Reduction against Fire, Lightning, Explosions and Magic",
+    "dialog.enchant.barrier.description.full.3": "§e+60%%§r Damage Reduction against Fire, Lightning, Explosions and Magic",
+    "dialog.enchant.barrier.description.full.4": "§e+75%%§r Damage Reduction against Fire, Lightning, Explosions and Magic",
+
+    "dialog.enchant.binding_curse.description.1": "§cCannot§r be unequipped when worn",
+
     "enchantment.event.bookworm_bait": "Bookworm Bait",
+    "dialog.enchant.bookworm_bait.description.1": "Can only catch §eBooks§r or §eEnchanted Books§r",
+
+    "dialog.enchant.breach.description.title": "Damage §cincreases§r based on horizontal speed",
+    "dialog.enchant.breach.description.1.a": "§e+0.5§r damage within 5-7 Blocks",
+    "dialog.enchant.breach.description.2.a": "§e+1§r damage within 5-7 Blocks",
+    "dialog.enchant.breach.description.3.a": "§e+1.5§r damage within 5-7 Blocks",
+    "dialog.enchant.breach.description.4.a": "§e+2§r damage within 5-7 Blocks",
+    "dialog.enchant.breach.description.5.a": "§e+2.5§r damage within 5-7 Blocks",
+
+    "dialog.enchant.breach.description.1.b": "§e+0.3§r damage within 8-15 Blocks",
+    "dialog.enchant.breach.description.2.b": "§e+0.6§r damage within 8-15 Blocks",
+    "dialog.enchant.breach.description.3.b": "§e+0.9§r damage within 8-15 Blocks",
+    "dialog.enchant.breach.description.4.b": "§e+1.2§r damage within 8-15 Blocks",
+    "dialog.enchant.breach.description.5.b": "§e+1.5§r damage within 8-15 Blocks",
+
+    "dialog.enchant.breach.description.1.c": "§e+0.1§r damage within 16-50 Blocks",
+    "dialog.enchant.breach.description.2.c": "§e+0.2§r damage within 16-50 Blocks",
+    "dialog.enchant.breach.description.3.c": "§e+0.3§r damage within 16-50 Blocks",
+    "dialog.enchant.breach.description.4.c": "§e+0.4§r damage within 16-50 Blocks",
+    "dialog.enchant.breach.description.5.c": "§e+0.5§r damage within 16-50 Blocks",
+
+    "enchantment.event.brutality": "Brutality",
+    "dialog.enchant.brutality.description.1": "§e+4§r Damage, but attacking inflicts §c+1§r magic self-damage",
+    "dialog.enchant.brutality.description.2": "§e+6§r Damage, but attacking inflicts §c+1.5§r magic self-damage",
+    "dialog.enchant.brutality.description.3": "§e+8§r Damage, but attacking inflicts §c+2§r magic self-damage",
+    "dialog.enchant.brutality.description.4": "§e+10§r Damage, but attacking inflicts §c+2.5§r magic self-damage",
+    "dialog.enchant.brutality.description.5": "§e+12§r Damage, but attacking inflicts §c+3§r magic self-damage",
+
+    "enchantment.event.bulwark": "Bulwark",
+    "dialog.enchant.bulwark.description.1": "§e+40%%§r Knockback Resistance",
+    "dialog.enchant.bulwark.description.2": "§e+60%%§r Knockback Resistance",
+    "dialog.enchant.bulwark.description.3": "§e+80%%§r Knockback Resistance",
+    "dialog.enchant.bulwark.description.4": "§e+100%%§r Knockback Resistance",
+
+    "dialog.enchant.channeling.description.1": "Thrown tridents deal §e+2§r Damage to mobs in water within 10 blocks. Summons §eLightning§r if it hits a mob or Lightning Rod in rain",
+    "dialog.enchant.channeling.description.2": "Thrown tridents deal §e+3.5§r Damage to mobs in water within 10 blocks. Summons §eLightning§r if it hits a mob or Lightning Rod in rain",
+    "dialog.enchant.channeling.description.3": "Thrown tridents deal §e+5§r Damage to mobs in water within 10 blocks. Summons §eLightning§r if it hits a mob or Lightning Rod in rain",
+    "dialog.enchant.channeling.description.4": "Thrown tridents deal §e+6.5§r Damage to mobs in water within 10 blocks. Summons §eLightning§r if it hits a mob or Lightning Rod in rain",
+    "dialog.enchant.channeling.description.5": "Thrown tridents deal §e+8§r Damage to mobs in water within 10 blocks. Summons §eLightning§r if it hits a mob or Lightning Rod in rain",
+
+    "enchantment.event.combo": "Combo",
+    "dialog.enchant.combo.description.1": "§e+1§r Damage for each hit dealt within 1.5 seconds. Max §e+4§r Damage",
+    "dialog.enchant.combo.description.2": "§e+1.5§r Damage for each hit dealt within 1.5 seconds. Max §e+6§r Damage",
+    "dialog.enchant.combo.description.3": "§e+2§r Damage for each hit dealt within 1.5 seconds. Max §e+8§r Damage",
+    "dialog.enchant.combo.description.4": "§e+2.5§r Damage for each hit dealt within 1.5 seconds. Max §e+10§r Damage",
+    "dialog.enchant.combo.description.5": "§e+3§r Damage for each hit dealt within 1.5 seconds. Max §e+12§r Damage",
+
+    "enchantment.event.conserve": "Conserve",
+    "dialog.enchant.conserve.description.1": "§e25%%§r chance to not consume Arrows or Tipped Arrows",
+    "dialog.enchant.conserve.description.2": "§e50%%§r chance to not consume Arrows or Tipped Arrows",
+    "dialog.enchant.conserve.description.3": "§e75%%§r chance to not consume Arrows or Tipped Arrows",
+
+    "enchantment.event.crackle": "Crackle",
+    "dialog.enchant.crackle.description.1": "Critical Hits inflict §eSlowness II§r for 2 seconds",
+    "dialog.enchant.crackle.description.2": "Critical Hits inflict §eSlowness III§r for 2 seconds",
+    "dialog.enchant.crackle.description.3": "Critical Hits inflict §eSlowness IV§r for 2 seconds",
+
+    "enchantment.event.crystallization": "Crystallization",
+    "dialog.enchant.crystallization.description.1": "Restores §e4§r Durability per second. §cx10§r Durability Loss",
+    "dialog.enchant.crystallization.description.2": "Restores §e8§r Durability per second. §cx10§r Durability Loss",
+    "dialog.enchant.crystallization.description.3": "Restores §e12§r Durability per second. §cx10§r Durability Loss",
+
+    "dialog.enchant.density.description.1": "§e+0.5§r Damage per block of fall distance",
+    "dialog.enchant.density.description.2": "§e+0.75§r Damage per block of fall distance",
+    "dialog.enchant.density.description.3": "§e+1§r Damage per block of fall distance",
+    "dialog.enchant.density.description.4": "§e+1.25§r Damage per block of fall distance",
+    "dialog.enchant.density.description.5": "§e+1.5§r Damage per block of fall distance",
+    
+    "dialog.enchant.depth_strider.description.1": "§e+33%%§r Movement Speed in water",
+    "dialog.enchant.depth_strider.description.2": "§e+66%%§r Movement Speed in water",
+    "dialog.enchant.depth_strider.description.3": "§e+100%%§r Movement Speed in water",
+
+    "enchantment.event.echo": "Echo",
+    "dialog.enchant.echo.description.1": "Bow shoots §e2§r Arrows successively",
+    "dialog.enchant.echo.description.2": "Bow shoots §e3§r Arrows successively",
+
+    "dialog.enchant.efficiency.description.1": "§e+10§r Mining Speed",
+    "dialog.enchant.efficiency.description.2": "§e+20§r Mining Speed",
+    "dialog.enchant.efficiency.description.3": "§e+30§r Mining Speed",
+    "dialog.enchant.efficiency.description.4": "§e+40§r Mining Speed",
+    "dialog.enchant.efficiency.description.5": "§e+50§r Mining Speed",
+
+    "enchantment.event.eternity": "Eternity",
+    "dialog.enchant.eternity.description.1": "§eNo§r Durability Loss",
+    
+    "enchantment.event.feasting": "Feasting",
+    "dialog.enchant.feasting.description.1": "Critical Hits give you §e1§r Food and §e2§r Saturation",
+    "dialog.enchant.feasting.description.2": "Critical Hits give you §e2§r Food and §e4§r Saturation",
+    "dialog.enchant.feasting.description.3": "Critical Hits give you §e3§r Food and §e6§r Saturation",
+
+    "dialog.enchant.feather_falling.description.1": "§e-12%%§r Fall Damage",
+    "dialog.enchant.feather_falling.description.2": "§e-24%%§r Fall Damage",
+    "dialog.enchant.feather_falling.description.3": "§e-36%%§r Fall Damage",
+    "dialog.enchant.feather_falling.description.4": "§e-48%%§r Fall Damage",
+
+    "enchantment.event.felling": "Felling",
+    "dialog.enchant.felling.description.1": "§e+4§r Block Range when looking up or down",
+    "dialog.enchant.felling.description.2": "§e+8§r Block Range when looking up or down",
+    "dialog.enchant.felling.description.3": "§e+12§r Block Range when looking up or down",
+    "dialog.enchant.felling.description.4": "§e+16§r Block Range when looking up or down",
+    "dialog.enchant.felling.description.5": "§e+20§r Block Range when looking up or down",
+
+    "dialog.enchant.fire_aspect.description.1": "Attacks ignite mobs for §e5§r seconds",
+
+    "enchantment.event.focusing": "Focusing",
+    "dialog.enchant.focusing.description.1": "§e+10§r Mining Speed and §e+1§r Block Range when standing still",
+    "dialog.enchant.focusing.description.2": "§e+20§r Mining Speed and §e+2§r Block Range when standing still",
+    "dialog.enchant.focusing.description.3": "§e+30§r Mining Speed and §e+3§r Block Range when standing still",
+    "dialog.enchant.focusing.description.4": "§e+40§r Mining Speed and §e+4§r Block Range when standing still",
+    "dialog.enchant.focusing.description.5": "§e+50§r Mining Speed and §e+5§r Block Range when standing still",
+
+    "dialog.enchant.fortune.description.1": "Gives §eslightly increased§r Loot from Mining Ores, killing Mobs or Fishing",
+    "dialog.enchant.fortune.description.2": "Gives §increased§r Loot from Mining Ores, killing Mobs or Fishing",
+    "dialog.enchant.fortune.description.3": "Gives §egreatly increased§r loot from Mining Ores, killing Mobs or Fishing",
+
+    "enchantment.event.fowling": "Fowling",
+    "dialog.enchant.fowling.description.1": "§e+2§r Damage to targets in midair",
+    "dialog.enchant.fowling.description.2": "§e+3.5§r Damage to targets in midair",
+    "dialog.enchant.fowling.description.3": "§e+5§r Damage to targets in midair",
+    "dialog.enchant.fowling.description.4": "§e+6.5§r Damage to targets in midair",
+    "dialog.enchant.fowling.description.5": "§e+8§r Damage to targets in midair",
+
+    "enchantment.event.fragility_curse": "Curse of Fragility",
+    "dialog.enchant.fowling.fragility_curse.1": "§cx2§r Durability Loss",
+    
+    "enchantment.event.frenzy": "Frenzy",
+    "dialog.enchant.frenzy.description.1": "§e+10%%§r Attack Speed",
+    "dialog.enchant.frenzy.description.2": "§e+20%%§r Attack Speed",
+    "dialog.enchant.frenzy.description.3": "§e+30%%§r Attack Speed",
+    "dialog.enchant.frenzy.description.4": "§e+40%%§r Attack Speed",
+    "dialog.enchant.frenzy.description.5": "§e+50%%§r Attack Speed",
+
+    "dialog.enchant.frost_walker.description.1": "When moving, water within a §e3§r block radius turns into Frosted Ice",
+    "dialog.enchant.frost_walker.description.2": "When moving, water within a §e4§r block radius turns into Frosted Ice",
+
+    "dialog.enchant.guiding.description.5": "Projectiles §emove§r towards where you look",
+
     "enchantment.event.live_catch": "Live Catch",
     "enchantment.event.hot_rod": "Hot Rod",
-    "enchantment.event.focusing": "Focusing",
-    "enchantment.event.felling": "Felling",
+    "dialog.enchant.hot_rod.description.1": "Caught items are §esmelted§r if possible",
+    
+    "dialog.enchant.impaling.description.1": "§e+2§r Damage to targets in water",
+    "dialog.enchant.impaling.description.2": "§e+3.5§r Damage to targets in water",
+    "dialog.enchant.impaling.description.3": "§e+5§r Damage to targets in water",
+    "dialog.enchant.impaling.description.4": "§e+6.5§r Damage to targets in water",
+    "dialog.enchant.impaling.description.5": "§e+8§r Damage to targets in water",
+    
+    "dialog.enchant.infinity.description.1": "Used arrows are §enot§r consumed",
+
+    "dialog.enchant.knockback.description.1": "§e+100%%§r Knockback",
+    "dialog.enchant.knockback.description.2": "§e+200%%§r Knockback",
+    
+    "dialog.enchant.launching.description.1": "§e+1.5 Blocks§r of Vertical Knockback",
+    "dialog.enchant.launching.description.2": "§e+2 Blocks§r of Vertical Knockback",
+
     "enchantment.event.prospector": "Prospector",
     "enchantment.event.melting": "Melting",
     "enchantment.event.valor": "Valor",
-    "enchantment.event.combo": "Combo",
-    "enchantment.event.fowling": "Fowling",
-    "enchantment.event.frenzy": "Frenzy",
-    "enchantment.event.brutality": "Brutality",
+    
+    
     "enchantment.event.puncture": "Puncture",
     "enchantment.event.rampage": "Rampage",
-    "enchantment.event.feasting": "Feasting",
-    "enchantment.event.crackle": "Crackle",
-    "enchantment.event.echo": "Echo",
+    
     "enchantment.event.charging": "Charging",
     "enchantment.event.guiding": "Guiding",
     "enchantment.event.homing": "Homing",
@@ -323,16 +498,9 @@
     "enchantment.event.rebound": "Rebound",
     "enchantment.event.regrow": "Regrow",
     "enchantment.event.lightweight": "Lightweight",
-    "enchantment.event.barrier": "Barrier",
-    "enchantment.event.bulwark": "Bulwark",
-    "enchantment.event.aerodynamic": "Aerodynamic",
-    "enchantment.event.conserve": "Conserve",
-    "enchantment.event.crystallization": "Crystallization",
-    "enchantment.event.auto_repair": "Auto-Repair",
-    "enchantment.event.eternity": "Eternity",
+    
     "enchantment.event.lasting": "Lasting",
-    "enchantment.event.avarice_curse": "Curse of Avarice",
-    "enchantment.event.fragility_curse": "Curse of Fragility",
+    
     "enchantment.event.slumber_curse": "Curse of Slumber",
 
     "attribute.name.mining_speed.pickaxe": "Mining Speed",

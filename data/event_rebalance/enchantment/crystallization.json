@@ -8,7 +8,7 @@
       {
         "effect": {
           "type": "multiply",
-          "factor": 16
+          "factor": 10
         }
       }
     ],
