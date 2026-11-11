@@ -84,5 +84,6 @@
         "label": {
             "translate": "gui.back"
         }
-    }
+    },
+    "columns": 1
 }
