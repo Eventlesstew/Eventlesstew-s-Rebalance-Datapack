@@ -41,19 +41,6 @@
                 ]
             },
             "width": 300
-        },
-        {
-            "type": "minecraft:plain_message",
-            "contents": {
-                "translate": "dialog.enchantment.exclusive",
-                "extra": [
-                    " ",
-                    {
-                        "translate": "dialog.enchant.binding_curse.conflicts"
-                    }
-                ]
-            },
-            "width": 300
         }
     ],
     "actions": [

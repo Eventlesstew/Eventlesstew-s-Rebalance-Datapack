@@ -154,19 +154,22 @@ for enchant_n, enchant in enumerate(enchant_list):
                 "width": 3 * BUTTON_WIDTH,
             }
         )
-        enchant_dialog["body"].append(
-            {
-                "type": "minecraft:plain_message",
-                "contents": {
-                    "translate": "dialog.enchantment.exclusive",
-                    "extra": [
-                        " ",
-                        {"translate": "dialog.enchant." + enchant + ".conflicts"},
-                    ],
-                },
-                "width": 3 * BUTTON_WIDTH,
-            }
-        )
+
+        if "exclusive_set" in data_file:
+            # print(data_file["exclusive_set"].split("/")[-1])
+            enchant_dialog["body"].append(
+                {
+                    "type": "minecraft:plain_message",
+                    "contents": {
+                        "translate": "dialog.enchantment.exclusive",
+                        "extra": [
+                            " ",
+                            {"translate": "dialog.enchant." + enchant + ".conflicts"},
+                        ],
+                    },
+                    "width": 3 * BUTTON_WIDTH,
+                }
+            )
 
         # Gets the necessary data for previous enchant
         previous_enchant_n = enchant_n - 1

@@ -18,5 +18,6 @@
   "slots": [
     "mainhand"
   ],
+  "exclusive_set": "#event_rebalance:exclusive_set/durability",
   "supported_items": "#enchantable/durability"
 }

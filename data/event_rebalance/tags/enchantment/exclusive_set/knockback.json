@@ -4,6 +4,7 @@
         "punch",
         "event_rebalance:rebound",
         "event_rebalance:launching",
-        "sweeping_edge"
+        "sweeping_edge",
+        "wind_burst"
     ]
 }

@@ -45,6 +45,7 @@
         "protection",
         "event_rebalance:regrow",
         "event_rebalance:lightweight",
+        "event_rebalance:barrier",
 
         "respiration",
 
@@ -61,6 +62,7 @@
 
         "unbreaking",
         "mending",
+        "event_rebalance:auto_repair",
         "event_rebalance:crystallization",
         "event_rebalance:eternity",
         "infinity",

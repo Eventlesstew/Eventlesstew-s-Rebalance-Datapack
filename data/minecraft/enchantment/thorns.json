@@ -43,6 +43,7 @@
   "slots": [
     "any"
   ],
+  "exclusive_set": "#event_rebalance:exclusive_set/chestplate",
   "supported_items": "#minecraft:enchantable/armor",
   "weight": 1
 }
