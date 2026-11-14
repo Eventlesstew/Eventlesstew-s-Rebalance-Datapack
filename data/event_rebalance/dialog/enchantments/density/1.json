@@ -1,7 +1,7 @@
 {
     "type": "multi_action",
     "title": {
-        "translate": "dialog.description.title"
+        "translate": "dialog.enchantment.title"
     },
     "external_title": {
         "translate": "enchantment.minecraft.density",
@@ -44,7 +44,13 @@
         {
             "type": "minecraft:plain_message",
             "contents": {
-                "translate": "dialog.enchant.density.supported"
+                "translate": "dialog.enchant.supported_items",
+                "extra": [
+                    " ",
+                    {
+                        "translate": "dialog.enchant.density.supported"
+                    }
+                ]
             },
             "width": 300
         }
@@ -89,16 +95,6 @@
             "action": {
                 "type": "show_dialog",
                 "dialog": "event_rebalance:enchantments/fire_aspect/1"
-            },
-            "width": 100
-        },
-        {
-            "label": {
-                "translate": "dialog.enchantment.level.min"
-            },
-            "action": {
-                "type": "show_dialog",
-                "dialog": "event_rebalance:enchantments/density/1"
             },
             "width": 100
         }

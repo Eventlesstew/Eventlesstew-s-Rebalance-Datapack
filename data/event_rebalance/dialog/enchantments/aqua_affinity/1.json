@@ -1,7 +1,7 @@
 {
     "type": "multi_action",
     "title": {
-        "translate": "dialog.description.title"
+        "translate": "dialog.enchantment.title"
     },
     "external_title": {
         "translate": "enchantment.minecraft.aqua_affinity"
@@ -32,7 +32,13 @@
         {
             "type": "minecraft:plain_message",
             "contents": {
-                "translate": "dialog.enchant.aqua_affinity.supported"
+                "translate": "dialog.enchant.supported_items",
+                "extra": [
+                    " ",
+                    {
+                        "translate": "dialog.enchant.aqua_affinity.supported"
+                    }
+                ]
             },
             "width": 300
         }

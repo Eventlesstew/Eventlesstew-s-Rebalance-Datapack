@@ -1,7 +1,7 @@
 {
     "type": "multi_action",
     "title": {
-        "translate": "dialog.description.title"
+        "translate": "dialog.enchantment.title"
     },
     "external_title": {
         "translate": "enchantment.event.bookworm_bait"
@@ -32,7 +32,13 @@
         {
             "type": "minecraft:plain_message",
             "contents": {
-                "translate": "dialog.enchant.bookworm_bait.supported"
+                "translate": "dialog.enchant.supported_items",
+                "extra": [
+                    " ",
+                    {
+                        "translate": "dialog.enchant.bookworm_bait.supported"
+                    }
+                ]
             },
             "width": 300
         }

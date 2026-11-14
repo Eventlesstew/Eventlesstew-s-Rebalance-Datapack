@@ -1,7 +1,7 @@
 {
     "type": "multi_action",
     "title": {
-        "translate": "dialog.description.title"
+        "translate": "dialog.enchantment.title"
     },
     "external_title": {
         "translate": "enchantment.minecraft.wind_burst",
@@ -44,7 +44,13 @@
         {
             "type": "minecraft:plain_message",
             "contents": {
-                "translate": "dialog.enchant.wind_burst.supported"
+                "translate": "dialog.enchant.supported_items",
+                "extra": [
+                    " ",
+                    {
+                        "translate": "dialog.enchant.wind_burst.supported"
+                    }
+                ]
             },
             "width": 300
         }

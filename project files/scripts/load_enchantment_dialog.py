@@ -144,7 +144,13 @@ for enchant_n, enchant in enumerate(enchant_list):
         enchant_dialog["body"].append(
             {
                 "type": "minecraft:plain_message",
-                "contents": {"translate": "dialog.enchant." + enchant + ".supported"},
+                "contents": {
+                    "translate": "dialog.enchant.supported_items",
+                    "extra": [
+                        " ",
+                        {"translate": "dialog.enchant." + enchant + ".supported"},
+                    ],
+                },
                 "width": 3 * BUTTON_WIDTH,
             }
         )
@@ -291,20 +297,6 @@ for enchant_n, enchant in enumerate(enchant_list):
                             + enchant
                             + "/"
                             + str(i - 1),
-                        },
-                        "width": BUTTON_WIDTH,
-                    }
-                )
-            else:
-                enchant_dialog["actions"].append(
-                    {
-                        "label": {"translate": "dialog.enchantment.level.min"},
-                        "action": {
-                            "type": "show_dialog",
-                            "dialog": "event_rebalance:enchantments/"
-                            + enchant
-                            + "/"
-                            + str(i),
                         },
                         "width": BUTTON_WIDTH,
                     }

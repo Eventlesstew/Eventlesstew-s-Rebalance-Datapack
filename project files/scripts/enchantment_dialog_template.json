@@ -1,7 +1,7 @@
 {
     "type": "multi_action",
     "title": {
-        "translate": "dialog.description.title"
+        "translate": "dialog.enchantment.title"
     },
     "external_title": {
         "translate": "enchantment.event.acceleration"

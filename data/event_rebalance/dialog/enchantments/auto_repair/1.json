@@ -1,7 +1,7 @@
 {
     "type": "multi_action",
     "title": {
-        "translate": "dialog.description.title"
+        "translate": "dialog.enchantment.title"
     },
     "external_title": {
         "translate": "enchantment.event.auto_repair"
@@ -32,7 +32,13 @@
         {
             "type": "minecraft:plain_message",
             "contents": {
-                "translate": "dialog.enchant.auto_repair.supported"
+                "translate": "dialog.enchant.supported_items",
+                "extra": [
+                    " ",
+                    {
+                        "translate": "dialog.enchant.auto_repair.supported"
+                    }
+                ]
             },
             "width": 300
         }

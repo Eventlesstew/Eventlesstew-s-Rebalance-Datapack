@@ -293,6 +293,8 @@
     "dialog.enchantment.level.max": "Max Level",
     "dialog.enchantment.level.min": "Minimum Level",
     "dialog.enchantment.level.none": "No Levels",
+    "dialog.enchantment.supported": "§eUsed On:§r",
+    "dialog.enchantment.conflicts": "§cExclusive With:§r",
     "dialog.enchant.full_armor": "On §eFull Armor§r or §eAnimal Armor§r:",
 
     "enchantment.event.acceleration": "Acceleration",
