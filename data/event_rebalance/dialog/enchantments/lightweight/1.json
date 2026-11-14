@@ -57,11 +57,24 @@
         {
             "type": "minecraft:plain_message",
             "contents": {
-                "translate": "dialog.enchant.supported_items",
+                "translate": "dialog.enchantment.supported",
                 "extra": [
                     " ",
                     {
                         "translate": "dialog.enchant.lightweight.supported"
+                    }
+                ]
+            },
+            "width": 300
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "dialog.enchantment.exclusive",
+                "extra": [
+                    " ",
+                    {
+                        "translate": "dialog.enchant.lightweight.conflicts"
                     }
                 ]
             },

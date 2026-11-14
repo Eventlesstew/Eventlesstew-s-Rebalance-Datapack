@@ -145,10 +145,23 @@ for enchant_n, enchant in enumerate(enchant_list):
             {
                 "type": "minecraft:plain_message",
                 "contents": {
-                    "translate": "dialog.enchant.supported_items",
+                    "translate": "dialog.enchantment.supported",
                     "extra": [
                         " ",
                         {"translate": "dialog.enchant." + enchant + ".supported"},
+                    ],
+                },
+                "width": 3 * BUTTON_WIDTH,
+            }
+        )
+        enchant_dialog["body"].append(
+            {
+                "type": "minecraft:plain_message",
+                "contents": {
+                    "translate": "dialog.enchantment.exclusive",
+                    "extra": [
+                        " ",
+                        {"translate": "dialog.enchant." + enchant + ".conflicts"},
                     ],
                 },
                 "width": 3 * BUTTON_WIDTH,

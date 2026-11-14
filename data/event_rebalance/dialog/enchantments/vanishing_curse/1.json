@@ -32,11 +32,24 @@
         {
             "type": "minecraft:plain_message",
             "contents": {
-                "translate": "dialog.enchant.supported_items",
+                "translate": "dialog.enchantment.supported",
                 "extra": [
                     " ",
                     {
                         "translate": "dialog.enchant.vanishing_curse.supported"
+                    }
+                ]
+            },
+            "width": 300
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "dialog.enchantment.exclusive",
+                "extra": [
+                    " ",
+                    {
+                        "translate": "dialog.enchant.vanishing_curse.conflicts"
                     }
                 ]
             },
