@@ -6,8 +6,7 @@ import copy
 BUTTON_WIDTH = 100
 enchant_dialog_path = "data/event_rebalance/dialog/enchantments"
 dialog_template_path = "project files/scripts/enchantment_dialog_template.json"
-list_template_path = "project files/scripts/enchantment_list_template.json"
-enchant_list = os.listdir(enchant_dialog_path)
+enchant_list = []
 
 prot_enchants = ["protection", "barrier", "lightweight", "regrow"]
 dialog_template = {}
@@ -74,7 +73,7 @@ for enchant_n, enchant in enumerate(enchant_list):
             }
         )
 
-        if enchant == "breach":
+        if enchant == "dynamo":
             enchant_dialog["body"][1] = {
                 "type": "minecraft:plain_message",
                 "contents": {
@@ -141,6 +140,14 @@ for enchant_n, enchant in enumerate(enchant_list):
                     "width": 3 * BUTTON_WIDTH,
                 }
             )
+
+        enchant_dialog["body"].append(
+            {
+                "type": "minecraft:plain_message",
+                "contents": {"translate": "dialog.enchant." + enchant + ".supported"},
+                "width": 3 * BUTTON_WIDTH,
+            }
+        )
 
         # Gets the necessary data for previous enchant
         previous_enchant_n = enchant_n - 1

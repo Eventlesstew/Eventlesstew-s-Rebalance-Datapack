@@ -40,6 +40,13 @@
                 "translate": "dialog.enchant.punch.description.3"
             },
             "width": 300
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "dialog.enchant.punch.supported"
+            },
+            "width": 300
         }
     ],
     "actions": [

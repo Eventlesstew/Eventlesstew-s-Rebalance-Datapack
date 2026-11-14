@@ -28,6 +28,13 @@
                 "translate": "dialog.enchant.hot_rod.description.1"
             },
             "width": 300
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "dialog.enchant.hot_rod.supported"
+            },
+            "width": 300
         }
     ],
     "actions": [

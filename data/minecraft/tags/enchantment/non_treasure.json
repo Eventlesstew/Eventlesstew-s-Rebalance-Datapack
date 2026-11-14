@@ -19,7 +19,7 @@
     "event_rebalance:puncture",
     "event_rebalance:valor",
     "event_rebalance:combo",
-    "minecraft:breach",
+    "event_rebalance:dynamo",
     "event_rebalance:fowling",
     "minecraft:density",
     "minecraft:quick_charge",

@@ -68,7 +68,7 @@
               "minecraft:knockback",
               "minecraft:punch",
               "minecraft:smite",
-              "minecraft:looting",
+              "minecraft:fortune",
               "minecraft:multishot"
             ]
           },
@@ -80,7 +80,6 @@
           "modifier": {
             "type": "minecraft:enchant_randomly",
             "options": [
-              "minecraft:breach",
               "minecraft:density"
             ]
           },

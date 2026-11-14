@@ -40,6 +40,13 @@
                 "translate": "dialog.enchant.felling.description.5"
             },
             "width": 300
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "dialog.enchant.felling.supported"
+            },
+            "width": 300
         }
     ],
     "actions": [

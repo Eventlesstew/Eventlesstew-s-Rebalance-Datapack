@@ -40,22 +40,23 @@
                 "translate": "dialog.enchant.efficiency.description.1"
             },
             "width": 300
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "dialog.enchant.efficiency.supported"
+            },
+            "width": 300
         }
     ],
     "actions": [
         {
             "label": {
-                "translate": "enchantment.minecraft.wind_burst",
-                "extra": [
-                    " ",
-                    {
-                        "translate": "enchantment.level.1"
-                    }
-                ]
+                "translate": "enchantment.event.fragility_curse"
             },
             "action": {
                 "type": "show_dialog",
-                "dialog": "event_rebalance:enchantments/wind_burst/1"
+                "dialog": "event_rebalance:enchantments/fragility_curse/1"
             },
             "width": 100
         },

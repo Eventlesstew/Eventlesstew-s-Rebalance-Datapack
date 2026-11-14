@@ -40,6 +40,13 @@
                 "translate": "dialog.enchant.fortune.description.1"
             },
             "width": 300
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "dialog.enchant.fortune.supported"
+            },
+            "width": 300
         }
     ],
     "actions": [

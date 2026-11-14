@@ -40,6 +40,13 @@
                 "translate": "dialog.enchant.focusing.description.3"
             },
             "width": 300
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "dialog.enchant.focusing.supported"
+            },
+            "width": 300
         }
     ],
     "actions": [

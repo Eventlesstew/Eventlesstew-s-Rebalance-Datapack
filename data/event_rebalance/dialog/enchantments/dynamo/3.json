@@ -4,11 +4,11 @@
         "translate": "dialog.description.title"
     },
     "external_title": {
-        "translate": "enchantment.minecraft.breach",
+        "translate": "enchantment.event.dynamo",
         "extra": [
             " ",
             {
-                "translate": "enchantment.level.1"
+                "translate": "enchantment.level.3"
             }
         ]
     },
@@ -19,16 +19,16 @@
                 "id": "enchanted_book",
                 "components": {
                     "stored_enchantments": {
-                        "minecraft:breach": 1
+                        "event_rebalance:dynamo": 3
                     }
                 }
             },
             "description": {
-                "translate": "enchantment.minecraft.breach",
+                "translate": "enchantment.event.dynamo",
                 "extra": [
                     " ",
                     {
-                        "translate": "enchantment.level.1"
+                        "translate": "enchantment.level.3"
                     }
                 ]
             },
@@ -37,28 +37,35 @@
         {
             "type": "minecraft:plain_message",
             "contents": {
-                "translate": "dialog.enchant.breach.description.main"
+                "translate": "dialog.enchant.dynamo.description.main"
             },
             "width": 300
         },
         {
             "type": "minecraft:plain_message",
             "contents": {
-                "translate": "dialog.enchant.breach.description.1.a"
+                "translate": "dialog.enchant.dynamo.description.3.a"
             },
             "width": 300
         },
         {
             "type": "minecraft:plain_message",
             "contents": {
-                "translate": "dialog.enchant.breach.description.1.b"
+                "translate": "dialog.enchant.dynamo.description.3.b"
             },
             "width": 300
         },
         {
             "type": "minecraft:plain_message",
             "contents": {
-                "translate": "dialog.enchant.breach.description.1.c"
+                "translate": "dialog.enchant.dynamo.description.3.c"
+            },
+            "width": 300
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "dialog.enchant.dynamo.supported"
             },
             "width": 300
         }
@@ -70,13 +77,45 @@
                 "extra": [
                     " ",
                     {
-                        "translate": "enchantment.level.1"
+                        "translate": "enchantment.level.3"
                     }
                 ]
             },
             "action": {
                 "type": "show_dialog",
-                "dialog": "event_rebalance:enchantments/combo/1"
+                "dialog": "event_rebalance:enchantments/combo/3"
+            },
+            "width": 100
+        },
+        {
+            "label": {
+                "translate": "dialog.enchantment.level",
+                "extra": [
+                    " ",
+                    {
+                        "translate": "enchantment.level.4"
+                    }
+                ]
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "event_rebalance:enchantments/dynamo/4"
+            },
+            "width": 100
+        },
+        {
+            "label": {
+                "translate": "enchantment.event.brutality",
+                "extra": [
+                    " ",
+                    {
+                        "translate": "enchantment.level.3"
+                    }
+                ]
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "event_rebalance:enchantments/brutality/3"
             },
             "width": 100
         },
@@ -92,33 +131,7 @@
             },
             "action": {
                 "type": "show_dialog",
-                "dialog": "event_rebalance:enchantments/breach/2"
-            },
-            "width": 100
-        },
-        {
-            "label": {
-                "translate": "enchantment.event.brutality",
-                "extra": [
-                    " ",
-                    {
-                        "translate": "enchantment.level.1"
-                    }
-                ]
-            },
-            "action": {
-                "type": "show_dialog",
-                "dialog": "event_rebalance:enchantments/brutality/1"
-            },
-            "width": 100
-        },
-        {
-            "label": {
-                "translate": "dialog.enchantment.level.min"
-            },
-            "action": {
-                "type": "show_dialog",
-                "dialog": "event_rebalance:enchantments/breach/1"
+                "dialog": "event_rebalance:enchantments/dynamo/2"
             },
             "width": 100
         }

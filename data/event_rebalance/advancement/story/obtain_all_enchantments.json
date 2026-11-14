@@ -835,7 +835,7 @@
 				]
 			}
 		},
-		"breach": {
+		"dynamo": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
@@ -843,7 +843,7 @@
 						"predicates": {
 							"enchantments": [
 								{
-									"enchantments": "minecraft:breach"
+									"enchantments": "event_rebalance:dynamo"
 								}
 							]
 						}
@@ -2067,7 +2067,7 @@
 				]
 			}
 		},
-		"breach_book": {
+		"dynamo_book": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
@@ -2075,7 +2075,7 @@
 						"predicates": {
 							"stored_enchantments": [
 								{
-									"enchantments": "minecraft:breach"
+									"enchantments": "event_rebalance:dynamo"
 								}
 							]
 						}
@@ -2382,8 +2382,8 @@
 			"density_book"
 		],
 		[
-			"breach",
-			"breach_book"
+			"dynamo",
+			"dynamo_book"
 		],
 		[
 			"lunge",

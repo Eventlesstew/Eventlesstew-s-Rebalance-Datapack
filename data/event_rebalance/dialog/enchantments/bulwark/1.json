@@ -40,6 +40,13 @@
                 "translate": "dialog.enchant.bulwark.description.1"
             },
             "width": 300
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "dialog.enchant.bulwark.supported"
+            },
+            "width": 300
         }
     ],
     "actions": [

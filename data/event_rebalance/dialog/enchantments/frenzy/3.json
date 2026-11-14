@@ -40,6 +40,13 @@
                 "translate": "dialog.enchant.frenzy.description.3"
             },
             "width": 300
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "dialog.enchant.frenzy.supported"
+            },
+            "width": 300
         }
     ],
     "actions": [

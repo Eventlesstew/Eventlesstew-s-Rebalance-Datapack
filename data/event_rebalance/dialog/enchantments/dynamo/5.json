@@ -4,7 +4,7 @@
         "translate": "dialog.description.title"
     },
     "external_title": {
-        "translate": "enchantment.minecraft.breach",
+        "translate": "enchantment.event.dynamo",
         "extra": [
             " ",
             {
@@ -19,12 +19,12 @@
                 "id": "enchanted_book",
                 "components": {
                     "stored_enchantments": {
-                        "minecraft:breach": 5
+                        "event_rebalance:dynamo": 5
                     }
                 }
             },
             "description": {
-                "translate": "enchantment.minecraft.breach",
+                "translate": "enchantment.event.dynamo",
                 "extra": [
                     " ",
                     {
@@ -37,28 +37,35 @@
         {
             "type": "minecraft:plain_message",
             "contents": {
-                "translate": "dialog.enchant.breach.description.main"
+                "translate": "dialog.enchant.dynamo.description.main"
             },
             "width": 300
         },
         {
             "type": "minecraft:plain_message",
             "contents": {
-                "translate": "dialog.enchant.breach.description.5.a"
+                "translate": "dialog.enchant.dynamo.description.5.a"
             },
             "width": 300
         },
         {
             "type": "minecraft:plain_message",
             "contents": {
-                "translate": "dialog.enchant.breach.description.5.b"
+                "translate": "dialog.enchant.dynamo.description.5.b"
             },
             "width": 300
         },
         {
             "type": "minecraft:plain_message",
             "contents": {
-                "translate": "dialog.enchant.breach.description.5.c"
+                "translate": "dialog.enchant.dynamo.description.5.c"
+            },
+            "width": 300
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "dialog.enchant.dynamo.supported"
             },
             "width": 300
         }
@@ -86,7 +93,7 @@
             },
             "action": {
                 "type": "show_dialog",
-                "dialog": "event_rebalance:enchantments/breach/5"
+                "dialog": "event_rebalance:enchantments/dynamo/5"
             },
             "width": 100
         },
@@ -118,7 +125,7 @@
             },
             "action": {
                 "type": "show_dialog",
-                "dialog": "event_rebalance:enchantments/breach/4"
+                "dialog": "event_rebalance:enchantments/dynamo/4"
             },
             "width": 100
         }

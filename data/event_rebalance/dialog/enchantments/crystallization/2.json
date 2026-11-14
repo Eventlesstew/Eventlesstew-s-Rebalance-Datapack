@@ -40,6 +40,13 @@
                 "translate": "dialog.enchant.crystallization.description.2"
             },
             "width": 300
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "dialog.enchant.crystallization.supported"
+            },
+            "width": 300
         }
     ],
     "actions": [

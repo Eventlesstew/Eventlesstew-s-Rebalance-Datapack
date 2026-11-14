@@ -40,6 +40,13 @@
                 "translate": "dialog.enchant.feasting.description.1"
             },
             "width": 300
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "dialog.enchant.feasting.supported"
+            },
+            "width": 300
         }
     ],
     "actions": [

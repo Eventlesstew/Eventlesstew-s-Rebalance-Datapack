@@ -40,6 +40,13 @@
                 "translate": "dialog.enchant.thorns.description.1"
             },
             "width": 300
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "dialog.enchant.thorns.supported"
+            },
+            "width": 300
         }
     ],
     "actions": [

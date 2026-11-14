@@ -40,12 +40,19 @@
                 "translate": "dialog.enchant.brutality.description.3"
             },
             "width": 300
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "dialog.enchant.brutality.supported"
+            },
+            "width": 300
         }
     ],
     "actions": [
         {
             "label": {
-                "translate": "enchantment.minecraft.breach",
+                "translate": "enchantment.event.dynamo",
                 "extra": [
                     " ",
                     {
@@ -55,7 +62,7 @@
             },
             "action": {
                 "type": "show_dialog",
-                "dialog": "event_rebalance:enchantments/breach/3"
+                "dialog": "event_rebalance:enchantments/dynamo/3"
             },
             "width": 100
         },

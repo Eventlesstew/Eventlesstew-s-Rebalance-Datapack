@@ -6,7 +6,7 @@
     "minecraft:impaling",
     "channeling",
     "minecraft:density",
-    "minecraft:breach",
+    "event_rebalance:dynamo",
     "event_rebalance:frenzy",
     "event_rebalance:valor",
     "event_rebalance:combo",

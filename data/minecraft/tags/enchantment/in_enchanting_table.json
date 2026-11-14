@@ -1,6 +1,6 @@
 {
   "values": [
-    "breach",
+    "event_rebalance:dynamo",
     "event_rebalance:combo",
     "density",
     "efficiency",

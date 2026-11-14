@@ -40,6 +40,13 @@
                 "translate": "dialog.enchant.quick_charge.description.1"
             },
             "width": 300
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "dialog.enchant.quick_charge.supported"
+            },
+            "width": 300
         }
     ],
     "actions": [

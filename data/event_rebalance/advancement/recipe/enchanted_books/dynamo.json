@@ -32,11 +32,11 @@
   ],
   "rewards": {
     "recipes": [
-        "event_rebalance:enchanted_books/breach/1",
-        "event_rebalance:enchanted_books/breach/2",
-        "event_rebalance:enchanted_books/breach/3",
-        "event_rebalance:enchanted_books/breach/4",
-        "event_rebalance:enchanted_books/breach/5"
+        "event_rebalance:enchanted_books/dynamo/1",
+        "event_rebalance:enchanted_books/dynamo/2",
+        "event_rebalance:enchanted_books/dynamo/3",
+        "event_rebalance:enchanted_books/dynamo/4",
+        "event_rebalance:enchanted_books/dynamo/5"
     ]
   }
 }

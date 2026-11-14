@@ -28,6 +28,13 @@
                 "translate": "dialog.enchant.bookworm_bait.description.1"
             },
             "width": 300
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "dialog.enchant.bookworm_bait.supported"
+            },
+            "width": 300
         }
     ],
     "actions": [

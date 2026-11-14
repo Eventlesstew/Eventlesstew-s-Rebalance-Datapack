@@ -40,6 +40,13 @@
                 "translate": "dialog.enchant.combo.description.2"
             },
             "width": 300
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "dialog.enchant.combo.supported"
+            },
+            "width": 300
         }
     ],
     "actions": [
@@ -77,7 +84,7 @@
         },
         {
             "label": {
-                "translate": "enchantment.minecraft.breach",
+                "translate": "enchantment.event.dynamo",
                 "extra": [
                     " ",
                     {
@@ -87,7 +94,7 @@
             },
             "action": {
                 "type": "show_dialog",
-                "dialog": "event_rebalance:enchantments/breach/2"
+                "dialog": "event_rebalance:enchantments/dynamo/2"
             },
             "width": 100
         },

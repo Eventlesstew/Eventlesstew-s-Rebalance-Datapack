@@ -1,0 +1,10 @@
+{
+    "values": [
+        "#minecraft:swords",
+        "#minecraft:spears",
+        "#minecraft:hammers",
+        "#minecraft:axes",
+        "minecraft:mace",
+        "#event_rebalance:enchantable/ranged_weapon"
+    ]
+}

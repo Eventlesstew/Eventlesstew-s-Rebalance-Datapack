@@ -40,6 +40,13 @@
                 "translate": "dialog.enchant.wind_burst.description.1"
             },
             "width": 300
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "dialog.enchant.wind_burst.supported"
+            },
+            "width": 300
         }
     ],
     "actions": [

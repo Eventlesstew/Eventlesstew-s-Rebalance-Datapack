@@ -1186,5 +1186,5 @@
   "slots": [
     "mainhand"
   ],
-  "supported_items": "#minecraft:enchantable/sharp_weapon"
+  "supported_items": "#event_rebalance:enchantable/knockback_weapons"
 }

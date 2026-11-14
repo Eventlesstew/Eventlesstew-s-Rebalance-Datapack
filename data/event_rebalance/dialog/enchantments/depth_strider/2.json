@@ -40,6 +40,13 @@
                 "translate": "dialog.enchant.depth_strider.description.2"
             },
             "width": 300
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "dialog.enchant.depth_strider.supported"
+            },
+            "width": 300
         }
     ],
     "actions": [

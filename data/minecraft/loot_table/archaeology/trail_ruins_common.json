@@ -37,20 +37,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:wooden_spear",
-          "modifier": [
-            "event_rebalance:tiered/spear/wooden",
-            {
-              "type": "set_enchantments",
-              "enchantments": {
-                "event_rebalance:eternity": 1
-              }
-            }
-          ],
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:clay",
           "weight": 2
         },

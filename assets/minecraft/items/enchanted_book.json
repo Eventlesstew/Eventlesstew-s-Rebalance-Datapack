@@ -132,6 +132,60 @@
             },
             {
                 "when": {
+                    "breach": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/removed"
+                }
+            },
+            {
+                "when": {
+                    "breach": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/removed"
+                }
+            },
+            {
+                "when": {
+                    "breach": 3
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/removed"
+                }
+            },
+            {
+                "when": {
+                    "breach": 4
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/removed"
+                }
+            },
+            {
+                "when": {
+                    "breach": 5
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/removed"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
                     "looting": 1
                 },
                 "model": {
@@ -538,50 +592,50 @@
             },
             {
                 "when": {
-                    "breach": 1
+                    "event_rebalance:dynamo": 1
                 },
                 "model": {
                     "type": "model",
-                    "model": "event:item/enchanted_book/breach"
+                    "model": "event:item/enchanted_book/dynamo"
                 }
             },
             {
                 "when": {
-                    "breach": 2
+                    "event_rebalance:dynamo": 2
                 },
                 "model": {
                     "type": "model",
-                    "model": "event:item/enchanted_book/breach"
+                    "model": "event:item/enchanted_book/dynamo"
                 }
             },
             {
                 "when": {
-                    "breach": 3
+                    "event_rebalance:dynamo": 3
                 },
                 "model": {
                     "type": "model",
-                    "model": "event:item/enchanted_book/breach"
+                    "model": "event:item/enchanted_book/dynamo"
                 }
             },
             {
                 "when": {
-                    "breach": 4
+                    "event_rebalance:dynamo": 4
                 },
                 "model": {
                     "type": "model",
-                    "model": "event:item/enchanted_book/breach"
+                    "model": "event:item/enchanted_book/dynamo"
                 }
             },
             {
                 "when": {
-                    "breach": 5
+                    "event_rebalance:dynamo": 5
                 },
                 "model": {
                     "type": "composite",
                     "models": [
                         {
                             "type": "model",
-                            "model": "event:item/enchanted_book/breach"
+                            "model": "event:item/enchanted_book/dynamo"
                         },
                         {
                             "type": "model",

@@ -1,9 +1,12 @@
 {
     "type": "crafting_shapeless",
-    "group": "enchanting_book_breach",
+    "group": "enchanting_book_dynamo",
     "ingredients": [
         "book",
         "#event_rebalance:custom_item/lode",
+        "#event_rebalance:custom_item/rose_golden_ingot",
+        "#event_rebalance:custom_item/rose_golden_ingot",
+        "#event_rebalance:custom_item/rose_golden_ingot",
         "#event_rebalance:custom_item/rose_golden_ingot",
         "#event_rebalance:custom_item/rose_golden_ingot"
     ],
@@ -11,7 +14,7 @@
         "id": "enchanted_book",
         "components": {
             "stored_enchantments": {
-                "breach": 2
+                "event_rebalance:dynamo": 5
             }
         }
     }

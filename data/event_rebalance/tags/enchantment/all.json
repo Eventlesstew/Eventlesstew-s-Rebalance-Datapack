@@ -21,7 +21,7 @@
         "event_rebalance:puncture",
         "event_rebalance:brutality",
         "event_rebalance:combo",
-        "breach",
+        "event_rebalance:dynamo",
         "impaling",
         "channeling",
         "event_rebalance:frenzy",

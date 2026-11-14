@@ -46,6 +46,6 @@
   ],
   "primary_items": "#event_rebalance:enchantable/primary/feather_falling",
   "exclusive_set": "#exclusive_set/armor",
-  "supported_items": "#minecraft:enchantable/foot_armor",
+  "supported_items": "#event_rebalance:enchantable/land_armor",
   "weight": 5
 }

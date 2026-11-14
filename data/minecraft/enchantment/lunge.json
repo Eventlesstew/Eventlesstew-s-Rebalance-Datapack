@@ -1,9 +1,37 @@
 {
-  "anvil_cost": 0,
+  "anvil_cost": 2,
   "description": {
     "translate": "enchantment.minecraft.lunge"
   },
   "effects": {
+    "tick": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "event_rebalance:items/spear/use_remove"
+        },
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:['using_item_spear']}"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "attributes": [
+      {
+        "id": "lunge",
+        "attribute": "attack_speed",
+        "operation": "add_multiplied_base",
+        "amount": -0.5
+      }
+    ],
     "minecraft:post_piercing_attack": [
       {
         "effect": {
@@ -11,21 +39,21 @@
           "effects": [
             {
               "type": "minecraft:change_item_damage",
-              "amount": 1.0
+              "amount": 1
             },
             {
               "type": "minecraft:apply_exhaustion",
               "amount": {
                 "type": "minecraft:linear",
-                "base": 4.0,
-                "per_level_above_first": 4.0
+                "base": 2,
+                "per_level_above_first": 1
               }
             },
             {
               "type": "minecraft:apply_impulse",
               "coordinate_scale": [
                 1.0,
-                0.0,
+                0.5,
                 1.0
               ],
               "direction": [
@@ -35,8 +63,8 @@
               ],
               "magnitude": {
                 "type": "minecraft:linear",
-                "base": 0.458,
-                "per_level_above_first": 0.458
+                "base": 0.45,
+                "per_level_above_first": 0.45
               }
             },
             {
@@ -60,7 +88,7 @@
                 "type": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
-                  "minecraft:vehicle": {}
+                  "vehicle": {}
                 }
               }
             },
@@ -68,77 +96,91 @@
               "type": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "minecraft:flags": {
+                "flags": {
                   "is_fall_flying": false
-                }
-              }
-            },
-            {
-              "type": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "minecraft:flags": {
-                  "is_in_water": false
-                }
-              }
-            },
-            {
-              "type": "minecraft:any_of",
-              "terms": [
-                {
-                  "type": "minecraft:inverted",
-                  "term": {
-                    "type": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "minecraft:type_specific/player": {}
+                },
+                "type_specific/player": {
+                  "food": {
+                    "level": {
+                      "min": 7
                     }
                   }
-                },
-                {
-                  "type": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "minecraft:type_specific/player": {
-                      "gamemode": [
-                        "creative"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:run_function",
+              "function": "event_rebalance:enchantments/acceleration/boost_level_check"
+            }
+          ]
+        },
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "vehicle": {}
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "legs": {
+                    "predicates": {
+                      "enchantments": [
+                        {
+                          "enchantments": "event_rebalance:acceleration"
+                        }
                       ]
                     }
                   }
                 },
-                {
-                  "type": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "minecraft:type_specific/player": {
-                      "food": {
-                        "level": {
-                          "min": 7
-                        }
-                      }
+                "flags": {
+                  "is_fall_flying": false
+                },
+                "type_specific/player": {
+                  "food": {
+                    "level": {
+                      "min": 7
                     }
                   }
                 }
-              ]
+              }
             }
           ]
         }
       }
     ]
   },
-  "max_cost": {
-    "base": 25,
-    "per_level_above_first": 8
-  },
   "max_level": 3,
-  "min_cost": {
-    "base": 5,
-    "per_level_above_first": 8
+  "max_cost": {
+    "base": 16,
+    "per_level_above_first": 12
   },
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 12
+  },
+  "weight": 2,
   "slots": [
-    "hand"
+    "mainhand"
   ],
-  "exclusive_set": "#event_rebalance:exclusive_set/special",
-  "supported_items": "#minecraft:enchantable/lunge",
-  "weight": 5
+  "exclusive_set": [
+    "event_rebalance:puncture"
+  ],
+  "supported_items": "#minecraft:enchantable/lunge"
 }

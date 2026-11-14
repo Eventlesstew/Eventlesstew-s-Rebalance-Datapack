@@ -1,14 +1,14 @@
 {
   "anvil_cost": 0,
   "description": {
-    "translate": "enchantment.minecraft.breach"
+    "translate": "enchantment.event.dynamo"
   },
   "effects": {
     "tick": [
       {
         "effect": {
           "type": "run_function",
-          "function": "event_rebalance:enchantments/breach/tag_apply"
+          "function": "event_rebalance:enchantments/dynamo/tag_apply"
         },
         "requirements": {
           "type": "entity_properties",
@@ -25,7 +25,7 @@
       {
         "effect": {
           "type": "run_function",
-          "function": "event_rebalance:enchantments/breach/tag_remove"
+          "function": "event_rebalance:enchantments/dynamo/tag_remove"
         },
         "requirements": {
           "type": "inverted",
@@ -1262,6 +1262,5 @@
   "slots": [
     "mainhand"
   ],
-  "primary_items": "#event_rebalance:enchantable/primary/breach",
   "supported_items": "#event_rebalance:enchantable/heavy_weapon"
 }

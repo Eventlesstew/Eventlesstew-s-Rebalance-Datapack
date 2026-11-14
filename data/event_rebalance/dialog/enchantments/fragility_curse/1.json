@@ -28,6 +28,13 @@
                 "translate": "dialog.enchant.fragility_curse.description.1"
             },
             "width": 300
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "dialog.enchant.fragility_curse.supported"
+            },
+            "width": 300
         }
     ],
     "actions": [
@@ -53,7 +60,7 @@
         },
         {
             "label": {
-                "translate": "enchantment.event.acceleration",
+                "translate": "enchantment.minecraft.efficiency",
                 "extra": [
                     " ",
                     {
@@ -63,7 +70,7 @@
             },
             "action": {
                 "type": "show_dialog",
-                "dialog": "event_rebalance:enchantments/acceleration/1"
+                "dialog": "event_rebalance:enchantments/efficiency/1"
             },
             "width": 100
         }
