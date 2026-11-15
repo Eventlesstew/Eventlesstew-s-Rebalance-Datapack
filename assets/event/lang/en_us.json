@@ -365,7 +365,7 @@
     "dialog.enchant.dynamo.description.3.c": "§e+0.3§r damage within §e16-50§r Blocks per Second",
     "dialog.enchant.dynamo.description.4.c": "§e+0.4§r damage within §e16-50§r Blocks per Second",
     "dialog.enchant.dynamo.description.5.c": "§e+0.5§r damage within §e16-50§r Blocks per Second",
-    "dialog.enchant.dynamo.supported":"Axes, Spears and Mace",
+    "dialog.enchant.dynamo.supported":"Axes, Hammers, Spears and Mace",
     "dialog.enchant.dynamo.conflicts":"#Damage",
 
     "enchantment.event.brutality": "Brutality",
@@ -697,9 +697,9 @@
     "dialog.enchant.ricochet.description.5": "Projectiles ricochet off blocks §e5§r times",
     "dialog.enchant.ricochet.supported":"Any Ranged Weapon",
 
-    "dialog.enchant.riptide.description.1":"Throwing Trident in water §eLaunches§r you with it, up to §e9 Blocks§f. Trident §ccan't be thrown§r outside of water",
-    "dialog.enchant.riptide.description.2":"Throwing Trident in water §eLaunches§r you with it, up to §e15 Blocks§f. Trident §ccan't be thrown§r outside of water",
-    "dialog.enchant.riptide.description.3":"Throwing Trident in water §eLaunches§r you with it, up to §e21 Blocks§f. Trident §ccan't be thrown§r outside of water",
+    "dialog.enchant.riptide.description.1":"Throwing Trident in water §eLaunches§r you with it, up to §e9 Blocks§f. Trident §ccan't be thrown§f outside of water",
+    "dialog.enchant.riptide.description.2":"Throwing Trident in water §eLaunches§r you with it, up to §e15 Blocks§f. Trident §ccan't be thrown§f outside of water",
+    "dialog.enchant.riptide.description.3":"Throwing Trident in water §eLaunches§r you with it, up to §e21 Blocks§f. Trident §ccan't be thrown§f outside of water",
     "dialog.enchant.riptide.supported":"Tridents",
     "dialog.enchant.riptide.conflicts":"Loyalty",
 

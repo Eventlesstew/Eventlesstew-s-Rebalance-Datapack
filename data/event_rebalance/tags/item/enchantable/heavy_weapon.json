@@ -2,6 +2,7 @@
   "values": [
     "#minecraft:axes",
     "minecraft:mace",
-    "#minecraft:spears"
+    "#minecraft:spears",
+    "#minecraft:hammers"
   ]
 }

@@ -103,7 +103,13 @@
         },
         {
             "label": {
-                "translate": "enchantment.minecraft.multishot"
+                "translate": "enchantment.minecraft.multishot",
+                "extra": [
+                    " ",
+                    {
+                        "translate": "enchantment.level.1"
+                    }
+                ]
             },
             "action": {
                 "type": "show_dialog",
