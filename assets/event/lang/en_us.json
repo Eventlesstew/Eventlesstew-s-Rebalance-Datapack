@@ -302,7 +302,7 @@
     "dialog.enchant.acceleration.description.2":"§e+4%§r Speed per second during continuous sprinting. §c+50%§r Hunger Loss during Sprinting",
     "dialog.enchant.acceleration.description.3":"§e+6%§r Speed per second during continuous sprinting. §c+75%§r Hunger Loss during Sprinting",
     "dialog.enchant.acceleration.supported":"Leggings",
-    "dialog.enchant.acceleration.exclusive":"Leggings",
+    "dialog.enchant.acceleration.conflicts":"Swift Sneak",
 
     "enchantment.event.aerodynamic": "Aerodynamic",
     "dialog.enchant.aerodynamic.description.1": "§e-40%§r Knockback Resistance",
@@ -310,13 +310,16 @@
     "dialog.enchant.aerodynamic.description.3": "§e-80%§r Knockback Resistance",
     "dialog.enchant.aerodynamic.description.4": "§e-100%§r Knockback Resistance",
     "dialog.enchant.aerodynamic.supported":"Chestplate and Animal Armor",
+    "dialog.enchant.aerodynamic.conflicts":"Bulwark, Thorns",
 
     "dialog.enchant.aqua_affinity.description.1": "§eNo speed penalty§r when Mining in Water",
     "dialog.enchant.aqua_affinity.supported":"Mining Tools",
+    "dialog.enchant.aqua_affinity.conflicts":"Melting",
 
     "enchantment.event.auto_repair": "Auto-Repair",
     "dialog.enchant.auto_repair.description.1": "When used under 10 Durability, uses 1 Magnium Ingot to restore §e25%§r Durability",
     "dialog.enchant.auto_repair.supported":"Anything with Durability",
+    "dialog.enchant.auto_repair.conflicts":"#Durability",
 
     "enchantment.event.avarice_curse": "Curse of Avarice",
     "dialog.enchant.avarice_curse.description.1": "Arrows deal §cNo Damage§r unless Spectral",
@@ -333,6 +336,7 @@
     "dialog.enchant.barrier.description.full.3": "§e+60%§r Damage Reduction against Fire, Lightning, Explosions and Magic",
     "dialog.enchant.barrier.description.full.4": "§e+75%§r Damage Reduction against Fire, Lightning, Explosions and Magic",
     "dialog.enchant.barrier.supported":"Any Armor",
+    "dialog.enchant.barrier.conflicts":"#Defensive",
 
     "dialog.enchant.binding_curse.description.1": "§cCannot§r be unequipped when worn",
     "dialog.enchant.binding_curse.supported":"Any Wearable Item",
@@ -340,6 +344,7 @@
     "enchantment.event.bookworm_bait": "Bookworm Bait",
     "dialog.enchant.bookworm_bait.description.1": "Can only catch §eBooks§r or §eEnchanted Books§r",
     "dialog.enchant.bookworm_bait.supported":"Fishing Rod",
+    "dialog.enchant.bookworm_bait.conflicts":"Luck of the Sea | Hot Rod",
 
     "enchantment.event.dynamo": "Dynamo",
     "dialog.enchant.dynamo.description.main": "Damage §eIncreases§r based on horizontal speed in blocks per second",
@@ -361,6 +366,7 @@
     "dialog.enchant.dynamo.description.4.c": "§e+0.4§r damage within 16-50 Blocks",
     "dialog.enchant.dynamo.description.5.c": "§e+0.5§r damage within 16-50 Blocks",
     "dialog.enchant.dynamo.supported":"Axes, Spears and Mace",
+    "dialog.enchant.dynamo.conflicts":"#Damage",
 
     "enchantment.event.brutality": "Brutality",
     "dialog.enchant.brutality.description.1": "§e+4§r Damage, but attacking inflicts §c+1§r magic self-damage",
@@ -369,6 +375,7 @@
     "dialog.enchant.brutality.description.4": "§e+10§r Damage, but attacking inflicts §c+2.5§r magic self-damage",
     "dialog.enchant.brutality.description.5": "§e+12§r Damage, but attacking inflicts §c+3§r magic self-damage",
     "dialog.enchant.brutality.supported":"Axes, Hammers, Wolf Armor and Mace",
+    "dialog.enchant.brutality.conflicts":"#Damage",
 
     "enchantment.event.bulwark": "Bulwark",
     "dialog.enchant.bulwark.description.1": "§e+40%§r Knockback Resistance",
@@ -376,6 +383,7 @@
     "dialog.enchant.bulwark.description.3": "§e+80%§r Knockback Resistance",
     "dialog.enchant.bulwark.description.4": "§e+100%§r Knockback Resistance",
     "dialog.enchant.bulwark.supported":"Chestplate and Animal Armor",
+    "dialog.enchant.bulwark.conflicts":"Aerodynamic, Thorns",
 
     "dialog.enchant.channeling.description.1": "Thrown tridents deal §e+2§r Damage to mobs in water within 10 blocks. Summons §eLightning§r if it hits a mob or Lightning Rod in rain",
     "dialog.enchant.channeling.description.2": "Thrown tridents deal §e+3.5§r Damage to mobs in water within 10 blocks. Summons §eLightning§r if it hits a mob or Lightning Rod in rain",
@@ -383,6 +391,7 @@
     "dialog.enchant.channeling.description.4": "Thrown tridents deal §e+6.5§r Damage to mobs in water within 10 blocks. Summons §eLightning§r if it hits a mob or Lightning Rod in rain",
     "dialog.enchant.channeling.description.5": "Thrown tridents deal §e+8§r Damage to mobs in water within 10 blocks. Summons §eLightning§r if it hits a mob or Lightning Rod in rain",
     "dialog.enchant.channeling.supported":"Trident",
+    "dialog.enchant.channeling.conflicts":"#Damage",
     
     "enchantment.event.combo": "Combo",
     "dialog.enchant.combo.description.1": "§e+1§r Damage for each hit dealt within 1.5 seconds. Max §e+4§r Damage",
@@ -391,24 +400,28 @@
     "dialog.enchant.combo.description.4": "§e+2.5§r Damage for each hit dealt within 1.5 seconds. Max §e+10§r Damage",
     "dialog.enchant.combo.description.5": "§e+3§r Damage for each hit dealt within 1.5 seconds. Max §e+12§r Damage",
     "dialog.enchant.combo.supported":"Swords, Daggers, Spears and Wolf Armor",
+    "dialog.enchant.combo.conflicts":"#Damage",
     
     "enchantment.event.conserve": "Conserve",
     "dialog.enchant.conserve.description.1": "§e25%§r chance to not consume Arrows or Tipped Arrows",
     "dialog.enchant.conserve.description.2": "§e50%§r chance to not consume Arrows or Tipped Arrows",
     "dialog.enchant.conserve.description.3": "§e75%§r chance to not consume Arrows or Tipped Arrows",
     "dialog.enchant.conserve.supported":"Bow and Crossbow",
+    "dialog.enchant.conserve.conflicts":"#Durability",
 
     "enchantment.event.crackle": "Crackle",
     "dialog.enchant.crackle.description.1": "Critical Hits inflict §eSlowness II§r for 2 seconds",
     "dialog.enchant.crackle.description.2": "Critical Hits inflict §eSlowness III§r for 2 seconds",
     "dialog.enchant.crackle.description.3": "Critical Hits inflict §eSlowness IV§r for 2 seconds",
     "dialog.enchant.crackle.supported":"Axes, Hammers and Mace",
+    "dialog.enchant.crackle.conflicts":"Rampage, Feasting",
 
     "enchantment.event.crystallization": "Crystallization",
     "dialog.enchant.crystallization.description.1": "Restores §e4§r Durability per second. §cx10§r Durability Loss",
     "dialog.enchant.crystallization.description.2": "Restores §e8§r Durability per second. §cx10§r Durability Loss",
     "dialog.enchant.crystallization.description.3": "Restores §e12§r Durability per second. §cx10§r Durability Loss",
     "dialog.enchant.crystallization.supported":"Anything with Durability",
+    "dialog.enchant.crystallization.conflicts":"#Durability",
 
     "dialog.enchant.density.description.1": "§e+0.5§r Damage per block of fall distance",
     "dialog.enchant.density.description.2": "§e+0.75§r Damage per block of fall distance",
@@ -416,16 +429,19 @@
     "dialog.enchant.density.description.4": "§e+1.25§r Damage per block of fall distance",
     "dialog.enchant.density.description.5": "§e+1.5§r Damage per block of fall distance",
     "dialog.enchant.density.supported":"Mace",
+    "dialog.enchant.density.conflicts":"#Damage",
     
     "dialog.enchant.depth_strider.description.1": "§e+33%§r Movement Speed in water",
     "dialog.enchant.depth_strider.description.2": "§e+66%§r Movement Speed in water",
     "dialog.enchant.depth_strider.description.3": "§e+100%§r Movement Speed in water",
     "dialog.enchant.depth_strider.supported":"Boots, Horse and Wolf Armor",
+    "dialog.enchant.depth_strider.conflicts":"Frost Walker, Soul Speed",
 
     "enchantment.event.echo": "Echo",
     "dialog.enchant.echo.description.1": "Bow shoots §e2§r Arrows successively",
     "dialog.enchant.echo.description.2": "Bow shoots §e3§r Arrows successively",
     "dialog.enchant.echo.supported":"Bow",
+    "dialog.enchant.echo.conflicts":"Piercing",
 
     "dialog.enchant.efficiency.description.1": "§e+10§r Mining Speed",
     "dialog.enchant.efficiency.description.2": "§e+20§r Mining Speed",
@@ -433,22 +449,26 @@
     "dialog.enchant.efficiency.description.4": "§e+40§r Mining Speed",
     "dialog.enchant.efficiency.description.5": "§e+50§r Mining Speed",
     "dialog.enchant.efficiency.supported":"Mining Tools",
+    "dialog.enchant.efficiency.conflicts":"Focusing, Felling",
 
     "enchantment.event.eternity": "Eternity",
     "dialog.enchant.eternity.description.1": "§eNo§r Durability Loss",
     "dialog.enchant.eternity.supported":"Anything with Durability",
+    "dialog.enchant.eternity.conflicts":"#Durability",
     
     "enchantment.event.feasting": "Feasting",
     "dialog.enchant.feasting.description.1": "Critical Hits give you §e1§r Food and §e2§r Saturation",
     "dialog.enchant.feasting.description.2": "Critical Hits give you §e2§r Food and §e4§r Saturation",
     "dialog.enchant.feasting.description.3": "Critical Hits give you §e3§r Food and §e6§r Saturation",
     "dialog.enchant.feasting.supported":"Axes, Hammers and Mace",
+    "dialog.enchant.feasting.conflicts":"Rampage, Crackle",
 
     "dialog.enchant.feather_falling.description.1": "§e-12%§r Fall Damage",
     "dialog.enchant.feather_falling.description.2": "§e-24%§r Fall Damage",
     "dialog.enchant.feather_falling.description.3": "§e-36%§r Fall Damage",
     "dialog.enchant.feather_falling.description.4": "§e-48%§r Fall Damage",
     "dialog.enchant.feather_falling.supported":"Boots, Horse and Wolf Armor",
+    "dialog.enchant.feather_falling.conflicts":"#Defensive",
 
     "enchantment.event.felling": "Felling",
     "dialog.enchant.felling.description.1": "§e+4§r Block Range when looking up or down",
@@ -457,6 +477,7 @@
     "dialog.enchant.felling.description.4": "§e+16§r Block Range when looking up or down",
     "dialog.enchant.felling.description.5": "§e+20§r Block Range when looking up or down",
     "dialog.enchant.felling.supported":"Mining Tools",
+    "dialog.enchant.felling.conflicts":"Efficiency, Focusing",
 
     "dialog.enchant.fire_aspect.description.1": "Attacks ignite mobs for §e5§r seconds",
     "dialog.enchant.fire_aspect.supported":"Weapons",
@@ -468,11 +489,13 @@
     "dialog.enchant.focusing.description.4": "§e+40§r Mining Speed and §e+4§r Block Range when standing still",
     "dialog.enchant.focusing.description.5": "§e+50§r Mining Speed and §e+5§r Block Range when standing still",
     "dialog.enchant.focusing.supported":"Mining Tools",
+    "dialog.enchant.focusing.conflicts":"Efficiency, Felling",
     
     "dialog.enchant.fortune.description.1": "Gives §eSlightly Increased§r Loot from Mining Ores, Killing Mobs or Fishing",
     "dialog.enchant.fortune.description.2": "Gives §eIncreased§r Loot from Mining Ores, Killing Mobs or Fishing",
     "dialog.enchant.fortune.description.3": "Gives §eGreatly increased§r loot from Mining Ores, Killing Mobs or Fishing",
     "dialog.enchant.fortune.supported":"Tools, Weapons and Fishing Rods",
+    "dialog.enchant.fortune.conflicts":"Lure",
 
     "enchantment.event.fowling": "Fowling",
     "dialog.enchant.fowling.description.1": "§e+2§r Damage to targets in midair",
@@ -481,6 +504,7 @@
     "dialog.enchant.fowling.description.4": "§e+6.5§r Damage to targets in midair",
     "dialog.enchant.fowling.description.5": "§e+8§r Damage to targets in midair",
     "dialog.enchant.fowling.supported":"Ranged Weapons",
+    "dialog.enchant.fowling.conflicts":"#Damage",
 
     "enchantment.event.fragility_curse": "Curse of Fragility",
     "dialog.enchant.fragility_curse.description.1": "§cx2§r Durability Loss",
@@ -493,10 +517,12 @@
     "dialog.enchant.frenzy.description.4": "§e+40%§r Attack Speed",
     "dialog.enchant.frenzy.description.5": "§e+50%§r Attack Speed",
     "dialog.enchant.frenzy.supported":"Any Melee Weapon",
+    "dialog.enchant.frenzy.conflicts":"#Damage",
 
     "dialog.enchant.frost_walker.description.1": "When moving, water within a §e3§r block radius turns into Frosted Ice",
     "dialog.enchant.frost_walker.description.2": "When moving, water within a §e4§r block radius turns into Frosted Ice",
     "dialog.enchant.frost_walker.supported":"Boots, Horse and Wolf Armor",
+    "dialog.enchant.frost_walker.conflicts":"Depth Strider, Soul Speed",
 
     "enchantment.event.guiding": "Guiding",
     "dialog.enchant.guiding.description.1": "Projectiles §emove§r towards where you look",
@@ -505,6 +531,7 @@
     "enchantment.event.hot_rod": "Hot Rod",
     "dialog.enchant.hot_rod.description.1": "Caught items are §esmelted§r if possible",
     "dialog.enchant.hot_rod.supported":"Fishing Rod",
+    "dialog.enchant.hot_rod.conflicts":"Luck of the Sea, Bookworm Bait",
     
     "dialog.enchant.impaling.description.1": "§e+2§r Damage to targets in water",
     "dialog.enchant.impaling.description.2": "§e+3.5§r Damage to targets in water",
@@ -512,19 +539,23 @@
     "dialog.enchant.impaling.description.4": "§e+6.5§r Damage to targets in water",
     "dialog.enchant.impaling.description.5": "§e+8§r Damage to targets in water",
     "dialog.enchant.impaling.supported":"Any Weapon",
+    "dialog.enchant.impaling.conflicts":"#Damage",
     
     "dialog.enchant.infinity.description.1": "Used arrows are §enot§r consumed",
     "dialog.enchant.infinity.supported":"Bows and Crossbows",
+    "dialog.enchant.infinity.conflicts":"#Durability",
 
     "dialog.enchant.knockback.description.1": "§e+100%§r Knockback",
     "dialog.enchant.knockback.description.2": "§e+200%§r Knockback",
     "dialog.enchant.knockback.supported":"Any Weapon, except Daggers",
+    "dialog.enchant.knockback.conflicts":"Uppercut, Punch, Wind Burst",
 
     "enchantment.event.launching": "Uppercut",
-    "dialog.enchant.launching.description.1": "§eTBA§r",
-    "dialog.enchant.launching.description.2": "§eTBA§r",
-    "dialog.enchant.launching.description.3": "§eTBA§r",
+    "dialog.enchant.launching.description.1": "On attack, launches target up to §e3 Blocks§r",
+    "dialog.enchant.launching.description.2": "On attack, launches target up to §e5 Blocks§r",
+    "dialog.enchant.launching.description.3": "On attack, launches target up to §e7 Blocks§r",
     "dialog.enchant.launching.supported":"Any Weapon, except Daggers",
+    "dialog.enchant.launching.conflicts":"Knockback, Punch, Wind Burst",
 
     "enchantment.event.lightweight": "Lightweight",
     "dialog.enchant.lightweight.description.1": "§e+1%§r Movement Speed",
@@ -537,45 +568,54 @@
     "dialog.enchant.lightweight.description.full.3": "§e+12%§r Movement Speed",
     "dialog.enchant.lightweight.description.full.4": "§e+16%§r Movement Speed",
     "dialog.enchant.lightweight.supported":"Any Armor",
+    "dialog.enchant.lightweight.conflicts":"#Defensive",
 
     "dialog.enchant.loyalty.description.1": "Thrown Trident §eSlowly Returns§r to you after hitting something",
     "dialog.enchant.loyalty.description.2": "Thrown Trident §eReturns§r to you after hitting something",
     "dialog.enchant.loyalty.description.3": "Thrown Trident §eQuickly Returns§r to you after hitting something",
     "dialog.enchant.loyalty.supported":"Trident",
+    "dialog.enchant.loyalty.conflicts":"Riptide",
     
     "dialog.enchant.luck_of_the_sea.description.1": "§e+2%§r chance to get Treasure instead of Junk when fishing",
     "dialog.enchant.luck_of_the_sea.description.2": "§e+4%§r chance to get Treasure instead of Junk when fishing",
     "dialog.enchant.luck_of_the_sea.description.3": "§e+6%§r chance to get Treasure instead of Junk when fishing",
     "dialog.enchant.luck_of_the_sea.supported":"Fishing Rod",
+    "dialog.enchant.luck_of_the_sea.conflicts":"Hot Rod, Bookworm Bait",
 
     "dialog.enchant.lunge.description.1": "Jab Attack makes you §edash§r up to 4 Blocks forward. §c-50%§r Attack Speed. Dash costs §c1§r Durability and §c0.5§r Food",
     "dialog.enchant.lunge.description.2": "Jab Attack makes you §edash§r up to 8 Blocks forward. §c-50%§r Attack Speed. Dash costs §c1§r Durability and §c0.75§r Food",
     "dialog.enchant.lunge.description.3": "Jab Attack makes you §edash§r up to 12 Blocks forward. §c-50%§r Attack Speed. Dash costs §c1§r Durability and §c1§r Food",
     "dialog.enchant.lunge.supported":"Spears",
+    "dialog.enchant.lunge.conflicts":"Puncture",
 
     "dialog.enchant.lure.description.1": "Reduces time until the bobber gets a bite by §e5 Seconds§r",
     "dialog.enchant.lure.description.2": "Reduces time until the bobber gets a bite by §e10 Seconds§r",
     "dialog.enchant.lure.description.3": "Reduces time until the bobber gets a bite by §e15 Seconds§r",
     "dialog.enchant.lure.supported":"Fishing Rod",
+    "dialog.enchant.lure.conflicts":"Fortune",
 
     "enchantment.event.melting": "Melting",
     "dialog.enchant.melting.description.1": "Mined blocks are §esmelted§r if possible",
     "dialog.enchant.melting.supported":"Mining Tools",
+    "dialog.enchant.melting.conflicts":"Aqua Affinity",
 
     "dialog.enchant.mending.description.1": "Restores §e3§r Durability when Mining Ores, Sculk or Killing Mobs",
     "dialog.enchant.mending.description.2": "Restores §e3§r Durability when Mining Ores, Sculk or Killing Mobs",
     "dialog.enchant.mending.description.3": "Restores §e3§r Durability when Mining Ores, Sculk or Killing Mobs",
     "dialog.enchant.mending.supported":"Anything with Durability",
+    "dialog.enchant.mending.conflicts":"#Durability",
 
     "dialog.enchant.multishot.description.1": "Fires §e3§r Arrows at once",
     "dialog.enchant.multishot.description.2": "Fires §e5§r Arrows at once",
     "dialog.enchant.multishot.supported":"Crossbow",
+    "dialog.enchant.multishot.conflicts":"Piercing",
 
     "dialog.enchant.piercing.description.1": "Arrows pierce through §e1 Target§r",
     "dialog.enchant.piercing.description.2": "Arrows pierce through §e2 Targets§r",
     "dialog.enchant.piercing.description.3": "Arrows pierce through §e3 Targets§r",
     "dialog.enchant.piercing.description.4": "Arrows pierce through §e4 Targets§r",
     "dialog.enchant.piercing.supported":"Any Ranged Weapon",
+    "dialog.enchant.piercing.conflicts":"Multishot, Echo",
     
     "dialog.enchant.power.description.1": "§e+1§r Damage",
     "dialog.enchant.power.description.2": "§e+1.5§r Damage",
@@ -583,6 +623,7 @@
     "dialog.enchant.power.description.4": "§e+2.5§r Damage",
     "dialog.enchant.power.description.5": "§e+3§r Damage",
     "dialog.enchant.power.supported":"Any Weapon or Wolf Armor",
+    "dialog.enchant.power.conflicts":"#Damage",
     
     "dialog.enchant.protection.description.1": "§e+5%§r Damage Reduction against most sources of damage",
     "dialog.enchant.protection.description.2": "§e+7.5%§r Damage Reduction against most sources of damage",
@@ -594,11 +635,13 @@
     "dialog.enchant.protection.description.full.3": "§e+40%§r Damage Reduction against most sources of damage",
     "dialog.enchant.protection.description.full.4": "§e+50%§r Damage Reduction against most sources of damage",
     "dialog.enchant.protection.supported":"Any Armor",
+    "dialog.enchant.protection.conflicts":"#Defensive",
 
     "dialog.enchant.punch.description.1": "§e+25%§r Knockback for every block you cross per second, in the range of 5-50 blocks",
     "dialog.enchant.punch.description.2": "§e+50%§r Knockback for every block you cross per second, in the range of 5-50 blocks",
     "dialog.enchant.punch.description.3": "§e+75%§r Knockback for every block you cross per second, in the range of 5-50 blocks",
     "dialog.enchant.punch.supported":"Any Weapon except Daggers",
+    "dialog.enchant.punch.conflicts":"Knockback, Uppercut, Wind Burst",
     
     "enchantment.event.puncture": "Puncture",
     "dialog.enchant.puncture.description.1": "§e+2§r Jab Damage",
@@ -607,17 +650,20 @@
     "dialog.enchant.puncture.description.4": "§e+6.5§r Jab Damage",
     "dialog.enchant.puncture.description.5": "§e+8§r Jab Damage",
     "dialog.enchant.puncture.supported":"Spears and Tridents",
+    "dialog.enchant.puncture.conflicts":"#Damage, Lunge",
 
     "dialog.enchant.quick_charge.description.1": "§e-20%§r Reload Time",
     "dialog.enchant.quick_charge.description.2": "§e-40%§r Reload Time",
     "dialog.enchant.quick_charge.description.3": "§e-60%§r Reload Time",
     "dialog.enchant.quick_charge.supported":"Crossbows",
+    "dialog.enchant.quick_charge.conflicts":"#Damage",
 
     "enchantment.event.rampage": "Rampage",
     "dialog.enchant.rampage.description.1":"Crit Attack gives you §eHaste III§r for 2 seconds",
     "dialog.enchant.rampage.description.2":"Crit Attack gives you §eHaste IV§r for 2 seconds",
     "dialog.enchant.rampage.description.3":"Crit Attack gives you §eHaste V§r for 2 seconds",
     "dialog.enchant.rampage.supported":"Axes, Hammers and Mace",
+    "dialog.enchant.rampage.conflicts":"Crackle, Feasting",
     
     "enchantment.event.rebound": "Rebound",
     "dialog.enchant.rebound.description.1": "Hitting a target makes you §edash§r up to §e4§r Blocks backwards",
@@ -636,6 +682,7 @@
     "dialog.enchant.regrow.description.full.3": "Restores §e4 Health§r every §e7.5§r seconds",
     "dialog.enchant.regrow.description.full.4": "Restores §e4 Health§r every §e5§r seconds",
     "dialog.enchant.regrow.supported":"Any Armor",
+    "dialog.enchant.regrow.conflicts":"#Defensive",
 
     "dialog.enchant.respiration.description.1": "§e+10 Seconds§r of breathing Underwater",
     "dialog.enchant.respiration.description.2": "§e+20 Seconds§r of breathing Underwater",
@@ -650,10 +697,11 @@
     "dialog.enchant.ricochet.description.5": "Projectiles ricochet off blocks §e5§r times",
     "dialog.enchant.ricochet.supported":"Any Ranged Weapon",
 
-    "dialog.enchant.riptide.description.1":"Throwing Trident in water §eLaunches§r you with it, up to §e9 Blocks§r. Trident §ccan't be thrown§r outside of water",
-    "dialog.enchant.riptide.description.2":"Throwing Trident in water §eLaunches§r you with it, up to §e15 Blocks§r. Trident §ccan't be thrown§r outside of water",
-    "dialog.enchant.riptide.description.3":"Throwing Trident in water §eLaunches§r you with it, up to §e21 Blocks§r. Trident §ccan't be thrown§r outside of water",
+    "dialog.enchant.riptide.description.1":"Throwing Trident in water §eLaunches§r you with it, up to §e9 Blocks§f. Trident §ccan't be thrown§r outside of water",
+    "dialog.enchant.riptide.description.2":"Throwing Trident in water §eLaunches§r you with it, up to §e15 Blocks§f. Trident §ccan't be thrown§r outside of water",
+    "dialog.enchant.riptide.description.3":"Throwing Trident in water §eLaunches§r you with it, up to §e21 Blocks§f. Trident §ccan't be thrown§r outside of water",
     "dialog.enchant.riptide.supported":"Tridents",
+    "dialog.enchant.riptide.conflicts":"Loyalty",
 
     "dialog.enchant.smite.description.1": "§e+2§r Damage against Undead mobs",
     "dialog.enchant.smite.description.2": "§e+3.5§r Damage against Undead mobs",
@@ -661,11 +709,13 @@
     "dialog.enchant.smite.description.4": "§e+6.5§r Damage against Undead mobs",
     "dialog.enchant.smite.description.5": "§e+8§r Damage against Undead mobs",
     "dialog.enchant.smite.supported":"Any Weapon or Wolf Armor",
+    "dialog.enchant.smite.conflicts":"#Damage",
     
     "dialog.enchant.soul_speed.description.1": "Temporarily grants §eSpeed II§r on kill. §e+50%§r Speed on Soul Sand",
     "dialog.enchant.soul_speed.description.2": "Temporarily grants §eSpeed III§r on kill. §e+75%§r Speed on Soul Sand",
     "dialog.enchant.soul_speed.description.3": "Temporarily grants §eSpeed IV§r on kill. §e+100%§r Speed on Soul Sand",
     "dialog.enchant.soul_speed.supported":"Boots, Horse and Wolf Armor",
+    "dialog.enchant.soul_speed.conflicts":"Depth Strider, Frost Walker",
     
     "dialog.enchant.sweeping_edge.description.1": "§e+10%§r Sweep Attack Damage",
     "dialog.enchant.sweeping_edge.description.2": "§e+20%§r Sweep Attack Damage",
@@ -676,17 +726,20 @@
     "dialog.enchant.swift_sneak.description.2": "§e+100%§r Sneaking Speed",
     "dialog.enchant.swift_sneak.description.3": "§e+150%§r Sneaking Speed",
     "dialog.enchant.swift_sneak.supported":"Leggings",
+    "dialog.enchant.swift_sneak.conflicts":"Acceleration",
 
     "dialog.enchant.thorns.description.1": "Deals §e2§r Damage to attackers when hit",
     "dialog.enchant.thorns.description.2": "Deals §e4§r Damage to attackers when hit",
     "dialog.enchant.thorns.description.3": "Deals §e6§r Damage to attackers when hit",
     "dialog.enchant.thorns.supported":"Chestplate and Animal Armor",
+    "dialog.enchant.thorns.conflicts":"Bulwark, Aerodynamic",
 
     "dialog.enchant.unbreaking.description.1": "§e-20%§r Durability Loss",
     "dialog.enchant.unbreaking.description.2": "§e-40%§r Durability Loss",
     "dialog.enchant.unbreaking.description.3": "§e-60%§r Durability Loss",
     "dialog.enchant.unbreaking.description.4": "§e-80%§r Durability Loss",
     "dialog.enchant.unbreaking.supported":"Anything with Durability",
+    "dialog.enchant.unbreaking.conflicts":"#Durability",
 
     "enchantment.event.valor": "Valor",
     "dialog.enchant.valor.description.1": "§e+2§r Critical Attack Damage",
@@ -695,6 +748,7 @@
     "dialog.enchant.valor.description.4": "§e+6.5§r Critical Attack Damage",
     "dialog.enchant.valor.description.5": "§e+8§r Critical Attack Damage",
     "dialog.enchant.valor.supported":"Swords and Daggers",
+    "dialog.enchant.valor.conflicts":"#Damage",
     
     "dialog.enchant.vanishing_curse.description.1": "Item §cdisappears§r from your inventory when you die",
     "dialog.enchant.vanishing_curse.supported":"Anything with Durability",
@@ -703,6 +757,7 @@
     "dialog.enchant.wind_burst.description.2": "Smash attack creates a §eWind Explosion§r",
     "dialog.enchant.wind_burst.description.3": "Smash attack creates a §eStrong Wind Explosion§r",
     "dialog.enchant.wind_burst.supported":"Mace",
+    "dialog.enchant.wind_burst.conflicts":"Knockback, Uppercut, Punch",
 
     "enchantment.event.charging": "Charging",
     "enchantment.event.homing": "Homing",

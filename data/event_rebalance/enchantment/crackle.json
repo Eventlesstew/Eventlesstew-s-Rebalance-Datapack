@@ -55,7 +55,7 @@
       }
     ]
   },
-  "exclusive_set": "#event_rebalance:exclusive_set/special",
+  "exclusive_set": "#event_rebalance:exclusive_set/axe_crit",
   "max_level": 3,
   "max_cost": {
     "base": 16,

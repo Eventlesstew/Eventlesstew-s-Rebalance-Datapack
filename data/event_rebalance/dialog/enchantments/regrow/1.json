@@ -46,7 +46,7 @@
             "contents": {
                 "translate": "dialog.enchant.full_armor",
                 "extra": [
-                    " ",
+                    "\n",
                     {
                         "translate": "dialog.enchant.regrow.description.full.1"
                     }

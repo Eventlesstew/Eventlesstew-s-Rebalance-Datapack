@@ -44,21 +44,17 @@
         {
             "type": "minecraft:plain_message",
             "contents": {
-                "translate": "dialog.enchant.dynamo.description.5.a"
-            },
-            "width": 300
-        },
-        {
-            "type": "minecraft:plain_message",
-            "contents": {
-                "translate": "dialog.enchant.dynamo.description.5.b"
-            },
-            "width": 300
-        },
-        {
-            "type": "minecraft:plain_message",
-            "contents": {
-                "translate": "dialog.enchant.dynamo.description.5.c"
+                "translate": "dialog.enchant.dynamo.description.5.a",
+                "extra": [
+                    "\n",
+                    {
+                        "translate": "dialog.enchant.dynamo.description.5.b"
+                    },
+                    "\n",
+                    {
+                        "translate": "dialog.enchant.dynamo.description.5.c"
+                    }
+                ]
             },
             "width": 300
         },

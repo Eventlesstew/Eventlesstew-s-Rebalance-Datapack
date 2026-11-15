@@ -17,7 +17,7 @@
       }
     ]
   },
-  "exclusive_set": "#event_rebalance:exclusive_set/special",
+  "exclusive_set": "#event_rebalance:exclusive_set/bow_multihit",
   "max_cost": {
     "base": 50,
     "per_level_above_first": 0

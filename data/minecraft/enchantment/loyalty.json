@@ -30,7 +30,7 @@
   "slots": [
     "mainhand"
   ],
-  "exclusive_set": "#event_rebalance:exclusive_set/special",
+  "exclusive_set": "#event_rebalance:exclusive_set/trident_special",
   "supported_items": "#minecraft:enchantable/trident",
   "weight": 5
 }

@@ -90,32 +90,24 @@ for enchant_n, enchant in enumerate(enchant_list):
                         + ".description."
                         + str(i)
                         + ".a",
-                    },
-                    "width": 3 * BUTTON_WIDTH,
-                }
-            )
-            enchant_dialog["body"].append(
-                {
-                    "type": "minecraft:plain_message",
-                    "contents": {
-                        "translate": "dialog.enchant."
-                        + enchant
-                        + ".description."
-                        + str(i)
-                        + ".b",
-                    },
-                    "width": 3 * BUTTON_WIDTH,
-                }
-            )
-            enchant_dialog["body"].append(
-                {
-                    "type": "minecraft:plain_message",
-                    "contents": {
-                        "translate": "dialog.enchant."
-                        + enchant
-                        + ".description."
-                        + str(i)
-                        + ".c",
+                        "extra": [
+                            "\n",
+                            {
+                                "translate": "dialog.enchant."
+                                + enchant
+                                + ".description."
+                                + str(i)
+                                + ".b",
+                            },
+                            "\n",
+                            {
+                                "translate": "dialog.enchant."
+                                + enchant
+                                + ".description."
+                                + str(i)
+                                + ".c",
+                            },
+                        ],
                     },
                     "width": 3 * BUTTON_WIDTH,
                 }
@@ -128,7 +120,7 @@ for enchant_n, enchant in enumerate(enchant_list):
                     "contents": {
                         "translate": "dialog.enchant.full_armor",
                         "extra": [
-                            " ",
+                            "\n",
                             {
                                 "translate": "dialog.enchant."
                                 + enchant

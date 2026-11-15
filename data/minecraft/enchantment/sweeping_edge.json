@@ -29,7 +29,6 @@
   "slots": [
     "mainhand"
   ],
-  "exclusive_set": "#event_rebalance:exclusive_set/knockback",
   "supported_items": "#minecraft:enchantable/sweeping",
   "weight": 2
 }
