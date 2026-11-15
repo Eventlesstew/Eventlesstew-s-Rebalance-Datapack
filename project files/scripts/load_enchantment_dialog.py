@@ -77,41 +77,36 @@ for enchant_n, enchant in enumerate(enchant_list):
             enchant_dialog["body"][1] = {
                 "type": "minecraft:plain_message",
                 "contents": {
-                    "translate": "dialog.enchant." + enchant + ".description.main"
+                    "translate": "dialog.enchant." + enchant + ".description.main",
+                    "extra": [
+                        "\n",
+                        {
+                            "translate": "dialog.enchant."
+                            + enchant
+                            + ".description."
+                            + str(i)
+                            + ".a",
+                        },
+                        "\n",
+                        {
+                            "translate": "dialog.enchant."
+                            + enchant
+                            + ".description."
+                            + str(i)
+                            + ".b",
+                        },
+                        "\n",
+                        {
+                            "translate": "dialog.enchant."
+                            + enchant
+                            + ".description."
+                            + str(i)
+                            + ".c",
+                        },
+                    ],
                 },
                 "width": 3 * BUTTON_WIDTH,
             }
-            enchant_dialog["body"].append(
-                {
-                    "type": "minecraft:plain_message",
-                    "contents": {
-                        "translate": "dialog.enchant."
-                        + enchant
-                        + ".description."
-                        + str(i)
-                        + ".a",
-                        "extra": [
-                            "\n",
-                            {
-                                "translate": "dialog.enchant."
-                                + enchant
-                                + ".description."
-                                + str(i)
-                                + ".b",
-                            },
-                            "\n",
-                            {
-                                "translate": "dialog.enchant."
-                                + enchant
-                                + ".description."
-                                + str(i)
-                                + ".c",
-                            },
-                        ],
-                    },
-                    "width": 3 * BUTTON_WIDTH,
-                }
-            )
 
         if enchant in prot_enchants:
             enchant_dialog["body"].append(

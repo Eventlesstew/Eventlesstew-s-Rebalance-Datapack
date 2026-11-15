@@ -37,15 +37,12 @@
         {
             "type": "minecraft:plain_message",
             "contents": {
-                "translate": "dialog.enchant.dynamo.description.main"
-            },
-            "width": 300
-        },
-        {
-            "type": "minecraft:plain_message",
-            "contents": {
-                "translate": "dialog.enchant.dynamo.description.2.a",
+                "translate": "dialog.enchant.dynamo.description.main",
                 "extra": [
+                    "\n",
+                    {
+                        "translate": "dialog.enchant.dynamo.description.2.a"
+                    },
                     "\n",
                     {
                         "translate": "dialog.enchant.dynamo.description.2.b"
