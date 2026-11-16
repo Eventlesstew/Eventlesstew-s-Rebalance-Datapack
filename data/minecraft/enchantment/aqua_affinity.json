@@ -29,7 +29,6 @@
   "slots": [
     "any"
   ],
-  "supported_items": "#minecraft:enchantable/mining",
-  "exclusive_set": "#event_rebalance:exclusive_set/mining_loot",
+  "supported_items": "#minecraft:enchantable/chest_armor",
   "weight": 2
 }

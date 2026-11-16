@@ -11,25 +11,25 @@
           "value": {
             "type": "minecraft:linear",
             "base": 2.0,
-            "per_level_above_first": 1.0
+            "per_level_above_first": 0.5
           }
         }
       }
     ]
   },
+  "max_level": 3,
   "max_cost": {
-    "base": 55,
-    "per_level_above_first": 20
+    "base": 25,
+    "per_level_above_first": 25
   },
-  "max_level": 2,
   "min_cost": {
-    "base": 5,
-    "per_level_above_first": 20
+    "base": 0,
+    "per_level_above_first": 25
   },
+  "weight": 10,
   "slots": [
     "mainhand"
   ],
   "exclusive_set": "#event_rebalance:exclusive_set/knockback",
-  "supported_items": "#event_rebalance:enchantable/knockback_weapons",
-  "weight": 5
+  "supported_items": "#event_rebalance:enchantable/knockback_weapons"
 }

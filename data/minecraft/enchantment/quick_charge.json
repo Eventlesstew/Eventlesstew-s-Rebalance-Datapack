@@ -28,19 +28,19 @@
     ]
   },
   "max_cost": {
-    "base": 50,
-    "per_level_above_first": 0
+    "base": 25,
+    "per_level_above_first": 25
+  },
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 25
   },
   "max_level": 3,
-  "min_cost": {
-    "base": 12,
-    "per_level_above_first": 20
-  },
+  "weight": 10,
   "slots": [
     "mainhand",
     "offhand"
   ],
   "exclusive_set": "#exclusive_set/damage",
-  "supported_items": "#minecraft:enchantable/crossbow",
-  "weight": 5
+  "supported_items": "#minecraft:enchantable/crossbow"
 }

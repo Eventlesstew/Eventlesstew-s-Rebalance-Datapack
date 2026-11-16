@@ -17,20 +17,20 @@
       }
     ]
   },
+  "max_level": 3,
   "max_cost": {
-    "base": 15,
-    "per_level_above_first": 15
+    "base": 25,
+    "per_level_above_first": 25
   },
   "min_cost": {
     "base": 0,
-    "per_level_above_first": 15
+    "per_level_above_first": 25
   },
-  "max_level": 3,
+  "weight": 10,
   "slots": [
     "mainhand"
   ],
   "primary_items": "#event_rebalance:enchantable/primary/luck_of_the_sea",
   "exclusive_set": "#event_rebalance:exclusive_set/fishing",
-  "supported_items": "#enchantable/fishing",
-  "weight": 2
+  "supported_items": "#enchantable/fishing"
 }

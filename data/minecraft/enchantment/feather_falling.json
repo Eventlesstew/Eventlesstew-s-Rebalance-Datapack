@@ -33,18 +33,17 @@
     ]
   },
   "max_cost": {
-    "base": 10,
-    "per_level_above_first": 10
+    "base": 15,
+    "per_level_above_first": 15
   },
   "min_cost": {
     "base": 0,
-    "per_level_above_first": 10
+    "per_level_above_first": 15
   },
   "max_level": 4,
   "slots": [
     "armor"
   ],
-  "primary_items": "#event_rebalance:enchantable/primary/feather_falling",
   "exclusive_set": "#exclusive_set/armor",
   "supported_items": "#event_rebalance:enchantable/land_armor",
   "weight": 5

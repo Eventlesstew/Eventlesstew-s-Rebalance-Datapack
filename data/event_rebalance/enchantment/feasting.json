@@ -80,14 +80,14 @@
   "exclusive_set": "#event_rebalance:exclusive_set/axe_crit",
   "max_level": 3,
   "max_cost": {
-    "base": 16,
-    "per_level_above_first": 12
+    "base": 25,
+    "per_level_above_first": 25
   },
   "min_cost": {
     "base": 0,
-    "per_level_above_first": 12
+    "per_level_above_first": 25
   },
-  "weight": 2,
+  "weight": 10,
   "slots": [
     "mainhand"
   ],

@@ -31,19 +31,19 @@
     ]
   },
   "max_cost": {
-    "base": 60,
-    "per_level_above_first": 20
+    "base": 25,
+    "per_level_above_first": 25
   },
-  "max_level": 3,
   "min_cost": {
-    "base": 10,
-    "per_level_above_first": 20
+    "base": 0,
+    "per_level_above_first": 25
   },
-  "primary_items": "#minecraft:enchantable/chest_armor",
+  "weight": 10,
+  "max_level": 3,
   "slots": [
     "any"
   ],
   "exclusive_set": "#event_rebalance:exclusive_set/chestplate",
-  "supported_items": "#minecraft:enchantable/armor",
-  "weight": 1
+  "primary_items": "#event_rebalance:enchantable/chest_wolf_armor",
+  "supported_items": "#event_rebalance:enchantable/body_armor"
 }

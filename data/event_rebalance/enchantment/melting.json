@@ -2,7 +2,6 @@
     "description": {
         "translate": "enchantment.event.melting"
     },
-    "exclusive_set": "#event_rebalance:exclusive_set/mining_loot",
     "supported_items": "#minecraft:enchantable/mining",
     "weight": 5,
     "max_level": 1,

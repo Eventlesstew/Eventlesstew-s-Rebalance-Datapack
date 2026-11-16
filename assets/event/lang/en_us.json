@@ -313,8 +313,8 @@
     "dialog.enchant.aerodynamic.conflicts":"Bulwark, Thorns",
 
     "dialog.enchant.aqua_affinity.description.1": "§eNo speed penalty§r when Mining in Water",
-    "dialog.enchant.aqua_affinity.supported":"Mining Tools",
-    "dialog.enchant.aqua_affinity.conflicts":"Melting",
+    "dialog.enchant.aqua_affinity.supported":"Chestplate",
+    "dialog.enchant.aqua_affinity.conflicts":"None",
 
     "enchantment.event.auto_repair": "Auto-Repair",
     "dialog.enchant.auto_repair.description.1": "When used under 10 Durability, uses 1 Magnium Ingot to restore §e25%§r Durability",
@@ -335,7 +335,7 @@
     "dialog.enchant.barrier.description.full.2": "§e+45%§r Damage Reduction against Fire, Lightning, Explosions and Magic",
     "dialog.enchant.barrier.description.full.3": "§e+60%§r Damage Reduction against Fire, Lightning, Explosions and Magic",
     "dialog.enchant.barrier.description.full.4": "§e+75%§r Damage Reduction against Fire, Lightning, Explosions and Magic",
-    "dialog.enchant.barrier.supported":"Any Armor",
+    "dialog.enchant.barrier.supported":"Standard, Horse and Nautilus Armor",
     "dialog.enchant.barrier.conflicts":"#Defensive",
 
     "dialog.enchant.binding_curse.description.1": "§cCannot§r be unequipped when worn",
@@ -434,7 +434,7 @@
     "dialog.enchant.depth_strider.description.1": "§e+33%§r Movement Speed in water",
     "dialog.enchant.depth_strider.description.2": "§e+66%§r Movement Speed in water",
     "dialog.enchant.depth_strider.description.3": "§e+100%§r Movement Speed in water",
-    "dialog.enchant.depth_strider.supported":"Boots, Horse and Wolf Armor",
+    "dialog.enchant.depth_strider.supported":"Boots, Nautilus and Wolf Armor",
     "dialog.enchant.depth_strider.conflicts":"Frost Walker, Soul Speed",
 
     "enchantment.event.echo": "Echo",
@@ -546,7 +546,8 @@
     "dialog.enchant.infinity.conflicts":"#Durability",
 
     "dialog.enchant.knockback.description.1": "§e+100%§r Knockback",
-    "dialog.enchant.knockback.description.2": "§e+200%§r Knockback",
+    "dialog.enchant.knockback.description.2": "§e+150%§r Knockback",
+    "dialog.enchant.knockback.description.3": "§e+200%§r Knockback",
     "dialog.enchant.knockback.supported":"Any Weapon, except Daggers",
     "dialog.enchant.knockback.conflicts":"Uppercut, Punch, Wind Burst",
 
@@ -567,7 +568,7 @@
     "dialog.enchant.lightweight.description.full.2": "§e+8%§r Movement Speed",
     "dialog.enchant.lightweight.description.full.3": "§e+12%§r Movement Speed",
     "dialog.enchant.lightweight.description.full.4": "§e+16%§r Movement Speed",
-    "dialog.enchant.lightweight.supported":"Any Armor",
+    "dialog.enchant.lightweight.supported":"Standard, Horse and Wolf Armor",
     "dialog.enchant.lightweight.conflicts":"#Defensive",
 
     "dialog.enchant.loyalty.description.1": "Thrown Trident §eSlowly Returns§r to you after hitting something",
@@ -597,7 +598,7 @@
     "enchantment.event.melting": "Melting",
     "dialog.enchant.melting.description.1": "Mined blocks are §esmelted§r if possible",
     "dialog.enchant.melting.supported":"Mining Tools",
-    "dialog.enchant.melting.conflicts":"Aqua Affinity",
+    "dialog.enchant.melting.conflicts":"None",
 
     "dialog.enchant.mending.description.1": "Restores §e3§r Durability when Mining Ores, Sculk or Killing Mobs",
     "dialog.enchant.mending.description.2": "Restores §e3§r Durability when Mining Ores, Sculk or Killing Mobs",
@@ -634,7 +635,7 @@
     "dialog.enchant.protection.description.full.2": "§e+30%§r Damage Reduction against most sources of damage",
     "dialog.enchant.protection.description.full.3": "§e+40%§r Damage Reduction against most sources of damage",
     "dialog.enchant.protection.description.full.4": "§e+50%§r Damage Reduction against most sources of damage",
-    "dialog.enchant.protection.supported":"Any Armor",
+    "dialog.enchant.protection.supported":"Standard, Horse and Nautilus Armor",
     "dialog.enchant.protection.conflicts":"#Defensive",
 
     "dialog.enchant.punch.description.1": "§e+25%§r Knockback for every block you cross per second, in the range of 5-50 blocks",
@@ -747,7 +748,7 @@
     "dialog.enchant.valor.description.3": "§e+5§r Critical Attack Damage",
     "dialog.enchant.valor.description.4": "§e+6.5§r Critical Attack Damage",
     "dialog.enchant.valor.description.5": "§e+8§r Critical Attack Damage",
-    "dialog.enchant.valor.supported":"Swords and Daggers",
+    "dialog.enchant.valor.supported":"Swords, Daggers and Mace",
     "dialog.enchant.valor.conflicts":"#Damage",
     
     "dialog.enchant.vanishing_curse.description.1": "Item §cdisappears§r from your inventory when you die",

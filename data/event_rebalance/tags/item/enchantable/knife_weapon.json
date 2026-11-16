@@ -1,6 +1,7 @@
 {
   "values": [
     "#minecraft:swords",
-    "#minecraft:daggers"
+    "#minecraft:daggers",
+    "mace"
   ]
 }

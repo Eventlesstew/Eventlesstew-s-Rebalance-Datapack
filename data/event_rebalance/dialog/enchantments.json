@@ -13,7 +13,7 @@
 
         "event_rebalance:enchantments/fortune/1",
         "event_rebalance:enchantments/melting/1",
-        "event_rebalance:enchantments/aqua_affinity/1",
+        
 
         "event_rebalance:enchantments/power/1",
         "event_rebalance:enchantments/smite/1",
@@ -58,6 +58,7 @@
         
         "event_rebalance:enchantments/respiration/1",
 
+        "event_rebalance:enchantments/aqua_affinity/1",
         "event_rebalance:enchantments/bulwark/1",
         "event_rebalance:enchantments/aerodynamic/1",
         "event_rebalance:enchantments/thorns/1",

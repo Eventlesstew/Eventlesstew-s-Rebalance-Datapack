@@ -209,18 +209,18 @@
   },
   "exclusive_set": "#minecraft:exclusive_set/damage",
   "max_cost": {
-    "base": 8,
-    "per_level_above_first": 8
+    "base": 15,
+    "per_level_above_first": 15
   },
   "min_cost": {
     "base": 0,
-    "per_level_above_first": 8
+    "per_level_above_first": 15
   },
+  "weight": 10,
   "max_level": 5,
   "slots": [
     "mainhand"
   ],
   "primary_items": "#event_rebalance:enchantable/impaling",
-  "supported_items": "#event_rebalance:enchantable/any_weapon_or_wolf",
-  "weight": 2
+  "supported_items": "#event_rebalance:enchantable/any_weapon_or_wolf"
 }

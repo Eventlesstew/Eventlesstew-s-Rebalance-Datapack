@@ -1,7 +1,6 @@
 {
     "values": [
-        "#armor",
-        "#horse_armor",
-        "#nautilus_armor"
+        "#event_rebalance:enchantable/any_protective_armor",
+        "wolf_armor"
     ]
 }

@@ -1,10 +1,6 @@
 {
     "values": [
         "#axes",
-        "#pickaxes",
-        "#shovels",
-        "#hoes",
-        "shears",
-        "#event_rebalance:custom_item/handsaw"
+        "#hammers"
     ]
 }

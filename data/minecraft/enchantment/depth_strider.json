@@ -28,8 +28,9 @@
     "per_level_above_first": 10
   },
   "slots": [
-    "feet"
+    "feet",
+    "body"
   ],
-  "supported_items": "#minecraft:enchantable/foot_armor",
+  "supported_items": "#event_rebalance:enchantable/water_armor",
   "weight": 2
 }

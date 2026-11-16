@@ -160,19 +160,18 @@
     ]
   },
   "max_cost": {
-    "base": 8,
-    "per_level_above_first": 8
+    "base": 15,
+    "per_level_above_first": 15
   },
   "min_cost": {
     "base": 0,
-    "per_level_above_first": 8
+    "per_level_above_first": 15
   },
+  "weight": 10,
   "max_level": 5,
   "slots": [
     "mainhand"
   ],
   "exclusive_set": "#exclusive_set/damage",
-  "primary_items":"#event_rebalance:enchantable/primary/power",
-  "supported_items": "#event_rebalance:enchantable/any_weapon_or_wolf",
-  "weight": 10
+  "supported_items": "#event_rebalance:enchantable/any_weapon_or_wolf"
 }

@@ -464,17 +464,16 @@
   "exclusive_set": "#minecraft:exclusive_set/damage",
   "max_level": 5,
   "max_cost": {
-    "base": 8,
-    "per_level_above_first": 8
+    "base": 15,
+    "per_level_above_first": 15
   },
   "min_cost": {
     "base": 0,
-    "per_level_above_first": 8
+    "per_level_above_first": 15
   },
-  "weight": 4,
+  "weight": 10,
   "slots": [
     "mainhand"
   ],
-  "primary_items": "#event_rebalance:enchantable/primary/combo",
   "supported_items": "#event_rebalance:enchantable/stab_weapon_or_wolf"
 }

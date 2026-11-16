@@ -58,19 +58,19 @@
     }]
   },
   "max_cost": {
-    "base": 8,
-    "per_level_above_first": 8
+    "base": 15,
+    "per_level_above_first": 15
   },
-  "max_level": 5,
   "min_cost": {
     "base": 0,
-    "per_level_above_first": 8
+    "per_level_above_first": 15
   },
+  "max_level": 5,
+  "weight": 10,
   "slots": [
     "mainhand"
   ],
   "exclusive_set": "#exclusive_set/damage",
-  "primary_items": "#event_rebalance:enchantable/primary/fowling",
-  "supported_items": "#event_rebalance:enchantable/ranged_weapon",
-  "weight": 10
+  "primary_items": "#event_rebalance:enchantable/ranged_weapon",
+  "supported_items": "#event_rebalance:enchantable/ranged_weapon"
 }
