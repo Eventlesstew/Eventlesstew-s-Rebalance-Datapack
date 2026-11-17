@@ -11,6 +11,7 @@
                 "type": "set_components",
                 "components": {
                     "rarity": "uncommon",
+                    "max_stack_size":1,
                     "death_protection": {
                         "death_effects": [
                             {

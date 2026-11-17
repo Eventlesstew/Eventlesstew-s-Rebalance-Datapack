@@ -21,6 +21,76 @@
                         "components": {
                           "minecraft:trim": {
                             "material": "minecraft:copper",
+                            "pattern": "minecraft:flow"
+                          }
+                        }
+                      },
+                      {
+                        "type": "minecraft:set_enchantments",
+                        "enchantments": {
+                          "event_rebalance:regrow": 4,
+                          "minecraft:protection": 4
+                        }
+                      }
+                    ],
+                    "name": "minecraft:golden_helmet"
+                  }
+                ],
+                "rolls": 1
+              },
+              {
+                "condition": {
+                  "type": "minecraft:random_chance",
+                  "chance": 0.5
+                },
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "modifier": [
+                      {
+                        "type": "minecraft:set_components",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:copper",
+                            "pattern": "minecraft:flow"
+                          }
+                        }
+                      },
+                      {
+                        "type": "minecraft:set_enchantments",
+                        "enchantments": {
+                          "event_rebalance:regrow": 4,
+                          "minecraft:protection": 4
+                        }
+                      }
+                    ],
+                    "name": "minecraft:golden_chestplate"
+                  }
+                ],
+                "rolls": 1
+              }
+            ]
+          },
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "condition": {
+                  "type": "minecraft:random_chance",
+                  "chance": 0.5
+                },
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "modifier": [
+                      {
+                        "type": "minecraft:set_components",
+                        "components": {
+                          "minecraft:trim": {
+                            "material": "minecraft:copper",
                             "pattern": "minecraft:bolt"
                           }
                         }
@@ -28,13 +98,11 @@
                       {
                         "type": "minecraft:set_enchantments",
                         "enchantments": {
-                          "event_rebalance:barrier": 4,
-                          "event_rebalance:regrow": 4,
                           "minecraft:protection": 4
                         }
                       }
                     ],
-                    "name": "minecraft:chainmail_helmet"
+                    "name": "minecraft:iron_helmet"
                   }
                 ],
                 "rolls": 1
@@ -60,13 +128,12 @@
                       {
                         "type": "minecraft:set_enchantments",
                         "enchantments": {
-                          "event_rebalance:barrier": 4,
                           "event_rebalance:regrow": 4,
                           "minecraft:protection": 4
                         }
                       }
                     ],
-                    "name": "minecraft:chainmail_chestplate"
+                    "name": "minecraft:iron_chestplate"
                   }
                 ],
                 "rolls": 1
@@ -100,79 +167,6 @@
                       {
                         "type": "minecraft:set_enchantments",
                         "enchantments": {
-                          "event_rebalance:barrier": 4,
-                          "event_rebalance:regrow": 4,
-                          "minecraft:protection": 4
-                        }
-                      }
-                    ],
-                    "name": "minecraft:iron_helmet"
-                  }
-                ],
-                "rolls": 1
-              },
-              {
-                "condition": {
-                  "type": "minecraft:random_chance",
-                  "chance": 0.5
-                },
-                "entries": [
-                  {
-                    "type": "minecraft:item",
-                    "modifier": [
-                      {
-                        "type": "minecraft:set_components",
-                        "components": {
-                          "minecraft:trim": {
-                            "material": "minecraft:copper",
-                            "pattern": "minecraft:flow"
-                          }
-                        }
-                      },
-                      {
-                        "type": "minecraft:set_enchantments",
-                        "enchantments": {
-                          "event_rebalance:barrier": 4,
-                          "event_rebalance:regrow": 4,
-                          "minecraft:protection": 4
-                        }
-                      }
-                    ],
-                    "name": "minecraft:iron_chestplate"
-                  }
-                ],
-                "rolls": 1
-              }
-            ]
-          },
-          "weight": 2
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": {
-            "pools": [
-              {
-                "condition": {
-                  "type": "minecraft:random_chance",
-                  "chance": 0.5
-                },
-                "entries": [
-                  {
-                    "type": "minecraft:item",
-                    "modifier": [
-                      {
-                        "type": "minecraft:set_components",
-                        "components": {
-                          "minecraft:trim": {
-                            "material": "minecraft:copper",
-                            "pattern": "minecraft:flow"
-                          }
-                        }
-                      },
-                      {
-                        "type": "minecraft:set_enchantments",
-                        "enchantments": {
-                          "event_rebalance:barrier": 4,
                           "event_rebalance:regrow": 4,
                           "minecraft:protection": 4
                         }
@@ -204,7 +198,6 @@
                       {
                         "type": "minecraft:set_enchantments",
                         "enchantments": {
-                          "event_rebalance:barrier": 4,
                           "event_rebalance:regrow": 4,
                           "minecraft:protection": 4
                         }

@@ -1,0 +1,66 @@
+{
+  "type": "minecraft:equipment",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "structure_rework:nether_fortress/equipment/base"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "modifier": {
+            "type": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:knockback": 1
+            }
+          },
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": {
+            "type": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:power": 1
+            }
+          },
+          "name": "minecraft:bow"
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": {
+            "type": "minecraft:set_enchantments",
+            "enchantments": {
+              "event_rebalance:fowling": 1
+            }
+          },
+          "name": "minecraft:bow"
+        },
+        {
+          "type": "minecraft:item",
+          "modifier": {
+            "type": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:fire_aspect": 1
+            }
+          },
+          "name": "minecraft:bow"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "structure_rework:nether_fortress/equipment/ranged"
+}

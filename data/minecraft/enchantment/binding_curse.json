@@ -16,7 +16,7 @@
     "per_level_above_first": 0
   },
   "slots": [
-    "armor"
+    "any"
   ],
   "supported_items": "#minecraft:enchantable/equippable",
   "weight": 1

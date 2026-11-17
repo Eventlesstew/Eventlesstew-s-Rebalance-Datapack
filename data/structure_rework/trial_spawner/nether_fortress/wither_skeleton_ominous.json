@@ -20,6 +20,10 @@
             "data": {
                 "entity": {
                     "id": "wither_skeleton"
+                },
+                "equipment": {
+                    "loot_table": "structure_rework:nether_fortress/equipment/melee",
+                    "slot_drop_chances": 0.0
                 }
             },
             "weight": 1

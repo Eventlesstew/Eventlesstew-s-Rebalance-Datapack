@@ -22,21 +22,19 @@ Entities can now emit light when in air or full water blocks, which happens with
 - Holding Lanterns
 - Having the Glowing Effect (Higher amplifiers have higher light levels)
 
-## Spreadsheet
-The link below will provide a list of enchantments and advancements, along with planned weapon stats.
-https://docs.google.com/spreadsheets/d/1JOV3jzUgcOdk2cNXv5mEQuyegpTAdHWbY9tlUcQd-fU/edit?gid=258838270#gid=258838270 
-
 # Items
 ## New Items
-- Withered Chunks: Obtainable by killing Withered Skeletons, replacing their coal drop and being used to make Soul Torches.
 - Raw Hoglin Hide: Obtainable by killing Hoglins, replacing their Leather drop.
 - Hoglin Hide: Smeltable from Hoglin Hide, it can be used to make some new gear.
 - Breeze Powder: 2 can be crafted from a single Breeze Rod, 4 of them can be made into 8 Wind Charges.
-- Lodes: Craft out of Iron and Redstone and you can use it to repair any tool or to make Lodestones.
+- Rose Gold: An Alloy forged from Copper and Gold that you can use to make a shiny new alternative to Netherite!
+- Magnium: Forged from Iron and Lapis, Magnium comes with magical and magnetic properties that allows it to be used for enchanting, magnets and enchanting!
 
 ## Removed
 - Rabbit Hide: Whole point of it was to make Leather and it's not a good way to make it more scarce. All drops henceforth have been replaced with Leather.
 - Charcoal: Replaced with Coal as it is not very different from it.
+- Bottle Of Enchanting: Goes with the XP removal
+- Beetroot Seeds: Beetroot is now used to plant the seeds, like Potatoes and Carrots
 
 ## Changes
 - Short and Tall Grass can now be smelted into their Dry Variants.
@@ -59,13 +57,12 @@ No longer found in Buried Treasure
 Heart Crystals have also been given a lot of other uses on top of the Conduit.
 - Crafting Tridents
 - Crafting the Tide Armor Trim
-- Crafting a Heart Crystal
 - Crafting Riptide Scrolls
 
 ### Spectral Arrow
-TBA
-
-Will be overhauled due to Glowing Arrows being a thing.
+With Glowing Arrows being a thing, this is due for an overhaul.
+- Now ignores gravity
+- No longer inflicts Glowing
 
 ### Compass
 Now displays coordinates and direction

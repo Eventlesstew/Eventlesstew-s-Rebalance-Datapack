@@ -1,5 +1,6 @@
 {
   "type": "minecraft:chest",
+  "modifier": "event_rebalance:apply_rebalance",
   "pools": [
     {
       "entries": [

@@ -21,7 +21,8 @@
         "creeper_banner_pattern",
         "field_masoned_banner_pattern",
         "bordure_indented_banner_pattern",
-
+        "#minecraft:cushions",
+        "#minecraft:hanging_signs",
         "potion",
         "splash_potion",
         "lingering_potion",
@@ -33,6 +34,16 @@
         "#boats",
         "beetroot_soup",
         "rabbit_stew",
-        "mushroom_stew"
+        "mushroom_stew",
+        "saddle",
+        "#harnesses",
+        "#boats",
+        "minecart",
+        "hopper_minecart",
+        "chest_minecart",
+        "furnace_minecart",
+        "tnt_minecart",
+        "command_block_minecart",
+        "goat_horn"
     ]
 }

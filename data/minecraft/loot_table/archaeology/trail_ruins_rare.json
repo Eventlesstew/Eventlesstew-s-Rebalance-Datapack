@@ -16,7 +16,7 @@
         {
           "type": "minecraft:loot_table",
           "value": "event_rebalance:archaeology/trail_ruins_rare_eternity",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:loot_table",

@@ -1,8 +1,8 @@
 {
     "spawn_range": 3,
-    "total_mobs": 8,
+    "total_mobs": 4,
     "total_mobs_added_per_player": 2,
-    "simultaneous_mobs": 4,
+    "simultaneous_mobs": 2,
     "simultaneous_mobs_added_per_player": 1,
     "loot_tables_to_eject": [
         {

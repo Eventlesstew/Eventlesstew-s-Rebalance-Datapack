@@ -1,6 +1,13 @@
 {
   "values": [
-    "#minecraft:banners"
+    "jack_o_lantern",
+    "#minecraft:banners",
+    "#wool_carpets",
+    "#horse_armor",
+    "#nautilus_armor",
+    "wolf_armor",
+    "saddle",
+    "#harnesses"
   ],
   "replace": false
 }
