@@ -1,0 +1,30 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "dragon_breath"
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "set_components",
+                "components": {
+                    "use_effects": {
+                        "can_sprint": true,
+                        "speed_multiplier": 1
+                    },
+                    "consumable": {
+                        "animation": "none",
+                        "consume_seconds": 0,
+                        "has_consume_particles": false,
+                        "sound": "item.firecharge.use"
+                    },
+                    "use_cooldown": {
+                        "seconds": 2
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "golden_apple": {
+      "conditions": {
+        "item": {
+          "items": "fire_charge"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "rewards": {
+    "function": "event_rebalance:items/fire_charge/use"
+  },
+  "requirements": [
+    [
+      "golden_apple"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

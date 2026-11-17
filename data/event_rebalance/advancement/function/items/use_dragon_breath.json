@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "golden_apple": {
+      "conditions": {
+        "item": {
+          "items": "dragon_breath"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "rewards": {
+    "function": "event_rebalance:items/dragon_breath/use"
+  },
+  "requirements": [
+    [
+      "golden_apple"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,18 @@
+{
+    "type": "mul",
+    "inputs": [
+        {
+            "type": "sub",
+            "left": {
+                "type": "storage",
+                "storage": "event_rebalance:fireball",
+                "path": "shoot_x"
+            },
+            "right": {
+                "type": "storage",
+                "storage": "event_rebalance:fireball",
+                "path": "origin_x"
+            }
+        }
+    ]
+}

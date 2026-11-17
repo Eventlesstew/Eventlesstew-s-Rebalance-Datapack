@@ -242,7 +242,7 @@
             "event_rebalance:food/pumpkin_slice",
             "event_rebalance:food/cooked_pumpkin_slice",
 
-            "event_rebalance:custom_item/totem_of_warping",
+            
             "event_rebalance:custom_item/raw_hoglin_hide",
             "event_rebalance:custom_item/hoglin_hide",
             "event_rebalance:custom_item/rose_golden_ingot",
@@ -251,6 +251,10 @@
             "event_rebalance:trims/chainmail_upgrade",
             "event_rebalance:trims/rose_golden_upgrade",
             "event_rebalance:custom_item/scroll",
+            "event_rebalance:custom_item/totem_of_warping",
+            
+            "event_rebalance:base_manual/fire_charge",
+            "event_rebalance:base_manual/dragon_breath",
 
             "event_rebalance:make_stackable",
             "event_rebalance:custom_item/magnet_apply",
