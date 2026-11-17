@@ -58,12 +58,12 @@
     }]
   },
   "max_cost": {
-    "base": 15,
-    "per_level_above_first": 15
+    "base": 12,
+    "per_level_above_first": 12
   },
   "min_cost": {
     "base": 0,
-    "per_level_above_first": 15
+    "per_level_above_first": 12
   },
   "max_level": 5,
   "weight": 10,
@@ -71,6 +71,6 @@
     "mainhand"
   ],
   "exclusive_set": "#exclusive_set/damage",
-  "primary_items": "#event_rebalance:enchantable/ranged_weapon",
+  "primary_items": "#event_rebalance:enchantable/ranged_ammo_weapon",
   "supported_items": "#event_rebalance:enchantable/ranged_weapon"
 }

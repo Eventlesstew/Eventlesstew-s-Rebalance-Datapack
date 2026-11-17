@@ -1,5 +1,5 @@
 {
-  "anvil_cost": 2,
+  "anvil_cost": 0,
   "description": {
     "translate": "enchantment.event.acceleration"
   },
@@ -45,15 +45,31 @@
           ]
         },
         "requirements": {
-          "type": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "flags": {
-              "is_sprinting": true,
-              "is_on_ground": true
+          "type": "any_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "flags": {
+                  "is_sprinting": true,
+                  "is_on_ground": true
+                },
+                "periodic_tick": 5
+              }
             },
-            "periodic_tick": 5
-          }
+            {
+              "type": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "entity_type":"#event_rebalance:can_wear_animal_armor",
+                "flags": {
+                  "is_on_ground": true
+                },
+                "periodic_tick": 5
+              }
+            }
+          ]
         }
       },
       {
@@ -62,19 +78,25 @@
           "function": "event_rebalance:enchantments/acceleration/speed_half"
         },
         "requirements": {
-          "type": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "flags": {
-              "is_sprinting": false
-            },
-            "periodic_tick": 5,
-            "movement": {
-              "speed": {
-                "min": 4
+          "type": "any_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "flags": {
+                  "is_sprinting": false
+                },
+                "entity_type":"player",
+                "periodic_tick": 5,
+                "movement": {
+                  "speed": {
+                    "min": 4
+                  }
+                }
               }
             }
-          }
+          ]
         }
       },
       {
@@ -132,8 +154,9 @@
   },
   "weight": 1,
   "slots": [
-    "armor"
+    "armor",
+    "body"
   ],
   "exclusive_set": "#event_rebalance:exclusive_set/leggings",
-  "supported_items": "#minecraft:enchantable/leg_armor"
+  "supported_items": "#event_rebalance:enchantable/leg_animal_armor"
 }

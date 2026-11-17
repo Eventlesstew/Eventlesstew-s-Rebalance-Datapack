@@ -1,0 +1,6 @@
+{
+    "values": [
+        "#minecraft:exclusive_set/boots",
+        "event_rebalance:lightweight"
+    ]
+}

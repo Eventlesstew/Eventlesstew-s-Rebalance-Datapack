@@ -31,6 +31,7 @@
     "feet",
     "body"
   ],
+  "primary_items": "#event_rebalance:enchantable/primary/depth_strider",
   "supported_items": "#event_rebalance:enchantable/water_armor",
   "weight": 2
 }

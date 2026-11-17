@@ -17,7 +17,7 @@
         }
     ]
   },
-  "exclusive_set": "#minecraft:exclusive_set/armor",
+  "exclusive_set": "#event_rebalance:exclusive_set/lightweight",
   "max_cost": {
     "base": 15,
     "per_level_above_first": 15

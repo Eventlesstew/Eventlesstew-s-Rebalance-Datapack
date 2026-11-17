@@ -301,8 +301,8 @@
     "dialog.enchant.acceleration.description.1":"§e+2%§r Speed per second during continuous sprinting. §c+25%§r Hunger Loss during Sprinting",
     "dialog.enchant.acceleration.description.2":"§e+4%§r Speed per second during continuous sprinting. §c+50%§r Hunger Loss during Sprinting",
     "dialog.enchant.acceleration.description.3":"§e+6%§r Speed per second during continuous sprinting. §c+75%§r Hunger Loss during Sprinting",
-    "dialog.enchant.acceleration.supported":"Leggings",
-    "dialog.enchant.acceleration.conflicts":"Swift Sneak",
+    "dialog.enchant.acceleration.supported":"Leggings, Horse and Nautilus Armor",
+    "dialog.enchant.acceleration.conflicts":"Lightweight, Swift Sneak",
 
     "enchantment.event.aerodynamic": "Aerodynamic",
     "dialog.enchant.aerodynamic.description.1": "§e-40%§r Knockback Resistance",
@@ -435,7 +435,7 @@
     "dialog.enchant.depth_strider.description.2": "§e+66%§r Movement Speed in water",
     "dialog.enchant.depth_strider.description.3": "§e+100%§r Movement Speed in water",
     "dialog.enchant.depth_strider.supported":"Boots, Nautilus and Wolf Armor",
-    "dialog.enchant.depth_strider.conflicts":"Frost Walker, Soul Speed",
+    "dialog.enchant.depth_strider.conflicts":"Lightweight, Frost Walker, Soul Speed",
 
     "enchantment.event.echo": "Echo",
     "dialog.enchant.echo.description.1": "Bow shoots §e2§r Arrows successively",
@@ -569,7 +569,7 @@
     "dialog.enchant.lightweight.description.full.3": "§e+12%§r Movement Speed",
     "dialog.enchant.lightweight.description.full.4": "§e+16%§r Movement Speed",
     "dialog.enchant.lightweight.supported":"Standard, Horse and Wolf Armor",
-    "dialog.enchant.lightweight.conflicts":"#Defensive",
+    "dialog.enchant.lightweight.conflicts":"#Defensive, Acceleration, Depth Strider, Soul Speed",
 
     "dialog.enchant.loyalty.description.1": "Thrown Trident §eSlowly Returns§r to you after hitting something",
     "dialog.enchant.loyalty.description.2": "Thrown Trident §eReturns§r to you after hitting something",
@@ -716,7 +716,7 @@
     "dialog.enchant.soul_speed.description.2": "Temporarily grants §eSpeed III§r on kill. §e+75%§r Speed on Soul Sand",
     "dialog.enchant.soul_speed.description.3": "Temporarily grants §eSpeed IV§r on kill. §e+100%§r Speed on Soul Sand",
     "dialog.enchant.soul_speed.supported":"Boots, Horse and Wolf Armor",
-    "dialog.enchant.soul_speed.conflicts":"Depth Strider, Frost Walker",
+    "dialog.enchant.soul_speed.conflicts":"Lightweight, Depth Strider, Frost Walker",
     
     "dialog.enchant.sweeping_edge.description.1": "§e+10%§r Sweep Attack Damage",
     "dialog.enchant.sweeping_edge.description.2": "§e+20%§r Sweep Attack Damage",
@@ -1084,6 +1084,7 @@
     "advancements.food.brew_awkward_potion.description": "Brew an Awkward Potion using Nether Wart",
     "advancements.food.eat_suspicious_stew.title": "That's what it does",
     "advancements.food.eat_suspicious_stew.description": "Brew Suspicious Stew using Flowers on Mushroom Stew, drink it and see what happens",
+    "advancements.husbandry.plant_seed.description":"Till Dirt into Farmland using a Hoe, plant a seed and watch it grow",
     "advancements.food.castaway.title": "Castaway",
     "advancements.food.castaway.description": "Eat nothing but Dried Kelp for three days",
     "advancements.food.iron_belly.title": "Iron Belly",

@@ -187,12 +187,12 @@
   "exclusive_set": "#event_rebalance:exclusive_set/mining_speed",
   "max_level": 5,
   "max_cost": {
-    "base": 15,
-    "per_level_above_first": 15
+    "base": 12,
+    "per_level_above_first": 12
   },
   "min_cost": {
     "base": 0,
-    "per_level_above_first": 15
+    "per_level_above_first": 12
   },
   "weight": 10,
   "slots": [
