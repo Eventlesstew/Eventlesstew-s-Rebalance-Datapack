@@ -1,0 +1,19 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "frog_spawn_egg"
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "set_components",
+                "components": {
+                    "max_stack_size": 1,
+                    "use_remainder": "bucket"
+                }
+            }
+        ]
+    }
+}
