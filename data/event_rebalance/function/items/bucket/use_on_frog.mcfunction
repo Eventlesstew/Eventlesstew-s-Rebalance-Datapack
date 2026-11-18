@@ -14,6 +14,7 @@ execute as @n[type=frog,nbt={equipment:{body:{id:"minecraft:bucket"}}}] run tp ~
 # Spawn the item
 execute anchored eyes run summon item ^ ^ ^ {Tags:["event.bucket_item"],Item:{id:"frog_spawn_egg"}}
 data modify entity @n[tag=event.bucket_item] Item.components."minecraft:entity_data" set from storage event_rebalance:bucket_data frog
+data modify entity @n[tag=event.bucket_item] Item.components."minecraft:custom_model_data".strings append from storage event_rebalance:bucket_data frog.variant
 
 # Momentum
 summon marker ^ ^ ^10 {Tags:[fireball]}

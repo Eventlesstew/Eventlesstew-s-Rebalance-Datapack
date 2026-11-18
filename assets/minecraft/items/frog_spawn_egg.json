@@ -1,17 +1,20 @@
 {
     "model": {
         "type": "select",
-        "property": "component",
-        "component": "minecraft:entity_data",
+        "property": "custom_model_data",
         "cases": [
             {
-                "when": {
-                    "id": "frog",
-                    "variant": "cold"
-                },
+                "when": "cold",
                 "model": {
                     "type": "model",
                     "model": "event:item/frog_bucket/cold"
+                }
+            },
+            {
+                "when": "warm",
+                "model": {
+                    "type": "model",
+                    "model": "event:item/frog_bucket/warm"
                 }
             }
         ],
