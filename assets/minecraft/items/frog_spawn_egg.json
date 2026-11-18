@@ -1,0 +1,23 @@
+{
+    "model": {
+        "type": "select",
+        "property": "component",
+        "component": "minecraft:entity_data",
+        "cases": [
+            {
+                "when": {
+                    "id": "frog",
+                    "variant": "cold"
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/frog_bucket/cold"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "event:item/frog_bucket/temperate"
+        }
+    }
+}

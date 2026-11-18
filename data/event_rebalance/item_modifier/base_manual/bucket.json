@@ -1,0 +1,24 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "bucket"
+    },
+    "on_pass": {
+        "type": "sequence",
+        "functions": [
+            "event_rebalance:modified",
+            {
+                "type": "set_components",
+                "components": {
+                    "equippable": {
+                        "slot": "body",
+                        "allowed_entities": "frog",
+                        "equip_on_interact":true,
+                        "dispensable": false,
+                        "damage_on_hurt": false
+                    }
+                }
+            }
+        ]
+    }
+}

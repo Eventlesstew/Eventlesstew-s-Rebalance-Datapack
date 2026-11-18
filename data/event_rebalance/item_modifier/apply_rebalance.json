@@ -255,6 +255,7 @@
             
             "event_rebalance:base_manual/fire_charge",
             "event_rebalance:base_manual/dragon_breath",
+            "event_rebalance:base_manual/bucket",
 
             "event_rebalance:make_stackable",
             "event_rebalance:custom_item/magnet_apply",

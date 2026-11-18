@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "golden_apple": {
+      "conditions": {
+        "item": {
+          "items": "bucket"
+        },
+        "entity": {
+            "type": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "entity_type": "frog"
+            }
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    }
+  },
+  "rewards": {
+    "function": "event_rebalance:items/bucket/use_on_frog"
+  },
+  "requirements": [
+    [
+      "golden_apple"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
