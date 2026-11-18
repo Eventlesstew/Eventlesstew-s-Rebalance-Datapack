@@ -21,7 +21,7 @@
                         "sound": "item.firecharge.use"
                     },
                     "use_cooldown": {
-                        "seconds": 0.1
+                        "seconds": 0.5
                     }
                 }
             }

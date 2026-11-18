@@ -259,7 +259,8 @@
             "event_rebalance:base_manual/bucket_frog",
 
             "event_rebalance:make_stackable",
-            "event_rebalance:custom_item/magnet_apply",
+            "event_rebalance:base_manual/magnet_apply",
+            "event_rebalance:base_manual/netherite_magnet_apply",
             "event_rebalance:music_disc/11_fragment",
             "event_rebalance:music_disc/13_fragment",
             "event_rebalance:music_disc/apply",

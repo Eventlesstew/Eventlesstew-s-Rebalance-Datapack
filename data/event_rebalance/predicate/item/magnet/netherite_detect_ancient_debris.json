@@ -1,0 +1,545 @@
+{
+  "type": "any_of",
+  "terms": [
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 1
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 2
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 3
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 4
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 5
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 6
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 7
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 8
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 9
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 10
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 11
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 12
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 13
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 14
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 15
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 16
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 17
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 18
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 19
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 20
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 21
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 22
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 23
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 24
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 25
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 26
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 27
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 28
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 29
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 30
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -1
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -2
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -3
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -4
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -5
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -6
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -7
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -8
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -9
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -10
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -11
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -12
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -13
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -14
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -15
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -16
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -17
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -18
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -19
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -20
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -21
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -22
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -23
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -24
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -25
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -26
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -27
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -28
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -29
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -30
+    }
+  ]
+}

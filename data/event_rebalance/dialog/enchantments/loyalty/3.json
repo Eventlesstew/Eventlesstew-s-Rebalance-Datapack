@@ -95,13 +95,13 @@
                 "extra": [
                     " ",
                     {
-                        "translate": "enchantment.level.2"
+                        "translate": "enchantment.level.3"
                     }
                 ]
             },
             "action": {
                 "type": "show_dialog",
-                "dialog": "event_rebalance:enchantments/knockback/2"
+                "dialog": "event_rebalance:enchantments/knockback/3"
             },
             "width": 100
         },

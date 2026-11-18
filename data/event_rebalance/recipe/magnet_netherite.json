@@ -1,0 +1,20 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "I":"netherite_ingot",
+        "L":"#event_rebalance:custom_item/magnet"
+    },
+    "pattern": [
+        "I I",
+        " L "
+    ],
+    "result": {
+        "id": "music_disc_13",
+        "components": {
+            "item_name": {
+                "translate": "item.event.netherite_magnet"
+            },
+            "item_model": "event:netherite_magnet"
+        }
+    }
+}

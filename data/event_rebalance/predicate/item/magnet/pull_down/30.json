@@ -1,0 +1,275 @@
+{
+  "type": "any_of",
+  "terms": [
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#event_rebalance:magnetic"
+        }
+      },
+      "offsetY": -1
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#event_rebalance:magnetic"
+        }
+      },
+      "offsetY": -2
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#event_rebalance:magnetic"
+        }
+      },
+      "offsetY": -3
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#event_rebalance:magnetic"
+        }
+      },
+      "offsetY": -4
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#event_rebalance:magnetic"
+        }
+      },
+      "offsetY": -5
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#event_rebalance:magnetic"
+        }
+      },
+      "offsetY": -6
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#event_rebalance:magnetic"
+        }
+      },
+      "offsetY": -7
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#event_rebalance:magnetic"
+        }
+      },
+      "offsetY": -8
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#event_rebalance:magnetic"
+        }
+      },
+      "offsetY": -9
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#event_rebalance:magnetic"
+        }
+      },
+      "offsetY": -10
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#event_rebalance:magnetic"
+        }
+      },
+      "offsetY": -11
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#event_rebalance:magnetic"
+        }
+      },
+      "offsetY": -12
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#event_rebalance:magnetic"
+        }
+      },
+      "offsetY": -13
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#event_rebalance:magnetic"
+        }
+      },
+      "offsetY": -14
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#event_rebalance:magnetic"
+        }
+      },
+      "offsetY": -15
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#event_rebalance:magnetic"
+        }
+      },
+      "offsetY": -16
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#event_rebalance:magnetic"
+        }
+      },
+      "offsetY": -17
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#event_rebalance:magnetic"
+        }
+      },
+      "offsetY": -18
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#event_rebalance:magnetic"
+        }
+      },
+      "offsetY": -19
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#event_rebalance:magnetic"
+        }
+      },
+      "offsetY": -20
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#event_rebalance:magnetic"
+        }
+      },
+      "offsetY": -21
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#event_rebalance:magnetic"
+        }
+      },
+      "offsetY": -22
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#event_rebalance:magnetic"
+        }
+      },
+      "offsetY": -23
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#event_rebalance:magnetic"
+        }
+      },
+      "offsetY": -24
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#event_rebalance:magnetic"
+        }
+      },
+      "offsetY": -25
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#event_rebalance:magnetic"
+        }
+      },
+      "offsetY": -26
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#event_rebalance:magnetic"
+        }
+      },
+      "offsetY": -27
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#event_rebalance:magnetic"
+        }
+      },
+      "offsetY": -28
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#event_rebalance:magnetic"
+        }
+      },
+      "offsetY": -29
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#event_rebalance:magnetic"
+        }
+      },
+      "offsetY": -30
+    }
+  ]
+}

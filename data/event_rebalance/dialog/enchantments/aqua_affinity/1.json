@@ -46,11 +46,17 @@
     "actions": [
         {
             "label": {
-                "translate": "enchantment.event.melting"
+                "translate": "enchantment.minecraft.respiration",
+                "extra": [
+                    " ",
+                    {
+                        "translate": "enchantment.level.1"
+                    }
+                ]
             },
             "action": {
                 "type": "show_dialog",
-                "dialog": "event_rebalance:enchantments/melting/1"
+                "dialog": "event_rebalance:enchantments/respiration/1"
             },
             "width": 100
         },
@@ -66,7 +72,7 @@
         },
         {
             "label": {
-                "translate": "enchantment.minecraft.power",
+                "translate": "enchantment.event.bulwark",
                 "extra": [
                     " ",
                     {
@@ -76,7 +82,7 @@
             },
             "action": {
                 "type": "show_dialog",
-                "dialog": "event_rebalance:enchantments/power/1"
+                "dialog": "event_rebalance:enchantments/bulwark/1"
             },
             "width": 100
         }

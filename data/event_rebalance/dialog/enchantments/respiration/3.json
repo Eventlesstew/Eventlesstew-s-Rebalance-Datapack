@@ -84,17 +84,11 @@
         },
         {
             "label": {
-                "translate": "enchantment.event.bulwark",
-                "extra": [
-                    " ",
-                    {
-                        "translate": "enchantment.level.3"
-                    }
-                ]
+                "translate": "enchantment.minecraft.aqua_affinity"
             },
             "action": {
                 "type": "show_dialog",
-                "dialog": "event_rebalance:enchantments/bulwark/3"
+                "dialog": "event_rebalance:enchantments/aqua_affinity/1"
             },
             "width": 100
         },

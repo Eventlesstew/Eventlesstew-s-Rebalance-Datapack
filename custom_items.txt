@@ -155,7 +155,7 @@ Deepslate Coal Ore: Withered Remains
 Deepslate Copper Ore: Rose Golden Block
 Petrified Oak Slab: Block of Withered Chunks
 Charcoal: Chocolate
-Rabbit Hide:
+Rabbit Hide: Magnet
 Beetroot:
 
 Shield: Shield Variants

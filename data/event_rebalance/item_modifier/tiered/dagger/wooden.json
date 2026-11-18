@@ -29,7 +29,7 @@
                         "slot": "mainhand",
                         "id": "balance",
                         "attribute": "attack_speed",
-                        "amount": 0,
+                        "amount": 1,
                         "operation": "add_value"
                     }
                 ]
@@ -85,7 +85,7 @@
                         ]
                     },
                     {
-                        "translate": "4 ",
+                        "translate": "5 ",
                         "italic": false,
                         "color": "#1aa819",
                         "extra": [

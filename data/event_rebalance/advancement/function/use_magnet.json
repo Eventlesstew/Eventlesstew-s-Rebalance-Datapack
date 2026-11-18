@@ -17,7 +17,7 @@
     ]
   ],
 	"rewards": {
-		"function": "event_rebalance:items/magnet/use"
+		"function": "event_rebalance:items/magnet/check"
 	},
   "sends_telemetry_event": true
 }

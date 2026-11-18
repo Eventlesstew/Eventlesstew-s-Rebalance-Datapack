@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:any_of",
+  "terms": [
+    {
+      "type": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "targeted_entity": {}
+      }
+    }
+  ]
+}

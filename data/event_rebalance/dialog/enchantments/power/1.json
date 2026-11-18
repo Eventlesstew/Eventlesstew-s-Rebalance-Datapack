@@ -71,11 +71,11 @@
     "actions": [
         {
             "label": {
-                "translate": "enchantment.minecraft.aqua_affinity"
+                "translate": "enchantment.event.melting"
             },
             "action": {
                 "type": "show_dialog",
-                "dialog": "event_rebalance:enchantments/aqua_affinity/1"
+                "dialog": "event_rebalance:enchantments/melting/1"
             },
             "width": 100
         },

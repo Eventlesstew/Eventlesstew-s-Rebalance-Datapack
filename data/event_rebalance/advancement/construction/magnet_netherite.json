@@ -14,7 +14,10 @@
     },
     "frame": "goal",
     "icon": {
-        "id": "netherite_block"
+        "id": "netherite_block",
+        "components": {
+          "item_model": "event:netherite_magnet"
+        }
     }
   },
   "requirements": [

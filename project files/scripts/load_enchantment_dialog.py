@@ -11,6 +11,7 @@ enchant_list = []
 prot_enchants = ["protection", "barrier", "lightweight", "regrow"]
 dialog_template = {}
 list_template = {}
+exclusive_categories = ["durability", "damage", "armor"]
 with open(dialog_template_path, "r") as f:
     dialog_template = json.loads(f.read())
 with open(enchant_dialog_path + ".json", "r") as f:
@@ -142,18 +143,33 @@ for enchant_n, enchant in enumerate(enchant_list):
             }
         )
 
+        # Exclusive
         if "exclusive_set" in data_file:
-            # print(data_file["exclusive_set"].split("/")[-1])
+            exclusive_contents = {
+                "translate": "dialog.enchantment.exclusive",
+                "extra": [
+                    " ",
+                    {"translate": "dialog.enchant." + enchant + ".conflicts"},
+                ],
+            }
+
+            exclusive_set = data_file["exclusive_set"]
+
+            if type(exclusive_set) == "str":
+                print(data_file["exclusive_set"].split("/")[-1])
+                exclusive_category = data_file["exclusive_set"].split("/")[-1]
+
+                exclusive_contents["hover_event"] = {
+                    "action": "show_text",
+                    "value": {
+                        "translate": "dialog.enchant.conflict_category."
+                        + exclusive_category
+                    },
+                }
             enchant_dialog["body"].append(
                 {
                     "type": "minecraft:plain_message",
-                    "contents": {
-                        "translate": "dialog.enchantment.exclusive",
-                        "extra": [
-                            " ",
-                            {"translate": "dialog.enchant." + enchant + ".conflicts"},
-                        ],
-                    },
+                    "contents": exclusive_contents,
                     "width": 3 * BUTTON_WIDTH,
                 }
             )

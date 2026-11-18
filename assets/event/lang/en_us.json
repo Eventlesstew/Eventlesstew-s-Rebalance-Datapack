@@ -136,6 +136,8 @@
     "item.minecraft.skull_pottery_sherd": "Hoglin Hide Boots",
     "item.minecraft.snort_pottery_sherd": "Hoglin Hide Horse Armor",
     "item.event.magnet": "Magnet",
+    "item.minecraft.rabbit_hide": "Magnet",
+    "item.event.netherite_magnet": "Netherite Magnet",
 
     "item.minecraft.vex_spawn_egg": "Magnium Ingot",
     "item.minecraft.frog_spawn_egg": "Bucket of Frog",
@@ -298,6 +300,10 @@
     "dialog.enchantment.exclusive": "§cExclusive With:§r",
     "dialog.enchant.full_armor": "On §eFull Armor§r or §eAnimal Armor§r:",
 
+    "dialog.enchant.conflict_category.damage":"Power, Frenzy, Puncture, Valor, Combo, Brutality, Dynamo, Density, Quick Charge, Smite, Fowling, Impaling, Channeling",
+    "dialog.enchant.conflict_category.armor":"Protection, Lightweight, Regrow, Barrier, Feather Falling",
+    "dialog.enchant.conflict_category.durability":"Unbreaking, Mending, Auto-Repair, Crystallization, Eternity, Conserve, Infinity",
+    
     "enchantment.event.acceleration": "Acceleration",
     "dialog.enchant.acceleration.description.1":"§e+2%§r Speed per second during continuous sprinting. §c+25%§r Hunger Loss during Sprinting",
     "dialog.enchant.acceleration.description.2":"§e+4%§r Speed per second during continuous sprinting. §c+50%§r Hunger Loss during Sprinting",

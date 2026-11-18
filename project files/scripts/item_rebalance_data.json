@@ -281,24 +281,24 @@
             "wooden":1,
             "stone":1.5,
             "copper":1.5,
-            "iron":2,
-            "hyphae":1.5,
-            "golden":2,
-            "diamond":4,
+            "iron":2.5,
+            "hyphae":4.5,
+            "golden":2.5,
+            "diamond":3,
             "rose_golden":3,
-            "netherite":5
+            "netherite":4
         },
         "attack_speed":{
             "_type":"tiered",
-            "wooden":4,
-            "stone":3.5,
-            "copper":4.25,
-            "iron":3.5,
-            "hyphae":5,
+            "wooden":5,
+            "stone":4.5,
+            "copper":5,
+            "iron":4.5,
+            "hyphae":3,
             "golden":5,
-            "diamond":3,
+            "diamond":4.2,
             "rose_golden":5,
-            "netherite":3
+            "netherite":4
         },
         "furnace_fuel":{
             "_type":"tiered",

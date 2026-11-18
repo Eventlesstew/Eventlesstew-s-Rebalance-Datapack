@@ -1,0 +1,6 @@
+{
+    "parent":"event:item/magnet",
+  "textures": {
+    "layer0": "event:item/netherite_magnet"
+  }
+}

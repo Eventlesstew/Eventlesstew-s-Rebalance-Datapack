@@ -72,11 +72,17 @@
         },
         {
             "label": {
-                "translate": "enchantment.minecraft.aqua_affinity"
+                "translate": "enchantment.minecraft.power",
+                "extra": [
+                    " ",
+                    {
+                        "translate": "enchantment.level.1"
+                    }
+                ]
             },
             "action": {
                 "type": "show_dialog",
-                "dialog": "event_rebalance:enchantments/aqua_affinity/1"
+                "dialog": "event_rebalance:enchantments/power/1"
             },
             "width": 100
         }

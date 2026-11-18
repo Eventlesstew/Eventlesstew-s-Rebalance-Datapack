@@ -20,7 +20,7 @@
                         "slot": "mainhand",
                         "id": "balance",
                         "attribute": "attack_damage",
-                        "amount": 1,
+                        "amount": 1.5,
                         "operation": "add_value"
                     },
                     {
@@ -73,7 +73,7 @@
                 "mode": "append",
                 "lore": [
                     {
-                        "translate": "2 ",
+                        "translate": "2.5 ",
                         "italic": false,
                         "color": "#1aa819",
                         "extra": [

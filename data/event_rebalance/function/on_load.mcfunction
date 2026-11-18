@@ -9,6 +9,8 @@ scoreboard objectives add event_rebalance.flat_damage_enchantment_cooldown dummy
 scoreboard objectives add event_rebalance.acceleration_count dummy
 scoreboard objectives add event_rebalance.combo_timer dummy
 scoreboard objectives add event_rebalance.castaway_timer dummy
+scoreboard objectives add event_rebalance.magnet_pull_strength dummy
+scoreboard objectives add balance.magnet_sound dummy
 scoreboard objectives add extra_hearts dummy
 scoreboard objectives add on_a_rail.start.x dummy
 scoreboard objectives add on_a_rail.start.y dummy

@@ -20,14 +20,14 @@
                         "slot": "mainhand",
                         "id": "balance",
                         "attribute": "attack_damage",
-                        "amount": 3,
+                        "amount": 2,
                         "operation": "add_value"
                     },
                     {
                         "slot": "mainhand",
                         "id": "balance",
                         "attribute": "attack_speed",
-                        "amount": -1,
+                        "amount": 0.20000000000000018,
                         "operation": "add_value"
                     }
                 ]
@@ -73,7 +73,7 @@
                 "mode": "append",
                 "lore": [
                     {
-                        "translate": "4 ",
+                        "translate": "3 ",
                         "italic": false,
                         "color": "#1aa819",
                         "extra": [
@@ -83,7 +83,7 @@
                         ]
                     },
                     {
-                        "translate": "3 ",
+                        "translate": "4.2 ",
                         "italic": false,
                         "color": "#1aa819",
                         "extra": [

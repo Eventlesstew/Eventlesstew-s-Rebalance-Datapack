@@ -1,4 +1,5 @@
 execute if entity @s[tag=!rebalanced] run function event_rebalance:entities/rebalance/apply_changes
+execute if entity @s[tag=sits_on_cushion] run function event_rebalance:entities/rebalance/common/leave_cushion
 
 execute if entity @s[type=arrow] run function event_rebalance:entities/rebalance/arrow/tick
 execute if entity @s[type=marker] run function event_rebalance:entities/rebalance/marker/tick

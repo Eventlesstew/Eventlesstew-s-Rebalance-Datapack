@@ -1,0 +1,185 @@
+{
+  "type": "any_of",
+  "terms": [
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 1
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 2
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 3
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 4
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 5
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 6
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 7
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 8
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 9
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": 10
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -1
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -2
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -3
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -4
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -5
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -6
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -7
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -8
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -9
+    },
+    {
+      "type": "location_check",
+      "predicate": {
+        "block": {
+          "blocks": "ancient_debris"
+        }
+      },
+      "offsetY": -10
+    }
+  ]
+}
