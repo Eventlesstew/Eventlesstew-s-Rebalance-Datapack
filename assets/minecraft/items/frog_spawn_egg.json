@@ -4,14 +4,14 @@
         "property": "custom_model_data",
         "cases": [
             {
-                "when": "cold",
+                "when": "minecraft:cold",
                 "model": {
                     "type": "model",
                     "model": "event:item/frog_bucket/cold"
                 }
             },
             {
-                "when": "warm",
+                "when": "minecraft:warm",
                 "model": {
                     "type": "model",
                     "model": "event:item/frog_bucket/warm"
