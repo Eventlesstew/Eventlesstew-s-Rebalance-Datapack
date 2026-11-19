@@ -50,6 +50,7 @@
                     "repairable": {
                         "items": "#event_rebalance:tool_repair/golden"
                     },
+                    "rarity": "common",
                     "mob_visibility": {
                         "targeting_entity_types": "#event_rebalance:mobs",
                         "visibility": 1.25
@@ -63,7 +64,7 @@
                     {
                         "translate": "8 ",
                         "italic": false,
-                        "color": "#1aa819",
+                        "color": "#5555ff",
                         "extra": [
                             {
                                 "translate": "attribute.name.armor"
@@ -73,7 +74,7 @@
                     {
                         "translate": "1% ",
                         "italic": false,
-                        "color": "#1aa819",
+                        "color": "#5555ff",
                         "extra": [
                             {
                                 "translate": "attribute.name.movement_speed"
@@ -83,7 +84,7 @@
                     {
                         "translate": "0.8x ",
                         "italic": false,
-                        "color": "#1aa819",
+                        "color": "#5555ff",
                         "extra": [
                             {
                                 "translate": "attribute.name.stealth"

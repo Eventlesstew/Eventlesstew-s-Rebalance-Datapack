@@ -1,0 +1,2 @@
+$item modify entity @n[tag=death_item,type=item] contents event_rebalance:function/death_item_drop/$(difficulty)
+$item modify entity @s $(inventory_slot) event_rebalance:function/death_item_keep/$(difficulty)

@@ -1,0 +1,16 @@
+{
+    "values": [
+        "ender_eye",
+        "wind_charge",
+        "breeze_rod",
+        "#event_rebalance:custom_item/breeze_powder",
+        "leaf_litter",
+        "feather",
+        "paper",
+        "map",
+        "filled_map",
+        "phantom_membrane",
+        "glowstone_dust",
+        "sugar"
+    ]
+}

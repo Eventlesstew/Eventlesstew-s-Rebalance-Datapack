@@ -175,6 +175,7 @@
             
             "event_rebalance:base_manual/banner",
             "event_rebalance:base_manual/jack_o_lantern",
+            "event_rebalance:base_manual/petrified_oak_slab",
             
             "event_rebalance:food/potato",
             "event_rebalance:food/baked_potato",

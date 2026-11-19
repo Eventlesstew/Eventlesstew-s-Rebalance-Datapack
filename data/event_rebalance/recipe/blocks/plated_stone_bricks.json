@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "key": {
+        "#": "#event_rebalance:custom_item/lode",
+        "S":[
+            "stone_bricks",
+            "chiseled_stone_bricks"
+        ]
+    },
+    "pattern": [
+        "SSS",
+        "S#S",
+        "SSS"
+    ],
+    "result": {
+        "id": "minecraft:petrified_oak_slab",
+        "count": 8
+    }
+}

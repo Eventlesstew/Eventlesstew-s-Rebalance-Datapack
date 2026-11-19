@@ -66,7 +66,7 @@
                     {
                         "translate": "20 ",
                         "italic": false,
-                        "color": "#1aa819",
+                        "color": "#5555ff",
                         "extra": [
                             {
                                 "translate": "attribute.name.armor"
@@ -76,7 +76,7 @@
                     {
                         "translate": "20 ",
                         "italic": false,
-                        "color": "#1aa819",
+                        "color": "#5555ff",
                         "extra": [
                             {
                                 "translate": "attribute.name.armor_toughness"
@@ -86,7 +86,7 @@
                     {
                         "translate": "-10% ",
                         "italic": false,
-                        "color": "#1aa819",
+                        "color": "#5555ff",
                         "extra": [
                             {
                                 "translate": "attribute.name.movement_speed"
@@ -96,7 +96,7 @@
                     {
                         "translate": "-100% ",
                         "italic": false,
-                        "color": "#1aa819",
+                        "color": "#5555ff",
                         "extra": [
                             {
                                 "translate": "attribute.name.burning_time"

@@ -159,13 +159,14 @@ for enchant_n, enchant in enumerate(enchant_list):
                 print(data_file["exclusive_set"].split("/")[-1])
                 exclusive_category = data_file["exclusive_set"].split("/")[-1]
 
-                exclusive_contents["hover_event"] = {
-                    "action": "show_text",
-                    "value": {
-                        "translate": "dialog.enchant.conflict_category."
-                        + exclusive_category
-                    },
-                }
+                if exclusive_categories.has(exclusive_category):
+                    exclusive_contents["hover_event"] = {
+                        "action": "show_text",
+                        "value": {
+                            "translate": "dialog.enchant.conflict_category."
+                            + exclusive_category
+                        },
+                    }
             enchant_dialog["body"].append(
                 {
                     "type": "minecraft:plain_message",

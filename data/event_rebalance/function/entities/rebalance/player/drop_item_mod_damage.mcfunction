@@ -1,0 +1,1 @@
+$execute if items entity @s $(inventory_slot) *[max_damage] run item modify entity @s $(inventory_slot) event_rebalance:function/death_damage/$(difficulty)

@@ -36,6 +36,7 @@
                     "repairable": {
                         "items": "#event_rebalance:tool_repair/hoglin_hide"
                     },
+                    "rarity": "common",
                     "mob_visibility": {
                         "targeting_entity_types": "#event_rebalance:mobs",
                         "visibility": 0.8333333333333334
@@ -54,7 +55,7 @@
                     {
                         "translate": "4 ",
                         "italic": false,
-                        "color": "#1aa819",
+                        "color": "#5555ff",
                         "extra": [
                             {
                                 "translate": "attribute.name.armor"
@@ -64,7 +65,7 @@
                     {
                         "translate": "1.2x ",
                         "italic": false,
-                        "color": "#1aa819",
+                        "color": "#5555ff",
                         "extra": [
                             {
                                 "translate": "attribute.name.stealth"

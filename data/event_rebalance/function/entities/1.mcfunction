@@ -1,8 +1,10 @@
 execute if entity @s[tag=!rebalanced] run function event_rebalance:entities/rebalance/apply_changes
-execute if entity @s[tag=sits_on_cushion] run function event_rebalance:entities/rebalance/common/leave_cushion
+execute if entity @s[type=#event_rebalance:mobs, predicate=event_rebalance:item/cushion/riding] run function event_rebalance:entities/rebalance/common/leave_cushion
 
 execute if entity @s[type=arrow] run function event_rebalance:entities/rebalance/arrow/tick
 execute if entity @s[type=marker] run function event_rebalance:entities/rebalance/marker/tick
+execute if entity @s[type=item] run function event_rebalance:entities/rebalance/item/tick
+execute if entity @s[type=eye_of_ender] run function event_rebalance:entities/rebalance/eye_of_ender/tick
 execute if entity @s[type=player] run function event_rebalance:entities/rebalance/player/tick
 execute if entity @s[type=#event_rebalance:rideable] run function event_rebalance:entities/rebalance/ridable/tick
 

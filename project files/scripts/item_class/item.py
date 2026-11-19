@@ -263,6 +263,10 @@ class item:
                     "items": "#event_rebalance:tool_repair/" + tier
                 }
 
+        rarity = get_item_value(self.item_id, "rarity", tier)
+        if rarity:
+            components["rarity"] = rarity
+
         stealth = get_item_value(self.item_id, "stealth", tier)
         if stealth:
             components["mob_visibility"] = {
@@ -460,26 +464,26 @@ class item:
 
         armor = get_item_value(self.item_id, "armor", tier)
         if armor:
-            add_lore(armor, "armor")
+            add_lore(armor, "armor", "#5555ff")
 
         armor_toughness = get_item_value(self.item_id, "armor_toughness", tier)
         if armor_toughness:
-            add_lore(armor_toughness, "armor_toughness")
+            add_lore(armor_toughness, "armor_toughness", "#5555ff")
 
         movement_speed = get_item_value(self.item_id, "movement_speed", tier)
         if movement_speed:
             movement_speed = str(movement_speed) + "%"
-            add_lore(movement_speed, "movement_speed")
+            add_lore(movement_speed, "movement_speed", "#5555ff")
 
         stealth = get_item_value(self.item_id, "stealth", tier)
         if stealth:
             stealth = str(stealth) + "x"
-            add_lore(stealth, "stealth")
+            add_lore(stealth, "stealth", "#5555ff")
 
         burn_time = get_item_value(self.item_id, "burn_time", tier)
         if burn_time:
             burn_time = str(int(burn_time * 100)) + "%"
-            add_lore(burn_time, "burning_time")
+            add_lore(burn_time, "burning_time", "#5555ff")
 
         return lore
 

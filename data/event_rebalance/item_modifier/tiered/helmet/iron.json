@@ -35,7 +35,8 @@
                     "max_stack_size": 1,
                     "repairable": {
                         "items": "#event_rebalance:tool_repair/iron"
-                    }
+                    },
+                    "rarity": "common"
                 }
             },
             {
@@ -45,7 +46,7 @@
                     {
                         "translate": "3 ",
                         "italic": false,
-                        "color": "#1aa819",
+                        "color": "#5555ff",
                         "extra": [
                             {
                                 "translate": "attribute.name.armor"

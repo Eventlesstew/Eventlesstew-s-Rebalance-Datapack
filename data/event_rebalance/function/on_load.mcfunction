@@ -54,6 +54,7 @@ scoreboard players set 180_arrow static 1800000
 gamerule spawn_phantoms false
 gamerule keep_inventory true
 gamerule max_minecart_speed 1000
+gamerule players_sleeping_percentage 1
 
 function event_rebalance:enchantments/common/restart_all
 

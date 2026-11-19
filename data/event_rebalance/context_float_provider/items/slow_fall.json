@@ -1,0 +1,11 @@
+{
+    "type": "max",
+    "inputs": [
+        {
+            "type": "storage",
+            "path": "item_fall_speed",
+            "storage": "event_rebalance:temp"
+        },
+        -8.0
+    ]
+}

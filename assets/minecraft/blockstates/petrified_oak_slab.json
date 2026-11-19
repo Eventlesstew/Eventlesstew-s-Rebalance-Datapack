@@ -1,13 +1,7 @@
 {
   "variants": {
-    "type=bottom": {
-      "model": "minecraft:block/petrified_oak_slab"
-    },
-    "type=double": {
-      "model": "event:block/withered_chunk_block"
-    },
-    "type=top": {
-      "model": "minecraft:block/petrified_oak_slab_top"
+    "": {
+      "model": "event:block/plated_stone_bricks"
     }
   }
 }

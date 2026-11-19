@@ -69,6 +69,10 @@
             "rose_golden",
             "netherite"
         ],
+        "rarity":{
+            "_type":"tiered",
+            "other":"common"
+        },
         "max_damage":{
             "_type":"reference",
             "reference":"template_tool"
@@ -551,6 +555,10 @@
             "netherite",
             "turtle"
         ],
+        "rarity":{
+            "_type":"reference",
+            "reference":"template_armor"
+        },
         "max_damage":{
             "_type":"reference",
             "reference":"template_armor"
@@ -615,6 +623,10 @@
             "_type":"reference",
             "reference":"template_armor"
         },
+        "rarity":{
+            "_type":"reference",
+            "reference":"template_armor"
+        },
         "armor": {
             "_type":"tiered",
             "leather":3,
@@ -670,6 +682,10 @@
             "_type":"reference",
             "reference":"template_armor"
         },
+        "rarity":{
+            "_type":"reference",
+            "reference":"template_armor"
+        },
         "armor": {
             "_type":"tiered",
             "leather":2,
@@ -717,6 +733,10 @@
             "reference":"template_armor"
         },
         "tiers": {
+            "_type":"reference",
+            "reference":"template_armor"
+        },
+        "rarity":{
             "_type":"reference",
             "reference":"template_armor"
         },

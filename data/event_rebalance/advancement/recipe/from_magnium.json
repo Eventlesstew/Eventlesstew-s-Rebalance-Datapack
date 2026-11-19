@@ -20,7 +20,8 @@
   "rewards": {
     "recipes": [
       "event_rebalance:blocks/magnium_block",
-      "event_rebalance:blocks/magnium_block_decraft"
+      "event_rebalance:blocks/magnium_block_decraft",
+      "event_rebalance:blocks/plated_stone_bricks"
     ]
   }
 }

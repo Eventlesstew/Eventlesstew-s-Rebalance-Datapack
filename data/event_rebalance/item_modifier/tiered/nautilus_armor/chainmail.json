@@ -74,7 +74,7 @@
                     {
                         "translate": "10 ",
                         "italic": false,
-                        "color": "#1aa819",
+                        "color": "#5555ff",
                         "extra": [
                             {
                                 "translate": "attribute.name.armor"
@@ -84,7 +84,7 @@
                     {
                         "translate": "6 ",
                         "italic": false,
-                        "color": "#1aa819",
+                        "color": "#5555ff",
                         "extra": [
                             {
                                 "translate": "attribute.name.armor_toughness"
@@ -94,7 +94,7 @@
                     {
                         "translate": "8% ",
                         "italic": false,
-                        "color": "#1aa819",
+                        "color": "#5555ff",
                         "extra": [
                             {
                                 "translate": "attribute.name.movement_speed"

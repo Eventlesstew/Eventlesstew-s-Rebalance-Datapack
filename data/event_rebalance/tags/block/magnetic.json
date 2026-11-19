@@ -4,12 +4,26 @@
         "iron_block",
         "iron_chain",
         "iron_door",
-        "iron_ore",
+        "#iron_ores",
         "raw_iron_block",
         "iron_trapdoor",
         "lodestone",
         "ancient_debris",
         "netherite_block",
-        "#event_rebalance:custom_block/magnium_block"
+        "#event_rebalance:custom_block/magnium_block",
+        "#anvil",
+        "heavy_weighted_pressure_plate",
+        "lantern",
+        "soul_lantern",
+        "cauldron",
+        "spawner",
+        "trial_spawner",
+        "vault",
+        "smithing_table",
+        "rail",
+        "detector_rail",
+        "activator_rail",
+        "stonecutter",
+        "#event_rebalance:custom_block/plated_stone_bricks"
     ]
 }

@@ -46,11 +46,12 @@
     "block.minecraft.light_gray_shulker_box": "Light Gray Portal Box",
     "block.minecraft.gray_shulker_box": "Gray Portal Box",
     "block.minecraft.black_shulker_box": "Black Portal Box",
+    "block.minecraft.end_rod": "Light Rod",
     
     "item.minecraft.experience_bottle": "Potion of Mending",
 
     "block.minecraft.deepslate_copper_ore":"Block of Rose Gold",
-    "block.minecraft.petrified_oak_slab":"Dummy Block",
+    "block.minecraft.petrified_oak_slab":"Plated Stone Bricks",
 
     "item.event.wooden_dagger": "Wooden Dagger",
     "item.event.wooden_hammer": "Wooden Hammer",

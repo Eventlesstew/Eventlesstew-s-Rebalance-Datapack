@@ -37,7 +37,8 @@
                 "components": {
                     "enchantable": {
                         "value": 10
-                    }
+                    },
+                    "rarity": "common"
                 }
             },
             {
@@ -47,7 +48,7 @@
                     {
                         "translate": "2 ",
                         "italic": false,
-                        "color": "#1aa819",
+                        "color": "#5555ff",
                         "extra": [
                             {
                                 "translate": "attribute.name.armor"
@@ -57,7 +58,7 @@
                     {
                         "translate": "4 ",
                         "italic": false,
-                        "color": "#1aa819",
+                        "color": "#5555ff",
                         "extra": [
                             {
                                 "translate": "attribute.name.armor_toughness"

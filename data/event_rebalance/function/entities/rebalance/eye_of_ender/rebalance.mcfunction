@@ -1,0 +1,1 @@
+data modify entity @s Item.components."minecraft:custom_data".emit_particles set value true

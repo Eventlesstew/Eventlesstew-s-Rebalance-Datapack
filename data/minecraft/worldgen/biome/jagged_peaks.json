@@ -59,8 +59,8 @@
             },
             {
               "type": "minecraft:phantom",
-              "count": 2,
-              "weight": 100
+              "count": 5,
+              "weight": 300
             },
             {
               "type": "minecraft:skeleton",

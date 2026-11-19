@@ -49,7 +49,8 @@
                     "max_stack_size": 1,
                     "repairable": {
                         "items": "#event_rebalance:tool_repair/copper"
-                    }
+                    },
+                    "rarity": "common"
                 }
             },
             {
@@ -59,7 +60,7 @@
                     {
                         "translate": "2 ",
                         "italic": false,
-                        "color": "#1aa819",
+                        "color": "#5555ff",
                         "extra": [
                             {
                                 "translate": "attribute.name.armor"
@@ -69,7 +70,7 @@
                     {
                         "translate": "2% ",
                         "italic": false,
-                        "color": "#1aa819",
+                        "color": "#5555ff",
                         "extra": [
                             {
                                 "translate": "attribute.name.movement_speed"

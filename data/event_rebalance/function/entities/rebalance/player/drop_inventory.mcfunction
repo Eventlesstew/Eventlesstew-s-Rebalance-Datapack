@@ -1,3 +1,6 @@
+execute store result score difficulty temp run difficulty
+execute if score difficulty temp <= 0 static run return fail 
+
 function event_rebalance:entities/rebalance/player/drop_item {inventory_slot:"hotbar.0"}
 function event_rebalance:entities/rebalance/player/drop_item {inventory_slot:"hotbar.1"}
 function event_rebalance:entities/rebalance/player/drop_item {inventory_slot:"hotbar.2"}

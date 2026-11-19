@@ -50,6 +50,7 @@
                     "repairable": {
                         "items": "#event_rebalance:tool_repair/rose_golden"
                     },
+                    "rarity": "common",
                     "mob_visibility": {
                         "targeting_entity_types": "#event_rebalance:mobs",
                         "visibility": 1.4285714285714286
@@ -68,7 +69,7 @@
                     {
                         "translate": "5 ",
                         "italic": false,
-                        "color": "#1aa819",
+                        "color": "#5555ff",
                         "extra": [
                             {
                                 "translate": "attribute.name.armor"
@@ -78,7 +79,7 @@
                     {
                         "translate": "4% ",
                         "italic": false,
-                        "color": "#1aa819",
+                        "color": "#5555ff",
                         "extra": [
                             {
                                 "translate": "attribute.name.movement_speed"
@@ -88,7 +89,7 @@
                     {
                         "translate": "0.7x ",
                         "italic": false,
-                        "color": "#1aa819",
+                        "color": "#5555ff",
                         "extra": [
                             {
                                 "translate": "attribute.name.stealth"

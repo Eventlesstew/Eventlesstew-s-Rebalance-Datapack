@@ -1,0 +1,1 @@
+function event_rebalance:entities/rebalance/eye_of_ender/emit_particle

@@ -6,6 +6,7 @@ execute if entity @s[tag=sits_on_cushion] run function event_rebalance:entities/
 # General
 execute if entity @s[type=#event_rebalance:spawns_with_armor] run function event_rebalance:entities/rebalance/armor/rebalance
 execute if entity @s[type=armor_stand] run function event_rebalance:entities/rebalance/armor_stand/rebalance
+execute if entity @s[type=eye_of_ender] run function event_rebalance:entities/rebalance/eye_of_ender/rebalance
 execute if entity @s[type=item] run function event_rebalance:entities/rebalance/item/rebalance
 execute if entity @s[type=arrow] run function event_rebalance:entities/rebalance/arrow/rebalance
 execute if entity @s[type=spectral_arrow] run function event_rebalance:entities/rebalance/spectral_arrow/rebalance
@@ -32,6 +33,8 @@ execute if entity @s[type=spider] run function event_rebalance:entities/rebalanc
 execute if entity @s[type=cave_spider] run function event_rebalance:entities/rebalance/cave_spider/rebalance
 
 execute if entity @s[type=creeper] run function event_rebalance:entities/rebalance/creeper/rebalance
+
+execute if entity @s[type=vindicator] run function event_rebalance:entities/rebalance/vindicator/rebalance
 
 # Nether
 execute if entity @s[type=blaze] run function event_rebalance:entities/rebalance/blaze/rebalance
