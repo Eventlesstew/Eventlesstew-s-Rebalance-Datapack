@@ -30,6 +30,11 @@
       "type": "slot_range",
       "source": "this",
       "slots": "weapon.*"
+    },
+    {
+      "type": "slot_range",
+      "source": "this",
+      "slots": "saddle"
     }
   ]
 }

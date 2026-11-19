@@ -9,7 +9,7 @@
                 "item_name": {
                     "translate": "item.event.netherite_magnet"
                 },
-                "item_model": "event:magnet",
+                "item_model": "event:netherite_magnet",
                 "blocks_attacks": {
                     "damage_reductions": []
                 },

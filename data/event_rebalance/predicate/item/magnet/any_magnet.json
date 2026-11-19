@@ -8,7 +8,7 @@
         "equipment": {
           "mainhand": {
             "components": {
-              "item_model": "magnet"
+              "item_model": "event:magnet"
             }
           }
         }
@@ -21,7 +21,7 @@
         "equipment": {
           "offhand": {
             "components": {
-              "item_model": "magnet"
+              "item_model": "event:magnet"
             }
           }
         }
@@ -34,7 +34,7 @@
         "equipment": {
           "mainhand": {
             "components": {
-              "item_model": "netherite_magnet"
+              "item_model": "event:netherite_magnet"
             }
           }
         }
@@ -47,7 +47,7 @@
         "equipment": {
           "offhand": {
             "components": {
-              "item_model": "netherite_magnet"
+              "item_model": "event:netherite_magnet"
             }
           }
         }

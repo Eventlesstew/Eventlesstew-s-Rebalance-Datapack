@@ -61,7 +61,14 @@
         ],
         "subtitle": "subtitles.item.hammer.swing"
     },
-
+    "item.magnet.pull":{
+        "sounds": [
+            "event:item/magnet/1",
+            "event:item/magnet/2",
+            "event:item/magnet/3"
+        ],
+        "subtitle": "subtitles.item.magnet.pull"
+    },
     "item.milk_bucket.drink":{
         "sounds":[ 
             {"name":"event:item/milk_bucket/drink/1"},

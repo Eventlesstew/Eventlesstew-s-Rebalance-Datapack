@@ -1,2 +1,2 @@
-execute as @a[scores={balance.magnet_sound=0..}] at @s run function event_rebalance:items/magnet/sound/reduce
-execute if entity @a[scores={balance.magnet_sound=0..}] run schedule function event_rebalance:items/magnet/sound/check_all 1t
+execute as @a[scores={event_rebalance.magnet_sound=0..}] at @s run function event_rebalance:items/magnet/sound/reduce
+execute if entity @a[scores={event_rebalance.magnet_sound=0..}] run schedule function event_rebalance:items/magnet/sound/check_all 1t

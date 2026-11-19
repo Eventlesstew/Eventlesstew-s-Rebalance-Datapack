@@ -11,6 +11,9 @@
     "result": {
         "id": "music_disc_13",
         "components": {
+            "!jukebox_playable":{},
+            "rarity":"common",
+            "max_stack_size":64,
             "item_name": {
                 "translate": "item.event.netherite_magnet"
             },

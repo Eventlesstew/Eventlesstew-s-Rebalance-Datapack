@@ -1,0 +1,1 @@
+item replace entity @s saddle with saddle[enchantments={"event_rebalance:function/test":1}] 1

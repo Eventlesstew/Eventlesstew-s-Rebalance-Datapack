@@ -1,0 +1,207 @@
+{
+  "anvil_cost": 10,
+  "description": "Test",
+  "effects": {
+    "tick": [
+      {
+        "effect": {
+          "type": "all_of",
+          "effects": [
+            {
+              "type": "run_function",
+              "function": "event_rebalance:items/magnet/pull/reset"
+            },
+            {
+              "type": "minecraft:apply_impulse",
+              "coordinate_scale": [
+                0.33,
+                1.0,
+                0.33
+              ],
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "magnitude": 0.4
+            }
+          ]
+        },
+        "requirements": {
+          "type": "any_of",
+          "terms": [
+            {
+              "type": "entity_scores",
+              "entity": "this",
+              "scores": {
+                "event_rebalance.magnet_pull_strength": 5
+              }
+            }
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "all_of",
+          "effects": [
+            {
+              "type": "run_function",
+              "function": "event_rebalance:items/magnet/pull/reset"
+            },
+            {
+              "type": "minecraft:apply_impulse",
+              "coordinate_scale": [
+                0.33,
+                1.0,
+                0.33
+              ],
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "magnitude": 0.2
+            }
+          ]
+        },
+        "requirements": {
+          "type": "any_of",
+          "terms": [
+            {
+              "type": "entity_scores",
+              "entity": "this",
+              "scores": {
+                "event_rebalance.magnet_pull_strength": 4
+              }
+            }
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "all_of",
+          "effects": [
+            {
+              "type": "run_function",
+              "function": "event_rebalance:items/magnet/pull/reset"
+            },
+            {
+              "type": "minecraft:apply_impulse",
+              "coordinate_scale": [
+                0.33,
+                1.0,
+                0.33
+              ],
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "magnitude": 0.1
+            }
+          ]
+        },
+        "requirements": {
+          "type": "any_of",
+          "terms": [
+            {
+              "type": "entity_scores",
+              "entity": "this",
+              "scores": {
+                "event_rebalance.magnet_pull_strength": 3
+              }
+            }
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "all_of",
+          "effects": [
+            {
+              "type": "run_function",
+              "function": "event_rebalance:items/magnet/pull/reset"
+            },
+            {
+              "type": "minecraft:apply_impulse",
+              "coordinate_scale": [
+                0.33,
+                1.0,
+                0.33
+              ],
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "magnitude": 0.05
+            }
+          ]
+        },
+        "requirements": {
+          "type": "any_of",
+          "terms": [
+            {
+              "type": "entity_scores",
+              "entity": "this",
+              "scores": {
+                "event_rebalance.magnet_pull_strength": 2
+              }
+            }
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "all_of",
+          "effects": [
+            {
+              "type": "run_function",
+              "function": "event_rebalance:items/magnet/pull/reset"
+            },
+            {
+              "type": "minecraft:apply_impulse",
+              "coordinate_scale": [
+                0.33,
+                1.0,
+                0.33
+              ],
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "magnitude": 0.025
+            }
+          ]
+        },
+        "requirements": {
+          "type": "any_of",
+          "terms": [
+            {
+              "type": "entity_scores",
+              "entity": "this",
+              "scores": {
+                "event_rebalance.magnet_pull_strength": 1
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "max_level": 1,
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 0
+  },
+  "min_cost": {
+    "base": 50,
+    "per_level_above_first": 0
+  },
+  "weight": 1,
+  "slots": [
+    "saddle"
+  ],
+  "supported_items": "saddle"
+}
