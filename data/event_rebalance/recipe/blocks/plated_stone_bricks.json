@@ -4,8 +4,7 @@
     "key": {
         "#": "#event_rebalance:custom_item/lode",
         "S":[
-            "stone_bricks",
-            "chiseled_stone_bricks"
+            "smooth_stone"
         ]
     },
     "pattern": [
