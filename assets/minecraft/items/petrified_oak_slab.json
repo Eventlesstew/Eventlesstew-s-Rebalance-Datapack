@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "event:block/withered_chunk_block"
+    "model": "event:block/plated_stone_bricks"
   }
 }
