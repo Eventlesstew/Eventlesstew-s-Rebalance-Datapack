@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_rabbit_hide": {
+      "trigger": "minecraft:impossible"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "minecraft:leather"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_rabbit_hide"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:leather"
+    ]
+  }
+}
