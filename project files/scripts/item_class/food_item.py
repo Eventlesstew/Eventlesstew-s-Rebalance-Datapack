@@ -19,7 +19,7 @@ class food_item(item):
         saturation = get_item_value(self.item_id, "saturation", tier)
         always_edible = get_item_value(self.item_id, "always_edible", tier)
         eat_time = get_item_value(self.item_id, "eat_time", tier)
-        eat_speed = get_item_value(self.item_id, "eat_speed", tier)
+
         eat_sound = get_item_value(self.item_id, "eat_sound", tier)
         is_drink = get_item_value(self.item_id, "is_drink", tier)
 
@@ -36,10 +36,6 @@ class food_item(item):
         components["consumable"] = {
             "consume_seconds": eat_time,
             "on_consume_effects": food_effects,
-        }
-        components["use_effects"] = {
-            "speed_multiplier": eat_speed,
-            "can_sprint": eat_speed >= 0.5,
         }
 
         if eat_sound != "default":

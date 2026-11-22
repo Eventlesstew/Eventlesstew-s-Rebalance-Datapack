@@ -16,6 +16,10 @@
             {
                 "type": "set_components",
                 "components": {
+                    "use_effects": {
+                        "speed_multiplier": 1,
+                        "can_sprint": true
+                    },
                     "food": {
                         "nutrition": 1,
                         "saturation": 1,
@@ -57,10 +61,6 @@
                         "sound": {
                             "sound_id": "item.soft.eat"
                         }
-                    },
-                    "use_effects": {
-                        "speed_multiplier": 1,
-                        "can_sprint": true
                     }
                 }
             },

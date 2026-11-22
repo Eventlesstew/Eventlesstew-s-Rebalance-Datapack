@@ -35,6 +35,10 @@
             {
                 "type": "set_components",
                 "components": {
+                    "use_effects": {
+                        "speed_multiplier": 0.2,
+                        "can_sprint": false
+                    },
                     "enchantable": {
                         "value": 10
                     },

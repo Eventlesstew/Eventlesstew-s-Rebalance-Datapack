@@ -4,7 +4,7 @@
         "translate": "dialog.enchantment.title"
     },
     "external_title": {
-        "translate": "enchantment.balance.dashing",
+        "translate": "enchantment.event.dashing",
         "extra": [
             " ",
             {
@@ -24,7 +24,7 @@
                 }
             },
             "description": {
-                "translate": "enchantment.balance.dashing",
+                "translate": "enchantment.event.dashing",
                 "extra": [
                     " ",
                     {

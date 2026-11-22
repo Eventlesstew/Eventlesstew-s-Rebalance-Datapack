@@ -35,6 +35,10 @@
             {
                 "type": "set_components",
                 "components": {
+                    "use_effects": {
+                        "speed_multiplier": 1,
+                        "can_sprint": true
+                    },
                     "enchantable": {
                         "value": 10
                     },
@@ -46,6 +50,10 @@
                     "weapon": {
                         "item_damage_per_attack": 1,
                         "disable_blocking_for_seconds": 1
+                    },
+                    "attack_animation": {
+                        "type": "stab",
+                        "duration": 20
                     },
                     "minimum_attack_charge": 1,
                     "piercing_weapon": {

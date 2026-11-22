@@ -18,6 +18,10 @@
             {
                 "type": "set_components",
                 "components": {
+                    "use_effects": {
+                        "speed_multiplier": 0.5,
+                        "can_sprint": true
+                    },
                     "food": {
                         "nutrition": 8,
                         "saturation": 2,
@@ -38,10 +42,6 @@
                                 ]
                             }
                         ]
-                    },
-                    "use_effects": {
-                        "speed_multiplier": 0.5,
-                        "can_sprint": true
                     }
                 }
             },

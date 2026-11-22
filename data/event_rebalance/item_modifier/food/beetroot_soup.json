@@ -16,6 +16,10 @@
             {
                 "type": "set_components",
                 "components": {
+                    "use_effects": {
+                        "speed_multiplier": 0,
+                        "can_sprint": false
+                    },
                     "food": {
                         "nutrition": 7,
                         "saturation": 7,
@@ -40,10 +44,6 @@
                         "sound": {
                             "sound_id": "item.soup.drink"
                         }
-                    },
-                    "use_effects": {
-                        "speed_multiplier": 0,
-                        "can_sprint": false
                     }
                 }
             },

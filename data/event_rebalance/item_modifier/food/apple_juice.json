@@ -18,6 +18,10 @@
             {
                 "type": "set_components",
                 "components": {
+                    "use_effects": {
+                        "speed_multiplier": 0.5,
+                        "can_sprint": true
+                    },
                     "food": {
                         "nutrition": 0,
                         "saturation": 0,
@@ -59,10 +63,6 @@
                         "sound": {
                             "sound_id": "item.drink.drink"
                         }
-                    },
-                    "use_effects": {
-                        "speed_multiplier": 0.5,
-                        "can_sprint": true
                     }
                 }
             },

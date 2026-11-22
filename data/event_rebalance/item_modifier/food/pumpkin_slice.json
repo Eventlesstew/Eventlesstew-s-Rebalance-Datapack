@@ -18,6 +18,10 @@
             {
                 "type": "set_components",
                 "components": {
+                    "use_effects": {
+                        "speed_multiplier": 0.2,
+                        "can_sprint": false
+                    },
                     "food": {
                         "nutrition": 5,
                         "saturation": 5,
@@ -42,10 +46,6 @@
                         "sound": {
                             "sound_id": "item.apple.eat"
                         }
-                    },
-                    "use_effects": {
-                        "speed_multiplier": 0.2,
-                        "can_sprint": false
                     }
                 }
             },

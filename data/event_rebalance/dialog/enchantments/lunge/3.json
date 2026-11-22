@@ -97,7 +97,7 @@
         },
         {
             "label": {
-                "translate": "enchantment.balance.dashing",
+                "translate": "enchantment.event.dashing",
                 "extra": [
                     " ",
                     {

@@ -18,6 +18,10 @@
             {
                 "type": "set_components",
                 "components": {
+                    "use_effects": {
+                        "speed_multiplier": 0.2,
+                        "can_sprint": false
+                    },
                     "food": {
                         "nutrition": 0,
                         "saturation": 12,
@@ -48,10 +52,6 @@
                         "sound": {
                             "sound_id": "item.honey_bottle.drink"
                         }
-                    },
-                    "use_effects": {
-                        "speed_multiplier": 0.2,
-                        "can_sprint": false
                     }
                 }
             },

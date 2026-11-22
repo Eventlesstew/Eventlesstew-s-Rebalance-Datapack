@@ -16,6 +16,10 @@
             {
                 "type": "set_components",
                 "components": {
+                    "use_effects": {
+                        "speed_multiplier": 0.2,
+                        "can_sprint": false
+                    },
                     "food": {
                         "nutrition": 8,
                         "saturation": 2,
@@ -31,10 +35,6 @@
                         "sound": {
                             "sound_id": "item.chorus_fruit.eat"
                         }
-                    },
-                    "use_effects": {
-                        "speed_multiplier": 0.2,
-                        "can_sprint": false
                     }
                 }
             },

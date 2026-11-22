@@ -242,6 +242,12 @@ class item:
             components["item_model"] = "event:" + self.item_id
             components["item_name"] = {"translate": "item.event." + self.item_id}
 
+        eat_speed = get_item_value(self.item_id, "eat_speed", tier)
+        components["use_effects"] = {
+            "speed_multiplier": eat_speed,
+            "can_sprint": eat_speed >= 0.5,
+        }
+
         enchantable = get_item_value(self.item_id, "enchantable", tier)
         if enchantable:
             if enchantable == 0:

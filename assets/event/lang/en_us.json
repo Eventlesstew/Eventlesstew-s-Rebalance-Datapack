@@ -678,7 +678,7 @@
     "dialog.enchant.rebound.description.1": "Hitting a target makes you §edash§r up to §e4§r Blocks backwards",
     "dialog.enchant.rebound.description.2": "Hitting a target makes you §edash§r up to §e8§r Blocks backwards",
     "dialog.enchant.rebound.description.3": "Hitting a target makes you §edash§r up to §e12§r Blocks backwards",
-    "dialog.enchant.rebound.supported":"Daggers, Swords, Spears, Hammers and Axes",
+    "dialog.enchant.rebound.supported":"Spears, Hammers and Axes",
     "dialog.enchant.rebound.conflicts":"Lunge",
     
     "enchantment.event.regrow": "Regrow",
