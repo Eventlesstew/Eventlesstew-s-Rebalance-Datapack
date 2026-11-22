@@ -595,7 +595,7 @@
     "dialog.enchant.lunge.description.2": "Jab Attack makes you §edash§r up to 8 Blocks forward. §c-50%§r Attack Speed. Dash costs §c1§r Durability and §c0.75§r Food",
     "dialog.enchant.lunge.description.3": "Jab Attack makes you §edash§r up to 12 Blocks forward. §c-50%§r Attack Speed. Dash costs §c1§r Durability and §c1§r Food",
     "dialog.enchant.lunge.supported":"Spears",
-    "dialog.enchant.lunge.conflicts":"Puncture, Rebound, Dashing",
+    "dialog.enchant.lunge.conflicts":"Puncture, Dashing",
 
     "dialog.enchant.lure.description.1": "Reduces time until the bobber gets a bite by §e5 Seconds§r",
     "dialog.enchant.lure.description.2": "Reduces time until the bobber gets a bite by §e10 Seconds§r",
@@ -679,7 +679,7 @@
     "dialog.enchant.rebound.description.2": "Hitting a target makes you §edash§r up to §e8§r Blocks backwards",
     "dialog.enchant.rebound.description.3": "Hitting a target makes you §edash§r up to §e12§r Blocks backwards",
     "dialog.enchant.rebound.supported":"Daggers, Swords, Spears, Hammers and Axes",
-    "dialog.enchant.rebound.conflicts":"Lunge, Dashing",
+    "dialog.enchant.rebound.conflicts":"Lunge",
     
     "enchantment.event.regrow": "Regrow",
     "dialog.enchant.regrow.description.1": "Restores §e1 Health§r every §e12.5§r seconds",
@@ -743,7 +743,7 @@
     "dialog.enchant.dashing.description.1": "Attacking targets makes you §edash§r up to §e1.5 blocks§r in the direction you're facing",
     "dialog.enchant.dashing.description.2": "Attacking targets makes you §edash§r up to §e3 blocks§r in the direction you're facing",
     "dialog.enchant.dashing.supported":"Swords, Daggers and Spears",
-    "dialog.enchant.dashing.conflicts":"Lunge, Rebound",
+    "dialog.enchant.dashing.conflicts":"Lunge",
     
     "enchantment.event.squeeze":"Squeeze",
     "dialog.enchant.squeeze.description.1": "§e+0.5§r Damage for every hit target in one sweep attack",

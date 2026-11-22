@@ -4,10 +4,8 @@
     "translate": "enchantment.event.rebound"
   },
   "effects": {
-    "minecraft:post_attack": [
+    "tick": [
       {
-        "affected": "attacker",
-        "enchanted": "attacker",
         "effect": {
           "type": "minecraft:all_of",
           "effects": [
@@ -15,7 +13,7 @@
               "type": "minecraft:apply_impulse",
               "coordinate_scale": [
                 1.0,
-                0.5,
+                1.0,
                 1.0
               ],
               "direction": [
@@ -32,31 +30,114 @@
             {
               "type": "minecraft:play_sound",
               "pitch": 1.0,
-              "sound": [
-                "minecraft:item.spear.lunge_1",
-                "minecraft:item.spear.lunge_2",
-                "minecraft:item.spear.lunge_3"
-              ],
+              "sound": {
+                "sound_id": "enchant.rebound"
+              },
               "volume": 1.0
+            },
+            {
+              "type": "run_function",
+              "function": "event_rebalance:shield_block/remove"
+            }
+          ]
+        },
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "vehicle": {}
+                }
+              }
+            },
+            {
+              "type": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:['using_item_spear']}"
+              }
+            },
+            {
+              "type": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:['balance.rebound_blocked']}"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "minecraft:post_attack": [
+      {
+        "affected": "attacker",
+        "enchanted": "attacker",
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_impulse",
+              "coordinate_scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "magnitude": {
+                "type": "minecraft:linear",
+                "base": -0.6,
+                "per_level_above_first": -0.6
+              }
+            },
+            {
+              "type": "minecraft:play_sound",
+              "pitch": 1.0,
+              "sound": {
+                "sound_id": "enchant.rebound"
+              },
+              "volume": 1.0
+            }
+          ]
+        },
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "direct_attacker",
+                "predicate": {
+                  "vehicle": {}
+                }
+              }
             }
           ]
         }
       }
     ]
   },
-  "exclusive_set": "#event_rebalance:exclusive_set/mobility",
+  "exclusive_set": "event_rebalance:dashing",
   "max_level": 3,
   "max_cost": {
-    "base": 16,
-    "per_level_above_first": 12
+    "base": 25,
+    "per_level_above_first": 25
   },
   "min_cost": {
     "base": 0,
-    "per_level_above_first": 12
+    "per_level_above_first": 25
   },
-  "weight": 2,
+  "weight": 10,
   "slots": [
     "hand"
   ],
-  "supported_items": "#enchantable/sharp_weapon"
+  "supported_items": "#minecraft:enchantable/sharp_weapon"
 }

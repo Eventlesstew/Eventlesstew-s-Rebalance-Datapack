@@ -179,8 +179,6 @@
   "slots": [
     "mainhand"
   ],
-  "exclusive_set": [
-    "event_rebalance:puncture"
-  ],
+  "exclusive_set": "event_rebalance:puncture",
   "supported_items": "#minecraft:enchantable/lunge"
 }

@@ -4,6 +4,71 @@
     "translate": "enchantment.event.brutality"
   },
   "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:run_function",
+              "function": "event_rebalance:enchantments/brutality/check"
+            },
+            {
+              "type": "play_sound",
+              "sound": {
+                "sound_id": "minecraft:enchant.brutality"
+              },
+              "volume": 1,
+              "pitch": 1
+            },
+            {
+              "type": "run_function",
+              "function": "event_rebalance:shield_block/remove"
+            }
+          ]
+        },
+        "requirements": {
+          "type": "all_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:['balance.brutality_blocked']}"
+              }
+            },
+            {
+              "type": "inverted",
+              "term": {
+                "type": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{Tags:['balance.flat_damage_enchantment_cooldown']}"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "event_rebalance:enchantments/flat_damage/remove"
+        },
+        "requirements": {
+          "type": "all_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:['balance.flat_damage_enchantment_cooldown']}"
+              }
+            }
+          ]
+        }
+      }
+    ],
     "minecraft:post_attack": [
       {
         "affected": "attacker",
@@ -11,18 +76,8 @@
           "type": "minecraft:all_of",
           "effects": [
             {
-              "type": "minecraft:damage_entity",
-              "damage_type": "event_rebalance:brutality",
-              "max_damage": {
-                "type": "minecraft:linear",
-                "base": 1,
-                "per_level_above_first": 0.5
-              },
-              "min_damage": {
-                "type": "minecraft:linear",
-                "base": 1,
-                "per_level_above_first": 0.5
-              }
+              "type": "minecraft:run_function",
+              "function": "event_rebalance:enchantments/brutality/check"
             },
             {
               "type": "play_sound",
@@ -34,7 +89,72 @@
             }
           ]
         },
-        "enchanted": "attacker"
+        "enchanted": "attacker",
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "attacker",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "items": [
+                        "wolf_armor"
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "type": "inverted",
+              "term": {
+                "type": "entity_properties",
+                "entity": "attacker",
+                "predicate": {
+                  "nbt": "{Tags:['balance.flat_damage_enchantment_cooldown']}"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "enchanted": "attacker",
+        "affected": "attacker",
+        "effect": {
+          "type": "run_function",
+          "function": "event_rebalance:enchantments/flat_damage/cooldown"
+        },
+        "requirements": {
+          "type": "all_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "attacker",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "items": "#daggers"
+                  }
+                }
+              }
+            },
+            {
+              "type": "inverted",
+              "term": {
+                "type": "entity_properties",
+                "entity": "attacker",
+                "predicate": {
+                  "nbt": "{Tags:['balance.flat_damage_enchantment_cooldown']}"
+                }
+              }
+            }
+          ]
+        }
       }
     ],
     "minecraft:damage": [
@@ -46,6 +166,37 @@
             "base": 4,
             "per_level_above_first": 2
           }
+        },
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "attacker",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "items": [
+                        "wolf_armor"
+                      ]
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "type": "inverted",
+              "term": {
+                "type": "entity_properties",
+                "entity": "attacker",
+                "predicate": {
+                  "nbt": "{Tags:['balance.flat_damage_enchantment_cooldown']}"
+                }
+              }
+            }
+          ]
         }
       }
     ]
@@ -53,16 +204,17 @@
   "exclusive_set": "#minecraft:exclusive_set/damage",
   "max_level": 5,
   "max_cost": {
-    "base": 8,
-    "per_level_above_first": 8
+    "base": 10,
+    "per_level_above_first": 10
   },
   "min_cost": {
     "base": 0,
-    "per_level_above_first": 8
+    "per_level_above_first": 10
   },
   "weight": 2,
   "slots": [
-    "mainhand"
+    "mainhand",
+    "armor"
   ],
-  "supported_items": "#event_rebalance:enchantable/brute_wolf"
+  "supported_items": "#event_rebalance:enchantable/brute_single"
 }

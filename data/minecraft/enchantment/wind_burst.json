@@ -1,9 +1,93 @@
 {
-  "anvil_cost": 0,
+  "anvil_cost": 3,
   "description": {
     "translate": "enchantment.minecraft.wind_burst"
   },
   "effects": {
+    "tick": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "event_rebalance:enchantments/dynamo/tag_remove"
+        },
+        "requirements": {
+          "type": "all_of",
+          "terms": [
+            {
+              "type": "inverted",
+              "term": {
+                "type": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "predicates": {
+                        "enchantments": [
+                          {
+                            "enchantments": "event_rebalance:dynamo"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "type": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:['balance.dynamo_active']}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:explode",
+              "block_interaction": "trigger",
+              "immune_blocks": "#minecraft:blocks_wind_charge_explosions",
+              "knockback_multiplier": {
+                "type": "minecraft:lookup",
+                "fallback": {
+                  "type": "minecraft:linear",
+                  "base": 1,
+                  "per_level_above_first": 0.6
+                },
+                "values": [
+                  0.9,
+                  1.3,
+                  2.1
+                ]
+              },
+              "large_particle": {
+                "type": "minecraft:gust_emitter_large"
+              },
+              "radius": 3.5,
+              "small_particle": {
+                "type": "minecraft:gust_emitter_small"
+              },
+              "sound": "minecraft:entity.wind_charge.wind_burst"
+            },
+            {
+              "type": "run_function",
+              "function": "event_rebalance:shield_block/remove"
+            }
+          ]
+        },
+        "requirements": {
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Tags:['balance.wind_burst_blocked']}"
+          }
+        }
+      }
+    ],
     "minecraft:post_attack": [
       {
         "affected": "attacker",
@@ -15,13 +99,13 @@
             "type": "minecraft:lookup",
             "fallback": {
               "type": "minecraft:linear",
-              "base": 1.5,
-              "per_level_above_first": 0.35
+              "base": 1,
+              "per_level_above_first": 0.6
             },
             "values": [
-              1.2,
-              1.75,
-              2.2
+              0.9,
+              1.3,
+              2.1
             ]
           },
           "large_particle": {
@@ -35,35 +119,46 @@
         },
         "enchanted": "attacker",
         "requirements": {
-          "type": "minecraft:entity_properties",
-          "entity": "direct_attacker",
-          "predicate": {
-            "minecraft:flags": {
-              "is_flying": false
+          "type": "minecraft:any_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "direct_attacker",
+              "predicate": {
+                "flags": {
+                  "is_flying": false
+                },
+                "movement": {
+                  "fall_distance": {
+                    "min": 1.5
+                  }
+                }
+              }
             },
-            "minecraft:movement": {
-              "fall_distance": {
-                "min": 1.5
+            {
+              "type": "entity_properties",
+              "entity": "direct_attacker",
+              "predicate": {
+                "nbt": "{Tags:['balance.dynamo_active']}"
               }
             }
-          }
+          ]
         }
       }
     ]
   },
-  "max_cost": {
-    "base": 65,
-    "per_level_above_first": 9
-  },
   "max_level": 3,
-  "min_cost": {
-    "base": 15,
-    "per_level_above_first": 9
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 25
   },
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 25
+  },
+  "weight": 1,
   "slots": [
     "mainhand"
   ],
-  "exclusive_set": "#event_rebalance:exclusive_set/knockback",
-  "supported_items": "#minecraft:enchantable/mace",
-  "weight": 2
+  "supported_items": "#minecraft:enchantable/mace"
 }

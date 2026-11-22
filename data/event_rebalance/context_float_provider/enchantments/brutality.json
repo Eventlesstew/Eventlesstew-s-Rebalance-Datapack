@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:mul",
+  "inputs": [
+    {
+      "type": "add",
+      "inputs": [
+        {
+          "type": "storage",
+          "storage": "balance.brutality",
+          "path": "level"
+        },
+        1
+      ]
+    },
+    0.5
+  ]
+}
