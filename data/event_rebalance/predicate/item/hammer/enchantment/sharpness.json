@@ -1,0 +1,23 @@
+{
+  "type": "all_of",
+  "terms": [
+    {
+      "type": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": "#minecraft:hammers",
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "power"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

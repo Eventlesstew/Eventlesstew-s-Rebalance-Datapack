@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_dashing",
+    "ingredients": [
+        "book",
+        "#event_rebalance:custom_item/lode",
+        "#event_rebalance:non_suspicious_sand"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "event_rebalance:dashing": 1
+            }
+        }
+    }
+}

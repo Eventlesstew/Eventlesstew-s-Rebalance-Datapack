@@ -22,8 +22,9 @@
         "event_rebalance:enchantments/frenzy/1",
         "event_rebalance:enchantments/quick_charge/1",
         "event_rebalance:enchantments/valor/1",
-        "event_rebalance:enchantments/puncture/1",
         "event_rebalance:enchantments/combo/1",
+        "event_rebalance:enchantments/puncture/1",
+        "event_rebalance:enchantments/squeeze/1",
         "event_rebalance:enchantments/dynamo/1",
         "event_rebalance:enchantments/brutality/1",
         "event_rebalance:enchantments/channeling/1",
@@ -40,6 +41,7 @@
         "event_rebalance:enchantments/ricochet/1",
         
         "event_rebalance:enchantments/guiding/1",
+        "event_rebalance:enchantments/spinner/1",
         "event_rebalance:enchantments/loyalty/1",
 
         "event_rebalance:enchantments/knockback/1",
@@ -47,6 +49,7 @@
         "event_rebalance:enchantments/punch/1",
         
         "event_rebalance:enchantments/lunge/1",
+        "event_rebalance:enchantments/dashing/1",
         "event_rebalance:enchantments/riptide/1",
         "event_rebalance:enchantments/rebound/1",
         "event_rebalance:enchantments/wind_burst/1",

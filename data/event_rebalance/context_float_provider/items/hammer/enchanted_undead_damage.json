@@ -1,0 +1,11 @@
+{
+  "type": "add",
+  "inputs": [
+    "event_rebalance:items/hammer/enchanted_damage",
+    {
+      "type": "storage",
+      "storage": "balance.hammer_attack",
+      "path": "smite"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+    "type": "multi_action",
+    "title": {
+        "translate": "dialog.enchantment.title"
+    },
+    "external_title": {
+        "translate": "enchantment.event.squeeze",
+        "extra": [
+            " ",
+            {
+                "translate": "enchantment.level.1"
+            }
+        ]
+    },
+    "body": [
+        {
+            "type": "item",
+            "item": {
+                "id": "enchanted_book",
+                "components": {
+                    "stored_enchantments": {
+                        "event_rebalance:squeeze": 1
+                    }
+                }
+            },
+            "description": {
+                "translate": "enchantment.event.squeeze",
+                "extra": [
+                    " ",
+                    {
+                        "translate": "enchantment.level.1"
+                    }
+                ]
+            },
+            "width": 24
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "dialog.enchant.squeeze.description.1"
+            },
+            "width": 300
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "dialog.enchantment.supported",
+                "extra": [
+                    " ",
+                    {
+                        "translate": "dialog.enchant.squeeze.supported"
+                    }
+                ]
+            },
+            "width": 300
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "dialog.enchantment.exclusive",
+                "extra": [
+                    " ",
+                    {
+                        "translate": "dialog.enchant.squeeze.conflicts"
+                    }
+                ]
+            },
+            "width": 300
+        }
+    ],
+    "actions": [
+        {
+            "label": {
+                "translate": "enchantment.event.puncture",
+                "extra": [
+                    " ",
+                    {
+                        "translate": "enchantment.level.1"
+                    }
+                ]
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "event_rebalance:enchantments/puncture/1"
+            },
+            "width": 100
+        },
+        {
+            "label": {
+                "translate": "dialog.enchantment.level",
+                "extra": [
+                    " ",
+                    {
+                        "translate": "enchantment.level.2"
+                    }
+                ]
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "event_rebalance:enchantments/squeeze/2"
+            },
+            "width": 100
+        },
+        {
+            "label": {
+                "translate": "enchantment.event.dynamo",
+                "extra": [
+                    " ",
+                    {
+                        "translate": "enchantment.level.1"
+                    }
+                ]
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "event_rebalance:enchantments/dynamo/1"
+            },
+            "width": 100
+        }
+    ],
+    "columns": 3,
+    "pause": false,
+    "can_close_with_escape": true,
+    "exit_action": {
+        "action": {
+            "type": "show_dialog",
+            "dialog": "event_rebalance:enchantments"
+        },
+        "label": {
+            "translate": "gui.back"
+        }
+    }
+}

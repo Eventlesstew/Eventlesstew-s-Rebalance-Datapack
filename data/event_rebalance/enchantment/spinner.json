@@ -1,0 +1,22 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "enchantment.event.spinner"
+  },
+  "effects": {
+  },
+  "max_level": 2,
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 50
+  },
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 50
+  },
+  "weight": 2,
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#event_rebalance:enchantable/hammer"
+}

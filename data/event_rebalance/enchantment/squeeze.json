@@ -1,0 +1,64 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "enchantment.event.squeeze"
+  },
+  "effects": {
+    "tick": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "event_rebalance:items/hammer/enchantments/squeeze/check"
+        },
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "flags": {
+                    "is_flying": false
+                  },
+                  "movement": {
+                    "fall_distance": {
+                      "min": 0.001
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific/player": {
+                  "input": {
+                    "sprint": false
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#minecraft:exclusive_set/damage",
+  "max_level": 5,
+  "max_cost": {
+    "base": 12,
+    "per_level_above_first": 12
+  },
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 12
+  },
+  "weight": 4,
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#event_rebalance:enchantable/hammer"
+}

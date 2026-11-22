@@ -114,7 +114,71 @@
 					}
 				]
 			}
-		},		
+		},
+		"spinner": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantments": "event_rebalance:spinner"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"spinner_book": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"stored_enchantments": [
+								{
+									"enchantments": "event_rebalance:spinner"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"squeeze": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantments": "event_rebalance:squeeze"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"squeeze_book": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"stored_enchantments": [
+								{
+									"enchantments": "event_rebalance:squeeze"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
 		"acceleration": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
@@ -1507,6 +1571,38 @@
 				]
 			}
 		},
+		"dashing": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantments": "event_rebalance:dashing"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"dashing_book": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"stored_enchantments": [
+								{
+									"enchantments": "event_rebalance:dashing"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
 		"valor": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
@@ -2236,6 +2332,18 @@
 		[
 			"protection",
 			"protection_book"
+		],
+		[
+			"dashing",
+			"dashing_book"
+		],
+		[
+			"squeeze",
+			"squeeze_book"
+		],
+		[
+			"spinner",
+			"spinner_book"
 		],
 		[
 			"barrier",

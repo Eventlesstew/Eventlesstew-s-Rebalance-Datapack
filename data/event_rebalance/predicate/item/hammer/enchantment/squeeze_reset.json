@@ -1,0 +1,33 @@
+{
+  "type": "all_of",
+  "terms": [
+    {
+      "type": "inverted",
+      "term": {
+        "type": "entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "items": "#minecraft:hammers",
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "event_rebalance:squeeze"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "entity_scores",
+      "entity": "this",
+      "scores": {
+        "balance.squeeze_active": 1
+      }
+    }
+  ]
+}

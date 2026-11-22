@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_squeeze",
+    "ingredients": [
+        "book",
+        "#event_rebalance:custom_item/lode",
+        "sulfur_spike",
+        "sulfur_spike",
+        "sulfur_spike",
+        "sulfur_spike",
+        "sulfur_spike"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "event_rebalance:squeeze": 5
+            }
+        }
+    }
+}

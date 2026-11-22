@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:mul",
+  "inputs": [
+    {
+      "type": "storage",
+      "storage": "balance.hammer_attack",
+      "path": "squeeze_single"
+    },
+    {
+      "type": "storage",
+      "storage": "balance.hammer_attack",
+      "path": "squeeze_count"
+    }
+  ]
+}

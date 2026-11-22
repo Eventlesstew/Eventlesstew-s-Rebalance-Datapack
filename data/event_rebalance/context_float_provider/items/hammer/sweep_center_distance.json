@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:max",
+  "inputs": [
+    {
+      "type": "minecraft:sub",
+      "left": "event_rebalance:items/hammer/base_sweep_center_distance",
+      "right": "event_rebalance:items/hammer/enchantment/spinner"
+    },
+    0
+  ]
+}

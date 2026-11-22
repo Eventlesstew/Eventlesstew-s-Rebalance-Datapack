@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "squeeze": {
+      "trigger": "tick",
+      "conditions": {
+        "player": {
+          "type": "all_of",
+          "terms": [
+            "event_rebalance:item/hammer/enchantment/squeeze_reset"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "squeeze"
+    ]
+  ],
+	"rewards": {
+		"function": "event_rebalance:items/hammer/enchantments/squeeze/remove"
+	},
+  "sends_telemetry_event": true
+}

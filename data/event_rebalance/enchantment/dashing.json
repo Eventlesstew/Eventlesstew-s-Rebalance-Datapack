@@ -1,0 +1,719 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "translate": "enchantment.balance.dashing"
+  },
+  "effects": {
+    "tick": [
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:run_function",
+              "function": "event_rebalance:enchantments/dashing/dashing_forward"
+            },
+            {
+              "type": "run_function",
+              "function": "event_rebalance:shield_block/remove"
+            }
+          ]
+        },
+        "requirements": {
+          "type": "any_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific/player": {
+                  "input": {
+                    "forward": true,
+                    "backward": false
+                  }
+                },
+                "nbt": "{Tags:['balance.dashing_blocked']}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:run_function",
+              "function": "event_rebalance:enchantments/dashing/dashing_backwards"
+            },
+            {
+              "type": "run_function",
+              "function": "event_rebalance:shield_block/remove"
+            }
+          ]
+        },
+        "requirements": {
+          "type": "any_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific/player": {
+                  "input": {
+                    "forward": false,
+                    "backward": true
+                  }
+                },
+                "nbt": "{Tags:['balance.dashing_blocked']}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:run_function",
+              "function": "event_rebalance:enchantments/dashing/dashing_left"
+            },
+            {
+              "type": "run_function",
+              "function": "event_rebalance:shield_block/remove"
+            }
+          ]
+        },
+        "requirements": {
+          "type": "any_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific/player": {
+                  "input": {
+                    "left": true,
+                    "right": false
+                  }
+                },
+                "nbt": "{Tags:['balance.dashing_blocked']}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:run_function",
+              "function": "event_rebalance:enchantments/dashing/dashing_right"
+            },
+            {
+              "type": "run_function",
+              "function": "event_rebalance:shield_block/remove"
+            }
+          ]
+        },
+        "requirements": {
+          "type": "any_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific/player": {
+                  "input": {
+                    "right": true,
+                    "left": false
+                  }
+                },
+                "nbt": "{Tags:['balance.dashing_blocked']}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "all_of",
+          "effects": [
+            {
+              "type": "run_function",
+              "function": "event_rebalance:enchantments/acceleration/boost_level_check"
+            }
+          ]
+        },
+        "requirements": {
+          "type": "any_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "legs": {
+                    "predicates": {
+                      "enchantments": [
+                        {
+                          "enchantments": "event_rebalance:acceleration"
+                        }
+                      ]
+                    }
+                  }
+                },
+                "nbt": "{Tags:['balance.dashing_forward']}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_impulse",
+              "coordinate_scale": [
+                1.0,
+                0.0,
+                1.0
+              ],
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "magnitude": {
+                "type": "minecraft:linear",
+                "base": 1,
+                "per_level_above_first": 1
+              }
+            },
+            {
+              "type": "play_sound",
+              "sound": {
+                "sound_id": "enchant.dashing"
+              },
+              "pitch": 1,
+              "volume": 1
+            },
+            {
+              "type": "run_function",
+              "function": "event_rebalance:enchantments/dashing/dashing_remove"
+            }
+          ]
+        },
+        "requirements": {
+          "type": "any_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:['balance.dashing_forward']}",
+                "flags": {
+                  "is_on_ground": true
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_impulse",
+              "coordinate_scale": [
+                1.0,
+                0.0,
+                1.0
+              ],
+              "direction": [
+                0.0,
+                0.0,
+                -1.0
+              ],
+              "magnitude": {
+                "type": "minecraft:linear",
+                "base": 1,
+                "per_level_above_first": 1
+              }
+            },
+            {
+              "type": "play_sound",
+              "sound": {
+                "sound_id": "enchant.dashing"
+              },
+              "pitch": 1,
+              "volume": 1
+            },
+            {
+              "type": "run_function",
+              "function": "event_rebalance:enchantments/dashing/dashing_remove"
+            }
+          ]
+        },
+        "requirements": {
+          "type": "any_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:['balance.dashing_backwards']}",
+                "flags": {
+                  "is_on_ground": true
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_impulse",
+              "coordinate_scale": [
+                1.0,
+                0.0,
+                1.0
+              ],
+              "direction": [
+                -1.0,
+                0.0,
+                0.0
+              ],
+              "magnitude": {
+                "type": "minecraft:linear",
+                "base": 1,
+                "per_level_above_first": 1
+              }
+            },
+            {
+              "type": "play_sound",
+              "sound": {
+                "sound_id": "enchant.dashing"
+              },
+              "pitch": 1,
+              "volume": 1
+            },
+            {
+              "type": "run_function",
+              "function": "event_rebalance:enchantments/dashing/dashing_remove"
+            }
+          ]
+        },
+        "requirements": {
+          "type": "any_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:['balance.dashing_right']}",
+                "flags": {
+                  "is_on_ground": true
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_impulse",
+              "coordinate_scale": [
+                1.0,
+                0.0,
+                1.0
+              ],
+              "direction": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "magnitude": {
+                "type": "minecraft:linear",
+                "base": 1,
+                "per_level_above_first": 1
+              }
+            },
+            {
+              "type": "play_sound",
+              "sound": {
+                "sound_id": "enchant.dashing"
+              },
+              "pitch": 1,
+              "volume": 1
+            },
+            {
+              "type": "run_function",
+              "function": "event_rebalance:enchantments/dashing/dashing_remove"
+            }
+          ]
+        },
+        "requirements": {
+          "type": "any_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:['balance.dashing_left']}",
+                "flags": {
+                  "is_on_ground": true
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_impulse",
+              "coordinate_scale": [
+                1.0,
+                0.0,
+                1.0
+              ],
+              "direction": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "magnitude": {
+                "type": "minecraft:linear",
+                "base": 0.3,
+                "per_level_above_first": 0.3
+              }
+            },
+            {
+              "type": "play_sound",
+              "sound": {
+                "sound_id": "enchant.dashing"
+              },
+              "pitch": 1,
+              "volume": 1
+            },
+            {
+              "type": "run_function",
+              "function": "event_rebalance:enchantments/dashing/dashing_remove"
+            }
+          ]
+        },
+        "requirements": {
+          "type": "any_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:['balance.dashing_forward']}",
+                "flags": {
+                  "is_on_ground": false
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_impulse",
+              "coordinate_scale": [
+                1.0,
+                0.0,
+                1.0
+              ],
+              "direction": [
+                0.0,
+                0.0,
+                -1.0
+              ],
+              "magnitude": {
+                "type": "minecraft:linear",
+                "base": 0.3,
+                "per_level_above_first": 0.3
+              }
+            },
+            {
+              "type": "play_sound",
+              "sound": {
+                "sound_id": "enchant.dashing"
+              },
+              "pitch": 1,
+              "volume": 1
+            },
+            {
+              "type": "run_function",
+              "function": "event_rebalance:enchantments/dashing/dashing_remove"
+            }
+          ]
+        },
+        "requirements": {
+          "type": "any_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:['balance.dashing_backwards']}",
+                "flags": {
+                  "is_on_ground": false
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_impulse",
+              "coordinate_scale": [
+                1.0,
+                0.0,
+                1.0
+              ],
+              "direction": [
+                -1.0,
+                0.0,
+                0.0
+              ],
+              "magnitude": {
+                "type": "minecraft:linear",
+                "base": 0.3,
+                "per_level_above_first": 0.3
+              }
+            },
+            {
+              "type": "play_sound",
+              "sound": {
+                "sound_id": "enchant.dashing"
+              },
+              "pitch": 1,
+              "volume": 1
+            },
+            {
+              "type": "run_function",
+              "function": "event_rebalance:enchantments/dashing/dashing_remove"
+            }
+          ]
+        },
+        "requirements": {
+          "type": "any_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:['balance.dashing_right']}",
+                "flags": {
+                  "is_on_ground": false
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_impulse",
+              "coordinate_scale": [
+                1.0,
+                0.0,
+                1.0
+              ],
+              "direction": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "magnitude": {
+                "type": "minecraft:linear",
+                "base": 0.3,
+                "per_level_above_first": 0.3
+              }
+            },
+            {
+              "type": "play_sound",
+              "sound": {
+                "sound_id": "enchant.dashing"
+              },
+              "pitch": 1,
+              "volume": 1
+            },
+            {
+              "type": "run_function",
+              "function": "event_rebalance:enchantments/dashing/dashing_remove"
+            }
+          ]
+        },
+        "requirements": {
+          "type": "any_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:['balance.dashing_left']}",
+                "flags": {
+                  "is_on_ground": false
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "event_rebalance:enchantments/dashing/dashing_forward"
+        },
+        "enchanted": "attacker",
+        "affected": "attacker",
+        "requirements": {
+          "type": "any_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "attacker",
+              "predicate": {
+                "type_specific/player": {
+                  "input": {
+                    "forward": true,
+                    "backward": false
+                  }
+                }
+              }
+            },
+            {
+              "type": "inverted",
+              "term": {
+                "type": "entity_properties",
+                "entity": "attacker",
+                "predicate": {
+                  "entity_type": "player"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "event_rebalance:enchantments/dashing/dashing_backwards"
+        },
+        "enchanted": "attacker",
+        "affected": "attacker",
+        "requirements": {
+          "type": "any_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "attacker",
+              "predicate": {
+                "type_specific/player": {
+                  "input": {
+                    "backward": true,
+                    "forward": false
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "event_rebalance:enchantments/dashing/dashing_right"
+        },
+        "enchanted": "attacker",
+        "affected": "attacker",
+        "requirements": {
+          "type": "any_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "attacker",
+              "predicate": {
+                "type_specific/player": {
+                  "input": {
+                    "right": true,
+                    "left": false
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "event_rebalance:enchantments/dashing/dashing_left"
+        },
+        "enchanted": "attacker",
+        "affected": "attacker",
+        "requirements": {
+          "type": "any_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "attacker",
+              "predicate": {
+                "type_specific/player": {
+                  "input": {
+                    "left": true,
+                    "right": false
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#event_rebalance:exclusive_set/mobility",
+  "max_level": 2,
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 50
+  },
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 50
+  },
+  "weight": 1,
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#event_rebalance:enchantable/stab_weapon"
+}

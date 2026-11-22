@@ -97,7 +97,7 @@
         },
         {
             "label": {
-                "translate": "enchantment.event.puncture",
+                "translate": "enchantment.event.combo",
                 "extra": [
                     " ",
                     {
@@ -107,7 +107,7 @@
             },
             "action": {
                 "type": "show_dialog",
-                "dialog": "event_rebalance:enchantments/puncture/5"
+                "dialog": "event_rebalance:enchantments/combo/5"
             },
             "width": 100
         },

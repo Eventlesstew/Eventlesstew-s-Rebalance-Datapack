@@ -1,0 +1,33 @@
+{
+  "type": "all_of",
+  "terms": [
+    {
+      "type": "inverted",
+      "term": {
+        "type": "entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "items": "#minecraft:hammers",
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "knockback"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "entity_scores",
+      "entity": "this",
+      "scores": {
+        "balance.hammer_knockback_active": 1
+      }
+    }
+  ]
+}

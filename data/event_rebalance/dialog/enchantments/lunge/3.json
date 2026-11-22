@@ -97,17 +97,17 @@
         },
         {
             "label": {
-                "translate": "enchantment.minecraft.riptide",
+                "translate": "enchantment.balance.dashing",
                 "extra": [
                     " ",
                     {
-                        "translate": "enchantment.level.3"
+                        "translate": "enchantment.level.2"
                     }
                 ]
             },
             "action": {
                 "type": "show_dialog",
-                "dialog": "event_rebalance:enchantments/riptide/3"
+                "dialog": "event_rebalance:enchantments/dashing/2"
             },
             "width": 100
         },

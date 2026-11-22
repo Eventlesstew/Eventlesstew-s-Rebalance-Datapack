@@ -1,0 +1,28 @@
+{
+  "type": "all_of",
+  "terms": [
+    {
+      "type": "inverted",
+      "term": {
+        "type": "entity_properties",
+        "entity": "this",
+        "predicate": {
+          "movement": {
+            "fall_distance": {
+              "min": 0.001
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "flags": {
+          "is_sprinting": false
+        }
+      }
+    }
+  ]
+}

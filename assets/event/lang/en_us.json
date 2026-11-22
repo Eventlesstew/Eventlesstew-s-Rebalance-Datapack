@@ -595,7 +595,7 @@
     "dialog.enchant.lunge.description.2": "Jab Attack makes you §edash§r up to 8 Blocks forward. §c-50%§r Attack Speed. Dash costs §c1§r Durability and §c0.75§r Food",
     "dialog.enchant.lunge.description.3": "Jab Attack makes you §edash§r up to 12 Blocks forward. §c-50%§r Attack Speed. Dash costs §c1§r Durability and §c1§r Food",
     "dialog.enchant.lunge.supported":"Spears",
-    "dialog.enchant.lunge.conflicts":"Puncture",
+    "dialog.enchant.lunge.conflicts":"Puncture, Rebound, Dashing",
 
     "dialog.enchant.lure.description.1": "Reduces time until the bobber gets a bite by §e5 Seconds§r",
     "dialog.enchant.lure.description.2": "Reduces time until the bobber gets a bite by §e10 Seconds§r",
@@ -679,6 +679,7 @@
     "dialog.enchant.rebound.description.2": "Hitting a target makes you §edash§r up to §e8§r Blocks backwards",
     "dialog.enchant.rebound.description.3": "Hitting a target makes you §edash§r up to §e12§r Blocks backwards",
     "dialog.enchant.rebound.supported":"Daggers, Swords, Spears, Hammers and Axes",
+    "dialog.enchant.rebound.conflicts":"Lunge, Dashing",
     
     "enchantment.event.regrow": "Regrow",
     "dialog.enchant.regrow.description.1": "Restores §e1 Health§r every §e12.5§r seconds",
@@ -729,7 +730,29 @@
     "dialog.enchant.sweeping_edge.description.1": "§e+10%§r Sweep Attack Damage",
     "dialog.enchant.sweeping_edge.description.2": "§e+20%§r Sweep Attack Damage",
     "dialog.enchant.sweeping_edge.description.3": "§e+30%§r Sweep Attack Damage",
-    "dialog.enchant.sweeping_edge.supported":"Swords",
+    "dialog.enchant.sweeping_edge.supported":"Swords and Hammers",
+    "dialog.enchant.sweeping_edge.conflicts":"Squeeze",
+    
+    "enchantment.event.spinner":"Spinner",
+    "dialog.enchant.spinner.description.1": "§e+1§r Block Sweep Radius. §c-1§r Block Sweep Distance",
+    "dialog.enchant.spinner.description.2": "§e+2§r Block Sweep Radius. §c-2§r Block Sweep Distance",
+    "dialog.enchant.spinner.supported":"Hammers",
+    "dialog.enchant.spinner.conflicts":"",
+    
+    "enchantment.event.dashing":"Dashing",
+    "dialog.enchant.dashing.description.1": "Attacking targets makes you §edash§r up to §e1.5 blocks§r in the direction you're facing",
+    "dialog.enchant.dashing.description.2": "Attacking targets makes you §edash§r up to §e3 blocks§r in the direction you're facing",
+    "dialog.enchant.dashing.supported":"Swords, Daggers and Spears",
+    "dialog.enchant.dashing.conflicts":"Lunge, Rebound",
+    
+    "enchantment.event.squeeze":"Squeeze",
+    "dialog.enchant.squeeze.description.1": "§e+0.5§r Damage for every hit target in one sweep attack",
+    "dialog.enchant.squeeze.description.2": "§e+0.75§r Damage for every hit target in one sweep attack",
+    "dialog.enchant.squeeze.description.3": "§e+1§r Damage for every hit target in one sweep attack",
+    "dialog.enchant.squeeze.description.4": "§e+1.25§r Damage for every hit target in one sweep attack",
+    "dialog.enchant.squeeze.description.5": "§e+1.5§r Damage for every hit target in one sweep attack",
+    "dialog.enchant.squeeze.supported":"Hammers",
+    "dialog.enchant.squeeze.conflicts":"#Damage, Sweeping Edge",
 
     "dialog.enchant.swift_sneak.description.1": "§e+50%§r Sneaking Speed",
     "dialog.enchant.swift_sneak.description.2": "§e+100%§r Sneaking Speed",

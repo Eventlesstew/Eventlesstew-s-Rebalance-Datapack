@@ -1,0 +1,64 @@
+{
+  "criteria": {
+    "block": {
+      "trigger": "player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "blocked": true
+        },
+        "player": {
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "enchantments": [
+                    {
+                      "enchantments": "event_rebalance:rebound"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "block_left": {
+      "trigger": "player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "blocked": true
+        },
+        "player": {
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "offhand": {
+                "predicates": {
+                  "enchantments": [
+                    {
+                      "enchantments": "event_rebalance:rebound"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "block",
+      "block_left"
+    ]
+  ],
+	"rewards": {
+		"function": "event_rebalance:items/shield/rebound"
+	},
+  "sends_telemetry_event": true
+}

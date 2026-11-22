@@ -1,0 +1,7 @@
+{
+    "values": [
+        "minecraft:lunge",
+        "event_rebalance:rebound",
+        "event_rebalance:dashing"
+    ]
+}

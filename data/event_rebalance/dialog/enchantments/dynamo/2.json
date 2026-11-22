@@ -85,7 +85,7 @@
     "actions": [
         {
             "label": {
-                "translate": "enchantment.event.combo",
+                "translate": "enchantment.event.squeeze",
                 "extra": [
                     " ",
                     {
@@ -95,7 +95,7 @@
             },
             "action": {
                 "type": "show_dialog",
-                "dialog": "event_rebalance:enchantments/combo/2"
+                "dialog": "event_rebalance:enchantments/squeeze/2"
             },
             "width": 100
         },

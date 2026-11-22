@@ -1,0 +1,1 @@
+$execute at @n[type=marker,tag=balance.squeeze_area] store result storage balance.hammer_attack squeeze_count float 1 if entity @e[type=#mobs,distance=..$(sweep_radius),tag=!balance.hammer_attacker]

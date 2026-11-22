@@ -1,0 +1,73 @@
+{
+  "criteria": {
+    "block": {
+      "trigger": "player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "blocked": true
+        },
+        "player": {
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "enchantments": [
+                    {
+                      "enchantments": "wind_burst"
+                    }
+                  ]
+                }
+              }
+            },
+            "flags": {
+              "is_flying": false
+            },
+            "movement": {
+              "fall_distance": {
+                "min": 1.5
+              }
+            }
+          }
+        }
+      }
+    },
+    "dynamo": {
+      "trigger": "player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "blocked": true
+        },
+        "player": {
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "enchantments": [
+                    {
+                      "enchantments": "wind_burst"
+                    }
+                  ]
+                }
+              }
+            },
+            "nbt": "{Tags:['balance.dynamo_active']}"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "block",
+      "dynamo"
+    ]
+  ],
+	"rewards": {
+		"function": "event_rebalance:items/shield/wind_burst"
+	},
+  "sends_telemetry_event": true
+}

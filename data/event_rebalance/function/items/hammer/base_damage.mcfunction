@@ -1,0 +1,1 @@
+$execute store result storage balance.hammer_attack base_damage float $(sweep) run attribute @s attack_damage get 1

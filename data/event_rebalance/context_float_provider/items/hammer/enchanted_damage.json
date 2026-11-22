@@ -1,0 +1,16 @@
+{
+  "type": "add",
+  "inputs": [
+    {
+      "type": "storage",
+      "storage": "balance.hammer_attack",
+      "path": "base_damage"
+    },
+    {
+      "type": "storage",
+      "storage": "balance.hammer_attack",
+      "path": "sharpness"
+    },
+    "event_rebalance:items/hammer/enchantment/sweeping_squeeze"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:add",
+  "inputs": [
+    "event_rebalance:items/hammer/base_sweep_radius",
+    "event_rebalance:items/hammer/enchantment/spinner"
+  ]
+}

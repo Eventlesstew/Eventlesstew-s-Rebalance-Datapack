@@ -1,0 +1,47 @@
+{
+  "criteria": {
+    "block": {
+      "comment":"change to player_hurt_entity",
+      "trigger": "impossible",
+      "conditions": {
+        "damage": {
+          "blocked": true
+        },
+        "player": {
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "enchantments": [
+                    {
+                      "enchantments": "event_rebalance:quaking"
+                    }
+                  ]
+                }
+              }
+            },
+            "flags": {
+              "is_flying": false
+            },
+            "movement": {
+              "fall_distance": {
+                "min": 1.5
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "block"
+    ]
+  ],
+	"rewards": {
+		"function": "balance:shield_block/steaming"
+	},
+  "sends_telemetry_event": true
+}

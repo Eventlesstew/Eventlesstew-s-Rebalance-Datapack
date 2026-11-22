@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:min",
+  "inputs": [
+    {
+      "type": "minecraft:add",
+      "inputs": [
+        "event_rebalance:items/hammer/base_sweep",
+        "event_rebalance:items/hammer/enchantment/sweeping_edge"
+      ]
+    },
+    1
+  ]
+}

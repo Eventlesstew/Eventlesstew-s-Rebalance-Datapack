@@ -103,7 +103,7 @@
         },
         {
             "label": {
-                "translate": "enchantment.minecraft.riptide",
+                "translate": "enchantment.balance.dashing",
                 "extra": [
                     " ",
                     {
@@ -113,7 +113,7 @@
             },
             "action": {
                 "type": "show_dialog",
-                "dialog": "event_rebalance:enchantments/riptide/1"
+                "dialog": "event_rebalance:enchantments/dashing/1"
             },
             "width": 100
         }

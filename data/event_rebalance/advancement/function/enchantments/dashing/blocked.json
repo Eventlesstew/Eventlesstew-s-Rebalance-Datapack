@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "block": {
+      "comment":"change to player_hurt_entity",
+      "trigger": "impossible",
+      "conditions": {
+        "damage": {
+          "blocked": true
+        },
+        "player": {
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "enchantments": [
+                    {
+                      "enchantments": "event_rebalance:dashing"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "block"
+    ]
+  ],
+	"rewards": {
+		"function": "event_rebalance:items/shield/dashing"
+	},
+  "sends_telemetry_event": true
+}

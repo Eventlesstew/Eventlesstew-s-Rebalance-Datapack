@@ -1,0 +1,1 @@
+$execute anchored eyes run summon marker ^ ^ ^$(sweep_center_distance) {Tags:[balance.squeeze_area]}

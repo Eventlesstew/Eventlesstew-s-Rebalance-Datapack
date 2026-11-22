@@ -1,0 +1,5 @@
+{
+    "type": "storage",
+    "storage": "balance.hammer_attack",
+    "path": "base_damage"
+}

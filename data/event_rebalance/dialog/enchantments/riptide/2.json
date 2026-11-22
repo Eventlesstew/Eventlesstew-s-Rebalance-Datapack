@@ -71,7 +71,7 @@
     "actions": [
         {
             "label": {
-                "translate": "enchantment.minecraft.lunge",
+                "translate": "enchantment.balance.dashing",
                 "extra": [
                     " ",
                     {
@@ -81,7 +81,7 @@
             },
             "action": {
                 "type": "show_dialog",
-                "dialog": "event_rebalance:enchantments/lunge/2"
+                "dialog": "event_rebalance:enchantments/dashing/2"
             },
             "width": 100
         },

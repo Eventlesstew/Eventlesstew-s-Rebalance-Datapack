@@ -30,5 +30,6 @@
   "slots": [
     "mainhand"
   ],
+  "exclusive_set":"event_rebalance:squeeze",
   "supported_items": "#minecraft:enchantable/sweeping"
 }

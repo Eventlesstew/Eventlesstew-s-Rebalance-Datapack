@@ -20,6 +20,10 @@
     "event_rebalance:fowling",
     "minecraft:quick_charge",
     "density",
+    "event_rebalance:squeeze",
+
+    "sweeping_edge",
+    "event_rebalance:spinner",
 
     "lunge",
     "multishot",
@@ -33,11 +37,11 @@
 
     "fire_aspect",
 
-    "sweeping_edge",
     "knockback",
     "punch",
     "event_rebalance:launching",
     "event_rebalance:rebound",
+    "event_rebalance:dashing",
     "wind_burst",
 
     "minecraft:protection",

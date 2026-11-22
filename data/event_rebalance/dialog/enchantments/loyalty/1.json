@@ -71,11 +71,17 @@
     "actions": [
         {
             "label": {
-                "translate": "enchantment.event.guiding"
+                "translate": "enchantment.event.spinner",
+                "extra": [
+                    " ",
+                    {
+                        "translate": "enchantment.level.1"
+                    }
+                ]
             },
             "action": {
                 "type": "show_dialog",
-                "dialog": "event_rebalance:enchantments/guiding/1"
+                "dialog": "event_rebalance:enchantments/spinner/1"
             },
             "width": 100
         },

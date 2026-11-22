@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "post_attack": {
+      "trigger": "player_hurt_entity",
+      "conditions": {
+        "player": {
+          "type": "all_of",
+          "terms": [
+            {
+              "type": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "items": "#minecraft:hammers"
+                  }
+                }
+              }
+            },
+            "event_rebalance:item/hammer/crit_requirement"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "post_attack"
+    ]
+  ],
+	"rewards": {
+	},
+  "sends_telemetry_event": true
+}

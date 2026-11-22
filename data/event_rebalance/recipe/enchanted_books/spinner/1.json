@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_spinner",
+    "ingredients": [
+        "book",
+        "#event_rebalance:custom_item/lode",
+        "#event_rebalance:copper/block"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "event_rebalance:spinner": 1
+            }
+        }
+    }
+}
