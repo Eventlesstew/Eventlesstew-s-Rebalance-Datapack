@@ -1,7 +1,9 @@
 {
     "type": "filtered",
     "item_filter": {
-        "items": "dragon_breath"
+        "components": {
+            "item_model": "event:dragon_charge"
+        }
     },
     "on_pass": {
         "type": "sequence",

@@ -1,5 +1,6 @@
 {
     "type": "crafting_shaped",
+    "category": "equipment",
     "key": {
         "#":"#event_rebalance:hyphae_tool_materials",
         "S":"stick"

@@ -3,7 +3,9 @@
     "golden_apple": {
       "conditions": {
         "item": {
-          "items": "dragon_breath"
+          "components": {
+            "item_model": "event:dragon_charge"
+          }
         }
       },
       "trigger": "minecraft:consume_item"

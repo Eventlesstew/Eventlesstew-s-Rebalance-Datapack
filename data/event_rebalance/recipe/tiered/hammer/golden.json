@@ -1,5 +1,6 @@
 {
     "type": "crafting_shaped",
+    "category": "equipment",
     "key": {
         "#":"#gold_tool_materials",
         "S":"stick"

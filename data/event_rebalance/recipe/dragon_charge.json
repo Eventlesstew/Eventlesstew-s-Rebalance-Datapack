@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "key": {
+        "#":"dragon_breath"
+    },
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "result": {
+        "id": "music_disc_13",
+        "components": {
+            "!jukebox_playable":{},
+            "item_model": "event:dragon_charge"
+        }
+    }
+}

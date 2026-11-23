@@ -1,5 +1,6 @@
 {
     "type": "crafting_shaped",
+    "category": "equipment",
     "key": {
         "#":"#repairs_leather_armor"
     },
