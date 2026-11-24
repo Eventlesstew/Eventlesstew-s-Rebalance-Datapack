@@ -1,0 +1,30 @@
+{
+    "type": "set_components",
+    "components": {
+        "pot_decorations":{
+            "back": {
+                    "id": "brick"
+                },
+                "left": {
+                    "id": "brick"
+                },
+                "right": {
+                    "id": "brick"
+                },
+                "front": {
+                    "id": "flow_pottery_sherd",
+                    "components": {
+                        "provides_pottery_pattern": "flow",
+                        "item_name":{
+                            "translate": "item.event.flow_pottery_sherd"
+                        },
+                        "item_model":"flow_pottery_sherd"
+                    }
+                }
+        },
+        "block_entity_data": {
+            "id": "decorated_pot",
+            "LootTable": "pots/trial_chambers/corridor"
+        }
+    }
+}

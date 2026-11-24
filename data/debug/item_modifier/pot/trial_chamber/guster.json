@@ -1,0 +1,30 @@
+{
+    "type": "set_components",
+    "components": {
+        "pot_decorations":{
+            "back": {
+                    "id": "brick"
+                },
+                "left": {
+                    "id": "brick"
+                },
+                "right": {
+                    "id": "brick"
+                },
+                "front": {
+                    "id": "guster_pottery_sherd",
+                    "components": {
+                        "provides_pottery_pattern": "guster",
+                        "item_name":{
+                            "translate": "item.event.guster_pottery_sherd"
+                        },
+                        "item_model":"guster_pottery_sherd"
+                    }
+                }
+        },
+        "block_entity_data": {
+            "id": "decorated_pot",
+            "LootTable": "pots/trial_chambers/corridor"
+        }
+    }
+}

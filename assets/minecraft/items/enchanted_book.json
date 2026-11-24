@@ -1522,15 +1522,6 @@
                     "frost_walker": 1
                 },
                 "model": {
-                    "type": "model",
-                    "model": "event:item/enchanted_book/frost_walker"
-                }
-            },
-            {
-                "when": {
-                    "frost_walker": 2
-                },
-                "model": {
                     "type": "composite",
                     "models": [
                         {

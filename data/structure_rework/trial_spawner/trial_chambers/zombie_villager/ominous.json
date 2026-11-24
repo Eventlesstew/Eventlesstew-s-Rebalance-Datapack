@@ -1,0 +1,31 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "minecraft:spawners/ominous/trial_chamber/key",
+      "weight": 3
+    },
+    {
+      "data": "minecraft:spawners/ominous/trial_chamber/consumables",
+      "weight": 7
+    }
+  ],
+  "simultaneous_mobs": 2.0,
+  "simultaneous_mobs_added_per_player": 1,
+  "total_mobs": 4,
+  "total_mobs_added_per_player": 2,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "id": "minecraft:zombie_villager"
+        },
+        "equipment": {
+          "loot_table": "minecraft:equipment/trial_chamber_melee",
+          "slot_drop_chances": 0.0
+        }
+      },
+      "weight": 1
+    }
+  ],
+  "ticks_between_spawn": 20
+}
