@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "goat_horn"
+            "items": "slime_ball"
           }
         ]
       },
@@ -34,9 +34,7 @@
     "recipes": [
         "event_rebalance:enchanted_books/punch/1",
         "event_rebalance:enchanted_books/punch/2",
-        "event_rebalance:enchanted_books/punch/3",
-        "event_rebalance:enchanted_books/punch/scroll",
-        "event_rebalance:enchanted_books/punch/scroll_craft"
+        "event_rebalance:enchanted_books/punch/3"
     ]
   }
 }

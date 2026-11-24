@@ -1,17 +1,18 @@
 {
     "type": "crafting_shapeless",
-    "group": "enchanting_book_frost_walker",
+    "group": "enchanting_book_knockback",
     "ingredients": [
         "book",
         "#event_rebalance:custom_item/lode",
-        "blue_ice",
-        "blue_ice"
+        "#wool",
+        "#wool",
+        "#wool"
     ],
     "result": {
         "id": "enchanted_book",
         "components": {
             "stored_enchantments": {
-                "frost_walker": 2
+                "knockback": 3
             }
         }
     }

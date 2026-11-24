@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "slime_ball"
+            "items": "#wool"
           }
         ]
       },
@@ -33,7 +33,8 @@
   "rewards": {
     "recipes": [
         "event_rebalance:enchanted_books/knockback/1",
-        "event_rebalance:enchanted_books/knockback/2"
+        "event_rebalance:enchanted_books/knockback/2",
+        "event_rebalance:enchanted_books/knockback/3"
     ]
   }
 }

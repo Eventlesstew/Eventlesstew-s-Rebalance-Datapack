@@ -700,6 +700,24 @@
             },
             {
                 "when": {
+                    "event_rebalance:buffalo": 1
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/buffalo"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
                     "event_rebalance:bulwark": 1
                 },
                 "model": {
@@ -951,6 +969,33 @@
                         {
                             "type": "model",
                             "model": "event:item/enchanted_book/crystallization"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:dashing": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/dashing"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:dashing": 2
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/dashing"
                         },
                         {
                             "type": "model",
@@ -1527,6 +1572,51 @@
                         {
                             "type": "model",
                             "model": "event:item/enchanted_book/frost_walker"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:galloping": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/galloping"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:galloping": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/galloping"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:galloping": 3
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/galloping"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:galloping": 4
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/galloping"
                         },
                         {
                             "type": "model",
@@ -2598,6 +2688,87 @@
                         {
                             "type": "model",
                             "model": "event:item/enchanted_book/soul_speed"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:spinner": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/spinner"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:spinner": 2
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/spinner"
+                        },
+                        {
+                            "type": "model",
+                            "model": "event:item/book_mark"
+                        }
+                    ]
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:squeeze": 1
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/squeeze"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:squeeze": 2
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/squeeze"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:squeeze": 3
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/squeeze"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:squeeze": 4
+                },
+                "model": {
+                    "type": "model",
+                    "model": "event:item/enchanted_book/squeeze"
+                }
+            },
+            {
+                "when": {
+                    "event_rebalance:squeeze": 5
+                },
+                "model": {
+                    "type": "composite",
+                    "models": [
+                        {
+                            "type": "model",
+                            "model": "event:item/enchanted_book/squeeze"
                         },
                         {
                             "type": "model",

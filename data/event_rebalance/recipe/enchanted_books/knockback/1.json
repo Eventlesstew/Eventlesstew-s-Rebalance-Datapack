@@ -4,7 +4,7 @@
     "ingredients": [
         "book",
         "#event_rebalance:custom_item/lode",
-        "slime_ball"
+        "#wool"
     ],
     "result": {
         "id": "enchanted_book",
