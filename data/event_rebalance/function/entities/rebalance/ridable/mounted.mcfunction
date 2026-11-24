@@ -13,3 +13,12 @@ execute if entity @s[type=strider] run attribute @s movement_speed modifier add 
 
 execute if entity @s[type=nautilus] run attribute @s movement_speed modifier add event_rebalance_speed 0.5 add_multiplied_base
 execute if entity @s[type=zombie_nautilus] run attribute @s movement_speed modifier add event_rebalance_speed 0.5 add_multiplied_base
+
+
+execute if entity @s[type=horse] run attribute @s step_height modifier add event_rebalance_speed 1 add_value
+execute if entity @s[type=zombie_horse] run attribute @s step_height modifier add event_rebalance_speed 1 add_value
+execute if entity @s[type=skeleton_horse] run attribute @s step_height modifier add event_rebalance_speed 1 add_value
+execute if entity @s[type=donkey] run attribute @s step_height modifier add event_rebalance_speed 1 add_value
+execute if entity @s[type=mule] run attribute @s step_height modifier add event_rebalance_speed 1 add_value
+execute if entity @s[type=camel] run attribute @s step_height modifier add event_rebalance_speed 1 add_value
+execute if entity @s[type=camel_husk] run attribute @s step_height modifier add event_rebalance_speed 1 add_value

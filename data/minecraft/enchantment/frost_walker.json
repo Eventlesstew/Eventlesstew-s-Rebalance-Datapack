@@ -85,7 +85,7 @@
               "entity": "this",
               "predicate": {
                 "minecraft:flags": {
-                  "is_on_ground": true
+                  "is_in_water": false
                 }
               }
             },
@@ -98,8 +98,27 @@
                   "minecraft:vehicle": {}
                 }
               }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "entity_tags": {
+                  "none_of": [
+                    "event.frost_walker.falling"
+                  ]
+                }
+              }
             }
           ]
+        }
+      }
+    ],
+    "tick":[
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "event_rebalance:enchantments/frost_walker/tick"
         }
       }
     ]
@@ -115,7 +134,7 @@
     "per_level_above_first": 50
   },
   "slots": [
-    "feet"
+    "armor"
   ],
   "supported_items": "#event_rebalance:enchantable/land_armor",
   "weight": 2

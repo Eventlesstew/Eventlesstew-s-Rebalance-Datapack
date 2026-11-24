@@ -4,9 +4,6 @@ Please note that not all of the changes have been listed. If I missed any, feel 
 - Minecart Improvements
 The datapack sets the max minecart speed to 1000, making them more viable.
 
-- Redstone Experiments
-This datapack is not meant to be used with pre-existing worlds anyway.
-
 # Primary Changes
 - Enchantments have been overhauled! Redundant and useless enchantments have been removed and replaced with more fun ones.
 - The entire advancement tree has been reworked entirely, with 3 new categories being added! (Combat, Construction and Food)

@@ -44,6 +44,7 @@
 - Bookworm Bait
 - Seine
 - Breach (Rework + Texture)
+- Buffalo (Function + Texture)
 - Bulwark (Function + Texture)
 - Combo
 - Crackle (Function + Texture)
@@ -55,6 +56,7 @@
 - Feather Falling (Texture Only)
 - Focusing
 - Fowling
+- Galloping (Part of the function)
 - Guiding
 - Homing
 - Impaling (Texture Only)
