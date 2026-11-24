@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shapeless",
+    "group": "enchanting_book_galloping",
+    "ingredients": [
+        "book",
+        "#event_rebalance:custom_item/lode",
+        "hay_block",
+        "hay_block",
+        "hay_block"
+    ],
+    "result": {
+        "id": "enchanted_book",
+        "components": {
+            "stored_enchantments": {
+                "event_rebalance:galloping": 3
+            }
+        }
+    }
+}

@@ -4,7 +4,8 @@
     "event_rebalance:regrow",
     "event_rebalance:lightweight",
     "feather_falling",
-    "event_rebalance:barrier"
+    "event_rebalance:barrier",
+    "event_rebalance:galloping"
   ],
   "replace": true
 }

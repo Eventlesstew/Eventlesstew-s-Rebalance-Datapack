@@ -71,17 +71,11 @@
     "actions": [
         {
             "label": {
-                "translate": "enchantment.minecraft.frost_walker",
-                "extra": [
-                    " ",
-                    {
-                        "translate": "enchantment.level.2"
-                    }
-                ]
+                "translate": "enchantment.minecraft.frost_walker"
             },
             "action": {
                 "type": "show_dialog",
-                "dialog": "event_rebalance:enchantments/frost_walker/2"
+                "dialog": "event_rebalance:enchantments/frost_walker/1"
             },
             "width": 100
         },
@@ -97,7 +91,7 @@
         },
         {
             "label": {
-                "translate": "enchantment.minecraft.lure",
+                "translate": "enchantment.event.galloping",
                 "extra": [
                     " ",
                     {
@@ -107,7 +101,7 @@
             },
             "action": {
                 "type": "show_dialog",
-                "dialog": "event_rebalance:enchantments/lure/3"
+                "dialog": "event_rebalance:enchantments/galloping/3"
             },
             "width": 100
         },

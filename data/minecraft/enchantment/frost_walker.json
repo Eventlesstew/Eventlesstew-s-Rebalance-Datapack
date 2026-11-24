@@ -71,7 +71,7 @@
             "min": 0.0,
             "value": {
               "type": "minecraft:linear",
-              "base": 3.0,
+              "base": 4.0,
               "per_level_above_first": 1.0
             }
           },
@@ -106,13 +106,13 @@
   },
   "exclusive_set": "#minecraft:exclusive_set/boots",
   "max_cost": {
-    "base": 25,
-    "per_level_above_first": 10
+    "base": 50,
+    "per_level_above_first": 50
   },
-  "max_level": 2,
+  "max_level": 1,
   "min_cost": {
-    "base": 10,
-    "per_level_above_first": 10
+    "base": 50,
+    "per_level_above_first": 50
   },
   "slots": [
     "feet"

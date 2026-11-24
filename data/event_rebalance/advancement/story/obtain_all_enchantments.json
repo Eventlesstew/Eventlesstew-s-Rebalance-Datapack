@@ -99,6 +99,70 @@
 				]
 			}
 		},
+		"galloping": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantments": "event_rebalance:galloping"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"galloping_book": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"stored_enchantments": [
+								{
+									"enchantments": "event_rebalance:galloping"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"buffalo": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"enchantments": [
+								{
+									"enchantments": "event_rebalance:buffalo"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"buffalo_book": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"stored_enchantments": [
+								{
+									"enchantments": "event_rebalance:buffalo"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
 		"feather_falling": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {

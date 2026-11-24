@@ -30,12 +30,12 @@
   "exclusive_set": "#event_rebalance:exclusive_set/chestplate",
   "max_level": 4,
   "max_cost": {
-    "base": 16,
-    "per_level_above_first": 8
+    "base": 15,
+    "per_level_above_first": 15
   },
   "min_cost": {
     "base": 0,
-    "per_level_above_first": 8
+    "per_level_above_first": 15
   },
   "weight": 2,
   "slots": [

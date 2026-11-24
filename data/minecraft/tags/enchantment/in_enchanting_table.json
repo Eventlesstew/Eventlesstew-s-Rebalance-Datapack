@@ -29,6 +29,7 @@
     "event_rebalance:regrow",
     "event_rebalance:lightweight",
     "event_rebalance:bulwark",
+    "event_rebalance:galloping",
     "thorns",
     "swift_sneak",
     "feather_falling",

@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "hay_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_lapis": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#event_rebalance:custom_item/lode"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+        "has_item"
+    ],
+    [
+        "has_lapis"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+        "event_rebalance:enchanted_books/galloping/1",
+        "event_rebalance:enchanted_books/galloping/2",
+        "event_rebalance:enchanted_books/galloping/3",
+        "event_rebalance:enchanted_books/galloping/4"
+    ]
+  }
+}

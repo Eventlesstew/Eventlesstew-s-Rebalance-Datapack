@@ -103,13 +103,7 @@
         },
         {
             "label": {
-                "translate": "enchantment.minecraft.frost_walker",
-                "extra": [
-                    " ",
-                    {
-                        "translate": "enchantment.level.1"
-                    }
-                ]
+                "translate": "enchantment.minecraft.frost_walker"
             },
             "action": {
                 "type": "show_dialog",

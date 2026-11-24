@@ -139,5 +139,5 @@
   "slots": [
     "hand"
   ],
-  "supported_items": "#minecraft:enchantable/sharp_weapon"
+  "supported_items": "#event_rebalance:enchantable/brute_rebound"
 }

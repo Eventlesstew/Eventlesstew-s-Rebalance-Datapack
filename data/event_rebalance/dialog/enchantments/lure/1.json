@@ -71,17 +71,11 @@
     "actions": [
         {
             "label": {
-                "translate": "enchantment.minecraft.soul_speed",
-                "extra": [
-                    " ",
-                    {
-                        "translate": "enchantment.level.1"
-                    }
-                ]
+                "translate": "enchantment.event.buffalo"
             },
             "action": {
                 "type": "show_dialog",
-                "dialog": "event_rebalance:enchantments/soul_speed/1"
+                "dialog": "event_rebalance:enchantments/buffalo/1"
             },
             "width": 100
         },

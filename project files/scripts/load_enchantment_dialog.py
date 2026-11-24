@@ -322,9 +322,9 @@ for enchant_n, enchant in enumerate(enchant_list):
                     }
                 )
 
-        with open(
-            enchant_dialog_path + "/" + enchant + "/" + str(i) + ".json", "w"
-        ) as f:
+        enchant_file_path = enchant_dialog_path + "/" + enchant + "/"
+        pathlib.Path(enchant_file_path).mkdir(parents=True, exist_ok=True)
+        with open(enchant_file_path + str(i) + ".json", "w") as f:
             f.write(json.dumps(enchant_dialog, indent=4))
 
 # with open(enchant_dialog_path + ".json", "w") as f:

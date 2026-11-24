@@ -139,6 +139,7 @@
     "item.event.magnet": "Magnet",
     "item.minecraft.rabbit_hide": "Magnet",
     "item.event.netherite_magnet": "Netherite Magnet",
+    "item.event.dragon_charge":"Dragon Charge",
 
     "item.minecraft.vex_spawn_egg": "Magnium Ingot",
     "item.minecraft.frog_spawn_egg": "Bucket of Frog",
@@ -302,7 +303,7 @@
     "dialog.enchant.full_armor": "On §eFull Armor§r or §eAnimal Armor§r:",
 
     "dialog.enchant.conflict_category.damage":"Power, Frenzy, Puncture, Valor, Combo, Brutality, Dynamo, Density, Quick Charge, Smite, Fowling, Impaling, Channeling",
-    "dialog.enchant.conflict_category.armor":"Protection, Lightweight, Regrow, Barrier, Feather Falling",
+    "dialog.enchant.conflict_category.armor":"Protection, Lightweight, Regrow, Barrier, Feather Falling, Galloping",
     "dialog.enchant.conflict_category.durability":"Unbreaking, Mending, Auto-Repair, Crystallization, Eternity, Conserve, Infinity",
     
     "enchantment.event.acceleration": "Acceleration",
@@ -345,6 +346,10 @@
     "dialog.enchant.barrier.description.full.4": "§e+75%§r Damage Reduction against Fire, Lightning, Explosions and Magic",
     "dialog.enchant.barrier.supported":"Standard, Horse and Nautilus Armor",
     "dialog.enchant.barrier.conflicts":"#Defensive",
+
+    "enchantment.event.buffalo": "Buffalo",
+    "dialog.enchant.buffalo.description.1": "Horse can §ebreak§r weak blocks, foilage and crops by running through them",
+    "dialog.enchant.buffalo.supported":"Horse Armor",
 
     "dialog.enchant.binding_curse.description.1": "§cCannot§r be unequipped when worn",
     "dialog.enchant.binding_curse.supported":"Any Wearable Item",
@@ -532,6 +537,14 @@
     "dialog.enchant.frost_walker.supported":"Boots, Horse and Wolf Armor",
     "dialog.enchant.frost_walker.conflicts":"Depth Strider, Soul Speed",
 
+    "enchantment.event.galloping": "Galloping",
+    "dialog.enchant.galloping.description.1": "§e+20%§r Jump Strength, §e+0.25§r Block Step Height and §e+1 Blocks§r of Safe Fall Distance",
+    "dialog.enchant.galloping.description.2": "§e+30%§r Jump Strength, §e+0.5§r Block Step Height and §e+2 Blocks§r of Safe Fall Distance",
+    "dialog.enchant.galloping.description.3": "§e+40%§r Jump Strength, §e+0.75§r Block Step Height and §e+3 Blocks§r of Safe Fall Distance",
+    "dialog.enchant.galloping.description.4": "§e+50%§r Jump Strength, §e+1§r Block Step Height and §e+4 Blocks§r of Safe Fall Distance",
+    "dialog.enchant.galloping.supported":"Horse Armor",
+    "dialog.enchant.galloping.conflicts":"#Defensive",
+
     "enchantment.event.guiding": "Guiding",
     "dialog.enchant.guiding.description.1": "Projectiles §emove§r towards where you look",
     "dialog.enchant.guiding.supported":"Any Ranged Weapon",
@@ -678,7 +691,7 @@
     "dialog.enchant.rebound.description.1": "Hitting a target makes you §edash§r up to §e4§r Blocks backwards",
     "dialog.enchant.rebound.description.2": "Hitting a target makes you §edash§r up to §e8§r Blocks backwards",
     "dialog.enchant.rebound.description.3": "Hitting a target makes you §edash§r up to §e12§r Blocks backwards",
-    "dialog.enchant.rebound.supported":"Spears, Hammers and Axes",
+    "dialog.enchant.rebound.supported":"Spears, Hammers, Axes and Mace",
     "dialog.enchant.rebound.conflicts":"Lunge",
     
     "enchantment.event.regrow": "Regrow",

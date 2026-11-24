@@ -1,0 +1,49 @@
+{
+  "values": [
+    "#leaves",
+    "red_mushroom_block",
+    "brown_mushroom_block",
+    "warped_wart_block",
+    "nether_wart_block",
+    "shroomlight",
+
+    "short_grass",
+    "tall_grass",
+    "short_dry_grass",
+    "tall_dry_grass",
+    "seagrass",
+    "tall_seagrass",
+    "fern",
+    "large_fern",
+    "crimson_roots",
+    "warped_roots",
+    "nether_sprouts",
+
+    "bush",
+    "firefly_bush",
+    "red_shrub",
+    "dead_bush",
+
+    "red_mushroom",
+    "brown_mushroom",
+    "shelf_mushroom",
+    
+    "vine",
+    "#cave_vines",
+    "glow_lichen",
+    "sculk_vein",
+    "twisting_vines",
+    "weeping_vines",
+
+    "leaf_litter",
+    "wildflowers",
+    "pink_petals",
+
+    "#saplings",
+    "warped_fungus",
+    "crimson_fungus",
+
+    "kelp",
+    "#minecraft:crops"
+  ]
+}

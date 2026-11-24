@@ -1,0 +1,127 @@
+{
+    "type": "multi_action",
+    "title": {
+        "translate": "dialog.enchantment.title"
+    },
+    "external_title": {
+        "translate": "enchantment.event.galloping",
+        "extra": [
+            " ",
+            {
+                "translate": "enchantment.level.1"
+            }
+        ]
+    },
+    "body": [
+        {
+            "type": "item",
+            "item": {
+                "id": "enchanted_book",
+                "components": {
+                    "stored_enchantments": {
+                        "event_rebalance:galloping": 1
+                    }
+                }
+            },
+            "description": {
+                "translate": "enchantment.event.galloping",
+                "extra": [
+                    " ",
+                    {
+                        "translate": "enchantment.level.1"
+                    }
+                ]
+            },
+            "width": 24
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "dialog.enchant.galloping.description.1"
+            },
+            "width": 300
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "dialog.enchantment.supported",
+                "extra": [
+                    " ",
+                    {
+                        "translate": "dialog.enchant.galloping.supported"
+                    }
+                ]
+            },
+            "width": 300
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "dialog.enchantment.exclusive",
+                "extra": [
+                    " ",
+                    {
+                        "translate": "dialog.enchant.galloping.conflicts"
+                    }
+                ]
+            },
+            "width": 300
+        }
+    ],
+    "actions": [
+        {
+            "label": {
+                "translate": "enchantment.minecraft.soul_speed",
+                "extra": [
+                    " ",
+                    {
+                        "translate": "enchantment.level.1"
+                    }
+                ]
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "event_rebalance:enchantments/soul_speed/1"
+            },
+            "width": 100
+        },
+        {
+            "label": {
+                "translate": "dialog.enchantment.level",
+                "extra": [
+                    " ",
+                    {
+                        "translate": "enchantment.level.2"
+                    }
+                ]
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "event_rebalance:enchantments/galloping/2"
+            },
+            "width": 100
+        },
+        {
+            "label": {
+                "translate": "enchantment.event.buffalo"
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "event_rebalance:enchantments/buffalo/1"
+            },
+            "width": 100
+        }
+    ],
+    "columns": 3,
+    "pause": false,
+    "can_close_with_escape": true,
+    "exit_action": {
+        "action": {
+            "type": "show_dialog",
+            "dialog": "event_rebalance:enchantments"
+        },
+        "label": {
+            "translate": "gui.back"
+        }
+    }
+}

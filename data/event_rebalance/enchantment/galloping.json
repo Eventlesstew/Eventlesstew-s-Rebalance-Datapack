@@ -1,0 +1,55 @@
+{
+  "anvil_cost": 0,
+  "description": {
+    "translate": "enchantment.event.galloping"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.25,
+          "per_level_above_first": 0.25
+        },
+        "attribute": "step_height",
+        "id": "minecraft:enchantment.galloping",
+        "operation": "add_value"
+      },
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.2,
+          "per_level_above_first": 0.1
+        },
+        "attribute": "jump_strength",
+        "id": "minecraft:enchantment.galloping",
+        "operation": "add_multiplied_base"
+      },
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 1,
+          "per_level_above_first": 1
+        },
+        "attribute": "safe_fall_distance",
+        "id": "minecraft:enchantment.galloping",
+        "operation": "add_value"
+      }
+    ]
+  },
+  "max_level": 4,
+  "max_cost": {
+    "base": 15,
+    "per_level_above_first": 15
+  },
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 15
+  },
+  "weight": 10,
+  "slots": [
+    "armor"
+  ],
+  "exclusive_set": "#exclusive_set/armor",
+  "supported_items": "#event_rebalance:enchantable/horse_armor"
+}

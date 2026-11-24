@@ -1,0 +1,159 @@
+{
+  "anvil_cost": 2,
+  "description": {
+    "translate": "enchantment.event.buffalo"
+  },
+  "effects": {
+    "damage_immunity": [
+      {
+        "effect": {},
+        "requirements": {
+          "type": "damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "expected": true,
+                "id": "#prickly"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.5,
+          "per_level_above_first": 0.5
+        },
+        "attribute": "step_height",
+        "id": "minecraft:enchantment.buffalo",
+        "operation": "add_value"
+      },
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.3,
+          "per_level_above_first": 0.1
+        },
+        "attribute": "jump_strength",
+        "id": "minecraft:enchantment.buffalo",
+        "operation": "add_multiplied_base"
+      },
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 1,
+          "per_level_above_first": 1
+        },
+        "attribute": "safe_fall_distance",
+        "id": "minecraft:enchantment.buffalo",
+        "operation": "add_value"
+      }
+    ],
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "event_rebalance:enchantments/buffalo/ram"
+        },
+        "requirements": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 9
+              }
+            },
+            "equipment": {
+              "body": {
+                "predicates": {
+                  "enchantments": [
+                    {
+                      "enchantments": "event_rebalance:buffalo",
+                      "levels": 1
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "event_rebalance:enchantments/buffalo/ram"
+        },
+        "requirements": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 6
+              }
+            },
+            "equipment": {
+              "body": {
+                "predicates": {
+                  "enchantments": [
+                    {
+                      "enchantments": "event_rebalance:buffalo",
+                      "levels": 2
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "event_rebalance:enchantments/buffalo/ram"
+        },
+        "requirements": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "movement": {
+              "horizontal_speed": {
+                "min": 3
+              }
+            },
+            "equipment": {
+              "body": {
+                "predicates": {
+                  "enchantments": [
+                    {
+                      "enchantments": "event_rebalance:buffalo",
+                      "levels": 3
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "max_level": 1,
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 25
+  },
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 25
+  },
+  "weight": 10,
+  "slots": [
+    "armor"
+  ],
+  "supported_items": "#event_rebalance:enchantable/horse_armor"
+}

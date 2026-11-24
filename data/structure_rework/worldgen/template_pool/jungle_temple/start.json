@@ -4,7 +4,7 @@
             "weight": 1,
             "element": {
                 "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/start_1",
+                "location": "structure_rework:jungle_temple/start",
                 "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid"
             }

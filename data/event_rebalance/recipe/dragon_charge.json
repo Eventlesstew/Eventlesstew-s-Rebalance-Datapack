@@ -11,6 +11,9 @@
         "id": "music_disc_13",
         "components": {
             "!jukebox_playable":{},
+            "item_name":{
+                "translate": "item.event.dragon_charge"
+            },
             "item_model": "event:dragon_charge"
         }
     }

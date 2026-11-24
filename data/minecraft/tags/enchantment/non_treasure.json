@@ -1,58 +1,19 @@
 {
   "values": [
-    "minecraft:efficiency",
-    "event_rebalance:focusing",
-    "event_rebalance:felling",
+    "#in_enchanting_table",
 
     "minecraft:aqua_affinity",
     "event_rebalance:melting",
 
-    "fortune",
-    "lure",
-
-    "minecraft:luck_of_the_sea",
-
-    "minecraft:power",
-    "event_rebalance:frenzy",
-    "minecraft:smite",
-    "minecraft:impaling",
-    "event_rebalance:puncture",
-    "event_rebalance:valor",
-    "event_rebalance:combo",
-    "event_rebalance:dynamo",
-    "event_rebalance:fowling",
-    "minecraft:density",
-    "minecraft:quick_charge",
-
-    "event_rebalance:crackle",
-    "event_rebalance:feasting",
-    "event_rebalance:rampage",
-
-    "minecraft:knockback",
-    "minecraft:punch",
-    "event_rebalance:launching",
-    "sweeping_edge",
     "event_rebalance:rebound",
-
-    "minecraft:protection",
-    "event_rebalance:regrow",
-    "event_rebalance:lightweight",
-    "minecraft:feather_falling",
-    
-    "event_rebalance:bulwark",
+  
     "event_rebalance:aerodynamic",
-    "minecraft:thorns",
 
     "event_rebalance:acceleration",
-    "swift_sneak",
 
     "frost_walker",
-    "minecraft:depth_strider",
-    
-    "minecraft:unbreaking",
-    "mending",
-    "event_rebalance:crystallization",
-    "event_rebalance:conserve"
+
+    "event_rebalance:buffalo"
   ],
   "replace": true
 }

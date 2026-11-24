@@ -4,13 +4,7 @@
         "translate": "dialog.enchantment.title"
     },
     "external_title": {
-        "translate": "enchantment.minecraft.frost_walker",
-        "extra": [
-            " ",
-            {
-                "translate": "enchantment.level.1"
-            }
-        ]
+        "translate": "enchantment.minecraft.frost_walker"
     },
     "body": [
         {
@@ -24,13 +18,7 @@
                 }
             },
             "description": {
-                "translate": "enchantment.minecraft.frost_walker",
-                "extra": [
-                    " ",
-                    {
-                        "translate": "enchantment.level.1"
-                    }
-                ]
+                "translate": "enchantment.minecraft.frost_walker"
             },
             "width": 24
         },
@@ -87,17 +75,11 @@
         },
         {
             "label": {
-                "translate": "dialog.enchantment.level",
-                "extra": [
-                    " ",
-                    {
-                        "translate": "enchantment.level.2"
-                    }
-                ]
+                "translate": "dialog.enchantment.level.none"
             },
             "action": {
                 "type": "show_dialog",
-                "dialog": "event_rebalance:enchantments/frost_walker/2"
+                "dialog": "event_rebalance:enchantments/frost_walker/1"
             },
             "width": 100
         },

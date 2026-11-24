@@ -2,13 +2,13 @@
   "type": "minecraft:jigsaw",
   "biomes": "#minecraft:has_structure/jungle_temple",
   "spawn_overrides": {},
-  "start_pool": "structure_rework:jungle_temple/start",
+  "start_pool": "structure_rework:jungle_temple/schematic",
   "size": 15,
   "max_distance_from_center": 40,
   "use_expansion_hack": true,
   "terrain_adaptation": "none",
   "start_height": {
-    "absolute": 0
+    "absolute": -9
   },
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
   "step": "top_layer_modification",

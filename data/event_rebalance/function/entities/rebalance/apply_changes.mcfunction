@@ -13,6 +13,7 @@ execute if entity @s[type=spectral_arrow] run function event_rebalance:entities/
 execute if entity @s[type=player] run function event_rebalance:entities/rebalance/player/rebalance
 
 # Overworld Animals
+execute if entity @s[type=#event_rebalance:rideable] run function event_rebalance:entities/rebalance/ridable/rebalance
 execute if entity @s[type=goat] run function event_rebalance:entities/rebalance/goat/rebalance
 execute if entity @s[type=turtle] run function event_rebalance:entities/rebalance/turtle/rebalance
 

@@ -73,6 +73,9 @@
         "event_rebalance:enchantments/depth_strider/1",
         "event_rebalance:enchantments/frost_walker/1",
         "event_rebalance:enchantments/soul_speed/1",
+        
+        "event_rebalance:enchantments/galloping/1",
+        "event_rebalance:enchantments/buffalo/1",
 
         "event_rebalance:enchantments/lure/1",
         "event_rebalance:enchantments/luck_of_the_sea/1",
