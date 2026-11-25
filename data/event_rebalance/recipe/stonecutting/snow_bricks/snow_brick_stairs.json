@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient":"snow_bricks",
+  "result": {
+    "count": 1,
+    "id": "minecraft:snow_brick_stairs"
+  }
+}

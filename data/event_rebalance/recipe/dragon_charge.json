@@ -14,6 +14,7 @@
             "item_name":{
                 "translate": "item.event.dragon_charge"
             },
+            "max_stack_size":64,
             "item_model": "event:dragon_charge"
         }
     }

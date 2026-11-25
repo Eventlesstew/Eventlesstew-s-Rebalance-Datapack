@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "ice"
+    ],
+    "result": {
+        "id": "icicle",
+        "count": 4
+    }
+}

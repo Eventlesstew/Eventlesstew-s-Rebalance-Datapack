@@ -190,6 +190,7 @@
     "item.event.music_disc_far_lands": "Music Disc",
     "item.event.music_disc_mob_grinder": "Music Disc",
     "item.event.music_disc_creakstep": "Music Disc",
+    "item.event.music_disc_flurry": "Music Disc",
     
     "item.event.angler_pottery_sherd": "Angler Pottery Sherd",
     "item.event.archer_pottery_sherd": "Archer Pottery Sherd",
@@ -1200,6 +1201,11 @@
     "subtitles.item.hammer.swing": "Hammer Swings",
     "subtitles.item.magnet.pull": "Magnet Pulls",
     
+    "subtitles.block.torchflower.glowing":"Torchflower Glows",
+    "subtitles.block.eyeblossom.darkness":"Eyeblossom inflicted Darkness",
+    
+    "subtitles.entity.creaking.darkness":"Creaking inflicted Darkness",
+
     "subtitles.enchant.brutality": "Brutal Attack",
     "subtitles.enchant.power.melee": "Powered Attack",
     "subtitles.enchant.power.ranged": "Powered Shot",

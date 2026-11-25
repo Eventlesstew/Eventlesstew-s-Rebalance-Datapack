@@ -24,7 +24,8 @@
                     },
                     "use_cooldown": {
                         "seconds": 2
-                    }
+                    },
+                    "dispense_behavior":"event_rebalance:dragon_charge"
                 }
             }
         ]

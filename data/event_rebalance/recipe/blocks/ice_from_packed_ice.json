@@ -1,5 +1,7 @@
 {
     "type": "crafting_shapeless",
+    "category": "building",
+    "group": "ice",
     "ingredients": [
         "packed_ice"
     ],

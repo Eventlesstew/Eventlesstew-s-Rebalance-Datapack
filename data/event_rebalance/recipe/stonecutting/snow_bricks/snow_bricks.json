@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient":"snow_block",
+  "result": {
+    "id": "minecraft:snow_bricks"
+  }
+}

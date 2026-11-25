@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "ice",
+  "key": {
+    "#":"icicle"
+  },
+  "pattern":[
+    "##",
+    "##"
+  ],
+  "result": {
+    "id": "minecraft:ice"
+  }
+}

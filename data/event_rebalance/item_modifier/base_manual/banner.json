@@ -13,7 +13,8 @@
                     "equippable": {
                         "slot": "head",
                         "damage_on_hurt": false
-                    }
+                    },
+                    "dispense_behavior":"event_rebalance:banner"
                 }
             }
         ]

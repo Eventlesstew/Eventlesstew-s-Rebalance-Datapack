@@ -79,6 +79,10 @@
           "weight": 1
         },
         {
+          "data": "structure_rework:trial_chambers/frostbite",
+          "weight": 1
+        },
+        {
           "data": "minecraft:trial_chambers/spawner/melee/husk",
           "weight": 1
         },

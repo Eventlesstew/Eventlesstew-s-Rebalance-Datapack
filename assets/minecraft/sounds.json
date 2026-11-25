@@ -176,9 +176,26 @@
         ],
         "subtitle": "subtitles.entity.player.burp.glow_berries"
     },
-    "block.eyeblossom.darkness":{"sounds":[ 
-        {"name":"event:block/eyeblossom/darkness"}
-    ]},
+    "block.eyeblossom.darkness":{
+        "sounds": [ 
+            {"name":"event:block/eyeblossom/darkness"}
+        ],
+        "subtitle": "subtitles.block.eyeblossom.darkness"
+    },
+    "block.torchflower.glowing":{
+        "sounds":[ 
+            {"name":"block/enchantment_table/enchant1"},
+            {"name":"block/enchantment_table/enchant2"},
+            {"name":"block/enchantment_table/enchant3"}
+        ],
+        "subtitle": "subtitles.block.eyeblossom.glowing"
+    },
+    "entity.creaking.darkness":{
+        "sounds": [ 
+            {"name":"event:block/eyeblossom/darkness"}
+        ],
+        "subtitle": "subtitles.entity.creaking.darkness"
+    },
     "enchant.gas_giant":{"sounds":[ 
         {"name":"event:enchant/gas_giant/gas_giant1"},
         {"name":"event:enchant/gas_giant/gas_giant2"},

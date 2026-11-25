@@ -1,0 +1,11 @@
+[
+  {
+    "type": "minecraft:equip_sulfur_cube"
+  },
+  {
+    "type": "minecraft:place_block"
+  },
+  {
+    "type": "minecraft:drop_item"
+  }
+]

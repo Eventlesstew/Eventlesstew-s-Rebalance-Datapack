@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "creaking": {
+      "trigger": "entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "entity_type": "creaking"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "creaking"
+    ]
+  ],
+  "rewards": {
+    "function": "event_rebalance:entities/rebalance/creaking/on_attack"
+  },
+  "sends_telemetry_event": true
+}

@@ -14,7 +14,8 @@
                         "slot": "head",
                         "camera_overlay": "event:misc/jack_o_lantern_blur",
                         "damage_on_hurt": false
-                    }
+                    },
+                    "dispense_behavior":"minecraft:carved_pumpkin"
                 }
             }
         ]

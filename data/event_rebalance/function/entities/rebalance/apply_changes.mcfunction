@@ -24,6 +24,7 @@ execute if entity @s[type=zombie] run function event_rebalance:entities/rebalanc
 execute if entity @s[type=zombie_villager] run function event_rebalance:entities/rebalance/zombie_villager/rebalance
 execute if entity @s[type=husk] run function event_rebalance:entities/rebalance/husk/rebalance
 execute if entity @s[type=drowned] run function event_rebalance:entities/rebalance/drowned/rebalance
+execute if entity @s[type=frostbite] run function event_rebalance:entities/rebalance/frostbite/rebalance
 
 execute if entity @s[type=skeleton] run function event_rebalance:entities/rebalance/skeleton/rebalance
 execute if entity @s[type=stray] run function event_rebalance:entities/rebalance/stray/rebalance

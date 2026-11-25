@@ -1,0 +1,7 @@
+{
+    "values": [
+        "#event_rebalance:custom_block/rose_golden_block",
+        "#event_rebalance:custom_block/magnium_block"
+    ],
+    "replace": false
+}
