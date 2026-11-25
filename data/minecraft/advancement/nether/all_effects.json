@@ -36,7 +36,8 @@
           "minecraft:weakness": {},
           "minecraft:weaving": {},
           "minecraft:wind_charged": {},
-          "minecraft:wither": {}
+          "minecraft:wither": {},
+          "minecraft:freezing": {}
         }
       },
       "trigger": "minecraft:effects_changed"

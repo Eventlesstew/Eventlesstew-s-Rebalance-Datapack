@@ -17,6 +17,22 @@
       },
       "trigger": "minecraft:location"
     },
+    "minecraft:ice_caves": {
+      "conditions": {
+        "player": 
+          {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "biomes": "minecraft:ice_caves"
+              }
+            }
+          }
+        
+      },
+      "trigger": "minecraft:location"
+    },
     "minecraft:dripstone_caves": {
       "conditions": {
         "player": 
@@ -81,6 +97,9 @@
   "requirements": [
     [
       "minecraft:dripstone_caves"
+    ],
+    [
+      "minecraft:ice_caves"
     ],
     [
       "minecraft:lush_caves"

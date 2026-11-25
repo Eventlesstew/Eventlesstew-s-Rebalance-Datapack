@@ -188,7 +188,13 @@
             {"name":"block/enchantment_table/enchant2"},
             {"name":"block/enchantment_table/enchant3"}
         ],
-        "subtitle": "subtitles.block.eyeblossom.glowing"
+        "subtitle": "subtitles.block.torchflower.glowing"
+    },
+    "block.pitcher_plant.night_vision":{
+        "sounds":[ 
+            {"name":"event:item/carrot/consume"}
+        ],
+        "subtitle": "subtitles.block.pitcher_plant.night_vision"
     },
     "entity.creaking.darkness":{
         "sounds": [ 

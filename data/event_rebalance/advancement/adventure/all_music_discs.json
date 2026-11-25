@@ -13,6 +13,19 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "flurry": {
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_13",
+            "components": {
+                "jukebox_playable": "flurry"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "cat": {
       "conditions": {
         "items": [
@@ -359,6 +372,9 @@
     ],
     [
       "cat"
+    ],
+    [
+      "flurry"
     ],
     [
       "blocks"

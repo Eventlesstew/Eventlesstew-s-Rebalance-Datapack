@@ -13,6 +13,18 @@
       },
       "trigger": "minecraft:player_killed_entity"
     },
+    "minecraft:frostbite": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:frostbite"
+          }
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    },
     "minecraft:bogged": {
       "conditions": {
         "entity": {
@@ -554,6 +566,9 @@
     ],
     [
       "minecraft:endermite"
+    ],
+    [
+      "minecraft:frostbite"
     ],
     [
       "minecraft:evoker"

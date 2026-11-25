@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "eyeblossom": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "any_of",
+          "terms": [
+            {
+              "type": "location_check",
+              "predicate": {
+                "block": {
+                  "blocks": [
+                    "pitcher_plant"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "eyeblossom"
+    ]
+  ],
+  "rewards": {
+    "function": "event_rebalance:blocks/pitcher_plant"
+  },
+  "sends_telemetry_event": true
+}

@@ -1201,7 +1201,8 @@
     "subtitles.item.hammer.swing": "Hammer Swings",
     "subtitles.item.magnet.pull": "Magnet Pulls",
     
-    "subtitles.block.torchflower.glowing":"Torchflower Glows",
+    "subtitles.block.torchflower.glowing":"Torchflower applies Glowing",
+    "subtitles.block.pitcher_plant.glowing":"Pitcher Plant applies Night Vision",
     "subtitles.block.eyeblossom.darkness":"Eyeblossom inflicted Darkness",
     
     "subtitles.entity.creaking.darkness":"Creaking inflicted Darkness",
