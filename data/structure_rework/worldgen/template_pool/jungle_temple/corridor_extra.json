@@ -1,10 +1,28 @@
 {
     "elements": [
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/1x2x1_2a1",
+                "location": "structure_rework:jungle_temple/2x2x1/tripwire_trap_top_falling_dripstone",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/2x2x1/tripwire_trap_top_gravel",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 19,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/1x1x1/roof_blank",
                 "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid"
             }
@@ -13,74 +31,11 @@
             "weight": 1,
             "element": {
                 "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/1x2x1_2a2",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/1x2x1_2a3",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/1x2x1_2a4",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/1x2x1_2b",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/1x2x1_2c1",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/1x2x1_2c2",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/2x2x1_4a1",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/2x2x1_4a2",
+                "location": "structure_rework:jungle_temple/1x1x1/roof_treasure",
                 "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid"
             }
         }
     ],
-    "fallback": "structure_rework:jungle_temple/corridor_extra"
+    "fallback": "structure_rework:jungle_temple/corridor_end"
 }

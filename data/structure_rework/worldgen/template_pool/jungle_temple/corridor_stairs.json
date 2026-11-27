@@ -4,7 +4,7 @@
             "weight": 1,
             "element": {
                 "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/1x2x1_1",
+                "location": "structure_rework:jungle_temple/1x1x1/drop",
                 "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid"
             }
@@ -13,7 +13,7 @@
             "weight": 1,
             "element": {
                 "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/1x2x1_2",
+                "location": "structure_rework:jungle_temple/1x1x1/drop_trapped_chest",
                 "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid"
             }
@@ -22,7 +22,7 @@
             "weight": 1,
             "element": {
                 "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/1x2x1_3",
+                "location": "structure_rework:jungle_temple/1x1x1/drop_tripwire",
                 "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid"
             }
@@ -31,7 +31,16 @@
             "weight": 1,
             "element": {
                 "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/1x2x1_4",
+                "location": "structure_rework:jungle_temple/1x1x1/drop_trapped_chest",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/1x2x1/stairs",
                 "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid"
             }

@@ -1,10 +1,227 @@
 {
     "elements": [
         {
+            "weight": 8,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/1x1x1/straight",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 8,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/1x1x1/turn_right",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 8,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/1x1x1/turn_both",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 8,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/1x1x1/turn_cross",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/1x1x1/drop_tripwire_straight",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/2x1x1/lever_puzzle",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/2x1x1/lever_puzzle_drop",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/3x1x3/schematic_1",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/3x1x3/schematic_2",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/2x2x1/dripleaf_maze_1",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/2x2x1/dripleaf_maze_2",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/2x2x1/dripleaf_parkour_1",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/2x2x1/dripleaf_parkour_2",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/2x2x1/dripleaf_parkour_3",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/2x2x1/dripleaf_parkour_dripstones_1",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/2x2x1/dripleaf_parkour_dripstones_2",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/2x2x1/dripleaf_parkour_dripstones_3",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/2x2x2/dripleaf_parkour_1",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/2x2x1/parkour_1",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/2x2x1/zipline_1",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/2x2x1/zipline_2",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/2x2x1/tripwire_trap_bottom",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/2x2x1/drop_tripwire",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/5x3x1/zombie_puzzle",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
             "weight": 2,
             "element": {
                 "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/1x1x1_1",
+                "location": "structure_rework:jungle_temple/1x1x1/turn_left_trap",
                 "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid"
             }
@@ -13,43 +230,16 @@
             "weight": 2,
             "element": {
                 "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/1x1x1_2",
+                "location": "structure_rework:jungle_temple/1x1x1/turn_right_trap",
                 "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid"
             }
         },
         {
-            "weight": 2,
+            "weight": 4,
             "element": {
                 "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/1x1x1_3",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 2,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/1x1x1_4",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 2,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/1x1x1_5",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 2,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/1x1x1_6",
+                "location": "structure_rework:jungle_temple/1x1x1/straight_dispenser_trap",
                 "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid"
             }
@@ -58,7 +248,7 @@
             "weight": 1,
             "element": {
                 "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/2x1x1_1",
+                "location": "structure_rework:jungle_temple/1x1x1/drop",
                 "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid"
             }
@@ -67,7 +257,7 @@
             "weight": 1,
             "element": {
                 "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/2x1x1_2",
+                "location": "structure_rework:jungle_temple/1x1x1/drop_trapped_chest",
                 "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid"
             }
@@ -76,7 +266,7 @@
             "weight": 1,
             "element": {
                 "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/1x2x1_1",
+                "location": "structure_rework:jungle_temple/1x1x1/drop_tripwire",
                 "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid"
             }
@@ -85,7 +275,7 @@
             "weight": 1,
             "element": {
                 "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/1x2x1_2",
+                "location": "structure_rework:jungle_temple/1x1x1/drop_trapped_chest",
                 "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid"
             }
@@ -94,79 +284,7 @@
             "weight": 1,
             "element": {
                 "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/1x2x1_3",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/1x2x1_2a1",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/2x2x1_1",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/2x2x1_2",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/2x2x1_3",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/2x2x1_4",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/3x1x3_1",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/3x1x3_2",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/5x3x1_1",
+                "location": "structure_rework:jungle_temple/1x2x1/stairs",
                 "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid"
             }

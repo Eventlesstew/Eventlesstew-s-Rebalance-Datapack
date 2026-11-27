@@ -1,10 +1,19 @@
 {
     "elements": [
         {
-            "weight": 64,
+            "weight": 1,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/decor/empty",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 4,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/decor/pot",
                 "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid"
             }
@@ -19,7 +28,7 @@
             }
         },
         {
-            "weight": 3,
+            "weight": 4,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/decor/candle_lit_1",
@@ -37,7 +46,7 @@
             }
         },
         {
-            "weight": 3,
+            "weight": 4,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/decor/candle_lit_2",
@@ -55,7 +64,7 @@
             }
         },
         {
-            "weight": 3,
+            "weight": 4,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/decor/candle_lit_3",
@@ -73,230 +82,14 @@
             }
         },
         {
-            "weight": 3,
+            "weight": 4,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/decor/candle_lit_4",
                 "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid"
             }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/decor/candle_brown_1",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 3,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/decor/candle_brown_lit_1",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/decor/candle_brown_2",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 3,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/decor/candle_brown_lit_2",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/decor/candle_brown_3",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 3,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/decor/candle_brown_lit_3",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/decor/candle_brown_4",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 3,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/decor/candle_brown_lit_4",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/decor/candle_green_1",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 3,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/decor/candle_green_lit_1",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/decor/candle_green_2",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 3,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/decor/candle_green_lit_2",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/decor/candle_green_3",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 3,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/decor/candle_green_lit_3",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/decor/candle_green_4",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 3,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/decor/candle_green_lit_4",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/decor/candle_light_gray_1",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 3,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/decor/candle_light_gray_lit_1",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/decor/candle_light_gray_2",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 3,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/decor/candle_light_gray_lit_2",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/decor/candle_light_gray_3",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 3,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/decor/candle_light_gray_lit_3",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/decor/candle_light_gray_4",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
-        },
-        {
-            "weight": 3,
-            "element": {
-                "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/decor/candle_light_gray_lit_4",
-                "processors": "structure_rework:jungle_temple/age",
-                "projection": "rigid"
-            }
         }
     ],
-    "fallback": "structure_rework:jungle_temple/start"
+    "fallback": "structure_rework:jungle_temple/decor"
 }
