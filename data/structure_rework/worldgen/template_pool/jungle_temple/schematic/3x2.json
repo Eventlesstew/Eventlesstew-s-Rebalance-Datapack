@@ -4,7 +4,34 @@
             "weight": 1,
             "element": {
                 "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/schematic/pieces/3x2_1",
+                "location": "structure_rework:jungle_temple/schematic/pieces/3x2/chest",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/schematic/pieces/3x2/chest_decor",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/schematic/pieces/3x2/trapped_chest",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/schematic/pieces/3x2/chest_pillars",
                 "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid"
             }

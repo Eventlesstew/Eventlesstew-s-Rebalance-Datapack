@@ -8,6 +8,33 @@
                 "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid"
             }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/1x1x1/chest",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/1x1x1/dispenser_trapped_chest",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/1x1x1/dispenser_tripwire_chest",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
         }
     ],
     "fallback": "structure_rework:jungle_temple/corridor_end"

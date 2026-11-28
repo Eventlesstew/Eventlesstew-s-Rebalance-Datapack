@@ -1,0 +1,50 @@
+{
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/schematic/pieces/8x8/button_puzzle_1",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/schematic/pieces/8x8/button_puzzle_2",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/schematic/pieces/8x8/button_puzzle_3",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/schematic/pieces/8x8/button_puzzle_4",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/schematic/pieces/8x8/secret_lever",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        }
+    ],
+    "fallback": "structure_rework:jungle_temple/schematic/8x8/stairs"
+}

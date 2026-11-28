@@ -86,6 +86,15 @@
             "weight": 1,
             "element": {
                 "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/3x2x3/schematic_1",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/2x2x1/dripleaf_maze_1",
                 "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid"
@@ -200,7 +209,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/2x2x1/drop_tripwire",
@@ -245,7 +254,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 3,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/1x1x1/drop",
@@ -263,7 +272,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/1x1x1/drop_tripwire",
@@ -285,6 +294,78 @@
             "element": {
                 "element_type": "single_pool_element",
                 "location": "structure_rework:jungle_temple/1x2x1/stairs",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/2x1x1/turn_left_trap",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/2x1x1/turn_right_trap",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/2x1x2/tripwire_180_turn",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/2x2x2/dripleaf_parkour_2",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/2x1x2/secret_treasure_1",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/2x1x2/secret_treasure_2",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/2x1x2/secret_treasure_3",
+                "processors": "structure_rework:jungle_temple/age",
+                "projection": "rigid"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "single_pool_element",
+                "location": "structure_rework:jungle_temple/2x1x2/secret_treasure_4",
                 "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid"
             }

@@ -4,11 +4,11 @@
             "weight": 1,
             "element": {
                 "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/schematic/pieces/8x8_straight_right_1",
+                "location": "structure_rework:jungle_temple/schematic/pieces/8x8/golden_statue_puzzle",
                 "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid"
             }
         }
     ],
-    "fallback": "structure_rework:jungle_temple/schematic/3x3/turn_both"
+    "fallback": "structure_rework:jungle_temple/schematic/8x8/straight"
 }

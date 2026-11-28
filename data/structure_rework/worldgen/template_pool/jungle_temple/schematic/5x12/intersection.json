@@ -4,11 +4,11 @@
             "weight": 1,
             "element": {
                 "element_type": "single_pool_element",
-                "location": "structure_rework:jungle_temple/schematic/pieces/8x6/puzzle",
+                "location": "structure_rework:jungle_temple/schematic/pieces/5x12/intersection_pot_pillars",
                 "processors": "structure_rework:jungle_temple/age",
                 "projection": "rigid"
             }
         }
     ],
-    "fallback": "structure_rework:jungle_temple/schematic/8x6/left_bend"
+    "fallback": "structure_rework:jungle_temple/schematic/5x12/intersection"
 }
